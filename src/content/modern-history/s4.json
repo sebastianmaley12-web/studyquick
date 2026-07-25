@@ -1,0 +1,1183 @@
+{
+  "id": "s4",
+  "meta": {
+    "title": "Section IV — Change in the Modern World",
+    "range": "Apartheid in South Africa, 1960–1994 · Short answer & extended response, 25 marks, ~45 min",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "The ideology and legislative machinery of the apartheid state, Sharpeville and its aftermath, the Black Consciousness Movement, the Soweto Uprising, and internal resistance movements (trade unions, UDF, student and civic organisations, women's resistance)."
+      },
+      {
+        "kind": "out",
+        "label": "Excluded",
+        "bodyHtml": "<ul><li>Mandela as Head of the ANC</li><li>Tactics of repression / SA security forces</li><li>Bantustans &amp; independent black states</li><li>Relations with neighbouring African countries</li><li>International responses to apartheid</li><li>The end of apartheid &amp; transition to democracy</li></ul>"
+      }
+    ]
+  },
+  "summary": {
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them. Dot points marked with a red ✕ are on the syllabus but explicitly excluded from Task 4 by your assessment notification — including the entire \"Repression and control\" and \"End of apartheid\" groups. They're included here only so this is a complete syllabus reference; you do not need to prepare them for this trial.",
+    "groups": [
+      {
+        "title": "Survey — The Nature of the Apartheid System",
+        "points": [
+          "<b>Political, economic, social and demographic issues in South Africa in 1960:</b> the Population Registration Act (1950) required racial classification; growing internal dissent met increasing white anxiety and calls for tougher laws; rapid African decolonisation post-WWII left white-minority rule internationally isolated.",
+          "<b>Apartheid: ideology, policy and practice:</b> built on the pseudo-scientific claim that races needed separation for \"mutual benefit\"; enforced through legislation including the Group Areas Act (1950), Pass Laws Act (1952), Bantu Education Act (1953) and Reservation of Separate Amenities Act (1953).",
+          "<b>Impact of apartheid on rural and urban communities:</b> forced removals (e.g. an estimated 60,000 residents removed from Sophiatown to Soweto from 1955), township overcrowding, and severely under-resourced services for Black South Africans compared with whites."
+        ]
+      },
+      {
+        "title": "National Resistance to Apartheid",
+        "points": [
+          "<b>The nature, growth and impact of the ANC and the PAC:</b> ANC founded 1912, adopted the Programme of Action (1949) and Freedom Charter (1955); PAC split from the ANC in 1959 under Robert Sobukwe, favouring a more explicitly Africanist platform.",
+          "<b>Significance of the Sharpeville Massacre:</b> on 21 March 1960, police killed at least 69 and wounded around 186 protesters at a PAC-organised anti-pass demonstration, leading to a State of Emergency and the banning of the ANC and PAC.",
+          "<b>Mandela as head of Umkhonto we Sizwe (\"The Spear of the Nation\", MK):</b> after the 1960 bannings, Mandela helped establish the ANC's armed wing in 1961, coordinating sabotage attacks on infrastructure before his arrest in 1962.",
+          "<b>Rivonia Trial, imprisonment on Robben Island, the Free Mandela campaign:</b> senior MK leaders were arrested in 1963; Mandela was sentenced to life imprisonment in 1964 and held on Robben Island, becoming an international symbol of resistance.",
+          "Role of Mandela's leadership of the ANC.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "<b>Significance of Steve Biko and the Black Consciousness Movement:</b> SASO founded by Biko and others (1968–69), the Black People's Convention formed 1972; Biko died in police detention on 12 September 1977."
+        ]
+      },
+      {
+        "title": "Resistance to Apartheid — The Soweto Uprising & Internal Resistance, 1970s–1980s",
+        "points": [
+          "<b>The Soweto Uprising, 16 June 1976:</b> triggered by a 1974 decree mandating Afrikaans as a medium of instruction, layered on decades of Bantu Education underfunding; deaths in the unrest that followed range from an official figure of around 176 to independent estimates of over 600.",
+          "<b>Trade unions:</b> the Durban strikes of 1973 (around 100,000 workers) demonstrated organised economic leverage; the Congress of South African Trade Unions (COSATU) formed in 1985 with roughly 500,000 initial members.",
+          "<b>The United Democratic Front (UDF):</b> launched 1983 to oppose the tricameral constitution, uniting an estimated 400-plus civic, student, church and union organisations into a coordinated national movement before being effectively banned in 1988.",
+          "<b>Women's resistance:</b> the Federation of South African Women (founded 1954) organised the 20,000-strong march on the Union Buildings on 9 August 1956; women's community networks sustained township-based campaigns through the 1970s–80s.",
+          "<b>Student and civic organisations:</b> school boycotts and bodies such as the Congress of South African Students (COSAS, founded 1979) kept education-related grievances active, with many organisations affiliating with the UDF from 1983."
+        ]
+      },
+      {
+        "title": "Repression and Control by South African Governments",
+        "points": [
+          "The nature, impact and significance of tactics of repression and oppression.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "Role of South African security forces.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "Role and significance of Bantustans and independent black states.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "Relations with neighbouring African countries.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "International responses to South African policies.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+        ]
+      },
+      {
+        "title": "End of Apartheid",
+        "points": [
+          "Political, economic and social factors contributing to the end of apartheid.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "International factors contributing to the end of apartheid.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [
+      {
+        "bank": "Stimulus",
+        "tag": "Source C — Adapted eyewitness recollection, Soweto, June 1976 (composite, for practice use)",
+        "bodyHtml": "\"We were walking from Orlando West to join the other schools, carrying our placards about Afrikaans in the classroom. None of us expected police vehicles to be waiting at the intersection. When the first shots rang out, students scattered, but by the afternoon the crowds had reformed — angrier, and no longer just about the language issue.\""
+      }
+    ],
+    "groups": [
+      {
+        "bank": "Stimulus",
+        "number": "00",
+        "title": "Origins & Ideology of the Apartheid State",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Explain the ideology behind apartheid and how the National Party used it to win and consolidate power after 1948.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>1948 election:</b> D.F. Malan's National Party won on an explicit platform of \"apartheid\" (Afrikaans for \"apartness\"), narrowly defeating Smuts' United Party.</li>\n              <li><b>Core ideology:</b> a hierarchy of races with whites at the top, justified through claims of \"separate development\" — that each race should develop within its own areas, institutions and culture rather than compete within one society.</li>\n              <li><b>From theory to law:</b> apartheid marked a deliberate escalation from the informal segregation of 1910–1948 to a comprehensive legal system enforced through dedicated legislation and a purpose-built bureaucracy.</li>\n              <li><b>\"Grand apartheid\":</b> under Prime Minister Hendrik Verwoerd from 1958, the ideology extended to the idea of separate \"homelands\" as the supposed political fulfilment of separate development.</li>\n            </ol>\n          </div>\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Historian's view — verified quote</span>\n          <div class=\"quote-block\">Political scientist Gwendolen Carter, who studied the implementation of apartheid in South Africa in the early 1950s, argued the National Party government was intent on using legislative action \"to make the African the different kind of person that theory [apartheid] says he is.\"<cite>Gwendolen Carter, <i>The Politics of Inequality</i> (1958), pp. 15, 411–12, cited in Clark &amp; Worger, <i>South Africa: The Rise and Fall of Apartheid</i> (2011)</cite></div>\n          <div class=\"plan-thesis\" style=\"margin-top:6px;\">Useful for arguing apartheid was not just inherited prejudice but an actively engineered, forward-looking legal project — theory driving policy, not simply describing existing practice.</div></div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "01",
+        "title": "Source-Based & the Machinery of the Apartheid State",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Source C",
+            "badge": "3 marks · ~5 min",
+            "questionHtml": "According to Source C, how did the mood of the protest change over the course of 16 June 1976?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>Begins as an organised, focused protest specifically about the use of Afrikaans in schools.</li>\n            <li>Shifts after police shootings — anger broadens beyond the original language grievance.</li>\n            <li>Quote or paraphrase the detail that crowds \"reformed\" rather than dispersing, showing resolve rather than intimidation.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Explain the key features of apartheid legislation (e.g. the Population Registration Act and the Group Areas Act) and their impact on daily life for Black South Africans.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Population Registration Act (<span class=\"stat\">1950</span>):</b> classified every citizen into a racial category (White, Coloured, Indian, African/Bantu), forming the legal basis for all other apartheid laws.</li>\n              <li><b>Group Areas Act (<span class=\"stat\">1950</span>):</b> designated separate residential and business areas by race, enabling forced removals from mixed or \"white\" areas — e.g. an estimated <span class=\"stat\">60,000 residents</span> were removed from Sophiatown to Soweto from 1955.</li>\n              <li><b>Pass laws:</b> the 1952 Natives (Abolition of Passes and Co-ordination of Documents) Act required every Black South African over 16 to carry a \"reference book\" (<i>dompas</i>) at all times, controlling movement into urban/\"white\" areas.</li>\n              <li><b>Cumulative impact:</b> entrenched economic disadvantage, broke up families and communities, and formalised segregation in nearly every part of daily life.</li>\n            </ol>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Explain the purpose and impact of the Bantu Education Act (1953) on Black South African communities.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Purpose: deliberately limited curriculum and funding, with Verwoerd (then Minister for Native Affairs) stating Africans should be educated for a subordinate role in the economy rather than academic advancement.</li>\n            <li>Impact: government spending per Black pupil remained a small fraction of spending per white pupil throughout the 1950s–60s, producing chronic overcrowding and under-resourced classrooms.</li>\n            <li>Link forward: this resentment — compounded by a <span class=\"stat\">1974</span> decree requiring certain subjects to be taught via Afrikaans — is the direct background to the 1976 Soweto Uprising.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "02",
+        "title": "Sharpeville & Its Aftermath",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Explain the causes and immediate consequences of the Sharpeville massacre of 21 March 1960.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Cause:</b> a PAC-organised protest against pass laws, in which crowds gathered at the Sharpeville police station on <span class=\"stat\">21 March 1960</span> offering themselves for arrest without their passes.</li>\n              <li><b>The event:</b> police opened fire on the crowd, killing at least <span class=\"stat\">69 people</span> and wounding around <span class=\"stat\">186</span> — many shot in the back as they fled.</li>\n              <li><b>Consequence — domestic:</b> the government declared a State of Emergency and banned both the ANC and PAC shortly afterward under the Unlawful Organizations Act (<span class=\"stat\">April 1960</span>).</li>\n              <li><b>Consequence — strategic:</b> pushed resistance movements toward the view that non-violent protest alone was insufficient — both organisations formed armed wings (the ANC's Umkhonto we Sizwe and the PAC's Poqo) by <span class=\"stat\">1961</span>.</li>\n            </ol>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Explain the impact of the banning of the ANC and PAC in 1960 on the strategies used by anti-apartheid movements over the following decade.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Immediate effect:</b> organisations forced underground or into exile; senior leaders including Nelson Mandela were sentenced to life imprisonment at the Rivonia Trial (<span class=\"stat\">1963–64</span>), disrupting internal leadership networks.</li>\n              <li><b>Strategic shift:</b> a move by some toward more radical, clandestine resistance rather than open mass organising, given the risk of banning and arrest.</li>\n              <li><b>Vacuum:</b> the resulting gap in visible internal leadership through the 1960s created space for a new kind of movement to emerge later in the decade.</li>\n              <li><b>Link forward:</b> this vacuum helps explain why the Black Consciousness Movement, built by a new generation of students from <span class=\"stat\">1968–69</span>, was able to develop a distinct, independent voice by the early 1970s.</li>\n            </ol>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "03",
+        "title": "The Black Consciousness Movement",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Extended response",
+            "badge": "12 marks · ~20 min",
+            "questionHtml": "Assess the significance of the Black Consciousness Movement, including the role of Steve Biko, in shaping resistance to apartheid during the 1970s.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">The Black Consciousness Movement's most significant contribution was not any immediate policy concession it won from the apartheid state, but the psychological and organisational reshaping of resistance it achieved — a shift that directly prepared the generation of students who drove the Soweto Uprising the following decade.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — core ideas</span>\n            <p class=\"para-text\">Black Consciousness deliberately rejected the white-led, liberal opposition model that had previously dominated anti-apartheid politics, arguing instead for Black pride and self-reliance as the necessary starting point for resistance. It treated Africans, Coloureds and Indians as a single shared \"Black\" political identity, consciously uniting groups apartheid legislation had gone to great administrative lengths to keep legally and socially separate — a direct ideological challenge to the racial categorisation the Population Registration Act had imposed since 1950. Central to this was the movement's emphasis on psychological liberation from apartheid's dehumanising ideology as a precondition for effective political action, on the reasoning that a population conditioned to see itself as inferior could not organise effective resistance until that internal conditioning was broken.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — organisational significance</span>\n            <p class=\"para-text\">This ideology translated into a genuinely independent institutional base rather than remaining abstract rhetoric. The South African Students' Organisation, founded by Biko and others in <span class=\"stat\">1968–69</span>, broke deliberately from the multiracial National Union of South African Students, on the grounds that a movement led even partly by white liberals could not fully embody Black self-reliance. The Black People's Convention, formed in <span class=\"stat\">1972</span>, extended this organisational model beyond university campuses into a wider community structure — evidence that Black Consciousness was building durable institutions, not simply articulating a philosophy confined to student politics.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — the link to 1976 and its aftermath</span>\n            <p class=\"para-text\">The movement's ideas fed directly into the generation that organised the Soweto protests, and its subsequent suppression only reinforced its significance. SASO was banned in <span class=\"stat\">1977</span>, and Biko himself died in police detention on <span class=\"stat\">12 September 1977</span> after being arrested under the Terrorism Act — his death, rather than silencing the movement's ideas, drew substantial international attention to them and to the apartheid state's methods of repression more broadly.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">Black Consciousness's significance lies less in any immediate legislative change than in how thoroughly it reshaped a generation's understanding of resistance and identity — a legacy that outlasted Biko's death and fed directly into the mass, youth-led movements that followed through the late 1970s and 1980s.</p>\n          </div>\n        </div>\n        <div class=\"plan-row\"><span class=\"plan-lbl\">Primary source — verified quote</span>\n        <div class=\"quote-block\">\"The most potent weapon in the hands of the oppressor is the mind of the oppressed.\"<cite>Steve Biko, \"White Racism and Black Consciousness\" (1971), in <i>I Write What I Like</i> (1978)</cite></div>\n        <div class=\"plan-thesis\" style=\"margin-top:6px;\">Biko's own words are the clearest possible evidence of what Black Consciousness was actually arguing — that liberation had to begin with a psychological break from apartheid's assumptions before it could become a political movement.</div></div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "04",
+        "title": "The Soweto Uprising, 1976",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Assess",
+            "badge": "10–15 marks · ~20 min",
+            "questionHtml": "Assess the significance of the Soweto Uprising of 1976 as a turning point in the resistance to apartheid.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">Soweto marked a genuine turning point in the resistance to apartheid because it shifted the locus of opposition from adult-led, formal organisations to a mass, youth-driven movement whose momentum proved national in scale and lasting in effect.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — the immediate trigger</span>\n            <p class=\"para-text\">The immediate spark was administrative but landed on ground already primed for revolt: a <span class=\"stat\">1974</span> decree requiring Afrikaans as the medium of instruction for certain subjects was layered on top of decades of chronic Bantu Education underfunding, meaning the language decree functioned less as an isolated grievance than as the final, unbearable addition to a much longer accumulation of educational disadvantage.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — the scale of the event</span>\n            <p class=\"para-text\">What followed escalated far beyond what the language issue alone would suggest. A student march on <span class=\"stat\">16 June 1976</span> was met with police gunfire, and the resulting unrest spread rapidly from Soweto to townships across the country over the following months rather than remaining a localised, contained incident. Estimates of deaths in the unrest that followed range from an official government figure of around <span class=\"stat\">176</span> up to independent estimates of over <span class=\"stat\">600</span> — a gap between official and independent counts that itself indicates the scale of state violence involved and the state's incentive to understate it.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — short- and longer-term significance</span>\n            <p class=\"para-text\">The uprising's consequences extended well beyond 1976 itself. Thousands of young people fled into exile, many joining the ANC's armed wing, Umkhonto we Sizwe, directly linking the uprising to the growth of armed resistance abroad. Domestically, the uprising re-energised both internal and international attention on apartheid and produced a new generation of politicised activists who went on to shape resistance through the 1980s, including many who later became organisers within the UDF.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">Soweto did not end apartheid, but it permanently changed who led the resistance to it: from 1976 onward, young people and mass mobilisation, rather than formal political organisations alone, drove the movement forward — a structural shift in leadership, not merely a single dramatic episode.</p>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "05",
+        "title": "Internal Resistance, 1970s–1980s",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Explain the role of trade unions in internal resistance to apartheid during the 1970s and 1980s.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Background:</b> the Durban strikes of <span class=\"stat\">1973</span>, involving an estimated <span class=\"stat\">100,000</span> Black workers, demonstrated organised economic leverage even while political parties remained banned.</li>\n              <li><b>Growth:</b> formation of independent Black trade unions through the 1970s, culminating in the Congress of South African Trade Unions (COSATU), formed <span class=\"stat\">1985</span> with an initial membership of around <span class=\"stat\">500,000</span> workers.</li>\n              <li><b>Significance:</b> linked economic grievances to the wider political struggle, and gave ordinary workers — not just students or intellectuals — an organised, legally harder-to-ban role in resistance.</li>\n            </ol>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Assess",
+            "badge": "10–15 marks · ~20 min",
+            "questionHtml": "To what extent did the formation of the United Democratic Front (UDF) in 1983 change the nature of internal resistance to apartheid?",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">The formation of the United Democratic Front marked a decisive structural shift in internal resistance to apartheid, from fragmented, localised action to a genuinely national, mass-based opposition movement — a change in the nature of resistance, not merely its scale.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — the circumstances of formation</span>\n            <p class=\"para-text\">The UDF was launched in <span class=\"stat\">1983</span> specifically to oppose the government's new tricameral constitution, which offered limited parliamentary representation to Coloured and Indian communities while excluding Africans entirely — a reform transparently designed to divide opposition along racial lines rather than address the underlying demand for full political rights. In direct response, the UDF united an estimated <span class=\"stat\">400-plus</span> civic, student, church and union organisations into a single coordinated umbrella body, a scale of coalition-building without precedent in the internal resistance movement since the ANC and PAC were banned in 1960.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — the new scale of coordinated action</span>\n            <p class=\"para-text\">This coalition structure translated directly into a new operational capacity. The UDF enabled genuinely nationwide, coordinated campaigns — rent and consumer boycotts, township-based civic action, stayaways — at a scale that had simply not been organisationally possible while resistance remained fragmented across hundreds of separate local bodies, and it achieved this despite the ANC and PAC themselves remaining banned throughout the period.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — the breadth of its social base</span>\n            <p class=\"para-text\">The UDF also drew in a far wider cross-section of society than earlier resistance movements had managed, incorporating students, workers, clergy and women's organisations under one loosely federated, explicitly multiracial structure. This breadth sustained the movement for five years until it was effectively banned from operating, alongside COSATU, in <span class=\"stat\">1988</span> — evidence that the state itself judged the UDF's coalition model to be a serious enough threat to warrant the same repressive measures previously reserved for the ANC and PAC.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">The UDF's scale and coordination gave internal resistance a genuinely national character for the first time since the ANC and PAC were banned in 1960 — a structural transformation in how resistance was organised, confirmed by the fact that the apartheid state ultimately treated it as seriously enough of a threat to ban.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Explain the role of women in resistance to apartheid.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>The Federation of South African Women, founded <span class=\"stat\">1954</span>, organised the march of an estimated <span class=\"stat\">20,000 women</span> on the Union Buildings in Pretoria on <span class=\"stat\">9 August 1956</span> to protest pass laws.</li>\n            <li>Central role in sustaining township-based campaigns from the 1970s–80s — rent boycotts, consumer boycotts, and local civic organisation — which depended heavily on women's community networks.</li>\n            <li>Often bore the practical burden of resistance while men were detained, in exile, or working migrant labour, making women's organising essential to the movement's continuity throughout the UDF era.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Explain the role of student and civic organisations in sustaining resistance to apartheid during the 1980s.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Student organisation:</b> school boycotts and student representative structures kept education-related grievances active a decade on from Soweto, feeding into bodies such as the Congress of South African Students (COSAS, founded 1979).</li>\n              <li><b>Civic organisations:</b> township-based civic associations organised around local issues — rent, services, transport — turning everyday grievances into sustained collective action.</li>\n              <li><b>Coordination:</b> many of these bodies affiliated with the UDF from <span class=\"stat\">1983</span>, giving local activism a national political dimension and enabling coordinated national campaigns rather than isolated local protests.</li>\n            </ol>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Extra Practice Bank",
+        "number": null,
+        "title": null,
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5–6 marks",
+            "questionHtml": "Explain why the Pan-Africanist Congress (PAC) broke away from the ANC in 1959, and how this shaped the organisation of the anti-pass campaign that led to Sharpeville.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Robert Sobukwe led a breakaway from the ANC in <span class=\"stat\">1959</span>, rejecting the multiracial approach of the 1955 Freedom Charter in favour of a more explicitly Africanist, Africa-for-Africans platform.</li>\n            <li>To assert leadership through direct action, the PAC organised its own anti-pass campaign for <span class=\"stat\">21 March 1960</span> — deliberately ahead of a planned ANC campaign — leading directly to the gathering at Sharpeville.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the extent to which internal resistance to apartheid between 1960 and 1976 was shaped more by underground organisation than by mass public protest.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>After the 1960 bannings, the ANC and PAC operated mainly underground and in exile — Umkhonto we Sizwe's sabotage campaign (from <span class=\"stat\">1961</span>) and the Rivonia Trial (<span class=\"stat\">1963–64</span>) reflect this clandestine phase.</li>\n            <li>By contrast, the Black Consciousness Movement from <span class=\"stat\">1968–69</span> rebuilt a form of open, public organisation (SASO, BPC) that operated legally until banned in 1977.</li>\n            <li>Judgement: the period splits roughly in two — underground/exile organisation dominated the early-to-mid 1960s, while open (if closely watched) public organisation returned with Black Consciousness from the end of the decade, feeding into the mass protest of 1976.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    {
+      "n": 1,
+      "questionHtml": "What year did the National Party win power on an apartheid platform?",
+      "answerHtml": "1948"
+    },
+    {
+      "n": 2,
+      "questionHtml": "Who led the National Party to victory in 1948?",
+      "answerHtml": "D.F. Malan"
+    },
+    {
+      "n": 3,
+      "questionHtml": "What does \"apartheid\" translate to in Afrikaans?",
+      "answerHtml": "\"Apartness\""
+    },
+    {
+      "n": 4,
+      "questionHtml": "What 1950 act required racial classification of all South Africans?",
+      "answerHtml": "The Population Registration Act"
+    },
+    {
+      "n": 5,
+      "questionHtml": "What 1950 act created separate residential/business areas by race?",
+      "answerHtml": "The Group Areas Act"
+    },
+    {
+      "n": 6,
+      "questionHtml": "What was the pass document Black South Africans had to carry called?",
+      "answerHtml": "The \"reference book\" (dompas)"
+    },
+    {
+      "n": 7,
+      "questionHtml": "What 1953 act controlled Black education?",
+      "answerHtml": "The Bantu Education Act"
+    },
+    {
+      "n": 8,
+      "questionHtml": "Who was Prime Minister behind \"grand apartheid\" homelands policy from 1958?",
+      "answerHtml": "Hendrik Verwoerd"
+    },
+    {
+      "n": 9,
+      "questionHtml": "On what date was the Sharpeville Massacre?",
+      "answerHtml": "21 March 1960"
+    },
+    {
+      "n": 10,
+      "questionHtml": "Roughly how many people were killed at Sharpeville?",
+      "answerHtml": "At least 69"
+    },
+    {
+      "n": 11,
+      "questionHtml": "What organisation planned the anti-pass protest that led to Sharpeville?",
+      "answerHtml": "The PAC"
+    },
+    {
+      "n": 12,
+      "questionHtml": "Who led the PAC breakaway from the ANC in 1959?",
+      "answerHtml": "Robert Sobukwe"
+    },
+    {
+      "n": 13,
+      "questionHtml": "What year did South Africa leave the Commonwealth and become a republic?",
+      "answerHtml": "1961"
+    },
+    {
+      "n": 14,
+      "questionHtml": "What was the ANC's armed wing called?",
+      "answerHtml": "Umkhonto we Sizwe (MK)"
+    },
+    {
+      "n": 15,
+      "questionHtml": "What does \"Umkhonto we Sizwe\" mean?",
+      "answerHtml": "\"Spear of the Nation\""
+    },
+    {
+      "n": 16,
+      "questionHtml": "What was the PAC's armed wing called?",
+      "answerHtml": "Poqo"
+    },
+    {
+      "n": 17,
+      "questionHtml": "Where were MK leaders arrested in 1963, leading to the Rivonia Trial?",
+      "answerHtml": "Liliesleaf Farm, Rivonia"
+    },
+    {
+      "n": 18,
+      "questionHtml": "What sentence did Mandela receive at the Rivonia Trial?",
+      "answerHtml": "Life imprisonment"
+    },
+    {
+      "n": 19,
+      "questionHtml": "Where was Mandela imprisoned?",
+      "answerHtml": "Robben Island"
+    },
+    {
+      "n": 20,
+      "questionHtml": "Who founded the South African Students' Organisation (SASO) in 1968–69?",
+      "answerHtml": "Steve Biko"
+    },
+    {
+      "n": 21,
+      "questionHtml": "What ideology did Biko champion?",
+      "answerHtml": "Black Consciousness"
+    },
+    {
+      "n": 22,
+      "questionHtml": "What organisation did Biko help form in 1972?",
+      "answerHtml": "The Black People's Convention (BPC)"
+    },
+    {
+      "n": 23,
+      "questionHtml": "On what date did Steve Biko die in police detention?",
+      "answerHtml": "12 September 1977"
+    },
+    {
+      "n": 24,
+      "questionHtml": "What 1974 decree required Afrikaans as a medium of instruction?",
+      "answerHtml": "The Afrikaans medium decree"
+    },
+    {
+      "n": 25,
+      "questionHtml": "On what date did the Soweto Uprising begin?",
+      "answerHtml": "16 June 1976"
+    },
+    {
+      "n": 26,
+      "questionHtml": "Roughly how many died in the Soweto unrest (official figure)?",
+      "answerHtml": "Around 176"
+    },
+    {
+      "n": 27,
+      "questionHtml": "Roughly how many workers took part in the 1973 Durban strikes?",
+      "answerHtml": "Around 100,000"
+    },
+    {
+      "n": 28,
+      "questionHtml": "What union federation was formed in 1985, uniting Black trade unions?",
+      "answerHtml": "COSATU"
+    },
+    {
+      "n": 29,
+      "questionHtml": "What year was the United Democratic Front (UDF) launched?",
+      "answerHtml": "1983"
+    },
+    {
+      "n": 30,
+      "questionHtml": "What government reform did the UDF form to oppose?",
+      "answerHtml": "The tricameral constitution"
+    },
+    {
+      "n": 31,
+      "questionHtml": "Roughly how many organisations did the UDF unite?",
+      "answerHtml": "Over 400"
+    },
+    {
+      "n": 32,
+      "questionHtml": "What year was the UDF effectively banned?",
+      "answerHtml": "1988"
+    },
+    {
+      "n": 33,
+      "questionHtml": "What organisation did women found in 1954 to organise resistance?",
+      "answerHtml": "The Federation of South African Women"
+    },
+    {
+      "n": 34,
+      "questionHtml": "On what date did around 20,000 women march on the Union Buildings?",
+      "answerHtml": "9 August 1956"
+    },
+    {
+      "n": 35,
+      "questionHtml": "What were the segregated residential areas for Black South Africans called?",
+      "answerHtml": "Townships"
+    },
+    {
+      "n": 36,
+      "questionHtml": "What township near Johannesburg is closely associated with the 1976 uprising?",
+      "answerHtml": "Soweto"
+    },
+    {
+      "n": 37,
+      "questionHtml": "What year was the ANC founded?",
+      "answerHtml": "1912"
+    },
+    {
+      "n": 38,
+      "questionHtml": "What was the ANC's 1955 statement of principles called?",
+      "answerHtml": "The Freedom Charter"
+    },
+    {
+      "n": 39,
+      "questionHtml": "What student organisation, founded 1979, organised school boycotts in the 1980s?",
+      "answerHtml": "COSAS"
+    },
+    {
+      "n": 40,
+      "questionHtml": "Roughly how many residents were removed from Sophiatown to Soweto from 1955?",
+      "answerHtml": "Around 60,000"
+    }
+  ],
+  "quiz": [
+    {
+      "n": 1,
+      "answer": "a",
+      "questionHtml": "What does “apartheid” mean in Afrikaans?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "“Apartness”"
+        },
+        {
+          "opt": "b",
+          "textHtml": "“Unity”"
+        },
+        {
+          "opt": "c",
+          "textHtml": "“Freedom”"
+        },
+        {
+          "opt": "d",
+          "textHtml": "“Development”"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "b",
+      "questionHtml": "Which party won the 1948 South African election on an apartheid platform?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The African National Congress"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The National Party"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The United Party"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Pan Africanist Congress"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "c",
+      "questionHtml": "What was the primary purpose of the Population Registration Act (1950)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To formally register eligible voters"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To register and license businesses"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To classify every South African into a racial category"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To register private land ownership only"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "d",
+      "questionHtml": "What did the Group Areas Act (1950) primarily do?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It ended racial segregation nationwide"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It extended voting rights to Black South Africans"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It abolished the existing pass law system"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It established separate residential areas by race"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "a",
+      "questionHtml": "What was the purpose of the Bantu Education Act (1953)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To deliberately provide an inferior Black education"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To fund equal education across all racial groups"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To establish new universities for Black students"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To abolish formal schooling altogether"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "b",
+      "questionHtml": "What triggered the Sharpeville Massacre (21 March 1960)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An organised strike by trade unions"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A PAC-organised protest against the pass laws"
+        },
+        {
+          "opt": "c",
+          "textHtml": "An armed attack led by the ANC"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A student boycott of Afrikaans-language classes"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "c",
+      "questionHtml": "What was the immediate government response to Sharpeville?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Apartheid legislation was quickly repealed"
+        },
+        {
+          "opt": "b",
+          "textHtml": "South Africa formally abandoned the apartheid system"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A State of Emergency was declared and the ANC/PAC banned"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The government response caused no meaningful change"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "d",
+      "questionHtml": "What was Umkhonto we Sizwe?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The PAC's political wing"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A government security force"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A trade union"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The ANC's armed wing, formed in 1961"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "a",
+      "questionHtml": "What was the outcome of the Rivonia Trial (1963-64)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Mandela and other leaders received life sentences"
+        },
+        {
+          "opt": "b",
+          "textHtml": "All of the accused were formally acquitted"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The apartheid system was immediately abolished"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The ANC was officially unbanned soon after"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "b",
+      "questionHtml": "Steve Biko is most closely associated with which movement?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Freedom Charter"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Black Consciousness"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Bantustan system"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Truth and Reconciliation Commission"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "c",
+      "questionHtml": "What organisation did Biko help found in 1968-69?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The African National Congress itself"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Pan Africanist Congress itself"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The South African Students' Organisation (SASO)"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Congress of South African Trade Unions body"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "d",
+      "questionHtml": "What triggered the Soweto Uprising of 16 June 1976?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The earlier Sharpeville Massacre of 1960"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The outcome of the earlier Rivonia Trial itself"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The formation of the United Democratic Front"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A decree requiring Afrikaans as a teaching language"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "a",
+      "questionHtml": "What was the United Democratic Front (UDF), formed in 1983?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A broad coalition of anti-apartheid civic and union groups"
+        },
+        {
+          "opt": "b",
+          "textHtml": "An official new department of the apartheid government"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A whites-only political party formed that year"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A newly formed armed underground wing of the PAC"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "b",
+      "questionHtml": "What government reform did the UDF specifically form to oppose?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The earlier 1953 Bantu Education Act specifically"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The new tricameral constitution excluding Africans"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The ANC's 1955 Freedom Charter document"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The eventual formal end of apartheid itself"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "c",
+      "questionHtml": "What was COSATU, formed in 1985?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A government security agency"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A whites-only union"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A federation of Black trade unions"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A homeland administration"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "d",
+      "questionHtml": "What did the Federation of South African Women organise in August 1956?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The formal drafting of the Freedom Charter document"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The lengthy court proceedings of the Rivonia Trial"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A nationwide general strike across worker unions"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A march of 20,000 women on the Union Buildings"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "a",
+      "questionHtml": "What were “townships” under apartheid?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Segregated, under-resourced areas for Black residents"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Wealthy, well-resourced white suburban neighbourhoods"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Privately owned rural farmland reserved for whites"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Official government administrative buildings only"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "answer": "b",
+      "questionHtml": "What was the Freedom Charter (1955)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An official policy document issued by the apartheid government"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Congress Alliance's statement of non-racial principles"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A formal treaty that legally ended apartheid rule"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A legal pass-law document carried by Black citizens"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "answer": "c",
+      "questionHtml": "What year was the African National Congress founded?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "1902"
+        },
+        {
+          "opt": "b",
+          "textHtml": "1925"
+        },
+        {
+          "opt": "c",
+          "textHtml": "1912"
+        },
+        {
+          "opt": "d",
+          "textHtml": "1948"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "answer": "d",
+      "questionHtml": "Why did the PAC split from the ANC in 1959?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A disagreement limited purely to protest tactics used"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A formal ban the ANC itself imposed on the PAC"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A disagreement centred solely on economic policy aims"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Sobukwe favoured a more explicitly Africanist approach"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "answer": "a",
+      "questionHtml": "What was the significance of the Durban strikes of 1973?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They showed organised Black economic leverage despite bans"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They had almost no lasting political impact"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They brought an immediate and total end to apartheid"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They were organised and personally led by the National Party"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "answer": "b",
+      "questionHtml": "Which of the following was explicitly excluded from examinable content in this trial's notification?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Sharpeville Massacre"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Mandela's role as head of the ANC"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Black Consciousness Movement"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Soweto Uprising"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "answer": "c",
+      "questionHtml": "What was the “reference book” or dompas?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An official land title and ownership document"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A standard state-issued school textbook"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A pass document Black South Africans had to carry"
+        },
+        {
+          "opt": "d",
+          "textHtml": "An official trade union membership card"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "answer": "d",
+      "questionHtml": "What best explains the significance of the Sharpeville Massacre for resistance strategy?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It ended organised resistance to apartheid altogether"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It reinforced a purely non-violent approach exclusively"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It had little effect on ANC or PAC strategic thinking"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It pushed resistance movements toward armed struggle"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "answer": "a",
+      "questionHtml": "What role did women's community networks play in resistance during the 1970s-80s?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They sustained township-based rent and consumer boycotts"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Women were formally excluded from all resistance activity"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They took part only in the armed struggle"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They provided organised support to the National Party"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "answer": "b",
+      "questionHtml": "Roughly how many people were killed at Sharpeville?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "About 6"
+        },
+        {
+          "opt": "b",
+          "textHtml": "About 69"
+        },
+        {
+          "opt": "c",
+          "textHtml": "About 690"
+        },
+        {
+          "opt": "d",
+          "textHtml": "About 6,900"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "answer": "c",
+      "questionHtml": "What was the significance of Steve Biko's death in September 1977?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It brought the Black Consciousness Movement to an end"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It attracted little to no international attention"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It drew significant international attention to apartheid repression"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It directly and immediately ended apartheid"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "answer": "d",
+      "questionHtml": "What best describes the Black Consciousness Movement's core aim?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Multiracial cooperation led primarily by white liberal groups"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A working political alliance with the apartheid government"
+        },
+        {
+          "opt": "c",
+          "textHtml": "An exclusive and singular focus on armed struggle alone"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Psychological liberation and Black pride before resistance"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "answer": "a",
+      "questionHtml": "Which legislative acts formed the “machinery” of apartheid alongside the Group Areas Act?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Pass Laws Act and Bantu Education Act"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The provisions of the Freedom Charter"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The verdict handed down at the Rivonia Trial"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A resolution passed after the Sharpeville Massacre"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "answer": "b",
+      "questionHtml": "What was COSAS, founded in 1979?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A formally established apartheid government agency"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A student organisation leading 1980s school boycotts"
+        },
+        {
+          "opt": "c",
+          "textHtml": "An administrative body within a rural homeland"
+        },
+        {
+          "opt": "d",
+          "textHtml": "An armed underground wing of the ANC itself"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "answer": "c",
+      "questionHtml": "Why is the “end of apartheid” topic excluded from this trial's notification?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Because the event itself never occurred"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It is not part of the NESA syllabus at all"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It falls outside this trial's set assessment content"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Because it was instead covered under Section III"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "answer": "d",
+      "questionHtml": "What best explains the overall trajectory of internal resistance to apartheid from the 1960s to the 1980s?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It remained essentially unchanged throughout this period"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It ended completely in the aftermath of Sharpeville"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It was led exclusively by international actors abroad"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It evolved from banned groups to mass UDF-led resistance"
+        }
+      ]
+    }
+  ]
+}

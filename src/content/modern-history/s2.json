@@ -1,0 +1,1187 @@
+{
+  "id": "s2",
+  "meta": {
+    "title": "Section II — National Studies: Russia and the Soviet Union",
+    "range": "1917–1941 · Extended response, 25 marks, ~45 min",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "All syllabus content — Bolshevik ideology and the October coup, consolidation of power through the Civil War and NEP, the power struggle after Lenin's death, the nature of the USSR under Stalin (dictatorship, economic and social/cultural transformation, the purges), and Soviet foreign policy to 1941."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "You answer ONE of two options provided. Practise both so you're never caught out on the day."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them (Survey → Focus of Study). Nothing here is excluded from Task 4 — Section II is examinable in full.",
+    "groups": [
+      {
+        "title": "Survey — Bolshevik Consolidation of Power",
+        "points": [
+          "<b>Bolshevik ideology, the October coup and early Soviet government:</b> Marxist-Leninist theory adapted by Lenin's April Theses (1917); the Bolsheviks seized power in Petrograd on 24–25 October 1917 (Old Style), and early government moves included the Decree on Peace, the Decree on Land, and the dissolution of the Constituent Assembly (Jan 1918) once Bolsheviks failed to win a majority.",
+          "<b>The Treaty of Brest-Litovsk, the Civil War and the New Economic Policy:</b> Brest-Litovsk (3 March 1918) took Russia out of WWI at severe territorial cost; the Civil War (1918–1921) pitted Bolshevik \"Reds\" against \"Whites\" and foreign interventionist forces under War Communism; the NEP (from 1921) reintroduced limited market incentives after Kronstadt exposed the policy's unsustainability."
+        ]
+      },
+      {
+        "title": "Focus of Study — The Power Struggle After Lenin's Death",
+        "points": [
+          "<b>Impact of Bolshevik consolidation, including the creation of the USSR:</b> the USSR was formally created by the Treaty of Union on 30 December 1922, unifying Russia, Ukraine, Belarus and the Transcaucasian Federation under centralised Communist Party control.",
+          "<b>Power struggle between Stalin, Trotsky and other leading Bolsheviks in the 1920s:</b> Stalin used his position as General Secretary (from April 1922) to build a bureaucratic base, forming and then discarding tactical alliances (with Kamenev and Zinoviev against Trotsky, 1923–25) to isolate rivals in turn.",
+          "<b>Reasons for Stalin's emergence as leader by the late 1920s:</b> \"Socialism in One Country\" outmanoeuvred Trotsky's \"Permanent Revolution\" ideologically; Trotsky was expelled from the Party by 1927 and exiled by 1929, while Bukharin and the \"Right\" were defeated soon after."
+        ]
+      },
+      {
+        "title": "Focus of Study — The Soviet State Under Stalin",
+        "points": [
+          "<b>Nature of the USSR under Stalin, including dictatorship and totalitarianism:</b> near-total state and Party control of political, economic and cultural life, enforced through terror and a personality cult.",
+          "<b>Economic transformation and its impact:</b> collectivisation from 1929 (around 90% of peasant households collectivised by 1936) caused mass famine, including the Holodomor (1932–33); the Five Year Plans from 1928 drove rapid industrialisation, with steel production roughly quadrupling by 1940.",
+          "<b>Political transformation:</b> growth of the Party bureaucracy, use of terror, show trials (Zinoviev and Kamenev, Aug 1936; Bukharin, March 1938), the Gulag forced-labour camp system, and propaganda/censorship enforcing Socialist Realism as the only approved artistic style.",
+          "<b>Social and cultural change:</b> rapid forced urbanisation, state control of education and culture, and the promotion of a cult of personality around Stalin."
+        ]
+      },
+      {
+        "title": "Focus of Study — Soviet Foreign Policy",
+        "points": [
+          "<b>Nature of Soviet foreign policy, 1917–1941:</b> shifted from a revolutionary posture aimed at exporting communism via the Comintern (founded March 1919) toward pragmatic pursuit of state security, including League of Nations membership from September 1934.",
+          "<b>Role of ideology in Soviet foreign policy, 1917–1941:</b> ideology shaped rhetoric and long-term aims, but pragmatic security calculations increasingly determined actual decisions — culminating in the Nazi–Soviet Pact (23 August 1939), which was itself shattered by Operation Barbarossa (22 June 1941)."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [
+      {
+        "bank": null,
+        "variant": "green",
+        "html": "<b>Format reminder:</b> each option below is a full 25-mark, single-essay response — not a short answer. Every plan is written as a complete Introduction → Body → Body → Body → Conclusion structure. Use it that way in your own timed practice."
+      }
+    ],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": "01",
+        "title": "Bolshevik Ideology, the October Coup & Early Soviet Government",
+        "questions": [
+          {
+            "format": "options",
+            "setTitle": "Practice Set 1",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Explain why the February/March Revolution of 1917 succeeded in overthrowing the Tsarist autocracy.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">The Tsarist autocracy fell in February/March 1917 not through a single conspiracy or coup but because decades of unreformed absolutism finally met a crisis — total war — that it lacked the institutional flexibility to survive; the war did not create the regime's fragility, it exposed and accelerated it.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — long-term structural weakness</span>\n              <p class=\"para-text\">The regime's vulnerability long predated 1917. The 1905 Revolution had forced Nicholas II to concede a Duma, but he treated the concession as reversible rather than genuine: the first two Dumas were dissolved within their opening year once they proved insufficiently compliant, signalling that the autocracy had absorbed none of the pressure for real constitutional change. This mattered because it meant Russia entered the First World War with no functioning mechanism for channelling elite or popular grievance through legitimate politics — dissent had nowhere to go but the street. Nicholas compounded this in <span class=\"stat\">September 1915</span> by taking personal command of the army, a decision that fused his own authority directly to the war's military failures and removed the last buffer between battlefield disaster and the throne itself.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the destabilising impact of war</span>\n              <p class=\"para-text\">Total war then converted this latent fragility into an acute crisis. By 1917 Russia had suffered an estimated <span class=\"stat\">1.7 million military deaths</span>, alongside supply and transport breakdowns that produced severe food and fuel shortages in the cities — the material conditions of collapse were therefore already visible well before the February strikes began. Politically, the war stripped the monarchy of what legitimacy it retained: with the Tsar absent at the front, Empress Alexandra's dependence on Rasputin, assassinated in <span class=\"stat\">December 1916</span> by figures from within the regime's own aristocratic elite, signalled that even monarchists no longer trusted the court's judgement. That the assassination came from insiders rather than revolutionaries is itself evidence of how isolated the autocracy had become by the war's final year.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the immediate collapse</span>\n              <p class=\"para-text\">The final trigger was narrow but decisive. Bread shortages in Petrograd ignited mass strikes from <span class=\"stat\">23 February 1917</span> (International Women's Day), and within days over <span class=\"stat\">200,000 workers</span> had joined the movement — a scale that overwhelmed the city's ordinary policing capacity almost immediately. What turned unrest into revolution, however, was not the size of the crowds but the loyalty of the garrison: when Petrograd's soldiers refused orders to fire on demonstrators and instead mutinied, the regime lost the one instrument — organised coercive force — on which all of its prior survival had depended. Without it, three centuries of Romanov rule had no remaining means of self-defence.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Nicholas II abdicated on <span class=\"stat\">2/15 March 1917</span>, and power passed to a Provisional Government sharing uneasy \"dual power\" with the Petrograd Soviet. The evidence weighs against reading February as a spontaneous accident of wartime shortage: the structural weaknesses of 1905–1914 defined the terms of the regime's failure, while the war supplied only the timing and the final, irreversible blow.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "Assess the significance of Lenin's leadership and ideology in the success of the Bolshevik seizure of power in October/November 1917.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Lenin's leadership was decisive in the timing, ideological framing and organisation of the October seizure of power, but its ease is only fully explained alongside the Provisional Government's near-total forfeiture of its own authority over the preceding months.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — Provisional Government failures</span>\n              <p class=\"para-text\">The Provisional Government's collapse was substantially self-inflicted. Its decision to honour Russia's war commitments produced the June 1917 Offensive, a military disaster that cost an estimated <span class=\"stat\">400,000 casualties</span> and shattered whatever public confidence the government retained — a government that had never been elected was now also visibly incompetent at the one task, ending mass slaughter, that most defined popular expectation of it. Its parallel refusal to resolve land reform or bring forward national elections left the most basic peasant and soldier demands unanswered, handing the Bolsheviks a slogan, \"Peace, Land, Bread\", that named precisely what the government would not deliver. Weakness on this scale does not guarantee a Bolshevik victory, but it explains why so little organised resistance existed to oppose one.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — Lenin's ideological adaptation</span>\n              <p class=\"para-text\">Lenin's own contribution was not passive opportunism but a deliberate, contested reshaping of Bolshevik strategy. The April Theses of <span class=\"stat\">April 1917</span> broke openly with orthodox Marxism by demanding immediate transfer of power to the Soviets rather than an extended \"bourgeois\" capitalist stage — a position so far from established doctrine that it was initially a minority view even inside his own party, and one Lenin had to argue his colleagues toward over subsequent months rather than simply issue by decree. That he needed to win this internal argument at all demonstrates that Bolshevik success was not predetermined by ideology; it depended on Lenin personally forcing a strategic reorientation the party would not otherwise have adopted in time.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — organisation and timing</span>\n              <p class=\"para-text\">The execution of the seizure then confirms how far authority had already drained from the government it displaced. Trotsky's Military Revolutionary Committee coordinated the capture of key buildings and communication points across Petrograd on <span class=\"stat\">24–25 October 1917</span> (Old Style) with disciplined precision, but the operation's near-bloodless character — the Winter Palace fell to only a handful of casualties — is itself the strongest evidence for the argument: a government with genuine coercive capacity does not lose its capital in an evening with barely a shot fired.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Lenin's personal decisiveness and ideological flexibility were necessary conditions for October, converting drift into a coordinated seizure of power at a precise moment — but they were sufficient only because the Provisional Government had, through its own failures on war and land, left remarkably little authority for anyone to overthrow.</p>\n            </div>\n          </div>\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Historian's view — verified quote</span>\n          <div class=\"quote-block\">\"It was not Marxism that made Lenin a revolutionary but Lenin who made Marxism revolutionary.\"<cite>Orlando Figes, <i>A People's Tragedy: The Russian Revolution 1891–1924</i> (1996)</cite></div>\n          <div class=\"plan-thesis\" style=\"margin-top:6px;\">Strong evidence for arguing individual leadership and ideological adaptation, not just circumstance, explains October 1917 — Figes' point is precisely that Lenin bent doctrine to fit Russia's conditions rather than the reverse.</div></div>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "02",
+        "title": "The Treaty of Brest-Litovsk, the Civil War & the NEP",
+        "questions": [
+          {
+            "format": "options",
+            "setTitle": "Practice Set 2",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Explain the reasons for, and consequences of, the Treaty of Brest-Litovsk (1918).",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Brest-Litovsk was a rational act of political survival that fulfilled the Bolsheviks' central promise of peace, but the scale of territory it surrendered made it a lasting liability that shaped Soviet politics well beyond the treaty's own short lifespan.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — reasons for signing</span>\n              <p class=\"para-text\">The Bolsheviks had seized power in October partly on the pledge of immediate peace, meaning continued war was not merely costly but an existential threat to their own legitimacy — a government that broke its founding promise while still consolidating control risked collapse before it had properly begun. Lenin therefore prioritised securing the regime's survival over favourable terms, accepting that a harsh peace now was preferable to fighting a war Russia's exhausted army could no longer sustain on two fronts, external and increasingly internal.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the severity of the terms</span>\n              <p class=\"para-text\">The price of that survival was extraordinarily high. Signed on <span class=\"stat\">3 March 1918</span>, the treaty stripped Russia of Ukraine, the Baltic states, Poland and Finland, costing an estimated <span class=\"stat\">one-third of its population and farmland</span> and roughly half its industrial capacity — figures that show this was not a modest tactical concession but a near-crippling territorial amputation, imposed on a state with almost no leverage left to negotiate otherwise.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — political consequences</span>\n              <p class=\"para-text\">The domestic political fallout was correspondingly severe. The Left Socialist Revolutionaries withdrew from the governing coalition in protest at the treaty's harshness, ending the last significant multi-party arrangement within Bolshevik government and pushing the regime further toward one-party rule. Beyond the coalition itself, the treaty became a potent rallying point for anti-Bolshevik \"White\" forces, who could credibly present Lenin's government as having sold away Russian territory to a foreign enemy — a charge that helped justify the Allied military intervention that followed from mid-1918 and fed directly into the opening phase of the Civil War.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Germany's defeat in <span class=\"stat\">November 1918</span> voided the treaty's territorial terms within months, yet this does not diminish its significance: the political cost of having signed away so much territory had already been paid in coalition collapse and White propaganda, and it continued to burden Bolshevik legitimacy throughout the Civil War that followed.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "To what extent did the Civil War (1918–1921) and War Communism shape the nature of the Bolshevik state?",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">The Civil War did more than test Bolshevik survival — it actively manufactured the authoritarian architecture of terror, centralisation and one-party rule that would define the Soviet state long after the fighting itself had ended.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the scale of the crisis</span>\n              <p class=\"para-text\">The circumstances the Bolsheviks faced between <span class=\"stat\">1918 and 1921</span> were existential in a way few new governments have survived: they fought White armies, nationalist and separatist forces, and Allied interventionist troops from Britain, France, the USA and Japan simultaneously across multiple fronts. The human cost of this multi-front war, together with the famine and disease it produced, is estimated at <span class=\"stat\">7–12 million deaths</span> — a scale of catastrophe that goes far beyond conventional military casualties and helps explain why the regime treated extraordinary, centralised measures as necessary rather than optional.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — War Communism as state-building</span>\n              <p class=\"para-text\">The economic response, War Communism, was framed as temporary wartime necessity but functioned as a template for total state control. Grain requisitioning (<i>prodrazvyorstka</i>) seized peasant surplus by force, while nationalisation extended to virtually all firms above roughly <span class=\"stat\">10 employees</span> by 1920, and private trade was effectively criminalised. The significance of this is not simply economic hardship but precedent: a government had demonstrated, and normalised, its willingness to seize the entire productive economy directly into state hands whenever it judged the situation to require it.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the political machinery of coercion</span>\n              <p class=\"para-text\">This economic centralisation was enforced by, and in turn expanded, a parallel apparatus of political coercion. The Cheka, founded in <span class=\"stat\">December 1917</span>, grew dramatically during the war years specifically to enforce requisitioning quotas and suppress dissent, while the Red Army swelled to roughly <span class=\"stat\">5 million</span> troops by 1920. Together these developments show the Communist Party consolidating political control not as an emergency exception but as the ordinary operating method of what became, in effect, a permanent \"civil-war state.\"</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">The Civil War did not simply threaten the Bolshevik state — it built it. The terror apparatus, economic centralisation and one-party discipline forged under wartime pressure between 1918 and 1921 persisted well beyond the last White army's defeat, becoming permanent features of Soviet governance rather than temporary wartime measures.</p>\n            </div>\n          </div>"
+              }
+            ]
+          },
+          {
+            "format": "options",
+            "setTitle": "Practice Set 3",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Assess the reasons for, and significance of, the introduction of the New Economic Policy in 1921.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">The NEP was a pragmatic economic retreat forced by the near-collapse of War Communism, one that successfully restored production even as the Party moved, in the very same moment, to tighten its political grip rather than relax it.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the trigger for reform</span>\n              <p class=\"para-text\">By 1921 the economic and political costs of War Communism had become unsustainable. Industrial output had collapsed to roughly <span class=\"stat\">one-fifth</span> of its 1913 level, showing the policy had failed even on its own terms of maximising wartime production. More alarming for the leadership was the Kronstadt Rebellion of <span class=\"stat\">March 1921</span>, in which around <span class=\"stat\">15,000</span> sailors — men who had been among the Bolsheviks' most loyal supporters in 1917 — rose in revolt against the very government they had helped install. That the rebellion came from inside the regime's own base, not from Whites or foreign interventionists, was the clearest possible signal that War Communism had exhausted its political viability.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the substance of the reform</span>\n              <p class=\"para-text\">Lenin's response replaced compulsion with limited market incentive. Grain requisitioning gave way to a fixed tax in kind (<i>prodnalog</i>), allowing peasants to sell any surplus once the tax was paid, while small-scale private trade and enterprise — firms of roughly under 20 employees — was legalised for the first time since 1918. The effect was to restore the material incentive to produce that War Communism had eliminated, without formally abandoning state control of large-scale industry, transport and banking.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the political counter-measure</span>\n              <p class=\"para-text\">Crucially, this economic liberalisation was not matched by political liberalisation. At the same <span class=\"stat\">10th Party Congress of 1921</span> that approved NEP, the Bolsheviks banned organised factions within the Party itself — meaning that economic pluralism and political pluralism moved in opposite directions simultaneously. This pairing reveals the underlying logic of the reform: Lenin was prepared to concede ground on the economy precisely because he intended to concede none at all on the Party's monopoly of political power.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">NEP achieved its immediate purpose — grain output recovered close to prewar levels by the mid-1920s — but its ideological compromises remained deeply contested within the Party, and the political ban on factions passed alongside it shows the regime treating economic retreat and political control as two sides of a single survival strategy, not as steps toward genuine liberalisation.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "Explain how Bolshevik ideology in theory differed from Bolshevik practice in government between 1918 and 1924.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Bolshevik practice in government departed from Marxist theory at almost every major juncture between 1918 and 1924, with the Party consistently substituting its own authority for the direct rule by workers that the theory had promised.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the theoretical promise</span>\n              <p class=\"para-text\">Marxist theory, as Lenin himself set it out in <i>The State and Revolution</i> in 1917, promised that the post-revolutionary state would be a genuinely proletarian one, governed directly through workers' soviets and destined eventually to \"wither away\" altogether as class distinctions dissolved. This was the explicit standard against which Bolshevik government invited comparison — and against which its practice can be judged.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the practice of War Communism</span>\n              <p class=\"para-text\">In office, the gap opened almost immediately. Grain requisitioning and strict labour discipline under War Communism treated the peasantry and workforce as objects of state extraction rather than as the empowered class theory had promised they would become, and the resentment this produced fed directly into episodes of unrest such as the Kronstadt Rebellion of 1921 — a revolt led by sailors who had themselves been Bolshevik loyalists, protesting precisely this contradiction between promised worker power and lived economic coercion.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the pragmatic retreat of NEP</span>\n              <p class=\"para-text\">NEP's toleration of private trade from <span class=\"stat\">1921</span> represented a further, explicit retreat from communist theory, one Lenin himself justified not as ideological victory but as a necessary tactical concession — \"one step back to take two steps forward.\" That the regime's own leader felt compelled to justify policy as a deviation from theory, rather than claim it fulfilled theory, is itself strong evidence of how far practice had already diverged from doctrine by the early 1920s.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">By 1924, political power had concentrated not in workers' soviets but in an increasingly narrow Communist Party leadership circle. Across War Communism and NEP alike, practice consistently overrode theory whenever the two conflicted, and Lenin's own justifications for these compromises confirm that this divergence was recognised, not accidental.</p>\n            </div>\n          </div>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "03",
+        "title": "The Power Struggle After Lenin's Death, 1924–1929",
+        "questions": [
+          {
+            "format": "options",
+            "setTitle": "Practice Set 4",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Account for Stalin's victory over his rivals in the power struggle following Lenin's death.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Stalin's victory in the succession struggle owed less to ideological conviction than to his systematic exploitation of bureaucratic office, tactical alliance-switching and calculated timing — a combination that allowed him to eliminate each rival separately rather than face a united opposition.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — institutional position</span>\n              <p class=\"para-text\">Stalin's decisive structural advantage was administrative rather than intellectual. Appointed General Secretary in <span class=\"stat\">April 1922</span> — a post his rivals initially regarded as a clerical rather than a powerful one — he controlled Party appointments and used the role to install loyalists in key regional positions well before Lenin's death on <span class=\"stat\">21 January 1924</span>. This meant that by the time the succession struggle became public, Stalin already commanded the votes of provincial Party delegates who owed their positions to him, a structural advantage none of his rivals had thought to build.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — tactical alliances</span>\n              <p class=\"para-text\">Stalin then converted this institutional base into political dominance through calculated, temporary alliances. He formed a triumvirate with Kamenev and Zinoviev against Trotsky between <span class=\"stat\">1923 and 1925</span>, using their combined authority to isolate the figure most Bolsheviks saw as Lenin's natural successor — before discarding both former allies once Trotsky had been expelled from the Politburo in 1926. The sequence matters: Stalin never fought more than one significant rival at a time, which meant his opponents were repeatedly defeated in isolation rather than combining their strength against him early enough to matter.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — ideology and final outcome</span>\n              <p class=\"para-text\">Ideology supplied the final, decisive edge. Stalin's \"Socialism in One Country\" was pitched directly against Trotsky's \"Permanent Revolution\", offering a Party exhausted by years of war, famine and requisitioning the promise of consolidation rather than further international struggle — a message far better suited to the Party's mood in the mid-1920s than Trotsky's continued revolutionary urgency. The results confirm the strategy's effectiveness: Trotsky was expelled from the Party by <span class=\"stat\">1927</span> and exiled from the USSR by <span class=\"stat\">1929</span>, while Bukharin and the \"Right\" were defeated soon after in a dispute over the pace of industrialisation, once their usefulness as allies against the Left had likewise expired.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">No single factor explains Stalin's victory. It was the compounding effect of bureaucratic control built early, alliances discarded exactly when they had served their purpose, and an ideological platform timed to Party sentiment that allowed him to eliminate every rival in turn between 1924 and 1929, rather than face them united.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "Explain the significance of Lenin's Testament for the leadership struggle after 1924.",
+                "planHtml": "<div class=\"plan\">\n            <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n            <ul class=\"keypoints\">\n              <li>Lenin's Testament (dictated <span class=\"stat\">December 1922 – January 1923</span>) criticised several leading Bolsheviks and specifically warned about Stalin's concentration of power, suggesting he be removed as General Secretary.</li>\n              <li>Kamenev and Zinoviev chose to suppress/downplay it at the <span class=\"stat\">13th Party Congress (1924)</span> to protect their own alliance with Stalin against Trotsky.</li>\n              <li>Its limited impact at the time shows how personal rivalries outweighed Lenin's stated wishes in shaping the succession.</li>\n            </ul>\n            </div>\n          </div>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "04",
+        "title": "The Nature of the USSR Under Stalin",
+        "questions": [
+          {
+            "format": "options",
+            "setTitle": "Practice Set 5",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Assess the economic and social impact of collectivisation and the Five Year Plans on the Soviet people.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Stalin's economic revolution produced genuine and lasting industrial transformation, but its two components should not be weighed as equal successes: industrialisation built real capacity, while collectivisation inflicted a human catastrophe on the peasantry that industrial output figures alone cannot offset.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the human cost of collectivisation</span>\n              <p class=\"para-text\">From <span class=\"stat\">1929</span>, peasant farms were forcibly merged into state and collective units, and by 1936 around <span class=\"stat\">90%</span> of peasant households had been absorbed into this system — a transformation of the countryside achieved not through consent but through coercion. Resistance from so-called \"kulaks\" was met with roughly <span class=\"stat\">1.8 million</span> deportations between 1930 and 1931, and the disruption to agriculture that collectivisation caused produced famine on a catastrophic scale, worst of all in Ukraine, where the Holodomor of <span class=\"stat\">1932–33</span> is estimated to have killed several million people. This was not an unfortunate side effect of modernisation; it was the direct, foreseeable consequence of forcing rapid structural change onto an agricultural system with no time or incentive to adapt.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the reality of industrial achievement</span>\n              <p class=\"para-text\">Set against this, the Five Year Plans delivered industrial results that were genuinely transformative rather than merely propagandistic. The First Five Year Plan (<span class=\"stat\">1928–32</span>) targeted heavy industry, and steel production roughly quadrupled between 1928 and 1940, while showcase projects such as Magnitogorsk built an entire industrial city from almost nothing within a few years. Stakhanovite propaganda from <span class=\"stat\">1935</span>, celebrating individual \"record-breaking\" workers, was crude in method but effective in driving output targets upward, and the scale of the resulting industrial base was not illusory — it was substantial enough to matter militarily within a decade.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the human cost of industrialisation itself</span>\n              <p class=\"para-text\">Even the industrial success carried its own significant social cost. Rapid, forced urbanisation packed new industrial workers into overcrowded and often squalid housing, while the Gulag system held an estimated <span class=\"stat\">1.3–1.5 million</span> prisoners by the late 1930s, many of them providing forced labour on major infrastructure projects. This shows that the industrial achievement was not simply a benign counterweight to collectivisation's horrors — it too relied, to a meaningful extent, on coerced and unfree labour.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Genuine industrial gains gave the USSR the heavy-industry base that helped it survive the war from 1941, and this achievement should not be dismissed. But measured in human terms, the balance sheet is not equal: the deaths of several million people in the Holodomor and the deportation of millions more represent a human cost, concentrated overwhelmingly on the peasantry, that dwarfs the scale of the industrial achievement built alongside it.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "To what extent did terror and the cult of personality explain the survival of Stalin's regime through the Great Purges?",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Terror and the cult of personality were complementary rather than alternative instruments of control: terror eliminated anyone capable of organised opposition, while the cult secured active identification with Stalin among the wider population — together, not separately, they explain the regime's survival through the Great Purges.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the scale of the Terror</span>\n              <p class=\"para-text\">The Terror operated with a scale and administrative precision that shows deliberate state design rather than chaotic overreach. Show trials of former Bolshevik leaders, including Zinoviev and Kamenev in <span class=\"stat\">August 1936</span> and Bukharin in <span class=\"stat\">March 1938</span>, ended in execution after confessions extracted to fabricated charges — a public spectacle designed to demonstrate that no degree of past revolutionary standing offered protection. Beneath this visible layer, NKVD Order No. 00447 of 1937 set explicit arrest and execution quotas by region, and historians estimate around <span class=\"stat\">750,000 executions</span> during 1937–38 alone, alongside roughly <span class=\"stat\">1.5 million arrests</span> — figures that reveal a bureaucratised, quota-driven killing operation rather than a series of isolated purges.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — how fear was sustained</span>\n              <p class=\"para-text\">What made this Terror so effective at securing compliance was its diffusion through ordinary social relationships. A culture of denunciation meant neighbours, colleagues and even family members reported one another, ensuring that no private space remained genuinely safe from state surveillance. The military bore this out starkly: the officer corps was gutted, with roughly <span class=\"stat\">3 of 5 marshals</span> executed, removing precisely the institution — the armed forces — that would have possessed the organised capacity to resist Stalin had it chosen to.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the constructive role of the cult</span>\n              <p class=\"para-text\">Terror alone, however, explains only submission, not belief — and the cult of personality supplied the latter. Socialist Realism dominated all approved art and culture, consistently portraying Stalin as Lenin's rightful heir and the nation's protector rather than as the author of the violence around it, while the 1936 \"Stalin\" Constitution proclaimed the USSR the \"most democratic\" state in the world at the very moment the Terror was intensifying. The contradiction between proclaimed democracy and lived repression did not undermine the cult's effectiveness; for citizens without access to alternative information, the propaganda offered a coherent, positive framework in which to understand a regime that would otherwise have appeared purely as a machine of fear.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Terror alone cannot explain the regime's survival, since fear breeds compliance but not necessarily stability — it was the combination that mattered: terror destroyed anyone capable of organised resistance, while the cult of personality gave many ordinary citizens a genuine, if propaganda-shaped, reason to identify with Stalin rather than merely submit to him.</p>\n            </div>\n          </div>"
+              }
+            ]
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5–6 marks",
+            "questionHtml": "Explain the significance of the formation of the USSR in 1922 for the structure of the new Soviet state.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>The Treaty of Union (<span class=\"stat\">30 December 1922</span>) formally created the USSR from four founding republics — Russia, Ukraine, Belarus and the Transcaucasian Federation.</li>\n            <li>Republics had nominal rights (including a theoretical right to secede) but real power remained centralised in the Communist Party, which operated as a single unified structure across all republics.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5–6 marks",
+            "questionHtml": "Explain how the Soviet state used propaganda and control of culture to promote its ideology in the 1930s.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Socialist Realism was declared the only acceptable artistic style at the <span class=\"stat\">1934 Congress of Soviet Writers</span>, requiring art to glorify communist progress and the Soviet worker.</li>\n            <li>Posters, film and the state press (e.g. <i>Pravda</i>) celebrated industrial achievement and Stalin's leadership, while independent or critical works faced censorship or their creators faced arrest.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "05",
+        "title": "Soviet Foreign Policy, 1917–1941",
+        "questions": [
+          {
+            "format": "options",
+            "setTitle": "Practice Set 6",
+            "options": [
+              {
+                "label": "Option A",
+                "questionHtml": "Explain the nature of Soviet foreign policy between 1917 and 1941, including the role played by communist ideology.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">Soviet foreign policy shifted decisively from a revolutionary posture aimed at exporting communism toward a pragmatic pursuit of state security, a trajectory that reached its logical, if ideologically jarring, endpoint in the Nazi–Soviet Pact.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the revolutionary phase</span>\n              <p class=\"para-text\">In its earliest years, Soviet foreign policy was genuinely oriented around exporting revolution rather than securing conventional diplomatic relationships. The Comintern, founded in <span class=\"stat\">March 1919</span>, existed explicitly to coordinate and fund revolutionary movements abroad, and this openly stated aim alarmed Western governments enough to shape their behaviour directly — it was a significant factor behind the Allied intervention in the Russian Civil War, in which Britain, France, the USA and Japan all landed troops from 1918. The ideological commitment of this period was therefore not merely rhetorical; it had concrete diplomatic and military consequences for the new Soviet state.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the pragmatic shift under Stalin</span>\n              <p class=\"para-text\">Under Stalin, policy pivoted toward pragmatism without formally renouncing the earlier rhetoric. \"Socialism in One Country\" reoriented strategic priority toward Soviet state security rather than immediate world revolution, and this shift was reflected in concrete diplomatic behaviour: the USSR actively pursued recognition and trade with capitalist states, joining the League of Nations in <span class=\"stat\">September 1934</span> — an institution the Bolsheviks had once dismissed as an imperialist club — even as ideological language continued domestically. The willingness to join an organisation it had previously denounced demonstrates that by the mid-1930s, state interest had clearly overtaken ideological consistency as the determining factor in Soviet diplomacy.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — collective security and its collapse</span>\n              <p class=\"para-text\">This pragmatic turn reached its clearest and most controversial expression in the late 1930s. Soviet proposals for a mutual defence arrangement against Nazi Germany were met with persistent suspicion by Britain and France, who distrusted Stalin's regime as much as Hitler's — and when collective security failed to materialise, Stalin abandoned it entirely. The resulting Nazi–Soviet Pact of <span class=\"stat\">23 August 1939</span>, combining public non-aggression with a secret protocol dividing Eastern Europe, was a stark ideological reversal, but it followed directly from the same underlying logic that had driven Soviet policy since the mid-1920s: security and territorial advantage, not doctrinal consistency, determined the decision.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Ideology continued to shape the language and long-term aspirations of Soviet foreign policy throughout this period, but from the mid-1920s onward it was pragmatic calculation about state survival that consistently determined its actual decisions — the Pact was not an aberration from this pattern but its most extreme demonstration.</p>\n            </div>\n          </div>"
+              },
+              {
+                "label": "Option B",
+                "questionHtml": "Assess the significance of the Nazi–Soviet Pact (1939) for Soviet foreign policy in the lead-up to 1941.",
+                "planHtml": "<div class=\"plan essay-plan\">\n            <div class=\"para-block intro\">\n              <span class=\"para-label\">Introduction — Thesis</span>\n              <p class=\"para-text thesis\">The Nazi–Soviet Pact bought Stalin genuine strategic advantages in time and territory, but its violent collapse in 1941 exposed it as a temporary tactical convenience rather than the durable settlement Stalin appears to have hoped it would become.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 1 — the terms of the agreement</span>\n              <p class=\"para-text\">Signed on <span class=\"stat\">23 August 1939</span>, the pact's public face — mutual non-aggression — concealed a secret protocol dividing Poland and the Baltic states into defined Nazi and Soviet spheres of influence. The very existence of this hidden territorial arrangement, negotiated between two states whose ideologies were fundamentally opposed, shows both leaders treating the agreement as a purely instrumental convenience rather than a genuine reconciliation of interests.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 2 — the strategic logic behind Stalin's decision</span>\n              <p class=\"para-text\">For Stalin specifically, the pact addressed two pressing vulnerabilities. It bought time to rebuild an officer corps devastated by his own Purges, in which roughly <span class=\"stat\">3 of 5 marshals</span> and thousands of senior officers had been executed during 1937–38 — a self-inflicted weakness that made avoiding immediate war with Germany a matter of military necessity rather than choice. It also secured territorial buffer zones across Eastern Europe intended to absorb the initial shock of any future German attack, pushing the likely front line further from core Soviet territory.</p>\n            </div>\n            <div class=\"para-block\">\n              <span class=\"para-label\">Body Paragraph 3 — the limits exposed by immediate action</span>\n              <p class=\"para-text\">Yet the Soviet Union's own conduct in the months that followed undercut the strategy's apparent success. The USSR occupied eastern Poland within weeks and then fought the Winter War against Finland from <span class=\"stat\">November 1939 to March 1940</span>, suffering an estimated <span class=\"stat\">126,000-plus deaths</span> against a vastly smaller opponent — a result that exposed the very weakness the Pact was meant to buy time to fix, and one Hitler is known to have noted closely as evidence the Red Army remained badly under-prepared.</p>\n            </div>\n            <div class=\"para-block conclusion\">\n              <span class=\"para-label\">Conclusion — Judgement</span>\n              <p class=\"para-text\">Operation Barbarossa on <span class=\"stat\">22 June 1941</span> shattered the Pact in under two years, and despite the additional time and territory it had bought, Soviet forces were still caught significantly under-prepared for the scale of the German invasion — confirming that the Pact delayed rather than resolved the fundamental threat Nazi Germany posed to Soviet survival.</p>\n            </div>\n          </div>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "bank": "Extra Practice Bank",
+        "number": null,
+        "title": null,
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5–6 marks",
+            "questionHtml": "Explain how the response of Western nations to the Soviet Union shifted between 1917 and the late 1930s.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Initial hostility: Britain, France, the USA and Japan sent troops to support White forces during the Civil War (from <span class=\"stat\">1918</span>), fearing the spread of communism.</li>\n            <li>Gradual normalisation through the 1920s — Britain extended diplomatic recognition in 1924; trade links slowly developed despite ongoing ideological suspicion.</li>\n            <li>Cautious re-engagement by the mid-1930s as the Nazi threat grew, culminating in USSR membership of the League of Nations in <span class=\"stat\">1934</span>, though mutual distrust with Britain and France persisted right up to 1939.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the view that Stalinism represented a form of totalitarianism comparable to Nazi Germany.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Similarities: single-party rule, a secret police apparatus (NKVD/Gestapo), state control of media and culture, and a leader cult — both regimes used show trials or camps to eliminate opposition (Gulag system vs. concentration camps).</li>\n            <li>Differences: Stalinism was built on a professed egalitarian, class-based ideology aiming (in theory) at a classless society, while Nazism was explicitly built on racial hierarchy and exclusion.</li>\n            <li>Judgement: most historians (e.g. Hannah Arendt's comparative framework) treat both as totalitarian in method — near-total state control of public and private life — while differing sharply in stated ideological purpose.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    {
+      "n": 1,
+      "questionHtml": "What event in February/March 1917 forced Tsar Nicholas II to abdicate?",
+      "answerHtml": "The February/March Revolution"
+    },
+    {
+      "n": 2,
+      "questionHtml": "On what date did Nicholas II abdicate?",
+      "answerHtml": "2/15 March 1917"
+    },
+    {
+      "n": 3,
+      "questionHtml": "Who led the Provisional Government overthrown in October 1917?",
+      "answerHtml": "Alexander Kerensky"
+    },
+    {
+      "n": 4,
+      "questionHtml": "What body shared \"dual power\" with the Provisional Government in 1917?",
+      "answerHtml": "The Petrograd Soviet"
+    },
+    {
+      "n": 5,
+      "questionHtml": "What date did the Bolsheviks seize power in Petrograd (Old Style)?",
+      "answerHtml": "24–25 October 1917"
+    },
+    {
+      "n": 6,
+      "questionHtml": "What document did Lenin publish in April 1917 calling for immediate Soviet power?",
+      "answerHtml": "The April Theses"
+    },
+    {
+      "n": 7,
+      "questionHtml": "What treaty took Russia out of WWI?",
+      "answerHtml": "The Treaty of Brest-Litovsk (3 March 1918)"
+    },
+    {
+      "n": 8,
+      "questionHtml": "Roughly how much territory did Russia lose under Brest-Litovsk?",
+      "answerHtml": "Around one-third of its population and farmland"
+    },
+    {
+      "n": 9,
+      "questionHtml": "What years did the Russian Civil War last?",
+      "answerHtml": "1918–1921"
+    },
+    {
+      "n": 10,
+      "questionHtml": "What was the Bolshevik economic policy during the Civil War called?",
+      "answerHtml": "War Communism"
+    },
+    {
+      "n": 11,
+      "questionHtml": "What secret police force was founded in December 1917?",
+      "answerHtml": "The Cheka"
+    },
+    {
+      "n": 12,
+      "questionHtml": "What 1921 rebellion by former Bolshevik loyalists forced a change in economic policy?",
+      "answerHtml": "The Kronstadt Rebellion"
+    },
+    {
+      "n": 13,
+      "questionHtml": "What policy replaced War Communism in 1921?",
+      "answerHtml": "The New Economic Policy (NEP)"
+    },
+    {
+      "n": 14,
+      "questionHtml": "What tax replaced grain requisitioning under NEP?",
+      "answerHtml": "Prodnalog (a fixed tax in kind)"
+    },
+    {
+      "n": 15,
+      "questionHtml": "On what date was the USSR formally created?",
+      "answerHtml": "30 December 1922"
+    },
+    {
+      "n": 16,
+      "questionHtml": "What document warned of Stalin's concentration of power and urged his removal?",
+      "answerHtml": "Lenin's Testament"
+    },
+    {
+      "n": 17,
+      "questionHtml": "When did Lenin die?",
+      "answerHtml": "21 January 1924"
+    },
+    {
+      "n": 18,
+      "questionHtml": "What position did Stalin use to build a bureaucratic power base from 1922?",
+      "answerHtml": "General Secretary"
+    },
+    {
+      "n": 19,
+      "questionHtml": "Who did Stalin ally with against Trotsky in the mid-1920s?",
+      "answerHtml": "Kamenev and Zinoviev"
+    },
+    {
+      "n": 20,
+      "questionHtml": "What was Stalin's slogan against Trotsky's \"Permanent Revolution\"?",
+      "answerHtml": "\"Socialism in One Country\""
+    },
+    {
+      "n": 21,
+      "questionHtml": "By what year was Trotsky exiled from the USSR?",
+      "answerHtml": "1929"
+    },
+    {
+      "n": 22,
+      "questionHtml": "What year did the First Five Year Plan begin?",
+      "answerHtml": "1928"
+    },
+    {
+      "n": 23,
+      "questionHtml": "What process began forcing peasant farms into collectives from 1929?",
+      "answerHtml": "Collectivisation"
+    },
+    {
+      "n": 24,
+      "questionHtml": "What term describes the Ukrainian famine of 1932–33?",
+      "answerHtml": "The Holodomor"
+    },
+    {
+      "n": 25,
+      "questionHtml": "Roughly what percentage of peasant households were collectivised by 1936?",
+      "answerHtml": "Around 90%"
+    },
+    {
+      "n": 26,
+      "questionHtml": "What showcase industrial city was built almost from nothing under the Five Year Plans?",
+      "answerHtml": "Magnitogorsk"
+    },
+    {
+      "n": 27,
+      "questionHtml": "What propaganda campaign celebrated \"record-breaking\" workers from 1935?",
+      "answerHtml": "Stakhanovism"
+    },
+    {
+      "n": 28,
+      "questionHtml": "What were Stalin's forced-labour camps called?",
+      "answerHtml": "The Gulag"
+    },
+    {
+      "n": 29,
+      "questionHtml": "What year were Zinoviev and Kamenev executed after a show trial?",
+      "answerHtml": "1936"
+    },
+    {
+      "n": 30,
+      "questionHtml": "What NKVD order set arrest and execution quotas in 1937?",
+      "answerHtml": "Order No. 00447"
+    },
+    {
+      "n": 31,
+      "questionHtml": "Roughly how many executions occurred during the Great Terror of 1937–38?",
+      "answerHtml": "Around 750,000"
+    },
+    {
+      "n": 32,
+      "questionHtml": "What official artistic style was enforced in the USSR from the 1930s?",
+      "answerHtml": "Socialist Realism"
+    },
+    {
+      "n": 33,
+      "questionHtml": "What year was the \"Stalin\" Constitution proclaimed?",
+      "answerHtml": "1936"
+    },
+    {
+      "n": 34,
+      "questionHtml": "What international communist organisation was founded in March 1919?",
+      "answerHtml": "The Comintern"
+    },
+    {
+      "n": 35,
+      "questionHtml": "In what year did the USSR join the League of Nations?",
+      "answerHtml": "1934"
+    },
+    {
+      "n": 36,
+      "questionHtml": "What pact did Germany and the USSR sign on 23 August 1939?",
+      "answerHtml": "The Nazi–Soviet (Molotov–Ribbentrop) Pact"
+    },
+    {
+      "n": 37,
+      "questionHtml": "What did the Pact's secret protocol divide between Germany and the USSR?",
+      "answerHtml": "Poland and the Baltic states/Eastern Europe"
+    },
+    {
+      "n": 38,
+      "questionHtml": "What war did the USSR fight against Finland from November 1939?",
+      "answerHtml": "The Winter War"
+    },
+    {
+      "n": 39,
+      "questionHtml": "On what date did Germany launch Operation Barbarossa?",
+      "answerHtml": "22 June 1941"
+    },
+    {
+      "n": 40,
+      "questionHtml": "Roughly how many German troops invaded in Operation Barbarossa?",
+      "answerHtml": "Over 3 million"
+    },
+    {
+      "n": 41,
+      "questionHtml": "By what date had the German advance stalled near Moscow in 1941?",
+      "answerHtml": "December 1941"
+    },
+    {
+      "n": 42,
+      "questionHtml": "Roughly how many of the Red Army's five marshals were executed in the Purges?",
+      "answerHtml": "3 of 5"
+    }
+  ],
+  "quiz": [
+    {
+      "n": 1,
+      "answer": "a",
+      "questionHtml": "What event forced Tsar Nicholas II to abdicate?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The February/March Revolution of 1917"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The October Revolution"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Treaty of Brest-Litovsk"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Kronstadt Rebellion"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "b",
+      "questionHtml": "What did Lenin's April Theses (1917) call for?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Continued support for the Provisional Government"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Immediate transfer of power to the Soviets"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A coalition with the Mensheviks"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Russia remaining in WWI"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "c",
+      "questionHtml": "What was the outcome of the Treaty of Brest-Litovsk (1918)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Russia gained substantial new territory"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Tsar and monarchy were restored"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Russia exited WWI but ceded significant territory"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Bolshevik government was overthrown"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "d",
+      "questionHtml": "What did War Communism during the Civil War (1918-21) primarily involve?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A return to free-market trade and private enterprise"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A formal alliance between Reds and Whites"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The abolition of the Communist Party itself"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Forced grain requisitioning and nationalised industry"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "a",
+      "questionHtml": "What triggered the introduction of the New Economic Policy in 1921?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Economic collapse and the Kronstadt Rebellion"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The death of Lenin in early 1924"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The signing of the Nazi-Soviet Pact"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Stalin's consolidation of power"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "b",
+      "questionHtml": "Why is Lenin's Testament (1922-23) significant?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It praised Stalin's leadership without reservation"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It warned of Stalin's growing power and urged his removal"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It called for renewed war against Germany"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It formally established the Five Year Plans"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "c",
+      "questionHtml": "What did Stalin's position as General Secretary from 1922 allow him to do?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Direct personal control over the Red Army"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The authority to negotiate the Nazi-Soviet Pact"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The ability to build loyalty through Party appointments"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Formal leadership of the October Revolution"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "d",
+      "questionHtml": "What ideological slogan did Stalin use against Trotsky's “Permanent Revolution”?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "“Peace, Land, Bread”"
+        },
+        {
+          "opt": "b",
+          "textHtml": "“War Communism”"
+        },
+        {
+          "opt": "c",
+          "textHtml": "“All Power to the Soviets”"
+        },
+        {
+          "opt": "d",
+          "textHtml": "“Socialism in One Country”"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "a",
+      "questionHtml": "What did collectivisation from 1929 primarily involve?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Forcibly merging peasant farms into state-run collectives"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Encouraging voluntary cooperative farming only"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Privatising previously state-owned Soviet industry"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Deliberately ending all Soviet grain production"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "b",
+      "questionHtml": "What does the term “Holodomor” refer to?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A Soviet space exploration programme"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The devastating Ukrainian famine of 1932-33"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A specific Five Year Plan production target"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A politically staged Stalinist show trial"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "c",
+      "questionHtml": "What was the purpose of the Gulag system?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A network of state farms"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Soviet secret police"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A system of forced-labour camps"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A military training academy"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "d",
+      "questionHtml": "What was Stakhanovism (from 1935)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An open campaign criticising Soviet industrial failures"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A policy focused solely on farm collectivisation"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A Soviet foreign policy initiative toward Germany"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A propaganda campaign celebrating “record-breaking” workers"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "a",
+      "questionHtml": "What was NKVD Order No. 00447 (1937)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An order setting arrest and execution quotas in the Terror"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A secret clause within the Nazi-Soviet Pact"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A specific Five Year Plan production target"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A directive on Soviet relations with Japan"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "b",
+      "questionHtml": "What was the primary purpose of Socialist Realism in Soviet culture?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To openly criticise the Soviet government"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To glorify communist progress in officially approved art"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To promote foreign, Western artistic styles"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To document conditions inside the Gulag system"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "c",
+      "questionHtml": "How did the Nazi-Soviet Pact (August 1939) primarily serve Stalin's interests?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "By guaranteeing permanent peace with Germany"
+        },
+        {
+          "opt": "b",
+          "textHtml": "By allying the USSR with Britain and France"
+        },
+        {
+          "opt": "c",
+          "textHtml": "By buying time and securing territorial buffer zones"
+        },
+        {
+          "opt": "d",
+          "textHtml": "By ending Soviet industrialisation"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "d",
+      "questionHtml": "What did the Winter War (1939-40) against Finland reveal?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Overwhelming Soviet military superiority"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A swift, decisive Soviet victory with minimal losses"
+        },
+        {
+          "opt": "c",
+          "textHtml": "That Finland would soon join the USSR"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Weaknesses in the Red Army caused by the Purges"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "a",
+      "questionHtml": "Why was Operation Barbarossa (June 1941) significant?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It was Germany's invasion of the USSR, breaking their pact"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It was a defensive operation launched by the USSR"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It marked the formal end of the Second World War"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It was an attack launched by the USSR against Japan"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "answer": "b",
+      "questionHtml": "Why did the Bolsheviks dissolve the Constituent Assembly in January 1918?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Bolsheviks had won a clear outright majority"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They lost the vote and refused to accept the result"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The exiled Tsar personally demanded its closure"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It had already voted to end the war with Germany"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "answer": "c",
+      "questionHtml": "What was the Cheka?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An official Soviet trade union body"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A rural peasant farming collective"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Bolshevik secret police, founded in 1917"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Red Army's senior officer corps"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "answer": "d",
+      "questionHtml": "Why was the Kronstadt Rebellion (1921) significant?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It was organised and led by White Army generals"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It was crushed with no lasting political consequences"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It was secretly supported by the exiled Tsar's family"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It was a revolt by loyalist sailors against War Communism"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "answer": "a",
+      "questionHtml": "Which best explains Stalin's strategy for defeating his rivals in the 1920s?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Forming and discarding tactical alliances to isolate rivals"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Confronting and fighting all of his rivals simultaneously"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Relying solely on Red Army loyalty for power"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Appealing directly to Western governments for support"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "answer": "b",
+      "questionHtml": "What was the significance of the 1936 show trials of Zinoviev and Kamenev?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The defendants were acquitted of all charges"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They were executed after confessing to fabricated charges"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They went on to lead Stalin's government"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Their trials marked the formal end of the purges"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "answer": "c",
+      "questionHtml": "Which republics were unified to form the USSR in December 1922?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Germany, Austria, Poland, and Hungary jointly"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Britain, France, Russia, and the United States"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Russia, Ukraine, Belarus, and Transcaucasia"
+        },
+        {
+          "opt": "d",
+          "textHtml": "China, Japan, Russia, and Mongolia jointly"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "answer": "d",
+      "questionHtml": "What was the main aim of the Comintern, founded in 1919?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To manage and coordinate Soviet agricultural policy"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To negotiate a lasting peace settlement with Germany"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To organise and command the Red Army"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To coordinate and export communist revolution abroad"
+        }
+      ]
+    },
+    {
+      "n": 25,
+      "answer": "a",
+      "questionHtml": "Roughly how many executions occurred during the Great Terror of 1937-38?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Around 750,000"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Around 7,500"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Around 75,000"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Around 7.5 million"
+        }
+      ]
+    },
+    {
+      "n": 26,
+      "answer": "b",
+      "questionHtml": "Why is the First Five Year Plan (1928-32) historically significant?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It effectively ended Soviet industrial production"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It drove rapid industrialisation, especially in heavy industry"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It focused exclusively on agricultural output"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It was abandoned within its first year"
+        }
+      ]
+    },
+    {
+      "n": 27,
+      "answer": "c",
+      "questionHtml": "What best explains the Bolsheviks' swift, near-bloodless seizure of power in October 1917?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Provisional Government enjoyed strong popular support"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Tsar personally led the defence of Petrograd"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Provisional Government's authority had already collapsed"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Britain intervened militarily to support the Bolsheviks"
+        }
+      ]
+    },
+    {
+      "n": 28,
+      "answer": "d",
+      "questionHtml": "What was the ultimate fate of Leon Trotsky under Stalin?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "He became Stalin's trusted deputy"
+        },
+        {
+          "opt": "b",
+          "textHtml": "He commanded the Red Army until the war's end"
+        },
+        {
+          "opt": "c",
+          "textHtml": "He personally negotiated the Nazi-Soviet Pact"
+        },
+        {
+          "opt": "d",
+          "textHtml": "He was expelled from the Party and exiled abroad"
+        }
+      ]
+    },
+    {
+      "n": 29,
+      "answer": "a",
+      "questionHtml": "Which best describes the relationship between Soviet ideology and foreign policy over time?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Policy shifted toward pragmatic state security concerns"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Ideology alone determined every decision throughout this period"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The USSR avoided formal diplomacy altogether"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Ideology was abandoned completely immediately after 1917"
+        }
+      ]
+    },
+    {
+      "n": 30,
+      "answer": "b",
+      "questionHtml": "What was the significance of the 10th Party Congress (1921)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It marked the formal beginning of the Cold War"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It approved the NEP while banning internal factions"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It ordered the execution of Leon Trotsky"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It established the postwar Warsaw Pact alliance"
+        }
+      ]
+    },
+    {
+      "n": 31,
+      "answer": "c",
+      "questionHtml": "Why did Stalin target the Red Army officer corps in the Purges?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To improve military efficiency ahead of Barbarossa"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Because officers had refused Communist Party membership"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Paranoia about disloyalty, which weakened wartime leadership"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It had little real effect on wartime readiness"
+        }
+      ]
+    },
+    {
+      "n": 32,
+      "answer": "d",
+      "questionHtml": "In what way did the NEP mark a departure from War Communism?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It intensified forced grain requisitioning further"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It formally abolished the Communist Party"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It nationalised all remaining private property"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It reintroduced limited private trade and a tax in kind"
+        }
+      ]
+    }
+  ]
+}

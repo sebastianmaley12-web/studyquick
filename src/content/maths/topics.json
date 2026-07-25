@@ -1,0 +1,2625 @@
+{
+  "topics": [
+    {
+      "code": "MS-A1",
+      "name": "Formulae and Equations",
+      "strand": "Algebra",
+      "year": 11,
+      "blurb": "Substituting into formulae from work, health and science contexts, then solving the linear equations that come out of them.",
+      "formulae": [
+        "Substitution: replace every pronumeral, then evaluate — brackets and powers first",
+        "Solving linear equations: do the same operation to both sides; unknowns to one side",
+        "Changing the subject: undo operations in reverse order",
+        "Rounding: significant figures count from the first non-zero digit"
+      ],
+      "dotpoints": [
+        "Substitute numerical values into formulae from vocational and other contexts",
+        "Solve linear equations, including those arising from substitution into a formula",
+        "Change the subject of a formula",
+        "Use appropriate rounding, significant figures and units in practical problems"
+      ],
+      "questions": [
+        {
+          "id": "a1q1",
+          "type": "num",
+          "q": "The area of a circle is <em>A</em> = &pi;<em>r</em><sup>2</sup>. Find the area of a circular garden bed of radius 6.4 m, correct to 2 decimal places.",
+          "ans": 128.68,
+          "tol": 0.25736,
+          "unit": "m²",
+          "prefix": "",
+          "marks": 2,
+          "sol": "A = &pi; &times; 6.4<sup>2</sup> = &pi; &times; 40.96 = 128.68 m<sup>2</sup>"
+        },
+        {
+          "id": "a1q2",
+          "type": "num",
+          "q": "Clark's formula gives a child's dosage as <em>D</em> = (weight in kg &times; adult dosage) &divide; 70. Find the dosage for a 28 kg child when the adult dosage is 500 mg.",
+          "ans": 200,
+          "tol": 0.4,
+          "unit": "mg",
+          "prefix": "",
+          "marks": 2,
+          "sol": "D = (28 &times; 500) &divide; 70 = 14&thinsp;000 &divide; 70 = 200 mg"
+        },
+        {
+          "id": "a1q3",
+          "type": "num",
+          "q": "Solve 5<em>x</em> &minus; 7 = 3<em>x</em> + 11.",
+          "ans": 9,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "5x &minus; 3x = 11 + 7, so 2x = 18 and x = 9"
+        },
+        {
+          "id": "a1q4",
+          "type": "num",
+          "q": "Using <em>v</em> = <em>u</em> + <em>at</em>, find <em>a</em> when <em>v</em> = 32, <em>u</em> = 8 and <em>t</em> = 6.",
+          "ans": 4,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "32 = 8 + 6a, so 6a = 24 and a = 4"
+        },
+        {
+          "id": "a1q5",
+          "type": "num",
+          "q": "Solve (2<em>x</em> + 1) &divide; 3 = 5.",
+          "ans": 7,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Multiply both sides by 3: 2x + 1 = 15, so 2x = 14 and x = 7"
+        },
+        {
+          "id": "a1q6",
+          "type": "num",
+          "q": "Body mass index is BMI = <em>m</em> &divide; <em>h</em><sup>2</sup>, with mass in kg and height in metres. Find the BMI of a person of mass 78 kg and height 1.72 m, correct to 1 decimal place.",
+          "ans": 26.4,
+          "tol": 0.0528,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "BMI = 78 &divide; 1.72<sup>2</sup> = 78 &divide; 2.9584 = 26.37 &asymp; 26.4"
+        },
+        {
+          "id": "a1q7",
+          "type": "num",
+          "q": "A formula for maximum heart rate is MHR = 208 &minus; 0.7 &times; age (in beats per minute). Find the MHR of a 17-year-old.",
+          "ans": 196.1,
+          "tol": 0.3922,
+          "unit": "bpm",
+          "prefix": "",
+          "marks": 1,
+          "sol": "MHR = 208 &minus; 0.7 &times; 17 = 208 &minus; 11.9 = 196.1 bpm"
+        },
+        {
+          "id": "a1q8",
+          "type": "num",
+          "q": "The sum of the interior angles of a polygon is <em>S</em> = 180(<em>n</em> &minus; 2) degrees. Find the sum for a nonagon (<em>n</em> = 9).",
+          "ans": 1260,
+          "tol": 0.001,
+          "unit": "°",
+          "prefix": "",
+          "marks": 1,
+          "sol": "S = 180 &times; (9 &minus; 2) = 180 &times; 7 = 1260&deg;"
+        },
+        {
+          "id": "a1q9",
+          "type": "num",
+          "q": "The area of a triangle is <em>A</em> = &frac12;<em>bh</em>. Find <em>h</em> when <em>A</em> = 84 cm<sup>2</sup> and <em>b</em> = 14 cm.",
+          "ans": 12,
+          "tol": 0.001,
+          "unit": "cm",
+          "prefix": "",
+          "marks": 2,
+          "sol": "84 = &frac12; &times; 14 &times; h = 7h, so h = 12 cm"
+        },
+        {
+          "id": "a1q10",
+          "type": "num",
+          "q": "The area of a trapezium is <em>A</em> = &frac12;<em>h</em>(<em>a</em> + <em>b</em>). Find <em>h</em> when <em>A</em> = 96 m<sup>2</sup>, <em>a</em> = 9 m and <em>b</em> = 15 m.",
+          "ans": 8,
+          "tol": 0.001,
+          "unit": "m",
+          "prefix": "",
+          "marks": 2,
+          "sol": "96 = &frac12; &times; h &times; (9 + 15) = 12h, so h = 8 m"
+        },
+        {
+          "id": "a1q11",
+          "type": "num",
+          "q": "Solve 3(2<em>x</em> &minus; 4) = 18.",
+          "ans": 5,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "6x &minus; 12 = 18, so 6x = 30 and x = 5"
+        },
+        {
+          "id": "a1q12",
+          "type": "num",
+          "q": "The period of a pendulum is <em>T</em> = 2&pi;&radic;(<em>L</em>&divide;<em>g</em>) seconds. Find <em>T</em> for <em>L</em> = 1.8 m and <em>g</em> = 9.8 m/s<sup>2</sup>, correct to 2 decimal places.",
+          "ans": 2.69,
+          "tol": 0.00538,
+          "unit": "s",
+          "prefix": "",
+          "marks": 2,
+          "sol": "T = 2&pi;&radic;(1.8 &divide; 9.8) = 2&pi; &times; &radic;0.18367 = 2&pi; &times; 0.42857 = 2.69 s"
+        },
+        {
+          "id": "a1q13",
+          "type": "mc",
+          "q": "What is 45&thinsp;780 written correct to 2 significant figures?",
+          "opts": ["45&thinsp;000", "46&thinsp;000", "45&thinsp;800", "45&thinsp;780"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The first two significant figures are 4 and 5. The next digit is 7, so round up: 46&thinsp;000."
+        }
+      ],
+      "slug": "a1"
+    },
+    {
+      "code": "MS-A2",
+      "name": "Linear Relationships",
+      "strand": "Algebra",
+      "year": 11,
+      "blurb": "Straight-line models: gradient, intercepts, direct variation, and reading meaning out of both numbers in y = mx + c.",
+      "formulae": [
+        "Gradient m = (y&#8322; &minus; y&#8321;) &divide; (x&#8322; &minus; x&#8321;)",
+        "y = mx + c — m is the rate of change, c is the starting value",
+        "Direct variation: y = kx, a straight line through the origin",
+        "x-intercept: set y = 0. y-intercept: set x = 0"
+      ],
+      "dotpoints": [
+        "Model and graph linear relationships from practical situations",
+        "Calculate and interpret the gradient and intercept of a linear model",
+        "Solve problems using direct variation, y = kx",
+        "Construct and use conversion graphs and linear equations"
+      ],
+      "questions": [
+        {
+          "id": "a2q1",
+          "type": "num",
+          "q": "Find the gradient of the line through (2, 5) and (8, 23).",
+          "ans": 3,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "m = (23 &minus; 5) &divide; (8 &minus; 2) = 18 &divide; 6 = 3"
+        },
+        {
+          "id": "a2q2",
+          "type": "num",
+          "q": "A line has equation <em>y</em> = &minus;4<em>x</em> + 7. Find <em>y</em> when <em>x</em> = 3.",
+          "ans": -5,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "y = &minus;4 &times; 3 + 7 = &minus;12 + 7 = &minus;5"
+        },
+        {
+          "id": "a2q3",
+          "type": "num",
+          "q": "A plumber charges <em>C</em> = 45 + 30<em>h</em> dollars for a job lasting <em>h</em> hours. Find the charge for a 5-hour job.",
+          "ans": 195,
+          "tol": 0.001,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "C = 45 + 30 &times; 5 = 45 + 150 = $195.00"
+        },
+        {
+          "id": "a2q4",
+          "type": "mc",
+          "q": "For the plumber&rsquo;s charge <em>C</em> = 45 + 30<em>h</em>, what does the gradient of 30 represent?",
+          "opts": [
+            "The call-out fee",
+            "The hourly rate charged",
+            "The total charge",
+            "The number of hours worked"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The gradient is the rate of change of C with respect to h — the cost per extra hour, i.e. $30 per hour. The 45 is the fixed call-out fee."
+        },
+        {
+          "id": "a2q5",
+          "type": "num",
+          "q": "Find the <em>x</em>-intercept of <em>y</em> = 2<em>x</em> &minus; 9.",
+          "ans": 4.5,
+          "tol": 0.009,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "At the x-intercept y = 0, so 2x &minus; 9 = 0, giving x = 4.5"
+        },
+        {
+          "id": "a2q6",
+          "type": "num",
+          "q": "<em>y</em> varies directly with <em>x</em>, and <em>y</em> = 45 when <em>x</em> = 12. Find <em>y</em> when <em>x</em> = 20.",
+          "ans": 75,
+          "tol": 0.15,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "y = kx, so 45 = 12k and k = 3.75. Then y = 3.75 &times; 20 = 75"
+        },
+        {
+          "id": "a2q7",
+          "type": "num",
+          "q": "On a certain day 1 AUD buys 0.63 USD. Convert 480 AUD to USD.",
+          "ans": 302.4,
+          "tol": 0.6048,
+          "unit": "USD",
+          "prefix": "",
+          "marks": 1,
+          "sol": "USD = 480 &times; 0.63 = 302.4"
+        },
+        {
+          "id": "a2q8",
+          "type": "mc",
+          "q": "Which point lies on the line <em>y</em> = 3<em>x</em> &minus; 1?",
+          "opts": ["(4, 11)", "(4, 13)", "(2, 7)", "(3, 10)"],
+          "ans": 0,
+          "marks": 1,
+          "sol": "Substituting x = 4: y = 3 &times; 4 &minus; 1 = 11. So (4, 11) lies on the line."
+        },
+        {
+          "id": "a2q9",
+          "type": "num",
+          "q": "Find the gradient of the line through (&minus;3, 8) and (5, &minus;4).",
+          "ans": -1.5,
+          "tol": 0.003,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "m = (&minus;4 &minus; 8) &divide; (5 &minus; (&minus;3)) = &minus;12 &divide; 8 = -1.5"
+        },
+        {
+          "id": "a2q10",
+          "type": "num",
+          "q": "A phone plan costs <em>C</em> = 25 + 0.15<em>t</em> dollars, where <em>t</em> is the number of call minutes. How many minutes were used in a month costing $43?",
+          "ans": 120,
+          "tol": 0.001,
+          "unit": "minutes",
+          "prefix": "",
+          "marks": 2,
+          "sol": "43 = 25 + 0.15t, so 0.15t = 18 and t = 120 minutes"
+        },
+        {
+          "id": "a2q11",
+          "type": "mc",
+          "q": "In the model <em>C</em> = 25 + 0.15<em>t</em>, what does the <em>y</em>-intercept of 25 represent?",
+          "opts": [
+            "The cost per minute",
+            "The fixed monthly access fee",
+            "The number of free minutes",
+            "The maximum monthly cost"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The y-intercept is the value of C when t = 0 — the cost before any calls are made, i.e. the fixed monthly fee of $25."
+        },
+        {
+          "id": "a2q12",
+          "type": "num",
+          "q": "Temperature converts by <em>F</em> = 1.8<em>C</em> + 32. Convert 24&deg;C to &deg;F.",
+          "ans": 75.2,
+          "tol": 0.1504,
+          "unit": "°F",
+          "prefix": "",
+          "marks": 1,
+          "sol": "F = 1.8 &times; 24 + 32 = 43.2 + 32 = 75.2&deg;F"
+        }
+      ],
+      "slug": "a2"
+    },
+    {
+      "code": "MS-M1",
+      "name": "Applications of Measurement",
+      "strand": "Measurement",
+      "year": 11,
+      "blurb": "Error and accuracy in measurement, unit conversion, perimeter, area and volume of practical shapes, and units of energy and mass.",
+      "formulae": [
+        "Absolute error = &frac12; &times; smallest unit; percentage error = absolute error &divide; measurement &times; 100",
+        "Area: circle &pi;r&sup2;, trapezium &frac12;h(a+b); Volume: prism Ah, cylinder &pi;r&sup2;h, sphere &#8532;&pi;r&sup3;",
+        "Trapezoidal rule: A &asymp; h&divide;2 [(d<sub>f</sub> + d<sub>l</sub>) + 2(all other offsets)]",
+        "1 m&sup2; = 10&thinsp;000 cm&sup2;; 1 m&sup3; = 1000 L; 1 kWh = energy of 1 kW for 1 hour"
+      ],
+      "dotpoints": [
+        "Calculate absolute and percentage error, and use significant figures",
+        "Convert between units of length, area, volume, capacity and mass",
+        "Calculate perimeter and area of composite shapes; use the trapezoidal rule",
+        "Calculate surface area and volume of prisms, cylinders, spheres and composite solids",
+        "Use units of energy and mass in practical contexts, including energy consumption"
+      ],
+      "questions": [
+        {
+          "id": "m1q1",
+          "type": "num",
+          "q": "A length is measured as 14.3 cm, correct to the nearest 0.1 cm. State the absolute error.",
+          "ans": 0.05,
+          "tol": 0.001,
+          "unit": "cm",
+          "prefix": "",
+          "marks": 1,
+          "sol": "The absolute error is half the smallest unit of measurement: &frac12; &times; 0.1 = 0.05 cm"
+        },
+        {
+          "id": "m1q2",
+          "type": "num",
+          "q": "A length is recorded as 24.5 cm, correct to the nearest 0.5 cm. Find the percentage error, correct to 2 decimal places.",
+          "ans": 1.02,
+          "tol": 0.00204,
+          "unit": "%",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Absolute error = &frac12; &times; 0.5 = 0.25 cm. Percentage error = 0.25 &divide; 24.5 &times; 100 = 1.02%"
+        },
+        {
+          "id": "m1q3",
+          "type": "num",
+          "q": "Convert 3.5 m<sup>2</sup> to cm<sup>2</sup>.",
+          "ans": 35000,
+          "tol": 0.001,
+          "unit": "cm²",
+          "prefix": "",
+          "marks": 2,
+          "sol": "1 m<sup>2</sup> = 100 &times; 100 = 10&thinsp;000 cm<sup>2</sup>, so 3.5 m<sup>2</sup> = 3.5 &times; 10&thinsp;000 = 35&thinsp;000 cm<sup>2</sup>"
+        },
+        {
+          "id": "m1q4",
+          "type": "num",
+          "q": "A shape is a rectangle 12 m by 8 m with a semicircle of diameter 8 m attached to one end. Find its total area, correct to 2 decimal places.",
+          "ans": 121.13,
+          "tol": 0.24226,
+          "unit": "m²",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Rectangle = 12 &times; 8 = 96 m<sup>2</sup>. Semicircle = &frac12;&pi; &times; 4<sup>2</sup> = 25.13 m<sup>2</sup>. Total = 121.13 m<sup>2</sup>"
+        },
+        {
+          "id": "m1q5",
+          "type": "num",
+          "q": "A cylindrical water tank has radius 0.45 m and height 1.8 m. Find its volume, correct to 3 decimal places.",
+          "ans": 1.145,
+          "tol": 0.00229,
+          "unit": "m³",
+          "prefix": "",
+          "marks": 2,
+          "sol": "V = &pi;r<sup>2</sup>h = &pi; &times; 0.45<sup>2</sup> &times; 1.8 = &pi; &times; 0.2025 &times; 1.8 = 1.145 m<sup>3</sup>"
+        },
+        {
+          "id": "m1q6",
+          "type": "num",
+          "q": "A container has a volume of 2400 cm<sup>3</sup>. Find its capacity in litres.",
+          "ans": 2.4,
+          "tol": 0.0048,
+          "unit": "L",
+          "prefix": "",
+          "marks": 1,
+          "sol": "1000 cm<sup>3</sup> = 1 L, so 2400 cm<sup>3</sup> = 2400 &divide; 1000 = 2.4 L"
+        },
+        {
+          "id": "m1q7",
+          "type": "num",
+          "q": "Find the surface area of a rectangular prism measuring 3 cm by 4 cm by 5 cm.",
+          "ans": 94,
+          "tol": 0.001,
+          "unit": "cm²",
+          "prefix": "",
+          "marks": 2,
+          "sol": "SA = 2(lw + lh + wh) = 2(12 + 15 + 20) = 2 &times; 47 = 94 cm<sup>2</sup>"
+        },
+        {
+          "id": "m1q8",
+          "type": "num",
+          "q": "A block of land has offsets of 0, 5.2, 7.8, 6.4 and 0 metres taken at 4 m intervals along a 16 m baseline. Use the trapezoidal rule to estimate its area.",
+          "ans": 77.6,
+          "tol": 0.1552,
+          "unit": "m²",
+          "prefix": "",
+          "marks": 3,
+          "sol": "A = h&divide;2 &times; [(first + last) + 2 &times; (the rest)] = 4&divide;2 &times; [(0 + 0) + 2(5.2 + 7.8 + 6.4)] = 2 &times; 2 &times; 19.4 = 77.6 m<sup>2</sup>"
+        },
+        {
+          "id": "m1q9",
+          "type": "num",
+          "q": "A 2.2 kW heater runs for 5.5 hours. Electricity costs 32 cents per kWh. Find the cost of running the heater.",
+          "ans": 3.87,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Energy = 2.2 &times; 5.5 = 12.1 kWh. Cost = 12.1 &times; $0.32 = $3.87"
+        },
+        {
+          "id": "m1q10",
+          "type": "num",
+          "q": "A cereal is labelled 1850 kJ per 100 g. Find the energy in a 250 g serving.",
+          "ans": 4625,
+          "tol": 0.001,
+          "unit": "kJ",
+          "prefix": "",
+          "marks": 2,
+          "sol": "250 g = 2.5 &times; 100 g, so energy = 1850 &times; 2.5 = 4,625 kJ"
+        },
+        {
+          "id": "m1q11",
+          "type": "mc",
+          "q": "Write 0.00042 m in scientific notation.",
+          "opts": [
+            "4.2 &times; 10<sup>&minus;4</sup> m",
+            "4.2 &times; 10<sup>4</sup> m",
+            "42 &times; 10<sup>&minus;5</sup> m",
+            "4.2 &times; 10<sup>&minus;3</sup> m"
+          ],
+          "ans": 0,
+          "marks": 1,
+          "sol": "Move the decimal point 4 places right to get 4.2, so the index is &minus;4: 4.2 &times; 10<sup>&minus;4</sup> m."
+        },
+        {
+          "id": "m1q12",
+          "type": "num",
+          "q": "A silo is a cylinder of radius 3 m and height 10 m topped by a hemisphere of radius 3 m. Find its total volume, correct to 2 decimal places.",
+          "ans": 339.29,
+          "tol": 0.67858,
+          "unit": "m³",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Cylinder = &pi; &times; 3<sup>2</sup> &times; 10 = 282.74 m<sup>3</sup>. Hemisphere = &#8532;&pi; &times; 3<sup>3</sup> = 56.55 m<sup>3</sup>. Total = 339.29 m<sup>3</sup>"
+        }
+      ],
+      "slug": "m1"
+    },
+    {
+      "code": "MS-M2",
+      "name": "Working with Time",
+      "strand": "Measurement",
+      "year": 11,
+      "blurb": "The 24-hour clock, durations, timetables, time zones and the relationship between longitude and time.",
+      "formulae": [
+        "24-hour time: add 12 to pm hours (4:35 pm &rarr; 1635)",
+        "Decimal hours: minutes &divide; 60 (45 min = 0.75 h)",
+        "The Earth rotates 15&deg; of longitude per hour",
+        "Time difference between zones = difference in UTC offsets; east is ahead"
+      ],
+      "dotpoints": [
+        "Use 24-hour time and calculate time intervals, including across midnight",
+        "Interpret and use timetables",
+        "Solve problems involving time zones, UTC offsets and daylight saving",
+        "Relate longitude to time differences"
+      ],
+      "questions": [
+        {
+          "id": "m2q1",
+          "type": "num",
+          "q": "A worker starts at 07:45 and finishes at 15:20. How many minutes is this?",
+          "ans": 455,
+          "tol": 0.001,
+          "unit": "minutes",
+          "prefix": "",
+          "marks": 2,
+          "sol": "07:45 to 15:20 is 7 hours 35 minutes = 7 &times; 60 + 35 = 455 minutes"
+        },
+        {
+          "id": "m2q2",
+          "type": "mc",
+          "q": "Perth (UTC+8) and Sydney (UTC+10) are in different time zones. When it is 2:00 pm in Sydney, what time is it in Perth?",
+          "opts": ["12:00 noon", "4:00 pm", "10:00 am", "1:00 pm"],
+          "ans": 0,
+          "marks": 1,
+          "sol": "Perth is 2 hours behind Sydney (10 &minus; 8 = 2), so 2:00 pm &minus; 2 hours = 12:00 noon."
+        },
+        {
+          "id": "m2q3",
+          "type": "num",
+          "q": "Convert 7 hours 45 minutes to decimal hours.",
+          "ans": 7.75,
+          "tol": 0.0155,
+          "unit": "hours",
+          "prefix": "",
+          "marks": 1,
+          "sol": "45 minutes = 45 &divide; 60 = 0.75 hours, so the total is 7.75 hours"
+        },
+        {
+          "id": "m2q4",
+          "type": "num",
+          "q": "Write 4:35 pm in 24-hour time. (Give your answer as a 4-digit number, e.g. 0930.)",
+          "ans": 1635,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Add 12 hours to pm times: 4:35 + 12:00 = 16:35, written 1635"
+        },
+        {
+          "id": "m2q5",
+          "type": "num",
+          "q": "A night shift runs from 22:45 to 06:20 the next morning. How many minutes long is it?",
+          "ans": 455,
+          "tol": 0.001,
+          "unit": "minutes",
+          "prefix": "",
+          "marks": 2,
+          "sol": "22:45 to midnight is 1 h 15 min; midnight to 06:20 is 6 h 20 min. Total = 7 h 35 min = 455 minutes"
+        },
+        {
+          "id": "m2q6",
+          "type": "num",
+          "q": "Two places lie on longitudes 135&deg;E and 60&deg;E. What is the time difference between them, in hours?",
+          "ans": 5,
+          "tol": 0.001,
+          "unit": "hours",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The Earth turns 15&deg; per hour. The difference is 135 &minus; 60 = 75&deg;, so 75 &divide; 15 = 5 hours"
+        },
+        {
+          "id": "m2q7",
+          "type": "num",
+          "q": "A bus leaves at 07:52 and the trip takes 1 hour 18 minutes. Give the arrival time in 24-hour time as a 4-digit number.",
+          "ans": 910,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "07:52 + 1 h = 08:52, then + 18 min = 09:10, written 0910"
+        },
+        {
+          "id": "m2q8",
+          "type": "mc",
+          "q": "When daylight saving begins in NSW, clocks are put forward one hour. A flight leaves at 1:30 am standard time on that morning. What is the new local time?",
+          "opts": ["12:30 am", "2:30 am", "1:30 am", "3:30 am"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "Putting clocks forward one hour adds an hour to the reading: 1:30 am becomes 2:30 am."
+        },
+        {
+          "id": "m2q9",
+          "type": "num",
+          "q": "A shift runs from 6:30 am to 3:00 pm with a 45-minute unpaid break. How many paid hours are worked?",
+          "ans": 7.75,
+          "tol": 0.0155,
+          "unit": "hours",
+          "prefix": "",
+          "marks": 2,
+          "sol": "6:30 am to 3:00 pm is 8.5 hours. Subtract the 0.75 h break: 7.75 hours"
+        },
+        {
+          "id": "m2q10",
+          "type": "num",
+          "q": "3.4 hours is 3 hours and how many minutes?",
+          "ans": 24,
+          "tol": 0.001,
+          "unit": "minutes",
+          "prefix": "",
+          "marks": 1,
+          "sol": "0.4 &times; 60 = 24 minutes, so 3.4 hours = 3 hours 24 minutes"
+        },
+        {
+          "id": "m2q11",
+          "type": "mc",
+          "q": "Sydney is UTC+10. When it is 09:00 in Sydney, what is the UTC time?",
+          "opts": [
+            "19:00 the same day",
+            "23:00 the previous day",
+            "09:00 the same day",
+            "21:00 the previous day"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "Subtract 10 hours from 09:00: that takes you back past midnight to 23:00 on the previous day."
+        },
+        {
+          "id": "m2q12",
+          "type": "num",
+          "q": "A film runs for 2 hours 47 minutes and starts at 18:40. Give the finishing time as a 4-digit number in 24-hour time.",
+          "ans": 2127,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "18:40 + 2 h = 20:40, then + 47 min = 21:27, written 2127"
+        }
+      ],
+      "slug": "m2"
+    },
+    {
+      "code": "MS-F1",
+      "name": "Money Matters",
+      "strand": "Financial Mathematics",
+      "year": 11,
+      "blurb": "Earning and managing money: wages, overtime, commission, taxation, GST, discounts, budgeting and simple interest.",
+      "formulae": [
+        "Time-and-a-half = 1.5 &times; hourly rate; double time = 2 &times; hourly rate",
+        "Simple interest I = Prn (P principal, r rate per period as a decimal, n periods)",
+        "GST: price including GST = 1.1 &times; price before; GST = total &divide; 11",
+        "Net pay = gross pay &minus; deductions; percentage change = change &divide; original &times; 100"
+      ],
+      "dotpoints": [
+        "Calculate wages, salaries, overtime, commission, piecework and royalties",
+        "Calculate income tax using tax tables, plus the Medicare levy",
+        "Calculate GST, discounts and percentage change",
+        "Prepare and interpret a personal budget",
+        "Calculate simple interest and compare purchase options using unit pricing"
+      ],
+      "questions": [
+        {
+          "id": "f1q1",
+          "type": "num",
+          "q": "Mia earns $28.40 per hour. In one week she works 38 normal hours, 4 hours at time-and-a-half and 3 hours at double time. Find her gross weekly pay.",
+          "ans": 1420,
+          "tol": 0.284,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Normal: 38 &times; $28.40 = $1,079.20. Time-and-a-half: 4 &times; 1.5 &times; $28.40 = $170.40. Double time: 3 &times; 2 &times; $28.40 = $170.40. Total = $1,420.00"
+        },
+        {
+          "id": "f1q2",
+          "type": "num",
+          "q": "A salesperson is paid 3.5% commission. Find the commission on sales of $486&thinsp;000.",
+          "ans": 17010,
+          "tol": 3.402,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Commission = 3.5% &times; $486&thinsp;000 = 0.035 &times; 486&thinsp;000 = $17,010.00"
+        },
+        {
+          "id": "f1q3",
+          "type": "num",
+          "q": "An annual salary of $92&thinsp;040 is paid fortnightly. Find the gross fortnightly pay.",
+          "ans": 3540,
+          "tol": 0.708,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "There are 26 fortnights in a year: $92&thinsp;040 &divide; 26 = $3,540.00"
+        },
+        {
+          "id": "f1q4",
+          "type": "num",
+          "q": "Gross weekly pay is $1420.00. Deductions are $312.40 tax and $14.60 union fees. Find the net pay.",
+          "ans": 1093,
+          "tol": 0.2186,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "Net = $1420.00 &minus; $312.40 &minus; $14.60 = $1,093.00"
+        },
+        {
+          "id": "f1q5",
+          "type": "num",
+          "q": "A tax table states: for taxable income $45&thinsp;001&ndash;$120&thinsp;000, tax = $5092 plus 32.5c for each $1 over $45&thinsp;000. Find the tax payable on a taxable income of $68&thinsp;500.",
+          "ans": 12729.5,
+          "tol": 2.5459,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Excess = $68&thinsp;500 &minus; $45&thinsp;000 = $23&thinsp;500. Tax = $5092 + 0.325 &times; 23&thinsp;500 = $5092 + $7,637.50 = $12,729.50"
+        },
+        {
+          "id": "f1q6",
+          "type": "num",
+          "q": "The Medicare levy is 2% of taxable income. Find the levy on a taxable income of $68&thinsp;500.",
+          "ans": 1370,
+          "tol": 0.274,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "Levy = 0.02 &times; $68&thinsp;500 = $1,370.00"
+        },
+        {
+          "id": "f1q7",
+          "type": "num",
+          "q": "A television costs $847 including 10% GST. Find the amount of GST included in the price.",
+          "ans": 77,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "The price is 110% of the pre-GST price, so GST = price &divide; 11 = 847 &divide; 11 = $77.00"
+        },
+        {
+          "id": "f1q8",
+          "type": "num",
+          "q": "A lounge marked $1260 is discounted by 35%. Find the sale price.",
+          "ans": 819,
+          "tol": 0.1638,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Sale price = 65% of $1260 = 0.65 &times; 1260 = $819.00"
+        },
+        {
+          "id": "f1q9",
+          "type": "num",
+          "q": "Find the simple interest on $4800 invested at 6.4% p.a. for 30 months.",
+          "ans": 768,
+          "tol": 0.1536,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "30 months = 2.5 years. I = Prn = 4800 &times; 0.064 &times; 2.5 = $768.00"
+        },
+        {
+          "id": "f1q10",
+          "type": "num",
+          "q": "Weekly income is $1250. Weekly expenses are rent $420, food $185, transport $96, savings $240 and other $131. Find the weekly surplus.",
+          "ans": 178,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Total expenses = $1,072.00. Surplus = $1250 &minus; $1,072.00 = $178.00"
+        },
+        {
+          "id": "f1q11",
+          "type": "num",
+          "q": "Juice is sold as 1.25 L for $3.45 or 2 L for $5.20. Find the unit price (per litre) of the better buy, correct to the nearest cent.",
+          "ans": 2.6,
+          "tol": 0.05,
+          "unit": "$/L",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "1.25 L: $3.45 &divide; 1.25 = $2.76/L. 2 L: $5.20 &divide; 2 = $2.60/L. The 2 L bottle is the better buy at $2.60 per litre"
+        },
+        {
+          "id": "f1q12",
+          "type": "num",
+          "q": "A pieceworker is paid $1.85 for each unit assembled. Find the pay for 145 units.",
+          "ans": 268.25,
+          "tol": 0.05365,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "Pay = 145 &times; $1.85 = $268.25"
+        }
+      ],
+      "slug": "f1"
+    },
+    {
+      "code": "MS-S1",
+      "name": "Data Analysis",
+      "strand": "Statistical Analysis",
+      "year": 11,
+      "blurb": "Classifying and sampling data, displaying it, and summarising it with measures of centre and spread.",
+      "formulae": [
+        "Data types: categorical (nominal / ordinal) and numerical (discrete / continuous)",
+        "Mean = &Sigma;fx &divide; &Sigma;f; median is the middle value; mode is the most frequent",
+        "IQR = Q&#8323; &minus; Q&#8321;; an outlier lies below Q&#8321; &minus; 1.5&times;IQR or above Q&#8323; + 1.5&times;IQR",
+        "Positively skewed = long tail to the right; the mean is dragged towards the tail"
+      ],
+      "dotpoints": [
+        "Classify data as categorical (nominal/ordinal) or numerical (discrete/continuous)",
+        "Describe and use random, stratified and systematic sampling",
+        "Construct and interpret frequency tables, histograms, dot plots, stem-and-leaf plots and box plots",
+        "Calculate mean, median, mode, range, quartiles, IQR and standard deviation",
+        "Identify outliers and describe the shape of a distribution",
+        "Compare two data sets using summary statistics and displays"
+      ],
+      "questions": [
+        {
+          "id": "s1q1",
+          "type": "mc",
+          "q": "The number of siblings a student has is best described as which type of data?",
+          "opts": [
+            "Categorical nominal",
+            "Categorical ordinal",
+            "Numerical discrete",
+            "Numerical continuous"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "It is a count, so it is numerical, and it can only take whole-number values, so it is discrete."
+        },
+        {
+          "id": "s1q2",
+          "type": "num",
+          "q": "A school of 1400 students includes 210 in Year 12. A stratified sample of 120 students is taken. How many Year 12 students should be in the sample?",
+          "ans": 18,
+          "tol": 0.001,
+          "unit": "students",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Year 12 make up 210 &divide; 1400 = 15% of the school, so 0.15 &times; 120 = 18 students"
+        },
+        {
+          "id": "s1q3",
+          "type": "num",
+          "q": "A frequency table records scores 1, 2, 3, 4, 5 with frequencies 3, 7, 10, 6, 4. Find the mean, correct to 2 decimal places.",
+          "ans": 3.03,
+          "tol": 0.00606,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "&Sigma;fx = 3 + 14 + 30 + 24 + 20 = 91. &Sigma;f = 30. Mean = 91 &divide; 30 = 3.03"
+        },
+        {
+          "id": "s1q4",
+          "type": "num",
+          "q": "Find the median of 12, 15, 15, 18, 21, 24, 27, 31.",
+          "ans": 19.5,
+          "tol": 0.039,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "With 8 values the median is the average of the 4th and 5th: (18 + 21) &divide; 2 = 19.5"
+        },
+        {
+          "id": "s1q5",
+          "type": "num",
+          "q": "Find the mode of 12, 15, 15, 18, 21, 24, 27, 31.",
+          "ans": 15,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "15 appears twice; every other value appears once. The mode is 15"
+        },
+        {
+          "id": "s1q6",
+          "type": "num",
+          "q": "Find the interquartile range of 4, 7, 9, 11, 14, 16, 18, 21, 25, 30.",
+          "ans": 12,
+          "tol": 0.024,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "The median splits the data after the 5th value. Q&#8321; = median of the lower half = 9, Q&#8323; = median of the upper half = 21. IQR = 21 &minus; 9 = 12"
+        },
+        {
+          "id": "s1q7",
+          "type": "num",
+          "q": "A data set has Q&#8321; = 12 and Q&#8323; = 28. Find the upper fence used to identify outliers.",
+          "ans": 52,
+          "tol": 0.104,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "IQR = 28 &minus; 12 = 16. Upper fence = Q&#8323; + 1.5 &times; IQR = 28 + 24 = 52. Any value above 52 is an outlier"
+        },
+        {
+          "id": "s1q8",
+          "type": "num",
+          "q": "Find the population standard deviation of 4, 7, 9, 10, 15, correct to 2 decimal places.",
+          "ans": 3.63,
+          "tol": 0.00726,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Mean = 45 &divide; 5 = 9. Squared deviations: 25, 4, 0, 1, 36, summing to 66. Variance = 66 &divide; 5 = 13.2, so &sigma; = &radic;13.2 = 3.63"
+        },
+        {
+          "id": "s1q9",
+          "type": "mc",
+          "q": "A histogram has a long tail stretching to the right. How is the distribution described?",
+          "opts": ["Negatively skewed", "Positively skewed", "Symmetric", "Bimodal"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The tail points towards the higher values (the right), so the distribution is positively skewed. The mean is then usually greater than the median."
+        },
+        {
+          "id": "s1q10",
+          "type": "mc",
+          "q": "Two classes sit the same test. Class A has a box plot with median 62 and IQR 10; Class B has median 62 and IQR 22. Which statement is best supported?",
+          "opts": [
+            "Class A scored higher on average",
+            "Class B scored higher on average",
+            "The classes have the same typical score, but Class B&rsquo;s results are more spread out",
+            "Class B had more students"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "Equal medians mean the same typical score. The larger IQR for Class B means its middle 50% is more spread out. A box plot says nothing about how many students there are."
+        },
+        {
+          "id": "s1q11",
+          "type": "num",
+          "q": "In a survey of 40 people, 8 scored under 10, 11 scored 10&ndash;19 and 6 scored 20&ndash;29. What percentage scored under 30?",
+          "ans": 62.5,
+          "tol": 0.125,
+          "unit": "%",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Total under 30 = 8 + 11 + 6 = 25. Percentage = 25 &divide; 40 &times; 100 = 62.5%"
+        },
+        {
+          "id": "s1q12",
+          "type": "num",
+          "q": "Twelve scores have a mean of 62. One score of 40 is removed. Find the mean of the remaining scores.",
+          "ans": 64,
+          "tol": 0.128,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Original total = 12 &times; 62 = 744. New total = 744 &minus; 40 = 704, over 11 scores: 704 &divide; 11 = 64"
+        }
+      ],
+      "slug": "s1"
+    },
+    {
+      "code": "MS-S2",
+      "name": "Relative Frequency and Probability",
+      "strand": "Statistical Analysis",
+      "year": 11,
+      "blurb": "Sample spaces, theoretical and experimental probability, multi-stage events and expected value.",
+      "formulae": [
+        "P(event) = favourable outcomes &divide; total outcomes; P(not A) = 1 &minus; P(A)",
+        "Mutually exclusive: P(A or B) = P(A) + P(B)",
+        "Independent stages multiply along a branch of a tree diagram",
+        "P(at least one) = 1 &minus; P(none); expected number = probability &times; number of trials"
+      ],
+      "dotpoints": [
+        "List sample spaces using tables, tree diagrams and arrays",
+        "Calculate relative frequencies and use them to estimate probability",
+        "Calculate probabilities of single-stage and multi-stage events, with and without replacement",
+        "Use the complement and the addition rule for mutually exclusive events",
+        "Calculate expected frequency and financial expectation"
+      ],
+      "questions": [
+        {
+          "id": "s2q1",
+          "type": "num",
+          "q": "A bag holds 5 red, 8 blue and 7 green counters. One counter is drawn at random. Find P(red) as a decimal.",
+          "ans": 0.25,
+          "tol": 0.0005,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Total = 20 counters. P(red) = 5 &divide; 20 = 0.25"
+        },
+        {
+          "id": "s2q2",
+          "type": "num",
+          "q": "For the same bag (5 red, 8 blue, 7 green), find P(not red) as a decimal.",
+          "ans": 0.75,
+          "tol": 0.0015,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "P(not red) = 1 &minus; P(red) = 1 &minus; 0.25 = 0.75"
+        },
+        {
+          "id": "s2q3",
+          "type": "num",
+          "q": "The relative frequency of a machine producing a faulty item is 0.15. How many faults are expected in 240 items?",
+          "ans": 36,
+          "tol": 0.001,
+          "unit": "items",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Expected number = 0.15 &times; 240 = 36"
+        },
+        {
+          "id": "s2q4",
+          "type": "num",
+          "q": "In a group of 60 people, 27 own a pet. One person is chosen at random. Find P(owns a pet) as a decimal, correct to 2 decimal places.",
+          "ans": 0.45,
+          "tol": 0.0009,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "P = 27 &divide; 60 = 0.45"
+        },
+        {
+          "id": "s2q5",
+          "type": "num",
+          "q": "From the bag of 20 counters (5 red), two counters are drawn <em>with</em> replacement. Find P(both red) as a decimal.",
+          "ans": 0.0625,
+          "tol": 0.0005,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The draws are independent, each with P(red) = 0.25. P(both) = 0.25 &times; 0.25 = 0.0625"
+        },
+        {
+          "id": "s2q6",
+          "type": "num",
+          "q": "From the bag of 20 counters (5 red), two counters are drawn <em>without</em> replacement. Find P(both red), correct to 4 decimal places.",
+          "ans": 0.0526,
+          "tol": 0.0005,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "P = 5&divide;20 &times; 4&divide;19 = 20 &divide; 380 = 0.0526"
+        },
+        {
+          "id": "s2q7",
+          "type": "num",
+          "q": "Three counters are drawn with replacement from the bag (P(red) = 0.25 each time). Find P(at least one red), correct to 4 decimal places.",
+          "ans": 0.5781,
+          "tol": 0.001156,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "P(no reds) = 0.75<sup>3</sup> = 0.421875. P(at least one) = 1 &minus; 0.421875 = 0.5781"
+        },
+        {
+          "id": "s2q8",
+          "type": "num",
+          "q": "A game costs $3 to play and pays $10 with probability 0.2, otherwise nothing. Find the expected gain or loss per game (a loss is negative).",
+          "ans": -1,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Expected winnings = 0.2 &times; $10 = $2.00. Subtract the $3 cost: 2 &minus; 3 = $-1.00 (an expected loss of $1.00 per game)"
+        },
+        {
+          "id": "s2q9",
+          "type": "num",
+          "q": "Two fair dice are rolled. Find P(sum = 7), correct to 4 decimal places.",
+          "ans": 0.1667,
+          "tol": 0.0005,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "There are 36 equally likely outcomes and 6 give a sum of 7: (1,6)(2,5)(3,4)(4,3)(5,2)(6,1). P = 6 &divide; 36 = 0.1667"
+        },
+        {
+          "id": "s2q10",
+          "type": "num",
+          "q": "Events A and B are mutually exclusive with P(A) = 0.35 and P(B) = 0.28. Find P(A or B).",
+          "ans": 0.63,
+          "tol": 0.00126,
+          "unit": "",
+          "prefix": "",
+          "marks": 1,
+          "sol": "For mutually exclusive events P(A or B) = P(A) + P(B) = 0.35 + 0.28 = 0.63"
+        },
+        {
+          "id": "s2q11",
+          "type": "num",
+          "q": "A student passes English with probability 0.7 and, independently, maths with probability 0.6. Find P(passes both).",
+          "ans": 0.42,
+          "tol": 0.00084,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Independent events multiply: 0.7 &times; 0.6 = 0.42"
+        },
+        {
+          "id": "s2q12",
+          "type": "mc",
+          "q": "A coin is tossed 8 times and lands heads every time. What is the probability the next toss is a head?",
+          "opts": ["Less than 0.5", "0.5", "Greater than 0.5", "It cannot be determined"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "Coin tosses are independent — the coin has no memory of earlier results. The probability stays 0.5."
+        }
+      ],
+      "slug": "s2"
+    },
+    {
+      "code": "MS-A4",
+      "name": "Types of Relationships",
+      "strand": "Algebra",
+      "year": 12,
+      "blurb": "Simultaneous linear equations and the non-linear models — quadratic, exponential, reciprocal — used to describe practical situations.",
+      "formulae": [
+        "Simultaneous equations: solve by substitution, elimination or by finding the point of intersection",
+        "Break-even point: where cost equals revenue",
+        "Quadratic y = ax&sup2; + bx + c — a parabola; its maximum/minimum sits halfway between the zeros",
+        "Exponential y = a(b)<sup>x</sup> — growth if b &gt; 1, decay if 0 &lt; b &lt; 1",
+        "Inverse variation y = k&divide;x — a hyperbola; direct variation with the square is y = kx&sup2;"
+      ],
+      "dotpoints": [
+        "Solve simultaneous linear equations graphically and algebraically",
+        "Solve practical problems involving break-even analysis",
+        "Model and solve problems with quadratic functions, including maximum/minimum and zeros",
+        "Model exponential growth and decay, including half-life",
+        "Model inverse variation and direct variation with powers"
+      ],
+      "questions": [
+        {
+          "id": "a4q1",
+          "type": "num",
+          "q": "Solve simultaneously: 3<em>x</em> + 2<em>y</em> = 19 and <em>x</em> &minus; <em>y</em> = 3. Give the value of <em>x</em>.",
+          "ans": 5,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "From the second equation x = y + 3. Substituting: 3(y + 3) + 2y = 19, so 5y + 9 = 19, giving y = 2 and x = 5"
+        },
+        {
+          "id": "a4q2",
+          "type": "num",
+          "q": "A business has costs <em>C</em> = 500 + 12<em>n</em> and revenue <em>R</em> = 22<em>n</em> dollars for <em>n</em> items. Find the break-even number of items.",
+          "ans": 50,
+          "tol": 0.001,
+          "unit": "items",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Break-even is where C = R: 500 + 12n = 22n, so 500 = 10n and n = 50 items"
+        },
+        {
+          "id": "a4q3",
+          "type": "num",
+          "q": "Three coffees and two muffins cost $21.50. Five coffees and two muffins cost $30.50. Find the price of one muffin.",
+          "ans": 4,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Subtracting the equations: 2 coffees = $9.00, so a coffee is $4.50. Then 3(4.50) + 2m = 21.50, giving 2m = 8.00 and m = $4.00"
+        },
+        {
+          "id": "a4q4",
+          "type": "num",
+          "q": "A ball&rsquo;s height is <em>h</em> = 20<em>t</em> &minus; 5<em>t</em><sup>2</sup> metres after <em>t</em> seconds. Find its height after 1.5 seconds.",
+          "ans": 18.75,
+          "tol": 0.0375,
+          "unit": "m",
+          "prefix": "",
+          "marks": 2,
+          "sol": "h = 20(1.5) &minus; 5(1.5)<sup>2</sup> = 30 &minus; 11.25 = 18.75 m"
+        },
+        {
+          "id": "a4q5",
+          "type": "num",
+          "q": "For <em>h</em> = 20<em>t</em> &minus; 5<em>t</em><sup>2</sup>, find the positive time at which the ball returns to the ground (<em>h</em> = 0).",
+          "ans": 4,
+          "tol": 0.001,
+          "unit": "s",
+          "prefix": "",
+          "marks": 3,
+          "sol": "20t &minus; 5t&sup2; = 0, so 5t(4 &minus; t) = 0. This gives t = 0 (launch) or t = 4 seconds"
+        },
+        {
+          "id": "a4q6",
+          "type": "num",
+          "q": "For <em>h</em> = 20<em>t</em> &minus; 5<em>t</em><sup>2</sup>, find the maximum height reached.",
+          "ans": 20,
+          "tol": 0.001,
+          "unit": "m",
+          "prefix": "",
+          "marks": 3,
+          "sol": "By symmetry the maximum is halfway between the zeros t = 0 and t = 4, so at t = 2: h = 40 &minus; 20 = 20 m"
+        },
+        {
+          "id": "a4q7",
+          "type": "num",
+          "q": "A population is modelled by <em>A</em> = 5000(1.06)<sup><em>t</em></sup>, where <em>t</em> is in years. Find the population after 8 years, to the nearest whole number.",
+          "ans": 7969,
+          "tol": 2,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "A = 5000 &times; 1.06<sup>8</sup> = 5000 &times; 1.59385 = 7,969"
+        },
+        {
+          "id": "a4q8",
+          "type": "num",
+          "q": "A drug has a half-life of 6 hours. If a patient is given 80 mg, how much remains after 18 hours?",
+          "ans": 10,
+          "tol": 0.001,
+          "unit": "mg",
+          "prefix": "",
+          "marks": 2,
+          "sol": "18 hours is 3 half-lives, so the amount halves 3 times: 80 &rarr; 40 &rarr; 20 &rarr; 10 mg"
+        },
+        {
+          "id": "a4q9",
+          "type": "num",
+          "q": "<em>y</em> varies inversely with <em>x</em>, and <em>y</em> = 8 when <em>x</em> = 15. Find <em>y</em> when <em>x</em> = 24.",
+          "ans": 5,
+          "tol": 0.01,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "y = k&divide;x, so k = 8 &times; 15 = 120. Then y = 120 &divide; 24 = 5"
+        },
+        {
+          "id": "a4q10",
+          "type": "mc",
+          "q": "What is the shape of the graph of <em>y</em> = <em>k</em>&divide;<em>x</em> for <em>k</em> &gt; 0 and <em>x</em> &gt; 0?",
+          "opts": [
+            "A straight line through the origin",
+            "A parabola opening upwards",
+            "A curve falling steeply then flattening, never touching the axes",
+            "A curve rising steeply without limit"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "y = k&divide;x is a hyperbola. As x increases y decreases towards zero without ever reaching it, and as x approaches zero y grows without bound."
+        },
+        {
+          "id": "a4q11",
+          "type": "num",
+          "q": "<em>y</em> varies directly with <em>x</em><sup>2</sup>, and <em>y</em> = 54 when <em>x</em> = 3. Find <em>y</em> when <em>x</em> = 5.",
+          "ans": 150,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "y = kx&sup2;, so 54 = 9k and k = 6. Then y = 6 &times; 25 = 150"
+        },
+        {
+          "id": "a4q12",
+          "type": "num",
+          "q": "The lines <em>y</em> = 2<em>x</em> + 1 and <em>y</em> = &minus;<em>x</em> + 10 intersect. Find the <em>y</em>-coordinate of the point of intersection.",
+          "ans": 7,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Setting them equal: 2x + 1 = &minus;x + 10, so 3x = 9 and x = 3. Then y = 2(3) + 1 = 7"
+        },
+        {
+          "id": "a4q13",
+          "type": "mc",
+          "q": "A quantity halves every fixed period of time. Which model describes it?",
+          "opts": [
+            "Linear decay, y = a &minus; bx",
+            "Exponential decay, y = a(b)<sup>x</sup> with 0 &lt; b &lt; 1",
+            "Inverse variation, y = k&divide;x",
+            "Quadratic, y = ax&sup2; + bx + c"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "Repeated multiplication by the same factor (here &frac12;) each period is exponential decay: y = a(0.5)<sup>x</sup>."
+        }
+      ],
+      "slug": "a4"
+    },
+    {
+      "code": "MS-M6",
+      "name": "Non-right-angled Trigonometry",
+      "strand": "Measurement",
+      "year": 12,
+      "blurb": "Extending trigonometry beyond right-angled triangles with the sine and cosine rules, the area rule, bearings and radial surveys.",
+      "formulae": [
+        "Right-angled: SOH CAH TOA",
+        "Sine rule: a &divide; sin A = b &divide; sin B = c &divide; sin C — use when you have a side and its opposite angle",
+        "Cosine rule: c&sup2; = a&sup2; + b&sup2; &minus; 2ab cos C — use for two sides and the included angle, or all three sides",
+        "Area of a triangle: A = &frac12;ab sin C",
+        "Ambiguous case: if the sine rule gives an angle, 180&deg; &minus; that angle may also be valid",
+        "True bearings are three digits, measured clockwise from north"
+      ],
+      "dotpoints": [
+        "Review and apply right-angled triangle trigonometry, including angles of elevation and depression",
+        "Use the sine rule to find sides and angles, including the ambiguous case",
+        "Use the cosine rule to find sides and angles",
+        "Find the area of a triangle using A = &frac12;ab sin C",
+        "Solve problems involving compass and true bearings",
+        "Solve problems involving radial (plane table) surveys"
+      ],
+      "questions": [
+        {
+          "id": "m6q1",
+          "type": "num",
+          "q": "In a right-angled triangle the side adjacent to a 34&deg; angle is 12.5 cm. Find the opposite side, correct to 2 decimal places.",
+          "ans": 8.43,
+          "tol": 0.01686,
+          "unit": "cm",
+          "prefix": "",
+          "marks": 2,
+          "sol": "tan 34&deg; = opposite &divide; 12.5, so opposite = 12.5 &times; tan 34&deg; = 8.43 cm"
+        },
+        {
+          "id": "m6q2",
+          "type": "num",
+          "q": "In a right-angled triangle the side opposite angle &theta; is 7 cm and the hypotenuse is 11 cm. Find &theta;, correct to 2 decimal places.",
+          "ans": 39.52,
+          "tol": 0.07904,
+          "unit": "°",
+          "prefix": "",
+          "marks": 2,
+          "sol": "sin &theta; = 7 &divide; 11 = 0.63636, so &theta; = sin<sup>&minus;1</sup>(0.63636) = 39.52&deg;"
+        },
+        {
+          "id": "m6q3",
+          "type": "num",
+          "q": "In triangle ABC, angle A = 48&deg;, angle B = 63&deg; and side <em>b</em> = 15 cm. Find side <em>a</em>, correct to 2 decimal places.",
+          "ans": 12.51,
+          "tol": 0.02502,
+          "unit": "cm",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Sine rule: a &divide; sin A = b &divide; sin B, so a = 15 &times; sin 48&deg; &divide; sin 63&deg; = 12.51 cm"
+        },
+        {
+          "id": "m6q4",
+          "type": "num",
+          "q": "In triangle ABC, <em>a</em> = 9 cm, <em>b</em> = 12 cm and angle B = 70&deg;. Find the acute angle A, correct to 2 decimal places.",
+          "ans": 44.81,
+          "tol": 0.08962,
+          "unit": "°",
+          "prefix": "",
+          "marks": 3,
+          "sol": "sin A &divide; 9 = sin 70&deg; &divide; 12, so sin A = 9 &times; sin 70&deg; &divide; 12 = 0.70477 and A = 44.81&deg;"
+        },
+        {
+          "id": "m6q5",
+          "type": "num",
+          "q": "For the triangle in the previous question, the ambiguous case gives a second possible value for angle A. Find the obtuse value, correct to 2 decimal places.",
+          "ans": 135.19,
+          "tol": 0.27038,
+          "unit": "°",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The obtuse solution is 180&deg; &minus; 44.81&deg; = 135.19&deg;, since sin(180&deg; &minus; &theta;) = sin &theta;"
+        },
+        {
+          "id": "m6q6",
+          "type": "num",
+          "q": "In triangle ABC, <em>a</em> = 8 cm, <em>b</em> = 11 cm and the included angle C = 52&deg;. Find side <em>c</em>, correct to 2 decimal places.",
+          "ans": 8.75,
+          "tol": 0.0175,
+          "unit": "cm",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Cosine rule: c&sup2; = 8&sup2; + 11&sup2; &minus; 2(8)(11)cos 52&deg; = 185 &minus; 108.36 = 76.64, so c = 8.75 cm"
+        },
+        {
+          "id": "m6q7",
+          "type": "num",
+          "q": "A triangle has sides 7 cm, 9 cm and 13 cm. Find the largest angle, correct to 2 decimal places.",
+          "ans": 108.03,
+          "tol": 0.21606,
+          "unit": "°",
+          "prefix": "",
+          "marks": 3,
+          "sol": "The largest angle is opposite the 13 cm side. cos C = (7&sup2; + 9&sup2; &minus; 13&sup2;) &divide; (2 &times; 7 &times; 9) = &minus;39 &divide; 126 = -0.30952, so C = 108.03&deg;"
+        },
+        {
+          "id": "m6q8",
+          "type": "num",
+          "q": "Find the area of a triangle with sides 14 cm and 9 cm enclosing an angle of 37&deg;, correct to 2 decimal places.",
+          "ans": 37.91,
+          "tol": 0.07582,
+          "unit": "cm²",
+          "prefix": "",
+          "marks": 2,
+          "sol": "A = &frac12;ab sin C = &frac12; &times; 14 &times; 9 &times; sin 37&deg; = 63 &times; 0.60182 = 37.91 cm&sup2;"
+        },
+        {
+          "id": "m6q9",
+          "type": "num",
+          "q": "A ship sails 40 km on a bearing of 060&deg;, then 25 km on a bearing of 150&deg;. Find its distance from the starting point, correct to 2 decimal places.",
+          "ans": 47.17,
+          "tol": 0.09434,
+          "unit": "km",
+          "prefix": "",
+          "marks": 3,
+          "sol": "The bearings differ by 90&deg;, so the two legs are perpendicular. Distance = &radic;(40&sup2; + 25&sup2;) = &radic;2225 = 47.17 km"
+        },
+        {
+          "id": "m6q10",
+          "type": "num",
+          "q": "A tower is 45 m tall. Find the angle of elevation of its top from a point 80 m away on level ground, correct to 2 decimal places.",
+          "ans": 29.36,
+          "tol": 0.05872,
+          "unit": "°",
+          "prefix": "",
+          "marks": 2,
+          "sol": "tan &theta; = 45 &divide; 80 = 0.5625, so &theta; = 29.36&deg;"
+        },
+        {
+          "id": "m6q11",
+          "type": "num",
+          "q": "A radial survey from point O gives OA = 32 m, OB = 28 m and OC = 41 m, with angle AOB = 115&deg; and angle BOC = 97&deg;. Find the total area of triangles AOB and BOC, correct to 2 decimal places.",
+          "ans": 975.75,
+          "tol": 1.9515,
+          "unit": "m²",
+          "prefix": "",
+          "marks": 4,
+          "sol": "AOB = &frac12; &times; 32 &times; 28 &times; sin 115&deg; = 406.03 m&sup2;. BOC = &frac12; &times; 28 &times; 41 &times; sin 97&deg; = 569.72 m&sup2;. Total = 975.75 m&sup2;"
+        },
+        {
+          "id": "m6q12",
+          "type": "mc",
+          "q": "What is the compass bearing S40&deg;W written as a true bearing?",
+          "opts": ["040&deg;", "140&deg;", "220&deg;", "320&deg;"],
+          "ans": 2,
+          "marks": 1,
+          "sol": "Start at south (180&deg;) and turn 40&deg; towards west (clockwise from south when measuring true bearings): 180&deg; + 40&deg; = 220&deg;."
+        },
+        {
+          "id": "m6q13",
+          "type": "num",
+          "q": "From the top of a 62 m cliff, the angle of depression to a boat is 23&deg;. Find the horizontal distance from the base of the cliff to the boat, correct to 2 decimal places.",
+          "ans": 146.06,
+          "tol": 0.29212,
+          "unit": "m",
+          "prefix": "",
+          "marks": 3,
+          "sol": "The angle of elevation from the boat also equals 23&deg;. tan 23&deg; = 62 &divide; distance, so distance = 62 &divide; tan 23&deg; = 146.06 m"
+        }
+      ],
+      "slug": "m6"
+    },
+    {
+      "code": "MS-M7",
+      "name": "Rates and Ratios",
+      "strand": "Measurement",
+      "year": 12,
+      "blurb": "Working with rates and their units — speed, fuel, dosage, energy, density — plus ratio, scale drawings and map scales.",
+      "formulae": [
+        "Speed = distance &divide; time; convert km/h to m/s by &times;1000&divide;3600",
+        "Fuel consumption in L/100 km: litres = rate &divide; 100 &times; distance",
+        "BAC (male) = (10N &minus; 7.5H) &divide; 6.8M; BAC (female) = (10N &minus; 7.5H) &divide; 5.5M",
+        "Scale 1 : k — lengths &times;k, areas &times;k&sup2;, volumes &times;k&sup3;",
+        "Dividing in a ratio: find the value of one part first"
+      ],
+      "dotpoints": [
+        "Use rates to solve problems, including speed, fuel consumption, dosage and energy",
+        "Convert between units of rate",
+        "Calculate blood alcohol content and the time for BAC to reach zero",
+        "Use ratios to divide quantities and to work with scale drawings and maps",
+        "Apply the effect of scale factors on length, area and volume",
+        "Calculate and interpret population density"
+      ],
+      "questions": [
+        {
+          "id": "m7q1",
+          "type": "num",
+          "q": "A car travels 315 km at an average speed of 90 km/h. Find the time taken, in hours.",
+          "ans": 3.5,
+          "tol": 0.007,
+          "unit": "hours",
+          "prefix": "",
+          "marks": 1,
+          "sol": "time = distance &divide; speed = 315 &divide; 90 = 3.5 hours"
+        },
+        {
+          "id": "m7q2",
+          "type": "num",
+          "q": "A car uses 8.4 L/100 km. Find the cost of fuel for a 560 km trip when petrol is $1.95 per litre.",
+          "ans": 91.73,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Fuel used = 8.4 &divide; 100 &times; 560 = 47.04 L. Cost = 47.04 &times; $1.95 = $91.73"
+        },
+        {
+          "id": "m7q3",
+          "type": "num",
+          "q": "Convert 72 km/h to metres per second.",
+          "ans": 20,
+          "tol": 0.001,
+          "unit": "m/s",
+          "prefix": "",
+          "marks": 2,
+          "sol": "72 km/h = 72 &times; 1000 m &divide; 3600 s = 20 m/s"
+        },
+        {
+          "id": "m7q4",
+          "type": "num",
+          "q": "A patient is to receive 900 mL of fluid over 6 hours. Find the required flow rate in mL/h.",
+          "ans": 150,
+          "tol": 0.001,
+          "unit": "mL/h",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Rate = 900 &divide; 6 = 150 mL/h"
+        },
+        {
+          "id": "m7q5",
+          "type": "num",
+          "q": "For males, BAC = (10<em>N</em> &minus; 7.5<em>H</em>) &divide; (6.8<em>M</em>), where <em>N</em> is standard drinks, <em>H</em> is hours and <em>M</em> is mass in kg. Find the BAC of an 82 kg man after 6 standard drinks over 3 hours, correct to 4 decimal places.",
+          "ans": 0.0673,
+          "tol": 0.0005,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "BAC = (60 &minus; 22.5) &divide; (6.8 &times; 82) = 37.5 &divide; 557.6 = 0.0673"
+        },
+        {
+          "id": "m7q6",
+          "type": "num",
+          "q": "Using the BAC from the previous question, find the time (in hours) for the BAC to fall to zero, given it drops by 0.015 per hour. Answer correct to 2 decimal places.",
+          "ans": 4.48,
+          "tol": 0.00896,
+          "unit": "hours",
+          "prefix": "",
+          "marks": 2,
+          "sol": "time = BAC &divide; 0.015 = 0.0673 &divide; 0.015 = 4.48 hours. (Carrying the unrounded BAC gives 4.48; using the rounded 0.0673 gives 4.49 &mdash; both are accepted.)"
+        },
+        {
+          "id": "m7q7",
+          "type": "num",
+          "q": "A household uses 2400 kWh in a quarter. Electricity costs 28.6 cents per kWh. Find the cost.",
+          "ans": 686.4,
+          "tol": 0.13728,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Cost = 2400 &times; $0.286 = $686.40"
+        },
+        {
+          "id": "m7q8",
+          "type": "num",
+          "q": "$4200 is divided in the ratio 3 : 4 : 5. Find the largest share.",
+          "ans": 1750,
+          "tol": 0.35,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Total parts = 12, so one part = $4200 &divide; 12 = $350. The largest share is 5 parts = $1,750.00"
+        },
+        {
+          "id": "m7q9",
+          "type": "num",
+          "q": "On a plan drawn to a scale of 1 : 200, a wall measures 8.5 cm. Find the actual length in metres.",
+          "ans": 17,
+          "tol": 0.034,
+          "unit": "m",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Actual = 8.5 &times; 200 = 1700 cm = 17 m"
+        },
+        {
+          "id": "m7q10",
+          "type": "num",
+          "q": "A map has a scale of 1 : 25&thinsp;000. A paddock covers 6 cm<sup>2</sup> on the map. Find its actual area in square metres.",
+          "ans": 375000,
+          "tol": 100,
+          "unit": "m²",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Areas scale by the square of the linear factor: 6 &times; 25&thinsp;000&sup2; = 3,750,000,000 cm&sup2;. Dividing by 10&thinsp;000 gives 375,000 m&sup2;"
+        },
+        {
+          "id": "m7q11",
+          "type": "num",
+          "q": "A city of 5.4 million people covers 12&thinsp;368 km<sup>2</sup>. Find its population density in people per km<sup>2</sup>, correct to 2 decimal places.",
+          "ans": 436.61,
+          "tol": 0.87322,
+          "unit": "people/km²",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Density = 5&thinsp;400&thinsp;000 &divide; 12&thinsp;368 = 436.61 people/km&sup2;"
+        },
+        {
+          "id": "m7q12",
+          "type": "num",
+          "q": "A cordial is mixed with water in the ratio 1 : 4. If 250 mL of cordial is used, find the total volume of the drink in mL.",
+          "ans": 1250,
+          "tol": 0.001,
+          "unit": "mL",
+          "prefix": "",
+          "marks": 2,
+          "sol": "1 part cordial to 4 parts water is 5 parts in total. One part = 250 mL, so the total is 5 &times; 250 = 1,250 mL"
+        },
+        {
+          "id": "m7q13",
+          "type": "num",
+          "q": "A printer produces 420 pages in 3.5 minutes. Find its rate in pages per minute.",
+          "ans": 120,
+          "tol": 0.24,
+          "unit": "pages/min",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Rate = 420 &divide; 3.5 = 120 pages per minute"
+        }
+      ],
+      "slug": "m7"
+    },
+    {
+      "code": "MS-F4",
+      "name": "Investments and Loans",
+      "strand": "Financial Mathematics",
+      "year": 12,
+      "blurb": "Simple and compound interest, appreciation and depreciation, shares and dividends, credit cards and reducing-balance loans.",
+      "formulae": [
+        "Simple interest: I = Prn",
+        "Compound interest: FV = PV(1 + r)<sup>n</sup> — r is the rate per period, n the number of periods",
+        "Straight-line depreciation: S = V&#8320; &minus; Dn. Declining balance: S = V&#8320;(1 &minus; r)<sup>n</sup>",
+        "Dividend yield = dividend per share &divide; market price &times; 100",
+        "Total interest on a loan = total repaid &minus; amount borrowed"
+      ],
+      "dotpoints": [
+        "Calculate and compare simple and compound interest",
+        "Solve problems involving appreciation, inflation and the CPI",
+        "Calculate depreciation using both the straight-line and declining-balance methods",
+        "Calculate dividends and dividend yield on shares",
+        "Calculate credit card interest and the cost of reducing-balance loans",
+        "Use tables and technology to compare investment and loan options"
+      ],
+      "questions": [
+        {
+          "id": "f4q1",
+          "type": "num",
+          "q": "Find the simple interest earned on $7200 invested at 5.2% p.a. for 4 years.",
+          "ans": 1497.6,
+          "tol": 0.29952,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "I = Prn = 7200 &times; 0.052 &times; 4 = $1,497.60"
+        },
+        {
+          "id": "f4q2",
+          "type": "num",
+          "q": "Find the future value of $12&thinsp;000 invested at 4.8% p.a. compounded annually for 6 years.",
+          "ans": 15898.24,
+          "tol": 3.179648,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "FV = PV(1 + r)<sup>n</sup> = 12&thinsp;000 &times; 1.048<sup>6</sup> = 12&thinsp;000 &times; 1.324853 = $15,898.24"
+        },
+        {
+          "id": "f4q3",
+          "type": "num",
+          "q": "Find the future value of $8500 invested at 6% p.a. compounded monthly for 3 years.",
+          "ans": 10171.78,
+          "tol": 2.034356,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "r = 0.06 &divide; 12 = 0.005 per month and n = 36. FV = 8500 &times; 1.005<sup>36</sup> = $10,171.78"
+        },
+        {
+          "id": "f4q4",
+          "type": "num",
+          "q": "For the investment in the previous question, find the interest earned.",
+          "ans": 1671.78,
+          "tol": 0.334356,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "Interest = FV &minus; PV = $10,171.78 &minus; $8500 = $1,671.78"
+        },
+        {
+          "id": "f4q5",
+          "type": "num",
+          "q": "A machine bought for $42&thinsp;000 depreciates by $4200 each year (straight-line). Find its value after 5 years.",
+          "ans": 21000,
+          "tol": 4.2,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "S = V&#8320; &minus; Dn = 42&thinsp;000 &minus; 4200 &times; 5 = 42&thinsp;000 &minus; 21&thinsp;000 = $21,000.00"
+        },
+        {
+          "id": "f4q6",
+          "type": "num",
+          "q": "A machine bought for $42&thinsp;000 depreciates by 18% p.a. using the declining-balance method. Find its value after 5 years.",
+          "ans": 15571.07,
+          "tol": 3.114214,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "S = V&#8320;(1 &minus; r)<sup>n</sup> = 42&thinsp;000 &times; 0.82<sup>5</sup> = 42&thinsp;000 &times; 0.37074 = $15,571.07"
+        },
+        {
+          "id": "f4q7",
+          "type": "num",
+          "q": "An item costs $85 today. With inflation at 3.2% p.a., find its expected cost in 6 years.",
+          "ans": 102.68,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Cost = 85 &times; 1.032<sup>6</sup> = 85 &times; 1.208031 = $102.68"
+        },
+        {
+          "id": "f4q8",
+          "type": "num",
+          "q": "An investor owns 1200 shares paying a dividend of 42 cents per share. Find the total dividend.",
+          "ans": 504,
+          "tol": 0.1008,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 1,
+          "sol": "Dividend = 1200 &times; $0.42 = $504.00"
+        },
+        {
+          "id": "f4q9",
+          "type": "num",
+          "q": "A share priced at $8.75 pays a dividend of 42 cents. Find the dividend yield as a percentage, correct to 2 decimal places.",
+          "ans": 4.8,
+          "tol": 0.0096,
+          "unit": "%",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Yield = dividend &divide; price &times; 100 = 0.42 &divide; 8.75 &times; 100 = 4.8%"
+        },
+        {
+          "id": "f4q10",
+          "type": "num",
+          "q": "A credit card charges 19.99% p.a. simple interest, calculated daily. Find the interest on a $1850 balance carried for 23 days, correct to the nearest cent.",
+          "ans": 23.3,
+          "tol": 0.05,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "I = 1850 &times; 0.1999 &times; 23 &divide; 365 = $23.30"
+        },
+        {
+          "id": "f4q11",
+          "type": "num",
+          "q": "A $320&thinsp;000 home loan is repaid at $1842 per month for 25 years. Find the total interest paid.",
+          "ans": 232600,
+          "tol": 46.52,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "Total repaid = 1842 &times; 12 &times; 25 = $552,600.00. Interest = $552,600.00 &minus; $320&thinsp;000 = $232,600.00"
+        },
+        {
+          "id": "f4q12",
+          "type": "mc",
+          "q": "Two investments of $10&thinsp;000 both earn 6% p.a. for 5 years, one at simple interest and one compounded annually. Which is worth more, and why?",
+          "opts": [
+            "Simple interest, because the rate is applied to a larger amount",
+            "Compound interest, because interest is earned on previously earned interest",
+            "They are equal, because the rate and time are the same",
+            "It depends on the compounding frequency only"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "Simple interest pays 6% of the original $10&thinsp;000 every year. Compound interest pays 6% of a balance that keeps growing, so it always finishes ahead over more than one period."
+        },
+        {
+          "id": "f4q13",
+          "type": "num",
+          "q": "A property worth $285&thinsp;000 appreciates at 4.5% p.a. Find its value after 3 years.",
+          "ans": 325232.35,
+          "tol": 65.04647,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Value = 285&thinsp;000 &times; 1.045<sup>3</sup> = 285&thinsp;000 &times; 1.141166 = $325,232.35"
+        }
+      ],
+      "slug": "f4"
+    },
+    {
+      "code": "MS-F5",
+      "name": "Annuities",
+      "strand": "Financial Mathematics",
+      "year": 12,
+      "blurb": "Regular equal contributions earning compound interest: future and present value of annuities, superannuation, and loan repayment schedules.",
+      "formulae": [
+        "Future value: FV = PMT &times; [((1 + r)<sup>n</sup> &minus; 1) &divide; r]",
+        "Present value: PV = PMT &times; [((1 + r)<sup>n</sup> &minus; 1) &divide; (r(1 + r)<sup>n</sup>)]",
+        "Interest earned = future value &minus; total contributions",
+        "In a loan schedule: interest = balance &times; rate; principal reduction = repayment &minus; interest",
+        "Match r and n to the payment period — monthly payments need a monthly rate"
+      ],
+      "dotpoints": [
+        "Calculate the future value of an annuity using the formula and using tables",
+        "Calculate the present value of an annuity and relate it to loan repayments",
+        "Model annuities with recurrence relations",
+        "Interpret and complete a loan amortisation schedule",
+        "Solve problems involving superannuation and regular savings plans"
+      ],
+      "questions": [
+        {
+          "id": "f5q1",
+          "type": "num",
+          "q": "Find the future value of an annuity of $2000 paid at the end of each year for 10 years, earning 5% p.a. compounded annually.",
+          "ans": 25155.79,
+          "tol": 5.031158,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "FV = 2000 &times; [(1.05<sup>10</sup> &minus; 1) &divide; 0.05] = 2000 &times; 12.577893 = $25,155.79"
+        },
+        {
+          "id": "f5q2",
+          "type": "num",
+          "q": "$350 is deposited at the end of each month for 5 years into an account earning 6% p.a. compounded monthly. Find the final balance.",
+          "ans": 24419.51,
+          "tol": 4.883902,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "r = 0.005, n = 60. FV = 350 &times; [(1.005<sup>60</sup> &minus; 1) &divide; 0.005] = 350 &times; 69.770031 = $24,419.51"
+        },
+        {
+          "id": "f5q3",
+          "type": "num",
+          "q": "For the annuity in the previous question, find the total interest earned.",
+          "ans": 3419.51,
+          "tol": 0.683902,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Contributions = 350 &times; 60 = $21,000.00. Interest = $24,419.51 &minus; $21,000.00 = $3,419.51"
+        },
+        {
+          "id": "f5q4",
+          "type": "num",
+          "q": "A loan is repaid with 240 monthly payments of $1500 at 0.4% per month. Find the amount borrowed (the present value), to the nearest dollar.",
+          "ans": 231140,
+          "tol": 50,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 4,
+          "sol": "PV = 1500 &times; [(1.004<sup>240</sup> &minus; 1) &divide; (0.004 &times; 1.004<sup>240</sup>)] = 1500 &times; 154.0933 = $231,139.95"
+        },
+        {
+          "id": "f5q5",
+          "type": "num",
+          "q": "A worker contributes $4500 at the end of each year to superannuation earning 6.5% p.a. Find the balance after 30 years, to the nearest dollar.",
+          "ans": 388687,
+          "tol": 50,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "FV = 4500 &times; [(1.065<sup>30</sup> &minus; 1) &divide; 0.065] = 4500 &times; 86.3749 = $388,686.89"
+        },
+        {
+          "id": "f5q6",
+          "type": "num",
+          "q": "An annuity is modelled by <em>A</em><sub><em>n</em>+1</sub> = <em>A</em><sub><em>n</em></sub> &times; 1.004 + 500, with <em>A</em><sub>1</sub> = 500. Find <em>A</em><sub>3</sub>, correct to 2 decimal places.",
+          "ans": 1506.01,
+          "tol": 0.301202,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 3,
+          "sol": "A&#8322; = 500 &times; 1.004 + 500 = $1,002.00. A&#8323; = $1,002.00 &times; 1.004 + 500 = $1,506.01"
+        },
+        {
+          "id": "f5q7",
+          "type": "num",
+          "q": "A loan balance is $245&thinsp;000 and the monthly interest rate is 0.45%. Find the interest charged for the month.",
+          "ans": 1102.5,
+          "tol": 0.2205,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Interest = 245&thinsp;000 &times; 0.0045 = $1,102.50"
+        },
+        {
+          "id": "f5q8",
+          "type": "num",
+          "q": "For that loan, the monthly repayment is $1900. Find the amount by which the principal is reduced this month.",
+          "ans": 797.5,
+          "tol": 0.1595,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "Principal reduction = repayment &minus; interest = $1900 &minus; $1,102.50 = $797.50"
+        },
+        {
+          "id": "f5q9",
+          "type": "num",
+          "q": "For that loan, find the balance owing after the repayment is made.",
+          "ans": 244202.5,
+          "tol": 48.8405,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "New balance = $245&thinsp;000 &minus; $797.50 = $244,202.50"
+        },
+        {
+          "id": "f5q10",
+          "type": "num",
+          "q": "A table gives the monthly repayment on a loan as $6.65 per $1000 borrowed. Find the monthly repayment on a $250&thinsp;000 loan.",
+          "ans": 1662.5,
+          "tol": 0.3325,
+          "unit": "$",
+          "prefix": "$",
+          "marks": 2,
+          "sol": "250&thinsp;000 &divide; 1000 = 250 lots of $1000, so the repayment is 250 &times; $6.65 = $1,662.50"
+        },
+        {
+          "id": "f5q11",
+          "type": "mc",
+          "q": "Two people save into identical annuities, but one contributes twice as much each period. Compared with the first, the second person&rsquo;s final balance will be:",
+          "opts": [
+            "More than double",
+            "Exactly double",
+            "Less than double",
+            "Impossible to determine"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The future value formula is directly proportional to the payment: FV = PMT &times; [((1+r)<sup>n</sup> &minus; 1) &divide; r]. Doubling PMT doubles FV exactly."
+        },
+        {
+          "id": "f5q12",
+          "type": "num",
+          "q": "Contributions are made quarterly for 12 years. How many periods <em>n</em> are used in the annuity formula?",
+          "ans": 48,
+          "tol": 0.001,
+          "unit": "periods",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Quarterly means 4 periods per year: n = 4 &times; 12 = 48"
+        }
+      ],
+      "slug": "f5"
+    },
+    {
+      "code": "MS-S4",
+      "name": "Bivariate Data Analysis",
+      "strand": "Statistical Analysis",
+      "year": 12,
+      "blurb": "Relationships between two numerical variables: scatterplots, correlation, the least-squares line of best fit and the predictions it supports.",
+      "formulae": [
+        "Independent variable on the horizontal axis, dependent on the vertical",
+        "r ranges from &minus;1 to 1; the sign gives direction, the size gives strength",
+        "|r| &gt; 0.8 strong, 0.5&ndash;0.8 moderate, &lt; 0.5 weak (as a rough guide)",
+        "Least-squares line &#375; = mx + c — m is the change in y per unit of x, c is the value at x = 0",
+        "Interpolation (inside the data range) is reliable; extrapolation (outside it) may not be",
+        "Correlation never proves causation — look for confounding variables"
+      ],
+      "dotpoints": [
+        "Construct and interpret scatterplots for bivariate numerical data",
+        "Describe correlation in terms of direction, form and strength",
+        "Calculate and interpret Pearson&rsquo;s correlation coefficient r",
+        "Fit and use a least-squares line of best fit to make predictions",
+        "Interpret the gradient and intercept of the fitted line in context",
+        "Distinguish interpolation from extrapolation, and correlation from causation"
+      ],
+      "questions": [
+        {
+          "id": "s4q1",
+          "type": "mc",
+          "q": "A study examines how the number of hours studied affects exam marks. Which is the dependent variable?",
+          "opts": ["Hours studied", "Exam mark", "The student", "Neither — they are equal"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The exam mark is the variable being explained, so it is the dependent variable and goes on the vertical axis. Hours studied is the independent variable."
+        },
+        {
+          "id": "s4q2",
+          "type": "mc",
+          "q": "A data set has a correlation coefficient of <em>r</em> = &minus;0.87. How is this best described?",
+          "opts": [
+            "Strong positive linear correlation",
+            "Weak negative linear correlation",
+            "Strong negative linear correlation",
+            "No correlation"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "The magnitude 0.87 is close to 1, so the relationship is strong, and the negative sign means one variable decreases as the other increases."
+        },
+        {
+          "id": "s4q3",
+          "type": "num",
+          "q": "A least-squares line is <em>&#375;</em> = 3.2<em>x</em> + 15.6. Predict <em>y</em> when <em>x</em> = 12.",
+          "ans": 54,
+          "tol": 0.108,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "&#375; = 3.2 &times; 12 + 15.6 = 38.4 + 15.6 = 54"
+        },
+        {
+          "id": "s4q4",
+          "type": "mc",
+          "q": "Data was collected for <em>x</em> between 5 and 30. Using the line of best fit to predict <em>y</em> when <em>x</em> = 45 is an example of:",
+          "opts": [
+            "Interpolation, and is reliable",
+            "Extrapolation, and may be unreliable",
+            "Interpolation, and may be unreliable",
+            "Extrapolation, and is reliable"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "x = 45 lies outside the range of the data (5 to 30), so this is extrapolation. There is no evidence the pattern continues beyond the data, so the prediction may be unreliable."
+        },
+        {
+          "id": "s4q5",
+          "type": "mc",
+          "q": "For the model <em>&#375;</em> = 3.2<em>x</em> + 15.6, where <em>x</em> is hours studied and <em>y</em> is exam mark, what does the gradient mean?",
+          "opts": [
+            "Students score 3.2 marks with no study",
+            "Each extra hour of study is associated with a 3.2 mark increase",
+            "The average mark is 3.2",
+            "Study explains 3.2% of the variation"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "The gradient is the change in the predicted y for a one-unit increase in x: one extra hour of study is associated with 3.2 extra marks on average."
+        },
+        {
+          "id": "s4q6",
+          "type": "mc",
+          "q": "For the same model, what does the <em>y</em>-intercept of 15.6 represent?",
+          "opts": [
+            "The mark predicted for a student who does no study",
+            "The maximum possible mark",
+            "The average number of hours studied",
+            "The strength of the correlation"
+          ],
+          "ans": 0,
+          "marks": 1,
+          "sol": "The y-intercept is the predicted value of y when x = 0 — the mark predicted for zero hours of study."
+        },
+        {
+          "id": "s4q7",
+          "type": "num",
+          "q": "For <em>&#375;</em> = 3.2<em>x</em> + 15.6, find the value of <em>x</em> that predicts <em>y</em> = 78.",
+          "ans": 19.5,
+          "tol": 0.039,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "78 = 3.2x + 15.6, so 3.2x = 62.4 and x = 19.5"
+        },
+        {
+          "id": "s4q8",
+          "type": "mc",
+          "q": "Ice-cream sales and drowning deaths are strongly positively correlated. What is the best conclusion?",
+          "opts": [
+            "Eating ice-cream causes drowning",
+            "Drowning causes ice-cream sales",
+            "A third variable, such as hot weather, likely influences both",
+            "The correlation must be a calculation error"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "Correlation does not imply causation. Hot weather is a confounding variable that raises both ice-cream sales and swimming (and therefore drownings)."
+        },
+        {
+          "id": "s4q9",
+          "type": "mc",
+          "q": "A scatterplot shows points scattered loosely around an upward trend. Which value of <em>r</em> is most likely?",
+          "opts": ["&minus;0.85", "0.15", "0.55", "0.99"],
+          "ans": 2,
+          "marks": 1,
+          "sol": "The trend is upward so r is positive; \"loosely scattered\" rules out a near-perfect 0.99, and a clear trend rules out 0.15. A moderate positive value near 0.55 fits."
+        },
+        {
+          "id": "s4q10",
+          "type": "num",
+          "q": "A least-squares line is <em>&#375;</em> = &minus;0.65<em>x</em> + 42. Predict <em>y</em> when <em>x</em> = 28.",
+          "ans": 23.8,
+          "tol": 0.0476,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "&#375; = &minus;0.65 &times; 28 + 42 = &minus;18.2 + 42 = 23.8"
+        },
+        {
+          "id": "s4q11",
+          "type": "mc",
+          "q": "Which variable is plotted on the horizontal axis of a scatterplot?",
+          "opts": [
+            "The dependent variable",
+            "The independent variable",
+            "Whichever is larger",
+            "Either — it makes no difference"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "By convention the independent (explanatory) variable goes on the horizontal axis and the dependent (response) variable on the vertical axis."
+        },
+        {
+          "id": "s4q12",
+          "type": "mc",
+          "q": "A correlation coefficient of <em>r</em> = 0.04 between two variables suggests:",
+          "opts": [
+            "A strong linear relationship",
+            "Almost no linear relationship",
+            "A perfect negative relationship",
+            "That one variable causes the other"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "An r value close to zero means there is almost no linear association between the variables."
+        }
+      ],
+      "slug": "s4"
+    },
+    {
+      "code": "MS-S5",
+      "name": "The Normal Distribution",
+      "strand": "Statistical Analysis",
+      "year": 12,
+      "blurb": "The bell curve, z-scores, and using the empirical rule to find percentages, counts and comparisons.",
+      "formulae": [
+        "z = (x &minus; &mu;) &divide; &sigma;; rearranged, x = &mu; + z&sigma;",
+        "Empirical rule: about 68% within 1&sigma;, 95% within 2&sigma;, 99.7% within 3&sigma;",
+        "Half of each leftover tail: 16% beyond 1&sigma;, 2.5% beyond 2&sigma;, 0.15% beyond 3&sigma; on one side",
+        "Useful slices: &mu; to &mu;+&sigma; is 34%, &mu;+&sigma; to &mu;+2&sigma; is 13.5%",
+        "A higher z-score means a better relative position, whatever the raw marks"
+      ],
+      "dotpoints": [
+        "Recognise the properties of a normally distributed data set",
+        "Calculate z-scores and use them to compare scores from different distributions",
+        "Use the empirical rule (68%, 95%, 99.7%) to find percentages and expected numbers",
+        "Convert between z-scores and raw scores",
+        "Apply the normal distribution to practical contexts such as quality control"
+      ],
+      "questions": [
+        {
+          "id": "s5q1",
+          "type": "num",
+          "q": "A set of marks is normally distributed with mean 64 and standard deviation 8. Find the <em>z</em>-score of a mark of 76.",
+          "ans": 1.5,
+          "tol": 0.003,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "z = (x &minus; &mu;) &divide; &sigma; = (76 &minus; 64) &divide; 8 = 1.5"
+        },
+        {
+          "id": "s5q2",
+          "type": "num",
+          "q": "For the same distribution (&mu; = 64, &sigma; = 8), find the mark with a <em>z</em>-score of &minus;1.25.",
+          "ans": 54,
+          "tol": 0.108,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "x = &mu; + z&sigma; = 64 + (&minus;1.25)(8) = 64 &minus; 10 = 54"
+        },
+        {
+          "id": "s5q3",
+          "type": "num",
+          "q": "In a normal distribution, what percentage of scores lie within one standard deviation of the mean?",
+          "ans": 68,
+          "tol": 0.001,
+          "unit": "%",
+          "prefix": "",
+          "marks": 1,
+          "sol": "By the empirical rule, approximately 68% of scores lie between &mu; &minus; &sigma; and &mu; + &sigma;"
+        },
+        {
+          "id": "s5q4",
+          "type": "num",
+          "q": "What percentage of scores lie within two standard deviations of the mean?",
+          "ans": 95,
+          "tol": 0.001,
+          "unit": "%",
+          "prefix": "",
+          "marks": 1,
+          "sol": "By the empirical rule, approximately 95% lie between &mu; &minus; 2&sigma; and &mu; + 2&sigma;"
+        },
+        {
+          "id": "s5q5",
+          "type": "num",
+          "q": "What percentage of a normal distribution lies more than one standard deviation ABOVE the mean?",
+          "ans": 16,
+          "tol": 0.001,
+          "unit": "%",
+          "prefix": "",
+          "marks": 2,
+          "sol": "68% lies within one standard deviation, leaving 32% in the two tails. By symmetry each tail holds 16%"
+        },
+        {
+          "id": "s5q6",
+          "type": "num",
+          "q": "Marks are normally distributed with &mu; = 64 and &sigma; = 8. In a cohort of 600 students, how many are expected to score above 80?",
+          "ans": 15,
+          "tol": 0.001,
+          "unit": "students",
+          "prefix": "",
+          "marks": 3,
+          "sol": "80 is z = (80 &minus; 64) &divide; 8 = 2, and 2.5% lies above z = 2. So 0.025 &times; 600 = 15 students"
+        },
+        {
+          "id": "s5q7",
+          "type": "mc",
+          "q": "Amira scored 72 in English (&mu; = 65, &sigma; = 7) and 81 in maths (&mu; = 70, &sigma; = 11). In which subject did she perform better relative to the cohort?",
+          "opts": [
+            "English, z = 1.00 versus z = 1.00 — they are equal",
+            "English, because her z-score is higher",
+            "Maths, because her raw mark is higher",
+            "Maths, because its standard deviation is larger"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "English: z = (72 &minus; 65) &divide; 7 = 1.00. Maths: z = (81 &minus; 70) &divide; 11 = 0.91. The higher z-score (English) is the stronger relative performance, despite the lower raw mark."
+        },
+        {
+          "id": "s5q8",
+          "type": "num",
+          "q": "What percentage of a normal distribution lies below the mean?",
+          "ans": 50,
+          "tol": 0.001,
+          "unit": "%",
+          "prefix": "",
+          "marks": 1,
+          "sol": "The normal distribution is symmetric about its mean, so exactly 50% lies below it"
+        },
+        {
+          "id": "s5q9",
+          "type": "num",
+          "q": "For &mu; = 64 and &sigma; = 8, find the upper end of the interval containing the middle 99.7% of scores.",
+          "ans": 88,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The middle 99.7% lies within 3 standard deviations: 64 + 3(8) = 88"
+        },
+        {
+          "id": "s5q10",
+          "type": "mc",
+          "q": "A score has a <em>z</em>-score of &minus;2. What does this tell you?",
+          "opts": [
+            "It is 2 units below the mean",
+            "It is 2 standard deviations below the mean",
+            "It is twice the mean",
+            "It is in the top 2.5% of scores"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "A z-score measures distance from the mean in standard deviations. z = &minus;2 means the score sits 2 standard deviations below the mean — in the bottom 2.5%."
+        },
+        {
+          "id": "s5q11",
+          "type": "num",
+          "q": "Packets have a mean mass of 500 g with standard deviation 4 g, normally distributed. What percentage of packets weigh less than 492 g?",
+          "ans": 2.5,
+          "tol": 0.005,
+          "unit": "%",
+          "prefix": "",
+          "marks": 3,
+          "sol": "492 g has z = (492 &minus; 500) &divide; 4 = &minus;2. Since 95% lies within 2 standard deviations, 2.5% lies below z = &minus;2"
+        },
+        {
+          "id": "s5q12",
+          "type": "num",
+          "q": "What percentage of a normal distribution lies between &mu; &minus; &sigma; and &mu; + 2&sigma;?",
+          "ans": 81.5,
+          "tol": 0.05,
+          "unit": "%",
+          "prefix": "",
+          "marks": 3,
+          "sol": "From &mu; &minus; &sigma; to &mu; is 34%, and from &mu; to &mu; + 2&sigma; is 47.5%. Total = 81.5%"
+        }
+      ],
+      "slug": "s5"
+    },
+    {
+      "code": "MS-N2",
+      "name": "Network Concepts",
+      "strand": "Networks",
+      "year": 12,
+      "blurb": "Representing connections as vertices and edges: degree, traversability, trees, minimum spanning trees and shortest paths.",
+      "formulae": [
+        "Degree = number of edges meeting a vertex; the degree sum = 2 &times; number of edges",
+        "Eulerian circuit: every vertex has even degree. Eulerian trail: exactly two odd vertices",
+        "Hamiltonian path visits every vertex once; Eulerian trail uses every edge once",
+        "A tree has no cycles; with n vertices it has n &minus; 1 edges",
+        "Minimum spanning tree: use Kruskal&rsquo;s (cheapest edge that makes no cycle) or Prim&rsquo;s algorithm",
+        "A complete graph on n vertices has n(n &minus; 1) &divide; 2 edges"
+      ],
+      "dotpoints": [
+        "Draw and interpret network diagrams, including from tables of information",
+        "Identify vertices, edges, degree, paths, cycles and connectedness",
+        "Determine whether a network has an Eulerian trail or circuit, or a Hamiltonian path",
+        "Find minimum spanning trees using Kruskal&rsquo;s and Prim&rsquo;s algorithms",
+        "Find shortest paths through a weighted network"
+      ],
+      "questions": [
+        {
+          "id": "n2q1",
+          "type": "num",
+          "q": "A network has vertices A, B, C, D, E, F and the following edges. Edges: A&ndash;B, A&ndash;C, A&ndash;D, B&ndash;C, B&ndash;E, C&ndash;D, C&ndash;E, D&ndash;E, E&ndash;F. How many edges does the network have?",
+          "ans": 9,
+          "tol": 0.001,
+          "unit": "edges",
+          "prefix": "",
+          "marks": 1,
+          "sol": "Counting the listed edges: AB, AC, AD, BC, BE, CD, CE, DE, EF — that is 9 edges"
+        },
+        {
+          "id": "n2q2",
+          "type": "num",
+          "q": "For the same network, find the degree of vertex C.",
+          "ans": 4,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "C appears in AC, BC, CD and CE, so its degree is 4"
+        },
+        {
+          "id": "n2q3",
+          "type": "num",
+          "q": "For the same network, find the sum of the degrees of all vertices.",
+          "ans": 18,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The handshake result says the degree sum is twice the number of edges: 2 &times; 9 = 18"
+        },
+        {
+          "id": "n2q4",
+          "type": "mc",
+          "q": "A connected network has exactly two vertices of odd degree. What can be said about it?",
+          "opts": [
+            "It has an Eulerian circuit",
+            "It has an Eulerian trail but not a circuit",
+            "It has neither an Eulerian trail nor circuit",
+            "It must be a tree"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "An Eulerian circuit needs every vertex to have even degree. With exactly two odd vertices there is an Eulerian trail, which must start at one odd vertex and finish at the other."
+        },
+        {
+          "id": "n2q5",
+          "type": "num",
+          "q": "In the network above (Edges: A&ndash;B, A&ndash;C, A&ndash;D, B&ndash;C, B&ndash;E, C&ndash;D, C&ndash;E, D&ndash;E, E&ndash;F.), how many vertices have odd degree?",
+          "ans": 4,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Degrees: A = 3, B = 3, C = 4, D = 3, E = 4, F = 1. Odd degrees belong to A, B, D and F, so 4 vertices have odd degree (meaning the network has neither an Eulerian trail nor an Eulerian circuit)"
+        },
+        {
+          "id": "n2q6",
+          "type": "num",
+          "q": "A weighted network has edges A&ndash;B (4), A&ndash;C (7), B&ndash;C (5), B&ndash;D (9), C&ndash;D (6), C&ndash;E (8), D&ndash;E (3). Find the weight of the minimum spanning tree.",
+          "ans": 18,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 4,
+          "sol": "Using Kruskal&rsquo;s algorithm, take the cheapest edges that never form a cycle: DE (3), AB (4), BC (5), then CD (6) connects the two halves. That is 5 vertices and 4 edges. Total = 3 + 4 + 5 + 6 = 18"
+        },
+        {
+          "id": "n2q7",
+          "type": "num",
+          "q": "For that same weighted network, find the length of the shortest path from A to E.",
+          "ans": 15,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Compare the routes: A&ndash;C&ndash;E = 7 + 8 = 15; A&ndash;B&ndash;D&ndash;E = 4 + 9 + 3 = 16; A&ndash;C&ndash;D&ndash;E = 7 + 6 + 3 = 16; A&ndash;B&ndash;C&ndash;D&ndash;E = 4 + 5 + 6 + 3 = 18. The shortest is 15"
+        },
+        {
+          "id": "n2q8",
+          "type": "num",
+          "q": "A tree has 12 vertices. How many edges does it have?",
+          "ans": 11,
+          "tol": 0.001,
+          "unit": "edges",
+          "prefix": "",
+          "marks": 2,
+          "sol": "A tree with n vertices always has exactly n &minus; 1 edges: 12 &minus; 1 = 11"
+        },
+        {
+          "id": "n2q9",
+          "type": "mc",
+          "q": "What is a Hamiltonian path?",
+          "opts": [
+            "A path that uses every edge exactly once",
+            "A path that visits every vertex exactly once",
+            "A path that starts and finishes at the same vertex",
+            "The shortest path between two vertices"
+          ],
+          "ans": 1,
+          "marks": 1,
+          "sol": "A Hamiltonian path visits every vertex exactly once. (A path using every edge exactly once is an Eulerian trail.)"
+        },
+        {
+          "id": "n2q10",
+          "type": "num",
+          "q": "How many edges does a complete graph with 6 vertices have?",
+          "ans": 15,
+          "tol": 0.001,
+          "unit": "edges",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Every pair of vertices is joined: 6 &times; 5 &divide; 2 = 15 edges"
+        },
+        {
+          "id": "n2q11",
+          "type": "num",
+          "q": "A network has 7 vertices, six of degree 4 and one of degree 6. How many edges does it have?",
+          "ans": 15,
+          "tol": 0.001,
+          "unit": "edges",
+          "prefix": "",
+          "marks": 3,
+          "sol": "Degree sum = 6 &times; 4 + 6 = 30. The number of edges is half the degree sum: 30 &divide; 2 = 15"
+        },
+        {
+          "id": "n2q12",
+          "type": "mc",
+          "q": "In a network representing towns and roads, what does the weight on an edge usually represent?",
+          "opts": [
+            "The number of towns",
+            "The direction of travel",
+            "A cost such as distance, time or price",
+            "The degree of the vertex"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "Weights carry the quantity being optimised — commonly distance, travel time or cost — which is what shortest-path and minimum-spanning-tree methods work with."
+        },
+        {
+          "id": "n2q13",
+          "type": "mc",
+          "q": "A minimum spanning tree of a connected network with <em>n</em> vertices always has:",
+          "opts": ["n edges", "n &minus; 1 edges", "n + 1 edges", "2n edges"],
+          "ans": 1,
+          "marks": 1,
+          "sol": "A spanning tree connects all n vertices with no cycles, which requires exactly n &minus; 1 edges."
+        }
+      ],
+      "slug": "n2"
+    },
+    {
+      "code": "MS-N3",
+      "name": "Critical Path Analysis",
+      "strand": "Networks",
+      "year": 12,
+      "blurb": "Scheduling projects: activity charts, forward and backward scanning, float times, the critical path, and maximum flow.",
+      "formulae": [
+        "Forward scan gives earliest start/finish times; backward scan gives latest times",
+        "Float = latest start time &minus; earliest start time",
+        "The critical path is the longest path through the network; every activity on it has zero float",
+        "Minimum completion time = length of the critical path",
+        "Maximum-flow minimum-cut theorem: the maximum flow equals the smallest cut capacity"
+      ],
+      "dotpoints": [
+        "Construct a network diagram from an activity table with durations and predecessors",
+        "Use forward and backward scanning to find earliest and latest starting times",
+        "Calculate float times and identify the critical path",
+        "Determine the minimum completion time for a project",
+        "Solve problems involving flow networks, cuts and the maximum-flow minimum-cut theorem"
+      ],
+      "questions": [
+        {
+          "id": "n3q1",
+          "type": "num",
+          "q": "A project has these activities. Activity (duration, immediate predecessors): A (4, &ndash;), B (6, &ndash;), C (5, A), D (3, A), E (7, B and C), F (2, D), G (4, E and F). Find the minimum completion time.",
+          "ans": 20,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 4,
+          "sol": "Forward scan: A finishes at 4, B at 6, C at 4 + 5 = 9, D at 4 + 3 = 7, E starts at max(6, 9) = 9 and finishes at 16, F finishes at 7 + 2 = 9, G starts at max(16, 9) = 16 and finishes at 20. Minimum completion time = 20"
+        },
+        {
+          "id": "n3q2",
+          "type": "mc",
+          "q": "For that project, which is the critical path?",
+          "opts": [
+            "A &rarr; D &rarr; F &rarr; G",
+            "B &rarr; E &rarr; G",
+            "A &rarr; C &rarr; E &rarr; G",
+            "A &rarr; C &rarr; E &rarr; F &rarr; G"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "A &rarr; C &rarr; E &rarr; G takes 4 + 5 + 7 + 4 = 20 days, matching the minimum completion time. B &rarr; E &rarr; G is only 17 and A &rarr; D &rarr; F &rarr; G only 13."
+        },
+        {
+          "id": "n3q3",
+          "type": "num",
+          "q": "For that project, find the float (slack) time of activity D.",
+          "ans": 7,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 4,
+          "sol": "G must start by day 16, so F must finish by 16 and start by 14, so D must finish by 14. D&rsquo;s earliest finish is 7, so the float is 14 &minus; 7 = 7 days"
+        },
+        {
+          "id": "n3q4",
+          "type": "num",
+          "q": "For that project, find the earliest starting time of activity E.",
+          "ans": 9,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 3,
+          "sol": "E needs both B (finishes at 6) and C (finishes at 9). It cannot start until the later of these: day 9"
+        },
+        {
+          "id": "n3q5",
+          "type": "num",
+          "q": "For that project, find the latest starting time of activity F.",
+          "ans": 14,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 3,
+          "sol": "G starts at day 16 at the latest, and F takes 2 days, so F must start by day 16 &minus; 2 = 14"
+        },
+        {
+          "id": "n3q6",
+          "type": "num",
+          "q": "For that project, find the float time of activity B.",
+          "ans": 3,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 3,
+          "sol": "E must start by day 9, so B must finish by day 9. B&rsquo;s earliest finish is day 6, so its float is 3 days"
+        },
+        {
+          "id": "n3q7",
+          "type": "num",
+          "q": "How many activities lie on the critical path of that project?",
+          "ans": 4,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "The critical path is A &rarr; C &rarr; E &rarr; G, which contains 4 activities"
+        },
+        {
+          "id": "n3q8",
+          "type": "num",
+          "q": "If activity C is delayed by 3 days, find the new minimum completion time for that project.",
+          "ans": 23,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 3,
+          "sol": "C is on the critical path and has zero float, so any delay pushes the whole project out by the same amount: 20 + 3 = 23 days"
+        },
+        {
+          "id": "n3q9",
+          "type": "num",
+          "q": "Find the total of all the activity durations in that project.",
+          "ans": 31,
+          "tol": 0.001,
+          "unit": "days",
+          "prefix": "",
+          "marks": 2,
+          "sol": "Adding the durations: 4 + 6 + 5 + 3 + 7 + 2 + 4 = 31 days. (This is far more than the 20-day completion time because activities run in parallel.)"
+        },
+        {
+          "id": "n3q10",
+          "type": "mc",
+          "q": "Which activity in that project can be delayed the longest without delaying the whole project?",
+          "opts": ["B", "C", "D", "E"],
+          "ans": 2,
+          "marks": 1,
+          "sol": "D has a float of 7 days, B has 3, and C and E are on the critical path with zero float. So D can absorb the most delay."
+        },
+        {
+          "id": "n3q11",
+          "type": "num",
+          "q": "A flow network has these capacities: S&rarr;A (12), S&rarr;B (8), A&rarr;B (5), A&rarr;T (7), B&rarr;T (9). Find the maximum flow from S to T.",
+          "ans": 16,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 4,
+          "sol": "The only edges into T are A&rarr;T (7) and B&rarr;T (9), giving a cut of 16. This cut is achievable: send 7 along S&rarr;A&rarr;T, 8 along S&rarr;B&rarr;T and 1 more via S&rarr;A&rarr;B&rarr;T. Maximum flow = minimum cut = 16"
+        },
+        {
+          "id": "n3q12",
+          "type": "num",
+          "q": "For that flow network, state the value of the minimum cut.",
+          "ans": 16,
+          "tol": 0.001,
+          "unit": "",
+          "prefix": "",
+          "marks": 2,
+          "sol": "By the maximum-flow minimum-cut theorem, the minimum cut equals the maximum flow: 16"
+        },
+        {
+          "id": "n3q13",
+          "type": "mc",
+          "q": "What does a float time of zero indicate about an activity?",
+          "opts": [
+            "It takes no time to complete",
+            "It can be delayed without affecting the project",
+            "It lies on the critical path and any delay delays the whole project",
+            "It has no predecessors"
+          ],
+          "ans": 2,
+          "marks": 1,
+          "sol": "Zero float means the earliest and latest start times coincide — the activity is critical, so any delay pushes out the completion time."
+        }
+      ],
+      "slug": "n3"
+    }
+  ]
+}
