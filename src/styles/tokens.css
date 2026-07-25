@@ -1,0 +1,62 @@
+/**
+ * Design tokens, extracted from the FINAL cascaded values of legacy/index.html's
+ * four layered `:root` blocks (v1 vintage-paper theme, overridden by v4/v5/v6
+ * redesigns declared later in the cascade). These are computed-style values taken
+ * from a real rendered page, not hand-copied from the first `:root` block — that
+ * block's values were themselves overridden and are not what the app actually
+ * looks like today.
+ *
+ * Some names no longer describe their color (e.g. --rust and --olive both now
+ * resolve to blue/cyan tones, not rust/olive) — kept verbatim rather than renamed,
+ * to avoid mismatching any usage site during the port. Treat renaming as a
+ * separate, deliberate cleanup, not part of this migration.
+ */
+:root {
+  --paper: #f6f8fc;
+  --paper-dark: #edf1f8;
+  --paper-darker: #dfe6f1;
+  --ink: #0b1220;
+  --ink-soft: #47536b;
+  --ink-faint: #8d97ac;
+  --rust: #2563eb;
+  --navy: #4338ca;
+  --olive: #0e7490;
+  --ochre: #1e293b;
+  --plan-green: #2563eb;
+  --line: rgba(11, 18, 32, 0.1);
+  --line-soft: rgba(11, 18, 32, 0.06);
+
+  --blue: #2563eb;
+  --blue-dark: #152c6b;
+  --warn: #dc2626;
+
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --edge: rgba(11, 18, 32, 0.09);
+  --edge-strong: rgba(11, 18, 32, 0.16);
+  --shadow-sm: 0 1px 2px rgba(11, 18, 32, 0.05);
+  --shadow-md: 0 2px 4px rgba(11, 18, 32, 0.04), 0 12px 28px -18px rgba(11, 18, 32, 0.22);
+  --shadow-lg: 0 4px 8px rgba(11, 18, 32, 0.04), 0 28px 60px -34px rgba(11, 18, 32, 0.35);
+  --rail-w: 250px;
+
+  /* per-section accent colors (Modern History topics s1-s4) */
+  --c-s1: #2563eb;
+  --c-s2: #4338ca;
+  --c-s3: #0e7490;
+  --c-s4: #b45309;
+
+  /* correct / incorrect feedback */
+  --ok: #15803d;
+  --ok-bg: rgba(22, 163, 74, 0.1);
+  --ok-line: rgba(22, 163, 74, 0.35);
+  --no: #b91c1c;
+  --no-bg: rgba(220, 38, 38, 0.09);
+  --no-line: rgba(220, 38, 38, 0.32);
+
+  /* Maths Standard 2 strand accent colors */
+  --alg: #2563eb;
+  --meas: #0e7490;
+  --fin: #4338ca;
+  --stat: #7c3aed;
+  --net: #b45309;
+}
