@@ -1,6 +1,9 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
 import { modernHistoryTopics, modernHistoryTotals, TOPIC_ROMAN } from '../lib/content/modernHistory'
+import { useProgress } from '../lib/progressStore'
+import { historyTopicStats, pct } from '../lib/progressStats'
+import { ProgressLine } from '../components/ProgressLine'
 
 const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; format: string }> = {
   s1: {
@@ -35,6 +38,7 @@ const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; fo
 
 export function ModernHistorySubject() {
   const navigate = useNavigate()
+  const progress = useProgress()
 
   return (
     <div className="wrap">
@@ -185,6 +189,7 @@ export function ModernHistorySubject() {
             topic.triviaCount,
             topic.quizCount,
           ]
+          const stats = historyTopicStats(progress, topic)
           return (
             <div
               key={topic.id}
@@ -207,6 +212,11 @@ export function ModernHistorySubject() {
                     ))}
                     <span>{copy.format}</span>
                   </div>
+                  <ProgressLine
+                    done={stats.score}
+                    total={stats.max}
+                    text={`${pct(stats.score, stats.max)}% covered`}
+                  />
                 </div>
                 <div className="topic-go">
                   Open topic <span className="arw">&rarr;</span>

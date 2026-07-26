@@ -1,10 +1,29 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
 import { modernHistoryTotals, modernHistoryTopics } from '../lib/content/modernHistory'
-import { mathsTotals } from '../lib/content/maths'
+import { mathsTotals, mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
+import { useProgress } from '../lib/progressStore'
+import { historyTopicStats, mathsTopicStats, pct } from '../lib/progressStats'
+import { ProgressLine } from '../components/ProgressLine'
 
 export function Home() {
   const navigate = useNavigate()
+  const progress = useProgress()
+
+  const historyOverall = modernHistoryTopics.reduce(
+    (acc, topic) => {
+      const stats = historyTopicStats(progress, topic)
+      return { score: acc.score + stats.score, max: acc.max + stats.max }
+    },
+    { score: 0, max: 0 },
+  )
+  const mathsOverall = [...mathsYear12Topics, ...mathsYear11Topics].reduce(
+    (acc, topic) => {
+      const stats = mathsTopicStats(progress, topic)
+      return { right: acc.right + stats.right, total: acc.total + stats.total }
+    },
+    { right: 0, total: 0 },
+  )
 
   return (
     <>
@@ -62,6 +81,12 @@ export function Home() {
                 HSC Year 12 &middot; NESA Stage 6 &middot; four core topics with syllabus summaries,
                 exam practice with answer plans, trivia and marked quizzes.
               </p>
+              <ProgressLine
+                done={historyOverall.score}
+                total={historyOverall.max}
+                text={`${pct(historyOverall.score, historyOverall.max)}% complete`}
+                size="sm"
+              />
             </div>
             <div className="subject-stats">
               <div>
@@ -100,6 +125,12 @@ export function Home() {
                 with key formulae and {mathsTotals.questions} practice questions that mark your
                 answers as you type them.
               </p>
+              <ProgressLine
+                done={mathsOverall.right}
+                total={mathsOverall.total}
+                text={`${pct(mathsOverall.right, mathsOverall.total)}% complete`}
+                size="sm"
+              />
             </div>
             <div className="subject-stats">
               <div>

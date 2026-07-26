@@ -8,6 +8,8 @@ import {
   type MathsResource,
   type MathsTopic,
 } from '../../lib/content/maths'
+import { useProgress, type ProgressState } from '../../lib/progressStore'
+import { mathsTopicStats } from '../../lib/progressStats'
 
 type MathsRailProps = {
   currentSlug: string
@@ -18,13 +20,22 @@ function MSection({
   topic,
   currentSlug,
   currentResource,
+  progress,
 }: {
   topic: MathsTopic
   currentSlug: string
   currentResource: MathsResource
+  progress: ProgressState
 }) {
   const navigate = useNavigate()
   const isActive = topic.slug === currentSlug
+  const stats = mathsTopicStats(progress, topic)
+  const rdotClass = [
+    'rdot',
+    stats.right === stats.total && stats.total ? 'done' : stats.done > 0 ? 'part' : '',
+  ]
+    .filter(Boolean)
+    .join(' ')
 
   return (
     <div
@@ -41,7 +52,7 @@ function MSection({
       >
         <span className="mcode">{topic.code}</span>
         <span className="mlabel">{topic.name}</span>
-        <span className="rdot" />
+        <span className={rdotClass} />
       </button>
       <div className="m-sub">
         {MATHS_RESOURCES.map((res) => (
@@ -54,7 +65,11 @@ function MSection({
             onClick={() => navigate(`/subjects/maths/${topic.slug}/${res}`)}
           >
             {MATHS_RESOURCE_LABELS[res]}
-            {res === 'practice' && <span className="rc">0/{topic.questions.length}</span>}
+            {res === 'practice' && (
+              <span className="rc">
+                {stats.right}/{stats.total}
+              </span>
+            )}
           </button>
         ))}
       </div>
@@ -63,6 +78,7 @@ function MSection({
 }
 
 export function MathsRail({ currentSlug, currentResource }: MathsRailProps) {
+  const progress = useProgress()
   return (
     <Rail
       backTo="/subjects/maths"
@@ -79,6 +95,7 @@ export function MathsRail({ currentSlug, currentResource }: MathsRailProps) {
           topic={topic}
           currentSlug={currentSlug}
           currentResource={currentResource}
+          progress={progress}
         />
       ))}
       <div className="m-year-label">
@@ -90,6 +107,7 @@ export function MathsRail({ currentSlug, currentResource }: MathsRailProps) {
           topic={topic}
           currentSlug={currentSlug}
           currentResource={currentResource}
+          progress={progress}
         />
       ))}
     </Rail>

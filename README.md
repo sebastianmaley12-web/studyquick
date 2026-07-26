@@ -1,32 +1,42 @@
-# React + TypeScript + Vite
+# StudyQuick
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An HSC study app for Modern History and Mathematics Standard 2 — syllabus summaries, practice
+questions with answer plans, quick-fire trivia, and self-marking quizzes. No accounts, no
+backend today: progress is stored in the browser's `localStorage` only.
 
-Currently, two official plugins are available:
+Originally a single-file HTML prototype (kept at `legacy/index.html` for reference), migrated to
+React + Vite + TypeScript for maintainability, mobile-first layout, and room to grow.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- React 19 + React Router 7, Vite + TypeScript
+- Vitest + Testing Library for component tests, Playwright for browser verification
+- ESLint (flat config) + Prettier
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Development
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+npm install
+npm run dev        # dev server
+npm run build      # type-check + production build
+npm run lint
+npm test           # vitest
+npm run test:e2e   # playwright
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Project layout
+
+- `src/content/` — Modern History and Maths question/summary data, extracted from the legacy
+  file as structured JSON (never hand-retyped)
+- `src/lib/content/` — typed accessors over that content, split by subject so each route only
+  bundles the data it needs
+- `src/lib/progressStore.ts` — the localStorage-backed progress store (byte-compatible with the
+  original app's `studyquick.progress.v1` schema)
+- `src/lib/supabase/` — scaffolding for a future accounts/sync backend (schema sketch + an inert
+  client stub); nothing here is live yet
+- `src/components/`, `src/pages/`, `src/hooks/` — the app itself
+
+## Status
+
+All original functionality has been migrated and verified against the legacy file. Accounts,
+cloud sync, and monetisation are scaffolded (see `src/lib/supabase/schema.sql`) but not built.

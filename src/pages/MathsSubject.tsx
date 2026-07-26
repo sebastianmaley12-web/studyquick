@@ -1,9 +1,18 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
-import { mathsTotals, mathsYear11Topics, mathsYear12Topics, type MathsTopic } from '../lib/content/maths'
+import {
+  mathsTotals,
+  mathsYear11Topics,
+  mathsYear12Topics,
+  type MathsTopic,
+} from '../lib/content/maths'
+import { useProgress, type ProgressState } from '../lib/progressStore'
+import { mathsTopicStats } from '../lib/progressStats'
+import { ProgressLine } from '../components/ProgressLine'
 
-function MTopicCard({ topic }: { topic: MathsTopic }) {
+function MTopicCard({ topic, progress }: { topic: MathsTopic; progress: ProgressState }) {
   const navigate = useNavigate()
+  const stats = mathsTopicStats(progress, topic)
   return (
     <div
       className="mtopic-card"
@@ -19,18 +28,27 @@ function MTopicCard({ topic }: { topic: MathsTopic }) {
       <div className="meta">
         {topic.questions.length} questions &middot; {topic.strand}
       </div>
-      <div className="prog-line">
-        <div className="pbar sm">
-          <i />
-        </div>
-        <span className="ptext">0/{topic.questions.length}</span>
-      </div>
+      <ProgressLine
+        done={stats.right}
+        total={stats.total}
+        text={`${stats.right}/${stats.total}`}
+        size="sm"
+      />
     </div>
   )
 }
 
 export function MathsSubject() {
   const navigate = useNavigate()
+  const progress = useProgress()
+  const allTopics = [...mathsYear12Topics, ...mathsYear11Topics]
+  const overall = allTopics.reduce(
+    (acc, topic) => {
+      const stats = mathsTopicStats(progress, topic)
+      return { right: acc.right + stats.right, total: acc.total + stats.total }
+    },
+    { right: 0, total: 0 },
+  )
 
   return (
     <div className="wrap">
@@ -75,12 +93,11 @@ export function MathsSubject() {
             <div className="v">{mathsTotals.multipleChoice}</div>
           </div>
         </div>
-        <div className="prog-line">
-          <div className="pbar">
-            <i />
-          </div>
-          <span className="ptext">0 of {mathsTotals.questions} questions correct</span>
-        </div>
+        <ProgressLine
+          done={overall.right}
+          total={overall.total}
+          text={`${overall.right} of ${overall.total} questions correct`}
+        />
         <button
           className="cta"
           type="button"
@@ -121,7 +138,7 @@ export function MathsSubject() {
       </div>
       <div className="mtopic-grid">
         {mathsYear12Topics.map((topic) => (
-          <MTopicCard key={topic.slug} topic={topic} />
+          <MTopicCard key={topic.slug} topic={topic} progress={progress} />
         ))}
       </div>
       <div className="year-band">
@@ -132,7 +149,7 @@ export function MathsSubject() {
       </div>
       <div className="mtopic-grid">
         {mathsYear11Topics.map((topic) => (
-          <MTopicCard key={topic.slug} topic={topic} />
+          <MTopicCard key={topic.slug} topic={topic} progress={progress} />
         ))}
       </div>
 

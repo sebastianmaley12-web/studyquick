@@ -7,6 +7,8 @@ import {
   type ModernHistoryResource,
   type ModernHistoryTopicId,
 } from '../../lib/content/modernHistory'
+import { useProgress } from '../../lib/progressStore'
+import { historyTopicStats } from '../../lib/progressStats'
 
 type HistoryRailProps = {
   currentTopicId: ModernHistoryTopicId
@@ -15,6 +17,7 @@ type HistoryRailProps = {
 
 export function HistoryRail({ currentTopicId, currentResource }: HistoryRailProps) {
   const navigate = useNavigate()
+  const progress = useProgress()
 
   return (
     <Rail
@@ -26,6 +29,7 @@ export function HistoryRail({ currentTopicId, currentResource }: HistoryRailProp
       <div className="rail-label">Topics &amp; resources</div>
       {modernHistoryTopics.map((topic, i) => {
         const isActive = topic.id === currentTopicId
+        const stats = historyTopicStats(progress, topic)
         return (
           <div
             key={topic.id}
@@ -50,10 +54,10 @@ export function HistoryRail({ currentTopicId, currentResource }: HistoryRailProp
                   res === 'summary'
                     ? topic.summaryPointCount
                     : res === 'practice'
-                      ? topic.practiceCount
+                      ? `${stats.pDone}/${stats.pTotal}`
                       : res === 'trivia'
-                        ? topic.triviaCount
-                        : topic.quizCount
+                        ? `${stats.tKnown}/${stats.tTotal}`
+                        : `${stats.qRight}/${stats.qTotal}`
                 return (
                   <button
                     key={res}
