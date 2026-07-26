@@ -1,0 +1,164 @@
+{
+  "id": "hr",
+  "meta": {
+    "title": "Human Resources",
+    "range": "HSC topic · 25% of course time · restricted trial scope: role of HRM and key influences only",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable (this trial)",
+        "bodyHtml": "Per the assessment notification, only two parts of this topic are assessed this trial: the role of human resource management (strategic role, interdependence, outsourcing) and key influences (stakeholders, legal, economic, technological, social, ethics/CSR). Processes of HRM, strategies in HRM, workplace disputes and effectiveness of HRM are part of the full syllabus but are excluded from this trial."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Covers only the role of HRM and key influences — the two sub-topics the trial notification confirms are examinable this time.",
+    "groups": [
+      {
+        "title": "Role of human resource management",
+        "points": [
+          "Human resource management (HRM) manages the relationship between employer and employee; businesses typically spend more than half their total costs on staff, so employees should be treated as an asset, not just an expense.",
+          "HR's four main functions: <b>acquisition</b> (attracting and hiring staff), <b>development</b> (improving skills and knowledge), <b>maintenance</b> (managing legal responsibilities and rewarding performance) and <b>separation</b> (employees leaving the business).",
+          "The strategic role of HR is to help the business maximise profit through <b>productivity</b> — maximised through open communication and goal setting, eliminating conflict, motivation (rewarding performance) and a positive work environment.",
+          "<b>Interdependence</b>: operations needs HR to hire and train staff who can operate machinery and manage quality (and to manage redundancies when operations outsources or automates); marketing needs HR to hire researchers, advertisers and salespeople with the right communication skills; finance needs HR to determine reward sizes and training budgets, while providing HR with the funds to do so.",
+          "<b>Outsourcing</b> HR functions (e.g. using a recruitment agency) can access specialised skills and lower costs, but risks employee unrest between in-house and outsourced staff and loss of control over how functions are performed.",
+          "<b>Contractors</b> differ from outsourcing in being engaged for a specific project rather than an ongoing function. <b>Domestic contractors</b> offer local market knowledge and minimal language barriers; <b>global contractors</b> offer cost savings and specialist skills, but risk hidden costs, language/culture barriers and difficulty controlling quality."
+        ]
+      },
+      {
+        "title": "Key influences — stakeholders",
+        "points": [
+          "A <b>stakeholder</b> is an individual or group with a vested interest in, or affected by, a business's actions — not the same as a shareholder.",
+          "<b>Employers</b> hire and control employees, pay wages, and are responsible for a safe working environment and legal compliance; their goals include efficiency, profitability and staff wellbeing.",
+          "<b>Employees</b> perform tasks for reward under an employer's control; modern employees increasingly seek challenging work, involvement in decisions, and flexible working arrangements such as working from home.",
+          "<b>Unions</b> (e.g. the Australian Workers' Union, NSW Nurses and Midwives' Association) negotiate better wages and conditions, represent employees in disputes, and advise on legal rights.",
+          "<b>Employer associations</b> (e.g. the Australian Chamber of Commerce and Industry) represent and advise businesses, especially small ones, in collective bargaining and before industrial tribunals.",
+          "<b>Government organisations</b> act as employers, legislators (creating employment law), administrators/enforcers (e.g. the Fair Work Commission, Fair Work Ombudsman, Safe Work Australia) and economic managers (fiscal and monetary policy affecting employment).",
+          "The <b>Fair Work Commission</b> enforces the Fair Work Act 2009, sets the minimum wage, resolves disputes, and oversees three types of employment contracts: <b>modern awards</b> (minimum industry-wide terms), <b>enterprise agreements</b> (negotiated at the workplace level, approved via the Better Off Overall Test) and <b>individual/common law contracts</b> (negotiated one-to-one, usually for senior roles).",
+          "<b>Society</b> expects employers to comply with employment law, act ethically and socially responsibly (including toward outsourced/overseas workers), and uphold worker safety and equal opportunity."
+        ]
+      },
+      {
+        "title": "Key influences — legal, economic, technological, social and ethical",
+        "points": [
+          "The <b>employment contract</b> is a legally binding agreement based on common law, setting out employer obligations (paying wages, safe environment, following the law) and employee obligations (performing tasks competently, following instructions, acting in good faith).",
+          "The <b>National Employment Standards (NES)</b> are 11 minimum entitlements all Australian employees receive regardless of contract type, covering matters like maximum weekly hours, leave entitlements and redundancy pay. The <b>national minimum wage</b> (as of July 2025) is $24.95 per hour, and no contract can pay below it.",
+          "<b>Work Health and Safety (WHS)</b> law (the Work Health and Safety Act 2011) requires employers to provide a safe system of work and requires all employers to hold workers' compensation insurance; benefits include fewer accidents and better productivity, while non-compliance risks fines, prosecution or business closure.",
+          "<b>Anti-discrimination and equal employment opportunity (EEO)</b> law makes it illegal to discriminate on grounds like sex, age, disability or race — key legislation includes the Sex Discrimination Act 1984, the Age Discrimination Act 2004 and the Disability Discrimination Act 1992, all enforced through the Australian Human Rights Commission (AHRC); the Workplace Gender Equality Agency (WGEA) promotes gender equality specifically.",
+          "<b>Economic</b> influences: during a boom, demand for labour rises and the supply of available workers falls, giving employees more bargaining power and pushing wages up; during a downturn, demand for labour falls and businesses may reduce staff hours or numbers.",
+          "<b>Technological</b> influences: technology enables flexible/remote work (improving work-life balance), creates demand for new skills (requiring recruitment and retraining), and can cause redundancies when tasks are automated; <b>AI</b> in particular is forecast to add significant economic value but raises challenges around data quality, privacy, and the need for new technical skills.",
+          "<b>Social</b> influences — changing work patterns: demand for work-life balance and flexible/remote work, rising job mobility increasing staff turnover, more women in the workforce (requiring equal pay and childcare flexibility), and an ageing workforce needing more flexible arrangements to encourage later retirement. Australia's high living standards can be undermined when HR functions are outsourced overseas without regard for those workers' conditions.",
+          "<b>Ethics and corporate social responsibility</b> in HR means providing positive working conditions, a safe environment, and fair treatment beyond the legal minimum — a positive workplace improves staff morale and reduces turnover, while an unethical one risks legal costs, industrial disputes and reputational damage."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "Role of human resource management",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain the strategic role of human resource management in achieving a business's overall goals.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Link HR to productivity and profit maximisation.</li><li>Name at least two ways productivity is maximised.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The strategic role of HR is to assist the business in achieving its overall goal of profit maximisation, primarily through productivity — ensuring employees work to their fullest potential relative to the inputs used. When productivity is maximised, costs are minimised and profit is maximised.</p><p>Productivity is maximised through open communication and clear goal setting, so teams understand what they're working towards; eliminating conflict, since employees can't be productive while constantly in dispute; motivating staff by rewarding performance, which also reduces staff turnover; and creating a positive work environment where employees feel respected and valued. Businesses spend more than half their total costs on staff, so treating employees as an asset rather than just an expense, and maximising their productivity, can translate directly into a competitive advantage through lower costs and improved performance.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss the advantages and disadvantages of outsourcing human resource functions to a domestic contractor versus a global contractor.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define outsourcing/contractors in HR.</li><li>Cover both domestic and global, with an advantage and disadvantage for each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Outsourcing HR functions to a contractor gives a business access to specialised skills, potentially better quality, and lower costs than performing the function in-house. Domestic contractors offer expert knowledge of the local market and convenience, since they operate in the same time zone with minimal language barriers, though they may be more expensive than an equivalent overseas provider.</p><p>Global contractors can offer greater cost savings due to cheaper labour and favourable exchange rates, and can bring specialist skills and knowledge that improve productivity and flexibility, as well as transforming business culture through enhanced diversity. However, global contracting carries greater risk of hidden costs, language and cultural differences leading to lost-in-translation instructions, more difficulty controlling quality and reliability, and exposure to different (and potentially weaker) legal protections in the contractor's home country. A business needs to weigh cost savings against these added risks when choosing between domestic and global contractors.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Key influences",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Outline",
+            "badge": "4 marks",
+            "questionHtml": "Outline the difference between a modern award, an enterprise agreement and an individual employment contract.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define all three types.</li><li>Note who they apply to and how they're approved.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A modern award sets the legally binding minimum terms and conditions for a specific industry, automatically applying to every employer and employee within it, covering matters like base pay, hours and superannuation — it's the most basic and widely used type of employment contract in Australia.</p><p>An enterprise agreement is negotiated at the level of an individual business between an employer (or group of employers) and a group of employees or their union, setting terms that must be above the National Employment Standards and approved by the Fair Work Commission using the Better Off Overall Test.</p><p>An individual (common law) contract is a personal agreement negotiated directly between an employer and one employee, usually used for senior roles like managers, offering less formal protection than the other two but still meeting the National Employment Standards as a legal minimum.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how economic conditions (a boom versus a downturn) influence human resource management decisions.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the boom scenario and its HR effect.</li><li>Explain the downturn scenario and its HR effect.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>During a boom, demand for labour rises as businesses need to produce more to meet growing customer demand, while the supply of available workers falls since more people already have jobs. This gives employees greater bargaining power, meaning businesses must offer higher wages and more benefits to attract and retain staff, and HR's focus shifts to recruitment.</p><p>During a downturn (bust), demand for labour falls as customers spend less and businesses produce less, while the supply of available workers rises as more people are looking for work. Employee bargaining power falls, and businesses may need to let staff go or reduce hours from full-time to casual or part-time, increasing costs like redundancy payments in the short term but reducing labour costs over the long run. HR's focus shifts to managing this separation process fairly and legally.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss how technological change, including AI, is influencing human resource management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover both benefits (flexibility, recruitment of new skills) and challenges (redundancies).</li><li>Reference AI specifically, with at least one concrete benefit and challenge.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Technology allows more flexible, remote work, which can improve employees' work-life balance and access to a wider pool of skilled workers globally. It also creates demand for new skills, meaning HR must recruit employees competent with modern technologies or retrain existing staff — for example, teaching factory workers to operate new machinery.</p><p>However, new technology like robotics can make some roles redundant, since tasks that used to require a person can now be done more efficiently by a machine, creating short-term redundancy costs and leaving some employees with non-transferable skills. Artificial intelligence is a major current example: it can automate repetitive tasks and improve decision-making using large datasets, and Australian businesses could generate significant additional economic value from AI over the next 15 years. However, it also raises challenges HR must manage, including the need for specialised technical skills that are in short supply, data privacy concerns, and the risk of biased or non-transparent AI systems if not implemented ethically. HR must balance capturing these benefits with managing the workforce and ethical risks they create.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What are HR's four main functions?", "answerHtml": "Acquisition, development, maintenance and separation." },
+    { "n": 2, "questionHtml": "What is the strategic role of HR?", "answerHtml": "To help the business achieve profit maximisation, mainly through maximising employee productivity." },
+    { "n": 3, "questionHtml": "What's the difference between outsourcing and using a contractor?", "answerHtml": "Outsourcing gives an ongoing function to another business long-term; a contractor works on a specific project, then moves on." },
+    { "n": 4, "questionHtml": "What is a stakeholder?", "answerHtml": "An individual or group with a vested interest in, or affected by, a business's actions — not the same as a shareholder." },
+    { "n": 5, "questionHtml": "What is a trade union?", "answerHtml": "An organisation of workers that negotiates for better wages and conditions and represents employees in disputes." },
+    { "n": 6, "questionHtml": "What is an employer association?", "answerHtml": "An organisation that represents and assists businesses/employers, especially small businesses, e.g. the ACCI." },
+    { "n": 7, "questionHtml": "What is the Fair Work Commission?", "answerHtml": "Australia's industrial relations tribunal, created by the Fair Work Act 2009, which sets the minimum wage and resolves disputes." },
+    { "n": 8, "questionHtml": "What is a modern award?", "answerHtml": "Legally binding minimum terms and conditions of employment that apply automatically to a whole industry." },
+    { "n": 9, "questionHtml": "What is an enterprise agreement?", "answerHtml": "A negotiated agreement about pay and conditions at a specific workplace, approved by the Fair Work Commission." },
+    { "n": 10, "questionHtml": "What are the National Employment Standards (NES)?", "answerHtml": "11 minimum employment entitlements that apply to all Australian employees regardless of contract type." },
+    { "n": 11, "questionHtml": "What was Australia's national minimum wage as of July 2025?", "answerHtml": "$24.95 per hour (or $948 per week)." },
+    { "n": 12, "questionHtml": "What does the Work Health and Safety Act 2011 require of employers?", "answerHtml": "To provide a safe system of work and hold workers' compensation insurance." },
+    { "n": 13, "questionHtml": "Name one Commonwealth anti-discrimination law and what it covers.", "answerHtml": "The Sex Discrimination Act 1984 — prohibits discrimination based on sex, gender identity, marital status or pregnancy." },
+    { "n": 14, "questionHtml": "What does EEO stand for?", "answerHtml": "Equal Employment Opportunity — equitable policies and practices in recruitment, selection, training and promotion." },
+    { "n": 15, "questionHtml": "What does WGEA stand for and what does it do?", "answerHtml": "Workplace Gender Equality Agency — promotes and reviews compliance with gender equality in the workplace." },
+    { "n": 16, "questionHtml": "How does a boom in the economy affect the labour market?", "answerHtml": "Demand for labour rises and supply of available workers falls, giving employees more bargaining power." },
+    { "n": 17, "questionHtml": "How does an economic downturn affect HR's focus?", "answerHtml": "Demand for labour falls, so HR's focus shifts to managing the separation process (redundancies, reduced hours)." },
+    { "n": 18, "questionHtml": "What social trend is increasing demand for flexible and remote work arrangements?", "answerHtml": "Changing work patterns — demand for work-life balance, more women in the workforce, and an ageing workforce." },
+    { "n": 19, "questionHtml": "What is a key challenge of adopting AI in HR/business, according to the notes?", "answerHtml": "It requires specialised technical skills that are in short supply, and raises data privacy and bias concerns." },
+    { "n": 20, "questionHtml": "What does the Fair Work Ombudsman do?", "answerHtml": "An independent statutory agency providing free advice on workplace rights and responsibilities to workers and employers." },
+    { "n": 21, "questionHtml": "What is the Better Off Overall Test (BOOT)?", "answerHtml": "The test the Fair Work Commission uses to approve an enterprise agreement, ensuring employees are better off than under the relevant award." },
+    { "n": 22, "questionHtml": "Give one example of corporate social responsibility in HR.", "answerHtml": "Providing positive, safe working conditions and fair treatment that go beyond the legal minimum." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "b", "questionHtml": "Which HR function involves employees leaving the business?", "options": [ { "opt": "a", "textHtml": "Acquisition" }, { "opt": "b", "textHtml": "Separation" }, { "opt": "c", "textHtml": "Development" }, { "opt": "d", "textHtml": "Maintenance" } ] },
+    { "n": 2, "answer": "c", "questionHtml": "The strategic role of HR is primarily to help a business achieve profit maximisation through:", "options": [ { "opt": "a", "textHtml": "Reducing the number of employees as much as possible" }, { "opt": "b", "textHtml": "Outsourcing all HR functions" }, { "opt": "c", "textHtml": "Maximising employee productivity" }, { "opt": "d", "textHtml": "Avoiding all employee training costs" } ] },
+    { "n": 3, "answer": "a", "questionHtml": "Which of the following best distinguishes a contractor from outsourcing?", "options": [ { "opt": "a", "textHtml": "A contractor works on a specific project; outsourcing is an ongoing arrangement" }, { "opt": "b", "textHtml": "A contractor is always a full-time employee" }, { "opt": "c", "textHtml": "Outsourcing can only be done domestically" }, { "opt": "d", "textHtml": "A contractor cannot be paid for their work" } ] },
+    { "n": 4, "answer": "d", "questionHtml": "Which of the following is a stakeholder in human resource management, but not a shareholder?", "options": [ { "opt": "a", "textHtml": "A person who owns company shares but has no involvement with the business" }, { "opt": "b", "textHtml": "A silent investor" }, { "opt": "c", "textHtml": "A retired former owner with no remaining ties to the business" }, { "opt": "d", "textHtml": "A trade union representing the business's employees" } ] },
+    { "n": 5, "answer": "b", "questionHtml": "Which organisation enforces the Fair Work Act 2009 and sets Australia's minimum wage?", "options": [ { "opt": "a", "textHtml": "The Australian Securities and Investments Commission (ASIC)" }, { "opt": "b", "textHtml": "The Fair Work Commission (FWC)" }, { "opt": "c", "textHtml": "The Australian Human Rights Commission (AHRC)" }, { "opt": "d", "textHtml": "The Australian Competition and Consumer Commission (ACCC)" } ] },
+    { "n": 6, "answer": "a", "questionHtml": "Which type of employment contract applies automatically to every employer and employee in a given industry?", "options": [ { "opt": "a", "textHtml": "A modern award" }, { "opt": "b", "textHtml": "An enterprise agreement" }, { "opt": "c", "textHtml": "An individual common law contract" }, { "opt": "d", "textHtml": "A private equity agreement" } ] },
+    { "n": 7, "answer": "c", "questionHtml": "An enterprise agreement must be approved by the Fair Work Commission using which test?", "options": [ { "opt": "a", "textHtml": "The Corporations Test" }, { "opt": "b", "textHtml": "The Solvency Test" }, { "opt": "c", "textHtml": "The Better Off Overall Test (BOOT)" }, { "opt": "d", "textHtml": "The Fit For Purpose Test" } ] },
+    { "n": 8, "answer": "b", "questionHtml": "The National Employment Standards (NES) apply to:", "options": [ { "opt": "a", "textHtml": "Only employees on individual contracts" }, { "opt": "b", "textHtml": "All Australian employees, regardless of contract type" }, { "opt": "c", "textHtml": "Only employees covered by a modern award" }, { "opt": "d", "textHtml": "Only casual employees" } ] },
+    { "n": 9, "answer": "d", "questionHtml": "Which piece of legislation specifically sets out employer and employee rights and responsibilities regarding workplace safety?", "options": [ { "opt": "a", "textHtml": "The Fair Work Act 2009" }, { "opt": "b", "textHtml": "The Sex Discrimination Act 1984" }, { "opt": "c", "textHtml": "The Corporations Act 2001" }, { "opt": "d", "textHtml": "The Work Health and Safety Act 2011" } ] },
+    { "n": 10, "answer": "a", "questionHtml": "The Age Discrimination Act 2004 protects against discrimination based on age for:", "options": [ { "opt": "a", "textHtml": "People of all ages, both younger and older" }, { "opt": "b", "textHtml": "Only people over 60" }, { "opt": "c", "textHtml": "Only people under 25" }, { "opt": "d", "textHtml": "Only permanent, full-time employees" } ] },
+    { "n": 11, "answer": "c", "questionHtml": "Which government agency promotes and reviews compliance with gender equality specifically in the workplace?", "options": [ { "opt": "a", "textHtml": "The Fair Work Ombudsman" }, { "opt": "b", "textHtml": "Safe Work Australia" }, { "opt": "c", "textHtml": "The Workplace Gender Equality Agency (WGEA)" }, { "opt": "d", "textHtml": "The Australian Securities Exchange" } ] },
+    { "n": 12, "answer": "b", "questionHtml": "During an economic boom, the labour market typically sees:", "options": [ { "opt": "a", "textHtml": "Rising unemployment and falling wages" }, { "opt": "b", "textHtml": "Rising demand for labour and falling supply of available workers" }, { "opt": "c", "textHtml": "No change in employee bargaining power" }, { "opt": "d", "textHtml": "A decrease in business recruitment activity" } ] },
+    { "n": 13, "answer": "d", "questionHtml": "During an economic downturn, HR's focus commonly shifts toward:", "options": [ { "opt": "a", "textHtml": "Aggressive recruitment expansion" }, { "opt": "b", "textHtml": "Increasing all staff wages" }, { "opt": "c", "textHtml": "Reducing workplace safety standards" }, { "opt": "d", "textHtml": "Managing separations, such as redundancies or reduced hours" } ] },
+    { "n": 14, "answer": "a", "questionHtml": "Which of the following is a challenge businesses face when adopting AI, according to current HR considerations?", "options": [ { "opt": "a", "textHtml": "A shortage of employees with the specialised technical skills to implement it" }, { "opt": "b", "textHtml": "AI cannot process any data faster than a human" }, { "opt": "c", "textHtml": "AI is banned from use in Australian workplaces" }, { "opt": "d", "textHtml": "AI has no impact on employee redundancy" } ] },
+    { "n": 15, "answer": "b", "questionHtml": "Which of the following reflects a changing social work pattern influencing HR today?", "options": [ { "opt": "a", "textHtml": "A decline in demand for flexible working arrangements" }, { "opt": "b", "textHtml": "Increasing demand for work-life balance and remote/flexible work" }, { "opt": "c", "textHtml": "A decrease in the proportion of women in the workforce" }, { "opt": "d", "textHtml": "A shrinking, rather than ageing, workforce" } ] },
+    { "n": 16, "answer": "c", "questionHtml": "Outsourcing HR functions overseas to reduce costs, without regard for those workers' conditions, is most likely to be criticised on the grounds of:", "options": [ { "opt": "a", "textHtml": "Breaching the Corporations Act 2001" }, { "opt": "b", "textHtml": "Violating financial reporting standards" }, { "opt": "c", "textHtml": "Social responsibility and ethics" }, { "opt": "d", "textHtml": "Breaching consumer law" } ] },
+    { "n": 17, "answer": "d", "questionHtml": "A positive, ethical workplace culture is most likely to result in:", "options": [ { "opt": "a", "textHtml": "Higher staff turnover" }, { "opt": "b", "textHtml": "Increased industrial disputes" }, { "opt": "c", "textHtml": "Higher recruitment and training costs" }, { "opt": "d", "textHtml": "Higher staff morale and lower turnover" } ] }
+  ]
+}

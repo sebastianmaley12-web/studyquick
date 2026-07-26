@@ -10,6 +10,11 @@ import {
   type ModernHistoryResource,
 } from '../lib/content/modernHistory'
 import { HMS_RESOURCE_LABELS, hmsTopics, type HmsResource } from '../lib/content/hms'
+import {
+  BUSINESS_RESOURCE_LABELS,
+  businessTopics,
+  type BusinessResource,
+} from '../lib/content/business'
 
 type Crumb = { label: string; to?: string }
 
@@ -63,6 +68,21 @@ function crumbsForPath(pathname: string): Crumb[] {
       { label: 'Health & Movement Science', to: '/subjects/hms' },
       { label: topic?.short ?? topicId, to: `/subjects/hms/${topicId}` },
       { label: HMS_RESOURCE_LABELS[resource ?? 'summary'] },
+    ]
+  }
+
+  if (seg[1] === 'business') {
+    if (seg.length === 2) {
+      return [{ label: 'All subjects', to: '/' }, { label: 'Business Studies' }]
+    }
+    const topicId = seg[2]
+    const resource = seg[3] as BusinessResource | undefined
+    const topic = businessTopics.find((t) => t.id === topicId)
+    return [
+      { label: 'All subjects', to: '/' },
+      { label: 'Business Studies', to: '/subjects/business' },
+      { label: topic?.short ?? topicId, to: `/subjects/business/${topicId}` },
+      { label: BUSINESS_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
 

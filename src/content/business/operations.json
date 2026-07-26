@@ -1,0 +1,197 @@
+{
+  "id": "operations",
+  "meta": {
+    "title": "Operations",
+    "range": "HSC topic · 25% of course time · strategies for effective operations management in large businesses",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "Role of operations management, transformation processes (inputs, transformation, outputs), the 4 Vs, operations strategies (performance objectives, supply chain management, technology, quality management, overcoming resistance to change) and global factors — all Learn To and Learn About dot points."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Organised by the syllabus's own headings for this topic.",
+    "groups": [
+      {
+        "title": "Role of operations management",
+        "points": [
+          "Operations refers to the processes involved in the <b>transformation</b> of inputs (raw materials, labour, facilities, information) into outputs (finished goods and services).",
+          "The <b>strategic role</b> of operations management is long-term planning performed by senior managers, achieving maximum output with minimum input (efficiency) to add value — the output should be worth more than the combined inputs.",
+          "Effective operations management adds value by increasing productivity, reducing costs and improving quality, achieved through <b>cost leadership</b> (competing on lower prices, e.g. Aldi, Chemist Warehouse) and/or <b>good/service differentiation</b> (competing on unique features, e.g. Ferrari, Apple).",
+          "Operations is a cost centre — it doesn't directly generate income, but generates costs the business must manage.",
+          "The range of goods/services a business offers differs by industry: standardised vs customised goods, perishable vs non-perishable goods, and intermediate goods (finished products that become another business's input, e.g. milk sold to bakeries).",
+          "<b>Interdependence</b> is the mutual dependence the four key business functions have on each other — e.g. marketing communicates customer needs so operations can plan production; finance provides funds that determine which operations strategies are affordable; HR supplies and trains the staff operations processes need.",
+          "Key <b>influences</b> on operations include globalisation, technology, quality expectations, cost-based competition, government policies, legal regulation and environmental sustainability.",
+          "<b>Corporate social responsibility (CSR)</b> goes beyond legal compliance to an ethical responsibility toward the 'triple bottom line' — social, environmental and financial impact — even though it isn't required by law."
+        ]
+      },
+      {
+        "title": "Operations processes",
+        "points": [
+          "<b>Inputs</b> are classified as transformed resources (materials, information, customers — the things converted during production) and transforming resources (human resources and facilities — the things that carry out the conversion).",
+          "The <b>4 Vs</b> shape operations processes based on customer demand: <b>Volume</b> (how much to make — high volume favours standardisation and economies of scale, low volume favours customisation), <b>Variety</b> (how many product variations — higher variety raises costs and needs more flexible technology), <b>Variation in demand</b> (how much demand fluctuates and how quickly operations can respond), and <b>Visibility</b> (how much direct customer contact/input there is, e.g. a hairdresser vs a factory).",
+          "<b>Sequencing</b> is the order activities occur in; <b>scheduling</b> is how long each activity takes. <b>Gantt charts</b> give a quick overview of tasks and timing but don't show task relationships; <b>Critical Path Analysis (CPA)</b> shows how tasks are interrelated and identifies the longest (critical) path, but both struggle with very complex projects or inaccurate time estimates.",
+          "Technology used in operations includes <b>robotics</b> (precision, consistency, efficiency), <b>CAD</b> (computer-aided design, 3D visualisation) and <b>CAM</b> (computer-aided manufacturing, linking design to production).",
+          "<b>Process layout</b> groups equipment by function (e.g. restaurants); <b>product layout</b> arranges equipment by the sequence of tasks, suited to large-volume standardised production (e.g. assembly lines); <b>fixed position layout</b> brings employees and equipment to the product (e.g. building a house).",
+          "<b>Monitoring</b> measures actual performance against planned performance using KPIs (key performance indicators); <b>control</b> takes corrective action when KPIs miss targets; <b>improvement</b> systematically reduces inefficiencies and bottlenecks, often through kaizen (continuous improvement).",
+          "Outputs include the goods/services themselves, <b>customer service</b> (meeting or exceeding expectations) and <b>warranties</b> (a legal promise to fix defects) — both are also useful sources of feedback for monitoring operations."
+        ]
+      },
+      {
+        "title": "Operations strategies",
+        "points": [
+          "<b>Performance objectives</b> (QSDFCC): quality, speed, dependability, flexibility, customisation and cost — targets operations managers aim to meet in order to build a competitive advantage.",
+          "<b>New product/service design and development</b> happens either in response to consumer preferences (market research) or from advances in technology, and must balance quality, supply chain, capacity and cost.",
+          "<b>Supply chain management</b> covers sourcing (including <b>global sourcing</b>), logistics and e-commerce; a business's supply chain is its supply network and relationship with suppliers.",
+          "<b>Outsourcing</b> (contracting activities to an external business, onshore or offshore) can lower costs and improve process capability, but risks loss of control, communication issues and loss of corporate memory.",
+          "<b>Inventory management</b> approaches include <b>FIFO</b> (first-in-first-out, suited to perishables — lowers cost of goods sold and raises gross profit), <b>LIFO</b> (last-in-first-out, suited to non-perishables like fast fashion) and <b>JIT</b> (just-in-time, minimal stock ordered only when needed, e.g. Toyota) which reduces storage costs but requires reliable suppliers and accurate demand forecasts.",
+          "<b>Quality management</b> has three approaches: <b>quality control</b> (reactive — inspecting and fixing defects), <b>quality assurance</b> (proactive — designing processes to prevent defects) and <b>total quality management/continuous improvement</b> (an ongoing, business-wide commitment via benchmarking and employee empowerment).",
+          "<b>Overcoming resistance to change</b> involves financial factors (new equipment, redundancy payments, retraining, reorganising plant layout) and psychological factors (inertia — fear of being replaced, fear of the new, preference for stability) — addressed by evaluating change thoroughly, being proactive, implementing gradually, involving employees, and using change agents.",
+          "<b>Global factors</b> — global sourcing, economies of scale, scanning and learning (learning from successful practices worldwide, e.g. post-WWII Japanese kaizen), and research and development (R&D) — help businesses compete internationally, though Australia's R&D investment ranks comparatively low among OECD countries."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "Role of operations management",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain the strategic role of operations management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define strategic (long-term planning by senior managers).</li><li>Explain efficiency (maximum output, minimum input).</li><li>Link to cost leadership and/or differentiation as the strategic goal.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The strategic role of operations is the long-term planning performed by senior managers, done efficiently by achieving the maximum output with the minimum level of inputs. This means transforming inputs such as raw materials, labour and facilities into outputs as finished goods and services, while increasing productivity, reducing costs and improving quality. This is done to achieve a strategic competitive advantage through cost leadership (competing on lower prices, e.g. Aldi and Chemist Warehouse minimise the cost of production to sell for less) and/or differentiation (competing through special characteristics such as better quality, faster delivery or clever design, e.g. Ferrari and Apple). Operations assists the business in achieving its overall goal of profit maximisation by adding value, so the output is worth more than the combined inputs.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain how interdependence between operations and the other key business functions can affect a business.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define interdependence.</li><li>Give an example linking operations to at least two other functions.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Interdependence is the mutual dependence the four key business functions have on each other to perform efficiently and achieve common goals like profit maximisation. Operations and marketing must communicate to ensure products meet the standards customers expect and are ready by the date marketing promotes them for. Finance provides the funds that determine which operations strategies (like investment in new technology) can be undertaken — this investment can lead to faster processing speeds and less waste, resulting in savings on labour and materials. Human resources must hire and train employees with the right skills to operate machinery, and when operations outsources or automates a process, HR must manage the resulting redundancies. None of the four functions can operate effectively in isolation.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Operations processes",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how the 4 Vs (volume, variety, variation in demand and visibility) influence a business's transformation processes.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define each of the 4 Vs briefly.</li><li>Explain the effect of each on production costs/processes, with an example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Volume refers to how much of a product is made — high-volume businesses like a fast-food chain use standardised inputs and more capital and technology, achieving economies of scale, while low-volume businesses like a fine-dining restaurant use more multi-skilled labour and allow customisation.</p><p>Variety refers to how many different models or variations a business offers. Greater variety requires more inputs and more flexible (and often more expensive) technology, as seen in prosthetics manufacturing, which is low-volume but high-variety.</p><p>Variation in demand is how much demand fluctuates, and how well a business can respond — an air-conditioning manufacturer faces high seasonal variation, while a cafe has low variation year-round. Poor responsiveness to rising demand causes lost sales; poor responsiveness to falling demand causes overproduction and wastage.</p><p>Visibility is the degree of direct customer contact with the operations process. A hairdresser has high visibility, as the customer shapes the output directly, while a business producing standardised office supplies has low visibility. High volume, low variety, low variation and low visibility generally lower production costs through economies of scale and reduced flexibility requirements.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss the advantages and disadvantages of using just-in-time (JIT) inventory management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define JIT.</li><li>Give at least two advantages and two disadvantages.</li><li>Note what JIT requires to work (demand forecasting, reliable suppliers).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Just-in-time (JIT) is an inventory control system where inventories are kept at minimum levels and stock is only ordered when required, aiming to hold as little inventory as possible — Toyota uses JIT, buying raw materials only once an order is placed.</p><p>Advantages include reduced storage space requirements, easier stocktaking, and cost savings on storage and waste, since the business isn't holding large amounts of unsold inventory that could become obsolete. Disadvantages include losing the ability to achieve economies of scale on delivery, since orders are smaller and more frequent, and difficulty responding to sudden increases in demand since there's little buffer stock.</p><p>For JIT to work, a business needs a clear understanding of consumer demand, flexible production, and reliable suppliers who can deliver frequently and in low volumes — without this, a JIT system risks stockouts and lost sales.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Operations strategies",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain how technology can provide a business with a competitive advantage in its operations.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Link technology to cost leadership and/or differentiation.</li><li>Support with a named example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Technology can create a competitive advantage through cost leadership, as processes run more efficiently, safely and without error, lowering production costs — for example, Apple outsources manufacturing to Foxconn, whose robots perform dangerous or repetitive tasks with fewer employees, reducing labour costs. Technology can also create a competitive advantage through differentiation, since less human error improves product quality and enables the development of new products — for example, Amazon uses robots to attach barcodes and track items, making supply chain management more efficient and reliable. Both cost savings and improved quality allow the business to increase revenue, either through lower prices or higher prices justified by better quality.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Compare",
+            "badge": "5 marks",
+            "questionHtml": "Compare quality control, quality assurance and total quality management as approaches to quality management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define each of the three approaches.</li><li>Note whether each is reactive or proactive.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Quality control is a reactive strategy — employees inspect products at various stages of production, using preset quality standards, to find and correct defects before they reach customers. It only detects faults rather than preventing them.</p><p>Quality assurance is a proactive system that establishes procedures and processes — such as designing products to be fit for purpose and complying with international standards — to prevent defects occurring in the first place, saving time, money and energy compared to fixing problems after the fact.</p><p>Total quality management (TQM) goes further, aiming to manage the entire business so customers receive consistently high-quality goods and services, relying on continuous improvement across all functional areas (not just operations), benchmarking against competitors, and empowering every employee to suggest improvements. Together these three approaches move from reactive fault-finding, to proactive prevention, to an ongoing business-wide culture of quality.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss how a business could overcome employee resistance to change when introducing new operations technology.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Identify a psychological reason for resistance (inertia).</li><li>Identify at least one financial factor.</li><li>Recommend at least two change-management strategies.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Employees often resist change due to inertia — a psychological resistance stemming from fear of being replaced (e.g. by robotics), fear of learning new and unfamiliar skills, or simply a preference for stability. Change also brings financial factors like the cost of new equipment, redundancy payments for employees whose roles are no longer needed, and retraining costs.</p><p>To overcome this resistance, a business should evaluate the sources of change thoroughly before acting, to avoid creating even more resistance. Being proactive — anticipating change rather than being forced into it — gives the business more control and avoids rushed decisions. Implementing change gradually gives employees time to adjust, reducing resistance, and including employees in the process by communicating transparently about why the change is necessary builds buy-in. Businesses can also bring in change agents, internal or external, to facilitate the transition and provide practical tools and guidance.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Examine",
+            "badge": "6 marks",
+            "questionHtml": "Examine the impact of globalisation on operations management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define globalisation.</li><li>Cover both opportunities and threats.</li><li>Link to operations specifically (global sourcing, outsourcing, standardisation).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Globalisation is the increasing interconnectedness and interdependence of people and businesses worldwide, widening the potential market and creating both opportunities and threats. For operations, globalisation opens up new markets, meaning production levels need to increase, but it also provides more sources of raw materials and locations for factories, making it easier to find lower costs and take advantage of economies of scale.</p><p>Global sourcing and outsourcing overseas to countries with cheaper labour and less stringent laws reduces the cost of inputs, and global consumers increasingly expect standardised, globally recognised brands, which lets operations structure around large, efficient production facilities to achieve economies of scale. However, globalisation also increases competition from new markets, meaning operations managers must work harder — through cost leadership or differentiation — to stand out, and domestic businesses face new competitors with better cost-cutting techniques that can undercut their prices.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What is the strategic role of operations management?", "answerHtml": "Long-term planning performed by senior managers to achieve maximum output with minimum input (efficiency), adding value to the business." },
+    { "n": 2, "questionHtml": "What is cost leadership?", "answerHtml": "Competing by having lower prices than competitors, achieved by minimising the cost of production, e.g. Aldi." },
+    { "n": 3, "questionHtml": "What is good/service differentiation?", "answerHtml": "Competing on the basis of special characteristics other than price, e.g. better quality, faster delivery or clever design." },
+    { "n": 4, "questionHtml": "What are transformed resources?", "answerHtml": "Inputs that are converted during production — materials, information and customers." },
+    { "n": 5, "questionHtml": "What are transforming resources?", "answerHtml": "Inputs that carry out the transformation process — human resources and facilities." },
+    { "n": 6, "questionHtml": "What are the 4 Vs of operations?", "answerHtml": "Volume, variety, variation in demand and visibility." },
+    { "n": 7, "questionHtml": "What does a Gantt chart show that Critical Path Analysis doesn't?", "answerHtml": "A quick overview of tasks and estimated time — but not the relationship between tasks (CPA does)." },
+    { "n": 8, "questionHtml": "What is the critical path in Critical Path Analysis?", "answerHtml": "The longest sequence of dependent tasks — the shortest possible time to complete the whole project." },
+    { "n": 9, "questionHtml": "What is FIFO?", "answerHtml": "First-in-first-out — the oldest stock is sold first, suited to perishable goods." },
+    { "n": 10, "questionHtml": "What is LIFO?", "answerHtml": "Last-in-first-out — the most recently purchased stock is sold first, suited to non-perishables like fast fashion." },
+    { "n": 11, "questionHtml": "What is JIT?", "answerHtml": "Just-in-time — inventory is kept at minimum levels and ordered only when needed, e.g. Toyota." },
+    { "n": 12, "questionHtml": "What is the difference between quality control and quality assurance?", "answerHtml": "Quality control is reactive (inspecting and fixing defects); quality assurance is proactive (preventing defects before they occur)." },
+    { "n": 13, "questionHtml": "What does TQM stand for?", "answerHtml": "Total quality management — a business-wide, continuous-improvement approach to quality." },
+    { "n": 14, "questionHtml": "What is inertia, in the context of overcoming resistance to change?", "answerHtml": "Psychological resistance to change, caused by fear of being replaced, fear of the new, or a preference for stability." },
+    { "n": 15, "questionHtml": "What is a process layout?", "answerHtml": "Arranging machines/equipment grouped by the function they perform, e.g. a restaurant kitchen." },
+    { "n": 16, "questionHtml": "What is a product layout?", "answerHtml": "Arranging equipment by the sequence of tasks in manufacturing, e.g. an assembly line." },
+    { "n": 17, "questionHtml": "What is a fixed position layout?", "answerHtml": "Employees and equipment come to the product, e.g. building a house." },
+    { "n": 18, "questionHtml": "What is a KPI?", "answerHtml": "A key performance indicator — used to measure the efficiency and effectiveness of a business's performance." },
+    { "n": 19, "questionHtml": "What is CAD?", "answerHtml": "Computer-aided design — a computerised tool for creating and visualising 3D product designs." },
+    { "n": 20, "questionHtml": "What is CAM?", "answerHtml": "Computer-aided manufacturing — software that uses computer technology to alter and control the manufacturing process." },
+    { "n": 21, "questionHtml": "What does supply chain management involve?", "answerHtml": "Integrating and managing the flow of supplies through sourcing, logistics and e-commerce to meet customer needs." },
+    { "n": 22, "questionHtml": "What is corporate social responsibility (CSR)?", "answerHtml": "Open and accountable business practices addressing social, environmental and economic impact, going beyond legal requirements." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "b", "questionHtml": "What is the main goal of a cost leadership strategy in operations?", "options": [ { "opt": "a", "textHtml": "Offer unique, premium-priced products" }, { "opt": "b", "textHtml": "Compete by minimising the cost of production" }, { "opt": "c", "textHtml": "Maximise product variety" }, { "opt": "d", "textHtml": "Maximise customer visibility in the production process" } ] },
+    { "n": 2, "answer": "c", "questionHtml": "Which of the following is a transformed resource in the operations process?", "options": [ { "opt": "a", "textHtml": "Factory machinery" }, { "opt": "b", "textHtml": "Employees operating the assembly line" }, { "opt": "c", "textHtml": "Raw materials" }, { "opt": "d", "textHtml": "The factory building" } ] },
+    { "n": 3, "answer": "a", "questionHtml": "A business producing a high volume of a single standardised product, with little customer contact, is most likely to have:", "options": [ { "opt": "a", "textHtml": "Low variety, low visibility" }, { "opt": "b", "textHtml": "High variety, high visibility" }, { "opt": "c", "textHtml": "Low volume, high variety" }, { "opt": "d", "textHtml": "High variation in demand" } ] },
+    { "n": 4, "answer": "d", "questionHtml": "Which planning tool shows the relationships and dependencies between tasks in a project?", "options": [ { "opt": "a", "textHtml": "A Gantt chart" }, { "opt": "b", "textHtml": "A SWOT analysis" }, { "opt": "c", "textHtml": "A balance sheet" }, { "opt": "d", "textHtml": "Critical Path Analysis" } ] },
+    { "n": 5, "answer": "b", "questionHtml": "Which inventory method assumes the oldest stock is sold first, and is best suited to perishable goods?", "options": [ { "opt": "a", "textHtml": "LIFO" }, { "opt": "b", "textHtml": "FIFO" }, { "opt": "c", "textHtml": "JIT" }, { "opt": "d", "textHtml": "EOS" } ] },
+    { "n": 6, "answer": "c", "questionHtml": "A key disadvantage of just-in-time (JIT) inventory management is:", "options": [ { "opt": "a", "textHtml": "It requires large amounts of warehouse space" }, { "opt": "b", "textHtml": "It increases the risk of stock becoming obsolete" }, { "opt": "c", "textHtml": "It makes it harder to respond to sudden increases in demand" }, { "opt": "d", "textHtml": "It ties up large amounts of cash in unsold stock" } ] },
+    { "n": 7, "answer": "a", "questionHtml": "Quality control differs from quality assurance in that quality control is:", "options": [ { "opt": "a", "textHtml": "Reactive — it detects and fixes defects after they occur" }, { "opt": "b", "textHtml": "Proactive — it prevents defects before they occur" }, { "opt": "c", "textHtml": "Only concerned with employee training" }, { "opt": "d", "textHtml": "Only used in service industries" } ] },
+    { "n": 8, "answer": "b", "questionHtml": "Which layout arranges equipment according to the sequence of tasks in manufacturing, and suits large-volume standardised production?", "options": [ { "opt": "a", "textHtml": "Process layout" }, { "opt": "b", "textHtml": "Product layout" }, { "opt": "c", "textHtml": "Fixed position layout" }, { "opt": "d", "textHtml": "Office layout" } ] },
+    { "n": 9, "answer": "d", "questionHtml": "Which of the following best describes 'inertia' in the context of resistance to change?", "options": [ { "opt": "a", "textHtml": "A financial cost of introducing new equipment" }, { "opt": "b", "textHtml": "A legal requirement to retrain staff" }, { "opt": "c", "textHtml": "A government policy restricting operations" }, { "opt": "d", "textHtml": "Psychological resistance to change, such as fear of the new" } ] },
+    { "n": 10, "answer": "c", "questionHtml": "Outsourcing manufacturing to an overseas contractor is an example of managing which operations strategy?", "options": [ { "opt": "a", "textHtml": "Quality assurance" }, { "opt": "b", "textHtml": "Inventory management" }, { "opt": "c", "textHtml": "Supply chain management" }, { "opt": "d", "textHtml": "Task design" } ] },
+    { "n": 11, "answer": "a", "questionHtml": "CAD (computer-aided design) is primarily used to:", "options": [ { "opt": "a", "textHtml": "Create and visualise product designs in 3D before production" }, { "opt": "b", "textHtml": "Track inventory levels in a warehouse" }, { "opt": "c", "textHtml": "Calculate a business's financial ratios" }, { "opt": "d", "textHtml": "Schedule employee shifts" } ] },
+    { "n": 12, "answer": "b", "questionHtml": "A KPI (key performance indicator) is used by operations managers to:", "options": [ { "opt": "a", "textHtml": "Set the retail price of a product" }, { "opt": "b", "textHtml": "Measure the efficiency and effectiveness of business performance" }, { "opt": "c", "textHtml": "Determine an employee's award classification" }, { "opt": "d", "textHtml": "Calculate company tax obligations" } ] },
+    { "n": 13, "answer": "d", "questionHtml": "Which performance objective refers to how quickly operations can adapt to changes in the market generally, not just rising or falling demand?", "options": [ { "opt": "a", "textHtml": "Speed" }, { "opt": "b", "textHtml": "Dependability" }, { "opt": "c", "textHtml": "Cost" }, { "opt": "d", "textHtml": "Flexibility" } ] },
+    { "n": 14, "answer": "a", "questionHtml": "Total quality management (TQM) differs from quality control mainly because TQM:", "options": [ { "opt": "a", "textHtml": "Involves continuous improvement across the entire business, not just inspection" }, { "opt": "b", "textHtml": "Only applies to manufacturing businesses" }, { "opt": "c", "textHtml": "Removes the need for any quality inspections" }, { "opt": "d", "textHtml": "Is only used to reduce advertising costs" } ] },
+    { "n": 15, "answer": "c", "questionHtml": "A business that mass-produces a standardised product for a global market, taking advantage of global sourcing and economies of scale, is most likely pursuing:", "options": [ { "opt": "a", "textHtml": "A niche market strategy" }, { "opt": "b", "textHtml": "A fixed position layout" }, { "opt": "c", "textHtml": "Cost leadership through globalisation" }, { "opt": "d", "textHtml": "Price skimming" } ] },
+    { "n": 16, "answer": "b", "questionHtml": "Corporate social responsibility (CSR) in operations refers to:", "options": [ { "opt": "a", "textHtml": "The legal minimum a business must do to avoid fines" }, { "opt": "b", "textHtml": "Ethical practices that go beyond legal requirements to consider social and environmental impact" }, { "opt": "c", "textHtml": "A method for calculating cost of goods sold" }, { "opt": "d", "textHtml": "A government subsidy for exporting businesses" } ] },
+    { "n": 17, "answer": "a", "questionHtml": "Which of the following is an example of 'visibility' in the operations process?", "options": [ { "opt": "a", "textHtml": "A hairdresser working directly in front of the customer" }, { "opt": "b", "textHtml": "A factory producing bottled milk overnight" }, { "opt": "c", "textHtml": "A business increasing its production volume" }, { "opt": "d", "textHtml": "A business reducing its variety of products" } ] },
+    { "n": 18, "answer": "d", "questionHtml": "Which of the following is a financial (rather than psychological) factor in overcoming resistance to change?", "options": [ { "opt": "a", "textHtml": "Fear of being replaced" }, { "opt": "b", "textHtml": "Preference for stability" }, { "opt": "c", "textHtml": "Fear of learning new skills" }, { "opt": "d", "textHtml": "Redundancy payments" } ] }
+  ]
+}

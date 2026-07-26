@@ -1,0 +1,192 @@
+{
+  "id": "finance",
+  "meta": {
+    "title": "Finance",
+    "range": "HSC topic · 25% of course time · interpreting financial information in planning and managing a business",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "Role of financial management, influences (internal/external sources of finance, financial institutions, government, global markets), processes (planning, debt/equity financing, monitoring via financial statements, financial ratios, limitations of financial reports, ethics) and financial management strategies (cash flow, working capital, profitability, global financial management) — all Learn To and Learn About dot points. Financial ratio formulas are provided in the real exam; COGS, gross profit, net profit and the accounting equation are not."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Organised by the syllabus's own headings for this topic.",
+    "groups": [
+      {
+        "title": "Role of financial management",
+        "points": [
+          "The strategic role of financial management includes setting financial objectives, sourcing finance, preparing budgets and financial statements, maintaining sufficient cash flow, and distributing funds to other business functions.",
+          "The five objectives of financial management (SSPPMD): <b>profitability</b> (maximising profit — long and short term), <b>growth</b> (increasing size — long term), <b>efficiency</b> (minimising costs relative to assets — long term), <b>liquidity</b> (converting assets to cash to pay short-term debts — short term) and <b>solvency</b> (meeting all financial obligations, short and long term).",
+          "<b>Interdependence</b>: finance funds operations' investment in quality inputs and technology, funds HR's training and payroll, and funds marketing's advertising and promotion — while marketing's pricing and sales in turn generate the revenue finance manages."
+        ]
+      },
+      {
+        "title": "Influences on financial management",
+        "points": [
+          "<b>Internal finance</b> is retained profits (profit after tax not distributed to shareholders).",
+          "<b>External debt finance</b>: short-term (overdraft, commercial bills, factoring) and long-term (mortgage, debentures, unsecured notes, leasing) — debt must eventually be repaid with interest, but doesn't dilute ownership.",
+          "<b>External equity finance</b>: ordinary shares (new issues/IPOs, rights issues, placements, share purchase plans) and private equity — funds don't need to be repaid, but ownership and control are diluted and profits are shared with new shareholders.",
+          "Key <b>financial institutions</b>: banks (loans, deposits, financial intermediation), investment banks (business-focused lending, mergers/underwriting advice), finance companies (smaller commercial loans, often at higher interest), superannuation funds (compulsory employer contributions), unit trusts (pooling many small investors' funds) and the <b>Australian Securities Exchange (ASX)</b> (Australia's primary and secondary share market).",
+          "<b>ASIC</b> (Australian Securities and Investments Commission) enforces the Corporations Act 2001 to protect consumers and investors from fraud; company taxation reduces a business's expected returns and must be accurately reported.",
+          "<b>Global market influences</b>: a positive economic outlook increases demand for funding and access to borrowing; availability of overseas funds carries transaction exposure risk (exchange rate movements after a contract is signed); interest rates differ between countries, so businesses may borrow globally to access lower rates."
+        ]
+      },
+      {
+        "title": "Processes of financial management",
+        "points": [
+          "<b>Planning and implementing</b> involves determining financial needs, developing budgets (operating, project and financial budgets), maintaining accurate record systems (e.g. the double-entry system), identifying financial risks, and establishing financial controls (like separating and rotating duties).",
+          "<b>Debt financing</b> advantages: funds available quickly, doesn't dilute ownership, interest is tax-deductible. Disadvantages: must pay interest, usually secured against an asset, increases financial risk. <b>Equity financing</b> advantages: no repayment obligation, low financial risk. Disadvantages: dilutes ownership, dividends aren't tax-deductible, shareholders gain voting rights.",
+          "The term of finance should match the asset's life — current assets should use short-term finance, non-current assets should use long-term finance, or the business risks serious cash flow problems.",
+          "<b>Financial statements</b> for monitoring and controlling: the <b>cash flow statement</b> (cash receipts and payments across operating, financing and investing activities), the <b>income statement</b> (revenue, cost of goods sold, gross profit, expenses, net profit) and the <b>balance sheet</b> (assets, liabilities and owner's equity at a point in time — Assets = Liabilities + Owner's Equity).",
+          "<b>Financial ratios</b>: <b>current ratio</b> (current assets ÷ current liabilities) measures liquidity — around 2:1 is considered sound. <b>Debt to equity (gearing) ratio</b> (total liabilities ÷ total equity) measures solvency — around 1:1.5 is healthy; the lower the ratio, the less reliant on debt. <b>Gross profit ratio</b> (gross profit ÷ sales) and <b>net profit ratio</b> (net profit ÷ sales, around 10% is sound) measure profitability, as does <b>return on equity</b> (net profit ÷ total equity, around 10% is a benchmark). <b>Expense ratio</b> (total expenses ÷ sales) and <b>accounts receivable turnover ratio</b> (sales ÷ accounts receivable, then 365 ÷ that result for average collection days, ~30 days is efficient) measure efficiency.",
+          "<b>Comparative ratio analysis</b> gives a ratio context by comparing it over different time periods, against industry standards, or against similar businesses — but no two businesses are identical, so comparisons should be used as a guide, not an absolute judgement.",
+          "<b>Limitations of financial reports</b>: normalised earnings can exclude non-recurring items; capitalising expenses (recording an expense as an asset) can overstate profit; valuing assets (especially intangibles) can be inaccurate; timing issues let a business shift when revenue/expenses are recorded; debt repayment details and lengthy notes to the financial statements are often not fully disclosed or read.",
+          "<b>Ethical financial reporting</b> matters because owners, shareholders and lenders rely on honest reports — unethical practices include misrepresenting statements (e.g. Enron overstating revenue) and tax minimisation through understating revenue (e.g. Google in high-tax countries); enforced through internal/external auditing and mandatory record-keeping for at least 5 years."
+        ]
+      },
+      {
+        "title": "Financial management strategies",
+        "points": [
+          "<b>Cash flow management</b> strategies: distributing payments evenly across the year, offering discounts for early payment (improves cash flow but reduces profit margin), and factoring (selling accounts receivable for immediate cash, at a discount).",
+          "<b>Working capital management</b> controls current assets (cash, receivables, inventories) and current liabilities (payables, loans, overdrafts) — strategies include leasing and sale-and-lease-back to avoid large upfront asset purchases; to improve gearing, a business can decrease debt (sell non-essential assets, lease instead of buy) or increase equity (retain more profit, issue more shares).",
+          "<b>Profitability management</b> uses cost controls (managing fixed and variable costs, using cost centres, minimising expenses) and revenue controls (marketing objectives like pricing and sales mix) — efficiency can be improved by lowering the expense ratio or speeding up the accounts receivable turnover ratio.",
+          "<b>Global financial management</b>: exchange rate appreciation/depreciation creates transactional and translational risk; businesses can exploit interest rate differentials by borrowing where rates are lower; international payment methods (payment in advance, letter of credit, clean payment, bill of exchange) balance risk between importer and exporter differently; <b>hedging</b> (using forward exchange contracts, options and swap contracts) reduces the risk of currency fluctuations."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "Role and influences",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain a potential conflict between a business's short-term and long-term financial objectives.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name two conflicting objectives.</li><li>Explain why achieving one can work against the other in the short run.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A possible conflict could occur between the long-term objective of efficiency and the short-term objective of profitability. Achieving efficiency in the long term could require an upfront investment in machinery, staff and technology, meaning money needs to be spent in the short term. This reduces short-term profitability, even though it reduces waste and leads to greater profit in the long term. A business focused only on short-term profit might avoid this investment, but would then miss out on the long-term efficiency gains and competitive advantage that come from it.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Compare",
+            "badge": "5 marks",
+            "questionHtml": "Compare debt and equity as external sources of finance.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both.</li><li>Give at least one advantage and one disadvantage of each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Debt finance (e.g. loans, debentures) must be repaid with interest, and is often secured against a business asset, which increases financial risk if the business defaults. However, it doesn't dilute ownership since lenders don't receive voting rights, repayments are predictable, and interest is tax-deductible, improving profitability.</p><p>Equity finance (e.g. issuing shares) doesn't need to be repaid and carries lower financial risk since there's no fixed repayment obligation — if the business fails, funds don't need to be returned to investors. However, it dilutes ownership and gives new shareholders voting rights, and dividends paid to shareholders aren't tax-deductible. A business's mix of debt and equity (its gearing) should reflect how much financial risk it's willing to take on relative to how much control it's willing to give up.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Financial ratios",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Calculate",
+            "badge": "5 marks",
+            "questionHtml": "A business has current assets of $220,000 and current liabilities of $100,000. Calculate the current ratio, interpret what it means, and compare it to the industry benchmark of 2:1.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Apply the formula (current assets ÷ current liabilities).</li><li>Interpret the result in plain terms.</li><li>Compare to the 2:1 benchmark and make a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Current ratio = current assets ÷ current liabilities = $220,000 ÷ $100,000 = 2.2:1. This means that for every $1 of current liabilities, the business has $2.20 in current assets available to cover it. This is slightly above the generally accepted industry benchmark of 2:1, indicating the business is in a sound liquidity position and should be able to meet its short-term obligations as they fall due. However, since the ratio is a little higher than the benchmark, the business could consider whether some of this cash might be better invested in non-current assets that would generate additional revenue over time, rather than sitting idle as current assets.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain why comparative ratio analysis is more useful than looking at a single financial ratio in isolation.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the three bases of comparison (time, standards, similar businesses).</li><li>Note the limitation of comparing to other businesses.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A single financial ratio on its own has little meaning — comparative ratio analysis gives it context. Comparing a ratio over different time periods reveals whether a business's position is improving or declining. Comparing against industry standards shows how a business is performing relative to the broader market, though these standards are general and don't capture each business's individual circumstances. Comparing against similar, specific competitors can highlight where a business is excelling or falling behind. However, no two businesses are identical, so comparisons with competitors should be used carefully and as a guide rather than an absolute judgement of performance.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss two limitations of financial reports that a stakeholder should be aware of when assessing a business's performance.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain two limitations in detail.</li><li>Explain the practical consequence of each for a reader of the report.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Capitalising expenses is one limitation — a business may record an expense (such as a company car) as a non-current asset on the balance sheet rather than as an expense on the income statement. This overstates asset value and understates expenses, making the business appear more profitable than it actually is, misleading stakeholders relying on the reports to assess true performance.</p><p>Timing issues are another limitation — a business can choose to bring forward expenses or delay recording revenue, shifting reported profit between periods. This means the financial reports for any single period may not give an accurate picture of the business's real, ongoing performance, and can also be used to affect the amount of company tax owed in a given year. Both limitations mean stakeholders should read financial reports critically, alongside notes to the financial statements, rather than taking headline figures at face value.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Financial management strategies",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Recommend",
+            "badge": "6 marks",
+            "questionHtml": "Recommend two strategies a business could use to improve its cash flow position.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Recommend two distinct strategies.</li><li>Explain how each improves cash flow, and note any trade-off.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A business could offer discounts for early payment, encouraging debtors who owe the largest amounts to pay sooner. This improves cash flow by bringing forward cash receipts, though it reduces the business's profit margin on those sales, and doesn't guarantee early payment will actually occur.</p><p>A business could also use factoring — selling its accounts receivable to a factoring company for a discounted price in exchange for immediate cash. This provides a fast cash injection and saves the business the cost and effort of chasing overdue payments itself, though it reduces the profit margin on those invoices and can damage customer relationships if the factoring company uses aggressive collection methods. Both strategies improve short-term liquidity at some cost to profitability, so a business should weigh which trade-off suits its current cash flow needs.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how hedging can help a business manage the risks of global financial transactions.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the underlying risk hedging addresses (exchange rate fluctuation).</li><li>Describe at least one hedging method.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Businesses trading internationally face the risk that exchange rates will move unfavourably between signing a contract and making or receiving payment — an appreciation or depreciation of the Australian dollar can significantly change the real cost or revenue of a transaction. Hedging minimises this risk by reducing uncertainty around future currency movements.</p><p>One method is a forward exchange contract, where a business agrees to exchange currencies at a fixed rate on a set future date, regardless of how the market rate actually moves — this provides certainty over the cost of a future transaction. Another method is a currency option, which gives the buyer the right (but not the obligation) to exchange currency at a set rate in future, letting the business benefit if the market moves in its favour while still being protected if it doesn't, in exchange for paying a premium. By locking in or protecting against exchange rate movements, hedging helps a business plan its costs and revenue with more certainty.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What are the five objectives of financial management (SSPPMD)?", "answerHtml": "Solvency, profitability, growth, efficiency and liquidity." },
+    { "n": 2, "questionHtml": "What is retained profit?", "answerHtml": "The part of a business's after-tax profit that isn't distributed to shareholders — an internal source of finance." },
+    { "n": 3, "questionHtml": "What is an overdraft?", "answerHtml": "A short-term debt facility letting a business overdraw its account up to an agreed limit, useful for temporary cash shortfalls." },
+    { "n": 4, "questionHtml": "What is a debenture?", "answerHtml": "A loan from investors at a fixed interest rate, usually secured against an asset — a long-term debt source." },
+    { "n": 5, "questionHtml": "What does ASIC stand for and what does it enforce?", "answerHtml": "Australian Securities and Investments Commission — it enforces the Corporations Act 2001." },
+    { "n": 6, "questionHtml": "What is the current ratio formula and what does it measure?", "answerHtml": "Current assets ÷ current liabilities — measures liquidity; around 2:1 is considered sound." },
+    { "n": 7, "questionHtml": "What is the debt to equity (gearing) ratio formula and what does it measure?", "answerHtml": "Total liabilities ÷ total equity — measures solvency/reliance on debt; around 1:1.5 is healthy." },
+    { "n": 8, "questionHtml": "What is the net profit ratio formula?", "answerHtml": "Net profit ÷ sales — a ratio around 10% is generally considered sound." },
+    { "n": 9, "questionHtml": "What is the accounts receivable turnover ratio formula?", "answerHtml": "Sales ÷ accounts receivable — measures how efficiently a business collects its debts." },
+    { "n": 10, "questionHtml": "What is the accounting equation?", "answerHtml": "Assets = Liabilities + Owner's Equity." },
+    { "n": 11, "questionHtml": "What is capitalising expenses?", "answerHtml": "Recording an expense as an asset on the balance sheet rather than as an expense on the income statement, which can overstate profit." },
+    { "n": 12, "questionHtml": "What is factoring?", "answerHtml": "Selling accounts receivable to a finance company at a discount, for immediate cash." },
+    { "n": 13, "questionHtml": "What is the difference between a cash flow statement and an income statement?", "answerHtml": "A cash flow statement records cash receipts/payments over time; an income statement summarises income earned and expenses incurred to calculate profit." },
+    { "n": 14, "questionHtml": "What is working capital?", "answerHtml": "The funds available for a business's short-term financial commitments — current assets minus current liabilities." },
+    { "n": 15, "questionHtml": "What is sale and lease back?", "answerHtml": "Selling an owned non-current asset to a lessor, then leasing it back through fixed payments." },
+    { "n": 16, "questionHtml": "What is transactional risk?", "answerHtml": "The risk of increased cost from an adverse change in exchange rates when making an international transaction." },
+    { "n": 17, "questionHtml": "What is hedging?", "answerHtml": "Strategies used to minimise the risk of currency fluctuations in international financial transactions." },
+    { "n": 18, "questionHtml": "What is a forward exchange contract?", "answerHtml": "A contract to exchange currencies at an agreed rate on a future date, reducing exchange rate risk." },
+    { "n": 19, "questionHtml": "What is normalised earnings?", "answerHtml": "Earnings adjusted to exclude non-recurring items, to give a more accurate picture of ongoing business performance." },
+    { "n": 20, "questionHtml": "Name one unethical financial reporting practice and a real company linked to it.", "answerHtml": "Misrepresenting financial statements — Enron overstated revenue and understated spending." },
+    { "n": 21, "questionHtml": "How long must Australian businesses keep financial records?", "answerHtml": "At least 5 years." },
+    { "n": 22, "questionHtml": "What is the difference between a fixed and a variable cost?", "answerHtml": "Fixed costs don't change with production/sales levels (e.g. rent); variable costs change directly with them (e.g. wages tied to output)." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "d", "questionHtml": "Which financial objective refers to a business's ability to meet its short-term debts using its current assets?", "options": [ { "opt": "a", "textHtml": "Growth" }, { "opt": "b", "textHtml": "Solvency" }, { "opt": "c", "textHtml": "Profitability" }, { "opt": "d", "textHtml": "Liquidity" } ] },
+    { "n": 2, "answer": "b", "questionHtml": "Which of the following is an internal source of finance?", "options": [ { "opt": "a", "textHtml": "A bank overdraft" }, { "opt": "b", "textHtml": "Retained profits" }, { "opt": "c", "textHtml": "A new share issue" }, { "opt": "d", "textHtml": "A debenture" } ] },
+    { "n": 3, "answer": "c", "questionHtml": "Which of the following is an advantage of debt finance over equity finance?", "options": [ { "opt": "a", "textHtml": "It never needs to be repaid" }, { "opt": "b", "textHtml": "It carries no financial risk" }, { "opt": "c", "textHtml": "It does not dilute ownership of the business" }, { "opt": "d", "textHtml": "Dividends paid on it are tax-deductible" } ] },
+    { "n": 4, "answer": "a", "questionHtml": "A business with a current ratio of 2.2:1 is best described as:", "options": [ { "opt": "a", "textHtml": "In a sound liquidity position, above the typical 2:1 benchmark" }, { "opt": "b", "textHtml": "Insolvent" }, { "opt": "c", "textHtml": "Unable to pay its short-term debts" }, { "opt": "d", "textHtml": "Relying too heavily on debt financing" } ] },
+    { "n": 5, "answer": "b", "questionHtml": "The debt to equity (gearing) ratio is calculated as:", "options": [ { "opt": "a", "textHtml": "Current assets ÷ current liabilities" }, { "opt": "b", "textHtml": "Total liabilities ÷ total equity" }, { "opt": "c", "textHtml": "Net profit ÷ sales" }, { "opt": "d", "textHtml": "Sales ÷ accounts receivable" } ] },
+    { "n": 6, "answer": "c", "questionHtml": "A lower debt to equity ratio generally indicates that a business is:", "options": [ { "opt": "a", "textHtml": "Highly geared and taking on more financial risk" }, { "opt": "b", "textHtml": "Insolvent" }, { "opt": "c", "textHtml": "Relying less on debt and is more solvent" }, { "opt": "d", "textHtml": "Unable to generate any profit" } ] },
+    { "n": 7, "answer": "d", "questionHtml": "Recording a company car purchase as a non-current asset rather than an expense, in order to make profit appear higher, is an example of:", "options": [ { "opt": "a", "textHtml": "Comparative ratio analysis" }, { "opt": "b", "textHtml": "Hedging" }, { "opt": "c", "textHtml": "Factoring" }, { "opt": "d", "textHtml": "Capitalising expenses" } ] },
+    { "n": 8, "answer": "a", "questionHtml": "Selling accounts receivable to a finance company at a discount, in exchange for immediate cash, is known as:", "options": [ { "opt": "a", "textHtml": "Factoring" }, { "opt": "b", "textHtml": "Hedging" }, { "opt": "c", "textHtml": "A rights issue" }, { "opt": "d", "textHtml": "Comparative ratio analysis" } ] },
+    { "n": 9, "answer": "b", "questionHtml": "Which financial statement summarises a business's assets, liabilities and owner's equity at a single point in time?", "options": [ { "opt": "a", "textHtml": "The cash flow statement" }, { "opt": "b", "textHtml": "The balance sheet" }, { "opt": "c", "textHtml": "The income statement" }, { "opt": "d", "textHtml": "The financial forecast" } ] },
+    { "n": 10, "answer": "c", "questionHtml": "According to the accounting equation, Owner's Equity is equal to:", "options": [ { "opt": "a", "textHtml": "Assets + Liabilities" }, { "opt": "b", "textHtml": "Liabilities − Assets" }, { "opt": "c", "textHtml": "Assets − Liabilities" }, { "opt": "d", "textHtml": "Sales − Cost of Goods Sold" } ] },
+    { "n": 11, "answer": "d", "questionHtml": "Using short-term finance to purchase a non-current asset is risky mainly because:", "options": [ { "opt": "a", "textHtml": "Short-term finance always has a higher interest rate" }, { "opt": "b", "textHtml": "Non-current assets cannot be financed with debt" }, { "opt": "c", "textHtml": "It breaches the Corporations Act 2001" }, { "opt": "d", "textHtml": "The loan may need to be repaid before the asset has generated enough revenue" } ] },
+    { "n": 12, "answer": "a", "questionHtml": "Comparing a business's current ratio this year against its ratio from the previous two years is an example of comparing:", "options": [ { "opt": "a", "textHtml": "Over different time periods" }, { "opt": "b", "textHtml": "Against industry standards" }, { "opt": "c", "textHtml": "Against similar businesses only" }, { "opt": "d", "textHtml": "Against government benchmarks only" } ] },
+    { "n": 13, "answer": "b", "questionHtml": "Which of the following is a limitation of financial reports?", "options": [ { "opt": "a", "textHtml": "They are always audited by ASIC before release" }, { "opt": "b", "textHtml": "Timing issues can let a business shift when revenue or expenses are recorded" }, { "opt": "c", "textHtml": "They must be published every day" }, { "opt": "d", "textHtml": "They cannot legally include notes or footnotes" } ] },
+    { "n": 14, "answer": "c", "questionHtml": "A forward exchange contract is used to:", "options": [ { "opt": "a", "textHtml": "Increase a company's gearing ratio" }, { "opt": "b", "textHtml": "Avoid paying company tax" }, { "opt": "c", "textHtml": "Lock in an exchange rate for a transaction on a future date" }, { "opt": "d", "textHtml": "Convert debt finance into equity finance" } ] },
+    { "n": 15, "answer": "a", "questionHtml": "Which of the following best describes 'transactional risk' in global financial management?", "options": [ { "opt": "a", "textHtml": "Increased cost from an adverse exchange rate change during an international transaction" }, { "opt": "b", "textHtml": "The risk that a business will be sued for false advertising" }, { "opt": "c", "textHtml": "The risk of holding too much inventory" }, { "opt": "d", "textHtml": "The risk of a product entering the decline stage of its life cycle" } ] },
+    { "n": 16, "answer": "d", "questionHtml": "Which of the following costs does NOT change with the level of production or sales?", "options": [ { "opt": "a", "textHtml": "Wages paid per unit produced" }, { "opt": "b", "textHtml": "Raw material costs" }, { "opt": "c", "textHtml": "Sales commissions" }, { "opt": "d", "textHtml": "Rent" } ] },
+    { "n": 17, "answer": "b", "questionHtml": "Enron's collapse is most closely associated with which unethical financial reporting practice?", "options": [ { "opt": "a", "textHtml": "Excessive dividend payments" }, { "opt": "b", "textHtml": "Overstating revenue and understating spending" }, { "opt": "c", "textHtml": "Refusing to pay company tax" }, { "opt": "d", "textHtml": "Excessive use of debt-to-equity hedging" } ] },
+    { "n": 18, "answer": "c", "questionHtml": "How long are Australian businesses required to keep their financial records?", "options": [ { "opt": "a", "textHtml": "1 year" }, { "opt": "b", "textHtml": "2 years" }, { "opt": "c", "textHtml": "At least 5 years" }, { "opt": "d", "textHtml": "Indefinitely, with no minimum specified" } ] }
+  ]
+}

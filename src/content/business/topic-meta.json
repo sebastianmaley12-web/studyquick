@@ -1,0 +1,18 @@
+{
+  "operations": {
+    "short": "Operations",
+    "years": "HSC Topic"
+  },
+  "marketing": {
+    "short": "Marketing",
+    "years": "HSC Topic"
+  },
+  "finance": {
+    "short": "Finance",
+    "years": "HSC Topic"
+  },
+  "hr": {
+    "short": "Human Resources",
+    "years": "HSC Topic"
+  }
+}

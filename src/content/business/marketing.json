@@ -1,0 +1,197 @@
+{
+  "id": "marketing",
+  "meta": {
+    "title": "Marketing",
+    "range": "HSC topic · 25% of course time · developing and implementing successful marketing strategies",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "Role of marketing, types of markets, influences on marketing (customer choice, consumer laws, ethics), the marketing process (situational analysis, market research, objectives, target markets, strategy, implementation/monitoring/controlling) and marketing strategies (segmentation/differentiation/positioning, the 4 Ps, global marketing) — all Learn To and Learn About dot points."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Organised by the syllabus's own headings for this topic.",
+    "groups": [
+      {
+        "title": "Role of marketing",
+        "points": [
+          "Marketing is a total system of interacting activities designed to plan, price, promote and distribute products to existing and potential customers — advertising is only one part of marketing, not the whole of it.",
+          "The <b>marketing mix</b> (4 Ps) is Product, Price, Promotion and Place; the strategic role of marketing is to support profit maximisation by increasing sales, market share and brand awareness.",
+          "Non-profit organisations market to inform and raise awareness rather than to sell — objectives are social rather than financial, e.g. Oxfam, quit-smoking campaigns.",
+          "The three historical approaches to marketing are the <b>production approach</b> (1820s–1920s, produce as much as possible cheaply, e.g. Ford's Model T), the <b>selling approach</b> (1920s–1960s, emphasise selling as supply began to exceed demand) and the modern <b>marketing approach</b> (1960s–present, research what customers want, then satisfy it) — the marketing concept is customer-orientated and integrated into the whole business plan.",
+          "<b>Interdependence</b>: marketing relies on operations to produce goods to the right standard, on finance for budgets and pricing information, and on HR to recruit and train the right staff — while marketing in turn shapes what each of those functions needs to do.",
+          "Types of markets include <b>resource</b> (primary production, e.g. mining), <b>industrial</b> (business-to-business), <b>intermediate</b> (wholesalers/retailers who resell), <b>consumer</b> (individuals who use what they buy), <b>mass</b> (one product to all buyers, e.g. basic utilities) and <b>niche</b> (a small, specific segment with unique needs, e.g. plus-size clothing)."
+        ]
+      },
+      {
+        "title": "Influences on marketing",
+        "points": [
+          "Customer choice is shaped by <b>psychological</b> factors (perceptions, motives, attitudes, personality, learning/brand loyalty), <b>sociocultural</b> factors (social class, culture, family role, peer group), <b>economic</b> conditions (boom vs recession changing spending willingness) and <b>government</b> policy and regulation.",
+          "Key consumer laws include the <b>Australian Consumer Law (2011)</b> (a single national law giving all consumers the same rights) and the <b>Competition and Consumer Act 2010</b> (protects consumers against unfair practices and protects competition), both enforced by the ACCC and ASIC — breaches can bring infringement notices, public warning notices or court penalties (up to $1.1m for companies).",
+          "<b>Deceptive and misleading advertising</b> (e.g. greenwashing, bait and switch), <b>price discrimination</b> (illegal unless justified by cost differences or matching a competitor in good faith), <b>implied conditions</b> (now consumer guarantees under the ACL) and <b>warranties</b> are all specifically regulated.",
+          "<b>Ethical</b> concerns in marketing include truth, accuracy and good taste in advertising (avoiding concealed facts, exaggerated claims, stereotypes), promoting products that may damage health (e.g. junk food advertising restrictions), engaging in fair competition (avoiding cartel conduct, misuse of market power, predatory pricing) and <b>sugging</b> (selling disguised as market research)."
+        ]
+      },
+      {
+        "title": "The marketing process",
+        "points": [
+          "The marketing process (SMEDI): <b>Situational analysis</b> (SWOT and product life cycle), <b>Market research</b>, <b>Establishing objectives</b>, <b>Identifying target markets</b>, <b>Developing strategies</b>, and <b>Implementation, monitoring and controlling</b>.",
+          "A <b>SWOT analysis</b> examines internal Strengths and Weaknesses (controllable) and external Opportunities and Threats (must be responded to, not controlled).",
+          "The <b>product life cycle</b> has four stages — introduction (low sales, high cost, low price to gain a foothold), growth (rising sales, differentiation from new competitors), maturity (peak demand, saturated market, focus on retaining customers) and decline (falling sales, reduced promotion, possible product deletion).",
+          "<b>Market research</b> estimates demand, analyses competition, defines the target market and uncovers market opportunities, using <b>primary data</b> (observation, survey, experiment methods — collected specifically for the problem) and <b>secondary data</b> (already collected by others, e.g. ABS census data — cheaper but less specific).",
+          "<b>Market objectives</b> should be specific and measurable (e.g. 'increase market share by 5% over 12 months'); common objectives are increasing sales, increasing market share, maximising customer service and expanding the product range.",
+          "A <b>target market</b> is the group of present and potential customers a business sells to — approaches include mass marketing (one product for everyone), market segmentation (dividing the market by shared characteristics) and niche marketing (a narrow, specific segment).",
+          "Consumer markets are segmented by <b>demographic</b> (age, income, etc.), <b>geographic</b> (location), <b>psychographic</b> (lifestyle, personality) and <b>behavioural</b> (relationship to the product) variables.",
+          "<b>Implementation, monitoring and controlling</b> compares actual results against a financial forecast (cost and revenue estimates), using sales analysis, market share analysis and marketing profitability analysis, then revises the strategy — through changing the marketing mix, new product development or product deletion."
+        ]
+      },
+      {
+        "title": "Marketing strategies",
+        "points": [
+          "<b>Market segmentation</b> divides the total market into groups sharing common characteristics, letting a business tailor its marketing mix to a chosen segment for a competitive advantage, e.g. Qantas using behavioural segmentation to run Jetstar for price-sensitive leisure travellers alongside Qantas for business travellers.",
+          "<b>Product/service differentiation</b> develops and promotes differences from competitors, based on quality, value, convenience, customer service, or social/ethical/environmental considerations.",
+          "<b>Positioning</b> is creating an image or identity for a product relative to competitors' — e.g. Zara repositioning itself as a premium brand through logo and advertising changes in 2019.",
+          "<b>Product strategy</b> covers branding (a name, term, symbol or design that identifies and differentiates a product — manufacturer, private/house or generic brands) and packaging (protection, attention, convenience) and labelling.",
+          "<b>Pricing methods</b> set the base price: <b>cost-based</b> (cost plus a margin), <b>market-based</b> (what the market will pay, given supply and demand) and <b>competition-based</b> (set relative to competitors' prices). <b>Pricing strategies</b> then adjust it: <b>price skimming</b> (highest possible price at launch, e.g. Apple), <b>price penetration</b> (lowest possible price to gain market share fast), <b>loss leaders</b> (sold at or below cost to draw customers into a store) and <b>price points</b> (psychological pricing, e.g. $19.95 vs $20).",
+          "The <b>promotion mix</b> combines advertising (paid, non-personal, mass-audience), personal selling (direct, one-to-one, expensive but persuasive), relationship marketing (long-term loyalty programs, e.g. Qantas Frequent Flyer), sales promotions (discounts, competitions, free samples), and publicity/public relations (often free, but with less control over the message) — reinforced by opinion leaders and word of mouth.",
+          "<b>Place/distribution</b> channels range from producer-to-consumer (no intermediaries) up to producer-agent-wholesaler-retailer-consumer; channel choice is intensive (saturate the market, e.g. milk), selective (moderate coverage, e.g. clothing) or exclusive (one outlet per region, e.g. luxury brands); physical distribution covers transport, warehousing and inventory.",
+          "<b>Global marketing</b> can use a <b>standardised</b> approach (same marketing mix everywhere — cheaper, consistent, e.g. aspects of Nike) or a <b>customised</b> approach (adapted to local tastes and culture — more expensive but more locally relevant, e.g. 7-Eleven in Japan); global pricing options include customised pricing, market-customised pricing and standard worldwide pricing."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "Role of marketing & influences",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain why goods and/or services are central to both marketing and operations.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain marketing's role in identifying what customers want.</li><li>Explain operations' role in producing it.</li><li>Link the two together with an example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Goods and services are the core output both functions are organised around. Marketing identifies what customers need and want through market research, shaping which goods or services the business should offer and how they should be positioned, priced and promoted. Operations is then responsible for actually producing those goods or services to the standard and volume the market demands. For example, if marketing promotes a product as being available by a certain date, operations must plan its transformation process to make that possible. Without this interdependence, a business could market a product it can't actually produce, or produce goods nobody wants — both functions rely on each other to satisfy customers and achieve profit maximisation.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss why ethical behaviour and government regulation are both important in marketing.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the purpose of consumer/competition law.</li><li>Explain why ethical behaviour goes further than the law.</li><li>Give an example of each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Government regulation, such as the Australian Consumer Law (2011) and the Competition and Consumer Act 2010, protects consumers against unfair practices like deceptive advertising and price discrimination, and protects competition by banning cartel conduct and predatory pricing — enforced by the ACCC and ASIC, with penalties up to $1.1 million for companies. Without this regulation, businesses could mislead customers or restrict competition, reducing consumer choice and trust.</p><p>Ethical behaviour matters because it goes beyond what the law strictly requires — for example, avoiding exaggerated claims or harmful stereotypes in advertising, even where these aren't explicitly illegal. Ethical marketing builds long-term customer loyalty and a positive reputation, attracting more investors and talented employees, whereas unethical practices like sugging (disguising sales as market research) damage trust even when not illegal. Together, regulation sets the legal floor and ethics raises the standard businesses should aim for.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "The marketing process",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how a SWOT analysis and the product life cycle are both used in a business's situational analysis.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define SWOT and give an example of each element.</li><li>Define the four product life cycle stages briefly.</li><li>Explain why both tools help a business understand its market position.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A SWOT analysis identifies a business's internal Strengths (e.g. strong brand reputation) and Weaknesses (e.g. out-of-date market research), which can be directly controlled, and external Opportunities (e.g. a growing customer base) and Threats (e.g. a competitor releasing a superior product), which can only be responded to. This helps a business decide which strategies suit its current position.</p><p>The product life cycle tracks a product through introduction (low sales, high promotional cost, low price to build awareness), growth (rising sales and profit as the brand becomes established), maturity (peak demand, market saturation, focus shifts to retaining customers) and decline (falling sales as customers move to newer products). Each stage needs a different marketing mix — for example, heavy promotion in introduction, and reduced promotion in decline. Together, SWOT and the product life cycle give a business a full picture of both its internal/external position and where its products sit over time, informing what marketing strategy to develop next.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Compare",
+            "badge": "4 marks",
+            "questionHtml": "Compare primary and secondary market research data.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both types.</li><li>Compare cost/time/specificity.</li><li>Give an example source of each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Primary data is collected from original sources specifically to solve a business's own marketing problem, using methods like surveys, focus groups or observation. It is more specific and useful to the exact problem, but takes more time and money to collect.</p><p>Secondary data has already been collected by someone else for a different purpose, such as Australian Bureau of Statistics census data or industry reports. It is cheaper and faster to access, but is less specific to the business's particular marketing question, since it wasn't designed to answer it. Most businesses use a combination of both, using cheaper secondary data to build a general picture before spending on primary research to answer the specific question at hand.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Marketing strategies",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Evaluate",
+            "badge": "8 marks",
+            "questionHtml": "Evaluate the marketing strategies a business could use for a good or service, using the 4 Ps.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover Product, Price, Promotion and Place.</li><li>Give at least one strategy option and its trade-off under each P.</li><li>Reach an overall judgement about which combination best suits the scenario given.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Product decisions should be based on what customers actually need and want, not just what's easiest to produce — this includes features, packaging, branding and warranties. Price is the only element of the marketing mix that directly generates revenue and is also the most flexible to adjust; a business must choose between cost-based, market-based or competition-based pricing methods, then apply a strategy like price skimming (high initial price to recover R&D costs, e.g. Apple) or price penetration (low initial price to build market share fast).</p><p>Promotion should combine multiple methods — advertising for reach, sales promotions to drive trial, and relationship marketing (like loyalty programs) to retain existing customers — since no single method reaches every customer segment. Place/distribution should match the product: a low-cost, high-volume good suits intensive distribution through many retailers, while a premium good may suit exclusive distribution through few, carefully chosen outlets.</p><p>Ultimately, all 4 Ps must be integrated and consistent with each other — a premium positioning strategy (high price, exclusive distribution) only works if promotion and product design also reinforce a premium image, so the marketing mix should be evaluated as a whole rather than element by element.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Analyse",
+            "badge": "6 marks",
+            "questionHtml": "Analyse a marketing plan for a business, focusing on market segmentation and positioning.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define segmentation and positioning.</li><li>Use a real or hypothetical example to show how they connect.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Market segmentation divides the total market into groups sharing common characteristics, letting a business choose the segment (or segments) most attractive to target — for example, Qantas segments the travel market behaviourally by purpose of trip, running the discount airline Jetstar for price-sensitive leisure travellers while Qantas itself targets business travellers willing to pay more for service and international reach.</p><p>Positioning then shapes how the business wants each segment to perceive its product relative to competitors — Jetstar is positioned around low cost and no-frills convenience, while Qantas is positioned around premium service and a wider international network. This dual-brand strategy lets the business capture two very different segments without either brand's positioning undermining the other's, since customers clearly understand what each brand stands for. A marketing plan that segments the market clearly, and positions each product deliberately within its segment, is more likely to reach the right customers efficiently than a single one-size-fits-all approach.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain how globalisation has affected marketing management, referring to standardisation and customisation.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain globalisation's general effect on marketing.</li><li>Define and contrast standardisation and customisation.</li><li>Support with an example of each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Globalisation has given businesses access to far more potential customers, but has also meant they may need to adapt their marketing mix to suit different local tastes, cultures and regulations, while facing increased competition from businesses worldwide.</p><p>A standardised approach keeps the same marketing mix in every country, assuming customer needs are similar everywhere — this reduces costs since the product, branding and promotion don't need to be redeveloped for each market, and lets a business take advantage of economies of scale, as seen in aspects of Nike's global brand consistency.</p><p>A customised approach adapts the marketing mix to local social, cultural and economic differences — for example, 7-Eleven customised its Japanese stores around small-format convenience and online ordering through 7dream.com, reflecting Japanese consumer habits, helping it capture over 40% of the Japanese convenience store market. Customisation can grow sales and brand reputation by respecting local preferences, but costs more time and money than standardisation. Businesses often blend the two, standardising where possible and customising only where local differences genuinely require it.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What are the 4 Ps of the marketing mix?", "answerHtml": "Product, Price, Promotion and Place." },
+    { "n": 2, "questionHtml": "What's the difference between the selling approach and the marketing approach?", "answerHtml": "The selling approach (1920s–60s) emphasised persuading customers to buy; the marketing approach (1960s–present) researches what customers want first, then satisfies it." },
+    { "n": 3, "questionHtml": "What is a niche market?", "answerHtml": "A narrow, specific market segment with unique needs, too small for large mass-market businesses to bother targeting." },
+    { "n": 4, "questionHtml": "What does the Australian Consumer Law (2011) do?", "answerHtml": "A single national law giving all Australian consumers the same rights and all businesses the same obligations." },
+    { "n": 5, "questionHtml": "What is price discrimination?", "answerHtml": "Charging different prices for the same product in different markets — illegal unless justified by cost differences or matching a competitor in good faith." },
+    { "n": 6, "questionHtml": "What is sugging?", "answerHtml": "A sales approach disguised as market research — not illegal, but raises ethical concerns about deception and privacy." },
+    { "n": 7, "questionHtml": "What does SWOT stand for?", "answerHtml": "Strengths, Weaknesses, Opportunities, Threats." },
+    { "n": 8, "questionHtml": "What are the four stages of the product life cycle?", "answerHtml": "Introduction, growth, maturity, decline." },
+    { "n": 9, "questionHtml": "What is primary market research data?", "answerHtml": "Data collected first-hand by/for a business to solve its own specific marketing problem, e.g. surveys." },
+    { "n": 10, "questionHtml": "What is secondary market research data?", "answerHtml": "Data already collected by someone else for another purpose, e.g. ABS census data." },
+    { "n": 11, "questionHtml": "What is market segmentation?", "answerHtml": "Dividing the total market into groups of customers who share common characteristics." },
+    { "n": 12, "questionHtml": "What is product/service positioning?", "answerHtml": "Creating an image or identity for a product in customers' minds, relative to competing products." },
+    { "n": 13, "questionHtml": "What is price skimming?", "answerHtml": "Charging the highest possible price during a product's introduction stage, e.g. Apple." },
+    { "n": 14, "questionHtml": "What is price penetration?", "answerHtml": "Setting the lowest possible price to quickly gain market share, then raising prices later." },
+    { "n": 15, "questionHtml": "What is a loss leader?", "answerHtml": "A product sold at or below cost to draw customers into a store, who then buy other, more profitable items." },
+    { "n": 16, "questionHtml": "What is relationship marketing?", "answerHtml": "Developing long-term, cost-effective relationships with individual customers, e.g. loyalty programs." },
+    { "n": 17, "questionHtml": "What's the difference between publicity and public relations?", "answerHtml": "Publicity is free, unpaid news coverage; public relations are planned activities (e.g. sponsorships) to build a favourable image." },
+    { "n": 18, "questionHtml": "What is intensive distribution?", "answerHtml": "Saturating the market by using as many outlets as possible, suited to convenience goods like milk." },
+    { "n": 19, "questionHtml": "What is exclusive distribution?", "answerHtml": "Using only one retail outlet per large geographic area, suited to premium/luxury products." },
+    { "n": 20, "questionHtml": "What is standardised global marketing?", "answerHtml": "Keeping the same marketing mix in every country a product is sold in." },
+    { "n": 21, "questionHtml": "What is customised global marketing?", "answerHtml": "Adapting the marketing mix to suit local tastes, culture and conditions in each market." },
+    { "n": 22, "questionHtml": "What are the four segmentation variables for consumer markets?", "answerHtml": "Demographic, geographic, psychographic and behavioural." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "c", "questionHtml": "Which of the following best defines marketing?", "options": [ { "opt": "a", "textHtml": "Advertising a product to the mass market" }, { "opt": "b", "textHtml": "Selling as many products as possible regardless of customer needs" }, { "opt": "c", "textHtml": "A total system of activities to plan, price, promote and distribute products to customers" }, { "opt": "d", "textHtml": "Setting the lowest possible price for a product" } ] },
+    { "n": 2, "answer": "b", "questionHtml": "A business that mass-produces one product for all customers, assuming everyone has similar needs, is using:", "options": [ { "opt": "a", "textHtml": "A niche market approach" }, { "opt": "b", "textHtml": "A mass market approach" }, { "opt": "c", "textHtml": "Market segmentation" }, { "opt": "d", "textHtml": "Price discrimination" } ] },
+    { "n": 3, "answer": "a", "questionHtml": "Which act is primarily enforced by the ACCC and protects consumers against misleading advertising?", "options": [ { "opt": "a", "textHtml": "The Competition and Consumer Act 2010" }, { "opt": "b", "textHtml": "The Fair Work Act 2009" }, { "opt": "c", "textHtml": "The Corporations Act 2001" }, { "opt": "d", "textHtml": "The Work Health and Safety Act 2011" } ] },
+    { "n": 4, "answer": "d", "questionHtml": "Charging a lower price for the same product in a different city, purely to disadvantage certain customers with no valid cost reason, is an example of:", "options": [ { "opt": "a", "textHtml": "Price skimming" }, { "opt": "b", "textHtml": "Price penetration" }, { "opt": "c", "textHtml": "A loss leader strategy" }, { "opt": "d", "textHtml": "Illegal price discrimination" } ] },
+    { "n": 5, "answer": "b", "questionHtml": "In a SWOT analysis, which of the following is an external factor?", "options": [ { "opt": "a", "textHtml": "Strong internal communication" }, { "opt": "b", "textHtml": "A new competitor entering the market" }, { "opt": "c", "textHtml": "Outdated market research" }, { "opt": "d", "textHtml": "Unqualified staff" } ] },
+    { "n": 6, "answer": "c", "questionHtml": "A product experiencing plateauing sales in a saturated market, where the focus shifts to retaining existing customers, is in which stage of the product life cycle?", "options": [ { "opt": "a", "textHtml": "Introduction" }, { "opt": "b", "textHtml": "Growth" }, { "opt": "c", "textHtml": "Maturity" }, { "opt": "d", "textHtml": "Decline" } ] },
+    { "n": 7, "answer": "a", "questionHtml": "Data collected specifically to solve a business's own marketing problem, such as a customer survey, is known as:", "options": [ { "opt": "a", "textHtml": "Primary data" }, { "opt": "b", "textHtml": "Secondary data" }, { "opt": "c", "textHtml": "Census data" }, { "opt": "d", "textHtml": "Benchmarking data" } ] },
+    { "n": 8, "answer": "b", "questionHtml": "Which segmentation variable divides a market based on lifestyle, personality and consumer opinions?", "options": [ { "opt": "a", "textHtml": "Demographic" }, { "opt": "b", "textHtml": "Psychographic" }, { "opt": "c", "textHtml": "Geographic" }, { "opt": "d", "textHtml": "Behavioural" } ] },
+    { "n": 9, "answer": "d", "questionHtml": "A business charging the highest possible price for a new, unique product at launch to recover R&D costs is using:", "options": [ { "opt": "a", "textHtml": "Price penetration" }, { "opt": "b", "textHtml": "A loss leader strategy" }, { "opt": "c", "textHtml": "Competition-based pricing" }, { "opt": "d", "textHtml": "Price skimming" } ] },
+    { "n": 10, "answer": "a", "questionHtml": "Setting a very low introductory price to quickly build market share, then raising prices later, is known as:", "options": [ { "opt": "a", "textHtml": "Price penetration" }, { "opt": "b", "textHtml": "Price skimming" }, { "opt": "c", "textHtml": "A loss leader strategy" }, { "opt": "d", "textHtml": "Prestige pricing" } ] },
+    { "n": 11, "answer": "c", "questionHtml": "A supermarket selling milk at or below cost to attract customers into the store is using:", "options": [ { "opt": "a", "textHtml": "Price skimming" }, { "opt": "b", "textHtml": "Price penetration" }, { "opt": "c", "textHtml": "A loss leader strategy" }, { "opt": "d", "textHtml": "Price points" } ] },
+    { "n": 12, "answer": "b", "questionHtml": "Which element of the promotion mix is a paid, non-personal message delivered through mass media?", "options": [ { "opt": "a", "textHtml": "Personal selling" }, { "opt": "b", "textHtml": "Advertising" }, { "opt": "c", "textHtml": "Publicity" }, { "opt": "d", "textHtml": "Word of mouth" } ] },
+    { "n": 13, "answer": "d", "questionHtml": "A frequent-flyer program designed to build long-term customer loyalty is an example of:", "options": [ { "opt": "a", "textHtml": "Sales promotion" }, { "opt": "b", "textHtml": "Publicity" }, { "opt": "c", "textHtml": "Personal selling" }, { "opt": "d", "textHtml": "Relationship marketing" } ] },
+    { "n": 14, "answer": "a", "questionHtml": "A luxury brand that sells through only one exclusive boutique per city is using which type of distribution?", "options": [ { "opt": "a", "textHtml": "Exclusive distribution" }, { "opt": "b", "textHtml": "Intensive distribution" }, { "opt": "c", "textHtml": "Selective distribution" }, { "opt": "d", "textHtml": "Mass distribution" } ] },
+    { "n": 15, "answer": "b", "questionHtml": "A convenience good like milk or soft drinks, sold through as many outlets as possible, uses which type of distribution?", "options": [ { "opt": "a", "textHtml": "Exclusive distribution" }, { "opt": "b", "textHtml": "Intensive distribution" }, { "opt": "c", "textHtml": "Niche distribution" }, { "opt": "d", "textHtml": "Direct distribution only" } ] },
+    { "n": 16, "answer": "c", "questionHtml": "A global business that keeps the exact same product, price, promotion and place strategy in every country it operates in is using:", "options": [ { "opt": "a", "textHtml": "A customised approach" }, { "opt": "b", "textHtml": "Market segmentation" }, { "opt": "c", "textHtml": "A standardised approach" }, { "opt": "d", "textHtml": "Price discrimination" } ] },
+    { "n": 17, "answer": "a", "questionHtml": "A business adapting its advertising, language and store format to match local culture in each country is using:", "options": [ { "opt": "a", "textHtml": "A customised global marketing approach" }, { "opt": "b", "textHtml": "A standardised global marketing approach" }, { "opt": "c", "textHtml": "Price skimming" }, { "opt": "d", "textHtml": "A niche market approach" } ] },
+    { "n": 18, "answer": "b", "questionHtml": "Which of the following is an example of relationship marketing rather than a one-off sales promotion?", "options": [ { "opt": "a", "textHtml": "A 20%-off flash sale" }, { "opt": "b", "textHtml": "A supermarket loyalty rewards card" }, { "opt": "c", "textHtml": "A free sample handed out in a shopping centre" }, { "opt": "d", "textHtml": "A competition to win a prize" } ] }
+  ]
+}

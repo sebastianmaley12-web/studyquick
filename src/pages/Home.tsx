@@ -3,6 +3,7 @@ import { SqLogo } from '../components/SqLogo'
 import { modernHistoryTotals, modernHistoryTopics } from '../lib/content/modernHistory'
 import { mathsTotals, mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTotals, hmsTopics } from '../lib/content/hms'
+import { businessTotals, businessTopics } from '../lib/content/business'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, mathsTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
@@ -26,6 +27,13 @@ export function Home() {
     { right: 0, total: 0 },
   )
   const hmsOverall = hmsTopics.reduce(
+    (acc, topic) => {
+      const stats = historyTopicStats(progress, topic)
+      return { score: acc.score + stats.score, max: acc.max + stats.max }
+    },
+    { score: 0, max: 0 },
+  )
+  const businessOverall = businessTopics.reduce(
     (acc, topic) => {
       const stats = historyTopicStats(progress, topic)
       return { score: acc.score + stats.score, max: acc.max + stats.max }
@@ -198,6 +206,49 @@ export function Home() {
               </div>
               <div>
                 <div className="n">{hmsTotals.quiz}</div>
+                <div className="l">Quiz Qs</div>
+              </div>
+            </div>
+            <div className="subject-arrow">&rarr;</div>
+          </div>
+
+          <div
+            className="subject-card"
+            role="button"
+            tabIndex={0}
+            onClick={() => navigate('/subjects/business')}
+          >
+            <div className="subject-glyph">&#128188;</div>
+            <div className="subject-body">
+              <h3>
+                Business Studies <span className="live">Ready</span>
+              </h3>
+              <p>
+                HSC Year 12 &middot; NESA Stage 6 &middot; all four topics with syllabus summaries,
+                exam-style practice questions with model answers, trivia and marked quizzes.
+              </p>
+              <ProgressLine
+                done={businessOverall.score}
+                total={businessOverall.max}
+                text={`${pct(businessOverall.score, businessOverall.max)}% complete`}
+                size="sm"
+              />
+            </div>
+            <div className="subject-stats">
+              <div>
+                <div className="n">{businessTopics.length}</div>
+                <div className="l">Topics</div>
+              </div>
+              <div>
+                <div className="n">{businessTotals.practice}</div>
+                <div className="l">Practice Qs</div>
+              </div>
+              <div>
+                <div className="n">{businessTotals.trivia}</div>
+                <div className="l">Trivia</div>
+              </div>
+              <div>
+                <div className="n">{businessTotals.quiz}</div>
                 <div className="l">Quiz Qs</div>
               </div>
             </div>
