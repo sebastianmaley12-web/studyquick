@@ -1,6 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import { SqSprite } from '../components/SqSprite'
 import { Topbar } from '../components/Topbar'
+import { Footer } from '../components/Footer'
 import { RailUiProvider } from '../context/RailUiContext'
 
 export function AppLayout() {
@@ -9,6 +10,7 @@ export function AppLayout() {
       <SqSprite />
       <Topbar />
       <Outlet />
+      <Footer />
     </RailUiProvider>
   )
 }
