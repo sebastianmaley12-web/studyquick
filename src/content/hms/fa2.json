@@ -1,0 +1,210 @@
+{
+  "id": "fa2",
+  "meta": {
+    "title": "Focus Area 2 — Training for Improved Performance",
+    "range": "Year 12 · Applied & scenario-based · examined across Sections 1–3 of the trial/HSC paper",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Examinable",
+        "bodyHtml": "Personalising exercise assessment and prescription; training types, methods and their physiological adaptations; the principles of training; designing training sessions and yearly programs for individual and group sports; psychological strategies for performance; sleep, nutrition and supplementation; biomechanics and recovery strategies; and the classification, assessment (TOTAPS) and management of sports injuries, including the impact of drug use."
+      },
+      {
+        "kind": "out",
+        "label": "Format reminder",
+        "bodyHtml": "Trial Task 4: Section 1 multiple choice (20 marks), Section 2 short answer across FA1 and FA2 (56 marks, questions worth 2–8 marks), Section 3 one 12-mark extended response from this focus area."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Organised by the syllabus's five key questions for this focus area.",
+    "groups": [
+      {
+        "title": "CQ1 — How can exercise assessment and prescription be personalised?",
+        "points": [
+          "Before starting a training program, exercise and fitness professionals use a <b>pre-exercise questionnaire</b> and relevant health screening to identify any risks.",
+          "<b>Performance and fitness testing</b> — for example the <b>Yo-Yo test</b> (aerobic fitness) or the <b>Wingate test</b> (anaerobic power) — helps recreational participants and elite athletes track fitness and guide training design.",
+          "Exercise assessment results are used to develop individualised training programs suited to an athlete's current fitness level, goals and sport."
+        ]
+      },
+      {
+        "title": "CQ2 — How does training influence movement and performance?",
+        "points": [
+          "Training methods include: <b>anaerobic training</b> (anaerobic interval, HIIT, Sprint Interval Training, plyometric, resistance training), <b>aerobic training</b> (continuous, fartlek, aerobic interval, circuit training), <b>flexibility training</b> (static, dynamic, ballistic, Proprioceptive Neuromuscular Facilitation/PNF) and <b>strength training</b> (free/fixed weights, bodyweight exercises, elastics).",
+          "The <b>principles of training</b> — progressive overload, training thresholds, reversibility, specificity, variety, and warm-up/cool-down — must be applied to both aerobic and strength training to improve performance safely.",
+          "Physiological adaptations to training include a decreased resting heart rate, increased stroke volume and cardiac output, increased oxygen uptake and lung capacity, increased haemoglobin level, muscle hypertrophy, and a shift in the use of fast- or slow-twitch muscle fibres depending on the type of training."
+        ]
+      },
+      {
+        "title": "CQ3 — How does training differ for individual and group sports?",
+        "points": [
+          "Designing a training session for individual or group sports must consider health and safety, the overview/aim of the session, warm-up and cool-down, skill instruction and practice, conditioning, strategies and tactics, and athlete reflection or coach evaluation.",
+          "A yearly training program is structured around phases of competition — <b>pre-season, in-season and off-season</b> — with sub-phases, peaking and tapering, and sport-specific fitness and skill requirements.",
+          "Athletes use psychological strategies — including managing arousal and coping with stress and anxiety — to improve participation and performance in both individual and group sports, shaped by factors like environmental conditions and, for group sports, the strengths and weaknesses of teammates and opponents."
+        ]
+      },
+      {
+        "title": "CQ4 — What impact does sleep, nutrition and supplementation have on movement and performance?",
+        "points": [
+          "Athletes plan their dietary intake before, during and after performance, adjusting fluid and food guidelines depending on the sport and event duration.",
+          "Sleep, nutrition and hydration reduce fatigue and support injury prevention when properly planned, routinely monitored and adjusted.",
+          "<b>Carbohydrate loading</b> — tapering training while significantly increasing carbohydrate intake in the days before an endurance event — maximises glycogen stores for events lasting over about 90 minutes.",
+          "Supplements like protein, caffeine and creatine are used to support performance: protein assists muscle repair and growth, caffeine can reduce perceived effort and spare glycogen through increased fat metabolism, and creatine enhances anaerobic power and strength by increasing phosphocreatine stores. Each has limitations too — excess protein places unnecessary strain on the kidneys, and excess caffeine can cause dependency and withdrawal symptoms including headaches and fatigue."
+        ]
+      },
+      {
+        "title": "CQ5 — How do individuals train for sustained movement and performance?",
+        "points": [
+          "<b>Biomechanics</b> principles are used to develop efficient movement for physical activity, sport-specific movements and everyday functional movements.",
+          "Recovery strategies are either physiological (e.g. cool-down, hydrotherapy) or psychological (e.g. relaxation techniques), and are chosen based on the demands of the sport and event.",
+          "Technology supports performance through training innovations, equipment advances, and recording and monitoring tools that track training load and progress.",
+          "Sports injuries are classified as direct (caused by contact or an external force) or indirect (e.g. overuse), and assessed using the <b>TOTAPS</b> procedure — Talk, Observe, Touch, Active movement, Passive movement, Skill test — followed by appropriate rehabilitation (progressive mobilisation, graduated exercise, heat and cold) and a safe return-to-play policy.",
+          "Drug use in sport raises health, ethical and drug-testing considerations for both injury management and performance enhancement."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": "CQ2",
+        "title": "How training influences movement and performance",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain TWO physiological adaptations in response to training.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name two adaptations and link each clearly to training.</li><li>Support each with a concrete example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Resting heart rate (heart contractions per minute) is a key physiological adaptation to training, particularly in endurance athletes, as it indicates improved cardiovascular efficiency. Regular aerobic training strengthens the heart muscle, increasing stroke volume (the amount of blood pumped per contraction), which allows the heart to circulate the same amount of blood with fewer contractions. As a result, trained individuals experience a lower resting heart rate, meaning their heart does not have to work as hard to meet the body's oxygen demands. For example, elite marathon runners often have a resting heart rate as low as 40 beats per minute, compared to an average person's 60–80 bpm. This adaptation enhances overall cardiovascular endurance and reduces strain on the heart over time.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain THREE physiological adaptations that occur in response to aerobic training.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Decreased resting heart rate.</li><li>Increased stroke volume.</li><li>Increased oxygen uptake (VO2).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Participating in regular aerobic training places stress on the body. These stresses cause the body to make changes to function more efficiently, allowing it to respond to more intense levels of training — known as physiological adaptations.</p><p>Resting heart rate is the number of times the heart beats per minute at rest. After a rigorous, specific aerobic program of around 12 weeks, one adaptation is a decreased resting heart rate, as the heart becomes more efficient and stronger, so it doesn't have to beat as frequently to deliver the same amount of blood and oxygen to the working muscles.</p><p>Stroke volume is the amount of blood pumped out of the heart during each contraction. As the heart muscle strengthens, it becomes more powerful — this allows the heart to pump and relax more fully, so more blood fills the heart in the relax phase and is then ejected in each contraction.</p><p>Oxygen uptake (VO2) is the amount of oxygen the body uses per minute, and is one of the best indicators of an athlete's aerobic fitness. In response to aerobic training, the body becomes more efficient at transporting oxygen to the working muscles, largely linked to increased myoglobin and haemoglobin levels, resulting in significant gains in aerobic endurance.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Why is it important to apply progressive overload and variety in aerobic training?",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define progressive overload and variety.</li><li>Explain why each is needed, with an example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Aerobic training specifically targets the aerobic energy system and the cardiovascular system, which improves the delivery of oxygen to enhance its use. Primarily athletes work in between 70–85% MHR intensity zone. The principles of training must be applied to aerobic training if an athlete wishes to improve their performance through physiological adaptations.</p><p>Progressive overload refers to steadily increasing the demands of the athlete. In the context of aerobic training, this can be achieved by increasing the duration, repetition, intensity, frequency or distance. This is important as the athlete will not see an improvement in their cardiovascular system (lower resting heart rate, increased cardiac output and stroke volume, etc.) if the training demands are kept the same.</p><p>Variety is also extremely important to include in an aerobic training program. For example, a triathlete training their aerobic system may switch from running to cycling to swimming, or may incorporate a group fitness class. If variety is not applied and athletes perform the same exercise over and over, it can cause boredom and demotivation.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "CQ3",
+        "title": "Training for individual and group sports",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Justify",
+            "badge": "8 marks",
+            "questionHtml": "Justify TWO training methods which would be most appropriate for a basketball player.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name two training methods suited to basketball's specific demands.</li><li>Justify each with the physiological adaptation it produces and a concrete session example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Interval aerobic training achieves the physiological adaptation of improved lung capacity and oxygen uptake, important to improve the performance of a basketballer. Basketball players need to sustain movement throughout long quarters of 12 minutes with only short 2.5 minute breaks. Hence, they need an efficient cardiorespiratory system that can efficiently intake oxygen and recover during short rest periods, to ensure the muscles can still produce aerobic energy. As such, basketballers can use interval training with long work periods and short rest periods to match metabolic and kinesiological specificity to the sport. This would produce the relevant physiological adaptation of improved cardiorespiratory efficiency and overall performance.</p><p>For instance, a basketballer can perform running 3 times a week, performing at 80% for 12 minutes followed by a 2.5-minute recovery walk at 40%, for 4 repetitions. As a result of this training, the cardiorespiratory system undergoes general adaptation syndrome due to the stress placed upon it, leading to increased oxygen uptake by the muscles — improving performance, for example when man-marking a player to prevent a turnover of possession.</p><p>Long anaerobic training in the form of sprinting is also highly effective in improving the performance of a basketballer. Here the running develops the physiological adaptation of improved fast-twitch muscle fibre efficiency. Basketballers require the capacity to sprint longer distances due to fast-paced movements, e.g. sprinting down the pitch after recovering possession. This can be achieved through long anaerobic interval training to improve the capacity to sustain sprints, and hence running performance. For instance, a basketballer can perform long anaerobic sprint intervals, 2 times a week, with 2 minutes sprinting at 86% MHR and 2 minutes recovering with a walk, for 4 reps.</p><p>Improved performance occurs due to this long anaerobic training as the build-up of lactate causes physiological stress which stimulates the body to increase the efficiency of lactate removal. This allows the leg muscles to work longer at high intensities without the fatigue brought about by lactate build-up, which is needed for instance when sprinting forward on a fast break.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the difference between anxiety and arousal in terms of the effects on performance. Use sporting examples in your response.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both anxiety and arousal.</li><li>Explain how each can affect performance, with a sporting example each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Anxiety affects performance as it is a psychological process characterised by fear in anticipation of confronting a potentially threatening situation, triggering a 'fight or flight' response. Arousal, however, is a physiological process which can hinder or enhance performance.</p><p>Anxiety has two main types, trait anxiety (how the athlete perceives situations) and state anxiety (the heightened emotions developed in response to fear or danger). Both types of anxiety cause an increase in heart rate and blood pressure and a lack of concentration. For example, a soccer player may feel state anxiety due to competition pressure and being aware of their lack of preparation for a game — this causes a build-up of anxiety in the body, causing the player to tire quicker due to increased heart rate and respiration rate.</p><p>Arousal is represented through the inverted-U hypothesis, which shows there is an optimal level of arousal for various sports. Under-arousal due to lack of motivation, disinterest and inability to cope with distractions, and over-arousal — which is excessive and involves feelings such as anxiousness and apprehension — are both common. For example, an under-aroused boxer will be sluggish and not prepared to counter and block incoming punches from his opponent. Although anxiety hinders performance, arousal can be channelled towards optimal arousal to achieve the best results. A boxer can obtain optimal arousal by shifting focus from thinking about negative feelings to concentrating on a task.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "CQ4",
+        "title": "Sleep, nutrition and supplementation",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Analyse",
+            "badge": "8 marks",
+            "questionHtml": "Analyse the benefits and limitations of using protein and caffeine supplementation for improved performance.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State the benefit of each supplement, with an example.</li><li>State the limitation of each supplement, with an example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Protein supplementation provides significant benefits for athletes aiming to enhance muscle repair and growth, particularly in strength and endurance sports. Consuming protein supplements, such as whey or casein, aids in muscle recovery by providing essential amino acids that promote muscle protein synthesis. This is particularly beneficial for strength athletes like weightlifters who require increased protein intake to support hypertrophy. However, excessive protein consumption offers no additional performance benefits and may lead to unnecessary strain on the kidneys over time. Additionally, whole food sources like lean meat, eggs and dairy can often provide the same benefits without the cost of supplementation.</p><p>Caffeine supplementation is widely used to enhance performance by stimulating the central nervous system, reducing perceived effort, and increasing endurance capacity. It has been shown to improve alertness, reaction time and endurance capacity, making it beneficial for endurance athletes like marathon runners. Caffeine also stimulates fat metabolism, sparing glycogen stores and delaying fatigue. However, its limitations include side effects such as increased heart rate, jitteriness and digestive discomfort. Additionally, excessive caffeine consumption can lead to dependency and withdrawal symptoms, including headaches and fatigue, which may negatively impact performance if not managed properly.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": "CQ5",
+        "title": "Training for sustained movement and performance",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how the training principle of specificity can be applied to both aerobic and resistance training to improve performance in sport. Provide examples in your answer.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define specificity.</li><li>Apply it to aerobic training, with an example.</li><li>Apply it to resistance training, with an example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The training principle of specificity states that training should be tailored to the demands of a particular sport to maximise performance improvements.</p><p>Aerobic training: for endurance-based sports, specificity ensures that athletes train using exercises that mimic the energy demands of their event. For example, a marathon runner should focus on continuous running at race pace to develop aerobic capacity — for example, 1-hour runs at approximately 70% MHR. Training methods such as fartlek can be incorporated to improve cardiovascular efficiency while matching the movement patterns of the sport.</p><p>Resistance training: for sports requiring strength, specificity ensures that athletes target muscle groups and movement patterns relevant to their sport. A rugby player, for instance, should perform compound movements like squats, deadlifts and bench presses to improve leg drive and upper-body strength needed in tackles and scrums. Additionally, plyometric exercises can be used to develop the explosive power essential for sprinting and changing direction. This may look like attending the gym four times a week, completing low-repetition sets with heavy weights.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Evaluate",
+            "badge": "8 marks",
+            "questionHtml": "Evaluate how psychology can affect performance. Provide examples to support your answer.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover several psychological strategies (e.g. concentration, mental rehearsal, relaxation, goal setting).</li><li>Support each with a sporting example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Using psychology techniques is essential to ensure success for athletes. Concentration is a central strategy to make good athletic decisions, such as responding to an opponent or adapting to the environment. Athletes who focus well make effective decisions within a competitive environment and develop overall self-confidence — golfers use focusing skills on the putting green to improve their performance.</p><p>Mental rehearsal is an effective tool. Athletes who practice mental rehearsal before games report feeling lower levels of anxiety and stress during their events. They also feel more confident in their ability to handle game-time situations and perform better than those who didn't use visualisation. Basketball athletes can visualise how to shoot to improve.</p><p>Relaxation techniques are essential to reduce anxiety and manage arousal levels. There are many techniques available to the athlete, but the more common techniques are centred breathing, progressive muscular relaxation, listening to music and mental relaxation. In 100m sprinting, athletes use relaxation before the race so as to avoid over-arousal.</p><p>Goal setting is one of the most important techniques to help athletes optimise performance. It helps them focus on what is important and gives a sense of control, positive self-direction and motivation. SMART goals can help athletes gain confidence and believe in their ability to succeed — top-level tennis players set performance goals, like Alex de Minaur, who set a goal to be a top-ten-ranked player, which he achieved in January 2024.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What is progressive overload?", "answerHtml": "Gradually increasing training demands (intensity, duration or frequency) so the body keeps adapting." },
+    { "n": 2, "questionHtml": "What is the training principle of specificity?", "answerHtml": "Training should match the muscle groups, energy systems and movement patterns used in the target sport." },
+    { "n": 3, "questionHtml": "What is reversibility, as a training principle?", "answerHtml": "Fitness gains are lost or reduced if training stops or significantly decreases." },
+    { "n": 4, "questionHtml": "What is a training threshold?", "answerHtml": "The point of exercise intensity at which the body starts to gain a training effect." },
+    { "n": 5, "questionHtml": "What type of training uses short, repeated bursts of high-intensity work with rest between?", "answerHtml": "Interval training (aerobic or anaerobic interval)." },
+    { "n": 6, "questionHtml": "What is Fartlek training?", "answerHtml": "\"Speed play\" — continuous training that varies pace and intensity throughout the session." },
+    { "n": 7, "questionHtml": "What does HIIT stand for?", "answerHtml": "High Intensity Interval Training — short, very intense efforts with brief recovery periods." },
+    { "n": 8, "questionHtml": "What does PNF stretching stand for?", "answerHtml": "Proprioceptive Neuromuscular Facilitation." },
+    { "n": 9, "questionHtml": "Which type of stretching involves a fast, bouncing movement to the end of a muscle's range of motion?", "answerHtml": "Ballistic stretching." },
+    { "n": 10, "questionHtml": "What physiological adaptation lowers an athlete's resting heart rate?", "answerHtml": "Increased stroke volume from a stronger, more efficient heart." },
+    { "n": 11, "questionHtml": "What is stroke volume?", "answerHtml": "The amount of blood pumped out of the heart with each contraction." },
+    { "n": 12, "questionHtml": "What does VO2 (oxygen uptake) measure?", "answerHtml": "The amount of oxygen the body can use per minute — a key indicator of aerobic fitness." },
+    { "n": 13, "questionHtml": "What does the TOTAPS procedure assess?", "answerHtml": "A sporting injury — Talk, Observe, Touch, Active movement, Passive movement, Skill test." },
+    { "n": 14, "questionHtml": "What is the purpose of a pre-exercise questionnaire?", "answerHtml": "To screen for health risks before starting a fitness or training program." },
+    { "n": 15, "questionHtml": "What does carbohydrate loading involve?", "answerHtml": "Tapering training while increasing carbohydrate intake in the days before an endurance event, to maximise glycogen stores." },
+    { "n": 16, "questionHtml": "Why might endurance athletes use caffeine before an event?", "answerHtml": "It promotes fat metabolism and glycogen sparing, and can reduce perceived effort." },
+    { "n": 17, "questionHtml": "What performance benefit is creatine supplementation mainly used for?", "answerHtml": "Enhancing anaerobic power and strength by increasing phosphocreatine stores for fast energy production." },
+    { "n": 18, "questionHtml": "What's the main difference between anxiety and arousal in sport psychology?", "answerHtml": "Anxiety is a fear-based response to a threatening situation; arousal is the physiological/psychological activation level, which can help or hinder performance." },
+    { "n": 19, "questionHtml": "What does the inverted-U hypothesis describe?", "answerHtml": "Performance is best at a moderate, optimal level of arousal — too little or too much both reduce performance." },
+    { "n": 20, "questionHtml": "What is mental rehearsal?", "answerHtml": "Mentally visualising successfully performing a skill or movement before actually doing it." },
+    { "n": 21, "questionHtml": "Name the three phases of a yearly training program.", "answerHtml": "Pre-season, in-season and off-season." },
+    { "n": 22, "questionHtml": "What's the difference between a direct and an indirect sports injury?", "answerHtml": "Direct injuries are caused by an external force or contact; indirect injuries occur without contact, e.g. from overuse or poor technique." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "b", "questionHtml": "What type of training involves an activity with intermittent bursts of speed?", "options": [ { "opt": "a", "textHtml": "Circuit" }, { "opt": "b", "textHtml": "Fartlek" }, { "opt": "c", "textHtml": "Flexibility" }, { "opt": "d", "textHtml": "Continuous" } ] },
+    { "n": 2, "answer": "b", "questionHtml": "Which supplement is commonly used to enhance short-duration, high-intensity performance?", "options": [ { "opt": "a", "textHtml": "Protein" }, { "opt": "b", "textHtml": "Creatine" }, { "opt": "c", "textHtml": "BCAAs" }, { "opt": "d", "textHtml": "Caffeine" } ] },
+    { "n": 3, "answer": "c", "questionHtml": "Carbohydrate loading is a nutrition practice often used by athletes competing in events over 90 minutes duration. Which of the following best outlines this practice?", "options": [ { "opt": "a", "textHtml": "Consume as many carbohydrates as possible and engage in complete rest" }, { "opt": "b", "textHtml": "Increase carbohydrate intake, increase training load, and reduce hydration" }, { "opt": "c", "textHtml": "Increase carbohydrate intake, decrease training load, and maintain hydration" }, { "opt": "d", "textHtml": "Maintain carbohydrate intake, decrease training load, and increase hydration" } ] },
+    { "n": 4, "answer": "a", "questionHtml": "What is the primary purpose of mental rehearsal in athletic performance?", "options": [ { "opt": "a", "textHtml": "To improve technique and confidence" }, { "opt": "b", "textHtml": "To increase mental strength and endurance" }, { "opt": "c", "textHtml": "To replace physical training with mental exercises" }, { "opt": "d", "textHtml": "To enhance resilience, reduce anxiety, and prevent errors under pressure" } ] },
+    { "n": 5, "answer": "a", "questionHtml": "A post-performance nutritional plan aims to return the body to its pre-event state as quickly as possible. Which fluid and fuel intake would be best for post-performance recovery for an endurance athlete?", "options": [ { "opt": "a", "textHtml": "Intake of high-glycaemic-index carbohydrates and a protein-rich meal with sports drinks and water, within 1–2 hours" }, { "opt": "b", "textHtml": "Intake of low-glycaemic-index carbohydrates and a protein-rich meal with water replacement, within 1–2 hours" }, { "opt": "c", "textHtml": "Intake of 1–2 litres of water and a complex carbohydrate meal in small portions with vitamin supplements, over 6–8 hours" }, { "opt": "d", "textHtml": "Intake of 1–2 litres of sports drinks and a simple carbohydrate-rich meal with vitamin supplements in small portions, over 6–8 hours" } ] },
+    { "n": 6, "answer": "a", "questionHtml": "Which supplement could assist an athlete suffering from sports anaemia?", "options": [ { "opt": "a", "textHtml": "Iron" }, { "opt": "b", "textHtml": "Protein" }, { "opt": "c", "textHtml": "Caffeine drinks" }, { "opt": "d", "textHtml": "Creatine products" } ] },
+    { "n": 7, "answer": "b", "questionHtml": "Why is an adequate intake of protein important in an athlete's diet?", "options": [ { "opt": "a", "textHtml": "They are energy-rich nutrients" }, { "opt": "b", "textHtml": "They make and repair the cells of the body" }, { "opt": "c", "textHtml": "They act as catalysts to assist energy metabolism" }, { "opt": "d", "textHtml": "They increase the oxygen-carrying capacity of the blood" } ] },
+    { "n": 8, "answer": "b", "questionHtml": "What does the training principle of progressive overload involve?", "options": [ { "opt": "a", "textHtml": "Performing a completely new activity every session" }, { "opt": "b", "textHtml": "Gradually increasing the demands of training (e.g. intensity, duration or frequency) so the body keeps adapting" }, { "opt": "c", "textHtml": "Reducing training volume every week" }, { "opt": "d", "textHtml": "Repeating the exact same session indefinitely" } ] },
+    { "n": 9, "answer": "b", "questionHtml": "What is the training principle of specificity?", "options": [ { "opt": "a", "textHtml": "Alternating between unrelated sports each week" }, { "opt": "b", "textHtml": "Targeting the muscle groups and energy systems required for a specific activity or sport" }, { "opt": "c", "textHtml": "Training at the same time every day" }, { "opt": "d", "textHtml": "Avoiding structured training plans" } ] },
+    { "n": 10, "answer": "b", "questionHtml": "What happens to fitness gains under the training principle of reversibility?", "options": [ { "opt": "a", "textHtml": "They continue to improve even without training" }, { "opt": "b", "textHtml": "They are lost or reduced if training stops or significantly decreases" }, { "opt": "c", "textHtml": "They transfer automatically to a completely different sport" }, { "opt": "d", "textHtml": "They become permanent after 6 months" } ] },
+    { "n": 11, "answer": "b", "questionHtml": "Which type of training is most appropriate for a marathon runner aiming to improve endurance?", "options": [ { "opt": "a", "textHtml": "Plyometric training" }, { "opt": "b", "textHtml": "Continuous aerobic training" }, { "opt": "c", "textHtml": "Ballistic stretching" }, { "opt": "d", "textHtml": "Anaerobic interval training" } ] },
+    { "n": 12, "answer": "c", "questionHtml": "Which physiological adaptation is a hallmark result of regular aerobic training?", "options": [ { "opt": "a", "textHtml": "Increased resting heart rate" }, { "opt": "b", "textHtml": "Decreased stroke volume" }, { "opt": "c", "textHtml": "Decreased resting heart rate" }, { "opt": "d", "textHtml": "Decreased oxygen uptake" } ] },
+    { "n": 13, "answer": "b", "questionHtml": "What is stroke volume?", "options": [ { "opt": "a", "textHtml": "The total distance covered in a training session" }, { "opt": "b", "textHtml": "The amount of blood pumped out of the heart with each contraction" }, { "opt": "c", "textHtml": "The maximum heart rate achievable during exercise" }, { "opt": "d", "textHtml": "The rate of lactate removal from the muscles" } ] },
+    { "n": 14, "answer": "b", "questionHtml": "What does VO2 (oxygen uptake) measure?", "options": [ { "opt": "a", "textHtml": "The volume of air in the lungs at rest" }, { "opt": "b", "textHtml": "The amount of oxygen the body can use per minute during exercise" }, { "opt": "c", "textHtml": "The number of red blood cells in a blood sample" }, { "opt": "d", "textHtml": "The heart's resting rate per minute" } ] },
+    { "n": 15, "answer": "b", "questionHtml": "What does the TOTAPS procedure assess?", "options": [ { "opt": "a", "textHtml": "An athlete's nutritional intake" }, { "opt": "b", "textHtml": "A sporting injury" }, { "opt": "c", "textHtml": "An athlete's training program design" }, { "opt": "d", "textHtml": "A team's tactical strategy" } ] },
+    { "n": 16, "answer": "c", "questionHtml": "Which type of stretching involves a fast, bouncing movement to the end of a muscle's range of motion?", "options": [ { "opt": "a", "textHtml": "Static stretching" }, { "opt": "b", "textHtml": "Dynamic stretching" }, { "opt": "c", "textHtml": "Ballistic stretching" }, { "opt": "d", "textHtml": "PNF stretching" } ] },
+    { "n": 17, "answer": "b", "questionHtml": "What is the main psychological difference between anxiety and arousal in sport?", "options": [ { "opt": "a", "textHtml": "Anxiety and arousal are the same thing" }, { "opt": "b", "textHtml": "Anxiety is a fear-based response to a perceived threat, while arousal is the level of physiological and psychological activation" }, { "opt": "c", "textHtml": "Arousal only affects beginner athletes" }, { "opt": "d", "textHtml": "Anxiety only affects team sports; arousal only affects individual sports" } ] },
+    { "n": 18, "answer": "c", "questionHtml": "According to the inverted-U hypothesis, when is athletic performance generally at its best?", "options": [ { "opt": "a", "textHtml": "At the lowest possible level of arousal" }, { "opt": "b", "textHtml": "At the highest possible level of arousal" }, { "opt": "c", "textHtml": "At a moderate, optimal level of arousal" }, { "opt": "d", "textHtml": "Arousal has no effect on performance" } ] },
+    { "n": 19, "answer": "c", "questionHtml": "Which recovery strategy is classified as psychological rather than physiological?", "options": [ { "opt": "a", "textHtml": "Hydrotherapy" }, { "opt": "b", "textHtml": "Cool-down" }, { "opt": "c", "textHtml": "Relaxation techniques" }, { "opt": "d", "textHtml": "Graduated mobilisation" } ] }
+  ]
+}

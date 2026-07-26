@@ -13,6 +13,8 @@ const MathsSubject = lazy(() =>
   import('./pages/MathsSubject').then((m) => ({ default: m.MathsSubject })),
 )
 const MathsTopic = lazy(() => import('./pages/MathsTopic').then((m) => ({ default: m.MathsTopic })))
+const HmsSubject = lazy(() => import('./pages/HmsSubject').then((m) => ({ default: m.HmsSubject })))
+const HmsTopic = lazy(() => import('./pages/HmsTopic').then((m) => ({ default: m.HmsTopic })))
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +25,8 @@ export const router = createBrowserRouter([
       { path: '/subjects/modern-history/:topicId/:resource', element: <ModernHistoryTopic /> },
       { path: '/subjects/maths', element: <MathsSubject /> },
       { path: '/subjects/maths/:slug/:resource', element: <MathsTopic /> },
+      { path: '/subjects/hms', element: <HmsSubject /> },
+      { path: '/subjects/hms/:topicId/:resource', element: <HmsTopic /> },
     ],
   },
 ])

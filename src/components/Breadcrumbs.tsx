@@ -9,6 +9,7 @@ import {
   modernHistoryTopics,
   type ModernHistoryResource,
 } from '../lib/content/modernHistory'
+import { HMS_RESOURCE_LABELS, hmsTopics, type HmsResource } from '../lib/content/hms'
 
 type Crumb = { label: string; to?: string }
 
@@ -47,6 +48,21 @@ function crumbsForPath(pathname: string): Crumb[] {
         to: `/subjects/maths/${slug}`,
       },
       { label: MATHS_RESOURCE_LABELS[resource ?? 'facts'] },
+    ]
+  }
+
+  if (seg[1] === 'hms') {
+    if (seg.length === 2) {
+      return [{ label: 'All subjects', to: '/' }, { label: 'Health & Movement Science' }]
+    }
+    const topicId = seg[2]
+    const resource = seg[3] as HmsResource | undefined
+    const topic = hmsTopics.find((t) => t.id === topicId)
+    return [
+      { label: 'All subjects', to: '/' },
+      { label: 'Health & Movement Science', to: '/subjects/hms' },
+      { label: topic?.short ?? topicId, to: `/subjects/hms/${topicId}` },
+      { label: HMS_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
 

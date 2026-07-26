@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
 import { modernHistoryTotals, modernHistoryTopics } from '../lib/content/modernHistory'
 import { mathsTotals, mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
+import { hmsTotals, hmsTopics } from '../lib/content/hms'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, mathsTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
@@ -23,6 +24,13 @@ export function Home() {
       return { right: acc.right + stats.right, total: acc.total + stats.total }
     },
     { right: 0, total: 0 },
+  )
+  const hmsOverall = hmsTopics.reduce(
+    (acc, topic) => {
+      const stats = historyTopicStats(progress, topic)
+      return { score: acc.score + stats.score, max: acc.max + stats.max }
+    },
+    { score: 0, max: 0 },
   )
 
   return (
@@ -148,6 +156,49 @@ export function Home() {
               <div>
                 <div className="n">{mathsTotals.questions}</div>
                 <div className="l">Total Qs</div>
+              </div>
+            </div>
+            <div className="subject-arrow">&rarr;</div>
+          </div>
+
+          <div
+            className="subject-card"
+            role="button"
+            tabIndex={0}
+            onClick={() => navigate('/subjects/hms')}
+          >
+            <div className="subject-glyph">&#9877;</div>
+            <div className="subject-body">
+              <h3>
+                Health &amp; Movement Science <span className="live">Ready</span>
+              </h3>
+              <p>
+                HSC Year 12 &middot; NESA Stage 6 &middot; both focus areas with syllabus summaries,
+                real past-trial practice questions with model answers, trivia and marked quizzes.
+              </p>
+              <ProgressLine
+                done={hmsOverall.score}
+                total={hmsOverall.max}
+                text={`${pct(hmsOverall.score, hmsOverall.max)}% complete`}
+                size="sm"
+              />
+            </div>
+            <div className="subject-stats">
+              <div>
+                <div className="n">{hmsTopics.length}</div>
+                <div className="l">Focus Areas</div>
+              </div>
+              <div>
+                <div className="n">{hmsTotals.practice}</div>
+                <div className="l">Practice Qs</div>
+              </div>
+              <div>
+                <div className="n">{hmsTotals.trivia}</div>
+                <div className="l">Trivia</div>
+              </div>
+              <div>
+                <div className="n">{hmsTotals.quiz}</div>
+                <div className="l">Quiz Qs</div>
               </div>
             </div>
             <div className="subject-arrow">&rarr;</div>
