@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import 'katex/dist/katex.min.css'
 import type { MathsTopic } from '../../lib/content/maths'
 import type { MathsWorkspaceEntry } from '../../lib/content/mathsWorkspace'
 import { progressStore, useMathsAnswer } from '../../lib/progressStore'
 import { mathsKey } from '../../lib/keys'
 import { renderLatex } from '../../lib/latex'
+import { shuffledIndices } from '../../lib/shuffle'
 
 type Question = MathsTopic['questions'][number]
 
@@ -43,6 +44,14 @@ export function MathsQuestionWorkspace({
   const [verdict, setVerdict] = useState<'idle' | 'enter-a-number'>('idle')
   const [stepsOpen, setStepsOpen] = useState(false)
   const [scratch, setScratch] = useState('')
+
+  // See MathsQuestion.tsx's matching comment: display-order-only shuffle,
+  // correctness/progress stay keyed to the original option index.
+  const optionOrder = useMemo(
+    () => shuffledIndices(question.type === 'mc' ? question.opts.length : 0),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [question.id],
+  )
 
   function checkNumeric() {
     if (inputValue.trim() === '') return
@@ -149,12 +158,13 @@ export function MathsQuestionWorkspace({
           </div>
         ) : (
           <div className="mqw-mc-grid">
-            {question.opts.map((opt, i) => {
-              const isCorrect = i === question.ans
-              const isChosenWrong = answered && !saved.ok && i === saved.v
+            {optionOrder.map((originalIndex, displayIndex) => {
+              const opt = question.opts[originalIndex]
+              const isCorrect = originalIndex === question.ans
+              const isChosenWrong = answered && !saved.ok && originalIndex === saved.v
               return (
                 <button
-                  key={i}
+                  key={originalIndex}
                   type="button"
                   className={[
                     'mqw-mc-opt',
@@ -164,9 +174,9 @@ export function MathsQuestionWorkspace({
                     .filter(Boolean)
                     .join(' ')}
                   disabled={answered}
-                  onClick={() => pickOption(i)}
+                  onClick={() => pickOption(originalIndex)}
                 >
-                  <b>{'ABCD'[i]}</b>
+                  <b>{'ABCD'[displayIndex]}</b>
                   <span dangerouslySetInnerHTML={{ __html: opt }} />
                 </button>
               )

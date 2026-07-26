@@ -28,11 +28,11 @@ const topic: MathsTopic = {
     {
       id: 'q2',
       type: 'mc',
-      q: 'Pick B',
-      opts: ['A', 'B', 'C'],
+      q: 'Pick the correct one',
+      opts: ['Wrong one', 'Correct one', 'Also wrong'],
       ans: 1,
       marks: 1,
-      sol: 'B is correct.',
+      sol: '"Correct one" is correct.',
     },
   ],
 }
@@ -67,10 +67,12 @@ describe('MathsPractice', () => {
     const user = userEvent.setup()
     render(<MathsPractice topic={topic} />)
 
-    await user.click(screen.getByRole('button', { name: /A\./ }))
+    // Options are shuffled for display, so select by their actual text
+    // rather than an assumed A/B/C position.
+    await user.click(screen.getByRole('button', { name: /Wrong one/ }))
 
-    expect(screen.getByRole('button', { name: /B\./ })).toHaveClass('correct')
-    expect(screen.getByRole('button', { name: /A\./ })).toHaveClass('chosen-wrong')
+    expect(screen.getByRole('button', { name: /Correct one/ })).toHaveClass('correct')
+    expect(screen.getByRole('button', { name: /Wrong one/ })).toHaveClass('chosen-wrong')
   })
 
   it('retry incorrect clears only the wrong answer', async () => {
@@ -79,7 +81,7 @@ describe('MathsPractice', () => {
 
     await user.type(screen.getByPlaceholderText('answer'), '4') // correct
     await user.click(screen.getByRole('button', { name: 'Check' }))
-    await user.click(screen.getByRole('button', { name: /A\./ })) // wrong
+    await user.click(screen.getByRole('button', { name: /Wrong one/ })) // wrong
 
     await user.click(screen.getByRole('button', { name: 'Retry incorrect' }))
 

@@ -1,7 +1,9 @@
+import { useMemo } from 'react'
 import type { HistoryQuizQuestion } from '../../lib/content/modernHistory'
 import { progressStore, useQuizAnswer } from '../../lib/progressStore'
 import { quizKey } from '../../lib/keys'
 import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
+import { shuffledIndices } from '../../lib/shuffle'
 
 type QuizQuestionProps = {
   topicId: string
@@ -14,6 +16,17 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
   const answer = useQuizAnswer(qid)
   const answered = answer !== undefined
   const query = useSearchQuery()
+
+  /* Each option carries its own letter (opt.opt), and correctness/progress
+   * are keyed off that letter, not array position — so display order can
+   * be shuffled freely with no effect on grading or the localStorage
+   * schema. Re-shuffles when the question itself changes, stays stable
+   * for the lifetime of this mount so options don't jump mid-interaction. */
+  const options = useMemo(() => {
+    const order = shuffledIndices(question.options.length)
+    return order.map((i) => question.options[i])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [question.n])
 
   function pick(opt: string) {
     if (answered) return
@@ -36,7 +49,7 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
         <span dangerouslySetInnerHTML={{ __html: highlightHtml(question.questionHtml, query) }} />
       </div>
       <div className="qz-options">
-        {question.options.map((opt) => {
+        {options.map((opt) => {
           const isCorrect = opt.opt === question.answer
           const isChosenWrong = answered && !answer.ok && opt.opt === answer.pick
           return (

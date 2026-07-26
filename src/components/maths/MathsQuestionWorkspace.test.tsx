@@ -20,11 +20,11 @@ const numQuestion: MathsTopic['questions'][number] = {
 const mcQuestion: MathsTopic['questions'][number] = {
   id: 'wq2',
   type: 'mc',
-  q: 'Pick B',
-  opts: ['A', 'B', 'C'],
+  q: 'Pick the correct one',
+  opts: ['Wrong one', 'Correct one', 'Also wrong'],
   ans: 1,
   marks: 1,
-  sol: 'B is correct.',
+  sol: '"Correct one" is correct.',
 }
 
 const entry: MathsWorkspaceEntry = {
@@ -72,10 +72,12 @@ describe('MathsQuestionWorkspace', () => {
     const user = userEvent.setup()
     render(<MathsQuestionWorkspace slug="test" index={0} question={mcQuestion} entry={entry} />)
 
-    await user.click(screen.getByRole('button', { name: /A/ }))
+    // Options are shuffled for display, so select by their actual text
+    // rather than an assumed A/B/C position.
+    await user.click(screen.getByRole('button', { name: /Wrong one/ }))
 
-    expect(screen.getByRole('button', { name: /B/ })).toHaveClass('correct')
-    expect(screen.getByRole('button', { name: /A/ })).toHaveClass('chosen-wrong')
+    expect(screen.getByRole('button', { name: /Correct one/ })).toHaveClass('correct')
+    expect(screen.getByRole('button', { name: /Wrong one/ })).toHaveClass('chosen-wrong')
   })
 
   it('toggles the step-by-step scaffold without affecting grading', async () => {
