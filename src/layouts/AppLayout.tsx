@@ -1,5 +1,6 @@
 import { Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import { SqSprite } from '../components/SqSprite'
 import { Topbar } from '../components/Topbar'
 import { Footer } from '../components/Footer'
@@ -14,6 +15,7 @@ export function AppLayout() {
         <Outlet />
       </Suspense>
       <Footer />
+      <Analytics />
     </RailUiProvider>
   )
 }
