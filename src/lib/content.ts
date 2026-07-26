@@ -56,13 +56,21 @@ export interface ModernHistoryTopicData {
     sources: { bank: string | null; tag: string; bodyHtml: string }[]
     groups: HistoryPracticeGroup[]
   }
-  trivia: { n: number; questionHtml: string; answerHtml: string }[]
-  quiz: {
-    n: number
-    answer: string
-    questionHtml: string
-    options: { opt: string; textHtml: string }[]
-  }[]
+  trivia: HistoryTriviaCard[]
+  quiz: HistoryQuizQuestion[]
+}
+
+export interface HistoryTriviaCard {
+  n: number
+  questionHtml: string
+  answerHtml: string
+}
+
+export interface HistoryQuizQuestion {
+  n: number
+  answer: string
+  questionHtml: string
+  options: { opt: string; textHtml: string }[]
 }
 
 export const MODERN_HISTORY_TOPIC_DATA: Record<string, ModernHistoryTopicData> = {

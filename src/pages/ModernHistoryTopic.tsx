@@ -1,6 +1,8 @@
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { TopicShell } from '../layouts/TopicShell'
 import { HistoryRail } from '../components/rail/HistoryRail'
+import { QuizPanel } from '../components/quiz/QuizPanel'
+import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import {
   MODERN_HISTORY_RESOURCES,
   MODERN_HISTORY_RESOURCE_LABELS,
@@ -80,25 +82,28 @@ export function ModernHistoryTopic() {
             ))}
           </div>
 
-          {resource === 'summary' ? (
-            <div className="subtab-panel active">
-              <div className="summary-note">{data.summary.note}</div>
-              {data.summary.groups.map((group) => (
-                <div className="dot-group" key={group.title}>
-                  <div className="dot-group-title">{group.title}</div>
-                  <ul className="dotpoints">
-                    {group.points.map((point, i) => (
-                      <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-          ) : (
-            <div className="subtab-panel active">
+          <div className="subtab-panel active">
+            {resource === 'summary' && (
+              <>
+                <div className="summary-note">{data.summary.note}</div>
+                {data.summary.groups.map((group) => (
+                  <div className="dot-group" key={group.title}>
+                    <div className="dot-group-title">{group.title}</div>
+                    <ul className="dotpoints">
+                      {group.points.map((point, i) => (
+                        <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </>
+            )}
+            {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
+            {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+            {resource === 'practice' && (
               <ComingInPhase4 label={MODERN_HISTORY_RESOURCE_LABELS[resource]} />
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </section>
     </TopicShell>
