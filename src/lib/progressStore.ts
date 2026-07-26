@@ -69,6 +69,14 @@ function emit() {
   listeners.forEach((l) => l())
 }
 
+/**
+ * Local-vs-local+sync swap point: once accounts exist, a signed-in user's
+ * commits should also push `next` to Supabase's `progress.data` (see
+ * src/lib/supabase/schema.sql) in addition to the localStorage write below,
+ * merged by last-write-wins per top-level key (quiz/trivia/notes/maths).
+ * Not implemented — there is no such call today, and `supabase` client from
+ * src/lib/supabase/client.ts is unused anywhere in the app.
+ */
 function commit(next: ProgressState) {
   state = next
   emit()
