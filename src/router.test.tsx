@@ -46,15 +46,15 @@ describe('routing', () => {
     expect(screen.getAllByText(/Power & Authority/).length).toBeGreaterThan(0)
   })
 
-  it('renders a maths topic facts panel with decoded formulae', () => {
+  it('renders a maths topic practice panel with working numeric questions', () => {
     render(<RouterProvider router={routerAt('/subjects/maths/f4/practice')} />)
     expect(screen.getByRole('heading', { name: 'Investments and Loans' })).toBeInTheDocument()
-    expect(
-      screen.getByText(
-        'Practice Questions is being rebuilt in Phase 4 (feature parity migration) — this page currently only covers the app shell and Key Facts & Formulae content.',
-        { exact: false },
-      ),
-    ).toBeInTheDocument()
+    expect(screen.getAllByRole('button', { name: 'Check' }).length).toBeGreaterThan(0)
+  })
+
+  it('renders a maths topic facts panel with decoded formulae', () => {
+    render(<RouterProvider router={routerAt('/subjects/maths/f4/facts')} />)
+    expect(screen.getByText('Key facts & formulae')).toBeInTheDocument()
   })
 
   it('redirects an invalid topic id to s1', () => {
