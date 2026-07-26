@@ -4385,11 +4385,414 @@ footer {
   color: var(--ink);
 }
 
+/* =====================================================================
+   MATHS QUESTION WORKSPACE — Mathspace-style interactive question card.
+   Deliberately separate from the .mq* rules above (used by MathsQuestion,
+   which still renders every question with no workspace entry): additive,
+   new class names only, nothing here changes .mq* behaviour.
+   ===================================================================== */
+
+.mqw {
+  background: var(--surface);
+  border: 1px solid var(--edge);
+  border-radius: 20px;
+  padding: 24px 26px 26px;
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-lg);
+  transition: border-color 0.18s ease;
+}
+
+.mqw.right {
+  border-color: var(--ok-line);
+}
+
+.mqw.wrong {
+  border-color: var(--no-line);
+}
+
+.mqw-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 4px;
+}
+
+.mqw-n {
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--blue);
+  letter-spacing: 0.01em;
+}
+
+.mqw-marks {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.mqw-question {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+.mqw-intro {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 8px 0 16px;
+}
+
+.mqw-formula {
+  background: var(--bg);
+  border: 1px solid var(--edge);
+  border-radius: 14px;
+  padding: 18px 20px;
+  text-align: center;
+  font-size: 19px;
+  overflow-x: auto;
+}
+
+.mqw-diagram {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.mqw-diagram svg {
+  width: 140px;
+  height: 140px;
+}
+
+.mqw-working {
+  background: var(--bg);
+  border-radius: 14px;
+  padding: 16px 18px;
+  margin-bottom: 20px;
+}
+
+.mqw-working-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 10px;
+}
+
+.mqw-steps-toggle {
+  font: inherit;
+  font-family: 'Inter', sans-serif;
+  font-size: 11.5px;
+  font-weight: 700;
+  text-transform: none;
+  letter-spacing: normal;
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--edge);
+  background: var(--surface);
+  color: var(--blue);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.mqw-steps-toggle:hover {
+  border-color: var(--blue);
+  background: rgba(37, 99, 235, 0.06);
+}
+
+.mqw-steps {
+  list-style: none;
+  margin: 0 0 12px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mqw-steps li {
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+
+.mqw-step-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ink-soft);
+  margin-bottom: 6px;
+}
+
+.mqw-step-latex {
+  font-size: 15px;
+}
+
+.mqw-scratch {
+  width: 100%;
+  min-height: 110px;
+  resize: vertical;
+  border: 1.5px dashed var(--edge-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  font: inherit;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  line-height: 1.7;
+  color: var(--ink);
+  padding: 12px 14px;
+  outline: none;
+  transition: border-color 0.15s ease;
+}
+
+.mqw-scratch:focus {
+  border-color: var(--blue);
+}
+
+.mqw-answer {
+  padding-top: 18px;
+  border-top: 1px solid var(--line-soft);
+}
+
+.mqw-answer-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-bottom: 12px;
+}
+
+.mqw-answer-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mqw-answer-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--surface);
+  border: 2px solid var(--edge-strong);
+  border-radius: 12px;
+  padding: 4px 16px;
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.mqw-answer-box:focus-within {
+  border-color: var(--blue);
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
+}
+
+.mqw.right .mqw-answer-box {
+  border-color: var(--ok-line);
+}
+
+.mqw.wrong .mqw-answer-box {
+  border-color: var(--no-line);
+}
+
+.mqw-pre,
+.mqw-unit {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--ink-faint);
+  white-space: nowrap;
+}
+
+.mqw-answer-box input {
+  width: 140px;
+  border: none;
+  background: none;
+  outline: none;
+  font: inherit;
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 12px 4px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.mqw-check {
+  font: inherit;
+  font-family: 'Inter', sans-serif;
+  font-size: 13.5px;
+  font-weight: 700;
+  padding: 13px 24px;
+  border-radius: 12px;
+  border: none;
+  background: var(--blue);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.mqw-check:hover {
+  background: #1d4ed8;
+}
+
+.mqw-check:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.mqw-verdict.no {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--no);
+}
+
+.mqw-mc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 640px) {
+  .mqw-mc-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.mqw-mc-opt {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  text-align: left;
+  background: var(--surface);
+  border: 1.5px solid var(--edge);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font: inherit;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.mqw-mc-opt:hover {
+  border-color: var(--blue);
+  color: var(--ink);
+}
+
+.mqw-mc-opt b {
+  color: var(--blue);
+  flex: 0 0 auto;
+}
+
+.mqw.answered .mqw-mc-opt {
+  cursor: default;
+}
+
+.mqw-mc-opt.correct {
+  background: var(--ok-bg) !important;
+  border-color: var(--ok-line) !important;
+  color: var(--ok) !important;
+  font-weight: 600;
+}
+
+.mqw-mc-opt.chosen-wrong {
+  background: var(--no-bg) !important;
+  border-color: var(--no-line) !important;
+  color: var(--no) !important;
+  font-weight: 600;
+}
+
+.mqw-feedback {
+  margin-top: 18px;
+}
+
+.mqw-feedback-banner {
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.mqw-feedback-banner.ok {
+  background: var(--ok-bg);
+  color: var(--ok);
+}
+
+.mqw-feedback-banner.no {
+  background: var(--no-bg);
+  color: var(--no);
+}
+
+.mqw-feedback-banner b {
+  color: inherit;
+}
+
+.mqw-solution {
+  margin-top: 14px;
+}
+
+.mqw-solution summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.mqw-solution summary::-webkit-details-marker {
+  display: none;
+}
+
+.mqw-solution summary::before {
+  content: '\25B8';
+  font-size: 10px;
+  transition: transform 0.18s ease;
+}
+
+.mqw-solution[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.mqw-solution ol {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mqw-solution li {
+  background: rgba(37, 99, 235, 0.05);
+  border: 1px solid rgba(37, 99, 235, 0.16);
+  border-radius: 11px;
+  padding: 12px 14px;
+}
+
 @media print {
   .tool,
   .timer,
   .mq-check,
-  .answerbox {
+  .answerbox,
+  .mqw-check,
+  .mqw-scratch,
+  .mqw-steps-toggle {
     display: none !important;
   }
 }

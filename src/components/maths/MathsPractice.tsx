@@ -1,8 +1,17 @@
-import { useState } from 'react'
+import { lazy, Suspense, useState } from 'react'
 import type { MathsTopic } from '../../lib/content/maths'
 import { progressStore, useProgress } from '../../lib/progressStore'
 import { mathsKey } from '../../lib/keys'
 import { MathsQuestion } from './MathsQuestion'
+import { MATHS_WORKSPACE_ENTRIES } from '../../lib/content/mathsWorkspace'
+
+/* KaTeX is a sizeable dependency (fonts + JS), so it's only worth loading
+ * for the small number of topics that actually have a workspace-enhanced
+ * question — lazy rather than a static import, so the other 15 of 16 Maths
+ * topics don't pay for it. */
+const MathsQuestionWorkspace = lazy(() =>
+  import('./MathsQuestionWorkspace').then((m) => ({ default: m.MathsQuestionWorkspace })),
+)
 
 type Filter = 'all' | 'wrong' | 'none'
 
@@ -91,9 +100,21 @@ export function MathsPractice({ topic }: { topic: MathsTopic }) {
         </div>
       ) : (
         <div>
-          {visible.map(({ q, i }) => (
-            <MathsQuestion key={q.id} slug={topic.slug} index={i} question={q} />
-          ))}
+          {visible.map(({ q, i }) => {
+            const workspaceEntry = MATHS_WORKSPACE_ENTRIES[q.id]
+            return workspaceEntry ? (
+              <Suspense key={q.id} fallback={null}>
+                <MathsQuestionWorkspace
+                  slug={topic.slug}
+                  index={i}
+                  question={q}
+                  entry={workspaceEntry}
+                />
+              </Suspense>
+            ) : (
+              <MathsQuestion key={q.id} slug={topic.slug} index={i} question={q} />
+            )
+          })}
         </div>
       )}
     </>
