@@ -1,6 +1,7 @@
 import type { HistoryQuizQuestion } from '../../lib/content'
 import { progressStore, useQuizAnswer } from '../../lib/progressStore'
 import { quizKey } from '../../lib/keys'
+import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
 
 type QuizQuestionProps = {
   topicId: string
@@ -12,6 +13,7 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
   const qid = quizKey(topicId, index)
   const answer = useQuizAnswer(qid)
   const answered = answer !== undefined
+  const query = useSearchQuery()
 
   function pick(opt: string) {
     if (answered) return
@@ -31,7 +33,7 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
     >
       <div className="qz-question">
         <span className="tn">{question.n}.</span>{' '}
-        <span dangerouslySetInnerHTML={{ __html: question.questionHtml }} />
+        <span dangerouslySetInnerHTML={{ __html: highlightHtml(question.questionHtml, query) }} />
       </div>
       <div className="qz-options">
         {question.options.map((opt) => {
@@ -52,7 +54,7 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
               disabled={answered}
             >
               <b>{opt.opt.toUpperCase()}.</b>{' '}
-              <span dangerouslySetInnerHTML={{ __html: opt.textHtml }} />
+              <span dangerouslySetInnerHTML={{ __html: highlightHtml(opt.textHtml, query) }} />
             </button>
           )
         })}

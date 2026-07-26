@@ -1,6 +1,7 @@
 import type { ModernHistoryTopicData } from '../../lib/content'
 import { progressStore } from '../../lib/progressStore'
 import { practiceNoteKey } from '../../lib/keys'
+import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
 import { ExamTimer } from './ExamTimer'
 import { PracticeCard } from './PracticeCard'
 import { PracticeOptionPair } from './PracticeOptionPair'
@@ -48,6 +49,7 @@ function renderGroup(topicId: string, group: Practice['groups'][number], nextInd
 }
 
 export function PracticeSection({ topicId, practice }: { topicId: string; practice: Practice }) {
+  const query = useSearchQuery()
   const banks = [...new Set(practice.groups.map((g) => g.bank))]
   let index = 0
   const nextIndex = () => index++
@@ -73,7 +75,7 @@ export function PracticeSection({ topicId, practice }: { topicId: string; practi
           <div
             key={i}
             className={`note-box ${n.variant ?? ''}`}
-            dangerouslySetInnerHTML={{ __html: n.html }}
+            dangerouslySetInnerHTML={{ __html: highlightHtml(n.html, query) }}
           />
         ))}
 
@@ -87,7 +89,7 @@ export function PracticeSection({ topicId, practice }: { topicId: string; practi
               <div
                 key={i}
                 className={`note-box ${n.variant ?? ''}`}
-                dangerouslySetInnerHTML={{ __html: n.html }}
+                dangerouslySetInnerHTML={{ __html: highlightHtml(n.html, query) }}
               />
             ))}
 
@@ -97,7 +99,10 @@ export function PracticeSection({ topicId, practice }: { topicId: string; practi
               <div key={i} className="source">
                 <div className="stag">{source.tag}</div>
                 {source.bodyHtml.split('\n').map((paragraph, pi) => (
-                  <p key={pi} dangerouslySetInnerHTML={{ __html: paragraph }} />
+                  <p
+                    key={pi}
+                    dangerouslySetInnerHTML={{ __html: highlightHtml(paragraph, query) }}
+                  />
                 ))}
               </div>
             ))}

@@ -4,6 +4,9 @@ import { HistoryRail } from '../components/rail/HistoryRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import { PracticeSection } from '../components/practice/PracticeSection'
+import { SearchBar } from '../components/SearchBar'
+import { useTopicSearch } from '../hooks/useTopicSearch'
+import { SearchQueryProvider, highlightHtml } from '../context/SearchQueryContext'
 import {
   MODERN_HISTORY_RESOURCES,
   MODERN_HISTORY_RESOURCE_LABELS,
@@ -25,6 +28,15 @@ export function ModernHistoryTopic() {
   const { topicId, resource } = useParams()
   const navigate = useNavigate()
 
+  // hooks must run unconditionally, before the validity guard below, so this
+  // uses safe fallbacks — the invalid case redirects away before anything
+  // built on top of the hook's state is ever shown
+  const search = useTopicSearch(
+    isTopicId(topicId) ? topicId : 's1',
+    isResource(resource) ? resource : 'summary',
+    navigate,
+  )
+
   if (!isTopicId(topicId) || !isResource(resource)) {
     const fallbackTopic = isTopicId(topicId) ? topicId : 's1'
     return <Navigate to={`/subjects/modern-history/${fallbackTopic}/summary`} replace />
@@ -36,68 +48,80 @@ export function ModernHistoryTopic() {
     <TopicShell
       rail={<HistoryRail currentTopicId={topicId} currentResource={resource} />}
       searchbar={
-        <div className="searchbar">
-          <span className="icon">&#9906;</span>
-          <input
-            type="text"
-            placeholder="Search every topic — dates, names, terms…"
-            autoComplete="off"
-            disabled
-          />
-        </div>
+        <SearchBar
+          value={search.query}
+          onChange={search.onChange}
+          onKeyDown={search.onInputKeyDown}
+          meta={search.meta}
+          onPrev={search.onPrev}
+          onNext={search.onNext}
+          disabled={search.disabled}
+          inputRef={search.inputRef}
+        />
       }
     >
-      <section className="panel active" id={topicId}>
-        <div className="panel-head">
-          <h2>{data.meta.title}</h2>
-          <div className="range">{data.meta.range}</div>
-          <div className="scope">
-            {data.meta.boxes.map((box) => (
-              <div key={box.label} className={`box ${box.kind}`}>
-                <span className="lbl">{box.label}</span>
-                <span dangerouslySetInnerHTML={{ __html: box.bodyHtml }} />
-              </div>
-            ))}
+      <SearchQueryProvider value={search.committedQuery}>
+        <section className="panel active" id={topicId}>
+          <div className="panel-head">
+            <h2>{data.meta.title}</h2>
+            <div className="range">{data.meta.range}</div>
+            <div className="scope">
+              {data.meta.boxes.map((box) => (
+                <div key={box.label} className={`box ${box.kind}`}>
+                  <span className="lbl">{box.label}</span>
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: highlightHtml(box.bodyHtml, search.committedQuery),
+                    }}
+                  />
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
-        <div className="panel-body">
-          <div className="subtab-nav">
-            {MODERN_HISTORY_RESOURCES.map((res) => (
-              <button
-                key={res}
-                className={['subtab-btn', res === resource && 'active'].filter(Boolean).join(' ')}
-                type="button"
-                onClick={() => navigate(`/subjects/modern-history/${topicId}/${res}`)}
-              >
-                {MODERN_HISTORY_RESOURCE_LABELS[res]}
-              </button>
-            ))}
-          </div>
+          <div className="panel-body">
+            <div className="subtab-nav">
+              {MODERN_HISTORY_RESOURCES.map((res) => (
+                <button
+                  key={res}
+                  className={['subtab-btn', res === resource && 'active'].filter(Boolean).join(' ')}
+                  type="button"
+                  onClick={() => navigate(`/subjects/modern-history/${topicId}/${res}`)}
+                >
+                  {MODERN_HISTORY_RESOURCE_LABELS[res]}
+                </button>
+              ))}
+            </div>
 
-          <div className="subtab-panel active">
-            {resource === 'summary' && (
-              <>
-                <div className="summary-note">{data.summary.note}</div>
-                {data.summary.groups.map((group) => (
-                  <div className="dot-group" key={group.title}>
-                    <div className="dot-group-title">{group.title}</div>
-                    <ul className="dotpoints">
-                      {group.points.map((point, i) => (
-                        <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </>
-            )}
-            {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
-            {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
-            {resource === 'practice' && (
-              <PracticeSection topicId={topicId} practice={data.practice} />
-            )}
+            <div className="subtab-panel active">
+              {resource === 'summary' && (
+                <>
+                  <div className="summary-note">{data.summary.note}</div>
+                  {data.summary.groups.map((group) => (
+                    <div className="dot-group" key={group.title}>
+                      <div className="dot-group-title">{group.title}</div>
+                      <ul className="dotpoints">
+                        {group.points.map((point, i) => (
+                          <li
+                            key={i}
+                            dangerouslySetInnerHTML={{
+                              __html: highlightHtml(point, search.committedQuery),
+                            }}
+                          />
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </>
+              )}
+              {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
+              {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+              {resource === 'practice' && (
+                <PracticeSection topicId={topicId} practice={data.practice} />
+              )}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </SearchQueryProvider>
     </TopicShell>
   )
 }

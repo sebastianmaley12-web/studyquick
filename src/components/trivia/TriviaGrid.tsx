@@ -1,7 +1,8 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { HistoryTriviaCard } from '../../lib/content'
 import { useProgress } from '../../lib/progressStore'
 import { triviaKey } from '../../lib/keys'
+import { onRevealRequest } from '../../lib/searchRevealBus'
 import { TriviaCard } from './TriviaCard'
 
 type Filter = 'all' | 'shaky'
@@ -30,6 +31,17 @@ export function TriviaGrid({ topicId, cards }: { topicId: string; cards: History
       return next
     })
   }
+
+  // lets a search-result jump reveal a not-yet-revealed card (see searchRevealBus)
+  useEffect(() => {
+    return onRevealRequest((tid) => {
+      const match = tid.match(/^(.+)-trivia#(\d+)$/)
+      if (match && match[1] === topicId) {
+        const i = Number(match[2])
+        setRevealed((prev) => new Set(prev).add(i))
+      }
+    })
+  }, [topicId])
 
   return (
     <>

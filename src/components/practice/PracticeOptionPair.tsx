@@ -1,4 +1,5 @@
 import { Fragment } from 'react'
+import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
 import { PlanReveal } from './PlanReveal'
 import { AnswerBox } from './AnswerBox'
 
@@ -16,6 +17,7 @@ export function PracticeOptionPair({
   setTitle: string | null
   options: Option[]
 }) {
+  const query = useSearchQuery()
   return (
     <>
       {setTitle && <div className="set-title">{setTitle}</div>}
@@ -25,7 +27,10 @@ export function PracticeOptionPair({
             {i > 0 && <div className="or">OR</div>}
             <div className="opt-card">
               <div className="opt-label">{opt.label}</div>
-              <p className="qtext" dangerouslySetInnerHTML={{ __html: opt.questionHtml }} />
+              <p
+                className="qtext"
+                dangerouslySetInnerHTML={{ __html: highlightHtml(opt.questionHtml, query) }}
+              />
               <AnswerBox noteKey={opt.noteKey} />
               <PlanReveal planHtml={opt.planHtml} />
             </div>

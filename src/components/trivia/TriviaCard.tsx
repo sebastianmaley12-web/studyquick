@@ -1,6 +1,7 @@
 import type { MouseEvent } from 'react'
 import type { HistoryTriviaCard } from '../../lib/content'
 import { progressStore, useTriviaConfidence } from '../../lib/progressStore'
+import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
 
 type TriviaCardProps = {
   tid: string
@@ -11,6 +12,7 @@ type TriviaCardProps = {
 
 export function TriviaCard({ tid, card, revealed, onToggle }: TriviaCardProps) {
   const confidence = useTriviaConfidence(tid)
+  const query = useSearchQuery()
 
   function rate(value: 'known' | 'shaky', e: MouseEvent) {
     e.stopPropagation()
@@ -27,6 +29,7 @@ export function TriviaCard({ tid, card, revealed, onToggle }: TriviaCardProps) {
       ]
         .filter(Boolean)
         .join(' ')}
+      data-tid={tid}
       tabIndex={0}
       role="button"
       onClick={onToggle}
@@ -39,10 +42,13 @@ export function TriviaCard({ tid, card, revealed, onToggle }: TriviaCardProps) {
     >
       <div className="tq">
         <span className="tn">{card.n}</span>
-        <span dangerouslySetInnerHTML={{ __html: card.questionHtml }} />
+        <span dangerouslySetInnerHTML={{ __html: highlightHtml(card.questionHtml, query) }} />
       </div>
       <div className="hint">Tap to reveal</div>
-      <div className="ta" dangerouslySetInnerHTML={{ __html: card.answerHtml }} />
+      <div
+        className="ta"
+        dangerouslySetInnerHTML={{ __html: highlightHtml(card.answerHtml, query) }}
+      />
       {revealed && (
         <div className="tconf">
           <button
