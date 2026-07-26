@@ -3,6 +3,7 @@ import { TopicShell } from '../layouts/TopicShell'
 import { HistoryRail } from '../components/rail/HistoryRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
+import { PracticeSection } from '../components/practice/PracticeSection'
 import {
   MODERN_HISTORY_RESOURCES,
   MODERN_HISTORY_RESOURCE_LABELS,
@@ -18,15 +19,6 @@ function isTopicId(v: string | undefined): v is ModernHistoryTopicId {
 
 function isResource(v: string | undefined): v is ModernHistoryResource {
   return !!v && (MODERN_HISTORY_RESOURCES as readonly string[]).includes(v)
-}
-
-function ComingInPhase4({ label }: { label: string }) {
-  return (
-    <div className="emptymsg">
-      {label} is being rebuilt in Phase 4 (feature parity migration) — this page currently only
-      covers the app shell and Syllabus Summary content.
-    </div>
-  )
 }
 
 export function ModernHistoryTopic() {
@@ -101,7 +93,7 @@ export function ModernHistoryTopic() {
             {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
             {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
             {resource === 'practice' && (
-              <ComingInPhase4 label={MODERN_HISTORY_RESOURCE_LABELS[resource]} />
+              <PracticeSection topicId={topicId} practice={data.practice} />
             )}
           </div>
         </div>
