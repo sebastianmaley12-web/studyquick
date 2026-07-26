@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { progressStore } from '../../lib/progressStore'
 import { QuizPanel } from './QuizPanel'
-import type { HistoryQuizQuestion } from '../../lib/content'
+import type { HistoryQuizQuestion } from '../../lib/content/modernHistory'
 
 const questions: HistoryQuizQuestion[] = [
   {

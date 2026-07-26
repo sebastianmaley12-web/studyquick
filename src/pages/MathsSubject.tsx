@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
-import { mathsTotals, mathsYear11Topics, mathsYear12Topics, type MathsTopic } from '../lib/content'
+import { mathsTotals, mathsYear11Topics, mathsYear12Topics, type MathsTopic } from '../lib/content/maths'
 
 function MTopicCard({ topic }: { topic: MathsTopic }) {
   const navigate = useNavigate()

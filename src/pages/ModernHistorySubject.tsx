@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
-import { modernHistoryTopics, modernHistoryTotals, TOPIC_ROMAN } from '../lib/content'
+import { modernHistoryTopics, modernHistoryTotals, TOPIC_ROMAN } from '../lib/content/modernHistory'
 
 const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; format: string }> = {
   s1: {

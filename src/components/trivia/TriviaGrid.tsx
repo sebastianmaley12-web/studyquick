@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import type { HistoryTriviaCard } from '../../lib/content'
+import type { HistoryTriviaCard } from '../../lib/content/modernHistory'
 import { useProgress } from '../../lib/progressStore'
 import { triviaKey } from '../../lib/keys'
 import { onRevealRequest } from '../../lib/searchRevealBus'

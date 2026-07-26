@@ -1,5 +1,5 @@
 import type { MouseEvent } from 'react'
-import type { HistoryTriviaCard } from '../../lib/content'
+import type { HistoryTriviaCard } from '../../lib/content/modernHistory'
 import { progressStore, useTriviaConfidence } from '../../lib/progressStore'
 import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'
 

@@ -1,4 +1,4 @@
-import type { ModernHistoryTopicData } from '../../lib/content'
+import type { ModernHistoryTopicData } from '../../lib/content/modernHistory'
 import { progressStore } from '../../lib/progressStore'
 import { practiceNoteKey } from '../../lib/keys'
 import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'

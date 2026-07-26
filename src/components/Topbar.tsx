@@ -1,6 +1,10 @@
+import { lazy, Suspense } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from './SqLogo'
-import { Breadcrumbs } from './Breadcrumbs'
+
+const Breadcrumbs = lazy(() =>
+  import('./Breadcrumbs').then((m) => ({ default: m.Breadcrumbs })),
+)
 
 export function Topbar() {
   const navigate = useNavigate()
@@ -16,7 +20,9 @@ export function Topbar() {
         >
           <SqLogo size="sm" />
         </button>
-        <Breadcrumbs />
+        <Suspense fallback={null}>
+          <Breadcrumbs />
+        </Suspense>
         <span className="tb-hint">
           Press <b>/</b> to search &middot; <b>[</b> to retract
         </span>

@@ -1,10 +1,18 @@
+import { lazy } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
-import { Home } from './pages/Home'
-import { ModernHistorySubject } from './pages/ModernHistorySubject'
-import { ModernHistoryTopic } from './pages/ModernHistoryTopic'
-import { MathsSubject } from './pages/MathsSubject'
-import { MathsTopic } from './pages/MathsTopic'
+
+const Home = lazy(() => import('./pages/Home').then((m) => ({ default: m.Home })))
+const ModernHistorySubject = lazy(() =>
+  import('./pages/ModernHistorySubject').then((m) => ({ default: m.ModernHistorySubject })),
+)
+const ModernHistoryTopic = lazy(() =>
+  import('./pages/ModernHistoryTopic').then((m) => ({ default: m.ModernHistoryTopic })),
+)
+const MathsSubject = lazy(() =>
+  import('./pages/MathsSubject').then((m) => ({ default: m.MathsSubject })),
+)
+const MathsTopic = lazy(() => import('./pages/MathsTopic').then((m) => ({ default: m.MathsTopic })))
 
 export const router = createBrowserRouter([
   {

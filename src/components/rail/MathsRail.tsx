@@ -7,7 +7,7 @@ import {
   mathsYear12Topics,
   type MathsResource,
   type MathsTopic,
-} from '../../lib/content'
+} from '../../lib/content/maths'
 
 type MathsRailProps = {
   currentSlug: string

@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { progressStore } from '../../lib/progressStore'
 import { MathsPractice } from './MathsPractice'
-import type { MathsTopic } from '../../lib/content'
+import type { MathsTopic } from '../../lib/content/maths'
 
 const topic: MathsTopic = {
   code: 'MS-TEST',

@@ -7,7 +7,7 @@ import {
   MATHS_RESOURCE_LABELS,
   mathsTopicsBySlug,
   type MathsResource,
-} from '../lib/content'
+} from '../lib/content/maths'
 import { mathsKey } from '../lib/keys'
 import { useProgress } from '../lib/progressStore'
 

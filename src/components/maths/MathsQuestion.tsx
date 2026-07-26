@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { MathsTopic } from '../../lib/content'
+import type { MathsTopic } from '../../lib/content/maths'
 import { progressStore, useMathsAnswer } from '../../lib/progressStore'
 import { mathsKey } from '../../lib/keys'
 

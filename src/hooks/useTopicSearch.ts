@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, type KeyboardEvent } from 'react'
-import { MODERN_HISTORY_RESOURCES, type ModernHistoryResource } from '../lib/content'
+import { MODERN_HISTORY_RESOURCES, type ModernHistoryResource } from '../lib/content/modernHistory'
 import { getTopicSearchIndex } from '../lib/searchIndex'
 import { requestReveal } from '../lib/searchRevealBus'
 

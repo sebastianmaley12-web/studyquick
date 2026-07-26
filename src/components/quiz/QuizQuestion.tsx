@@ -1,4 +1,4 @@
-import type { HistoryQuizQuestion } from '../../lib/content'
+import type { HistoryQuizQuestion } from '../../lib/content/modernHistory'
 import { progressStore, useQuizAnswer } from '../../lib/progressStore'
 import { quizKey } from '../../lib/keys'
 import { highlightHtml, useSearchQuery } from '../../context/SearchQueryContext'

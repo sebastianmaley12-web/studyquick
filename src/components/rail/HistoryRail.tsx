@@ -6,7 +6,7 @@ import {
   modernHistoryTopics,
   type ModernHistoryResource,
   type ModernHistoryTopicId,
-} from '../../lib/content'
+} from '../../lib/content/modernHistory'
 
 type HistoryRailProps = {
   currentTopicId: ModernHistoryTopicId

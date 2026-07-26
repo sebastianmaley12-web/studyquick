@@ -3,7 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { progressStore } from '../../lib/progressStore'
 import { PracticeSection } from './PracticeSection'
 import s2 from '../../content/modern-history/s2.json'
-import type { ModernHistoryTopicData } from '../../lib/content'
+import type { ModernHistoryTopicData } from '../../lib/content/modernHistory'
 
 describe('PracticeSection', () => {
   beforeEach(() => {

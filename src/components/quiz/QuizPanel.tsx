@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { HistoryQuizQuestion } from '../../lib/content'
+import type { HistoryQuizQuestion } from '../../lib/content/modernHistory'
 import { progressStore, useProgress } from '../../lib/progressStore'
 import { quizKey } from '../../lib/keys'
 import { QuizQuestion } from './QuizQuestion'

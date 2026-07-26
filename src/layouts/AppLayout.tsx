@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { Outlet } from 'react-router-dom'
 import { SqSprite } from '../components/SqSprite'
 import { Topbar } from '../components/Topbar'
@@ -9,7 +10,9 @@ export function AppLayout() {
     <RailUiProvider>
       <SqSprite />
       <Topbar />
-      <Outlet />
+      <Suspense fallback={null}>
+        <Outlet />
+      </Suspense>
       <Footer />
     </RailUiProvider>
   )

@@ -1,12 +1,14 @@
 import { Link, useLocation } from 'react-router-dom'
 import {
   MATHS_RESOURCE_LABELS,
-  MODERN_HISTORY_RESOURCE_LABELS,
   mathsTopicsBySlug,
-  modernHistoryTopics,
   type MathsResource,
+} from '../lib/content/maths'
+import {
+  MODERN_HISTORY_RESOURCE_LABELS,
+  modernHistoryTopics,
   type ModernHistoryResource,
-} from '../lib/content'
+} from '../lib/content/modernHistory'
 
 type Crumb = { label: string; to?: string }
 

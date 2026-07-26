@@ -1,9 +1,8 @@
-import topicMeta from '../content/modern-history/topic-meta.json'
-import s1 from '../content/modern-history/s1.json'
-import s2 from '../content/modern-history/s2.json'
-import s3 from '../content/modern-history/s3.json'
-import s4 from '../content/modern-history/s4.json'
-import mathsData from '../content/maths/topics.json'
+import topicMeta from '../../content/modern-history/topic-meta.json'
+import s1 from '../../content/modern-history/s1.json'
+import s2 from '../../content/modern-history/s2.json'
+import s3 from '../../content/modern-history/s3.json'
+import s4 from '../../content/modern-history/s4.json'
 
 /* Hand-written rather than `typeof s1`: each topic JSON infers its own literal
  * type from its actual content (e.g. an empty array becomes `never[]` in one
@@ -118,67 +117,6 @@ export const modernHistoryTotals = modernHistoryTopics.reduce(
   { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0 },
 )
 
-/* Hand-written for the same reason as the history types above: tsc infers a
- * "sloppy union" from the questions array's heterogeneous num/mc literals
- * (every field present-or-undefined across both shapes) rather than a clean
- * discriminated union, so `q.type === 'num'` doesn't narrow away `undefined`
- * on tol/unit/prefix or opts. */
-export interface MathsNumQuestion {
-  id: string
-  type: 'num'
-  q: string
-  ans: number
-  tol: number
-  unit: string
-  prefix: string
-  marks: number
-  sol: string
-}
-export interface MathsMcQuestion {
-  id: string
-  type: 'mc'
-  q: string
-  opts: string[]
-  ans: number
-  marks: number
-  sol: string
-}
-export type MathsQuestionData = MathsNumQuestion | MathsMcQuestion
-
-export interface MathsTopic {
-  code: string
-  name: string
-  strand: string
-  year: number
-  blurb: string
-  formulae: string[]
-  dotpoints: string[]
-  questions: MathsQuestionData[]
-  slug: string
-}
-
-const typedMathsTopics = mathsData.topics as unknown as MathsTopic[]
-
-export const mathsTopicsBySlug: Record<string, MathsTopic> = Object.fromEntries(
-  typedMathsTopics.map((t) => [t.slug, t]),
-)
-
-export const mathsYear12Topics = typedMathsTopics.filter((t) => t.year === 12)
-export const mathsYear11Topics = typedMathsTopics.filter((t) => t.year === 11)
-
-function countQuestionsByType(topics: MathsTopic[], type: string) {
-  return topics.reduce((sum, t) => sum + t.questions.filter((q) => q.type === type).length, 0)
-}
-
-export const mathsTotals = {
-  topics: typedMathsTopics.length,
-  questions: typedMathsTopics.reduce((sum, t) => sum + t.questions.length, 0),
-  numEntry: countQuestionsByType(typedMathsTopics, 'num'),
-  multipleChoice: countQuestionsByType(typedMathsTopics, 'mc'),
-  year12Questions: mathsYear12Topics.reduce((sum, t) => sum + t.questions.length, 0),
-  year11Questions: mathsYear11Topics.reduce((sum, t) => sum + t.questions.length, 0),
-}
-
 export const MODERN_HISTORY_RESOURCES = ['summary', 'practice', 'trivia', 'quiz'] as const
 export type ModernHistoryResource = (typeof MODERN_HISTORY_RESOURCES)[number]
 
@@ -187,29 +125,6 @@ export const MODERN_HISTORY_RESOURCE_LABELS: Record<ModernHistoryResource, strin
   practice: 'Practice Questions',
   trivia: 'Quick Trivia',
   quiz: 'Multiple Choice Quiz',
-}
-
-export const MATHS_RESOURCES = ['facts', 'practice'] as const
-export type MathsResource = (typeof MATHS_RESOURCES)[number]
-
-export const MATHS_RESOURCE_LABELS: Record<MathsResource, string> = {
-  facts: 'Key Facts & Formulae',
-  practice: 'Practice Questions',
-}
-
-export const STRAND_ACCENT_VAR: Record<string, string> = {
-  Algebra: '--alg',
-  Measurement: '--meas',
-  'Financial Mathematics': '--fin',
-  'Statistical Analysis': '--stat',
-  Networks: '--net',
-}
-
-export const TOPIC_ACCENT_VAR: Record<ModernHistoryTopicId, string> = {
-  s1: '--c-s1',
-  s2: '--c-s2',
-  s3: '--c-s3',
-  s4: '--c-s4',
 }
 
 export const TOPIC_ROMAN: Record<ModernHistoryTopicId, string> = {

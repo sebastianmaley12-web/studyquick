@@ -1,5 +1,5 @@
-import type { ModernHistoryResource } from './content'
-import { MODERN_HISTORY_TOPIC_DATA, type ModernHistoryTopicData } from './content'
+import type { ModernHistoryResource } from './content/modernHistory'
+import { MODERN_HISTORY_TOPIC_DATA, type ModernHistoryTopicData } from './content/modernHistory'
 
 /** Strips tags and decodes entities the same way the browser would when
  * rendering — used only to know which of the four tabs contain a match and

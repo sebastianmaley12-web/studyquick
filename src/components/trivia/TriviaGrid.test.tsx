@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { progressStore } from '../../lib/progressStore'
 import { TriviaGrid } from './TriviaGrid'
-import type { HistoryTriviaCard } from '../../lib/content'
+import type { HistoryTriviaCard } from '../../lib/content/modernHistory'
 
 const cards: HistoryTriviaCard[] = [
   { n: 1, questionHtml: 'What year was the Reichstag Fire?', answerHtml: '1933' },

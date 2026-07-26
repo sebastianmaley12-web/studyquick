@@ -14,7 +14,7 @@ import {
   MODERN_HISTORY_TOPIC_IDS,
   type ModernHistoryResource,
   type ModernHistoryTopicId,
-} from '../lib/content'
+} from '../lib/content/modernHistory'
 
 function isTopicId(v: string | undefined): v is ModernHistoryTopicId {
   return !!v && (MODERN_HISTORY_TOPIC_IDS as readonly string[]).includes(v)

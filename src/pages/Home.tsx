@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import { SqLogo } from '../components/SqLogo'
-import { modernHistoryTotals, modernHistoryTopics, mathsTotals } from '../lib/content'
+import { modernHistoryTotals, modernHistoryTopics } from '../lib/content/modernHistory'
+import { mathsTotals } from '../lib/content/maths'
 
 export function Home() {
   const navigate = useNavigate()
