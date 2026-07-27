@@ -6,6 +6,7 @@ import { progressStore, useMathsAnswer } from '../../lib/progressStore'
 import { mathsKey } from '../../lib/keys'
 import { renderLatex } from '../../lib/latex'
 import { shuffledIndices } from '../../lib/shuffle'
+import { typesetMathsHtml } from '../../lib/mathsTypeset'
 
 type Question = MathsTopic['questions'][number]
 
@@ -177,7 +178,7 @@ export function MathsQuestionWorkspace({
                   onClick={() => pickOption(originalIndex)}
                 >
                   <b>{'ABCD'[displayIndex]}</b>
-                  <span dangerouslySetInnerHTML={{ __html: opt }} />
+                  <span dangerouslySetInnerHTML={{ __html: typesetMathsHtml(opt) }} />
                 </button>
               )
             })}

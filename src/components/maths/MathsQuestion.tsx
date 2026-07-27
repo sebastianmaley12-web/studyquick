@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import type { MathsTopic } from '../../lib/content/maths'
 import { progressStore, useMathsAnswer } from '../../lib/progressStore'
 import { mathsKey } from '../../lib/keys'
@@ -7,6 +7,38 @@ import { MATHS_VARIATION_ENTRIES } from '../../lib/content/mathsVariation'
 import { createSeededRandom } from '../../lib/seededRandom'
 
 type Question = MathsTopic['questions'][number]
+
+/* typesetMathsHtml pulls in KaTeX (a sizeable dependency) via lib/latex, so
+ * this is loaded on demand rather than statically imported — otherwise every
+ * Maths topic page (including tabs that never render a question, like Key
+ * Facts) would pay for it just by importing this file, the same bloat bug
+ * fixed once already for the workspace component. Cached at module scope so
+ * only the first MathsQuestion on a page triggers the fetch. Falls back to
+ * the original HTML (today's rendering) until it resolves. */
+let typesetPromise: Promise<(html: string) => string> | null = null
+function loadTypeset() {
+  if (!typesetPromise) {
+    typesetPromise = Promise.all([
+      import('../../lib/mathsTypeset'),
+      import('katex/dist/katex.min.css'),
+    ]).then(([mod]) => mod.typesetMathsHtml)
+  }
+  return typesetPromise
+}
+
+function useMathsTypeset() {
+  const [fn, setFn] = useState<((html: string) => string) | null>(null)
+  useEffect(() => {
+    let alive = true
+    loadTypeset().then((typeset) => {
+      if (alive) setFn(() => typeset)
+    })
+    return () => {
+      alive = false
+    }
+  }, [])
+  return fn
+}
 
 /** Money rounds to 2dp; large numbers get thousands separators — matching the
  * original's `fmt()` exactly, used to show "the answer is X" on a miss.
@@ -70,8 +102,15 @@ export function MathsQuestion({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key])
 
-  const questionHtml = variation ? variation.questionHtml : question.q
-  const solutionHtml = variation ? variation.solutionHtml : question.sol
+  const typeset = useMathsTypeset()
+  const questionHtml = useMemo(() => {
+    const raw = variation ? variation.questionHtml : question.q
+    return typeset ? typeset(raw) : raw
+  }, [variation, question.q, typeset])
+  const solutionHtml = useMemo(() => {
+    const raw = variation ? variation.solutionHtml : question.sol
+    return typeset ? typeset(raw) : raw
+  }, [variation, question.sol, typeset])
   const effectiveAnswer = variation ? variation.answer : question.type === 'num' ? question.ans : 0
   const effectiveTolerance = variation
     ? variation.tolerance
@@ -177,7 +216,8 @@ export function MathsQuestion({
                 disabled={answered}
                 onClick={() => pickOption(originalIndex)}
               >
-                <b>{'ABCD'[displayIndex]}.</b> <span dangerouslySetInnerHTML={{ __html: opt }} />
+                <b>{'ABCD'[displayIndex]}.</b>{' '}
+                <span dangerouslySetInnerHTML={{ __html: typeset ? typeset(opt) : opt }} />
               </button>
             )
           })}
