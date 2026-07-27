@@ -3,6 +3,9 @@ import { createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
 
 const Home = lazy(() => import('./pages/Home').then((m) => ({ default: m.Home })))
+const ProgressDashboard = lazy(() =>
+  import('./pages/ProgressDashboard').then((m) => ({ default: m.ProgressDashboard })),
+)
 const ModernHistorySubject = lazy(() =>
   import('./pages/ModernHistorySubject').then((m) => ({ default: m.ModernHistorySubject })),
 )
@@ -27,6 +30,7 @@ export const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { path: '/', element: <Home /> },
+      { path: '/progress', element: <ProgressDashboard /> },
       { path: '/subjects/modern-history', element: <ModernHistorySubject /> },
       { path: '/subjects/modern-history/:topicId/:resource', element: <ModernHistoryTopic /> },
       { path: '/subjects/maths', element: <MathsSubject /> },

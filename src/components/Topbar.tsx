@@ -23,6 +23,9 @@ export function Topbar() {
         <Suspense fallback={null}>
           <Breadcrumbs />
         </Suspense>
+        <button className="tb-progress" type="button" onClick={() => navigate('/progress')}>
+          Your progress
+        </button>
         <span className="tb-hint">
           Press <b>/</b> to search &middot; <b>[</b> to retract
         </span>

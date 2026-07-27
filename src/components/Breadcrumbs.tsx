@@ -21,6 +21,8 @@ type Crumb = { label: string; to?: string }
 function crumbsForPath(pathname: string): Crumb[] {
   const seg = pathname.split('/').filter(Boolean)
 
+  if (seg[0] === 'progress') return [{ label: 'All subjects', to: '/' }, { label: 'Your progress' }]
+
   if (seg[0] !== 'subjects') return [{ label: 'All subjects' }]
 
   if (seg[1] === 'modern-history') {
