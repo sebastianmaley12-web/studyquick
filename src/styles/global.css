@@ -3387,6 +3387,53 @@ footer {
 }
 
 /* ---------- progress dashboard ---------- */
+.dash-due {
+  background: rgba(37, 99, 235, 0.06);
+  border: 1px solid rgba(37, 99, 235, 0.22);
+  border-radius: 16px;
+  padding: 18px 20px;
+  margin-bottom: 28px;
+}
+
+.dash-due h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  color: var(--blue-dark);
+}
+
+.dash-due p {
+  margin: 0 0 14px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.dash-due-count {
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--blue-dark);
+  white-space: nowrap;
+}
+
+.dash-review-btn {
+  flex: 0 0 auto;
+  font: inherit;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--blue);
+  border: none;
+  border-radius: 8px;
+  padding: 7px 14px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s;
+}
+
+.dash-review-btn:hover {
+  background: var(--blue-dark);
+}
+
 .dash-weak {
   background: var(--no-bg);
   border: 1px solid var(--no-line);

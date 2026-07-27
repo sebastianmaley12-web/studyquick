@@ -1,6 +1,7 @@
 import type { ProgressState } from './progressStore'
 import { quizKey, triviaKey, practiceNoteKey, mathsKey } from './keys'
 import type { MathsTopic } from './content/maths'
+import { isDue } from './spacedRepetition'
 
 /**
  * Mirrors the original's historyStats()/mathsStats()/setBar() — same score
@@ -77,6 +78,27 @@ export function mathsTopicStats(progress: ProgressState, topic: MathsTopic): Mat
     }
   }
   return { done, right, total: topic.questions.length }
+}
+
+/** Keys of previously-answered quiz items whose spaced-repetition schedule
+ * says they're due again — i.e. the topic's "resume for review" set, not
+ * everything unanswered (that's just "not started", a separate concept). */
+export function dueQuizKeys(progress: ProgressState, topic: HistoryTopicCounts): string[] {
+  const due: string[] = []
+  for (let i = 0; i < topic.quizCount; i++) {
+    const key = quizKey(topic.id, i)
+    if (progress.quiz[key] && isDue(progress.review[key])) due.push(key)
+  }
+  return due
+}
+
+export function dueMathsKeys(progress: ProgressState, topic: MathsTopic): string[] {
+  const due: string[] = []
+  for (const q of topic.questions) {
+    const key = mathsKey(topic.slug, q.id)
+    if (progress.maths[key] && isDue(progress.review[key])) due.push(key)
+  }
+  return due
 }
 
 export function pct(done: number, total: number): number {

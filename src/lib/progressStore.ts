@@ -1,4 +1,5 @@
 import { useSyncExternalStore } from 'react'
+import { nextReview, type ReviewState } from './spacedRepetition'
 
 /**
  * Byte-compatible with the original app's localStorage schema, including the
@@ -25,10 +26,11 @@ export interface ProgressState {
   trivia: Record<string, TriviaConfidence>
   notes: Record<string, string>
   maths: Record<string, MathsAnswer>
+  review: Record<string, ReviewState>
 }
 
 function emptyState(): ProgressState {
-  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {} }
+  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {}, review: {} }
 }
 
 let canSave = true
@@ -73,7 +75,7 @@ function emit() {
  * Local-vs-local+sync swap point: once accounts exist, a signed-in user's
  * commits should also push `next` to Supabase's `progress.data` (see
  * src/lib/supabase/schema.sql) in addition to the localStorage write below,
- * merged by last-write-wins per top-level key (quiz/trivia/notes/maths).
+ * merged by last-write-wins per top-level key (quiz/trivia/notes/maths/review).
  * Not implemented — there is no such call today, and `supabase` client from
  * src/lib/supabase/client.ts is unused anywhere in the app.
  */
@@ -96,19 +98,28 @@ export const progressStore = {
   },
 
   setQuizAnswer(qid: string, pick: string, ok: boolean) {
-    commit({ ...state, quiz: { ...state.quiz, [qid]: { pick, ok } } })
+    const review = { ...state.review, [qid]: nextReview(state.review[qid], ok) }
+    commit({ ...state, quiz: { ...state.quiz, [qid]: { pick, ok } }, review })
   },
   retryIncorrectQuiz(qids: string[]) {
     const quiz = { ...state.quiz }
+    const review = { ...state.review }
     for (const qid of qids) {
-      if (quiz[qid] && !quiz[qid].ok) delete quiz[qid]
+      if (quiz[qid] && !quiz[qid].ok) {
+        delete quiz[qid]
+        delete review[qid]
+      }
     }
-    commit({ ...state, quiz })
+    commit({ ...state, quiz, review })
   },
   resetQuizTopic(qids: string[]) {
     const quiz = { ...state.quiz }
-    for (const qid of qids) delete quiz[qid]
-    commit({ ...state, quiz })
+    const review = { ...state.review }
+    for (const qid of qids) {
+      delete quiz[qid]
+      delete review[qid]
+    }
+    commit({ ...state, quiz, review })
   },
 
   toggleTriviaConfidence(tid: string, value: TriviaConfidence) {
@@ -133,19 +144,28 @@ export const progressStore = {
   },
 
   setMathsAnswer(key: string, v: string | number, ok: boolean) {
-    commit({ ...state, maths: { ...state.maths, [key]: { v, ok } } })
+    const review = { ...state.review, [key]: nextReview(state.review[key], ok) }
+    commit({ ...state, maths: { ...state.maths, [key]: { v, ok } }, review })
   },
   retryIncorrectMaths(keys: string[]) {
     const maths = { ...state.maths }
+    const review = { ...state.review }
     for (const k of keys) {
-      if (maths[k] && !maths[k].ok) delete maths[k]
+      if (maths[k] && !maths[k].ok) {
+        delete maths[k]
+        delete review[k]
+      }
     }
-    commit({ ...state, maths })
+    commit({ ...state, maths, review })
   },
   resetMathsTopic(keys: string[]) {
     const maths = { ...state.maths }
-    for (const k of keys) delete maths[k]
-    commit({ ...state, maths })
+    const review = { ...state.review }
+    for (const k of keys) {
+      delete maths[k]
+      delete review[k]
+    }
+    commit({ ...state, maths, review })
   },
 
   resetAll() {

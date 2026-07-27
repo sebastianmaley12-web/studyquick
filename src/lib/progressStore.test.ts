@@ -1,6 +1,8 @@
 import { progressStore } from './progressStore'
+import { REVIEW_INTERVALS_DAYS } from './spacedRepetition'
 
 const KEY = 'studyquick.progress.v1'
+const DAY = 24 * 60 * 60 * 1000
 
 describe('progressStore', () => {
   beforeEach(() => {
@@ -15,6 +17,7 @@ describe('progressStore', () => {
   })
 
   it('persists to the original localStorage key and shape', () => {
+    const now = Date.now()
     progressStore.setQuizAnswer('s1-quiz#0', 'a', true)
     vi.runAllTimers()
     const raw = JSON.parse(localStorage.getItem(KEY)!)
@@ -24,6 +27,7 @@ describe('progressStore', () => {
       trivia: {},
       notes: {},
       maths: {},
+      review: { 's1-quiz#0': { box: 0, dueAt: now + REVIEW_INTERVALS_DAYS[0] * DAY } },
     })
   })
 
@@ -87,8 +91,33 @@ describe('progressStore', () => {
       trivia: {},
       notes: {},
       maths: {},
+      review: {},
     })
     expect(localStorage.getItem(KEY)).toBeNull()
+  })
+
+  it('schedules a review on a correct answer and resets it to box 0 on a wrong one', () => {
+    progressStore.setQuizAnswer('s1-quiz#0', 'a', true)
+    expect(progressStore.getSnapshot().review['s1-quiz#0'].box).toBe(0)
+
+    progressStore.setQuizAnswer('s1-quiz#0', 'a', true)
+    expect(progressStore.getSnapshot().review['s1-quiz#0'].box).toBe(1)
+
+    progressStore.setQuizAnswer('s1-quiz#0', 'b', false)
+    expect(progressStore.getSnapshot().review['s1-quiz#0'].box).toBe(0)
+  })
+
+  it('clears the review schedule whenever the answer it belongs to is cleared', () => {
+    progressStore.setQuizAnswer('s1-quiz#0', 'a', false)
+    progressStore.setMathsAnswer('f4#a1q1', 4, true)
+    expect(progressStore.getSnapshot().review['s1-quiz#0']).toBeDefined()
+    expect(progressStore.getSnapshot().review['f4#a1q1']).toBeDefined()
+
+    progressStore.retryIncorrectQuiz(['s1-quiz#0'])
+    expect(progressStore.getSnapshot().review['s1-quiz#0']).toBeUndefined()
+
+    progressStore.resetMathsTopic(['f4#a1q1'])
+    expect(progressStore.getSnapshot().review['f4#a1q1']).toBeUndefined()
   })
 
   it('notifies subscribers on every write', () => {
