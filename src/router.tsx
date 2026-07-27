@@ -24,6 +24,10 @@ const BusinessSubject = lazy(() =>
 const BusinessTopic = lazy(() =>
   import('./pages/BusinessTopic').then((m) => ({ default: m.BusinessTopic })),
 )
+const LegalSubject = lazy(() =>
+  import('./pages/LegalSubject').then((m) => ({ default: m.LegalSubject })),
+)
+const LegalTopic = lazy(() => import('./pages/LegalTopic').then((m) => ({ default: m.LegalTopic })))
 
 export const router = createBrowserRouter([
   {
@@ -39,6 +43,8 @@ export const router = createBrowserRouter([
       { path: '/subjects/hms/:topicId/:resource', element: <HmsTopic /> },
       { path: '/subjects/business', element: <BusinessSubject /> },
       { path: '/subjects/business/:topicId/:resource', element: <BusinessTopic /> },
+      { path: '/subjects/legal', element: <LegalSubject /> },
+      { path: '/subjects/legal/:topicId/:resource', element: <LegalTopic /> },
     ],
   },
 ])

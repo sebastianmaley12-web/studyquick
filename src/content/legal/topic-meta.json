@@ -1,0 +1,6 @@
+{
+  "crime": { "short": "Crime", "years": "HSC Core" },
+  "humanrights": { "short": "Human Rights", "years": "HSC Core" },
+  "environment": { "short": "Global Environmental Protection", "years": "HSC Option" },
+  "worldorder": { "short": "World Order", "years": "HSC Option" }
+}

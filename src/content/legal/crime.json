@@ -1,0 +1,205 @@
+{
+  "id": "crime",
+  "meta": {
+    "title": "Crime",
+    "range": "HSC core · Part I · 30% of course time",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "Mandatory core",
+        "bodyHtml": "Crime is compulsory for every HSC Legal Studies student and is tested in every real exam — Section I (multiple choice, shared with Human Rights) and Section II Part B (one 15-mark extended response) of the HSC paper draw directly on this topic."
+      },
+      {
+        "kind": "out",
+        "label": "Sourced from real trial papers",
+        "bodyHtml": "Quiz, trivia and practice content here is adapted from real 2024/2025 HSC trial exam questions and marking guidelines (Fort Street High School and Baulkham Hills High School), cross-checked against the NESA Legal Studies Stage 6 Syllabus."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Covers all six syllabus sub-topics of the Crime core, in NESA's own order.",
+    "groups": [
+      {
+        "title": "The nature of crime",
+        "points": [
+          "A <b>crime</b> is an act or omission that breaches a duty owed to society, punishable by the state. Most crimes require both <b>actus reus</b> (the guilty act) and <b>mens rea</b> (the guilty mind/intent) to be proven; <b>strict liability offences</b> (e.g. most driving offences, like speeding) don't require mens rea — the act alone is enough.",
+          "<b>Causation</b> requires proving the accused's act actually caused the harm (e.g. a specific charge like murder vs manslaughter often turns on causation and the presence or absence of intent).",
+          "Categories of crime include offences against the person (assault, murder), offences against the sovereign (treason), economic offences (property, white-collar, computer crime), drug offences, driving offences, public order offences, and preliminary crimes (attempts and conspiracy, punished even though the full crime wasn't completed).",
+          "<b>Summary offences</b> are less serious and heard by a magistrate alone in the Local Court; <b>indictable offences</b> are more serious and can be heard before a judge and jury in the District or Supreme Court.",
+          "Parties to a crime: the <b>principal in the first degree</b> (the person who actually commits the crime), <b>principal in the second degree</b> (present and assists), <b>accessory before the fact</b> (helps plan but isn't present) and <b>accessory after the fact</b> (helps the offender evade justice afterwards).",
+          "Factors affecting criminal behaviour include social factors (upbringing, peer pressure, poverty), economic factors (unemployment, financial hardship) and psychological/genetic factors. <b>Situational crime prevention</b> reduces opportunities to offend (e.g. CCTV, better lighting, random breath testing); <b>social crime prevention</b> addresses the underlying causes of crime (e.g. youth employment programs, school-based education about drugs and driving)."
+        ]
+      },
+      {
+        "title": "The criminal investigation process",
+        "points": [
+          "Police powers (largely set out in the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW), often called <b>LEPRA</b>) include stopping and searching a person or vehicle where there are reasonable grounds for suspicion, arrest, and issuing a caution, infringement notice or court attendance notice (CAN) rather than always charging someone.",
+          "Investigating crime involves gathering evidence (including forensic evidence like DNA), search and seizure, and the use of warrants — police generally need a warrant to search private property unless the situation is urgent or consent is given.",
+          "A person can be brought before a court by <b>arrest and charge</b> (taken into custody), <b>summons</b> (ordered to appear without arrest) or a <b>court attendance notice</b>. After being charged, a person is granted <b>bail</b> (released, sometimes on conditions, pending trial) or held on <b>remand</b> (kept in custody) — the <em>Bail Act 2013</em> (NSW) sets out a 'show cause' test for the most serious offences, requiring the accused to show why their detention isn't justified.",
+          "Suspects have rights during detention and interrogation, including a <b>right to silence</b> (though a court may later be able to draw an unfavourable inference from unjustified silence in some circumstances) and a right to have a support person present — for a person under 18 (or otherwise vulnerable), police generally must have a parent, guardian or other responsible adult present during formal police interviews."
+        ]
+      },
+      {
+        "title": "The criminal trial process",
+        "points": [
+          "Court jurisdiction: the Local Court hears summary offences and bail applications; the District Court hears most indictable offences; the Supreme Court hears the most serious offences (e.g. murder) and hears appeals from the District Court via the Court of Criminal Appeal.",
+          "Australia uses the <b>adversarial system</b> — two opposing sides (prosecution and defence) present their case to an independent judge/magistrate (and often a jury), rather than the judge actively investigating as in a civil-law/inquisitorial system.",
+          "Legal personnel include the <b>magistrate</b> (Local Court), <b>judge</b> (District/Supreme Court), <b>police prosecutor</b> or the <b>Director of Public Prosecutions (DPP)</b> (prosecuting), and <b>Public Defenders</b> or Legal Aid solicitors (defending) — a Public Defender's role is to represent the accused, not to prove their innocence, since the prosecution always carries the burden of proof.",
+          "An accused can enter a plea of guilty or not guilty; <b>charge negotiation</b> (plea bargaining) allows the prosecution and defence to agree the accused will plead guilty to a lesser or fewer charges in exchange for a discount on sentence, which can achieve efficiency but risks an innocent person pleading guilty under pressure.",
+          "The prosecution bears the <b>burden of proof</b> and must prove guilt to the criminal <b>standard of proof</b> — beyond reasonable doubt (much higher than the civil standard, the balance of probabilities).",
+          "<b>Complete defences</b> (e.g. self-defence, duress, mental illness/cognitive impairment, automatism) result in a full acquittal if successful; <b>partial defences to murder</b> (e.g. substantial impairment by abnormality of mind) can reduce a murder charge to manslaughter rather than acquitting entirely.",
+          "In a jury trial, the <b>foreperson</b> delivers the jury's verdict on its behalf (not researches facts or ensures a unanimous verdict is reached) — juries provide a lay perspective and community legitimacy but can be criticised for inconsistency and susceptibility to bias."
+        ]
+      },
+      {
+        "title": "Sentencing and punishment",
+        "points": [
+          "Sentencing follows statutory guidelines (e.g. maximum penalties set in the <em>Crimes Act 1900</em> (NSW)) and judicial guidelines (e.g. standard non-parole periods and aggravating/mitigating factors listed in s21A of the <em>Crimes (Sentencing Procedure) Act 1999</em> (NSW)).",
+          "The four purposes of punishment are <b>deterrence</b> (specific — discouraging the individual from reoffending; general — discouraging the wider community), <b>retribution</b> (punishment proportionate to the harm caused), <b>rehabilitation</b> (addressing the causes of offending, e.g. through treatment or education) and <b>incapacitation</b> (removing the offender's ability to reoffend, e.g. through imprisonment).",
+          "<b>Aggravating factors</b> (e.g. an offender's prior convictions, use of violence, vulnerability of the victim) increase the severity of a sentence; <b>mitigating factors</b> (e.g. genuine remorse, a guilty plea, youth, no prior record) can reduce it. A <b>Victim Impact Statement</b>, protected under the <em>Victims Rights and Support Act 2013</em> (NSW), lets a victim describe the harm suffered to the court, though it is not automatically treated as a mitigating or aggravating factor in itself.",
+          "Types of penalties range from a caution or fine, through bonds, community correction orders and intensive correction orders (served in the community), to imprisonment — the most severe penalty currently available in NSW is life imprisonment without parole; Australia does not have capital punishment.",
+          "Alternative methods of sentencing include <b>circle sentencing</b> (involving Aboriginal elders and the community in sentencing Aboriginal offenders) and <b>restorative justice conferencing</b>, which aim to address underlying causes of offending and repair harm to the community rather than relying only on punishment.",
+          "Post-sentencing considerations include <b>parole</b> (supervised release before the full sentence is served), <b>security classification</b> (moving an offender to a lower- or higher-security facility), <b>preventative</b> and <b>continued detention</b> (for high-risk offenders, including some cases affected by the 2023 High Court decision in <em>NZYQ v Minister for Immigration</em>), and <b>deportation</b> of non-citizens after their sentence."
+        ]
+      },
+      {
+        "title": "Young offenders",
+        "points": [
+          "In NSW, children under 10 cannot be held criminally responsible at all; children aged 10-13 are presumed incapable of crime unless the prosecution proves they knew their act was seriously wrong (the presumption of <em>doli incapax</em>); from 14, children are treated as capable of criminal responsibility like adults.",
+          "Young suspects have additional rights when questioned or arrested, including (per the <em>Children (Criminal Proceedings) Act 1987</em> (NSW)) the right to have a parent, guardian or other responsible adult present during police interviews.",
+          "The <b>Children's Court</b> hears most charges against people under 18, operates more informally and privately than adult courts, and focuses more heavily on rehabilitation.",
+          "Penalties for children are generally less severe than for adults, reflecting their reduced culpability and capacity for rehabilitation, and the <em>Young Offenders Act 1997</em> (NSW) provides <b>alternatives to court</b> — warnings, cautions and youth justice conferences — for less serious offences, diverting young people away from the formal court system where appropriate."
+        ]
+      },
+      {
+        "title": "International crime",
+        "points": [
+          "International crime falls into two broad categories: <b>crimes against the international community</b> (e.g. genocide, war crimes, crimes against humanity) and <b>transnational crimes</b> (crimes that cross national borders, e.g. drug trafficking, terrorism, human trafficking, cybercrime).",
+          "Domestic measures for dealing with international crime include specific Commonwealth offences (e.g. under the <em>Criminal Code Act 1995</em> (Cth)) and cooperation between national police forces (e.g. the Australian Federal Police working with Interpol); international measures include extradition treaties between countries and prosecution before international tribunals or the International Criminal Court.",
+          "Limitations on dealing with international crime include the principle of <b>state sovereignty</b> (a state generally can't be forced to hand over a suspect or enforce another country's laws without its consent), the difficulty of gathering evidence and cooperation across borders, and the fact that international bodies like Interpol coordinate and share information between police forces but do not have their own power to arrest suspects directly."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "Sentencing and punishment",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Evaluate",
+            "badge": "15 marks",
+            "questionHtml": "Evaluate the effectiveness of sentencing and punishment as a means of achieving justice.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover at least two of: sentencing guidelines, purposes of punishment, aggravating/mitigating factors, the victim's role, appeals, types of penalties, alternative sentencing, and post-sentencing considerations.</li><li>Integrate real legislation and cases for each area you discuss.</li><li>Reach a clear, supported judgement on overall effectiveness — don't just describe.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Sentencing and punishment achieve justice to a moderate extent — statutory and judicial guidelines provide consistency, but discretion means outcomes can still vary and attract criticism. The <em>Crimes (Sentencing Procedure) Act 1999</em> (NSW) lists aggravating and mitigating factors judges must weigh, and standard non-parole periods guide judges towards consistent minimum sentences for serious offences, improving predictability. However, mandatory sentencing regimes — such as those introduced under the <em>Crimes and Other Legislation Amendment (Assault and Intoxication) Act 2014</em> (NSW) for one-punch assaults causing death — remove judicial discretion entirely, which can achieve consistency but risks unjust outcomes in individual cases where the standard sentence doesn't fit the circumstances.</p><p>The four purposes of punishment are not always balanced consistently. In <em>R v Loveridge</em> [2014] NSWCCA 120, the Court of Criminal Appeal increased Kieran Loveridge's sentence for the one-punch killing of Thomas Kelly, finding the original sentence gave too much weight to rehabilitation and too little to general deterrence and community protection — showing how appeals can correct an imbalance, but also that first-instance sentencing doesn't always get this balance right. The victim's role has also been strengthened: under the <em>Victims Rights and Support Act 2013</em> (NSW), a Victim Impact Statement lets the victim (or their family) describe the harm suffered, which can improve the sense that justice has been done for the individual, without automatically dictating the sentence imposed.</p><p>Post-sentencing considerations show both the strengths and limits of the system. Parole allows a supervised, gradual reintegration into the community, encouraging rehabilitation, while continued detention of high-risk offenders after their sentence ends has become more limited following the 2023 High Court decision in <em>NZYQ v Minister for Immigration</em>, which found indefinite detention without a real prospect of removal breaches the Constitution — prompting law reform to manage the release of a small number of high-risk offenders differently. Overall, sentencing and punishment achieve justice to a reasonable extent through their flexibility and periodic reform, but the tension between consistency (mandatory/guideline sentencing) and individualised justice (judicial discretion) means outcomes remain inconsistent and contested.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "15 marks",
+            "questionHtml": "\"The use of discretion is important in achieving justice for individuals and the community.\" To what extent is this statement true in relation to the criminal justice system?",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover discretion at more than one stage — e.g. police, prosecutorial, judicial.</li><li>Balance examples where discretion helps justice against examples where its absence (mandatory sentencing) or misuse (inconsistent policing) undermines it.</li><li>Reach an explicit judgement about the extent to which the statement is true.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Discretion plays a significant role at every stage of the criminal justice system, and is important — but not sufficient on its own — for achieving justice for individuals and the community. Police discretion under LEPRA (the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW)) allows officers to issue a caution or refer a young person to a youth justice conference under the <em>Young Offenders Act 1997</em> (NSW) instead of charging them, which can achieve individualised justice for minor or first-time offending. However, uneven use of this discretion — for example, well-documented disproportionate use of police strip-search powers on some groups — shows discretion can also undermine justice for the community when it isn't applied consistently or transparently.</p><p>Judicial discretion in sentencing allows a court to weigh the specific aggravating and mitigating circumstances of a case, such as an offender's youth or genuine remorse, producing a more individually just outcome than a fixed penalty could. This is illustrated in <em>Bugmy v The Queen</em> (2013) 249 CLR 571, where the High Court confirmed that an offender's social deprivation and childhood disadvantage remain relevant mitigating factors even for repeat offending, allowing courts to tailor sentences to an offender's real circumstances. By contrast, mandatory and standard non-parole schemes deliberately limit judicial discretion to increase consistency and community confidence, at the cost of flexibility in individual cases.</p><p>Overall, the statement is true to a large extent: discretion allows the legal system to respond to the particular facts of each case, which is essential for justice at the individual level. But unchecked or inconsistently applied discretion — particularly at the policing stage — can also produce unequal outcomes, meaning discretion needs to be balanced with clear guidelines and oversight (such as appeals and legislative sentencing guidelines) to achieve justice for the community as a whole, not just for individuals.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Criminal investigation and trial process",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Assess",
+            "badge": "10 marks",
+            "questionHtml": "Assess the effectiveness of the criminal investigation process as a means of achieving justice.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover police powers, gathering evidence, and rights of suspects.</li><li>Weigh community protection against individual rights.</li><li>Reach a supported judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The criminal investigation process balances effective law enforcement against the rights of suspects, and is reasonably, but not fully, effective at achieving justice. LEPRA (the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW)) gives police clear powers to stop, search, and arrest based on reasonable suspicion, allowing evidence to be gathered efficiently, and requires a warrant for most searches of private property, protecting individuals from arbitrary police action.</p><p>Suspects' rights during interrogation — including the right to silence and, for young or vulnerable suspects, the right to have a support person present under the <em>Children (Criminal Proceedings) Act 1987</em> (NSW) — help prevent coerced or unreliable confessions, protecting the innocent. The <em>Bail Act 2013</em> (NSW) 'show cause' provisions for serious offences aim to balance the presumption of innocence against the community's need for protection from further offending while a case is pending.</p><p>However, the process is not perfectly effective: the use of discretionary powers such as strip searches has attracted criticism for being applied inconsistently, and delays in investigation and gathering forensic evidence can leave both suspects and victims waiting for justice for long periods. Overall, the criminal investigation process achieves justice to a considerable extent through its legislative safeguards, though ongoing scrutiny of how police discretion is actually exercised remains necessary.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Evaluate",
+            "badge": "10 marks",
+            "questionHtml": "Evaluate the effectiveness of the jury system in the criminal trial process.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what a jury does and why the adversarial system uses one.</li><li>Give strengths and weaknesses.</li><li>Reach a judgement on effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A jury of twelve ordinary citizens decides the facts of a case and delivers a verdict (through its foreperson) in serious indictable trials, bringing a lay, community perspective to the criminal trial process that a single judge could not provide alone. This helps maintain public confidence in the legal system, since verdicts are decided by peers rather than solely by legal professionals, and juries are not told about an accused's prior convictions unless directly relevant, reducing the risk of prejudging a case on an offender's past record alone.</p><p>However, the jury system has real limitations: jurors can be influenced by media coverage of high-profile cases despite directions from the judge, jury deliberations are not required to give reasons for a verdict (making inconsistent or seemingly unreasonable verdicts hard to review), and complex trials involving technical or scientific evidence can be difficult for a lay jury to fully assess. On balance, the jury system remains an important and broadly effective safeguard of community involvement and legitimacy in the criminal trial process, even though it is not immune from the risk of bias or error that any human decision-making process carries.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Young offenders and international crime",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "8 marks",
+            "questionHtml": "Assess the effectiveness of the criminal justice system in dealing with young offenders.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain why young offenders are treated differently.</li><li>Cover the Children's Court and diversionary alternatives.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The criminal justice system is reasonably effective in dealing with young offenders, recognising their reduced culpability and greater capacity for rehabilitation compared to adults. In NSW, children under 10 cannot be criminally responsible at all, and the presumption of doli incapax means a child aged 10-13 can only be found guilty if the prosecution proves they understood their act was seriously wrong — protecting children who lack the maturity to fully understand the consequences of their actions.</p><p>The Children's Court operates more informally and privately than adult courts, reducing the stigma and trauma of the process, and the <em>Young Offenders Act 1997</em> (NSW) provides diversionary alternatives — warnings, cautions and youth justice conferences — that can resolve less serious matters without a formal criminal record, giving young people a genuine chance to avoid entering the criminal justice system altogether. However, the effectiveness of these diversionary options depends heavily on how consistently police exercise their discretion to use them, and repeat or more serious young offenders can still end up detained, raising ongoing debate about whether current approaches sufficiently balance rehabilitation with community safety. Overall, the system's recognition of young offenders' different needs represents a meaningful, if imperfect, achievement of justice.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Evaluate",
+            "badge": "8 marks",
+            "questionHtml": "Evaluate the effectiveness of the domestic and international legal systems in dealing with international crime.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Distinguish crimes against the international community from transnational crimes.</li><li>Cover both domestic and international measures.</li><li>Discuss state sovereignty as a limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Dealing with international crime — both crimes against the international community, like genocide and war crimes, and transnational crimes, like drug trafficking and cybercrime — relies on a mix of domestic and international measures, and is only moderately effective. Domestically, Commonwealth offences under the <em>Criminal Code Act 1995</em> (Cth) allow Australia to prosecute certain international crimes directly, and agencies like the Australian Federal Police cooperate with Interpol to share intelligence and coordinate investigations across borders.</p><p>Internationally, extradition treaties allow one country to hand over a suspect to face trial in another, and international tribunals or the International Criminal Court can prosecute the most serious crimes against the international community where a state is unwilling or unable to prosecute itself. However, the principle of state sovereignty significantly limits these measures: a state generally cannot be forced to extradite a suspect or comply with an international investigation without its own consent, and Interpol itself has no independent power of arrest — it can only coordinate between national police forces. This means offenders can sometimes evade justice simply by remaining in, or fleeing to, a state unwilling to cooperate, showing that domestic and international responses to international crime remain effective only to the extent that states are willing to cooperate with each other.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What are the two elements usually required to prove a crime?", "answerHtml": "Actus reus (the guilty act) and mens rea (the guilty mind/intent)." },
+    { "n": 2, "questionHtml": "What is a strict liability offence?", "answerHtml": "An offence that doesn't require mens rea to be proven — the act itself is enough, e.g. most driving offences like speeding." },
+    { "n": 3, "questionHtml": "What's the difference between a summary and an indictable offence?", "answerHtml": "Summary offences are less serious and heard by a magistrate alone; indictable offences are more serious and can be heard before a judge and jury." },
+    { "n": 4, "questionHtml": "Name the four parties to a crime.", "answerHtml": "Principal in the first degree, principal in the second degree, accessory before the fact, and accessory after the fact." },
+    { "n": 5, "questionHtml": "What's the difference between situational and social crime prevention?", "answerHtml": "Situational crime prevention reduces opportunities to offend (e.g. CCTV); social crime prevention addresses the underlying causes of crime (e.g. youth programs)." },
+    { "n": 6, "questionHtml": "What Act sets out most NSW police powers, and what is it commonly known as?", "answerHtml": "The Law Enforcement (Powers and Responsibilities) Act 2002 (NSW), commonly known as LEPRA." },
+    { "n": 7, "questionHtml": "What's the difference between bail and remand?", "answerHtml": "Bail is release (sometimes with conditions) pending trial; remand is being held in custody pending trial." },
+    { "n": 8, "questionHtml": "What does the 'show cause' requirement under the Bail Act 2013 (NSW) mean?", "answerHtml": "For the most serious offences, the accused must show why their detention in custody isn't justified, rather than the prosecution having to justify refusing bail." },
+    { "n": 9, "questionHtml": "What legal system does Australia use for criminal trials?", "answerHtml": "The adversarial system — two opposing sides present their case to an independent judge or magistrate (and often a jury)." },
+    { "n": 10, "questionHtml": "What is charge negotiation (plea bargaining)?", "answerHtml": "An agreement where the accused pleads guilty to a lesser or fewer charge(s) in exchange for a discount on sentence." },
+    { "n": 11, "questionHtml": "What is the criminal standard of proof?", "answerHtml": "Beyond reasonable doubt." },
+    { "n": 12, "questionHtml": "What's the difference between a complete and a partial defence to murder?", "answerHtml": "A complete defence (e.g. self-defence) results in full acquittal; a partial defence (e.g. substantial impairment) can reduce murder to manslaughter." },
+    { "n": 13, "questionHtml": "What role does a jury's foreperson play?", "answerHtml": "They deliver the jury's verdict on its behalf." },
+    { "n": 14, "questionHtml": "Name the four purposes of punishment.", "answerHtml": "Deterrence (specific and general), retribution, rehabilitation and incapacitation." },
+    { "n": 15, "questionHtml": "Give an example of an aggravating factor in sentencing.", "answerHtml": "An offender's prior convictions, use of violence, or the vulnerability of the victim." },
+    { "n": 16, "questionHtml": "What legislation protects a victim's right to make a Victim Impact Statement in NSW?", "answerHtml": "The Victims Rights and Support Act 2013 (NSW)." },
+    { "n": 17, "questionHtml": "What is circle sentencing?", "answerHtml": "An alternative sentencing method involving Aboriginal elders and the community in sentencing Aboriginal offenders." },
+    { "n": 18, "questionHtml": "What is parole?", "answerHtml": "Supervised release into the community before an offender's full custodial sentence has been served." },
+    { "n": 19, "questionHtml": "What did the 2023 High Court decision in NZYQ v Minister for Immigration find?", "answerHtml": "That indefinite immigration/continued detention without a real prospect of removal from Australia is unconstitutional." },
+    { "n": 20, "questionHtml": "At what age can a child never be held criminally responsible in NSW?", "answerHtml": "Under 10 years old." },
+    { "n": 21, "questionHtml": "What is doli incapax?", "answerHtml": "The presumption that a child aged 10-13 is incapable of crime unless the prosecution proves they knew their act was seriously wrong." },
+    { "n": 22, "questionHtml": "What alternatives to court does the Young Offenders Act 1997 (NSW) provide for young people?", "answerHtml": "Warnings, cautions, and youth justice conferences." },
+    { "n": 23, "questionHtml": "What's the difference between a crime against the international community and a transnational crime?", "answerHtml": "A crime against the international community (e.g. genocide) harms humanity as a whole; a transnational crime (e.g. drug trafficking) crosses national borders." },
+    { "n": 24, "questionHtml": "Why can state sovereignty limit responses to international crime?", "answerHtml": "A state generally can't be forced to hand over a suspect or enforce another country's laws without its own consent." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "a", "questionHtml": "Continued detention (after sentence) best reflects which purpose of punishment?", "options": [ { "opt": "a", "textHtml": "Incapacitation" }, { "opt": "b", "textHtml": "Rehabilitation" }, { "opt": "c", "textHtml": "General deterrence" }, { "opt": "d", "textHtml": "Retribution" } ] },
+    { "n": 2, "answer": "a", "questionHtml": "Under NSW legislation, at what age are children first considered capable of committing a crime?", "options": [ { "opt": "a", "textHtml": "Ten" }, { "opt": "b", "textHtml": "Eleven" }, { "opt": "c", "textHtml": "Thirteen" }, { "opt": "d", "textHtml": "Fourteen" } ] },
+    { "n": 3, "answer": "d", "questionHtml": "Which of the following is an example of social crime prevention?", "options": [ { "opt": "a", "textHtml": "An accused person being remanded in custody" }, { "opt": "b", "textHtml": "A curfew banning young people from being out in public at night" }, { "opt": "c", "textHtml": "Police drug-detection dogs at music festivals" }, { "opt": "d", "textHtml": "An employment program for young people" } ] },
+    { "n": 4, "answer": "d", "questionHtml": "Bronwyn is charged with a speeding offence. Bronwyn was speeding to get to a peaceful protest against the Prime Minister. Which of the following factors most likely affected Bronwyn's criminal behaviour?", "options": [ { "opt": "a", "textHtml": "Genetic" }, { "opt": "b", "textHtml": "Economic" }, { "opt": "c", "textHtml": "Social" }, { "opt": "d", "textHtml": "Political" } ] },
+    { "n": 5, "answer": "a", "questionHtml": "Speeding is best described as which combination of offence categories?", "options": [ { "opt": "a", "textHtml": "Summary, strict liability and driving" }, { "opt": "b", "textHtml": "Indictable, driving and offence against the sovereign" }, { "opt": "c", "textHtml": "Summary, strict liability and offence against the sovereign" }, { "opt": "d", "textHtml": "Summary, driving and preliminary crime" } ] },
+    { "n": 6, "answer": "d", "questionHtml": "Which of the following is a role of a Public Defender?", "options": [ { "opt": "a", "textHtml": "To provide general legal advice to the public" }, { "opt": "b", "textHtml": "To prove a defendant's innocence on the balance of probabilities" }, { "opt": "c", "textHtml": "To prove a defendant's innocence beyond reasonable doubt" }, { "opt": "d", "textHtml": "To represent a defendant, while the prosecution carries the burden of proof" } ] },
+    { "n": 7, "answer": "b", "questionHtml": "Harley, who is fifteen years old, is taken to the police station for questioning. Who must be present when police officers interview Harley?", "options": [ { "opt": "a", "textHtml": "A Legal Aid NSW lawyer" }, { "opt": "b", "textHtml": "Harley's parent, guardian, or another responsible adult" }, { "opt": "c", "textHtml": "A responsible adult chosen by the police" }, { "opt": "d", "textHtml": "No one — Harley can be interviewed alone" } ] },
+    { "n": 8, "answer": "d", "questionHtml": "Which of the following is a part of the criminal trial process, not the investigation process?", "options": [ { "opt": "a", "textHtml": "Bail" }, { "opt": "b", "textHtml": "Search and seizure" }, { "opt": "c", "textHtml": "Arrest" }, { "opt": "d", "textHtml": "Charge negotiation" } ] },
+    { "n": 9, "answer": "d", "questionHtml": "Elizabeth stands trial for murder. The jury returns a special verdict of \"act proven but not criminally responsible because of mental health impairment\". What will most likely happen to Elizabeth next?", "options": [ { "opt": "a", "textHtml": "She will be sentenced as normal" }, { "opt": "b", "textHtml": "She will be released into the community immediately" }, { "opt": "c", "textHtml": "She will automatically go to prison for a fixed term" }, { "opt": "d", "textHtml": "She will be assessed by the Mental Health Review Tribunal" } ] },
+    { "n": 10, "answer": "c", "questionHtml": "Jared is found guilty of assaulting Rose, an 86-year-old woman, causing a minor injury. Rose's Victim Impact Statement asks the judge not to punish Jared. Jared has five previous convictions for assault. Which of the following could be a mitigating factor in Jared's sentencing?", "options": [ { "opt": "a", "textHtml": "Rose's age" }, { "opt": "b", "textHtml": "Jared's previous convictions" }, { "opt": "c", "textHtml": "Rose's Victim Impact Statement" }, { "opt": "d", "textHtml": "The nature of the injury" } ] },
+    { "n": 11, "answer": "b", "questionHtml": "Which of the following is a role of the foreperson of a jury in a criminal trial?", "options": [ { "opt": "a", "textHtml": "To deliver the offender's sentence on the jury's behalf" }, { "opt": "b", "textHtml": "To deliver the verdict on the jury's behalf" }, { "opt": "c", "textHtml": "To research the facts of the case on the jury's behalf" }, { "opt": "d", "textHtml": "To ensure the jury reaches a unanimous verdict" } ] },
+    { "n": 12, "answer": "c", "questionHtml": "While driving, Mary is stopped by police for a random breath test. What must Mary do?", "options": [ { "opt": "a", "textHtml": "Answer all police questions about where she is going" }, { "opt": "b", "textHtml": "Get out of the car and greet the police" }, { "opt": "c", "textHtml": "Comply with the test and provide her name if asked" }, { "opt": "d", "textHtml": "Nothing — random breath tests are not lawful" } ] },
+    { "n": 13, "answer": "a", "questionHtml": "In a contested matter heard by the Local Court, who holds the burden of proof?", "options": [ { "opt": "a", "textHtml": "The prosecution" }, { "opt": "b", "textHtml": "The defendant" }, { "opt": "c", "textHtml": "The magistrate" }, { "opt": "d", "textHtml": "The jury" } ] },
+    { "n": 14, "answer": "d", "questionHtml": "Which of the following offences does NOT require mens rea for a conviction?", "options": [ { "opt": "a", "textHtml": "Assaulting a police officer" }, { "opt": "b", "textHtml": "Supplying prohibited drugs" }, { "opt": "c", "textHtml": "Possession of stolen goods" }, { "opt": "d", "textHtml": "Driving an unregistered vehicle" } ] },
+    { "n": 15, "answer": "d", "questionHtml": "Jonny is forced at gunpoint to commit a crime. Which complete defence could Jonny use to justify his actions?", "options": [ { "opt": "a", "textHtml": "Mental illness" }, { "opt": "b", "textHtml": "Automatism" }, { "opt": "c", "textHtml": "Provocation" }, { "opt": "d", "textHtml": "Duress" } ] },
+    { "n": 16, "answer": "d", "questionHtml": "What is the most severe criminal penalty currently able to be imposed in New South Wales?", "options": [ { "opt": "a", "textHtml": "Capital punishment" }, { "opt": "b", "textHtml": "A suspended sentence" }, { "opt": "c", "textHtml": "25 years imprisonment" }, { "opt": "d", "textHtml": "Life imprisonment without parole" } ] },
+    { "n": 17, "answer": "a", "questionHtml": "Under what circumstances is a police search of a motor vehicle generally considered lawful?", "options": [ { "opt": "a", "textHtml": "When police have reasonable grounds for suspicion" }, { "opt": "b", "textHtml": "Only when the driver has a prior criminal record" }, { "opt": "c", "textHtml": "Only when a random breath test is also administered" }, { "opt": "d", "textHtml": "Only when the occupant is already known to police" } ] },
+    { "n": 18, "answer": "a", "questionHtml": "After serving part of a custodial sentence, Chanel is moved to a different prison with fewer restrictions. What does this describe?", "options": [ { "opt": "a", "textHtml": "Security reclassification" }, { "opt": "b", "textHtml": "Parole" }, { "opt": "c", "textHtml": "Continued detention" }, { "opt": "d", "textHtml": "Preventative detention" } ] }
+  ]
+}

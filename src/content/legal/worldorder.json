@@ -1,0 +1,123 @@
+{
+  "id": "worldorder",
+  "meta": {
+    "title": "World Order",
+    "range": "HSC Option · 25% of course time",
+    "boxes": [
+      {
+        "kind": "in",
+        "label": "One of two Options",
+        "bodyHtml": "Students choose two of seven HSC Options. World Order is examined purely through extended-response essays in the real HSC exam — there's no official multiple-choice bank for it, so the quiz/trivia questions here test specific facts confirmed in NESA's syllabus and a real trial-exam marking guideline, not invented content."
+      },
+      {
+        "kind": "out",
+        "label": "Sourced from a real trial paper",
+        "bodyHtml": "Adapted from a real 2025 HSC trial exam marking guideline (Baulkham Hills High School) — including its own worked sample answers and named case studies — cross-checked against the NESA Legal Studies Stage 6 Syllabus."
+      }
+    ]
+  },
+  "summary": {
+    "note": "Covers all three syllabus sub-topics for this Option, in NESA's own order.",
+    "groups": [
+      {
+        "title": "The nature of world order",
+        "points": [
+          "<b>World order</b> refers to the system of international relations, rules and institutions that aim to ensure stability, security and cooperation between nation states, both domestically and internationally.",
+          "World order has developed significantly over time, particularly through the growth of international law and institutions following the two World Wars — most significantly the creation of the <b>United Nations</b> in 1945, established to maintain peace and security and encourage cooperation between states.",
+          "Conflict can be <b>inter-state</b> (between two or more nation states, e.g. Russia's invasion of Ukraine) or <b>intra-state</b> (within a single state, e.g. a civil war), and access to resources (land, water, energy, minerals) is a significant and recurring source of conflict between and within states."
+        ]
+      },
+      {
+        "title": "Responses to world order",
+        "points": [
+          "The <b>United Nations Security Council (UNSC)</b> is the UN's main body responsible for maintaining international peace and security. It has 15 members: the five permanent members (the <b>P5</b> — the US, UK, France, Russia and China) and 10 other members elected for two-year terms. Under <b>Article 27(3)</b> of the UN Charter, any one of the P5 can <b>veto</b> a resolution, meaning the UNSC can only act with the agreement of all five permanent members.",
+          "Legal responses include treaties and international law, courts and tribunals (e.g. the <b>International Court of Justice</b>, which resolves disputes between states, and the <b>International Criminal Court</b>, which prosecutes individuals), UN-authorised sanctions (e.g. UNSC Resolution 2270, which imposed cargo inspections and banking restrictions on North Korea in response to its weapons program) and UN peacekeeping missions — authorised either under <b>Chapter VI</b> of the UN Charter (peaceful settlement of disputes, with the consent of the parties) or the more forceful <b>Chapter VII</b> (authorising the use of force), as seen in missions to East Timor and the Central African Republic.",
+          "Key international instruments for regulating the conduct of hostilities include the <b>Geneva Conventions</b> (1949) and their Additional Protocols (1977 and 2005), which set out the international humanitarian law rules of armed conflict, alongside weapons-control treaties such as the <b>Nuclear Non-Proliferation Treaty</b>, the <b>Treaty on the Prohibition of Nuclear Weapons</b>, the <b>Convention on Cluster Munitions</b>, the <b>Biological Weapons Convention</b> and the <b>Chemical Weapons Convention</b>.",
+          "Non-legal responses include diplomacy and political negotiation between states, the use (or threatened use) of force outside a UN mandate, media coverage that raises international awareness of a conflict, and advocacy by non-government organisations and intergovernmental organisations — none of which carry the same binding legal force as a UN Security Council resolution, but which can still influence state behaviour."
+        ]
+      },
+      {
+        "title": "Contemporary issues concerning world order",
+        "points": [
+          "The <b>principle of 'responsibility to protect' (R2P)</b>, adopted at the 2005 UN World Summit, holds that the international community has a responsibility to intervene when a state manifestly fails to protect its own population, built on three pillars: <b>protecting</b> (a state's own primary responsibility to protect its population), <b>intervening</b> (the international community's responsibility to intervene if a state fails to do so) and <b>rebuilding</b> (assisting recovery after intervention). R2P is not itself binding international law, and has been invoked in practice only rarely — most notably when the UNSC authorised military intervention in <b>Libya</b> in 2011 under Resolution 1973. While this quickly removed the Gaddafi government, the international community largely failed to fulfil the third pillar (rebuilding), and Libya descended into further civil war in 2013 and continued instability contributing to the broader European migration crisis.",
+          "Regional and global situations that continue to threaten peace and security include the <b>Russia-Ukraine conflict</b> (an inter-state war where Russia, as a P5 member, has repeatedly used its Security Council veto to block resolutions condemning its own actions, including blocking a referral of the conflict to the International Criminal Court), the <b>Syrian civil war</b> (where Russia and China have used their vetoes more than a dozen times to block humanitarian and military action, including blocking the referral of former president Bashar al-Assad to the ICC for alleged war crimes), and territorial disputes in the <b>South China Sea</b>, which have largely been addressed through diplomatic negotiation rather than binding legal resolution.",
+          "The success of global cooperation in achieving world order is mixed: UNSC Resolution 2270's sanctions regime against North Korea show that binding, unanimous Security Council action is possible and can meaningfully restrict a state's conduct, but the repeated use of the P5 veto during the Syrian civil war shows that the same institution can also be rendered powerless whenever a permanent member's own interests are at stake.",
+          "Rules regarding the conduct of hostilities, set out in the Geneva Conventions and international humanitarian law more broadly, aim to limit the humanitarian cost of armed conflict (e.g. protecting civilians and prisoners of war) — but their effectiveness depends heavily on voluntary compliance by parties to a conflict, since there is no single global police force able to enforce them directly on a battlefield."
+        ]
+      }
+    ]
+  },
+  "practice": {
+    "notes": [],
+    "sources": [],
+    "groups": [
+      {
+        "bank": null,
+        "number": null,
+        "title": "World Order",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Evaluate",
+            "badge": "25 marks",
+            "questionHtml": "Evaluate the effectiveness of legal and non-legal responses in achieving world order. In your response, refer to at least ONE contemporary issue.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover both legal responses (UN Charter, courts, tribunals, treaties) and non-legal responses (diplomacy, media, NGOs) separately.</li><li>Integrate at least one contemporary issue explicitly.</li><li>Reach a clear, supported judgement on effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Legal and non-legal responses have achieved world order to a mixed extent, heavily shaped by state sovereignty and the interests of powerful states. The United Nations Security Council (UNSC) is the main judicial/political organ tasked with maintaining peace, and can act decisively when its five permanent members agree — as shown by UNSC Resolution 2270, which imposed detailed cargo-inspection and banking sanctions on North Korea, demonstrating the effectiveness of binding legal cooperation when achieved.</p><p>However, the UNSC's veto power under Article 27(3) of the UN Charter allows any one of the five permanent members to block a resolution, regardless of the other 14 members' views. This has severely limited legal responses to the Syrian civil war, where Russia and China have repeatedly vetoed resolutions authorising humanitarian or military action, including blocking a referral of the conflict to the International Criminal Court, showing that the same law that enables cooperation can also entrench inaction whenever it conflicts with a permanent member's own interests.</p><p>Non-legal responses — diplomatic negotiation, media coverage, and advocacy by non-government organisations — have complemented legal responses by raising international awareness and applying political pressure, but cannot compel state compliance the way a binding UNSC resolution can. Overall, legal and non-legal responses have achieved world order effectively in some instances but are ultimately limited by the extent to which powerful states are themselves willing to comply with, or permit, international action.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "25 marks",
+            "questionHtml": "\"Over time, the global community changes, but the law is slow to respond.\" Assess this statement in relation to promoting peace and resolving conflict between nation states.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain 'law lag' directly in relation to world order.</li><li>Balance an example of adaptation with an example of lagging behind.</li><li>Reach an explicit judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>This statement is true to a considerable extent when it comes to world order. The principle of 'responsibility to protect' (R2P), adopted at the 2005 UN World Summit, represented an attempt to modernise the international community's response to states failing to protect their own populations — but R2P is not binding international law, and has been invoked meaningfully only once, in Libya in 2011 under UNSC Resolution 1973. Even then, the international community fulfilled only the 'intervening' pillar of R2P and largely failed the 'rebuilding' pillar, leaving Libya in continued instability. This shows the law adapting in principle faster than institutions can actually implement it in practice.</p><p>The persistent use of the P5 veto power under Article 27(3) of the UN Charter is a clearer example of legal rigidity failing to keep pace with global community expectations: despite the scale of civilian harm in the Syrian civil war, Russia and China's vetoes have repeatedly prevented the UN Security Council from taking binding action, including blocking accountability mechanisms like referral to the International Criminal Court. The composition and veto structure of the Security Council has remained essentially unchanged since 1945, even as the geopolitical balance of power and international expectations around civilian protection have shifted substantially.</p><p>On the other hand, some legal mechanisms have adapted meaningfully: the growth of ad hoc and permanent international tribunals since the 1990s (from the ICTY and ICTR to a permanent International Criminal Court) reflects a real, if slow, institutionalisation of the international community's response to mass atrocities. Overall, while some aspects of international law relating to world order have evolved, its most powerful institution — the Security Council — remains structurally resistant to change, supporting the view that the law is slow to respond to a changing global community.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain the three pillars of the 'responsibility to protect' (R2P) principle and assess how effectively they were applied in Libya in 2011.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name and explain all three pillars.</li><li>Apply them specifically to the 2011 Libyan intervention.</li><li>Reach a judgement on effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>R2P, adopted at the 2005 World Summit, is based on three pillars: protecting (a state's own primary responsibility to protect its population), intervening (the international community's responsibility to intervene if a state manifestly fails to do so) and rebuilding (assisting recovery once intervention has occurred). In 2011, the UN Security Council authorised military intervention in Libya under Resolution 1973, marking the first time R2P's second pillar was used in this way, and a NATO-led force helped depose the Gaddafi government relatively quickly.</p><p>However, the international community did not effectively fulfil the third pillar. Libya descended into a further civil war by 2013 and continued to experience instability that has contributed to broader regional issues, including migration pressures into Europe. This shows R2P's protecting and intervening pillars can be applied relatively effectively when the Security Council agrees to act, but the rebuilding pillar — arguably the hardest to achieve — has, in Libya's case, been largely unfulfilled, limiting the overall effectiveness of R2P as a complete framework for achieving world order.</p></div></div>"
+          }
+        ]
+      }
+    ]
+  },
+  "trivia": [
+    { "n": 1, "questionHtml": "What is world order?", "answerHtml": "The system of international relations, rules and institutions that aim to ensure stability, security and cooperation between nation states." },
+    { "n": 2, "questionHtml": "What's the difference between inter-state and intra-state conflict?", "answerHtml": "Inter-state conflict is between two or more nation states; intra-state conflict is within a single state (e.g. a civil war)." },
+    { "n": 3, "questionHtml": "How many members does the UN Security Council have, and how are they split?", "answerHtml": "15 members — 5 permanent members (the P5) and 10 elected members serving two-year terms." },
+    { "n": 4, "questionHtml": "Who are the five permanent members (P5) of the UN Security Council?", "answerHtml": "The United States, United Kingdom, France, Russia and China." },
+    { "n": 5, "questionHtml": "What power does Article 27(3) of the UN Charter give each P5 member?", "answerHtml": "The power to veto (block) any UN Security Council resolution." },
+    { "n": 6, "questionHtml": "What's the difference between a Chapter VI and a Chapter VII UN peacekeeping mission?", "answerHtml": "Chapter VI missions involve peaceful settlement with the parties' consent; Chapter VII missions can authorise the use of force." },
+    { "n": 7, "questionHtml": "Name two international courts relevant to world order and what each does.", "answerHtml": "The International Court of Justice resolves disputes between states; the International Criminal Court prosecutes individuals for the most serious crimes." },
+    { "n": 8, "questionHtml": "What did UNSC Resolution 2270 do?", "answerHtml": "Imposed cargo-inspection and banking-restriction sanctions on North Korea in response to its weapons program." },
+    { "n": 9, "questionHtml": "What do the Geneva Conventions (1949) regulate?", "answerHtml": "International humanitarian law — the rules for the conduct of armed conflict, including protection of civilians and prisoners of war." },
+    { "n": 10, "questionHtml": "Name two weapons-control treaties relevant to world order.", "answerHtml": "Any two of: the Nuclear Non-Proliferation Treaty, the Treaty on the Prohibition of Nuclear Weapons, the Convention on Cluster Munitions, the Biological Weapons Convention, or the Chemical Weapons Convention." },
+    { "n": 11, "questionHtml": "What are the three pillars of the 'responsibility to protect' (R2P) principle?", "answerHtml": "Protecting, intervening and rebuilding." },
+    { "n": 12, "questionHtml": "When was R2P adopted, and is it binding international law?", "answerHtml": "Adopted at the 2005 UN World Summit — it is not itself binding international law." },
+    { "n": 13, "questionHtml": "When was R2P first used to authorise military intervention, and where?", "answerHtml": "2011, in Libya, under UN Security Council Resolution 1973." },
+    { "n": 14, "questionHtml": "What happened after the 2011 Libyan intervention that shows a limitation of R2P?", "answerHtml": "The international community largely failed R2P's 'rebuilding' pillar — Libya descended into further civil war in 2013 and continued instability." },
+    { "n": 15, "questionHtml": "How has Russia used its Security Council veto in relation to the Syrian civil war?", "answerHtml": "To repeatedly block resolutions authorising humanitarian or military action, including blocking a referral of the conflict to the International Criminal Court." },
+    { "n": 16, "questionHtml": "How has the South China Sea territorial dispute mainly been addressed?", "answerHtml": "Largely through diplomatic negotiation rather than binding legal resolution." },
+    { "n": 17, "questionHtml": "Give an example of a non-legal response to a world order issue.", "answerHtml": "Diplomacy/political negotiation between states, or media coverage/NGO advocacy raising international awareness." },
+    { "n": 18, "questionHtml": "When was the United Nations established, and why?", "answerHtml": "1945, to maintain international peace and security and encourage cooperation between states after the World Wars." }
+  ],
+  "quiz": [
+    { "n": 1, "answer": "c", "questionHtml": "How many permanent members (the P5) sit on the UN Security Council?", "options": [ { "opt": "a", "textHtml": "Three" }, { "opt": "b", "textHtml": "Ten" }, { "opt": "c", "textHtml": "Five" }, { "opt": "d", "textHtml": "Fifteen" } ] },
+    { "n": 2, "answer": "b", "questionHtml": "Which article of the UN Charter gives each P5 member veto power over Security Council resolutions?", "options": [ { "opt": "a", "textHtml": "Article 1" }, { "opt": "b", "textHtml": "Article 27(3)" }, { "opt": "c", "textHtml": "Article 51" }, { "opt": "d", "textHtml": "Article 99" } ] },
+    { "n": 3, "answer": "a", "questionHtml": "Which of the following is an example of an intra-state conflict?", "options": [ { "opt": "a", "textHtml": "A civil war within a single country" }, { "opt": "b", "textHtml": "A war between two neighbouring nation states" }, { "opt": "c", "textHtml": "A trade dispute heard by the World Trade Organization" }, { "opt": "d", "textHtml": "A dispute between two individuals in different countries" } ] },
+    { "n": 4, "answer": "d", "questionHtml": "What did UN Security Council Resolution 2270 impose sanctions in response to?", "options": [ { "opt": "a", "textHtml": "Climate change" }, { "opt": "b", "textHtml": "Human trafficking" }, { "opt": "c", "textHtml": "Piracy in the Gulf of Aden" }, { "opt": "d", "textHtml": "North Korea's weapons program" } ] },
+    { "n": 5, "answer": "b", "questionHtml": "What is the key difference between a Chapter VI and a Chapter VII UN peacekeeping mission?", "options": [ { "opt": "a", "textHtml": "Chapter VI missions are always larger than Chapter VII missions" }, { "opt": "b", "textHtml": "Chapter VI relies on the consent of the parties; Chapter VII can authorise the use of force" }, { "opt": "c", "textHtml": "Chapter VII missions cannot involve any UN member states" }, { "opt": "d", "textHtml": "There is no practical difference between the two" } ] },
+    { "n": 6, "answer": "a", "questionHtml": "The 'responsibility to protect' (R2P) principle is built on which three pillars?", "options": [ { "opt": "a", "textHtml": "Protecting, intervening and rebuilding" }, { "opt": "b", "textHtml": "Negotiating, sanctioning and prosecuting" }, { "opt": "c", "textHtml": "Deterring, punishing and detaining" }, { "opt": "d", "textHtml": "Ratifying, enforcing and reviewing" } ] },
+    { "n": 7, "answer": "c", "questionHtml": "In which country was R2P first invoked to authorise a UN Security Council-approved military intervention?", "options": [ { "opt": "a", "textHtml": "Syria" }, { "opt": "b", "textHtml": "Rwanda" }, { "opt": "c", "textHtml": "Libya" }, { "opt": "d", "textHtml": "Ukraine" } ] },
+    { "n": 8, "answer": "d", "questionHtml": "What is widely seen as the main failure of the 2011 Libyan intervention under R2P?", "options": [ { "opt": "a", "textHtml": "The Security Council refused to authorise any action at all" }, { "opt": "b", "textHtml": "No nation offered any military support" }, { "opt": "c", "textHtml": "The 'protecting' pillar was never attempted" }, { "opt": "d", "textHtml": "The 'rebuilding' pillar was largely unfulfilled, contributing to further civil war" } ] },
+    { "n": 9, "answer": "b", "questionHtml": "Russia and China have used their UN Security Council veto power multiple times in relation to which conflict, including to block a referral to the ICC?", "options": [ { "opt": "a", "textHtml": "The Falklands War" }, { "opt": "b", "textHtml": "The Syrian civil war" }, { "opt": "c", "textHtml": "The Korean War" }, { "opt": "d", "textHtml": "The Gulf War" } ] },
+    { "n": 10, "answer": "a", "questionHtml": "The Geneva Conventions (1949) primarily regulate:", "options": [ { "opt": "a", "textHtml": "The conduct of armed conflict and treatment of civilians/prisoners of war" }, { "opt": "b", "textHtml": "International trade tariffs" }, { "opt": "c", "textHtml": "Extradition between neighbouring states" }, { "opt": "d", "textHtml": "Refugee resettlement quotas" } ] },
+    { "n": 11, "answer": "c", "questionHtml": "Which of the following is a weapons-control treaty relevant to world order?", "options": [ { "opt": "a", "textHtml": "The Paris Agreement" }, { "opt": "b", "textHtml": "The Modern Slavery Act 2018 (Cth)" }, { "opt": "c", "textHtml": "The Nuclear Non-Proliferation Treaty" }, { "opt": "d", "textHtml": "The Racial Discrimination Act 1975 (Cth)" } ] },
+    { "n": 12, "answer": "d", "questionHtml": "The South China Sea territorial disputes have primarily been addressed through:", "options": [ { "opt": "a", "textHtml": "A binding decision of the UN Security Council" }, { "opt": "b", "textHtml": "Direct International Criminal Court prosecutions" }, { "opt": "c", "textHtml": "A Chapter VII peacekeeping mission" }, { "opt": "d", "textHtml": "Diplomatic negotiation between the states involved" } ] },
+    { "n": 13, "answer": "b", "questionHtml": "Which UN body resolves legal disputes between nation states (rather than prosecuting individuals)?", "options": [ { "opt": "a", "textHtml": "The International Criminal Court" }, { "opt": "b", "textHtml": "The International Court of Justice" }, { "opt": "c", "textHtml": "The UN Human Rights Committee" }, { "opt": "d", "textHtml": "Interpol" } ] },
+    { "n": 14, "answer": "a", "questionHtml": "What is a key limitation of non-legal responses (like diplomacy or media pressure) to world order issues?", "options": [ { "opt": "a", "textHtml": "They cannot compel a state's compliance the way a binding UN resolution can" }, { "opt": "b", "textHtml": "They are illegal under international law" }, { "opt": "c", "textHtml": "They have no effect on public opinion" }, { "opt": "d", "textHtml": "They can only be used by permanent members of the Security Council" } ] }
+  ]
+}

@@ -15,6 +15,7 @@ import {
   businessTopics,
   type BusinessResource,
 } from '../lib/content/business'
+import { LEGAL_RESOURCE_LABELS, legalTopics, type LegalResource } from '../lib/content/legal'
 
 type Crumb = { label: string; to?: string }
 
@@ -85,6 +86,21 @@ function crumbsForPath(pathname: string): Crumb[] {
       { label: 'Business Studies', to: '/subjects/business' },
       { label: topic?.short ?? topicId, to: `/subjects/business/${topicId}` },
       { label: BUSINESS_RESOURCE_LABELS[resource ?? 'summary'] },
+    ]
+  }
+
+  if (seg[1] === 'legal') {
+    if (seg.length === 2) {
+      return [{ label: 'All subjects', to: '/' }, { label: 'Legal Studies' }]
+    }
+    const topicId = seg[2]
+    const resource = seg[3] as LegalResource | undefined
+    const topic = legalTopics.find((t) => t.id === topicId)
+    return [
+      { label: 'All subjects', to: '/' },
+      { label: 'Legal Studies', to: '/subjects/legal' },
+      { label: topic?.short ?? topicId, to: `/subjects/legal/${topicId}` },
+      { label: LEGAL_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
 

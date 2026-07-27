@@ -4,6 +4,7 @@ import { modernHistoryTotals, modernHistoryTopics } from '../lib/content/modernH
 import { mathsTotals, mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTotals, hmsTopics } from '../lib/content/hms'
 import { businessTotals, businessTopics } from '../lib/content/business'
+import { legalTotals, legalTopics } from '../lib/content/legal'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, mathsTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
@@ -34,6 +35,13 @@ export function Home() {
     { score: 0, max: 0 },
   )
   const businessOverall = businessTopics.reduce(
+    (acc, topic) => {
+      const stats = historyTopicStats(progress, topic)
+      return { score: acc.score + stats.score, max: acc.max + stats.max }
+    },
+    { score: 0, max: 0 },
+  )
+  const legalOverall = legalTopics.reduce(
     (acc, topic) => {
       const stats = historyTopicStats(progress, topic)
       return { score: acc.score + stats.score, max: acc.max + stats.max }
@@ -255,12 +263,56 @@ export function Home() {
             <div className="subject-arrow">&rarr;</div>
           </div>
 
+          <div
+            className="subject-card"
+            role="button"
+            tabIndex={0}
+            onClick={() => navigate('/subjects/legal')}
+          >
+            <div className="subject-glyph">&#9878;</div>
+            <div className="subject-body">
+              <h3>
+                Legal Studies <span className="live">Ready</span>
+              </h3>
+              <p>
+                HSC Year 12 &middot; NESA Stage 6 &middot; the Crime and Human Rights core plus two
+                Options, built from real trial exam papers and marking guidelines, with syllabus
+                summaries, practice questions, trivia and marked quizzes.
+              </p>
+              <ProgressLine
+                done={legalOverall.score}
+                total={legalOverall.max}
+                text={`${pct(legalOverall.score, legalOverall.max)}% complete`}
+                size="sm"
+              />
+            </div>
+            <div className="subject-stats">
+              <div>
+                <div className="n">{legalTopics.length}</div>
+                <div className="l">Topics</div>
+              </div>
+              <div>
+                <div className="n">{legalTotals.practice}</div>
+                <div className="l">Practice Qs</div>
+              </div>
+              <div>
+                <div className="n">{legalTotals.trivia}</div>
+                <div className="l">Trivia</div>
+              </div>
+              <div>
+                <div className="n">{legalTotals.quiz}</div>
+                <div className="l">Quiz Qs</div>
+              </div>
+            </div>
+            <div className="subject-arrow">&rarr;</div>
+          </div>
+
           <div className="subject-card locked">
             <div className="subject-glyph">&#43;</div>
             <div className="subject-body">
               <h3>More subjects</h3>
               <p>
-                Built to hold the rest of your line-up — English, Economics, Legal Studies. Each new
+                Built to hold the rest of your line-up — English and Economics are next. Each new
                 subject drops in as another row here with its own topics and resources.
               </p>
             </div>

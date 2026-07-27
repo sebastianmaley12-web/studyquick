@@ -3,6 +3,7 @@ import { modernHistoryTopics } from '../lib/content/modernHistory'
 import { mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTopics } from '../lib/content/hms'
 import { businessTopics } from '../lib/content/business'
+import { legalTopics } from '../lib/content/legal'
 import { progressStore, useProgress } from '../lib/progressStore'
 import {
   historyTopicStats,
@@ -85,11 +86,23 @@ export function ProgressDashboard() {
     }
   })
 
+  const legalRows: TopicRow[] = legalTopics.map((t) => {
+    const s = historyTopicStats(progress, t)
+    return {
+      label: t.short,
+      to: `/subjects/legal/${t.id}/quiz`,
+      done: s.score,
+      total: s.max,
+      attempted: s.score > 0,
+    }
+  })
+
   const subjectGroups: SubjectGroup[] = [
     { name: 'Modern History', rows: historyRows },
     { name: 'Maths', rows: mathsRows },
     { name: 'Health & Movement Science', rows: hmsRows },
     { name: 'Business Studies', rows: businessRows },
+    { name: 'Legal Studies', rows: legalRows },
   ]
 
   const weakSpots = subjectGroups
@@ -124,6 +137,13 @@ export function ProgressDashboard() {
       subject: 'Business Studies',
       label: t.short,
       to: `/subjects/business/${t.id}/quiz`,
+      dueKeys: dueQuizKeys(progress, t),
+      kind: 'quiz' as const,
+    })),
+    ...legalTopics.map((t) => ({
+      subject: 'Legal Studies',
+      label: t.short,
+      to: `/subjects/legal/${t.id}/quiz`,
       dueKeys: dueQuizKeys(progress, t),
       kind: 'quiz' as const,
     })),
