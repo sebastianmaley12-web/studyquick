@@ -1,8 +1,10 @@
 import { lazy } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
+import { SubjectGuard } from './components/SubjectGuard'
 
 const Home = lazy(() => import('./pages/Home').then((m) => ({ default: m.Home })))
+const Account = lazy(() => import('./pages/Account').then((m) => ({ default: m.Account })))
 const ProgressDashboard = lazy(() =>
   import('./pages/ProgressDashboard').then((m) => ({ default: m.ProgressDashboard })),
 )
@@ -34,17 +36,88 @@ export const router = createBrowserRouter([
     element: <AppLayout />,
     children: [
       { path: '/', element: <Home /> },
+      { path: '/account', element: <Account /> },
       { path: '/progress', element: <ProgressDashboard /> },
-      { path: '/subjects/modern-history', element: <ModernHistorySubject /> },
-      { path: '/subjects/modern-history/:topicId/:resource', element: <ModernHistoryTopic /> },
-      { path: '/subjects/maths', element: <MathsSubject /> },
-      { path: '/subjects/maths/:slug/:resource', element: <MathsTopic /> },
-      { path: '/subjects/hms', element: <HmsSubject /> },
-      { path: '/subjects/hms/:topicId/:resource', element: <HmsTopic /> },
-      { path: '/subjects/business', element: <BusinessSubject /> },
-      { path: '/subjects/business/:topicId/:resource', element: <BusinessTopic /> },
-      { path: '/subjects/legal', element: <LegalSubject /> },
-      { path: '/subjects/legal/:topicId/:resource', element: <LegalTopic /> },
+      {
+        path: '/subjects/modern-history',
+        element: (
+          <SubjectGuard subjectId="modern-history">
+            <ModernHistorySubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/modern-history/:topicId/:resource',
+        element: (
+          <SubjectGuard subjectId="modern-history">
+            <ModernHistoryTopic />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/maths',
+        element: (
+          <SubjectGuard subjectId="maths">
+            <MathsSubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/maths/:slug/:resource',
+        element: (
+          <SubjectGuard subjectId="maths">
+            <MathsTopic />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/hms',
+        element: (
+          <SubjectGuard subjectId="hms">
+            <HmsSubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/hms/:topicId/:resource',
+        element: (
+          <SubjectGuard subjectId="hms">
+            <HmsTopic />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/business',
+        element: (
+          <SubjectGuard subjectId="business">
+            <BusinessSubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/business/:topicId/:resource',
+        element: (
+          <SubjectGuard subjectId="business">
+            <BusinessTopic />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/legal',
+        element: (
+          <SubjectGuard subjectId="legal">
+            <LegalSubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/legal/:topicId/:resource',
+        element: (
+          <SubjectGuard subjectId="legal">
+            <LegalTopic />
+          </SubjectGuard>
+        ),
+      },
     ],
   },
 ])

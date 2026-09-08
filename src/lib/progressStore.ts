@@ -72,12 +72,11 @@ function emit() {
 }
 
 /**
- * Local-vs-local+sync swap point: once accounts exist, a signed-in user's
- * commits should also push `next` to Supabase's `progress.data` (see
- * src/lib/supabase/schema.sql) in addition to the localStorage write below,
- * merged by last-write-wins per top-level key (quiz/trivia/notes/maths/review).
- * Not implemented — there is no such call today, and `supabase` client from
- * src/lib/supabase/client.ts is unused anywhere in the app.
+ * localStorage is still the only writer in this function — sync to Supabase
+ * is a separate listener, not a branch in here. See progressSync.ts: it
+ * subscribes to this store the same way any component would, and pushes
+ * `state` to `progress.data` on every commit for a signed-in user, merging
+ * remote with local once at sign-in via `progressStore.hydrate()`.
  */
 function commit(next: ProgressState) {
   state = next
@@ -175,6 +174,14 @@ export const progressStore = {
       // ignore — canSave already reflects whether storage works at all
     }
     commit(emptyState())
+  },
+
+  /** Replaces the whole state at once — used by progressSync.ts to apply a
+   * merged local+remote snapshot after sign-in. Goes through the same
+   * commit path as everything else, so it still saves locally and notifies
+   * subscribers (including the sync push listener). */
+  hydrate(next: ProgressState) {
+    commit(next)
   },
 }
 

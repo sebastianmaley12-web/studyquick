@@ -2,6 +2,7 @@ import { render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { AppLayout } from '../layouts/AppLayout'
+import { AuthProvider } from '../context/AuthContext'
 import { ModernHistoryTopic } from '../pages/ModernHistoryTopic'
 import { progressStore } from '../lib/progressStore'
 
@@ -19,6 +20,14 @@ function routerAt(initialPath: string) {
   )
 }
 
+function renderAt(initialPath: string) {
+  return render(
+    <AuthProvider>
+      <RouterProvider router={routerAt(initialPath)} />
+    </AuthProvider>,
+  )
+}
+
 describe('search', () => {
   beforeEach(() => {
     progressStore.resetAll()
@@ -28,7 +37,7 @@ describe('search', () => {
 
   it('highlights a match in the currently active tab without navigating away', async () => {
     const user = userEvent.setup()
-    render(<RouterProvider router={routerAt('/subjects/modern-history/s1/summary')} />)
+    renderAt('/subjects/modern-history/s1/summary')
 
     await user.type(screen.getByPlaceholderText(/Search every topic/), 'Reichstag Fire')
     await waitFor(() => expect(document.querySelectorAll('mark.hit').length).toBeGreaterThan(0))
@@ -38,7 +47,7 @@ describe('search', () => {
 
   it('jumps to a different tab when the query only matches there, and marks the current hit', async () => {
     const user = userEvent.setup()
-    render(<RouterProvider router={routerAt('/subjects/modern-history/s1/summary')} />)
+    renderAt('/subjects/modern-history/s1/summary')
 
     // "the outbreak of the Spanish Civil War" is a quiz-distractor option,
     // not present anywhere in the s1 summary content
@@ -55,7 +64,7 @@ describe('search', () => {
 
   it('clears highlights and the input on Escape', async () => {
     const user = userEvent.setup()
-    render(<RouterProvider router={routerAt('/subjects/modern-history/s1/summary')} />)
+    renderAt('/subjects/modern-history/s1/summary')
     const input = screen.getByPlaceholderText(/Search every topic/)
 
     await user.type(input, 'Reichstag')

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
+import { AuthProvider } from './context/AuthContext'
 import { Home } from './pages/Home'
 import { ModernHistorySubject } from './pages/ModernHistorySubject'
 import { ModernHistoryTopic } from './pages/ModernHistoryTopic'
@@ -23,23 +24,31 @@ function routerAt(initialPath: string) {
   )
 }
 
+function renderAt(initialPath: string) {
+  return render(
+    <AuthProvider>
+      <RouterProvider router={routerAt(initialPath)} />
+    </AuthProvider>,
+  )
+}
+
 describe('routing', () => {
   it('renders the home page with derived subject stats', () => {
-    render(<RouterProvider router={routerAt('/')} />)
+    renderAt('/')
     expect(screen.getByText('Study smarter. Revise quicker.')).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /Modern History/ })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /Mathematics Standard 2/ })).toBeInTheDocument()
   })
 
   it('renders the modern history subject page with all four topics', () => {
-    render(<RouterProvider router={routerAt('/subjects/modern-history')} />)
+    renderAt('/subjects/modern-history')
     expect(screen.getByRole('heading', { name: 'Modern History' })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /Power & Authority/ })).toBeInTheDocument()
     expect(screen.getByRole('heading', { name: /Russia & the USSR/ })).toBeInTheDocument()
   })
 
   it('renders a modern history topic summary with the rail and decoded breadcrumb', () => {
-    render(<RouterProvider router={routerAt('/subjects/modern-history/s1/summary')} />)
+    renderAt('/subjects/modern-history/s1/summary')
     expect(screen.getByRole('heading', { name: /Power and Authority/ })).toBeInTheDocument()
     // the breadcrumb must decode "Power &amp; Authority", not show the raw entity
     expect(screen.queryByText(/&amp;/)).not.toBeInTheDocument()
@@ -47,18 +56,18 @@ describe('routing', () => {
   })
 
   it('renders a maths topic practice panel with working numeric questions', () => {
-    render(<RouterProvider router={routerAt('/subjects/maths/f4/practice')} />)
+    renderAt('/subjects/maths/f4/practice')
     expect(screen.getByRole('heading', { name: 'Investments and Loans' })).toBeInTheDocument()
     expect(screen.getAllByRole('button', { name: 'Check' }).length).toBeGreaterThan(0)
   })
 
   it('renders a maths topic facts panel with decoded formulae', () => {
-    render(<RouterProvider router={routerAt('/subjects/maths/f4/facts')} />)
+    renderAt('/subjects/maths/f4/facts')
     expect(screen.getByText('Key facts & formulae')).toBeInTheDocument()
   })
 
   it('redirects an invalid topic id to s1', () => {
-    render(<RouterProvider router={routerAt('/subjects/modern-history/bogus/summary')} />)
+    renderAt('/subjects/modern-history/bogus/summary')
     expect(screen.getByRole('heading', { name: /Power and Authority/ })).toBeInTheDocument()
   })
 })

@@ -36,18 +36,18 @@ export function HmsSubject() {
         </div>
         <h1>Health and Movement Science</h1>
         <div className="subject-kicker">
-          Trial Examination — Full Focus Area Question Bank
+          HSC Exam Practice — Full Focus Area Question Bank
           <span>Both Year 12 Focus Areas</span>
         </div>
         <p className="lede">
-          Two focus areas, each examined together across a 100-mark trial: multiple choice,
+          Two focus areas, each examined together across the 100-mark HSC exam: multiple choice,
           short answer, and one 12-mark extended response per focus area.
         </p>
         <p className="lede">
-          Mirrors Task 4: Focus Area 1 (Health in an Australian and global context) and Focus
-          Area 2 (Training for improved performance), built from the assessment notification, the
-          current NESA Health and Movement Science Stage 6 Syllabus (2023), and real past-trial
-          questions with verified sample answers.
+          Covers Focus Area 1 (Health in an Australian and global context) and Focus Area 2
+          (Training for improved performance) in full, built from the current NESA Health and
+          Movement Science Stage 6 Syllabus (2023), with real HSC-style questions and verified
+          sample answers.
         </p>
         <div className="stat-strip">
           <div>
@@ -83,7 +83,7 @@ export function HmsSubject() {
         <div className="res-card">
           <div className="ic">&#9998;</div>
           <h4>Practice Questions</h4>
-          <p>Real past-trial short-answer questions with marking criteria and a full model answer under each.</p>
+          <p>Real HSC-style short-answer questions with marking criteria and a full model answer under each.</p>
           <div className="count">{hmsTotals.practice} questions</div>
         </div>
         <div className="res-card">
@@ -95,7 +95,7 @@ export function HmsSubject() {
         <div className="res-card">
           <div className="ic">&#9673;</div>
           <h4>Multiple Choice Quiz</h4>
-          <p>Real past-trial multiple choice questions, marked instantly with a running score.</p>
+          <p>Real HSC-style multiple choice questions, marked instantly with a running score.</p>
           <div className="count">{hmsTotals.quiz} questions</div>
         </div>
       </div>

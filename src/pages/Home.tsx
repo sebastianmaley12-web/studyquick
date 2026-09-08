@@ -8,10 +8,23 @@ import { legalTotals, legalTopics } from '../lib/content/legal'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, mathsTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
+import { useAuth } from '../context/AuthContext'
+import { useEntitlement, FREE_SUBJECT_ID, SUBJECT_NAMES } from '../lib/entitlement'
+import { SUBSCRIPTION_PRICE_LABEL } from '../lib/pricing'
+
+function SubjectBadge({ subjectId }: { subjectId: string }) {
+  const { isConfigured, isSubjectUnlocked, loading } = useEntitlement()
+  if (!isConfigured || loading) return <span className="live">Ready</span>
+  if (isSubjectUnlocked(subjectId)) {
+    return <span className="live">{subjectId === FREE_SUBJECT_ID ? 'Free' : 'Unlocked'}</span>
+  }
+  return <span className="live locked-badge">Subscribe to unlock</span>
+}
 
 export function Home() {
   const navigate = useNavigate()
   const progress = useProgress()
+  const { isConfigured, user } = useAuth()
 
   const historyOverall = modernHistoryTopics.reduce(
     (acc, topic) => {
@@ -56,7 +69,10 @@ export function Home() {
           <SqLogo size="lg" tagline />
           <p className="hero-sub">
             Everything for the exam in one place — syllabus summaries, practice questions with
-            answer plans, quick-fire trivia and marked quizzes. No log-in, no clutter, no lost tabs.
+            answer plans, quick-fire trivia and marked quizzes.{' '}
+            {isConfigured
+              ? `${SUBJECT_NAMES[FREE_SUBJECT_ID]} is free forever — try every other subject free for 7 days, then ${SUBSCRIPTION_PRICE_LABEL} for full access.`
+              : 'No clutter, no lost tabs.'}
           </p>
           <div className="hero-stats">
             <span>
@@ -75,13 +91,20 @@ export function Home() {
               <b>{modernHistoryTotals.summaryPoints}</b> syllabus dot points
             </span>
           </div>
-          <button
-            className="cta"
-            type="button"
-            onClick={() => navigate('/subjects/modern-history')}
-          >
-            Start revising <span className="arw">&rarr;</span>
-          </button>
+          <div className="hero-ctas">
+            <button
+              className="cta"
+              type="button"
+              onClick={() => navigate('/subjects/modern-history')}
+            >
+              Start revising <span className="arw">&rarr;</span>
+            </button>
+            {isConfigured && !user && (
+              <button className="cta-secondary" type="button" onClick={() => navigate('/account')}>
+                Start free trial
+              </button>
+            )}
+          </div>
         </div>
 
         <div className="section-label">Subjects</div>
@@ -99,7 +122,7 @@ export function Home() {
             </div>
             <div className="subject-body">
               <h3>
-                Modern History <span className="live">Ready</span>
+                Modern History <SubjectBadge subjectId="modern-history" />
               </h3>
               <p>
                 HSC Year 12 &middot; NESA Stage 6 &middot; four core topics with syllabus summaries,
@@ -142,7 +165,7 @@ export function Home() {
             <div className="subject-glyph">&#8747;</div>
             <div className="subject-body">
               <h3>
-                Mathematics Standard 2 <span className="live">Ready</span>
+                Mathematics Standard 2 <SubjectBadge subjectId="maths" />
               </h3>
               <p>
                 HSC Year 12 &middot; NESA Stage 6 &middot; all {mathsTotals.topics} syllabus topics
@@ -186,11 +209,11 @@ export function Home() {
             <div className="subject-glyph">&#9877;</div>
             <div className="subject-body">
               <h3>
-                Health &amp; Movement Science <span className="live">Ready</span>
+                Health &amp; Movement Science <SubjectBadge subjectId="hms" />
               </h3>
               <p>
                 HSC Year 12 &middot; NESA Stage 6 &middot; both focus areas with syllabus summaries,
-                real past-trial practice questions with model answers, trivia and marked quizzes.
+                real HSC-style practice questions with model answers, trivia and marked quizzes.
               </p>
               <ProgressLine
                 done={hmsOverall.score}
@@ -229,7 +252,7 @@ export function Home() {
             <div className="subject-glyph">&#128188;</div>
             <div className="subject-body">
               <h3>
-                Business Studies <span className="live">Ready</span>
+                Business Studies <SubjectBadge subjectId="business" />
               </h3>
               <p>
                 HSC Year 12 &middot; NESA Stage 6 &middot; all four topics with syllabus summaries,
@@ -272,12 +295,12 @@ export function Home() {
             <div className="subject-glyph">&#9878;</div>
             <div className="subject-body">
               <h3>
-                Legal Studies <span className="live">Ready</span>
+                Legal Studies <SubjectBadge subjectId="legal" />
               </h3>
               <p>
                 HSC Year 12 &middot; NESA Stage 6 &middot; the Crime and Human Rights core plus two
-                Options, built from real trial exam papers and marking guidelines, with syllabus
-                summaries, practice questions, trivia and marked quizzes.
+                Options, built from the NESA syllabus and modelled on real HSC exam questions, with
+                syllabus summaries, practice questions, trivia and marked quizzes.
               </p>
               <ProgressLine
                 done={legalOverall.score}
@@ -356,8 +379,8 @@ export function Home() {
         <div className="brand-strip">
           <SqLogo size="md" />
           <p>
-            Built from the Task 4 assessment notification and the NESA Modern History Stage 6
-            Syllabus (2017), with historian quotes checked against their published source.
+            Built from the NESA Modern History Stage 6 Syllabus (2017), with historian quotes
+            checked against their published source.
           </p>
         </div>
       </div>

@@ -28,9 +28,9 @@ const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; fo
     format: 'Applied & case-study based',
   },
   hr: {
-    yr: 'HSC Topic — restricted trial scope',
+    yr: 'HSC Topic',
     blurb:
-      'This trial only examines the role of human resource management and key influences (stakeholders, legal, economic, technological, social, ethics) — not the full HR topic.',
+      'The role of human resource management and key influences (stakeholders, legal, economic, technological, social, ethics), processes and strategies in HRM, workplace disputes, and the effectiveness of HRM.',
     tags: ['syllabus dot points', 'practice questions', 'trivia cards', 'quiz questions'],
     format: 'Applied & case-study based',
   },
@@ -50,17 +50,17 @@ export function BusinessSubject() {
         </div>
         <h1>Business Studies</h1>
         <div className="subject-kicker">
-          Trial Examination — Full Topic Question Bank
+          HSC Exam Practice — Full Topic Question Bank
           <span>All Four HSC Topics</span>
         </div>
         <p className="lede">
-          Four topics examined together across a 100-mark trial: multiple choice, short
+          Four topics examined together across the 100-mark HSC exam: multiple choice, short
           answer, a business-report extended response, and a choice of case-study extended
           responses.
         </p>
         <p className="lede">
-          Mirrors Task 4: Operations, Marketing, Finance and Human Resources, built from the
-          assessment notification and the NESA Business Studies Stage 6 Syllabus.
+          Covers Operations, Marketing, Finance and Human Resources in full, built from the NESA
+          Business Studies Stage 6 Syllabus.
         </p>
         <div className="stat-strip">
           <div>

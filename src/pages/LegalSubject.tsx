@@ -50,7 +50,7 @@ export function LegalSubject() {
         </div>
         <h1>Legal Studies</h1>
         <div className="subject-kicker">
-          Trial Examination — Full Topic Question Bank
+          HSC Exam Practice — Full Topic Question Bank
           <span>Core + Two Options</span>
         </div>
         <p className="lede">
@@ -59,8 +59,8 @@ export function LegalSubject() {
           response.
         </p>
         <p className="lede">
-          Built from the NESA Legal Studies Stage 6 Syllabus and real 2024/2025 HSC trial exam
-          papers and marking guidelines — every case, piece of legislation and treaty cited here
+          Built from the NESA Legal Studies Stage 6 Syllabus and modelled on real HSC exam
+          questions and marking criteria — every case, piece of legislation and treaty cited here
           traces back to a real source, not a guess.
         </p>
         <div className="stat-strip">

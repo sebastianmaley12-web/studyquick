@@ -50,7 +50,7 @@ export function ModernHistorySubject() {
         </div>
         <h1>Modern History</h1>
         <div className="subject-kicker">
-          Trial Examination — Full Syllabus Question Bank
+          HSC Exam Practice — Full Syllabus Question Bank
           <span>Full Syllabus Practice File</span>
         </div>
         <p className="lede">
@@ -59,11 +59,11 @@ export function ModernHistorySubject() {
           study of conflict in Europe, and a study of change through apartheid in South Africa.
         </p>
         <p className="lede">
-          Mirrors Task 4: four 45-minute sections, 25 marks each. Every syllabus dot point for all
-          four topics — Power &amp; Authority, Russia &amp; the Soviet Union, Conflict in Europe,
-          and Apartheid in South Africa — is represented by at least one practice question, built
-          from the Assessment Notification and the current NESA Modern History Stage 6 Syllabus
-          (2017).
+          Structured as four 45-minute sections, 25 marks each — matching the real HSC paper.
+          Every syllabus dot point for all four topics — Power &amp; Authority, Russia &amp; the
+          Soviet Union, Conflict in Europe, and Apartheid in South Africa — is represented by at
+          least one practice question, built from the current NESA Modern History Stage 6
+          Syllabus (2017).
         </p>
         <div className="stat-strip">
           <div>
@@ -168,9 +168,9 @@ export function ModernHistorySubject() {
             have one memorised for that topic.
           </div>
           <div className="note-box rust">
-            <b>A note on sourcing:</b> this file was built from the assessment notification, the
-            current NESA syllabus structure, real past HSC question styles (NESA sample and past
-            papers), and verified historian quotes checked against their published source. It was{' '}
+            <b>A note on sourcing:</b> this file was built from the current NESA syllabus
+            structure, real past HSC question styles (NESA sample and past papers), and verified
+            historian quotes checked against their published source. It was{' '}
             <em>not</em> built from your class's own course-note booklets — draw on those directly
             for any dates, statistics or source extracts your teacher has specifically emphasised,
             since a teacher's own notes should always take precedence over a general file like this
