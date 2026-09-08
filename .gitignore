@@ -33,3 +33,9 @@ dist-ssr
 /playwright/.cache/
 /playwright/.auth/
 .vercel
+
+# Raw source material (personal study docs / other schools' papers) — never ship these
+business content/
+hms content /
+legal content/
+Additional content/

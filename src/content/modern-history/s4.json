@@ -17,7 +17,7 @@
     ]
   },
   "summary": {
-    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them. Dot points marked with a red ✕ are on the syllabus but explicitly excluded from Task 4 by your assessment notification — including the entire \"Repression and control\" and \"End of apartheid\" groups. They're included here only so this is a complete syllabus reference; you do not need to prepare them for this trial.",
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them.",
     "groups": [
       {
         "title": "Survey — The Nature of the Apartheid System",
@@ -34,7 +34,7 @@
           "<b>Significance of the Sharpeville Massacre:</b> on 21 March 1960, police killed at least 69 and wounded around 186 protesters at a PAC-organised anti-pass demonstration, leading to a State of Emergency and the banning of the ANC and PAC.",
           "<b>Mandela as head of Umkhonto we Sizwe (\"The Spear of the Nation\", MK):</b> after the 1960 bannings, Mandela helped establish the ANC's armed wing in 1961, coordinating sabotage attacks on infrastructure before his arrest in 1962.",
           "<b>Rivonia Trial, imprisonment on Robben Island, the Free Mandela campaign:</b> senior MK leaders were arrested in 1963; Mandela was sentenced to life imprisonment in 1964 and held on Robben Island, becoming an international symbol of resistance.",
-          "Role of Mandela's leadership of the ANC.<span class=\"excl-tag\">Not examinable — Task 4</span>",
+          "<b>Role of Mandela's leadership of the ANC:</b> as leader of the ANC Youth League from the late 1940s, Mandela helped push the ANC toward mass action; his legal career as part of South Africa's first Black law firm gave him a close view of apartheid's daily impact and shaped his turn toward MK's sabotage campaign in 1961. Imprisoned from 1962, he became the living symbol of the \"Free Mandela\" campaign — his refusal of a conditional release in the 1980s (\"only free men can negotiate... your freedom and mine cannot be separated\") kept his moral authority intact. After his 1990 release he proved a skilled negotiator, signing the Groote Schuur Minute (May 1990) and National Peace Accord (Sept 1990) with the National Party and Inkatha, publicly renouncing violence, and steering the ANC through the CODESA talks toward the 1994 election — historians credit his leadership as decisive in preventing the transition from collapsing into civil war.",
           "<b>Significance of Steve Biko and the Black Consciousness Movement:</b> SASO founded by Biko and others (1968–69), the Black People's Convention formed 1972; Biko died in police detention on 12 September 1977."
         ]
       },
@@ -51,18 +51,21 @@
       {
         "title": "Repression and Control by South African Governments",
         "points": [
-          "The nature, impact and significance of tactics of repression and oppression.<span class=\"excl-tag\">Not examinable — Task 4</span>",
-          "Role of South African security forces.<span class=\"excl-tag\">Not examinable — Task 4</span>",
-          "Role and significance of Bantustans and independent black states.<span class=\"excl-tag\">Not examinable — Task 4</span>",
-          "Relations with neighbouring African countries.<span class=\"excl-tag\">Not examinable — Task 4</span>",
-          "International responses to South African policies.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+          "<b>Legal tactics of repression:</b> the Suppression of Communism Act (1950) defined \"communism\" broadly enough to ban almost any resistance or criticism of the government; the Public Safety Act (1953) let the government declare a renewable 12-month State of Emergency; the General Law Amendment Act (1963) let police detain suspects for 90 days without charge or legal access, extendable indefinitely at the Minister of Justice's discretion, with the courts unable to intervene; the Terrorism Act (1967) allowed the death penalty for a broad range of offences.",
+          "<b>\"Total Strategy\" under Botha:</b> facing slowing growth and rising unrest in the 1970s, P.W. Botha framed resistance as a \"total onslaught\" requiring a \"Total National Strategy\" combining limited social reforms (easing pass laws, recognising Black trade unions, repealing the Mixed Marriages Act) with the 1983 Tricameral Parliament (separate white, Coloured and Indian chambers that still excluded Black South Africans entirely) and greatly expanded military and police powers.",
+          "<b>Role of South African security forces:</b> the merged police and South African Defence Force (SADF), alongside secret bodies like the Bureau of State Security (BOSS), used mass detention without charge (around 30,000 people detained by 1988), police brutality and deaths in custody (including Steve Biko's 1977 death), and covert units such as Koevoet and \"kitskonstable\" vigilantes accused of torture and extrajudicial killing; the SADF also carried out over 40 assassinations and cross-border raids into neighbouring states. Military spending rose from R72 million (1961) to R3 billion (1981), and sequential States of Emergency from 1985 gave the security apparatus sweeping, largely unaccountable power.",
+          "<b>Role and significance of Bantustans and independent \"black states\":</b> ten ethnically defined \"homelands\" (Transkei, Bophuthatswana, Venda, Ciskei and six others) confined Black South Africans to about 13% of the land; the 1970 Black Homelands Citizenship Act stripped Black South Africans of South African citizenship, reassigning it to a Bantustan regardless of where they actually lived or worked. From 1976 four Bantustans (Transkei, Bophuthatswana, Venda, Ciskei) were granted nominal \"independence\", but none were recognised by any country besides South Africa itself, none were economically self-sufficient, and their appointed chiefs were widely seen as apartheid's proxies — the policy's deeper aim was to fragment Black South Africans into separate ethnic \"nations\" and so undercut a unified national resistance movement.",
+          "<b>Relations with neighbouring African countries:</b> as Portugal's African colonies (Angola, Mozambique) and British-ruled territories in the region won independence through the 1960s–70s, South Africa saw a hostile, decolonising \"frontline\" forming around it, providing bases for exiled ANC/MK fighters. Under Botha's \"Policy of Forward Defence\", the SADF conducted cross-border raids and backed anti-communist insurgencies — supporting UNITA against the Marxist MPLA government in Angola, and RENAMO against FRELIMO in Mozambique (despite signing the 1984 Nkomati Accord promising to stop, which South Africa did not honour) — while also fighting a long, costly war to retain control of South West Africa (Namibia) against SWAPO insurgents until finally conceding Namibian independence in 1990.",
+          "<b>International responses to South African policies:</b> the UN General Assembly condemned apartheid from the 1950s and formally called for its end after Sharpeville (1960), later imposing a voluntary (1963) then mandatory (1977) arms embargo; South Africa was suspended from the UN in 1974. The Commonwealth (Gleneagles Agreement, 1977) and sporting bodies excluded South African teams from the Olympics (1964), FIFA (1963) and international cricket and rugby for most of the period, while the Anti-Apartheid Movement organised sustained public campaigns — including a 1988 Wembley concert marking Mandela's 70th birthday, watched by an estimated 600 million people worldwide. The UK and US under Thatcher and Reagan initially resisted mandatory sanctions on Cold War and free-market grounds, but grassroots consumer boycotts and disinvestment campaigns still drove US firms and international banks to withdraw heavily from South Africa through the 1980s."
         ]
       },
       {
         "title": "End of Apartheid",
         "points": [
-          "Political, economic and social factors contributing to the end of apartheid.<span class=\"excl-tag\">Not examinable — Task 4</span>",
-          "International factors contributing to the end of apartheid.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+          "<b>Political factors:</b> the 1983 Tricameral Parliament, which still excluded Black South Africans entirely, triggered mass mobilisation through bodies like the United Democratic Front (est. 1983, over 1,000 affiliated organisations) and the trade union federation COSATU (est. 1985, 500,000+ members), whose strikes and boycotts pursued the ANC's aim to \"make apartheid unworkable, make the country ungovernable\"; sustained township unrest and Botha's escalating States of Emergency (from 1985) fed a cycle of violence and repression that convinced even factions within the ruling National Party — which itself splintered between hardline (Conservative Party, AWB) and reformist wings — that the status quo was unsustainable.",
+          "<b>Economic factors:</b> historians widely regard the economic collapse as the most decisive cause — mounting international sanctions and disinvestment (roughly 40% of US investment withdrawn within four years of 1986 US sanctions), a 50% fall in gold prices, a 1985 debt crisis that forced the temporary closure of the Johannesburg Stock Exchange, and spiralling military spending together pushed economic growth to around 1.5% by early 1989, directly eroding white South Africans' economic confidence in apartheid's viability.",
+          "<b>Social factors:</b> deepening Black poverty, worsened by the loss of South African citizenship under the 1970 Black Homelands Citizenship Act, fed growing unrest, youth radicalisation (\"Liberation before Education\") and alternative community structures (people's courts, street committees); violence increasingly turned inward too, including the punishment tactic of \"necklacing\" against suspected collaborators and escalating clashes between the ANC and the Zulu-based Inkatha Freedom Party.",
+          "<b>International factors:</b> sustained global sanctions, sporting and cultural boycotts, and diplomatic isolation (detailed under International Responses above) combined with the economic factors to leave South Africa financially isolated by the late 1980s; the end of the Cold War and the collapse of Soviet-backed communism by 1989 also removed the National Party's central ideological justification for resisting Black majority rule — de Klerk himself no longer saw the ANC's historic ties to the SACP as a serious external threat, clearing the way for his 2 February 1990 speech unbanning the ANC, PAC and SACP and releasing political prisoners including Mandela."
         ]
       }
     ]
@@ -235,6 +238,37 @@
             "badge": "6 marks",
             "questionHtml": "Assess the extent to which internal resistance to apartheid between 1960 and 1976 was shaped more by underground organisation than by mass public protest.",
             "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>After the 1960 bannings, the ANC and PAC operated mainly underground and in exile — Umkhonto we Sizwe's sabotage campaign (from <span class=\"stat\">1961</span>) and the Rivonia Trial (<span class=\"stat\">1963–64</span>) reflect this clandestine phase.</li>\n            <li>By contrast, the Black Consciousness Movement from <span class=\"stat\">1968–69</span> rebuilt a form of open, public organisation (SASO, BPC) that operated legally until banned in 1977.</li>\n            <li>Judgement: the period splits roughly in two — underground/exile organisation dominated the early-to-mid 1960s, while open (if closely watched) public organisation returned with Black Consciousness from the end of the decade, feeding into the mass protest of 1976.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "07",
+        "title": "Repression, Bantustans & the End of Apartheid",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain how the South African government used legal and security measures to repress opposition in the 1980s.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li><b>Legal basis:</b> the General Law Amendment Act (1963) allowed 90-day detention without charge, later extended indefinitely at the Minister of Justice's discretion with no judicial review.</li>\n            <li><b>\"Total Strategy\":</b> Botha framed resistance as a \"total onslaught\", justifying military-style rule — sequential States of Emergency from <span class=\"stat\">1985</span> gave security forces sweeping detention and censorship powers.</li>\n            <li><b>Security forces:</b> the merged police/SADF and covert units such as Koevoet used mass detention (around <span class=\"stat\">30,000</span> by 1988), torture and deaths in custody, including Steve Biko's in 1977.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "8 marks",
+            "questionHtml": "Assess the significance of the Bantustan policy as a method of controlling Black South Africans.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Thesis</span>\n            <p class=\"para-text thesis\">The Bantustan policy was significant less as a genuine attempt at self-government than as a tool for fragmenting Black political identity and formally stripping Black South Africans of citizenship — its practical failure as an economic or diplomatic project does not diminish how effectively it served this narrower political goal.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 1 — legal mechanism</span>\n            <p class=\"para-text\">The 1970 Black Homelands Citizenship Act reassigned Black South Africans' citizenship to a Bantustan regardless of where they actually lived, formally excising millions of people from any political claim on South Africa itself.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 2 — fragmentation strategy</span>\n            <p class=\"para-text\">Dividing Black South Africans along ten ethnic lines was intended to encourage separate ethnic identities over a unified Black political consciousness, directly undercutting movements like the ANC that organised across ethnic lines.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 3 — practical failure</span>\n            <p class=\"para-text\">The four Bantustans granted \"independence\" from 1976 were recognised by no country besides South Africa, held about 13% of the land for a much larger share of the population, and remained economically dependent on South Africa — undermining the claim they represented genuine self-determination.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Judgement</span>\n            <p class=\"para-text\">Judged as nation-building, the policy failed completely; judged as a tool of political control and citizenship removal, it succeeded exactly as intended — which is the more accurate way to assess its significance.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain the significance of economic factors in bringing about the end of apartheid.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>International sanctions and disinvestment reduced US investment in South Africa by around <span class=\"stat\">40%</span> within four years of the 1986 US sanctions law.</li>\n            <li>A 1985 debt crisis forced the temporary closure of the Johannesburg Stock Exchange and a 35% depreciation of the Rand.</li>\n            <li>Combined with heavy military spending on \"Total Strategy\", economic growth fell to around <span class=\"stat\">1.5%</span> by early 1989 — eroding white South Africans' confidence that apartheid could still protect their interests.</li>\n          </ul>\n          </div>\n        </div>"
           }
         ]
       }
@@ -440,6 +474,66 @@
       "n": 40,
       "questionHtml": "Roughly how many residents were removed from Sophiatown to Soweto from 1955?",
       "answerHtml": "Around 60,000"
+    },
+    {
+      "n": 41,
+      "questionHtml": "What was P.W. Botha's framing for his combined military, social and constitutional response to unrest?",
+      "answerHtml": "\"Total Strategy\", against a claimed \"total onslaught\""
+    },
+    {
+      "n": 42,
+      "questionHtml": "How many Black South Africans were detained without charge by 1988?",
+      "answerHtml": "Around 30,000"
+    },
+    {
+      "n": 43,
+      "questionHtml": "What did the 1970 Black Homelands Citizenship Act do?",
+      "answerHtml": "Stripped Black South Africans of South African citizenship, reassigning it to a Bantustan"
+    },
+    {
+      "n": 44,
+      "questionHtml": "Which four Bantustans were granted (unrecognised) \"independence\" from 1976?",
+      "answerHtml": "Transkei, Bophuthatswana, Venda and Ciskei"
+    },
+    {
+      "n": 45,
+      "questionHtml": "What accord did South Africa sign with Mozambique in 1984, then breach?",
+      "answerHtml": "The Nkomati Accord"
+    },
+    {
+      "n": 46,
+      "questionHtml": "When was South Africa suspended from the United Nations?",
+      "answerHtml": "1974"
+    },
+    {
+      "n": 47,
+      "questionHtml": "What 1977 Commonwealth agreement banned sporting contact with South Africa?",
+      "answerHtml": "The Gleneagles Agreement"
+    },
+    {
+      "n": 48,
+      "questionHtml": "What organisation, established 1983, united over 1,000 anti-apartheid groups?",
+      "answerHtml": "The United Democratic Front (UDF)"
+    },
+    {
+      "n": 49,
+      "questionHtml": "What township violence tactic involved a burning tyre placed around a victim's neck?",
+      "answerHtml": "\"Necklacing\""
+    },
+    {
+      "n": 50,
+      "questionHtml": "What global event in 1989 removed a key ideological justification for apartheid's anti-communist stance?",
+      "answerHtml": "The end of the Cold War / collapse of Soviet-backed communism"
+    },
+    {
+      "n": 51,
+      "questionHtml": "What agreement did Mandela and de Klerk sign in May 1990, committing to peaceful negotiation?",
+      "answerHtml": "The Groote Schuur Minute"
+    },
+    {
+      "n": 52,
+      "questionHtml": "What negotiating forum, launched in 1991, brought the National Party and ANC together on a new constitution?",
+      "answerHtml": "CODESA (Convention for a Democratic South Africa)"
     }
   ],
   "quiz": [
@@ -929,23 +1023,23 @@
     {
       "n": 22,
       "answer": "b",
-      "questionHtml": "Which of the following was explicitly excluded from examinable content in this trial's notification?",
+      "questionHtml": "What role did Mandela's negotiating skill play after his 1990 release?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "The Sharpeville Massacre"
+          "textHtml": "He refused all contact with the National Party"
         },
         {
           "opt": "b",
-          "textHtml": "Mandela's role as head of the ANC"
+          "textHtml": "He immediately called for renewed armed struggle"
         },
         {
           "opt": "c",
-          "textHtml": "The Black Consciousness Movement"
+          "textHtml": "He signed peace agreements with the NP and Inkatha and helped steer talks toward the 1994 election"
         },
         {
           "opt": "d",
-          "textHtml": "The Soweto Uprising"
+          "textHtml": "He resigned from ANC leadership in favour of Oliver Tambo"
         }
       ]
     },
@@ -1136,23 +1230,23 @@
     {
       "n": 31,
       "answer": "c",
-      "questionHtml": "Why is the “end of apartheid” topic excluded from this trial's notification?",
+      "questionHtml": "Which of the following was a direct trigger for South Africa's 1980s financial crisis?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "Because the event itself never occurred"
+          "textHtml": "A sudden fall in the price of gold, combined with international disinvestment"
         },
         {
           "opt": "b",
-          "textHtml": "It is not part of the NESA syllabus at all"
+          "textHtml": "A sharp increase in foreign aid to the National Party government"
         },
         {
           "opt": "c",
-          "textHtml": "It falls outside this trial's set assessment content"
+          "textHtml": "The discovery of new diamond reserves"
         },
         {
           "opt": "d",
-          "textHtml": "Because it was instead covered under Section III"
+          "textHtml": "South Africa's admission to the European Common Market"
         }
       ]
     },
@@ -1177,6 +1271,39 @@
           "opt": "d",
           "textHtml": "It evolved from banned groups to mass UDF-led resistance"
         }
+      ]
+    },
+    {
+      "n": 33,
+      "answer": "c",
+      "questionHtml": "What was the primary purpose of the Bantustan (\"homeland\") policy?",
+      "options": [
+        { "opt": "a", "textHtml": "To give Black South Africans full political independence" },
+        { "opt": "b", "textHtml": "To increase Black South Africans' share of national income" },
+        { "opt": "c", "textHtml": "To fragment Black South Africans into separate ethnic \"nations\" and undercut unified resistance" },
+        { "opt": "d", "textHtml": "To relocate the white population outside major cities" }
+      ]
+    },
+    {
+      "n": 34,
+      "answer": "b",
+      "questionHtml": "Which factor do most historians regard as the most decisive in ending apartheid?",
+      "options": [
+        { "opt": "a", "textHtml": "A sudden change in Afrikaner religious belief" },
+        { "opt": "b", "textHtml": "Economic collapse driven by sanctions, disinvestment and military spending" },
+        { "opt": "c", "textHtml": "A unilateral decision by the United Nations Security Council" },
+        { "opt": "d", "textHtml": "The outbreak of full-scale civil war" }
+      ]
+    },
+    {
+      "n": 35,
+      "answer": "a",
+      "questionHtml": "What did de Klerk's speech of 2 February 1990 announce?",
+      "options": [
+        { "opt": "a", "textHtml": "Unbanning the ANC, PAC and SACP, and the release of political prisoners" },
+        { "opt": "b", "textHtml": "South Africa's withdrawal from the United Nations" },
+        { "opt": "c", "textHtml": "The introduction of the Tricameral Parliament" },
+        { "opt": "d", "textHtml": "A permanent State of Emergency across all provinces" }
       ]
     }
   ]

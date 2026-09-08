@@ -17,7 +17,7 @@
     ]
   },
   "summary": {
-    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them. Two dot points — marked with a red ✕ — are on the syllabus but explicitly excluded from Task 4 by your assessment notification. They're included here only so this is a complete syllabus reference; you do not need to prepare them for this trial.",
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them.",
     "groups": [
       {
         "title": "Survey — Growth of European Tensions",
@@ -47,7 +47,11 @@
         "title": "Focus of Study — Civilians at War",
         "points": [
           "<b>Social and economic effects of the war on civilians in Britain, Germany and the Soviet Union:</b> rationing, labour conscription, industrial relocation (USSR moved factories east of the Urals from 1941), and civilian endurance under bombing/siege (e.g. the Siege of Leningrad, 872 days, 1941–44).",
-          "The nature and effects of the Holocaust in the Nazi-occupied territories.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+          "<b>Origins and radicalisation:</b> Nazi antisemitism drew on pre-existing European prejudice but radicalised it through Social Darwinist racial theory; persecution escalated in three stages — legal exclusion (the Nuremberg Laws, 1935; escalating property and movement restrictions through 1938) and violence (Kristallnacht, Nov 1938) in Germany itself before 1939, then ghettoisation and mass shootings by SS Einsatzgruppen in occupied Poland and the USSR from 1939, and finally industrialised extermination from late 1941.",
+          "<b>Ghettos:</b> Jews in occupied Poland were confined to overcrowded ghettos from 1940 — the Warsaw Ghetto alone held around 450,000 people, roughly 30% of the city's population, in about 2.4% of its area, with starvation and disease killing thousands; Jewish Councils (Judenrat) were forced to administer daily life within them.",
+          "<b>The Final Solution:</b> at the Wannsee Conference (20 January 1942), senior officials coordinated the \"complete solution of the Jewish question\", organising mass transport to purpose-built extermination camps — all six (Chelmno, Belzec, Auschwitz-Birkenau, Sobibor, Treblinka and Majdanek) were sited in occupied Poland, using Zyklon B gas chambers capable of mass killing within minutes; more than a million people were murdered at Auschwitz-Birkenau alone.",
+          "<b>Scale and other victims:</b> around six million Jews were murdered under Nazi rule, alongside an estimated 200,000 Roma and Sinti, over 15,000 German homosexuals sent to camps, and roughly 275,000 disabled and mentally ill people killed under the Operation T4 euthanasia programme from 1939 — reflecting a broader Nazi racial-hygiene project, not persecution of Jews alone.",
+          "<b>To the end of the war:</b> killing accelerated even as Germany's military position collapsed — some 440,000 Hungarian Jews were deported to Auschwitz-Birkenau in a matter of weeks after Germany occupied Hungary in March 1944; as Soviet forces advanced, camps were evacuated and prisoners forced on \"death marches\" west, with hundreds of thousands dying en route."
         ]
       },
       {
@@ -56,7 +60,10 @@
           "<b>D-Day and the liberation of France:</b> Allied landings in Normandy on 6 June 1944 (around 156,000 troops) opened a Western Front.",
           "<b>Russian counter-offensives, 1944:</b> sustained Soviet advances pushed German forces back across Eastern Europe throughout 1944.",
           "<b>Final defeat, 1944–1945:</b> combined Allied pressure from both east and west, alongside Germany's industrial and resource collapse, forced unconditional surrender in May 1945.",
-          "The Nuremberg War Crimes trials.<span class=\"excl-tag\">Not examinable — Task 4</span>"
+          "<b>Establishing the tribunal:</b> the Allies convened the International Military Tribunal at Nuremberg — chosen for its symbolic significance to the Nazi Party — trying 21 surviving leading Nazis (of 24 originally indicted; Hitler, Himmler and Goebbels had already died by suicide, and Martin Bormann was tried in absentia) from November 1945 to October 1946 on four charges: crimes against peace, war crimes, crimes against humanity, and conspiracy.",
+          "<b>A legal innovation:</b> \"crimes against humanity\" had no real precedent in international law before Nuremberg, and the standard wartime defence — that defendants were simply obeying the laws and orders of their own state — was explicitly rejected, establishing that following orders is not a defence against prosecution for atrocities.",
+          "<b>Verdicts and responses:</b> ten defendants were hanged (including Ribbentrop and Keitel); Göring was sentenced to death but took poison hours before his scheduled execution; several received life or lengthy prison terms, and three were acquitted — a spread of outcomes historians read as evidence the tribunal weighed individual responsibility rather than convicting wholesale. Reactions varied sharply: Göring remained unrepentant throughout, while Albert Speer was the only defendant to openly admit guilt.",
+          "<b>Significance:</b> beyond punishing individuals, the trials created a detailed, internationally recognised documentary record of Nazi crimes — historians argue this helped prevent any German equivalent of the post-WWI \"stab-in-the-back\" myth taking hold — and established legal precedents (individual criminal responsibility for atrocities, rejection of the superior-orders defence) that shaped later international law, including the pursuit of fugitives such as Adolf Eichmann, captured in Argentina and tried in Israel in 1961."
         ]
       }
     ]
@@ -419,6 +426,36 @@
       "n": 40,
       "questionHtml": "What Allied guarantee, given March 1939, led Britain/France to declare war on Germany in Sept 1939?",
       "answerHtml": "The guarantee to defend Poland"
+    },
+    {
+      "n": 41,
+      "questionHtml": "What conference on 20 January 1942 coordinated the \"Final Solution\"?",
+      "answerHtml": "The Wannsee Conference"
+    },
+    {
+      "n": 42,
+      "questionHtml": "Roughly how many Jews were murdered in the Holocaust?",
+      "answerHtml": "Around six million"
+    },
+    {
+      "n": 43,
+      "questionHtml": "What gas was used to kill victims in Nazi extermination camp gas chambers?",
+      "answerHtml": "Zyklon B"
+    },
+    {
+      "n": 44,
+      "questionHtml": "In what city were the main Nazi war crimes trials held, 1945–46?",
+      "answerHtml": "Nuremberg"
+    },
+    {
+      "n": 45,
+      "questionHtml": "What four charges were laid against defendants at Nuremberg?",
+      "answerHtml": "Crimes against peace, war crimes, crimes against humanity, and conspiracy"
+    },
+    {
+      "n": 46,
+      "questionHtml": "Which senior Nazi avoided execution at Nuremberg by taking poison hours beforehand?",
+      "answerHtml": "Hermann Göring"
     }
   ],
   "quiz": [

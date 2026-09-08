@@ -2,7 +2,7 @@
   "id": "fa2",
   "meta": {
     "title": "Focus Area 2 — Training for Improved Performance",
-    "range": "Year 12 · Applied & scenario-based · examined across Sections 1–3 of the trial/HSC paper",
+    "range": "Year 12 · Applied & scenario-based · one of the two focus areas examined in the HSC exam",
     "boxes": [
       {
         "kind": "in",
@@ -12,7 +12,7 @@
       {
         "kind": "out",
         "label": "Format reminder",
-        "bodyHtml": "Trial Task 4: Section 1 multiple choice (20 marks), Section 2 short answer across FA1 and FA2 (56 marks, questions worth 2–8 marks), Section 3 one 12-mark extended response from this focus area."
+        "bodyHtml": "The HSC exam draws on content from both Year 12 focus areas — this one and Health in an Australian and Global Context — so revise them together rather than in isolation."
       }
     ]
   },
@@ -22,9 +22,11 @@
       {
         "title": "CQ1 — How can exercise assessment and prescription be personalised?",
         "points": [
-          "Before starting a training program, exercise and fitness professionals use a <b>pre-exercise questionnaire</b> and relevant health screening to identify any risks.",
-          "<b>Performance and fitness testing</b> — for example the <b>Yo-Yo test</b> (aerobic fitness) or the <b>Wingate test</b> (anaerobic power) — helps recreational participants and elite athletes track fitness and guide training design.",
-          "Exercise assessment results are used to develop individualised training programs suited to an athlete's current fitness level, goals and sport."
+          "Before starting a training program, exercise and fitness professionals use a <b>pre-exercise questionnaire</b> and relevant health screening to identify risk factors — covering current physical activity levels, medical conditions, medication use, family history of disease, and current or past injuries. This is especially important for individuals considered high-risk (e.g. those with an existing cardiovascular, respiratory or metabolic condition), who may need medical clearance before starting a program.",
+          "Health screening establishes a client's <b>starting point</b>: it identifies contraindications that could make certain exercises unsafe, and gives the professional the information needed to set appropriate, individualised goals rather than applying a generic program.",
+          "<b>Performance and fitness testing</b> assesses <b>health-related components of fitness</b> (e.g. cardiorespiratory endurance, muscular strength, flexibility) and <b>skill-related components</b> (e.g. agility, power, reaction time), using tests such as the <b>Yo-Yo test</b> (aerobic fitness), the <b>Wingate test</b> (anaerobic power) and the <b>Illinois agility test</b> (change-of-direction speed).",
+          "Fitness testing serves different purposes for recreational participants (motivation, tracking general health improvements, identifying suitable activities) and elite athletes (identifying sport-specific strengths and weaknesses, benchmarking against competitors, fine-tuning training). Tests should be selected to match an individual's goals, health status and the specific demands of their sport.",
+          "Exercise assessment results are used to develop individualised training programs suited to an athlete's current fitness level, goals and sport — informing exercise selection, intensity and progression — and regular re-testing allows professionals to monitor progress, adjust the program, and reduce the risk of overtraining or injury."
         ]
       },
       {
@@ -49,7 +51,8 @@
           "Athletes plan their dietary intake before, during and after performance, adjusting fluid and food guidelines depending on the sport and event duration.",
           "Sleep, nutrition and hydration reduce fatigue and support injury prevention when properly planned, routinely monitored and adjusted.",
           "<b>Carbohydrate loading</b> — tapering training while significantly increasing carbohydrate intake in the days before an endurance event — maximises glycogen stores for events lasting over about 90 minutes.",
-          "Supplements like protein, caffeine and creatine are used to support performance: protein assists muscle repair and growth, caffeine can reduce perceived effort and spare glycogen through increased fat metabolism, and creatine enhances anaerobic power and strength by increasing phosphocreatine stores. Each has limitations too — excess protein places unnecessary strain on the kidneys, and excess caffeine can cause dependency and withdrawal symptoms including headaches and fatigue."
+          "Supplements like protein, caffeine and creatine are used to support performance: protein assists muscle repair and growth, caffeine can reduce perceived effort and spare glycogen through increased fat metabolism, and creatine enhances anaerobic power and strength by increasing phosphocreatine stores. Each has limitations too — excess protein places unnecessary strain on the kidneys, and excess caffeine can cause dependency and withdrawal symptoms including headaches and fatigue.",
+          "<b>Micronutrient</b> supplementation (e.g. iron) can be important for athletes with a diagnosed deficiency — iron is essential for haemoglobin production and oxygen transport, and endurance athletes are at particular risk of deficiency (sports anaemia) due to increased red blood cell turnover. Athletes should generally aim to meet nutrient needs through a varied whole-food diet where possible, and seek advice from an accredited sports dietician before using supplements, since unnecessary supplementation offers no performance benefit and can carry health risks."
         ]
       },
       {
@@ -68,6 +71,29 @@
     "notes": [],
     "sources": [],
     "groups": [
+      {
+        "bank": null,
+        "number": "CQ1",
+        "title": "Personalising exercise assessment and prescription",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss how the information obtained from a pre-exercise questionnaire can influence the design of a training program.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what a pre-exercise questionnaire covers.</li><li>Link at least two categories of information to specific program decisions.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A pre-exercise questionnaire gathers information on a client's current physical activity levels, medical conditions, medication use, family history of disease, and any current or past injuries. This information directly shapes how a training program is designed.</p><p>For example, a client with a history of asthma may need a program with a more gradual warm-up and modified intensity for aerobic sessions, with the professional aware of when to pause activity if symptoms arise. A client with a past knee injury may need certain high-impact exercises substituted with lower-impact alternatives to avoid aggravating the joint, while a family history of heart disease may prompt a professional to recommend medical clearance before beginning vigorous exercise, and to monitor exertion levels more closely during sessions.</p><p>Without this information, a professional risks designing a program that is unsafe or ineffective for that specific individual — the questionnaire ensures the program is built around the client's actual health status and starting point, rather than a generic template.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Compare",
+            "badge": "8 marks",
+            "questionHtml": "Compare the purpose and use of performance/fitness testing for recreational participants and elite athletes.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State a purpose for recreational participants.</li><li>State a purpose for elite athletes.</li><li>Note a similarity and a difference, with an example test for each.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Performance and fitness testing serves different primary purposes depending on the population being tested. For recreational participants, testing is mainly used to track general health improvements, maintain motivation, and identify which activities suit their current fitness level — for example, a recreational runner might use a simple aerobic test to monitor improvement over a season, with results providing encouragement to continue training.</p><p>For elite athletes, testing is more sport-specific and used to identify precise strengths and weaknesses, benchmark performance against competitors, and fine-tune training loads. An elite team-sport athlete might use the Yo-Yo test to assess repeated-sprint aerobic capacity relevant to match demands, or the Wingate test to assess anaerobic power for explosive actions, with results used to individualise training within a squad.</p><p>Both groups benefit from tests being matched to their goals and health status, and from regular re-testing to track change over time — but elite testing tends to be more frequent, more sport-specific, and more closely tied to selection and performance outcomes than recreational testing.</p></div></div>"
+          }
+        ]
+      },
       {
         "bank": null,
         "number": "CQ2",
@@ -184,7 +210,12 @@
     { "n": 19, "questionHtml": "What does the inverted-U hypothesis describe?", "answerHtml": "Performance is best at a moderate, optimal level of arousal — too little or too much both reduce performance." },
     { "n": 20, "questionHtml": "What is mental rehearsal?", "answerHtml": "Mentally visualising successfully performing a skill or movement before actually doing it." },
     { "n": 21, "questionHtml": "Name the three phases of a yearly training program.", "answerHtml": "Pre-season, in-season and off-season." },
-    { "n": 22, "questionHtml": "What's the difference between a direct and an indirect sports injury?", "answerHtml": "Direct injuries are caused by an external force or contact; indirect injuries occur without contact, e.g. from overuse or poor technique." }
+    { "n": 22, "questionHtml": "What's the difference between a direct and an indirect sports injury?", "answerHtml": "Direct injuries are caused by an external force or contact; indirect injuries occur without contact, e.g. from overuse or poor technique." },
+    { "n": 23, "questionHtml": "What is the difference between health-related and skill-related components of fitness?", "answerHtml": "Health-related components (e.g. cardiorespiratory endurance, strength, flexibility) relate to general health; skill-related components (e.g. agility, power, reaction time) relate to performing a specific movement skill well." },
+    { "n": 24, "questionHtml": "What does the Illinois agility test measure?", "answerHtml": "Change-of-direction speed and agility." },
+    { "n": 25, "questionHtml": "Why might an individual with a family history of heart disease need medical clearance before starting a training program?", "answerHtml": "They're considered higher-risk, so health screening helps identify whether vigorous exercise is safe before they begin." },
+    { "n": 26, "questionHtml": "Which micronutrient deficiency are endurance athletes particularly at risk of, and why?", "answerHtml": "Iron deficiency (sports anaemia) — due to increased red blood cell turnover from endurance training." },
+    { "n": 27, "questionHtml": "Who should athletes ideally consult before starting a supplement regimen?", "answerHtml": "An accredited sports dietician." }
   ],
   "quiz": [
     { "n": 1, "answer": "b", "questionHtml": "What type of training involves an activity with intermittent bursts of speed?", "options": [ { "opt": "a", "textHtml": "Circuit" }, { "opt": "b", "textHtml": "Fartlek" }, { "opt": "c", "textHtml": "Flexibility" }, { "opt": "d", "textHtml": "Continuous" } ] },
@@ -205,6 +236,10 @@
     { "n": 16, "answer": "c", "questionHtml": "Which type of stretching involves a fast, bouncing movement to the end of a muscle's range of motion?", "options": [ { "opt": "a", "textHtml": "Static stretching" }, { "opt": "b", "textHtml": "Dynamic stretching" }, { "opt": "c", "textHtml": "Ballistic stretching" }, { "opt": "d", "textHtml": "PNF stretching" } ] },
     { "n": 17, "answer": "b", "questionHtml": "What is the main psychological difference between anxiety and arousal in sport?", "options": [ { "opt": "a", "textHtml": "Anxiety and arousal are the same thing" }, { "opt": "b", "textHtml": "Anxiety is a fear-based response to a perceived threat, while arousal is the level of physiological and psychological activation" }, { "opt": "c", "textHtml": "Arousal only affects beginner athletes" }, { "opt": "d", "textHtml": "Anxiety only affects team sports; arousal only affects individual sports" } ] },
     { "n": 18, "answer": "c", "questionHtml": "According to the inverted-U hypothesis, when is athletic performance generally at its best?", "options": [ { "opt": "a", "textHtml": "At the lowest possible level of arousal" }, { "opt": "b", "textHtml": "At the highest possible level of arousal" }, { "opt": "c", "textHtml": "At a moderate, optimal level of arousal" }, { "opt": "d", "textHtml": "Arousal has no effect on performance" } ] },
-    { "n": 19, "answer": "c", "questionHtml": "Which recovery strategy is classified as psychological rather than physiological?", "options": [ { "opt": "a", "textHtml": "Hydrotherapy" }, { "opt": "b", "textHtml": "Cool-down" }, { "opt": "c", "textHtml": "Relaxation techniques" }, { "opt": "d", "textHtml": "Graduated mobilisation" } ] }
+    { "n": 19, "answer": "c", "questionHtml": "Which recovery strategy is classified as psychological rather than physiological?", "options": [ { "opt": "a", "textHtml": "Hydrotherapy" }, { "opt": "b", "textHtml": "Cool-down" }, { "opt": "c", "textHtml": "Relaxation techniques" }, { "opt": "d", "textHtml": "Graduated mobilisation" } ] },
+    { "n": 20, "answer": "b", "questionHtml": "What is the main purpose of a pre-exercise questionnaire and health screening?", "options": [ { "opt": "a", "textHtml": "To design a competition schedule" }, { "opt": "b", "textHtml": "To identify risk factors and establish a client's safe starting point" }, { "opt": "c", "textHtml": "To calculate an athlete's maximum heart rate only" }, { "opt": "d", "textHtml": "To replace the need for a training program" } ] },
+    { "n": 21, "answer": "a", "questionHtml": "Which of the following is a skill-related, rather than health-related, component of fitness?", "options": [ { "opt": "a", "textHtml": "Agility" }, { "opt": "b", "textHtml": "Cardiorespiratory endurance" }, { "opt": "c", "textHtml": "Flexibility" }, { "opt": "d", "textHtml": "Muscular strength" } ] },
+    { "n": 22, "answer": "d", "questionHtml": "Fitness testing for elite athletes, compared with recreational participants, is generally:", "options": [ { "opt": "a", "textHtml": "Less frequent and less specific" }, { "opt": "b", "textHtml": "Identical in purpose and design" }, { "opt": "c", "textHtml": "Focused only on motivation, not performance" }, { "opt": "d", "textHtml": "More sport-specific and tied to benchmarking and selection" } ] },
+    { "n": 23, "answer": "a", "questionHtml": "Which micronutrient supplement might an accredited sports dietician recommend for an athlete diagnosed with sports anaemia?", "options": [ { "opt": "a", "textHtml": "Iron" }, { "opt": "b", "textHtml": "Creatine" }, { "opt": "c", "textHtml": "Caffeine" }, { "opt": "d", "textHtml": "Sodium bicarbonate" } ] }
   ]
 }

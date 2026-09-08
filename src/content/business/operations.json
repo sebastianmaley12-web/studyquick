@@ -12,7 +12,7 @@
       {
         "kind": "out",
         "label": "Format reminder",
-        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+        "bodyHtml": "The HSC Business Studies exam draws on all four topics: Section I is 20 multiple-choice questions, Section II is short-answer questions spanning all topics, Section III is a business-report extended response, and Section IV offers a choice of extended-response questions by topic."
       }
     ]
   },
@@ -38,7 +38,8 @@
           "<b>Inputs</b> are classified as transformed resources (materials, information, customers — the things converted during production) and transforming resources (human resources and facilities — the things that carry out the conversion).",
           "The <b>4 Vs</b> shape operations processes based on customer demand: <b>Volume</b> (how much to make — high volume favours standardisation and economies of scale, low volume favours customisation), <b>Variety</b> (how many product variations — higher variety raises costs and needs more flexible technology), <b>Variation in demand</b> (how much demand fluctuates and how quickly operations can respond), and <b>Visibility</b> (how much direct customer contact/input there is, e.g. a hairdresser vs a factory).",
           "<b>Sequencing</b> is the order activities occur in; <b>scheduling</b> is how long each activity takes. <b>Gantt charts</b> give a quick overview of tasks and timing but don't show task relationships; <b>Critical Path Analysis (CPA)</b> shows how tasks are interrelated and identifies the longest (critical) path, but both struggle with very complex projects or inaccurate time estimates.",
-          "Technology used in operations includes <b>robotics</b> (precision, consistency, efficiency), <b>CAD</b> (computer-aided design, 3D visualisation) and <b>CAM</b> (computer-aided manufacturing, linking design to production).",
+          "Technology used in operations includes <b>robotics</b> (precision, consistency, efficiency), <b>CAD</b> (computer-aided design, 3D visualisation) and <b>CAM</b> (computer-aided manufacturing, linking design to production) — businesses choose between <b>leading-edge technology</b> (the newest available, offering a first-mover advantage but at higher cost and risk of early faults) and <b>established technology</b> (proven and cheaper, but offering less of a competitive edge).",
+          "<b>Task design</b> — how a job is broken into specific tasks and combined with the process layout — should match the transformation process being used, since poorly designed tasks slow throughput and raise error rates regardless of how good the layout or technology is.",
           "<b>Process layout</b> groups equipment by function (e.g. restaurants); <b>product layout</b> arranges equipment by the sequence of tasks, suited to large-volume standardised production (e.g. assembly lines); <b>fixed position layout</b> brings employees and equipment to the product (e.g. building a house).",
           "<b>Monitoring</b> measures actual performance against planned performance using KPIs (key performance indicators); <b>control</b> takes corrective action when KPIs miss targets; <b>improvement</b> systematically reduces inefficiencies and bottlenecks, often through kaizen (continuous improvement).",
           "Outputs include the goods/services themselves, <b>customer service</b> (meeting or exceeding expectations) and <b>warranties</b> (a legal promise to fix defects) — both are also useful sources of feedback for monitoring operations."

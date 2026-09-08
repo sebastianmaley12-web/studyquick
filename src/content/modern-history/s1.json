@@ -17,7 +17,7 @@
     ]
   },
   "summary": {
-    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them. Nothing here is excluded from Task 4 — Section I is examinable in full.",
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them.",
     "groups": [
       {
         "title": "Survey — The Peace Treaties & Postwar Conditions",
@@ -69,11 +69,33 @@
         "title": "The Nazi State: Ideology, Control & Society",
         "points": [
           "<b>Core ideology:</b> Volksgemeinschaft (\"people's community\"), Führerprinzip (absolute hierarchical authority), racial theory placing \"Aryans\" atop a constructed racial hierarchy, and Lebensraum (\"living space\") ambitions in the east.",
-          "<b>Instruments of control:</b> the Gestapo, the SS under Himmler, concentration camps (Dachau opened 1933), and Goebbels' Ministry of Propaganda controlling press, radio and film alongside censorship and book-burning.",
-          "<b>Antisemitic legislation:</b> boycotts of Jewish businesses (1933), the Nuremberg Laws (Sept 1935) stripping Jews of citizenship, and Kristallnacht (9–10 Nov 1938).",
+          "<b>Instruments of control:</b> the Gestapo relied less on its own manpower than on a culture of public denunciation; the SS under Himmler grew from Hitler's bodyguard into a state within the state, with its own courts, army units and factories by the 1940s; concentration camps (Dachau, Sachsenhausen and Buchenwald all opened 1933–37) held over 200,000 people between 1934 and 1939, mostly political prisoners and \"socially deviant\" groups.",
+          "<b>Propaganda and censorship:</b> Goebbels' Ministry of Propaganda controlled press (the state owned an estimated 82% of newspapers by 1944), radio (cheap state-subsidised sets that could only receive German stations) and film (e.g. <i>Triumph of the Will</i>, <i>Jud Süss</i>), alongside book-burning and the Reich Chamber of Culture, which barred Jewish artists outright.",
+          "<b>Antisemitic legislation:</b> boycotts of Jewish businesses (1933), exclusion from the civil service and universities, the Nuremberg Laws (Sept 1935) stripping Jews of citizenship and banning intermarriage, and Kristallnacht (9–10 Nov 1938) — over 400 pieces of anti-Jewish legislation were passed between 1933 and 1939.",
+          "<b>The Holocaust:</b> from the September 1939 invasion of Poland, mobile killing squads carried out mass shootings; Jews were confined to overcrowded ghettos (Warsaw held around 446,000 people in roughly 400 hectares by early 1941); from late 1941 the regime built dedicated death camps under Operation Reinhard — Chelmno (opened Dec 1941) was first, followed by Belzec, Sobibor and Treblinka in 1942 — while Auschwitz-Birkenau's gas chambers could kill up to 1,200 people at a time. An estimated six million Jews were murdered, roughly two-thirds of Europe's 1939 Jewish population; Roma and Sinti, disabled Germans, and other targeted groups were also killed in the hundreds of thousands.",
           "<b>Economic policy:</b> Schacht's work-creation schemes and rearmament cut unemployment sharply by the mid-1930s; the Four Year Plan (1936, under Göring) prioritised military self-sufficiency ahead of war.",
-          "<b>Society and culture:</b> the Hitler Youth and League of German Girls indoctrinated the young; \"degenerate art\" was banned; churches faced varying pressure and co-option.",
-          "<b>Opposition:</b> limited and largely ineffective given the police state — the SPD and KPD were driven underground, military plots emerged later in the decade, and youth groups such as the Edelweiss Pirates offered small-scale defiance."
+          "<b>Society and culture:</b> the Hitler Youth (compulsory for boys 10–18 from 1936, around 8 million members by 1939) and League of German Girls indoctrinated the young both in and out of school; \"degenerate art\" and jazz were banned in favour of \"heroic\" Aryan realism; churches faced varying pressure and co-option, most explicitly through the 1933 Reich Concordat with the Catholic Church."
+        ]
+      },
+      {
+        "title": "Prominent Individuals in the Nazi State",
+        "points": [
+          "Hitler did not rule alone: power was distributed among a small circle of lieutenants who built and ran the regime's key institutions, often in overlapping and competing jurisdictions that Hitler himself did little to resolve.",
+          "<b>Joseph Goebbels</b> — Reich Minister of Propaganda and Enlightenment from 1933, controlling press, radio, film, theatre and the arts; historians credit him with constructing the \"Hitler myth\" that presented Hitler as both extraordinary and humble. He orchestrated Kristallnacht, remained with Hitler in the Berlin bunker to the end, and killed his six children before he and his wife took their own lives in May 1945.",
+          "<b>Hermann Göring</b> — WWI flying ace and early Party member who became President of the Reichstag in 1932; he built up the Gestapo before handing it to Himmler, led the Luftwaffe, and took over the Four Year Plan from Schacht in 1937. Widely seen as the most publicly popular Nazi leader, he was convicted at Nuremberg and took poison the night before his scheduled execution (Oct 1946).",
+          "<b>Heinrich Himmler</b> — Head of the SS from 1929, central to purging the SA in the Night of the Long Knives, and from 1934 built control over the Gestapo and criminal police into one of the most powerful roles in the regime. As Reich Interior Minister from 1943 he oversaw the Final Solution and the forced-labour system; captured by the Allies, he took his own life in custody on 23 May 1945.",
+          "<b>Albert Speer</b> — an architect who joined the Party in 1931 and designed Nazi monuments including the Nuremberg rally grounds; as Minister of Armaments and Munitions from 1942 he is credited with dramatically increasing German war production, achieved partly through the use of prisoners of war and slave labour. At Nuremberg he expressed remorse while denying direct knowledge of the extermination of the Jews, served 20 years at Spandau Prison, and died in 1981."
+        ]
+      },
+      {
+        "title": "Opposition and Resistance to the Nazi Regime",
+        "points": [
+          "Historians distinguish <b>opposition</b> (acts openly defying the regime, e.g. listening to foreign radio, hiding Jewish people, refusing the Hitler salute) from <b>resistance</b> (organised attempts to overthrow the regime) — opposition was far more common than organised resistance, and even resistance movements had little practical impact given the scale of the police state.",
+          "<b>Political undergrounds:</b> the banned KPD ran underground cells distributing literature and organising illegal strikes, activity that increased after Germany invaded the USSR in 1941; the \"Red Orchestra\" network passed intelligence on German war plans to Moscow; the exiled SPD leadership smuggled in banned literature and encouraged industrial sabotage.",
+          "<b>Youth opposition:</b> \"Swing\" groups of middle-class youth held illicit parties and adopted British/American fashion in defiance of Nazi culture; the Edelweiss Pirates refused Hitler Youth membership and clashed physically with its patrols — a December 1942 crackdown broke up 28 groups, arresting 700 members, some of whom were publicly hanged.",
+          "<b>Church opposition:</b> Pastor Martin Niemöller founded the dissident Confessing Church against the Nazified Protestant Church; he was imprisoned and around 800 of its members were sent to concentration camps. The Catholic Church protested restrictions on its schools and youth groups despite the 1933 Concordat, with limited success.",
+          "<b>Elite and military resistance:</b> the Kreisau Circle, an informal network of aristocrats and officials opposed to Hitler, mostly debated rather than acted; the more organised Beck–Goerdeler group (army chief of staff Ludwig Beck and Leipzig mayor Carl Goerdeler) built contacts across the police, foreign office and intelligence services and passed warnings to Britain, though notably sought an authoritarian successor state rather than a return to democracy.",
+          "<b>Assassination attempts:</b> from 1943 army resistance shifted toward assassinating Hitler directly; of six known attempts only two bombs actually detonated, both failing to kill him. The most significant, the 20 July 1944 July Plot (Operation Valkyrie), aimed to kill Hitler and seize government control to negotiate peace — it failed, and its conspirators were executed."
         ]
       },
       {
@@ -100,6 +122,11 @@
         "bank": "Stimulus",
         "tag": "Source B — Adapted historian's viewpoint (composite, for practice use)",
         "bodyHtml": "\"The Weimar Republic did not fall to Nazism so much as it was abandoned by a public exhausted by economic hardship, street violence and a decade of unstable coalition government. Hitler did not need to convert Germans to Nazi ideology in 1932 — he needed only to appear more competent than the alternatives.\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source C — Luise Solmitz, German schoolteacher, diary entry describing an SA torchlight procession, early 1930s",
+        "bodyHtml": "\"20,000 brownshirts followed one another like waves in the sea, their faces shone with enthusiasm... They sang <i>The Republic is shit</i>... They sang of the blood of the Jews which would squirt from their knives.\""
       }
     ],
     "groups": [
@@ -254,6 +281,37 @@
             "badge": "5 marks · ~8 min",
             "questionHtml": "Explain the role and experience of women in Nazi Germany.",
             "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Official ideology of \"Kinder, Küche, Kirche\" (children, kitchen, church) encouraged women out of the paid workforce and into domestic/maternal roles; female civil servants and doctors were dismissed from 1933.</li>\n            <li>Marriage loans of up to <span class=\"stat\">1,000 Reichsmarks</span> were offered from 1933, with a quarter forgiven per child; the Mother's Cross award (instituted <span class=\"stat\">1938</span>) recognised women with four or more children.</li>\n            <li>Contradiction after 1936: rearmament labour shortages saw growing pressure for women to re-enter certain sectors of the workforce, undercutting the regime's own domestic ideology by the late 1930s.</li>\n          </ul>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "05b",
+        "title": "Prominent Individuals & Opposition to the Regime",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source C",
+            "badge": "3 marks · ~5 min",
+            "questionHtml": "What does Source C reveal about the culture of the SA and its supporters in the years before 1933?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>The scale and discipline of the procession (\"20,000 brownshirts... like waves in the sea\") conveys mass, organised support rather than a fringe movement.</li>\n            <li>The genuine \"enthusiasm\" on display shows this was not coerced participation — ordinary Germans found real appeal in Nazi spectacle.</li>\n            <li>The explicit contempt for the Republic and violent antisemitism in the marching songs show the movement's aggression and racism were open and public, not hidden, well before the regime took power.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Explain the roles played by TWO prominent individuals in establishing and maintaining the Nazi state.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Choose two distinct roles</b> to show breadth — e.g. Goebbels (propaganda/ideology) and Himmler (terror/policing) cover different instruments of control.</li>\n              <li><b>Goebbels:</b> as Minister of Propaganda from 1933 he controlled press, radio and film, and is credited by historians with constructing the \"Hitler myth\"; he orchestrated Kristallnacht (Nov 1938) and remained loyal to the end, killing his family in the Berlin bunker in May 1945.</li>\n              <li><b>Himmler:</b> built the SS from Hitler's bodyguard into a parallel state apparatus with its own courts and army units, engineered the Night of the Long Knives (1934), and from 1943 as Interior Minister directed the Final Solution and forced-labour system before taking his own life in Allied custody.</li>\n              <li><b>Link back:</b> both examples show power in the Nazi state was distributed among competing lieutenants, not exercised by Hitler alone.</li>\n            </ol>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Assess the effectiveness of opposition and resistance to the Nazi regime, 1933–1945.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Thesis</span>\n            <p class=\"para-text thesis\">Opposition to the Nazi regime was widespread but largely symbolic, while organised resistance capable of threatening the regime was rare, poorly coordinated, and ultimately unsuccessful — the police state's use of denunciation and terror made effective resistance almost impossible before the regime's military defeat.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 1 — everyday opposition</span>\n            <p class=\"para-text\">Everyday defiance was common but had negligible practical effect: youth groups such as the Edelweiss Pirates rejected Hitler Youth membership and clashed with its patrols, but a single December 1942 crackdown broke up 28 groups and arrested 700 members, some publicly hanged as a deterrent — showing how easily such opposition was contained.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 2 — political and religious resistance</span>\n            <p class=\"para-text\">More organised networks like the Communist underground and the Red Orchestra passed intelligence to Moscow, while Pastor Niemöller's Confessing Church resisted Nazification of Protestantism — but the Gestapo's reliance on public denunciation meant such networks were consistently infiltrated and broken, with around 800 Confessing Church members sent to concentration camps.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 3 — elite and military resistance</span>\n            <p class=\"para-text\">The most credible threat came from within the state itself: the Beck–Goerdeler network built contacts across the police and foreign office, and the army's 20 July 1944 July Plot came the closest of six known assassination attempts to succeeding — yet even this failed, and its leaders sought an authoritarian, not democratic, successor state.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Judgement</span>\n            <p class=\"para-text\">Across every category, opposition registered moral defiance rather than practical threat — the regime's terror apparatus and its penetration of everyday life through informants meant no resistance movement came close to overthrowing Hitler until Germany's military collapse made the question moot.</p>\n          </div>\n        </div>"
           }
         ]
       },
@@ -510,6 +568,56 @@
       "n": 44,
       "questionHtml": "What agreement in September 1938 ceded the Sudetenland to Germany?",
       "answerHtml": "The Munich Agreement"
+    },
+    {
+      "n": 45,
+      "questionHtml": "What was the first Nazi death camp, opened December 1941?",
+      "answerHtml": "Chelmno"
+    },
+    {
+      "n": 46,
+      "questionHtml": "Roughly how many Jews were killed in the Holocaust?",
+      "answerHtml": "Around six million — about two-thirds of Europe's 1939 Jewish population"
+    },
+    {
+      "n": 47,
+      "questionHtml": "Who ran the Nazi Ministry of Propaganda and orchestrated Kristallnacht?",
+      "answerHtml": "Joseph Goebbels"
+    },
+    {
+      "n": 48,
+      "questionHtml": "Who led the SS and, from 1943, oversaw the Final Solution as Reich Interior Minister?",
+      "answerHtml": "Heinrich Himmler"
+    },
+    {
+      "n": 49,
+      "questionHtml": "Who was Minister of Armaments and Munitions from 1942, credited with boosting German war production using slave labour?",
+      "answerHtml": "Albert Speer"
+    },
+    {
+      "n": 50,
+      "questionHtml": "What is the historians' distinction between \"opposition\" and \"resistance\" to the Nazi regime?",
+      "answerHtml": "Opposition = openly defying the regime; resistance = organised attempts to overthrow it"
+    },
+    {
+      "n": 51,
+      "questionHtml": "What youth group refused Hitler Youth membership and clashed with its patrols?",
+      "answerHtml": "The Edelweiss Pirates"
+    },
+    {
+      "n": 52,
+      "questionHtml": "Which pastor founded the Confessing Church in opposition to Nazified Protestantism?",
+      "answerHtml": "Martin Niemöller"
+    },
+    {
+      "n": 53,
+      "questionHtml": "What was the 20 July 1944 assassination attempt on Hitler codenamed?",
+      "answerHtml": "Operation Valkyrie (the July Plot)"
+    },
+    {
+      "n": 54,
+      "questionHtml": "Which two men led the Beck–Goerdeler resistance network?",
+      "answerHtml": "Ludwig Beck (army chief of staff) and Carl Goerdeler (Leipzig mayor)"
     }
   ],
   "quiz": [
@@ -1247,6 +1355,28 @@
           "opt": "d",
           "textHtml": "Economic recovery and reduced unemployment"
         }
+      ]
+    },
+    {
+      "n": 33,
+      "answer": "b",
+      "questionHtml": "Which was the first dedicated Nazi death camp, opened in December 1941?",
+      "options": [
+        { "opt": "a", "textHtml": "Auschwitz-Birkenau" },
+        { "opt": "b", "textHtml": "Chelmno" },
+        { "opt": "c", "textHtml": "Dachau" },
+        { "opt": "d", "textHtml": "Treblinka" }
+      ]
+    },
+    {
+      "n": 34,
+      "answer": "c",
+      "questionHtml": "What distinguishes historians' use of \"resistance\" from \"opposition\" under the Nazi regime?",
+      "options": [
+        { "opt": "a", "textHtml": "Resistance refers only to actions taken after 1939" },
+        { "opt": "b", "textHtml": "Opposition refers only to actions taken by the army" },
+        { "opt": "c", "textHtml": "Resistance means organised attempts to overthrow the regime; opposition means openly defying it" },
+        { "opt": "d", "textHtml": "There is no meaningful distinction between the two terms" }
       ]
     }
   ]

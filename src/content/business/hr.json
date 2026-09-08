@@ -2,22 +2,22 @@
   "id": "hr",
   "meta": {
     "title": "Human Resources",
-    "range": "HSC topic · 25% of course time · restricted trial scope: role of HRM and key influences only",
+    "range": "HSC topic · 25% of course time · the contribution of human resource management to business performance",
     "boxes": [
       {
         "kind": "in",
-        "label": "Examinable (this trial)",
-        "bodyHtml": "Per the assessment notification, only two parts of this topic are assessed this trial: the role of human resource management (strategic role, interdependence, outsourcing) and key influences (stakeholders, legal, economic, technological, social, ethics/CSR). Processes of HRM, strategies in HRM, workplace disputes and effectiveness of HRM are part of the full syllabus but are excluded from this trial."
+        "label": "Examinable",
+        "bodyHtml": "Role of human resource management, key influences (stakeholders, legal, economic, technological, social, ethics/CSR), processes of HRM (acquisition, development, maintenance, separation), strategies in HRM (leadership style, job design, recruitment, training and development, performance management, rewards, global), workplace disputes and effectiveness of HRM — all Learn To and Learn About dot points."
       },
       {
         "kind": "out",
         "label": "Format reminder",
-        "bodyHtml": "Trial Task 4: Section 1 multiple choice and Section 2 short answer draw across all four topics; Section 3 is a business-report extended response across topics; Section 4 offers a choice of two case-study extended responses, one per topic."
+        "bodyHtml": "The HSC Business Studies exam draws on all four topics: Section I is 20 multiple-choice questions, Section II is short-answer questions spanning all topics, Section III is a business-report extended response, and Section IV offers a choice of extended-response questions by topic."
       }
     ]
   },
   "summary": {
-    "note": "Covers only the role of HRM and key influences — the two sub-topics the trial notification confirms are examinable this time.",
+    "note": "Covers all six syllabus sub-topics: role, key influences, processes, strategies, workplace disputes and effectiveness of HRM.",
     "groups": [
       {
         "title": "Role of human resource management",
@@ -47,13 +47,58 @@
         "title": "Key influences — legal, economic, technological, social and ethical",
         "points": [
           "The <b>employment contract</b> is a legally binding agreement based on common law, setting out employer obligations (paying wages, safe environment, following the law) and employee obligations (performing tasks competently, following instructions, acting in good faith).",
-          "The <b>National Employment Standards (NES)</b> are 11 minimum entitlements all Australian employees receive regardless of contract type, covering matters like maximum weekly hours, leave entitlements and redundancy pay. The <b>national minimum wage</b> (as of July 2025) is $24.95 per hour, and no contract can pay below it.",
-          "<b>Work Health and Safety (WHS)</b> law (the Work Health and Safety Act 2011) requires employers to provide a safe system of work and requires all employers to hold workers' compensation insurance; benefits include fewer accidents and better productivity, while non-compliance risks fines, prosecution or business closure.",
+          "The <b>National Employment Standards (NES)</b> are 11 minimum entitlements all Australian employees receive regardless of contract type, covering matters like maximum weekly hours, leave entitlements and redundancy pay. The <b>national minimum wage</b> (from 1 July 2026) is $26.44 per hour ($1,004.90 for a 38-hour week), and no contract can pay below it.",
+          "<b>Work Health and Safety (WHS)</b> law (the Work Health and Safety Act 2011) requires employers to provide a safe system of work and requires all employers to hold workers' compensation insurance; benefits include fewer accidents and better productivity, while non-compliance risks fines, prosecution or business closure — <b>industrial manslaughter</b> offences now exist across most Australian jurisdictions, including NSW, carrying substantial fines and imprisonment for the most serious breaches.",
           "<b>Anti-discrimination and equal employment opportunity (EEO)</b> law makes it illegal to discriminate on grounds like sex, age, disability or race — key legislation includes the Sex Discrimination Act 1984, the Age Discrimination Act 2004 and the Disability Discrimination Act 1992, all enforced through the Australian Human Rights Commission (AHRC); the Workplace Gender Equality Agency (WGEA) promotes gender equality specifically.",
           "<b>Economic</b> influences: during a boom, demand for labour rises and the supply of available workers falls, giving employees more bargaining power and pushing wages up; during a downturn, demand for labour falls and businesses may reduce staff hours or numbers.",
           "<b>Technological</b> influences: technology enables flexible/remote work (improving work-life balance), creates demand for new skills (requiring recruitment and retraining), and can cause redundancies when tasks are automated; <b>AI</b> in particular is forecast to add significant economic value but raises challenges around data quality, privacy, and the need for new technical skills.",
-          "<b>Social</b> influences — changing work patterns: demand for work-life balance and flexible/remote work, rising job mobility increasing staff turnover, more women in the workforce (requiring equal pay and childcare flexibility), and an ageing workforce needing more flexible arrangements to encourage later retirement. Australia's high living standards can be undermined when HR functions are outsourced overseas without regard for those workers' conditions.",
-          "<b>Ethics and corporate social responsibility</b> in HR means providing positive working conditions, a safe environment, and fair treatment beyond the legal minimum — a positive workplace improves staff morale and reduces turnover, while an unethical one risks legal costs, industrial disputes and reputational damage."
+          "<b>Social</b> influences — changing work patterns: demand for work-life balance and flexible/remote work (reinforced by the new <b>right to disconnect</b>, letting employees refuse unreasonable out-of-hours contact), rising job mobility increasing staff turnover, more women in the workforce (requiring equal pay and childcare flexibility), and an ageing workforce needing more flexible arrangements to encourage later retirement. Australia's high living standards can be undermined when HR functions are outsourced overseas without regard for those workers' conditions.",
+          "<b>Ethics and corporate social responsibility</b> in HR means providing positive working conditions, a safe environment, and fair treatment beyond the legal minimum — a positive workplace improves staff morale and reduces turnover, while an unethical one risks legal costs, industrial disputes and reputational damage. Intentional underpayment of wages (<b>wage theft</b>) became a criminal offence under Commonwealth law from 1 January 2025."
+        ]
+      },
+      {
+        "title": "Processes of human resource management",
+        "points": [
+          "HR manages employees through four ongoing processes: <b>acquisition</b>, <b>development</b>, <b>maintenance</b> and <b>separation</b> — together forming the employment lifecycle from hiring to departure.",
+          "<b>Acquisition</b> moves from identifying a staffing need, through job analysis (defining the role's duties and required skills), to recruitment. <b>Internal recruitment</b> (promoting or transferring existing staff) is cheaper, faster and boosts morale by showing a career path, but limits fresh perspectives. <b>External recruitment</b> (advertising to the wider labour market) brings new skills and ideas, but is slower, more expensive and carries more onboarding risk. Selection (interviews, testing, reference checks) and a proper induction — including a legally required WHS induction — complete the process.",
+          "<b>Development</b> covers both training (building skills for an employee's current role, e.g. on-the-job coaching) and development proper (building skills for future or more senior roles, e.g. formal courses, secondments). It's an investment: it improves productivity, retention and succession planning, but is a cost the business must recover through improved performance.",
+          "<b>Maintenance</b> retains skilled staff through performance management, remuneration, and a safe, supportive workplace — reducing the direct and indirect cost of having to replace them.",
+          "<b>Separation</b> is voluntary (resignation, retirement) or involuntary (dismissal for underperformance/misconduct, or redundancy where a role is no longer needed). Whatever the type, a business must manage separations professionally and lawfully — proper notice, entitlements and, where possible, exit interviews — to limit legal risk and protect the morale of remaining staff. Telstra's 2024 restructuring, cutting around 2,800 roles (about 9% of its workforce) for roughly $350 million in targeted savings, was criticised on ethical rather than legal grounds since it came alongside continued profitability — a reminder that a lawful separation process can still raise questions about corporate social responsibility."
+        ]
+      },
+      {
+        "title": "Strategies in human resource management",
+        "points": [
+          "<b>Leadership style</b> shapes HR effectiveness: <b>autocratic</b> leadership (directive, retains control) suits crises or highly regulated environments; <b>democratic/participative</b> leadership (involves staff in decisions) builds engagement and buy-in; <b>laissez-faire</b> leadership (minimal direction) suits highly skilled, autonomous teams. The right style depends on the workforce and situation, and feeds directly into corporate culture and turnover.",
+          "<b>Job design</b>: general job design (broad, varied tasks, via job enlargement or rotation) builds a flexible workforce but needs broader training; specific job design (narrow, specialised tasks) is efficient and quick to train for, but repetitive and less adaptable to change.",
+          "<b>Recruitment</b> strategy also considers skill scope: general-skills recruitment suits flexible or changing roles; specific-skills recruitment suits technical roles where deep expertise matters more than adaptability.",
+          "<b>Training and development</b>: training targets current-role skills (short-term, e.g. rolling out new software); development targets future capability (long-term, e.g. leadership programs) and feeds succession planning.",
+          "<b>Performance management</b> can be developmental (focused on improving future performance through feedback and coaching) or administrative (used to justify pay, promotion or termination decisions) — combining both in a single appraisal creates tension, since employees may be less candid about weaknesses if the same conversation determines their pay.",
+          "<b>Rewards</b> can be monetary (base pay, bonuses, profit share, performance pay) or non-monetary (flexible work, recognition, career development), and individual (rewards effort, but risks unhealthy competition) or group-based (rewards cooperation, but risks free-riding). Atlassian's flexible 'Team Anywhere' policy is a real example of a non-monetary reward outperforming pay on retention: 92% of employees say it lets them do their best work, and 91% cite it as an important reason for staying with the company.",
+          "<b>Global</b> HR strategy weighs cost (lower labour costs overseas), skills (accessing scarce or specialist skills unavailable domestically) and supply (labour availability across markets) against the ethical exposure of operating under weaker labour standards abroad."
+        ]
+      },
+      {
+        "title": "Workplace disputes",
+        "points": [
+          "Workplace disputes arise from disagreements over pay, conditions, job security, workload or treatment — common causes include poor communication, unmet expectations, or change introduced without consultation.",
+          "Disputes carry both direct costs (lost production, legal costs, wages paid during stoppages) and indirect costs (reputational damage, reduced morale, harder recruitment) — and can extend beyond the business itself to suppliers, customers and the wider economy when disruption is significant.",
+          "Real example: from 21 November to 7 December 2024, around 1,500 workers at four Woolworths distribution centres in Victoria and NSW took protected industrial action over the 'Framework' electronic pick-rate system and pay. The 17-day dispute cost Woolworths an estimated $140 million in lost sales before it was resolved through negotiation, with pay rises and changes to how the system was applied.",
+          "Dispute resolution methods, in escalating order: <b>negotiation</b> (the parties resolve the issue directly, no third party, keeps the relationship intact); <b>mediation</b> (a neutral third party facilitates discussion but has no power to impose a decision); <b>grievance procedures</b> (a formal internal process, generally required under awards and agreements, giving employees a structured path to raise concerns); and <b>courts and tribunals</b> — the Fair Work Commission handles conciliation (non-binding facilitated discussion) and arbitration (a binding decision), with the most serious matters escalating to courts like the Federal Court.",
+          "Real example of court involvement: in 2020, Qantas outsourced its entire ground-handling operation, terminating around 1,820 employees. The Federal Court found this was partly done to prevent workers exercising their workplace rights, and in August 2025 imposed a $90 million penalty — the largest in Australian industrial relations history — on top of a separate $120 million compensation fund for affected workers."
+        ]
+      },
+      {
+        "title": "Effectiveness of human resource management",
+        "points": [
+          "HR effectiveness is judged against a business's broader objectives — profitability, growth, efficiency and social responsibility — not just cost per employee, using indicators tracked over time and benchmarked against competitors or industry standards.",
+          "<b>Corporate culture</b> — the shared values, norms and behaviours of a workplace — is measured through staff surveys, external reviews and complaint/exit data. Real example: Rio Tinto's 2024 'Everyday Respect' Progress Review (over 11,600 contributions) found reported bullying rose from 31% (2021) to 39% (2024), while about half of respondents perceived improvement — showing a rising figure doesn't automatically mean HR is failing, since greater willingness to report can itself reflect a safer culture.",
+          "<b>Benchmarking key variables</b> compares HR metrics against internal targets, past performance, or competitors/industry standards. Real example: Wesfarmers publishes Total Recordable Injury Frequency Rate (TRIFR) by division; after Bunnings recorded the group's weakest safety result (17.0 in FY2024), it improved to 13.7 in FY2025 — evidence that publishing a disaggregated, benchmarked metric can itself drive corrective action.",
+          "<b>Changes in staff turnover</b> — the rate at which employees leave — raises recruitment and training costs when high and often signals dissatisfaction, though low turnover isn't automatically positive if it reflects a lack of outside opportunities rather than genuine engagement.",
+          "<b>Absenteeism</b> (unplanned staff absence) is an early warning sign of low morale, poor culture, stress or unsafe conditions, increasingly linked to employers' WHS duties to manage psychosocial hazards.",
+          "<b>Accidents</b> (injury frequency and severity, e.g. TRIFR/LTIFR) are both a legal obligation under work health and safety law and a direct cost through compensation claims, lost productivity and reputational damage.",
+          "<b>Levels of disputation</b> — working days lost to industrial action, grievances and matters before the Fair Work Commission or courts — a low level isn't proof of effective HR on its own, since it can also reflect employees who feel unable to raise concerns.",
+          "<b>Worker satisfaction</b> is measured through engagement surveys, flexibility uptake and retention data. Real example: Atlassian reports 92% of employees say its flexible 'Team Anywhere' policy lets them do their best work, and 91% cite it as an important reason for staying — directly linking a satisfaction indicator to the turnover indicator."
         ]
       }
     ]
@@ -115,6 +160,98 @@
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover both benefits (flexibility, recruitment of new skills) and challenges (redundancies).</li><li>Reference AI specifically, with at least one concrete benefit and challenge.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Technology allows more flexible, remote work, which can improve employees' work-life balance and access to a wider pool of skilled workers globally. It also creates demand for new skills, meaning HR must recruit employees competent with modern technologies or retrain existing staff — for example, teaching factory workers to operate new machinery.</p><p>However, new technology like robotics can make some roles redundant, since tasks that used to require a person can now be done more efficiently by a machine, creating short-term redundancy costs and leaving some employees with non-transferable skills. Artificial intelligence is a major current example: it can automate repetitive tasks and improve decision-making using large datasets, and Australian businesses could generate significant additional economic value from AI over the next 15 years. However, it also raises challenges HR must manage, including the need for specialised technical skills that are in short supply, data privacy concerns, and the risk of biased or non-transparent AI systems if not implemented ethically. HR must balance capturing these benefits with managing the workforce and ethical risks they create.</p></div></div>"
           }
         ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Processes of human resource management",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the steps involved in the acquisition of new staff, and the trade-off between internal and external recruitment.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Sequence the acquisition steps.</li><li>Compare internal and external recruitment.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Acquisition begins with identifying a staffing need through workforce planning, followed by job analysis, which defines the role's duties and the skills required. From there, a business chooses between internal recruitment — promoting or transferring an existing employee — and external recruitment — advertising to the wider labour market.</p><p>Internal recruitment is cheaper and faster, since the candidate is already known to the business, and it boosts morale by showing staff a genuine career path. External recruitment is slower and more expensive, but brings fresh skills and perspectives the existing workforce may lack. Once a candidate is selected through interviews, testing and reference checks, a proper induction — including the legally required WHS induction — completes the acquisition process and helps the new employee become productive faster.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss how a business should manage an involuntary separation, such as a large-scale redundancy.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Distinguish voluntary from involuntary separation.</li><li>Cover legal obligations and the effect on remaining staff.</li><li>Reference a real example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Separation is voluntary when an employee chooses to leave (resignation, retirement) or involuntary when the business ends the employment relationship (dismissal for underperformance, or redundancy where a role is no longer needed). Involuntary separation, especially on a large scale, carries the greatest legal and reputational risk.</p><p>A business managing a redundancy must provide proper notice and redundancy entitlements under the National Employment Standards, consult with affected staff where required, and consider support such as redeployment or outplacement assistance. Telstra's 2024 restructuring, cutting around 2,800 roles for roughly $350 million in targeted savings, was lawful and consultative in process, but still drew criticism because it came alongside continued profitability — a reminder that separation must be managed not just legally, but ethically, and with attention to the morale of the staff who remain after the process is complete.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Strategies in human resource management",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Distinguish",
+            "badge": "4 marks",
+            "questionHtml": "Distinguish between developmental and administrative approaches to performance management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both purposes.</li><li>Note the tension when both are combined.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A developmental approach to performance management focuses on improving an employee's future performance through regular feedback, coaching and identifying training needs — its purpose is growth, not judgement.</p><p>An administrative approach uses performance management to inform decisions about pay, promotion or termination, treating the appraisal as a formal record used to justify a business outcome. Combining both purposes in a single appraisal process creates tension: an employee is less likely to be candid about their weaknesses if the same conversation will determine their next pay rise, which can undermine the honest feedback a developmental approach depends on.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Discuss the effectiveness of flexible working arrangements as a non-monetary reward strategy, referring to a real business example.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain monetary vs non-monetary rewards.</li><li>Use a real, quantified example.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Rewards can be monetary (base pay, bonuses, performance pay) or non-monetary (flexibility, recognition, career development). Flexible work is a non-monetary reward that costs a business relatively little to offer, since it changes how and where work happens rather than increasing wage costs directly.</p><p>Atlassian's 'Team Anywhere' policy, letting staff work from any location where the business has a legal entity, is real evidence this can be highly effective: 92% of employees say it lets them do their best work, and 91% cite it as an important reason for staying with the company — directly linking a non-monetary reward to the staff turnover indicator. This suggests flexibility can outperform financial reward on retention, particularly for skilled employees who have other job options and value autonomy over incremental pay increases. However, its effectiveness depends on the nature of the work — it suits roles that don't require physical presence, and a business with location-dependent operations (like retail or manufacturing) cannot offer the same reward.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Workplace disputes",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain the difference between negotiation and mediation as methods of resolving a workplace dispute.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both methods.</li><li>Note the role of a third party and when each is used.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Negotiation is where the parties to a dispute resolve it directly between themselves, with no third party involved — it's the fastest and cheapest method, and keeps the ongoing working relationship intact, but only works if both sides are willing to compromise.</p><p>Mediation introduces a neutral third party who facilitates discussion between the parties, helping them reach their own agreement, but without the power to impose a binding outcome. It's typically used once direct negotiation has broken down, offering a more structured process while still preserving some control for both sides over the final result — unlike arbitration, where a third party (such as the Fair Work Commission) hands down a decision the parties must accept.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Discuss",
+            "badge": "6 marks",
+            "questionHtml": "Using a real example, discuss the costs to a business of a prolonged workplace dispute.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover direct and indirect costs.</li><li>Use a real, quantified example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Workplace disputes carry direct costs — lost production, legal fees, and wages paid during stoppages — and indirect costs, including reputational damage, reduced morale among staff, and greater difficulty recruiting in future. These costs can also extend beyond the business itself, affecting suppliers and customers when disruption is significant.</p><p>The 2024 dispute at Woolworths' distribution centres illustrates this clearly: around 1,500 workers at four sites took 17 days of protected industrial action over an electronic pick-rate system and pay, which Woolworths estimated cost it $140 million in lost sales, alongside widely reported empty shelves in the lead-up to Christmas. The dispute was ultimately resolved through negotiation rather than arbitration, with pay rises and changes to how the system was applied — showing that the underlying cause (a system introduced without adequate consultation) was a far earlier, and cheaper, problem to have addressed than the dispute it went on to cause.</p></div></div>"
+          }
+        ]
+      },
+      {
+        "bank": null,
+        "number": null,
+        "title": "Effectiveness of human resource management",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how a business could use staff turnover and absenteeism together to assess the effectiveness of its human resource management.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both indicators.</li><li>Explain what a rise in each signals.</li><li>Note why using them together is more useful than either alone.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Staff turnover measures the rate at which employees leave a business, while absenteeism measures unplanned staff absence. A rise in either can signal underlying dissatisfaction, poor culture, or workload and management problems — but each captures a different stage of disengagement.</p><p>Absenteeism is typically a leading indicator: employees who are unhappy but not yet ready to resign often show it first through unplanned absence. Rising turnover is a lagging indicator, confirming that dissatisfaction has reached the point employees are actually leaving, which is more costly since it also creates recruitment and retraining expenses. Tracking both together lets a business identify a developing problem through absenteeism data before it shows up as a costly rise in turnover, giving HR an earlier opportunity to intervene.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Evaluate",
+            "badge": "8 marks",
+            "questionHtml": "Evaluate the effectiveness of human resource management for a real Australian business, using at least two indicators.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name the business and be specific about what happened.</li><li>Use at least two named indicators with real, dated figures.</li><li>Reach a substantiated overall judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Qantas's 2020 decision to outsource its entire ground-handling operation, terminating around 1,820 employees, is a clear case of ineffective HR management when judged against the levels of disputation and worker satisfaction indicators. The Federal Court found the decision was made partly to prevent employees exercising their workplace rights, including protected industrial action, and in August 2025 the Court imposed a $90 million penalty — the largest in Australian industrial relations history — on top of a separate $120 million compensation fund for affected workers.</p><p>Judged purely on short-term cost, outsourcing may have looked like an effective strategy, since it reduced the wage bill during a period of financial pressure for the airline. However, judged against the disputation indicator, the years of litigation and the record penalty show the strategy failed badly, and the reputational cost — including a public apology from the CEO and a judge describing the response as the 'wrong kind of sorry' — likely damaged worker satisfaction and public trust in the business as an employer well beyond the $210 million in direct penalties and compensation. This shows HR effectiveness has to be judged over the long term and against legal and ethical outcomes, not just an initial cost saving.</p></div></div>"
+          }
+        ]
       }
     ]
   },
@@ -129,7 +266,7 @@
     { "n": 8, "questionHtml": "What is a modern award?", "answerHtml": "Legally binding minimum terms and conditions of employment that apply automatically to a whole industry." },
     { "n": 9, "questionHtml": "What is an enterprise agreement?", "answerHtml": "A negotiated agreement about pay and conditions at a specific workplace, approved by the Fair Work Commission." },
     { "n": 10, "questionHtml": "What are the National Employment Standards (NES)?", "answerHtml": "11 minimum employment entitlements that apply to all Australian employees regardless of contract type." },
-    { "n": 11, "questionHtml": "What was Australia's national minimum wage as of July 2025?", "answerHtml": "$24.95 per hour (or $948 per week)." },
+    { "n": 11, "questionHtml": "What is Australia's national minimum wage from 1 July 2026?", "answerHtml": "$26.44 per hour, or $1,004.90 for a 38-hour week." },
     { "n": 12, "questionHtml": "What does the Work Health and Safety Act 2011 require of employers?", "answerHtml": "To provide a safe system of work and hold workers' compensation insurance." },
     { "n": 13, "questionHtml": "Name one Commonwealth anti-discrimination law and what it covers.", "answerHtml": "The Sex Discrimination Act 1984 — prohibits discrimination based on sex, gender identity, marital status or pregnancy." },
     { "n": 14, "questionHtml": "What does EEO stand for?", "answerHtml": "Equal Employment Opportunity — equitable policies and practices in recruitment, selection, training and promotion." },
@@ -140,7 +277,25 @@
     { "n": 19, "questionHtml": "What is a key challenge of adopting AI in HR/business, according to the notes?", "answerHtml": "It requires specialised technical skills that are in short supply, and raises data privacy and bias concerns." },
     { "n": 20, "questionHtml": "What does the Fair Work Ombudsman do?", "answerHtml": "An independent statutory agency providing free advice on workplace rights and responsibilities to workers and employers." },
     { "n": 21, "questionHtml": "What is the Better Off Overall Test (BOOT)?", "answerHtml": "The test the Fair Work Commission uses to approve an enterprise agreement, ensuring employees are better off than under the relevant award." },
-    { "n": 22, "questionHtml": "Give one example of corporate social responsibility in HR.", "answerHtml": "Providing positive, safe working conditions and fair treatment that go beyond the legal minimum." }
+    { "n": 22, "questionHtml": "Give one example of corporate social responsibility in HR.", "answerHtml": "Providing positive, safe working conditions and fair treatment that go beyond the legal minimum." },
+    { "n": 23, "questionHtml": "What is the 'right to disconnect'?", "answerHtml": "An employee's right to refuse unreasonable employer contact outside working hours, phased in for larger and then smaller employers from 2024–2025." },
+    { "n": 24, "questionHtml": "What are the four processes of human resource management?", "answerHtml": "Acquisition, development, maintenance and separation." },
+    { "n": 25, "questionHtml": "What's the main advantage of internal recruitment over external recruitment?", "answerHtml": "It's cheaper and faster, and boosts morale by showing existing staff a career path." },
+    { "n": 26, "questionHtml": "What's the difference between training and development?", "answerHtml": "Training builds skills for an employee's current role (short-term); development builds skills for future/more senior roles (long-term)." },
+    { "n": 27, "questionHtml": "What's the difference between voluntary and involuntary separation?", "answerHtml": "Voluntary separation is the employee's choice (resignation, retirement); involuntary is the business's decision (dismissal or redundancy)." },
+    { "n": 28, "questionHtml": "Name one leadership style relevant to HR strategy.", "answerHtml": "Autocratic, democratic/participative, or laissez-faire." },
+    { "n": 29, "questionHtml": "What's the difference between general and specific job design?", "answerHtml": "General job design covers broad, varied tasks (flexible but needs broader training); specific job design covers narrow, specialised tasks (efficient but repetitive)." },
+    { "n": 30, "questionHtml": "What's the difference between a developmental and an administrative approach to performance management?", "answerHtml": "Developmental focuses on improving future performance through feedback; administrative uses appraisal to justify pay, promotion or termination decisions." },
+    { "n": 31, "questionHtml": "Give an example of a non-monetary reward.", "answerHtml": "Flexible working arrangements, recognition, or career development opportunities." },
+    { "n": 32, "questionHtml": "What's a risk of group/team-based rewards?", "answerHtml": "Free-riding — some team members contribute less while still sharing the reward." },
+    { "n": 33, "questionHtml": "What three factors shape a business's global HR strategy?", "answerHtml": "Cost, skills and supply of labour in different markets." },
+    { "n": 34, "questionHtml": "What is the difference between negotiation and mediation in resolving a workplace dispute?", "answerHtml": "Negotiation is direct between the parties with no third party; mediation involves a neutral third party who facilitates but can't impose a decision." },
+    { "n": 35, "questionHtml": "What's the difference between conciliation and arbitration at the Fair Work Commission?", "answerHtml": "Conciliation is non-binding facilitated discussion; arbitration is a binding decision handed down by the Commission." },
+    { "n": 36, "questionHtml": "What penalty did the Federal Court impose on Qantas in August 2025, and for what?", "answerHtml": "A $90 million penalty for unlawfully outsourcing its ground-handling workforce to prevent employees exercising workplace rights." },
+    { "n": 37, "questionHtml": "What caused the 2024 Woolworths distribution centre dispute?", "answerHtml": "The 'Framework' electronic pick-rate system and pay — resolved after 17 days of industrial action, costing an estimated $140 million in lost sales." },
+    { "n": 38, "questionHtml": "Name the seven indicators of HR effectiveness in the syllabus.", "answerHtml": "Corporate culture, benchmarking key variables, changes in staff turnover, absenteeism, accidents, levels of disputation, and worker satisfaction." },
+    { "n": 39, "questionHtml": "What did Rio Tinto's 2024 'Everyday Respect' review find about reported bullying?", "answerHtml": "It rose from 31% in 2021 to 39% in 2024 — though the company attributes part of this to greater willingness to report." },
+    { "n": 40, "questionHtml": "What is TRIFR, and which company benchmarks it publicly by division?", "answerHtml": "Total Recordable Injury Frequency Rate — Wesfarmers publishes it for Bunnings, Kmart, Officeworks and other divisions." }
   ],
   "quiz": [
     { "n": 1, "answer": "b", "questionHtml": "Which HR function involves employees leaving the business?", "options": [ { "opt": "a", "textHtml": "Acquisition" }, { "opt": "b", "textHtml": "Separation" }, { "opt": "c", "textHtml": "Development" }, { "opt": "d", "textHtml": "Maintenance" } ] },
@@ -159,6 +314,19 @@
     { "n": 14, "answer": "a", "questionHtml": "Which of the following is a challenge businesses face when adopting AI, according to current HR considerations?", "options": [ { "opt": "a", "textHtml": "A shortage of employees with the specialised technical skills to implement it" }, { "opt": "b", "textHtml": "AI cannot process any data faster than a human" }, { "opt": "c", "textHtml": "AI is banned from use in Australian workplaces" }, { "opt": "d", "textHtml": "AI has no impact on employee redundancy" } ] },
     { "n": 15, "answer": "b", "questionHtml": "Which of the following reflects a changing social work pattern influencing HR today?", "options": [ { "opt": "a", "textHtml": "A decline in demand for flexible working arrangements" }, { "opt": "b", "textHtml": "Increasing demand for work-life balance and remote/flexible work" }, { "opt": "c", "textHtml": "A decrease in the proportion of women in the workforce" }, { "opt": "d", "textHtml": "A shrinking, rather than ageing, workforce" } ] },
     { "n": 16, "answer": "c", "questionHtml": "Outsourcing HR functions overseas to reduce costs, without regard for those workers' conditions, is most likely to be criticised on the grounds of:", "options": [ { "opt": "a", "textHtml": "Breaching the Corporations Act 2001" }, { "opt": "b", "textHtml": "Violating financial reporting standards" }, { "opt": "c", "textHtml": "Social responsibility and ethics" }, { "opt": "d", "textHtml": "Breaching consumer law" } ] },
-    { "n": 17, "answer": "d", "questionHtml": "A positive, ethical workplace culture is most likely to result in:", "options": [ { "opt": "a", "textHtml": "Higher staff turnover" }, { "opt": "b", "textHtml": "Increased industrial disputes" }, { "opt": "c", "textHtml": "Higher recruitment and training costs" }, { "opt": "d", "textHtml": "Higher staff morale and lower turnover" } ] }
+    { "n": 17, "answer": "d", "questionHtml": "A positive, ethical workplace culture is most likely to result in:", "options": [ { "opt": "a", "textHtml": "Higher staff turnover" }, { "opt": "b", "textHtml": "Increased industrial disputes" }, { "opt": "c", "textHtml": "Higher recruitment and training costs" }, { "opt": "d", "textHtml": "Higher staff morale and lower turnover" } ] },
+    { "n": 18, "answer": "b", "questionHtml": "Which recruitment approach is generally cheaper, faster and boosts morale by showing existing staff a career path?", "options": [ { "opt": "a", "textHtml": "External recruitment" }, { "opt": "b", "textHtml": "Internal recruitment" }, { "opt": "c", "textHtml": "Global contracting" }, { "opt": "d", "textHtml": "Outsourced recruitment" } ] },
+    { "n": 19, "answer": "c", "questionHtml": "Which HR process covers both training for current skills and development for future roles?", "options": [ { "opt": "a", "textHtml": "Acquisition" }, { "opt": "b", "textHtml": "Separation" }, { "opt": "c", "textHtml": "Development" }, { "opt": "d", "textHtml": "Maintenance" } ] },
+    { "n": 20, "answer": "d", "questionHtml": "A redundancy, where a role is no longer needed, is an example of:", "options": [ { "opt": "a", "textHtml": "Voluntary separation" }, { "opt": "b", "textHtml": "Acquisition" }, { "opt": "c", "textHtml": "Performance management" }, { "opt": "d", "textHtml": "Involuntary separation" } ] },
+    { "n": 21, "answer": "a", "questionHtml": "Which leadership style involves employees in decision-making and builds engagement?", "options": [ { "opt": "a", "textHtml": "Democratic/participative" }, { "opt": "b", "textHtml": "Autocratic" }, { "opt": "c", "textHtml": "Laissez-faire only in a crisis" }, { "opt": "d", "textHtml": "There is no single leadership style relevant to HR" } ] },
+    { "n": 22, "answer": "b", "questionHtml": "An administrative approach to performance management is mainly used to:", "options": [ { "opt": "a", "textHtml": "Provide coaching with no business outcome attached" }, { "opt": "b", "textHtml": "Justify decisions about pay, promotion or termination" }, { "opt": "c", "textHtml": "Replace the need for job design" }, { "opt": "d", "textHtml": "Set the national minimum wage" } ] },
+    { "n": 23, "answer": "c", "questionHtml": "Atlassian's 'Team Anywhere' flexible work policy is most relevant as a real example of which HR strategy?", "options": [ { "opt": "a", "textHtml": "Monetary, individual performance pay" }, { "opt": "b", "textHtml": "Outsourcing HR functions" }, { "opt": "c", "textHtml": "A non-monetary reward improving staff retention" }, { "opt": "d", "textHtml": "Global recruitment for specific skills" } ] },
+    { "n": 24, "answer": "d", "questionHtml": "Which of the following is a risk specifically associated with group/team-based rewards?", "options": [ { "opt": "a", "textHtml": "They always cost more than individual rewards" }, { "opt": "b", "textHtml": "They cannot be monetary" }, { "opt": "c", "textHtml": "They only suit senior managers" }, { "opt": "d", "textHtml": "Free-riding, where some members contribute less" } ] },
+    { "n": 25, "answer": "a", "questionHtml": "Which dispute resolution method involves a neutral third party who facilitates discussion but cannot impose a binding decision?", "options": [ { "opt": "a", "textHtml": "Mediation" }, { "opt": "b", "textHtml": "Arbitration" }, { "opt": "c", "textHtml": "Negotiation" }, { "opt": "d", "textHtml": "Litigation only" } ] },
+    { "n": 26, "answer": "c", "questionHtml": "What did the Federal Court find about Qantas's 2020 outsourcing of ground-handling staff?", "options": [ { "opt": "a", "textHtml": "It was fully compliant with the Fair Work Act" }, { "opt": "b", "textHtml": "It was reversed immediately with no penalty" }, { "opt": "c", "textHtml": "It was partly done to prevent employees exercising workplace rights, resulting in a record penalty" }, { "opt": "d", "textHtml": "It only affected non-Australian employees" } ] },
+    { "n": 27, "answer": "b", "questionHtml": "The 2024 Woolworths distribution centre dispute was primarily triggered by:", "options": [ { "opt": "a", "textHtml": "A dispute over annual leave loading" }, { "opt": "b", "textHtml": "An electronic pick-rate system ('the Framework') and pay" }, { "opt": "c", "textHtml": "A merger with another retailer" }, { "opt": "d", "textHtml": "A change to the company's dividend policy" } ] },
+    { "n": 28, "answer": "d", "questionHtml": "Which of the following is NOT one of the syllabus's seven indicators of HR effectiveness?", "options": [ { "opt": "a", "textHtml": "Levels of disputation" }, { "opt": "b", "textHtml": "Absenteeism" }, { "opt": "c", "textHtml": "Benchmarking key variables" }, { "opt": "d", "textHtml": "Market share" } ] },
+    { "n": 29, "answer": "a", "questionHtml": "Wesfarmers publishing Bunnings' Total Recordable Injury Frequency Rate (TRIFR) year over year is an example of which HR effectiveness indicator?", "options": [ { "opt": "a", "textHtml": "Benchmarking key variables" }, { "opt": "b", "textHtml": "Corporate culture" }, { "opt": "c", "textHtml": "Worker satisfaction" }, { "opt": "d", "textHtml": "Levels of disputation" } ] },
+    { "n": 30, "answer": "b", "questionHtml": "A rise in reported workplace bullying that partly reflects greater willingness to report, rather than worse behaviour, illustrates a limitation of which indicator?", "options": [ { "opt": "a", "textHtml": "Accidents" }, { "opt": "b", "textHtml": "Corporate culture" }, { "opt": "c", "textHtml": "Staff turnover" }, { "opt": "d", "textHtml": "Absenteeism" } ] }
   ]
 }

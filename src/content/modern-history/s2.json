@@ -17,37 +17,121 @@
     ]
   },
   "summary": {
-    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them (Survey → Focus of Study). Nothing here is excluded from Task 4 — Section II is examinable in full.",
+    "note": "Every official syllabus dot point for this topic is listed below, grouped as the syllabus itself groups them (Survey → Focus of Study).",
     "groups": [
       {
-        "title": "Survey — Bolshevik Consolidation of Power",
+        "title": "Survey — Bolshevik Ideology, the October Coup & Early Soviet Government",
         "points": [
-          "<b>Bolshevik ideology, the October coup and early Soviet government:</b> Marxist-Leninist theory adapted by Lenin's April Theses (1917); the Bolsheviks seized power in Petrograd on 24–25 October 1917 (Old Style), and early government moves included the Decree on Peace, the Decree on Land, and the dissolution of the Constituent Assembly (Jan 1918) once Bolsheviks failed to win a majority.",
-          "<b>The Treaty of Brest-Litovsk, the Civil War and the New Economic Policy:</b> Brest-Litovsk (3 March 1918) took Russia out of WWI at severe territorial cost; the Civil War (1918–1921) pitted Bolshevik \"Reds\" against \"Whites\" and foreign interventionist forces under War Communism; the NEP (from 1921) reintroduced limited market incentives after Kronstadt exposed the policy's unsustainability."
+          "<b>Tsarist background:</b> the aristocracy was 1% of the population but owned a quarter of the land, while peasants (80% of the population) had a life expectancy under 40; Russia had barely begun industrialising, leaving it far short of the capitalist stage Marx said revolution required.",
+          "<b>The March 1917 collapse, not a Bolshevik coup:</b> Nicholas II abdicated on 15 March 1917 after military failures — historian Richard Charques called it a revolution accomplished \"without leadership and almost without conscious aim\", springing from the \"decomposition and collapse of the tsar's government\" rather than organised revolutionary action.",
+          "<b>Dual power:</b> the unelected, elite-dominated Provisional Government (Lvov, then Kerensky) shared authority with the elected Soviets of workers and soldiers; Provisional Government failures — continuing the war, no control of the armed forces, peasant land seizures, food shortages — gave the Soviets, and the Bolsheviks within them, growing legitimacy.",
+          "<b>Lenin's return and the April Theses (1917):</b> Lenin travelled from Swiss exile with German funding (Germany wanted the Provisional Government destabilised to end its two-front war) and demanded an end to the war, \"all power to the Soviets\", and land to the peasants — a programme sharper and more populist than the Mensheviks' gradualist, war-tolerant line.",
+          "<b>Bolshevik growth:</b> membership rose from 24,000 in February 1917 to 340,000 by October, driven by the slogans \"Peace, Bread, Land\" and \"All Power to the Soviets\", 40 party newspapers, and the Bolsheviks' own militia, the Red Guard.",
+          "<b>The October coup, 24–26 October 1917:</b> a tightly planned six-day operation — Red Guards seized the telegraph office and railway stations, the Winter Palace was taken and ministers arrested, and SOVNARKOM (Council of People's Commissars) was announced the next day with Lenin as Chairman, Trotsky as Foreign Affairs Commissar and Stalin as Nationalities Commissar.",
+          "<b>Early decrees:</b> the Decree on Land redistributed roughly 540 million acres from the elite to the peasantry; the Decree on Peace took Russia toward withdrawal from WWI; the Decree on the Press banned non-Bolshevik newspapers; the Cheka secret police was created in December 1917.",
+          "<b>The Constituent Assembly, January 1918:</b> free elections in November 1917 gave the Bolsheviks only 24% of the vote against a Socialist Revolutionary majority; when the Assembly met on 5 January 1918, Lenin dissolved it within a day and over 100 protesters were killed — the clearest evidence Bolshevik rule was never democratically won."
         ]
       },
       {
-        "title": "Focus of Study — The Power Struggle After Lenin's Death",
+        "title": "Survey — Brest-Litovsk, the Civil War & the NEP",
         "points": [
-          "<b>Impact of Bolshevik consolidation, including the creation of the USSR:</b> the USSR was formally created by the Treaty of Union on 30 December 1922, unifying Russia, Ukraine, Belarus and the Transcaucasian Federation under centralised Communist Party control.",
-          "<b>Power struggle between Stalin, Trotsky and other leading Bolsheviks in the 1920s:</b> Stalin used his position as General Secretary (from April 1922) to build a bureaucratic base, forming and then discarding tactical alliances (with Kamenev and Zinoviev against Trotsky, 1923–25) to isolate rivals in turn.",
-          "<b>Reasons for Stalin's emergence as leader by the late 1920s:</b> \"Socialism in One Country\" outmanoeuvred Trotsky's \"Permanent Revolution\" ideologically; Trotsky was expelled from the Party by 1927 and exiled by 1929, while Bukharin and the \"Right\" were defeated soon after."
+          "<b>Treaty of Brest-Litovsk (3 March 1918):</b> Russia ceded Finland, Georgia and Ukraine's independence and territory including Poland, Latvia, Lithuania and Estonia to German control, losing an estimated 62 million people, roughly a third of its arable land and a quarter of its industry — a calculated gamble, since Bolsheviks expected the terms would be void if Germany later lost the war (which it did).",
+          "<b>Path to civil war:</b> the treaty horrified patriotic Russians, destroyed relations with the SRs and Mensheviks, and convinced the Allies — who felt betrayed — to arm the \"White\" opposition.",
+          "<b>Civil War, 1918–1921:</b> the Reds faced the Whites (tsarists, liberals and moderate socialists), the Greens (peasant armies), the Czech Legion, foreign intervention forces and separatist nationalists. The Reds won through central control of Russia's rail network and industry, Trotsky's meritocratic conscript army with political commissars, and peasant support once White forces (including Cossack units accused of ethnic-cleansing atrocities) proved more brutal; the Whites were fatally divided over what they were even fighting for.",
+          "<b>War Communism:</b> private trade banned, factories with over 10 workers nationalised (80% of enterprises state-owned by autumn 1918), grain forcibly requisitioned from peasants, and money effectively abolished by 1919 — producing a famine that killed an estimated 5 million and forced the Bolsheviks to accept American relief aid.",
+          "<b>The New Economic Policy (1921):</b> peasants could sell grain surplus for profit after meeting state quotas, and limited private trade returned; within three years cereal production rose roughly 25% and industrial output roughly 200% — but the NEP also produced profiteering \"NEPmen\" and, crucially, failed to generate the capital needed for large-scale industrialisation, since the West never turned communist as the Bolsheviks had hoped."
         ]
       },
       {
-        "title": "Focus of Study — The Soviet State Under Stalin",
+        "title": "Impact of Bolshevik Consolidation, Including the Creation of the USSR",
         "points": [
-          "<b>Nature of the USSR under Stalin, including dictatorship and totalitarianism:</b> near-total state and Party control of political, economic and cultural life, enforced through terror and a personality cult.",
-          "<b>Economic transformation and its impact:</b> collectivisation from 1929 (around 90% of peasant households collectivised by 1936) caused mass famine, including the Holodomor (1932–33); the Five Year Plans from 1928 drove rapid industrialisation, with steel production roughly quadrupling by 1940.",
-          "<b>Political transformation:</b> growth of the Party bureaucracy, use of terror, show trials (Zinoviev and Kamenev, Aug 1936; Bukharin, March 1938), the Gulag forced-labour camp system, and propaganda/censorship enforcing Socialist Realism as the only approved artistic style.",
-          "<b>Social and cultural change:</b> rapid forced urbanisation, state control of education and culture, and the promotion of a cult of personality around Stalin."
+          "<b>Social change, in theory and practice:</b> women were declared equal, divorce and Russia's world-first legalisation of abortion (1920) were introduced — but in practice men initiated around 70% of divorces, women's work shifted toward unskilled labour, and they still carried the bulk of domestic work; the Zhenotdel (Women's Department), led by Alexandra Kollontai, focused on social and educational life rather than real political power.",
+          "<b>Education and youth:</b> universal education to age nine was introduced but soon scaled back as children were needed on farms; the Young Pioneers (under 16) and Komsomol (16+) were founded as youth propaganda organisations, showing indoctrination began under Lenin, not only under Stalin.",
+          "<b>Institutional centralisation:</b> the Politburo (from 1919) came to make all urgent decisions, and the Nomenklatura system allocated key posts on political loyalty rather than merit; factionalism was banned at the 1921 Party Congress, meaning once a policy was adopted, no internal opposition to it was tolerated.",
+          "<b>The Cheka and Red Terror:</b> founded in 1917 under Felix Dzerzhinsky, the Cheka had 30,000 operatives with unlimited power by 1921; after an assassination attempt on Lenin, the Red Terror killed an estimated 200,000+ and imprisoned 85,000 by the end of the Civil War — evidence that terror and the closing down of dissent predate Stalin.",
+          "<b>Formation of the USSR:</b> the Union of Soviet Socialist Republics was formally established in 1922 (Treaty of Union, 30 December), combining Russia with territories occupied during the Civil War and regions with a history of independence such as Ukraine and Georgia — creating the federal structure Stalin would later use for Russification."
         ]
       },
       {
-        "title": "Focus of Study — Soviet Foreign Policy",
+        "title": "The Power Struggle After Lenin's Death",
         "points": [
-          "<b>Nature of Soviet foreign policy, 1917–1941:</b> shifted from a revolutionary posture aimed at exporting communism via the Comintern (founded March 1919) toward pragmatic pursuit of state security, including League of Nations membership from September 1934.",
-          "<b>Role of ideology in Soviet foreign policy, 1917–1941:</b> ideology shaped rhetoric and long-term aims, but pragmatic security calculations increasingly determined actual decisions — culminating in the Nazi–Soviet Pact (23 August 1939), which was itself shattered by Operation Barbarossa (22 June 1941)."
+          "<b>Lenin's decline:</b> a 1918 assassination attempt left him with two bullets in his body; strokes from November 1921 culminated in paralysis by 1923, and he died on 24 January 1924 — his death exposed the fact the Bolsheviks had no agreed procedure for choosing a successor, the deepest structural cause of the power struggle.",
+          "<b>The contenders:</b> <b>Trotsky</b> — Civil War hero and gifted orator, but arrogant and a former Menshevik; <b>Zinoviev</b> — Comintern chief and early Bolshevik, but with influence limited outside Petrograd and a record of opposing the October coup; <b>Kamenev</b> — the most personally popular figure at Lenin's death, but likewise tainted by opposing October; <b>Bukharin</b> — a leading Marxist theorist popular with the young, but the youngest contender and tied to the increasingly contested NEP; <b>Stalin</b> — dismissed by contemporaries (one described him as \"a grey blur\"), but holding four posts simultaneously, including General Secretary from 1922.",
+          "<b>Lenin's Testament:</b> written in his final months, it warned the Party that Stalin, as General Secretary, had \"concentrated an enormous power in his hands\" and might not \"know how to use that power with sufficient caution\", explicitly proposing he be removed — but a May 1924 vote suppressed the document, 44 to 10, after Zinoviev vouched for good relations with Stalin.",
+          "<b>Patronage as power:</b> as General Secretary from 1922, Stalin controlled Party appointments and, in 1923 alone, purged 24% of members as \"lukewarm\", replacing them with loyalists largely unnoticed by his rivals — the single most consequential fact in the whole power struggle.",
+          "<b>Sequential alliances:</b> Stalin allied with Zinoviev and Kamenev (the \"Triumvirate\") to defeat Trotsky at the 1924 Party Congress, then allied with the Right (Bukharin, Tomsky, Rykov) to isolate Zinoviev and Kamenev, who were expelled for \"factionalism\" in 1927; by 1929 Trotsky was exiled and Stalin stood unopposed — he was assassinated on Stalin's orders in Mexico in 1940.",
+          "<b>Historians' verdicts:</b> Deutscher argued Stalin's blandness suited a Party trained to distrust individual brilliance (\"there was nothing striking about him\"); Westwood wrote Stalin did not need a plan because he could watch rivals \"dig their own graves, occasionally offering his spade\"; McCauley summarised the rivals' mutual hostility in one line — \"Zinoviev hated Trotsky, Trotsky hated Zinoviev, Bukharin hated Trotsky... and Bukharin came to hate Stalin.\""
+        ]
+      },
+      {
+        "title": "Reasons for Stalin's Emergence as Leader by the Late 1920s",
+        "points": [
+          "<b>Four-part framework:</b> historians typically attribute Stalin's rise to (1) his control of the party machine, (2) his skilful use of Lenin's legacy, (3) his ability to read the mood of the country, and (4) the conflict and poor public perception among his rivals.",
+          "<b>Control of the party machine:</b> minor posts like Commissar of Nationalities (1919) and the Workers' and Peasants' Inspectorate (1919) — both underestimated by rivals — gave Stalin administrative reach; as General Secretary from 1922 he controlled promotions and demotions, meaning, in the words of one historian, \"Stalin was the person most people had to thank for their jobs.\"",
+          "<b>Use of Lenin's legacy:</b> rather than claim equality with Lenin as Trotsky and Zinoviev did, Stalin presented himself as Lenin's loyal disciple, building a cult around the dead leader (\"we vow to thee, Comrade Lenin...\") that historian Alan Wood argued let Stalin act as \"high priest\" of a religion of Leninism he could then interpret as he pleased.",
+          "<b>Reading the mood of the country:</b> Stalin backed the Right's pro-NEP position while it remained popular, then swapped to the Left's rapid-industrialisation line once the 1927 scissors crisis made the NEP unsustainable; his slogan \"Socialism in One Country\" appealed to a war-weary, patriotic population far more than Trotsky's internationalist \"Permanent Revolution\".",
+          "<b>Perception of the rivals:</b> Stalin was seen as patient, moderate and approachable, while the \"Old Bolsheviks\" were viewed as remote theorists — as one historian put it, he was \"moderate and methodical, not to say pedestrian, but... the only one skilled at building tactical alliances.\""
+        ]
+      },
+      {
+        "title": "The Nature of the USSR Under Stalin: Dictatorship & Totalitarianism",
+        "points": [
+          "<b>Dating the dictatorship:</b> in 1932 Martemyan Ryutin openly called for Stalin's removal and was merely purged rather than executed, suggesting Stalin's control was not yet complete; by a 1934 party vote only 3 of 2,000 delegates voted against him, and from around 1937 (per Molotov) opposition was no longer tolerated at all — historian Alan Bullock called the freedom to arrest any colleague without consultation \"the classic definition of the tyrant's power.\"",
+          "<b>Constitution versus practice:</b> the 1936 \"Fundamental Law\" promised free speech, free elections and universal suffrage — but in practice only one candidate from one party ever stood, making it, in the notes' own words, \"a complete facade.\"",
+          "<b>Testing against Friedrich's six criteria of totalitarianism:</b> (1) an official ideology (Marxism-Leninism and \"Socialism in One Country\"); (2) a single mass party (the Communist Party, capped near 5% of the population to keep membership a privilege); (3) control of the armed forces and secret police (the 1937 purges); (4) control of mass media (Pravda, and — per historian Sheila Fitzpatrick — the routine \"blatant distortion\" of economic statistics); (5) a centrally planned economy (GosPlan's Five Year Plans); (6) a single leader (illustrated by Solzhenitsyn's account of a factory director arrested for being first to stop applauding Stalin at a public meeting).",
+          "<b>Arguments against total control:</b> genuine popular support existed — nearly half a million workers moved into white-collar jobs in the early 1930s — while the USSR's sheer size limited how completely central decisions could reach remote areas; historian Sarah Davies/Sheila Fitzpatrick-style revisionists argue \"Stalinism comprised more than just Stalin\", pointing to willing collaborators as much as top-down terror."
+        ]
+      },
+      {
+        "title": "Economic Transformation: Collectivisation & the Five Year Plans",
+        "points": [
+          "<b>The rationale:</b> Stalin told party officials in 1931, \"We are 50 and 100 years behind the advanced countries. We must make good this distance in ten years. Either we do it, or we shall be crushed\" — framing breakneck industrialisation as national survival, not doctrine, following the 1927–28 \"scissors crisis\" in which the NEP failed to generate enough capital for industry.",
+          "<b>Collectivisation:</b> introduced at the 1930 Party Congress, peasants surrendered private land into kolkhozes (collective farms) and sovkhozes (state farms); collectivisation was nominally voluntary but was imposed within a year — 62% of households were collectivised by 1932, 93% by 1937.",
+          "<b>Dekulakisation and the Holodomor:</b> Stalin ordered kulaks (better-off peasants) be \"eliminated as a class\", with categories ranging from execution to Siberian exile; in Ukraine, the 1932–33 Holodomor saw the state seize grain and block relief while famine killed an estimated 6–8 million people across the USSR — now widely recognised as a genocide targeting Ukrainian nationalism as well as agricultural resistance.",
+          "<b>Costs versus extraction:</b> livestock collapsed as peasants slaughtered animals rather than surrender them (cattle fell roughly 40%, sheep roughly two-thirds) and grain harvests fell every year from 1930–34 — yet grain procurements reaching the state still rose, and exports rose more than 150-fold between 1929 and 1931, showing collectivisation succeeded as an extraction device even as farming itself failed.",
+          "<b>The Five Year Plans:</b> the First (1928–32) prioritised heavy industry and built entirely new industrial cities such as Magnitogorsk, deliberately sited away from the vulnerable western border; targets were consistently missed (e.g. coal's 1933 target of 75 million tonnes reached only 64 million) but output was still transformed, and by 1940 the USSR was the world's second-largest industrial power. Stakhanovite \"model workers\" were publicly rewarded for exceeding targets, even when the regime knew the claimed feats were exaggerated.",
+          "<b>A genuine comparative success:</b> unlike the West, the USSR had no unemployment through the Great Depression — industrial output nearly quadrupled over 1913 levels while capitalist output fell — though this came at the cost of falling real wages, internal passports restricting movement, and a forced-labour system (the Gulag) that built projects such as the White Sea Canal at enormous human cost."
+        ]
+      },
+      {
+        "title": "Political Transformation: The Party, Terror, Show Trials & the Gulag",
+        "points": [
+          "<b>Secret police evolution:</b> Cheka (1917) → GPU (1922) → OGPU (1923) → NKVD (1934); control shifted decisively toward Stalin's personal use after 1926, when the more independent Dzerzhinsky died and was replaced by a weaker successor.",
+          "<b>The Kirov murder, 1 December 1934:</b> Sergei Kirov, seen as a genuine potential rival who had received an ovation matching Stalin's at the 1934 Congress, was assassinated — an act some historians (following Khrushchev's 1956 claims) attribute to Stalin himself — and his death triggered a dramatic escalation in purging.",
+          "<b>The Great Terror:</b> historians estimate around 14 million people were killed during the Terror; the NKVD under Yezhov (\"Yezhovshchina\") extracted confessions through sleep deprivation, torture and threats against family, while a 1935 wave of public denunciation saw thousands report colleagues, friends and even relatives.",
+          "<b>Show trials:</b> the 1928 Shakhty Trial and 1930 Industrial Party Trial targeted engineers for fabricated \"sabotage\" (some defendants were absurdly accused of meeting people already dead); in August 1936 Zinoviev and Kamenev were tried, confessed and shot for Kirov's murder, and in March 1938 Bukharin, Rykov and former NKVD chief Yagoda were tried, confessed and shot — by which point no credible rival to Stalin remained alive.",
+          "<b>The army purges:</b> roughly half of the entire officer corps was purged, including 3 of 5 marshals and all 8 admirals of the fleet — a catastrophic loss of military experience historians link directly to the USSR's near-collapse when Germany invaded in 1941.",
+          "<b>The Gulag:</b> forced-labour camps, mostly in Siberia and the Arctic, held an estimated 14–24 million people over the Stalin era, with at least 1.5 million dying in custody — used simultaneously as punishment, a source of forced labour for major infrastructure projects, and a tool of political terror.",
+          "<b>Why the Terror happened:</b> historians point to several overlapping explanations — eliminating real and imagined threats to Stalin's position, cementing personal dictatorship (Skocpol), supplying forced labour for industrialisation, scapegoating Five Year Plan failures, genuine fear of internal treachery ahead of war with Germany (Deutscher), and a \"snowball effect\" in which local NKVD units drove the Terror beyond even Stalin's direct control."
+        ]
+      },
+      {
+        "title": "Social & Cultural Change Under Stalin",
+        "points": [
+          "<b>Urbanisation:</b> urban populations grew from around 29 million (1929) to 40 million (1933), overwhelming housing, sanitation and services, while real wages fell roughly 50% — offset partly by free family healthcare, subsidised holidays and expanding cinema and sport for urban workers.",
+          "<b>The 1936 reversal on the family:</b> after 1920s policies of easy divorce and legal abortion, the 1936 marriage law made abortion illegal except on medical grounds, made divorce harder and more expensive, and criminalised homosexuality — driven less by ideology than by a falling birth rate and rising juvenile crime from urbanisation and the Terror; the Zhenotdel women's department was abolished in 1930.",
+          "<b>Education and the rewriting of history:</b> the 1920s \"Cultural Revolution\" had discredited teachers and traditional schooling; the 1930s reversed this, tightening curricula around \"useful\" subjects and reinstating history as a nation-building tool centred on Stalin, with a compulsory 1938 textbook constantly revised as leaders fell from favour — memoirist Nadezhda Mandelstam recalled schoolchildren being made to paste paper over the portraits of purged leaders in their own textbooks.",
+          "<b>Ethnic policy and deportation:</b> from the mid-1930s whole ethnic communities suspected of disloyalty — including Volga Germans, Crimean Tatars, Chechens, Ingush and around 172,000 Koreans from the Soviet Far East — were forcibly deported to Central Asia and Siberia, with more than 1.25 million people moved and many dying in transit.",
+          "<b>Religion:</b> the number of Orthodox priests fell from around 60,000 in the 1920s to roughly 5,600 by 1941, alongside mosque and synagogue closures and a state-sponsored \"League of Militant Atheists\" — yet the 1937 census still recorded around 50 million people identifying as religious, showing the limits of total control, and restrictions eased somewhat once WWII made national unity a priority.",
+          "<b>Cult of personality and Socialist Realism:</b> Stalin's image spread through schools, workplaces and public buildings under titles like \"Man of Steel\"; Socialist Realism became the only permitted artistic style, producing openly propagandistic works (e.g. Gerasimov's <i>The Collective Farm Harvest</i>) that showed contented collectivisation rather than the resistance many actually experienced."
+        ]
+      },
+      {
+        "title": "Soviet Foreign Policy, 1917–1941",
+        "points": [
+          "<b>Three competing aims:</b> the notes identify trade/capital for modernisation, national security, and spreading communism as the three goals of Soviet foreign policy, with historian Richard Overy summarising that Soviet strategy was fundamentally about playing rival powers off each other \"in the hope of escaping the impending conflict.\" \"National security trumped everything.\"",
+          "<b>Early isolation and normalisation:</b> excluded from the WWI peace conferences and refusing to join the \"capitalist club\" League of Nations in the 1920s, the USSR nonetheless signed friendship treaties with its neighbours (Finland, the Baltic states, Turkey, Afghanistan) and, in 1922, the Treaty of Rapallo with Germany — cancelling mutual reparations claims between two pariah states, a precedent for 1939.",
+          "<b>Pursuing collective security:</b> the USSR joined the League of Nations in 1934 seeking protection against a rearming Germany, allied with France and Czechoslovakia by 1935, and in 1938 offered to honour its Czechoslovak treaty over the Sudetenland — but only if France acted first, which it did not, discrediting collective security from Moscow's perspective as much as London's or Paris's.",
+          "<b>The Nazi–Soviet Pact, 23 August 1939:</b> a non-aggression agreement with a secret protocol dividing Eastern Europe, letting the USSR annex eastern Poland and the Baltic states — Hitler wanted to avoid a two-front war, while Stalin wanted a buffer zone and time, distrusting the West after Munich.",
+          "<b>Operation Barbarossa, 22 June 1941:</b> Germany broke the pact with the largest invasion in history — roughly 3 million troops along a 2,400km front — catching the USSR almost entirely unprepared despite Allied warnings; some 3 million Soviet soldiers were lost by September 1941 before the advance stalled short of Moscow that winter."
+        ]
+      },
+      {
+        "title": "The Role of Ideology in Soviet Foreign Policy",
+        "points": [
+          "<b>The core tension:</b> the Comintern (founded 1919) existed to spread world revolution, while the Commissariat of Foreign Affairs simultaneously built trade and diplomatic ties with the same capitalist states it was trying to overthrow — historian Michael Jabara Carley argued the Comintern's revolutionary activity doubled as a tool of Soviet self-defence rather than pure ideology.",
+          "<b>A seven-phase pattern of ideology receding under pressure:</b> ideology was strongest in 1918–1921 (Comintern founded when Europe posed little threat) and again in 1929–33 (Depression-era revolutionary optimism), but receded sharply from 1933 as German and Japanese militarism grew, and had essentially disappeared by 1938–41, when — in the notes' own phrase — \"the aim was for the USSR to survive.\"",
+          "<b>Ideology sacrificed to security, concretely:</b> Stalin urged the Chinese Communist Party to ally with the Nationalists rather than pursue revolution because a divided China invited further Japanese expansion; Churchill's verdict on Soviet conduct — \"that key is Russian national interest\" — is the thesis most exam answers on this dot point are built to test."
         ]
       }
     ]
@@ -444,6 +528,56 @@
       "n": 42,
       "questionHtml": "Roughly how many of the Red Army's five marshals were executed in the Purges?",
       "answerHtml": "3 of 5"
+    },
+    {
+      "n": 43,
+      "questionHtml": "What was the Bolsheviks' vote share in the November 1917 Constituent Assembly elections?",
+      "answerHtml": "Only 24%"
+    },
+    {
+      "n": 44,
+      "questionHtml": "What did Lenin's Testament recommend regarding Stalin?",
+      "answerHtml": "That he be removed as General Secretary"
+    },
+    {
+      "n": 45,
+      "questionHtml": "By what vote was Lenin's Testament suppressed in May 1924?",
+      "answerHtml": "44 to 10"
+    },
+    {
+      "n": 46,
+      "questionHtml": "What percentage of the Communist Party did Stalin purge as \"lukewarm\" in 1923?",
+      "answerHtml": "24%"
+    },
+    {
+      "n": 47,
+      "questionHtml": "Roughly how many people are estimated to have died in the Holodomor famine of 1932–33?",
+      "answerHtml": "6–8 million, mostly in Ukraine"
+    },
+    {
+      "n": 48,
+      "questionHtml": "What event on 1 December 1934 triggered a dramatic escalation of the Terror?",
+      "answerHtml": "The assassination of Sergei Kirov"
+    },
+    {
+      "n": 49,
+      "questionHtml": "Roughly how many people are estimated to have been killed during Stalin's Great Terror?",
+      "answerHtml": "Around 14 million"
+    },
+    {
+      "n": 50,
+      "questionHtml": "What was the estimated range of people who passed through the Gulag system?",
+      "answerHtml": "14–24 million"
+    },
+    {
+      "n": 51,
+      "questionHtml": "What pact did the USSR and Nazi Germany sign on 23 August 1939?",
+      "answerHtml": "The Nazi–Soviet (Molotov–Ribbentrop) Non-Aggression Pact"
+    },
+    {
+      "n": 52,
+      "questionHtml": "What was the Comintern, founded in 1919?",
+      "answerHtml": "The Communist International, created to assist communist revolutionary movements abroad"
     }
   ],
   "quiz": [
