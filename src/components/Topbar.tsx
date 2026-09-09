@@ -17,8 +17,8 @@ export function Topbar() {
         <button
           className="tb-brand"
           type="button"
-          title="All subjects"
-          onClick={() => navigate('/')}
+          title="Dashboard"
+          onClick={() => navigate(isConfigured && user ? '/dashboard' : '/')}
         >
           <SqLogo size="sm" />
         </button>
@@ -29,8 +29,12 @@ export function Topbar() {
           Your progress
         </button>
         {isConfigured && (
-          <button className="tb-progress" type="button" onClick={() => navigate('/account')}>
-            {user ? 'Account' : 'Sign in'}
+          <button
+            className="tb-progress"
+            type="button"
+            onClick={() => navigate(user ? '/dashboard' : '/login')}
+          >
+            {user ? 'Dashboard' : 'Sign in'}
           </button>
         )}
         <span className="tb-hint">

@@ -1,4 +1,4 @@
-import { supabase } from './supabase/client'
+import { supabase, queryWithRetry } from './supabase/client'
 import { progressStore, type ProgressState } from './progressStore'
 
 const PUSH_DEBOUNCE_MS = 500
@@ -37,11 +37,9 @@ export async function attachProgressSync(userId: string) {
   detachProgressSync()
   syncingUserId = userId
 
-  const { data } = await supabase
-    .from('progress')
-    .select('data')
-    .eq('user_id', userId)
-    .single()
+  const data = await queryWithRetry(() =>
+    supabase!.from('progress').select('data').eq('user_id', userId).single(),
+  )
   if (syncingUserId !== userId) return // signed out again while this was in flight
 
   const remote = (data?.data as ProgressState | undefined) ?? null

@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
+import { PublicLayout } from './layouts/PublicLayout'
 import { AuthProvider } from './context/AuthContext'
-import { Home } from './pages/Home'
+import { Landing } from './pages/Landing'
 import { ModernHistorySubject } from './pages/ModernHistorySubject'
 import { ModernHistoryTopic } from './pages/ModernHistoryTopic'
 import { MathsTopic } from './pages/MathsTopic'
@@ -11,9 +12,12 @@ function routerAt(initialPath: string) {
   return createMemoryRouter(
     [
       {
+        element: <PublicLayout />,
+        children: [{ path: '/', element: <Landing /> }],
+      },
+      {
         element: <AppLayout />,
         children: [
-          { path: '/', element: <Home /> },
           { path: '/subjects/modern-history', element: <ModernHistorySubject /> },
           { path: '/subjects/modern-history/:topicId/:resource', element: <ModernHistoryTopic /> },
           { path: '/subjects/maths/:slug/:resource', element: <MathsTopic /> },
@@ -33,11 +37,11 @@ function renderAt(initialPath: string) {
 }
 
 describe('routing', () => {
-  it('renders the home page with derived subject stats', () => {
+  it('renders the public landing page with the subject showcase', () => {
     renderAt('/')
-    expect(screen.getByText('Study smarter. Revise quicker.')).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /Modern History/ })).toBeInTheDocument()
-    expect(screen.getByRole('heading', { name: /Mathematics Standard 2/ })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /Your HSC tutor/ })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Modern History' })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: 'Mathematics Standard 2' })).toBeInTheDocument()
   })
 
   it('renders the modern history subject page with all four topics', () => {

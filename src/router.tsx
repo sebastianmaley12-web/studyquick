@@ -1,10 +1,20 @@
 import { lazy } from 'react'
 import { createBrowserRouter } from 'react-router-dom'
 import { AppLayout } from './layouts/AppLayout'
+import { PublicLayout } from './layouts/PublicLayout'
 import { SubjectGuard } from './components/SubjectGuard'
 
-const Home = lazy(() => import('./pages/Home').then((m) => ({ default: m.Home })))
-const Account = lazy(() => import('./pages/Account').then((m) => ({ default: m.Account })))
+const Landing = lazy(() => import('./pages/Landing').then((m) => ({ default: m.Landing })))
+const Login = lazy(() => import('./pages/Login').then((m) => ({ default: m.Login })))
+const Signup = lazy(() => import('./pages/Signup').then((m) => ({ default: m.Signup })))
+const Onboarding = lazy(() =>
+  import('./pages/Onboarding').then((m) => ({ default: m.Onboarding })),
+)
+const OnboardingResults = lazy(() =>
+  import('./pages/OnboardingResults').then((m) => ({ default: m.OnboardingResults })),
+)
+const Pricing = lazy(() => import('./pages/Pricing').then((m) => ({ default: m.Pricing })))
+const Dashboard = lazy(() => import('./pages/Dashboard').then((m) => ({ default: m.Dashboard })))
 const ProgressDashboard = lazy(() =>
   import('./pages/ProgressDashboard').then((m) => ({ default: m.ProgressDashboard })),
 )
@@ -33,10 +43,20 @@ const LegalTopic = lazy(() => import('./pages/LegalTopic').then((m) => ({ defaul
 
 export const router = createBrowserRouter([
   {
+    element: <PublicLayout />,
+    children: [
+      { path: '/', element: <Landing /> },
+      { path: '/login', element: <Login /> },
+      { path: '/signup', element: <Signup /> },
+      { path: '/onboarding', element: <Onboarding /> },
+      { path: '/onboarding/results', element: <OnboardingResults /> },
+      { path: '/pricing', element: <Pricing /> },
+    ],
+  },
+  {
     element: <AppLayout />,
     children: [
-      { path: '/', element: <Home /> },
-      { path: '/account', element: <Account /> },
+      { path: '/dashboard', element: <Dashboard /> },
       { path: '/progress', element: <ProgressDashboard /> },
       {
         path: '/subjects/modern-history',

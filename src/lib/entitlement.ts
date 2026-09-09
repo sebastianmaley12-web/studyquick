@@ -1,11 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useAuth } from '../context/AuthContext'
-import { supabase } from './supabase/client'
-
-/** The one subject anyone can use, signed in or not, forever. Every other
- * subject needs a signed-in trial or an active subscription. Change this to
- * pick a different always-free subject. */
-export const FREE_SUBJECT_ID = 'modern-history'
+import { supabase, queryWithRetry } from './supabase/client'
 
 export const SUBJECT_NAMES: Record<string, string> = {
   'modern-history': 'Modern History',
@@ -14,6 +9,12 @@ export const SUBJECT_NAMES: Record<string, string> = {
   business: 'Business Studies',
   legal: 'Legal Studies',
 }
+
+/** Subjects offered during onboarding (section 2/6 of the product spec) —
+ * Legal Studies exists in the app but isn't part of the public launch
+ * subject set yet, so it's deliberately excluded here even though it's a
+ * valid key in SUBJECT_NAMES/SubjectGuard. */
+export const ONBOARDING_SUBJECT_IDS = ['maths', 'modern-history', 'hms', 'business']
 
 export type SubscriptionStatus = 'free' | 'active' | 'past_due' | 'canceled'
 
@@ -25,7 +26,8 @@ type SubscriptionRow = {
 
 type Entitlement = {
   /** Whether Supabase is configured at all — when false every subject is
-   * unlocked, matching the app's pre-accounts behaviour. */
+   * unlocked, matching the app's pre-accounts behaviour (local dev/preview
+   * with no backend wired up). */
   isConfigured: boolean
   loading: boolean
   /** True once we know the account is inside its 7-day trial window. */
@@ -33,37 +35,49 @@ type Entitlement = {
   /** True once we know the account has a Stripe-active subscription. */
   isSubscribed: boolean
   trialEndsAt: Date | null
+  /** The one subject the trial applies to — profiles.focus_subject_id,
+   * chosen during onboarding. Null until onboarding is completed. */
+  focusSubjectId: string | null
   isSubjectUnlocked: (subjectId: string) => boolean
 }
 
 export function useEntitlement(): Entitlement {
   const { isConfigured, user } = useAuth()
   const [row, setRow] = useState<SubscriptionRow | null>(null)
+  const [focusSubjectId, setFocusSubjectId] = useState<string | null>(null)
   const [fetchedForUserId, setFetchedForUserId] = useState<string | null>(null)
 
   useEffect(() => {
     if (!isConfigured || !supabase || !user) return
+    const client = supabase
     let cancelled = false
-    supabase
-      .from('subscriptions')
-      .select('status, trial_ends_at, current_period_end')
-      .eq('user_id', user.id)
-      .single()
-      .then(({ data }) => {
-        if (cancelled) return
-        setRow((data as SubscriptionRow | null) ?? null)
-        setFetchedForUserId(user.id)
-      })
+    Promise.all([
+      queryWithRetry(() =>
+        client
+          .from('subscriptions')
+          .select('status, trial_ends_at, current_period_end')
+          .eq('user_id', user.id)
+          .single(),
+      ),
+      queryWithRetry(() => client.from('profiles').select('focus_subject_id').eq('id', user.id).single()),
+    ]).then(([subData, profileData]) => {
+      if (cancelled) return
+      setRow((subData as SubscriptionRow | null) ?? null)
+      setFocusSubjectId((profileData?.focus_subject_id as string | null) ?? null)
+      setFetchedForUserId(user.id)
+    })
     return () => {
       cancelled = true
     }
   }, [isConfigured, user])
 
   // Derived, not stored, and both gated on `user` matching who was actually
-  // fetched: a stale `row` from a since-signed-out (or switched) user must
-  // never leak into `isTrialing`/`isSubscribed` for whoever's current.
+  // fetched: stale data from a since-signed-out (or switched) user must
+  // never leak into `isTrialing`/`isSubscribed`/`focusSubjectId` for
+  // whoever's current.
   const loading = isConfigured && !!user && fetchedForUserId !== user.id
   const effectiveRow = user && fetchedForUserId === user.id ? row : null
+  const effectiveFocusSubjectId = user && fetchedForUserId === user.id ? focusSubjectId : null
 
   const trialEndsAt = effectiveRow ? new Date(effectiveRow.trial_ends_at) : null
   // eslint-disable-next-line react-hooks/purity -- trial expiry is inherently wall-clock-dependent; staying correct as of the last render (not a live tick) is the intended behaviour
@@ -72,11 +86,19 @@ export function useEntitlement(): Entitlement {
 
   function isSubjectUnlocked(subjectId: string): boolean {
     if (!isConfigured) return true
-    if (subjectId === FREE_SUBJECT_ID) return true
     if (!user) return false
     if (loading) return false
-    return isSubscribed || isTrialing
+    if (isSubscribed) return true
+    return isTrialing && subjectId === effectiveFocusSubjectId
   }
 
-  return { isConfigured, loading, isTrialing, isSubscribed, trialEndsAt, isSubjectUnlocked }
+  return {
+    isConfigured,
+    loading,
+    isTrialing,
+    isSubscribed,
+    trialEndsAt,
+    focusSubjectId: effectiveFocusSubjectId,
+    isSubjectUnlocked,
+  }
 }

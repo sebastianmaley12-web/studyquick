@@ -22,19 +22,19 @@ type Crumb = { label: string; to?: string }
 function crumbsForPath(pathname: string): Crumb[] {
   const seg = pathname.split('/').filter(Boolean)
 
-  if (seg[0] === 'progress') return [{ label: 'All subjects', to: '/' }, { label: 'Your progress' }]
+  if (seg[0] === 'progress') return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Your progress' }]
 
   if (seg[0] !== 'subjects') return [{ label: 'All subjects' }]
 
   if (seg[1] === 'modern-history') {
     if (seg.length === 2) {
-      return [{ label: 'All subjects', to: '/' }, { label: 'Modern History' }]
+      return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Modern History' }]
     }
     const topicId = seg[2]
     const resource = seg[3] as ModernHistoryResource | undefined
     const topic = modernHistoryTopics.find((t) => t.id === topicId)
     return [
-      { label: 'All subjects', to: '/' },
+      { label: 'Dashboard', to: '/dashboard' },
       { label: 'Modern History', to: '/subjects/modern-history' },
       { label: topic?.short ?? topicId, to: `/subjects/modern-history/${topicId}` },
       { label: MODERN_HISTORY_RESOURCE_LABELS[resource ?? 'summary'] },
@@ -43,13 +43,13 @@ function crumbsForPath(pathname: string): Crumb[] {
 
   if (seg[1] === 'maths') {
     if (seg.length === 2) {
-      return [{ label: 'All subjects', to: '/' }, { label: 'Mathematics Standard 2' }]
+      return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Mathematics Standard 2' }]
     }
     const slug = seg[2]
     const resource = seg[3] as MathsResource | undefined
     const topic = mathsTopicsBySlug[slug]
     return [
-      { label: 'All subjects', to: '/' },
+      { label: 'Dashboard', to: '/dashboard' },
       { label: 'Mathematics Standard 2', to: '/subjects/maths' },
       {
         label: topic ? `${topic.code} ${topic.name}` : slug,
@@ -61,13 +61,13 @@ function crumbsForPath(pathname: string): Crumb[] {
 
   if (seg[1] === 'hms') {
     if (seg.length === 2) {
-      return [{ label: 'All subjects', to: '/' }, { label: 'Health & Movement Science' }]
+      return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Health & Movement Science' }]
     }
     const topicId = seg[2]
     const resource = seg[3] as HmsResource | undefined
     const topic = hmsTopics.find((t) => t.id === topicId)
     return [
-      { label: 'All subjects', to: '/' },
+      { label: 'Dashboard', to: '/dashboard' },
       { label: 'Health & Movement Science', to: '/subjects/hms' },
       { label: topic?.short ?? topicId, to: `/subjects/hms/${topicId}` },
       { label: HMS_RESOURCE_LABELS[resource ?? 'summary'] },
@@ -76,13 +76,13 @@ function crumbsForPath(pathname: string): Crumb[] {
 
   if (seg[1] === 'business') {
     if (seg.length === 2) {
-      return [{ label: 'All subjects', to: '/' }, { label: 'Business Studies' }]
+      return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Business Studies' }]
     }
     const topicId = seg[2]
     const resource = seg[3] as BusinessResource | undefined
     const topic = businessTopics.find((t) => t.id === topicId)
     return [
-      { label: 'All subjects', to: '/' },
+      { label: 'Dashboard', to: '/dashboard' },
       { label: 'Business Studies', to: '/subjects/business' },
       { label: topic?.short ?? topicId, to: `/subjects/business/${topicId}` },
       { label: BUSINESS_RESOURCE_LABELS[resource ?? 'summary'] },
@@ -91,20 +91,20 @@ function crumbsForPath(pathname: string): Crumb[] {
 
   if (seg[1] === 'legal') {
     if (seg.length === 2) {
-      return [{ label: 'All subjects', to: '/' }, { label: 'Legal Studies' }]
+      return [{ label: 'Dashboard', to: '/dashboard' }, { label: 'Legal Studies' }]
     }
     const topicId = seg[2]
     const resource = seg[3] as LegalResource | undefined
     const topic = legalTopics.find((t) => t.id === topicId)
     return [
-      { label: 'All subjects', to: '/' },
+      { label: 'Dashboard', to: '/dashboard' },
       { label: 'Legal Studies', to: '/subjects/legal' },
       { label: topic?.short ?? topicId, to: `/subjects/legal/${topicId}` },
       { label: LEGAL_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
 
-  return [{ label: 'All subjects', to: '/' }]
+  return [{ label: 'Dashboard', to: '/dashboard' }]
 }
 
 export function Breadcrumbs() {

@@ -12,14 +12,14 @@ import { attachProgressSync, detachProgressSync } from '../lib/progressSync'
 
 type AuthValue = {
   /** Whether VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY are set at all. When
-   * false, accounts are simply off — every subject stays free, matching the
-   * app's behaviour before this file existed. */
+   * false, accounts are simply off — every subject stays unlocked, matching
+   * local dev/preview with no backend wired up. */
   isConfigured: boolean
   /** True until the initial session check resolves. */
   loading: boolean
   user: User | null
   session: Session | null
-  signUp: (email: string, password: string) => Promise<{ error: string | null }>
+  signUp: (name: string, email: string, password: string) => Promise<{ error: string | null }>
   signIn: (email: string, password: string) => Promise<{ error: string | null }>
   signOut: () => Promise<void>
 }
@@ -55,9 +55,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       loading,
       user: session?.user ?? null,
       session,
-      async signUp(email, password) {
+      async signUp(name, email, password) {
         if (!supabase) return { error: 'Accounts are not set up yet.' }
-        const { error } = await supabase.auth.signUp({ email, password })
+        const { error } = await supabase.auth.signUp({
+          email,
+          password,
+          options: { data: { display_name: name } },
+        })
         return { error: error?.message ?? null }
       },
       async signIn(email, password) {
