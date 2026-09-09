@@ -113,8 +113,12 @@ export function ModernHistoryTopic() {
                   ))}
                 </>
               )}
-              {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
-              {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+              {resource === 'quiz' && (
+                <QuizPanel subject="modern-history" topicId={topicId} questions={data.quiz} />
+              )}
+              {resource === 'trivia' && (
+                <TriviaGrid subject="modern-history" topicId={topicId} cards={data.trivia} />
+              )}
               {resource === 'practice' && (
                 <PracticeSection topicId={topicId} practice={data.practice} />
               )}

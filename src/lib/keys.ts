@@ -23,3 +23,11 @@ export function practiceNoteKey(topicId: string, index: number) {
 export function mathsKey(slug: string, questionId: string) {
   return `${slug}#${questionId}`
 }
+
+/** Key for a sequential test/trivia/practice session's saved state (order,
+ * position, completion — see TestSessionState in progressStore.ts). One
+ * session per subject+topic+resource, e.g. sessionKey('maths', 'n2', 'test')
+ * or sessionKey('modern-history', 's1', 'quiz'). */
+export function sessionKey(subject: string, topicId: string, resource: string) {
+  return `${subject}:${topicId}:${resource}`
+}

@@ -1,7 +1,7 @@
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { TopicShell } from '../layouts/TopicShell'
 import { MathsRail } from '../components/rail/MathsRail'
-import { MathsPractice } from '../components/maths/MathsPractice'
+import { MathsTest } from '../components/maths/MathsTest'
 import {
   MATHS_RESOURCES,
   MATHS_RESOURCE_LABELS,
@@ -84,7 +84,7 @@ export function MathsTopic() {
           </div>
         </div>
       ) : (
-        <MathsPractice key={topic.slug} topic={topic} />
+        <MathsTest key={topic.slug} topic={topic} />
       )}
     </TopicShell>
   )

@@ -8,7 +8,7 @@
 -- keeps working with no backend configured. Once a user is signed in,
 -- progressStore also pushes `state` to `progress.data` on commit and
 -- hydrates from it on sign-in, merging by last-write-wins per top-level key
--- (quiz/trivia/notes/maths/review) — see src/lib/progressSync.ts.
+-- (quiz/trivia/notes/maths/review/sessions) — see src/lib/progressSync.ts.
 
 -- One row per authenticated user, created by a trigger on auth.users insert.
 -- The onboarding_* columns capture the personalisation survey
@@ -45,12 +45,12 @@ create policy "profiles are self-writable"
 -- One row per user holding the entire ProgressState blob (see
 -- src/lib/progressStore.ts's `ProgressState` type) as JSON, mirroring the
 -- existing localStorage.studyquick.progress.v1 shape rather than
--- normalising quiz/trivia/notes/maths/review into separate tables. Keeps the
+-- normalising quiz/trivia/notes/maths/review/sessions into separate tables. Keeps the
 -- sync path a single upsert instead of five, and the local <-> remote shapes
 -- identical.
 create table progress (
   user_id uuid primary key references auth.users (id) on delete cascade,
-  data jsonb not null default '{"v":1,"quiz":{},"trivia":{},"notes":{},"maths":{},"review":{}}',
+  data jsonb not null default '{"v":1,"quiz":{},"trivia":{},"notes":{},"maths":{},"review":{},"sessions":{}}',
   updated_at timestamptz not null default now()
 );
 

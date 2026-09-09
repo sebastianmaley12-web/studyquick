@@ -113,8 +113,12 @@ export function BusinessTopic() {
                   ))}
                 </>
               )}
-              {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
-              {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+              {resource === 'quiz' && (
+                <QuizPanel subject="business" topicId={topicId} questions={data.quiz} />
+              )}
+              {resource === 'trivia' && (
+                <TriviaGrid subject="business" topicId={topicId} cards={data.trivia} />
+              )}
               {resource === 'practice' && (
                 <PracticeSection topicId={topicId} practice={data.practice} />
               )}

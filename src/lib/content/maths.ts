@@ -61,10 +61,10 @@ export const mathsTotals = {
   year11Questions: mathsYear11Topics.reduce((sum, t) => sum + t.questions.length, 0),
 }
 
-export const MATHS_RESOURCES = ['facts', 'practice'] as const
+export const MATHS_RESOURCES = ['facts', 'test'] as const
 export type MathsResource = (typeof MATHS_RESOURCES)[number]
 
 export const MATHS_RESOURCE_LABELS: Record<MathsResource, string> = {
   facts: 'Key Facts & Formulae',
-  practice: 'Practice Questions',
+  test: 'Test yourself',
 }

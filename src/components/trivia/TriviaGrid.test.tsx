@@ -20,7 +20,7 @@ describe('TriviaGrid', () => {
 
   it('shows the card count and reveals a card on click', async () => {
     const user = userEvent.setup()
-    render(<TriviaGrid topicId="s1" cards={cards} />)
+    render(<TriviaGrid subject="modern-history" topicId="s1" cards={cards} />)
 
     expect(
       screen.getByText('2 quick-fire questions · tap a card to reveal the answer'),
@@ -35,7 +35,7 @@ describe('TriviaGrid', () => {
 
   it('rating a card shaky updates the shaky count and persists', async () => {
     const user = userEvent.setup()
-    render(<TriviaGrid topicId="s1" cards={cards} />)
+    render(<TriviaGrid subject="modern-history" topicId="s1" cards={cards} />)
 
     const card = screen.getByText('What year was the Reichstag Fire?').closest('.trivia-card')!
     await user.click(card)
@@ -47,7 +47,7 @@ describe('TriviaGrid', () => {
 
   it('shaky filter hides cards that are not rated shaky', async () => {
     const user = userEvent.setup()
-    render(<TriviaGrid topicId="s1" cards={cards} />)
+    render(<TriviaGrid subject="modern-history" topicId="s1" cards={cards} />)
 
     const card = screen.getByText('What year was the Reichstag Fire?').closest('.trivia-card')!
     await user.click(card)
@@ -60,7 +60,7 @@ describe('TriviaGrid', () => {
 
   it('reveal all and hide all toggle every card at once', async () => {
     const user = userEvent.setup()
-    render(<TriviaGrid topicId="s1" cards={cards} />)
+    render(<TriviaGrid subject="modern-history" topicId="s1" cards={cards} />)
 
     await user.click(screen.getByRole('button', { name: 'Reveal all' }))
     const allCards = document.querySelectorAll('.trivia-card')
@@ -68,5 +68,31 @@ describe('TriviaGrid', () => {
 
     await user.click(screen.getByRole('button', { name: 'Hide all' }))
     allCards.forEach((c) => expect(c).not.toHaveClass('revealed'))
+  })
+
+  it('test mode shows one card at a time, rate it, and reach a results screen', async () => {
+    const user = userEvent.setup()
+    render(<TriviaGrid subject="modern-history" topicId="s1" cards={cards} />)
+
+    await user.click(screen.getByRole('button', { name: 'Test mode' }))
+
+    expect(screen.getByText('Question 1 of 2')).toBeInTheDocument()
+    expect(document.querySelectorAll('.trivia-card').length).toBe(1)
+
+    await user.click(document.querySelector('.trivia-card')!)
+    await user.click(screen.getByRole('button', { name: 'Got it' }))
+    await user.click(screen.getByRole('button', { name: /Next question/ }))
+
+    expect(screen.getByText('Question 2 of 2')).toBeInTheDocument()
+    await user.click(document.querySelector('.trivia-card')!)
+    await user.click(screen.getByRole('button', { name: 'Still shaky' }))
+    await user.click(screen.getByRole('button', { name: /Finish/ }))
+
+    expect(screen.getByText('Trivia — complete')).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: 'Back to topic' }))
+    expect(
+      screen.getByText('2 quick-fire questions · tap a card to reveal the answer'),
+    ).toBeInTheDocument()
   })
 })

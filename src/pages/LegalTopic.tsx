@@ -113,8 +113,12 @@ export function LegalTopic() {
                   ))}
                 </>
               )}
-              {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
-              {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+              {resource === 'quiz' && (
+                <QuizPanel subject="legal" topicId={topicId} questions={data.quiz} />
+              )}
+              {resource === 'trivia' && (
+                <TriviaGrid subject="legal" topicId={topicId} cards={data.trivia} />
+              )}
               {resource === 'practice' && (
                 <PracticeSection topicId={topicId} practice={data.practice} />
               )}

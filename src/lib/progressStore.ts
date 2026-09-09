@@ -20,6 +20,20 @@ export type QuizAnswer = { pick: string; ok: boolean }
 export type TriviaConfidence = 'known' | 'shaky'
 export type MathsAnswer = { v: string | number; ok: boolean }
 
+/**
+ * One sequential test/trivia/practice attempt — see lib/testSession.ts.
+ * `order` holds original item indices (never DOM/display positions), so it
+ * composes with the existing index-based quiz/trivia/maths answer keys
+ * without changing what any of them mean. Added additively: old saved
+ * progress (no `sessions` key at all) just starts every session fresh,
+ * nothing existing is reinterpreted.
+ */
+export interface TestSessionState {
+  order: number[]
+  position: number
+  completedAt?: number
+}
+
 export interface ProgressState {
   v: 1
   quiz: Record<string, QuizAnswer>
@@ -27,10 +41,11 @@ export interface ProgressState {
   notes: Record<string, string>
   maths: Record<string, MathsAnswer>
   review: Record<string, ReviewState>
+  sessions: Record<string, TestSessionState>
 }
 
 function emptyState(): ProgressState {
-  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {}, review: {} }
+  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {}, review: {}, sessions: {} }
 }
 
 let canSave = true
@@ -167,6 +182,50 @@ export const progressStore = {
     commit({ ...state, maths, review })
   },
 
+  /** Returns the existing session for `key` if one is mid-attempt or just
+   * completed, else creates one with a freshly shuffled `order` (via
+   * `newOrder`, e.g. shuffledIndices(poolSize) from lib/shuffle.ts) and
+   * saves it immediately — so a refresh right after starting never
+   * generates a *different* random order than what's already on screen.
+   * The order is never regenerated on its own; only startNewAttempt does
+   * that, deliberately, on request. */
+  getOrStartSession(key: string, newOrder: () => number[]): TestSessionState {
+    const existing = state.sessions[key]
+    if (existing) return existing
+    const session: TestSessionState = { order: newOrder(), position: 0 }
+    commit({ ...state, sessions: { ...state.sessions, [key]: session } })
+    return session
+  },
+  advanceSession(key: string) {
+    const session = state.sessions[key]
+    if (!session) return
+    const position = session.position + 1
+    const done = position >= session.order.length
+    const next: TestSessionState = {
+      ...session,
+      position: Math.min(position, session.order.length - 1),
+      completedAt: done ? Date.now() : session.completedAt,
+    }
+    commit({ ...state, sessions: { ...state.sessions, [key]: next } })
+  },
+  goToSessionPosition(key: string, position: number) {
+    const session = state.sessions[key]
+    if (!session) return
+    commit({
+      ...state,
+      sessions: { ...state.sessions, [key]: { ...session, position } },
+    })
+  },
+  /** Starts a genuinely new attempt — the only place `order` is
+   * regenerated, since a fresh random order is exactly what "new attempt"
+   * means (see the module doc comment on TestSessionState). */
+  startNewAttempt(key: string, newOrder: () => number[]) {
+    commit({
+      ...state,
+      sessions: { ...state.sessions, [key]: { order: newOrder(), position: 0 } },
+    })
+  },
+
   resetAll() {
     try {
       localStorage.removeItem(KEY)
@@ -215,4 +274,11 @@ export function useMathsAnswer(key: string): MathsAnswer | undefined {
 
 export function useStorageAvailable(): boolean {
   return useSyncExternalStore(progressStore.subscribe, () => progressStore.isStorageAvailable())
+}
+
+export function useTestSessionState(key: string): TestSessionState | undefined {
+  return useSyncExternalStore(
+    progressStore.subscribe,
+    () => progressStore.getSnapshot().sessions[key],
+  )
 }

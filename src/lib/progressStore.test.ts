@@ -28,6 +28,7 @@ describe('progressStore', () => {
       notes: {},
       maths: {},
       review: { 's1-quiz#0': { box: 0, dueAt: now + REVIEW_INTERVALS_DAYS[0] * DAY } },
+      sessions: {},
     })
   })
 
@@ -92,6 +93,7 @@ describe('progressStore', () => {
       notes: {},
       maths: {},
       review: {},
+      sessions: {},
     })
     expect(localStorage.getItem(KEY)).toBeNull()
   })
@@ -135,5 +137,66 @@ describe('progressStore', () => {
     const triviaBefore = progressStore.getSnapshot().trivia
     progressStore.setQuizAnswer('s1-quiz#0', 'a', true)
     expect(progressStore.getSnapshot().trivia).toBe(triviaBefore)
+  })
+
+  describe('test sessions', () => {
+    it('getOrStartSession only generates a new order the first time — a second call returns the same session', () => {
+      const first = progressStore.getOrStartSession('maths:n2:test', () => [3, 1, 0, 2])
+      expect(first).toEqual({ order: [3, 1, 0, 2], position: 0 })
+      const second = progressStore.getOrStartSession('maths:n2:test', () => [0, 1, 2, 3])
+      expect(second).toBe(first)
+      expect(second.order).toEqual([3, 1, 0, 2])
+    })
+
+    it('advanceSession moves position forward and only marks completion once advanced past the last item', () => {
+      progressStore.getOrStartSession('maths:n2:test', () => [0, 1, 2])
+      progressStore.advanceSession('maths:n2:test') // viewing item 1 of 3
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].position).toBe(1)
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].completedAt).toBeUndefined()
+
+      progressStore.advanceSession('maths:n2:test') // viewing item 2 of 3 (the last one)
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].position).toBe(2)
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].completedAt).toBeUndefined()
+
+      progressStore.advanceSession('maths:n2:test') // answered the last item -> complete
+      const session = progressStore.getSnapshot().sessions['maths:n2:test']
+      expect(session.position).toBe(2)
+      expect(session.completedAt).toBeDefined()
+    })
+
+    it('advanceSession never advances position past the last item', () => {
+      progressStore.getOrStartSession('maths:n2:test', () => [0, 1])
+      progressStore.advanceSession('maths:n2:test')
+      progressStore.advanceSession('maths:n2:test')
+      progressStore.advanceSession('maths:n2:test')
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].position).toBe(1)
+    })
+
+    it('startNewAttempt regenerates the order and resets position, even mid-attempt', () => {
+      progressStore.getOrStartSession('maths:n2:test', () => [0, 1, 2])
+      progressStore.advanceSession('maths:n2:test')
+      progressStore.startNewAttempt('maths:n2:test', () => [2, 0, 1])
+      expect(progressStore.getSnapshot().sessions['maths:n2:test']).toEqual({
+        order: [2, 0, 1],
+        position: 0,
+      })
+    })
+
+    it('goToSessionPosition jumps directly without touching the order', () => {
+      progressStore.getOrStartSession('maths:n2:test', () => [0, 1, 2])
+      progressStore.goToSessionPosition('maths:n2:test', 2)
+      expect(progressStore.getSnapshot().sessions['maths:n2:test']).toEqual({
+        order: [0, 1, 2],
+        position: 2,
+      })
+    })
+
+    it('sessions for different keys are independent', () => {
+      progressStore.getOrStartSession('maths:n2:test', () => [0, 1])
+      progressStore.getOrStartSession('modern-history:s1:quiz', () => [1, 0])
+      progressStore.advanceSession('maths:n2:test')
+      expect(progressStore.getSnapshot().sessions['maths:n2:test'].position).toBe(1)
+      expect(progressStore.getSnapshot().sessions['modern-history:s1:quiz'].position).toBe(0)
+    })
   })
 })

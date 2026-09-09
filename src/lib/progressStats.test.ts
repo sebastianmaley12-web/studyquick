@@ -3,7 +3,7 @@ import type { ProgressState } from './progressStore'
 import type { MathsTopic } from './content/maths'
 
 function makeProgress(overrides: Partial<ProgressState> = {}): ProgressState {
-  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {}, review: {}, ...overrides }
+  return { v: 1, quiz: {}, trivia: {}, notes: {}, maths: {}, review: {}, sessions: {}, ...overrides }
 }
 
 describe('dueQuizKeys', () => {

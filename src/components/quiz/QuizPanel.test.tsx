@@ -32,7 +32,7 @@ describe('QuizPanel', () => {
 
   it('starts unanswered and locks in a correct answer', async () => {
     const user = userEvent.setup()
-    render(<QuizPanel topicId="s1" questions={questions} />)
+    render(<QuizPanel subject="modern-history" topicId="s1" questions={questions} />)
 
     expect(screen.getByText('Score: 0 correct / 0 answered (of 2)')).toBeInTheDocument()
 
@@ -45,7 +45,7 @@ describe('QuizPanel', () => {
 
   it('paints an incorrect pick and highlights the correct option', async () => {
     const user = userEvent.setup()
-    render(<QuizPanel topicId="s1" questions={questions} />)
+    render(<QuizPanel subject="modern-history" topicId="s1" questions={questions} />)
 
     await user.click(screen.getByRole('button', { name: /1920/ }))
 
@@ -57,7 +57,7 @@ describe('QuizPanel', () => {
 
   it('filters to unanswered and back to all', async () => {
     const user = userEvent.setup()
-    render(<QuizPanel topicId="s1" questions={questions} />)
+    render(<QuizPanel subject="modern-history" topicId="s1" questions={questions} />)
 
     await user.click(screen.getByRole('button', { name: /1919/ }))
     await user.click(screen.getByRole('button', { name: /Unanswered/ }))
@@ -71,7 +71,7 @@ describe('QuizPanel', () => {
 
   it('retry incorrect clears only the wrong answer, leaving the correct one', async () => {
     const user = userEvent.setup()
-    render(<QuizPanel topicId="s1" questions={questions} />)
+    render(<QuizPanel subject="modern-history" topicId="s1" questions={questions} />)
 
     await user.click(screen.getByRole('button', { name: /1919/ })) // correct
     await user.click(screen.getByRole('button', { name: /Trotsky/ })) // wrong
@@ -81,5 +81,30 @@ describe('QuizPanel', () => {
     expect(screen.getByText('Score: 1 correct / 1 answered (of 2)')).toBeInTheDocument()
     // the retried question is unlocked again
     expect(screen.getByRole('button', { name: /Trotsky/ })).not.toBeDisabled()
+  })
+
+  it('test mode shows one question at a time and reaches a results screen', async () => {
+    const user = userEvent.setup()
+    render(<QuizPanel subject="modern-history" topicId="s1" questions={questions} />)
+
+    await user.click(screen.getByRole('button', { name: 'Test mode' }))
+
+    expect(screen.getByText('Question 1 of 2')).toBeInTheDocument()
+    expect(document.querySelectorAll('.qz-question').length).toBe(1)
+
+    // answer whichever question is currently showing, then advance
+    const opts = screen.getAllByRole('button', { name: /1919|1920|Trotsky|Lenin/ })
+    await user.click(opts[0])
+    await user.click(screen.getByRole('button', { name: /Next question/ }))
+
+    expect(screen.getByText('Question 2 of 2')).toBeInTheDocument()
+    const opts2 = screen.getAllByRole('button', { name: /1919|1920|Trotsky|Lenin/ })
+    await user.click(opts2[0])
+    await user.click(screen.getByRole('button', { name: /Finish/ }))
+
+    expect(screen.getByText('Quiz — complete')).toBeInTheDocument()
+
+    await user.click(screen.getByRole('button', { name: 'Back to topic' }))
+    expect(screen.getByText(/answered \(of 2\)/)).toBeInTheDocument()
   })
 })

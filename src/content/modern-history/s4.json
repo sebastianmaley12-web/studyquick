@@ -77,6 +77,46 @@
         "bank": "Stimulus",
         "tag": "Source C — Adapted eyewitness recollection, Soweto, June 1976 (composite, for practice use)",
         "bodyHtml": "\"We were walking from Orlando West to join the other schools, carrying our placards about Afrikaans in the classroom. None of us expected police vehicles to be waiting at the intersection. When the first shots rang out, students scattered, but by the afternoon the crowds had reformed — angrier, and no longer just about the language issue.\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source O — Photograph, a family awaiting relocation from Sophiatown, 1955",
+        "bodyHtml": "A family sits with their possessions — a mattress, a basin, bundled belongings — in front of a partly demolished house, waiting to be relocated. Removals from Sophiatown, one of the few areas where Black South Africans could own land, began on 9 February 1955 under the Natives Resettlement Act (1954); the area was later rebuilt as a white suburb renamed Triomf."
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source P — Nelson Mandela, Long Walk to Freedom, 2013 edition, p. 118",
+        "bodyHtml": "\"Mass action was perilous in South Africa, where it was a criminal offence to strike, and where the rights of free speech and movement were unmercifully curtailed. By striking, an African worker stood to not only lose his job but his entire livelihood and the right to stay in the area he was living.\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source Q — Eyewitness testimonies from Sharpeville, quoted in Tom Lodge, Sharpeville: An Apartheid Massacre and its Consequences, 2011, pp. 12–13",
+        "bodyHtml": "Testimony of eyewitness Carlton Monnakgotla: \"I stood frozen, couldn't believe what was happening. Then I saw the bodies and people fleeing. Right in front of me a pregnant woman was shot. Her unborn baby fell out of her stomach and the next bullet got her. Horrible.\"\nTestimony of eyewitness Ruben Rapoetsoe: \"[W]hen I passed the police station again I heard officers shouting: 'Where is your land now, kaffirs? Where is your land now?' … During the shooting, there was a man who, despite the bullets, ran straight towards the police station, shouting: 'It's enough, you've shot enough!' He was shot moments later.\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source R — A Free Nelson Mandela Campaign poster, 1988, published by The Pyramid Complex, Washington D.C.",
+        "bodyHtml": "Mandela's face is imposed onto a map of Africa, beneath the words \"Must Be Set Free!!!\" in bold red text — the demand for his release presented as a cause for the whole continent, not South Africa alone."
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source S — Peter Gabriel, 'Biko', 1980 — a musical eulogy and anti-apartheid song",
+        "bodyHtml": "\"September '77 / Port Elizabeth weather fine / It was business as usual / In police room 619 … Yihla Moja, Yihla Moja — the man is dead … You can blow out a candle / But you can't blow out a fire / Once the flames begin to catch / The wind will blow it higher … And the eyes of the world are watching now.\" ('Yihla Moja' is Xhosa for 'come spirit'.)"
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source T — Truth and Reconciliation Commission, 'The Former South African Government and its Security Forces', 1998",
+        "bodyHtml": "\"The Truth and Reconciliation Commission (the Commission) found the state — and in particular its security agencies and affiliated policy and strategy formulation committees and councils — to be the primary perpetrators of gross violations of human rights committed during the thirty-four years it was mandated to investigate [1960–94].\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source U — Photograph, a young boy at an AWB rally, Rustenburg, 1994",
+        "bodyHtml": "A young boy prays during a rally of the Afrikaner Weerstandsbeweging (AWB). The flag behind him carries the AWB's three-sevens emblem, deliberately styled on the Nazi swastika."
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source V — Nelson Mandela on South African military incursions",
+        "bodyHtml": "\"In 1981, the South African Defence Force launched a raid on ANC offices in Maputo, Mozambique, killing thirteen of our people, including women and children. In December 1982 … the South African military again attacked an ANC outpost in Maseru, Lesotho, killing forty-two people, including a dozen women and children.\""
       }
     ],
     "groups": [
@@ -215,6 +255,93 @@
             "badge": "6 marks · ~10 min",
             "questionHtml": "Explain the role of student and civic organisations in sustaining resistance to apartheid during the 1980s.",
             "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Structure &amp; evidence</span>\n            <ol>\n              <li><b>Student organisation:</b> school boycotts and student representative structures kept education-related grievances active a decade on from Soweto, feeding into bodies such as the Congress of South African Students (COSAS, founded 1979).</li>\n              <li><b>Civic organisations:</b> township-based civic associations organised around local issues — rent, services, transport — turning everyday grievances into sustained collective action.</li>\n              <li><b>Coordination:</b> many of these bodies affiliated with the UDF from <span class=\"stat\">1983</span>, giving local activism a national political dimension and enabling coordinated national campaigns rather than isolated local protests.</li>\n            </ol>\n          </div>\n        </div>"
+          }
+        ]
+      },
+      {
+        "bank": "Stimulus",
+        "number": "06",
+        "title": "Section IV Source Set — Sources O–V",
+        "questions": [
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Describe",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Describe the differing visions of democracy held by the National Party and the African National Congress.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Afrikaner Nationalists framed apartheid as a divinely sanctioned duty, reinforced by the Dutch Reformed Church and by 'scientific racism' — democracy defined by race rather than by the whole population.</li>\n            <li>The Native Representation Act (1936) removed Africans from the common voters' roll entirely, and the 1983 Tricameral Parliament allocated 178 seats to whites, 85 to Coloureds and 45 to Indians, with none for Africans — the National Party's vision put into practice.</li>\n            <li>Verwoerd, addressing London in 1961: <i>\"We do not only want to ensure white survival. We seek a solution which will ensure survival and full development... to each of the other racial groups\"</i> — separate development presented as democracy, not its denial.</li>\n            <li>The ANC, formed in 1912, campaigned for a single non-racial democracy; the Freedom Charter (1955) declared <i>\"The people shall govern... All national groups shall have equal rights... All shall be equal before the law.\"</i></li>\n            <li>Mandela, 1964: <i>\"I have fought against white domination, and I have fought against black domination\"</i> — rejecting both minority rule and majority tyranny, in contrast to Sobukwe's PAC, which called for <i>\"Government of the Africans by the Africans and for the Africans.\"</i></li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Describe",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Describe the methods of repression used by the South African government to control opposition.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li><b>Legal repression:</b> the Suppression of Communism Act (1950) allowed any resistance to be classified as communism, and the General Law Amendment Act (1963) permitted 90 days' detention without charge or a lawyer, repeatable indefinitely.</li>\n            <li><b>Physical repression:</b> military personnel grew from <span class=\"stat\">106,000</span> in 1961 to <span class=\"stat\">592,000</span> in 1981, and around <span class=\"stat\">30,000</span> people had been detained by 1988; units such as Koevoet received bounty payments for killing suspected guerrillas.</li>\n            <li><b>Control of information:</b> the Protection of Information Act meant an arrest could not be reported unless the press could prove it endangered no state security, and the newspaper <i>The World</i> was closed in 1977.</li>\n            <li><b>Everyday control:</b> pass laws produced up to <span class=\"stat\">500,000</span> arrests each year, and the Bantustan system divided Africans along ethnic lines to weaken a unified African identity.</li>\n            <li>Historians Clark and Worger judged that the legal system vested so many powers in the police rather than the courts that the country <i>\"operated for most of its inhabitants as a police state.\"</i></li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Describe",
+            "badge": "5 marks · ~8 min",
+            "questionHtml": "Describe the changes in South African society between 1960 and 1994.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li><b>Where people lived:</b> the homelands' share of the population rose from 39% (4.4 million) in 1960 to 53% (11 million) in 1980, though only around one third of Black South Africans ever actually lived in the Bantustans.</li>\n            <li><b>Who organised:</b> trade unions were recognised under Total Strategy, and COSATU reached 500,000 members, with over 1 million workdays lost to strikes in 1986; authority also moved into township hands through people's courts and street committees.</li>\n            <li><b>White society fractured:</b> the Herstigte Nasionale Party broke away in 1968, and by 1987 the Conservative Party won 26% of the vote and 37% of the Afrikaner vote.</li>\n            <li><b>The law was dismantled rapidly at the end:</b> the ANC, PAC and SACP were unbanned and the Separate Amenities Act repealed in 1990, and the Group Areas Act followed in 1991; the April 1994 election drew 91% turnout.</li>\n            <li>But social structure outlived the laws: the bottom 40% of the population still earned only 6% of national income after apartheid ended.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Source O",
+            "badge": "8 marks · ~12 min",
+            "questionHtml": "With reference to Source O and your own knowledge, explain the impact of forced removals on Black South African communities.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Source O shows a family and their possessions in front of a gutted house — the domestic scale of forced removal, made visible at the level of one household rather than described only in hectares or percentages.</li>\n            <li>Sophiatown was one of the few areas where Black South Africans could own land; removals began on 9 February 1955 under the Natives Resettlement Act (1954), and the area was rebuilt as a white suburb renamed Triomf.</li>\n            <li>The policy rested on the Natives Land Act (1913), which restricted Africans to 8% of the country (raised to 13% in 1936), and the Group Areas Act (1950), which redrew urban boundaries around racial lines.</li>\n            <li>The homelands' population grew from 4.4 million (39%) in 1960 to 11 million (53%) in 1980, with population densities of up to 298 per square kilometre in areas with poor soil and minimal infrastructure.</li>\n            <li>The Black Homelands Citizenship Act (1970) revoked South African citizenship for people assigned to a homeland, and infant mortality was around thirteen times higher for African and Coloured children than for white children.</li>\n            <li>Source O dates from 1955, at the very start of the period under investigation — of high value for illustrating the human scale of removals, though it should be read alongside evidence of the policy's growth over the following decades.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Source T",
+            "badge": "8 marks · ~12 min",
+            "questionHtml": "With reference to Source T and your own knowledge, explain the impact of the South African government's use of state terror.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Source T, the Truth and Reconciliation Commission's 1998 report, found the state and <i>\"in particular its security agencies and affiliated policy and strategy formulation committees and councils\"</i> to be the primary perpetrators of gross human rights violations across the 34 years it investigated (1960–94) — establishing that repression was policy, not the excesses of rogue officers.</li>\n            <li><b>Impact 1 — it worked:</b> after Sharpeville, the ANC and PAC were banned within nine days and a state of emergency allowed 11,000 detentions; Steve Biko was detained without charge for 137 days and died in custody on 12 September 1977, with no officer charged with his murder at the time.</li>\n            <li><b>Impact 2 — it was self-defeating:</b> Mandela founded MK after Sharpeville on the basis that <i>\"violence was the only weapon that would destroy apartheid\"</i>, and the Soweto Uprising of 16 June 1976, in which as many as 700 students were killed, has been described as a turning point that helped end apartheid.</li>\n            <li>Nationwide states of emergency from 1986, which left 600 dead in their first six months, fuelled resentment rather than restoring order, and the combined cost of military spending and disinvestment meant 14% of all government spending went on debt repayments by 1988.</li>\n            <li>The TRC itself found over <span class=\"stat\">20,000</span> victims of gross human rights abuse and granted amnesty to only 849 of 5,392 applicants — evidence, from the state's own post-apartheid inquiry, of both the scale of state terror and its ultimate cost.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Sources Q & S",
+            "badge": "8 marks · ~12 min",
+            "questionHtml": "Using Sources Q and S, explain how the deaths of protestors and activists shaped resistance to apartheid.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Source Q, eyewitness testimony from Sharpeville, describes police continuing to fire after resistance had stopped — corroborated by the TRC's finding that protestors were acting peacefully and police <i>\"were not used to being disobeyed.\"</i></li>\n            <li>Sharpeville (69 killed, 180 injured) led directly to the ANC and PAC being banned and to the founding of MK in 1961 by Mandela, Sisulu and Slovo, and of the PAC's Poqo, <i>\"the first black political organisation in South Africa that openly accepted the taking of human life as part of its strategy\"</i> — the deaths ended non-violent protest as a viable strategy inside South Africa.</li>\n            <li>Source S, Peter Gabriel's 1980 song 'Biko', names the room of Biko's death (<i>\"In police room 619\"</i>) and argues that killing an activist strengthens rather than ends a movement: <i>\"You can blow out a candle / But you can't blow out a fire.\"</i></li>\n            <li>Biko's death drew condemnation from the UN and the US Congress, showing that Source S's closing line — <i>\"the eyes of the world are watching now\"</i> — reflected a real change in resistance's audience, from domestic to international.</li>\n            <li>The two sources show resistance changing in two different ways twenty years apart: Q shows a change in method inside South Africa in 1960, while S shows a change in audience abroad by 1980 — though Source S, a song written by a British musician three years after Biko's death, is evidence of international reaction rather than of the event itself.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Source V",
+            "badge": "8 marks · ~12 min",
+            "questionHtml": "With reference to Source V and your own knowledge, explain the changing nature of relations between South Africa and its neighbouring countries.",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Source V, Mandela's account of South African military incursions, describes the 1981 SADF raid on ANC offices in Maputo, Mozambique (killing thirteen) and the December 1982 attack on an ANC outpost in Maseru, Lesotho (killing forty-two) — two raids twenty months apart, evidence of a standing policy rather than an isolated act.</li>\n            <li>Relations changed as neighbouring countries gained independence — Zambia in 1964, Botswana and Lesotho in 1966, Angola and Mozambique in 1975 — and the ANC and PAC, banned at home, began operating from these states; MK established its central headquarters in Angola in 1976.</li>\n            <li>Under Botha's 'Total Strategy', the SADF's policy of Forward Defence carried out cross-border raids and was responsible for over 40 assassinations, deaths and abductions outside South Africa, while South Africa also armed the Mozambique National Resistance to destabilise the Mozambican government.</li>\n            <li>Agreements such as the Nkomati Accord (16 March 1984), in which South Africa agreed to stop intervening in Mozambique in exchange for Mozambique ending support for the ANC, were tactical and were broken.</li>\n            <li>Relations changed decisively only once international sanctions made destabilisation unaffordable: South Africa recognised SWAPO as the legitimate representative of Namibia in 1988 and conceded Namibian independence in 1990, showing that economic pressure, not diplomacy, ended the policy Source V describes.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Extended response · Source P",
+            "badge": "12 marks · ~20 min",
+            "questionHtml": "To what extent did resistance to apartheid change between 1960 and 1994? In your answer, refer to Source P.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">Resistance to apartheid changed almost completely in its methods, its social base and its arena of action — moving from a legalistic, urban and elite campaign to an armed, mass and international one — but its stated aim never changed at all, and that continuity of aim is what made a negotiated settlement possible in 1994.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — Source P and the starting point</span>\n            <p class=\"para-text\">Source P, Mandela's account in <i>Long Walk to Freedom</i>, explains why early resistance was cautious: mass action was \"perilous in South Africa, where it was a criminal offence to strike, and where the rights of free speech and movement were unmercifully curtailed,\" and striking risked \"not only [an African worker's] job but his entire livelihood and the right to stay in the area he was living.\" The ANC was at first unwilling to use mass demonstrations or violent methods, and the Defiance Campaign of 1952, which deliberately overloaded the courts by breaking pass laws, saw up to <span class=\"stat\">8,000</span> arrests and ultimately failed — though it grew ANC membership from 7,000 to 100,000 and produced the Freedom Charter of 1955.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — change in methods</span>\n            <p class=\"para-text\">Sharpeville, 21 March 1960, in which 69 protestors were killed and 180 injured, was the moment legal protest effectively ceased to exist: the ANC and PAC were banned within nine days. Mandela founded MK in 1961 to sabotage government infrastructure \"to convince the government that apartheid was too expensive to pursue,\" while the PAC's Poqo openly accepted killing as a tactic. This should be balanced against the fact that MK's attacks rose from 136 in 1985 to 228 in 1986 but \"were never really a threat to the government\" militarily — armed struggle mattered symbolically more than it did militarily.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — change in base and arena</span>\n            <p class=\"para-text\">The Soweto Uprising of 16 June 1976 involved around 20,000 school students, showing resistance had become generational and could no longer be decapitated by banning a single leadership; Biko's Black Consciousness Movement asked Black South Africans to remake their own identity after \"300 years of deliberate oppression, denigration and derision.\" By the mid-1980s, COSATU had 500,000 members and lost over 1 million workdays to strikes in 1986, and the UDF, formed in 1983, coordinated over 1,000 affiliated organisations under Tambo's call to \"make apartheid unworkable! Make the country ungovernable!\" Resistance also moved abroad: the Free Mandela Campaign, launched in 1980, culminated in the Wembley concert of 11 June 1988, attended by 92,000 people and broadcast globally by the BBC, while consumer boycotts drove 250 companies out of South Africa by 1987.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">Despite this transformation, the Freedom Charter of 1955 was formally adopted by both the UDF and COSATU by 1987, and on his release in February 1990 Mandela repeated, almost verbatim, the words he had used at his 1964 trial: \"I have fought against white domination, and I have fought against black domination.\" Resistance to apartheid therefore changed almost completely in method, social base and arena of action — but not at all in its underlying aim, which is why negotiation, rather than the outright victory of one side, was ultimately possible.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Sources R & U",
+            "badge": "12 marks · ~20 min",
+            "questionHtml": "Using Sources R and U and your own knowledge, assess the problems faced by South Africa in the transition to democracy.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">The transition's central problem is framed by the two sources at its extremes: Source R shows the weight of expectation built around Mandela over a decade of international campaigning, while Source U shows an armed white constituency that rejected the settlement outright; the transition succeeded because neither pole was allowed to destroy it, and because Mandela and de Klerk each spent their own authority restraining their own side.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — Source R, the problem of expectation</span>\n            <p class=\"para-text\">Source R, a 1988 Free Nelson Mandela poster published in Washington D.C., imposes Mandela's face onto a map of Africa beneath the words \"Must Be Set Free!!!\" — evidence of a campaign, launched by Tambo in 1980, that had grown to include a petition of 20,000 mayors' names and the Wembley concert of 11 June 1988, attended by 92,000 people. The South African government made it a crime to carry or promote Mandela's image, and Albertina Sisulu stated bluntly: \"As long as the government won't release Mandela, there will be no peace in this country.\" Mandela himself refused early release on condition of renouncing violence, insisting \"only free men can negotiate. Prisoners cannot enter into contracts\" — so by 1990, expectations of his release, and of what it would deliver, were immense.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — Source U, the problem of rejection</span>\n            <p class=\"para-text\">Source U, a 1994 photograph of a child at an AWB rally in Rustenburg holding the movement's three-sevens flag — deliberately styled on the Nazi swastika — shows that rejection of the settlement was ideological as well as electoral, and extended to the next generation. The AWB's leader, Terre'Blanche, encouraged whites to oppose every measure de Klerk introduced and led bombing campaigns and an attempt to assassinate Mandela; the AWB was the extreme edge of a wider fracture in Afrikaner politics, evident in the Conservative Party's 26% of the vote (and 37% of the Afrikaner vote) in 1987.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — other problems, and how they were overcome</span>\n            <p class=\"para-text\">Political violence killed 3,600 people in 1990 alone, including 46 at Boipatong in June 1992, and negotiations at CODESA collapsed more than once over who would control the armed forces during the transition. These problems were overcome through a sequence of agreements — the Groote Schuur Minute (May 1990), the National Peace Accord (1991) and the CODESA II deal of November 1993 — and through de Klerk's March 1992 referendum, in which 68% of white voters backed continued reform, directly answering the threat shown in Source U. The settlement itself, with 400 seats decided by proportional representation and a five-year Government of National Unity guaranteed to any party winning 5% of the vote, was designed specifically to reassure the side that had lost.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">The April 1994 election ran over four days with 91% turnout and passed, remarkably, peacefully given the violence that preceded it. Historian Tom Lodge's explanation for this outcome — changed perceptions, changed white thinking, violence proving compromise necessary, both sides retaining control of their own armed forces, and capable leadership on both sides — is best understood through Sources R and U together: the transition satisfied enough of the expectation in Source R, and contained enough of the rejection in Source U, that neither destroyed the settlement.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Extended response · Source R",
+            "badge": "12 marks · ~20 min",
+            "questionHtml": "Evaluate the effectiveness of international responses in bringing about the end of apartheid. In your answer, refer to Source R.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Introduction — Thesis</span>\n            <p class=\"para-text thesis\">International responses to apartheid were largely symbolic, and therefore only marginally effective, for around twenty-five years; they became decisive only once they became economic, because the apartheid state could survive being condemned but not being made unaffordable.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 1 — Source R and the symbolic campaign</span>\n            <p class=\"para-text\">Source R, a Free Nelson Mandela poster published in Washington D.C. in 1988 — the same year the Wembley concert drew 92,000 people and a global BBC broadcast — is evidence of an international campaign that had been building since Tambo launched it in 1980 and had gathered a petition of 20,000 mayors' names. That the South African government made it a crime to carry or promote Mandela's image is itself a measure of how much the campaign unsettled the regime; but Source R is a poster, not a sanction, and shows public pressure rather than the mechanism that actually forced change.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 2 — early responses had limited effect</span>\n            <p class=\"para-text\">The UN Security Council passed Resolution 134 within eleven days of Sharpeville in 1960, condemning the massacre, yet foreign investors returned to South Africa within a short time, still drawn by cheap labour — showing that condemnation without economic cost changed very little in the earlier period.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Body Paragraph 3 — responses became decisive once they were economic</span>\n            <p class=\"para-text\">By contrast, the sanctions and disinvestment campaigns of the mid-1980s had a measurable economic effect: US investment in South Africa fell by around 40% after the 1986 sanctions law, and roughly 250 international companies withdrew from South Africa by 1987. Combined with the cost of Total Strategy and cross-border military operations, this contributed to a 1985 debt crisis, a 35% depreciation of the Rand, and growth of only around 1.5% by 1989 — pressure severe enough to affect white South Africans' confidence, including that of a future president, de Klerk, that apartheid could still protect their own economic interests.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Conclusion — Judgement</span>\n            <p class=\"para-text\">Judged across the full period, international responses to apartheid were consistently vocal but not consistently effective — Source R captures the campaign at its most visible, in 1988, yet the shift from condemnation to compliance came only once measures like the 1986 sanctions law and mass disinvestment made apartheid economically unsustainable, confirming that effectiveness tracked economic cost far more closely than moral outrage.</p>\n          </div>\n        </div>"
           }
         ]
       },
@@ -1278,10 +1405,22 @@
       "answer": "c",
       "questionHtml": "What was the primary purpose of the Bantustan (\"homeland\") policy?",
       "options": [
-        { "opt": "a", "textHtml": "To give Black South Africans full political independence" },
-        { "opt": "b", "textHtml": "To increase Black South Africans' share of national income" },
-        { "opt": "c", "textHtml": "To fragment Black South Africans into separate ethnic \"nations\" and undercut unified resistance" },
-        { "opt": "d", "textHtml": "To relocate the white population outside major cities" }
+        {
+          "opt": "a",
+          "textHtml": "To give Black South Africans full political independence"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To increase Black South Africans' share of national income"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To fragment Black South Africans into separate ethnic \"nations\" and undercut unified resistance"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To relocate the white population outside major cities"
+        }
       ]
     },
     {
@@ -1289,10 +1428,22 @@
       "answer": "b",
       "questionHtml": "Which factor do most historians regard as the most decisive in ending apartheid?",
       "options": [
-        { "opt": "a", "textHtml": "A sudden change in Afrikaner religious belief" },
-        { "opt": "b", "textHtml": "Economic collapse driven by sanctions, disinvestment and military spending" },
-        { "opt": "c", "textHtml": "A unilateral decision by the United Nations Security Council" },
-        { "opt": "d", "textHtml": "The outbreak of full-scale civil war" }
+        {
+          "opt": "a",
+          "textHtml": "A sudden change in Afrikaner religious belief"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Economic collapse driven by sanctions, disinvestment and military spending"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A unilateral decision by the United Nations Security Council"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The outbreak of full-scale civil war"
+        }
       ]
     },
     {
@@ -1300,10 +1451,22 @@
       "answer": "a",
       "questionHtml": "What did de Klerk's speech of 2 February 1990 announce?",
       "options": [
-        { "opt": "a", "textHtml": "Unbanning the ANC, PAC and SACP, and the release of political prisoners" },
-        { "opt": "b", "textHtml": "South Africa's withdrawal from the United Nations" },
-        { "opt": "c", "textHtml": "The introduction of the Tricameral Parliament" },
-        { "opt": "d", "textHtml": "A permanent State of Emergency across all provinces" }
+        {
+          "opt": "a",
+          "textHtml": "Unbanning the ANC, PAC and SACP, and the release of political prisoners"
+        },
+        {
+          "opt": "b",
+          "textHtml": "South Africa's withdrawal from the United Nations"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The introduction of the Tricameral Parliament"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A permanent State of Emergency across all provinces"
+        }
       ]
     }
   ]

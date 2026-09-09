@@ -4,12 +4,22 @@ import { useProgress } from '../../lib/progressStore'
 import { triviaKey } from '../../lib/keys'
 import { onRevealRequest } from '../../lib/searchRevealBus'
 import { TriviaCard } from './TriviaCard'
+import { TriviaTest } from './TriviaTest'
 
 type Filter = 'all' | 'shaky'
 
-export function TriviaGrid({ topicId, cards }: { topicId: string; cards: HistoryTriviaCard[] }) {
+export function TriviaGrid({
+  subject,
+  topicId,
+  cards,
+}: {
+  subject: string
+  topicId: string
+  cards: HistoryTriviaCard[]
+}) {
   const progress = useProgress()
   const [filter, setFilter] = useState<Filter>('all')
+  const [testMode, setTestMode] = useState(false)
   // cards already rated start revealed, matching the original's initial-render behavior
   const [revealed, setRevealed] = useState<Set<number>>(() => {
     const initial = new Set<number>()
@@ -43,6 +53,17 @@ export function TriviaGrid({ topicId, cards }: { topicId: string; cards: History
     })
   }, [topicId])
 
+  if (testMode) {
+    return (
+      <TriviaTest
+        subject={subject}
+        topicId={topicId}
+        cards={cards}
+        onExit={() => setTestMode(false)}
+      />
+    )
+  }
+
   return (
     <>
       <div className="trivia-toolbar">
@@ -50,6 +71,9 @@ export function TriviaGrid({ topicId, cards }: { topicId: string; cards: History
           {cards.length} quick-fire questions &middot; tap a card to reveal the answer
         </span>
         <div className="trivia-actions">
+          <button type="button" className="btn on" onClick={() => setTestMode(true)}>
+            Test mode
+          </button>
           <button
             type="button"
             className={`btn ${filter === 'all' ? 'on' : ''}`}

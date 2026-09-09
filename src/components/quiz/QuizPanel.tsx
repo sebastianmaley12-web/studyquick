@@ -3,17 +3,21 @@ import type { HistoryQuizQuestion } from '../../lib/content/modernHistory'
 import { progressStore, useProgress } from '../../lib/progressStore'
 import { quizKey } from '../../lib/keys'
 import { QuizQuestion } from './QuizQuestion'
+import { QuizTest } from './QuizTest'
 
 type Filter = 'all' | 'wrong' | 'none'
 
 export function QuizPanel({
+  subject,
   topicId,
   questions,
 }: {
+  subject: string
   topicId: string
   questions: HistoryQuizQuestion[]
 }) {
   const [filter, setFilter] = useState<Filter>('all')
+  const [testMode, setTestMode] = useState(false)
   const progress = useProgress()
   const qids = questions.map((_, i) => quizKey(topicId, i))
 
@@ -47,12 +51,26 @@ export function QuizPanel({
     setFilter('all')
   }
 
+  if (testMode) {
+    return (
+      <QuizTest
+        subject={subject}
+        topicId={topicId}
+        questions={questions}
+        onExit={() => setTestMode(false)}
+      />
+    )
+  }
+
   return (
     <>
       <div className="quiz-toolbar">
         <span className="quiz-score">
           Score: {right} correct / {answered} answered (of {questions.length})
         </span>
+        <button type="button" className="btn on" onClick={() => setTestMode(true)}>
+          Test mode
+        </button>
       </div>
       <div className="tool">
         <button

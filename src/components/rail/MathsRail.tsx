@@ -65,7 +65,7 @@ function MSection({
             onClick={() => navigate(`/subjects/maths/${topic.slug}/${res}`)}
           >
             {MATHS_RESOURCE_LABELS[res]}
-            {res === 'practice' && (
+            {res === 'test' && (
               <span className="rc">
                 {stats.right}/{stats.total}
               </span>

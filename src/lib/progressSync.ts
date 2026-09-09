@@ -19,6 +19,7 @@ function mergeState(remote: ProgressState, local: ProgressState): ProgressState 
     notes: { ...remote.notes, ...local.notes },
     maths: { ...remote.maths, ...local.maths },
     review: { ...remote.review, ...local.review },
+    sessions: { ...remote.sessions, ...local.sessions },
   }
 }
 

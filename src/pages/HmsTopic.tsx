@@ -113,8 +113,12 @@ export function HmsTopic() {
                   ))}
                 </>
               )}
-              {resource === 'quiz' && <QuizPanel topicId={topicId} questions={data.quiz} />}
-              {resource === 'trivia' && <TriviaGrid topicId={topicId} cards={data.trivia} />}
+              {resource === 'quiz' && (
+                <QuizPanel subject="hms" topicId={topicId} questions={data.quiz} />
+              )}
+              {resource === 'trivia' && (
+                <TriviaGrid subject="hms" topicId={topicId} cards={data.trivia} />
+              )}
               {resource === 'practice' && (
                 <PracticeSection topicId={topicId} practice={data.practice} />
               )}

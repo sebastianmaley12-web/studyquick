@@ -6236,3 +6236,866 @@ footer {
 .dash-inline-error {
   margin: -20px 0 24px;
 }
+
+/* =========================================================================
+   MATHS V2 PROTOTYPE — src/components/maths/v2/*, src/pages/MathsPrototype.tsx
+   Stage B of the Maths presentation rework: NOT wired into any real topic
+   page yet. Reuses the same colour/shadow tokens as the rest of the app
+   (--blue/--ink/--surface/--edge/--shadow-*) plus the existing --net
+   (Networks strand accent) for diagrams, so it reads as the same product,
+   just a higher tier of polish.
+   ========================================================================= */
+
+.mx-shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 40px 18px 100px;
+}
+
+@media (min-width: 621px) {
+  .mx-shell {
+    padding: 56px 26px 120px;
+  }
+}
+
+.mx-shell-head {
+  margin-bottom: 8px;
+}
+
+.mx-shell-head .eyebrow {
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--net);
+  margin-bottom: 10px;
+  display: block;
+}
+
+.mx-shell-head h1 {
+  margin: 0 0 10px;
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--ink);
+}
+
+.mx-shell-head p {
+  margin: 0 0 40px;
+  font-size: 14.5px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: 62ch;
+}
+
+/* ---- question card ---- */
+.mx-card {
+  background: var(--surface);
+  border: 1px solid var(--edge);
+  border-radius: 20px;
+  padding: 28px 26px 26px;
+  margin-bottom: 28px;
+  box-shadow: var(--shadow-md);
+  transition: border-color 0.2s ease;
+}
+
+@media (min-width: 621px) {
+  .mx-card {
+    padding: 34px 36px 32px;
+  }
+}
+
+.mx-card.right {
+  border-color: var(--ok-line);
+}
+
+.mx-card.wrong {
+  border-color: var(--no-line);
+}
+
+.mx-card-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 22px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--edge);
+}
+
+.mx-card-n {
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.mx-card-marks {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  background: rgba(11, 18, 32, 0.045);
+  border-radius: 999px;
+  padding: 5px 12px;
+}
+
+.mx-card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+
+.mx-paragraph {
+  margin: 0;
+  font-size: 16.5px;
+  line-height: 1.65;
+  color: var(--ink);
+}
+
+.mx-equation {
+  overflow-x: auto;
+  padding: 18px 22px;
+  background: var(--paper);
+  border: 1px solid var(--edge);
+  border-radius: 14px;
+  font-size: 19px;
+}
+
+.mx-equation .katex-display {
+  margin: 0;
+}
+
+.mx-equation-inline .katex {
+  font-size: 1.05em;
+}
+
+/* ---- shared diagram frame (network / graph / geometry / table) ---- */
+.mx-diagram-frame {
+  display: flex;
+  /* flex-start, not center: a centered flex item that overflows its
+     container clips its *start* instead of scrolling to reveal it (a
+     well-known flexbox gotcha) — .mx-network/.mx-graph/.mx-geometry
+     self-center via margin:auto below instead, which centers when there's
+     room and scrolls cleanly from the true start when there isn't. */
+  justify-content: flex-start;
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--edge);
+  border-radius: 16px;
+  overflow-x: auto;
+}
+
+.mx-network,
+.mx-graph,
+.mx-geometry {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* Layered (directed) networks can be wider than they are tall — shrinking
+ * one to fit a phone's width would make vertex labels unreadable, so it
+ * renders at a fixed, legible pixel size instead and scrolls horizontally
+ * inside .mx-diagram-frame (same pattern as .mx-table-scroll) rather than
+ * shrinking. Never exceeds the frame on desktop since max-width still caps
+ * it there. */
+.mx-network-wide {
+  flex: none;
+  max-width: none;
+  height: auto;
+  margin: 0;
+}
+
+.mx-edge {
+  stroke: var(--ink-faint);
+  stroke-width: 2;
+}
+
+.mx-edge-highlight {
+  stroke: var(--net);
+  stroke-width: 3.5;
+}
+
+.mx-weight-bg {
+  fill: var(--paper);
+  stroke: var(--edge-strong);
+  stroke-width: 1;
+}
+
+.mx-weight-text {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--ink);
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.mx-vertex {
+  fill: var(--surface);
+  stroke: var(--net);
+  stroke-width: 2.5;
+}
+
+.mx-vertex-text {
+  font-size: 12px;
+  font-weight: 800;
+  fill: var(--ink);
+  text-anchor: middle;
+  dominant-baseline: middle;
+}
+
+.mx-grid {
+  stroke: var(--edge);
+  stroke-width: 1;
+}
+
+.mx-axis {
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+}
+
+.mx-tick {
+  font-size: 10px;
+  fill: var(--ink-faint);
+  text-anchor: middle;
+}
+
+.mx-tick-y {
+  text-anchor: end;
+}
+
+.mx-line {
+  stroke: var(--blue);
+  stroke-width: 2.5;
+}
+
+.mx-point {
+  fill: var(--blue);
+  stroke: var(--surface);
+  stroke-width: 2;
+}
+
+.mx-point-label {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--ink);
+}
+
+.mx-solid-fill {
+  fill: rgba(37, 99, 235, 0.07);
+}
+
+.mx-solid-side {
+  stroke: var(--blue);
+  stroke-width: 2;
+}
+
+.mx-solid-top {
+  fill: var(--surface);
+  stroke: var(--blue);
+  stroke-width: 2;
+}
+
+.mx-dim-line {
+  stroke: var(--ink-faint);
+  stroke-width: 1.2;
+}
+
+.mx-dim-label {
+  font-size: 12px;
+  font-weight: 700;
+  fill: var(--ink-soft);
+  text-anchor: middle;
+}
+
+.mx-dim-label-v {
+  text-anchor: start;
+}
+
+/* ---- table block ---- */
+.mx-table-frame {
+  display: block;
+  padding: 4px;
+}
+
+.mx-table-caption {
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  padding: 10px 14px 0;
+}
+
+.mx-table-scroll {
+  overflow-x: auto;
+}
+
+.mx-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.mx-table th,
+.mx-table td {
+  padding: 11px 16px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.mx-table th {
+  font-weight: 700;
+  color: var(--ink);
+  background: rgba(180, 83, 9, 0.07);
+  border-bottom: 2px solid var(--net);
+}
+
+.mx-table td {
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--edge);
+}
+
+.mx-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* ---- working area (steps + scratch) ---- */
+.mx-working {
+  margin-bottom: 26px;
+  padding: 18px 20px;
+  background: var(--paper);
+  border-radius: 14px;
+}
+
+.mx-working-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  margin-bottom: 10px;
+}
+
+.mx-steps-toggle {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--blue);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.mx-steps {
+  list-style: none;
+  margin: 0 0 14px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.mx-steps li {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 13.5px;
+}
+
+.mx-step-label {
+  color: var(--ink-soft);
+  flex: 0 0 auto;
+}
+
+.mx-scratch {
+  width: 100%;
+  border: 1.5px dashed var(--edge-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  padding: 12px 14px;
+  font: inherit;
+  font-size: 13.5px;
+  color: var(--ink);
+  resize: vertical;
+}
+
+.mx-scratch:focus {
+  outline: none;
+  border-color: var(--blue);
+}
+
+/* ---- answer area ---- */
+.mx-answer-label {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 10px;
+}
+
+.mx-answer-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.mx-answer-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid var(--edge-strong);
+  border-radius: 12px;
+  padding: 10px 16px;
+  background: var(--surface);
+  transition: border-color 0.15s ease;
+}
+
+.mx-answer-box:focus-within {
+  border-color: var(--blue);
+}
+
+.mx-card.right .mx-answer-box {
+  border-color: var(--ok);
+  background: var(--ok-bg);
+}
+
+.mx-card.wrong .mx-answer-box {
+  border-color: var(--no);
+  background: var(--no-bg);
+}
+
+.mx-pre,
+.mx-unit {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--ink-soft);
+}
+
+.mx-answer-box input {
+  border: none;
+  background: transparent;
+  font: inherit;
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--ink);
+  width: 110px;
+  text-align: center;
+}
+
+.mx-answer-box input:focus {
+  outline: none;
+}
+
+.mx-check {
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  background: var(--blue);
+  border: none;
+  border-radius: 10px;
+  padding: 11px 22px;
+  cursor: pointer;
+}
+
+.mx-check:hover {
+  background: #1d4ed8;
+}
+
+.mx-check:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.mx-verdict.no {
+  display: block;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--no);
+}
+
+.mx-mc-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+@media (min-width: 561px) {
+  .mx-mc-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.mx-mc-opt {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  text-align: left;
+  padding: 14px 16px;
+  background: var(--surface);
+  border: 1.5px solid var(--edge-strong);
+  border-radius: 12px;
+  font: inherit;
+  font-size: 14.5px;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.mx-mc-opt:hover:not(:disabled) {
+  border-color: rgba(37, 99, 235, 0.5);
+  background: rgba(37, 99, 235, 0.04);
+}
+
+.mx-mc-opt b {
+  color: var(--blue);
+  flex: none;
+}
+
+.mx-card.answered .mx-mc-opt {
+  cursor: default;
+}
+
+.mx-mc-opt.correct {
+  border-color: var(--ok);
+  background: var(--ok-bg);
+}
+
+.mx-mc-opt.correct b {
+  color: var(--ok);
+}
+
+.mx-mc-opt.chosen-wrong {
+  border-color: var(--no);
+  background: var(--no-bg);
+}
+
+.mx-mc-opt.chosen-wrong b {
+  color: var(--no);
+}
+
+/* ---- feedback + worked solution ---- */
+.mx-feedback {
+  margin-top: 22px;
+  padding-top: 22px;
+  border-top: 1px solid var(--edge);
+}
+
+.mx-feedback-banner {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 12px 16px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.mx-feedback-banner.ok {
+  color: var(--ok);
+  background: var(--ok-bg);
+}
+
+.mx-feedback-banner.no {
+  color: var(--no);
+  background: var(--no-bg);
+}
+
+.mx-solution summary {
+  cursor: pointer;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--blue);
+  list-style: none;
+}
+
+.mx-solution summary::-webkit-details-marker {
+  display: none;
+}
+
+.mx-solution summary::before {
+  content: '▸ ';
+}
+
+.mx-solution[open] summary::before {
+  content: '▾ ';
+}
+
+.mx-solution-body {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ---- mobile: tighten card padding, keep everything within viewport ---- */
+@media (max-width: 480px) {
+  .mx-card {
+    padding: 20px 16px 22px;
+    border-radius: 16px;
+  }
+
+  .mx-equation {
+    padding: 14px 16px;
+    font-size: 16px;
+  }
+
+  .mx-answer-box input {
+    width: 84px;
+    font-size: 17px;
+  }
+
+  .mx-check {
+    padding: 11px 18px;
+  }
+
+  .mx-table th,
+  .mx-table td {
+    padding: 9px 11px;
+    font-size: 13px;
+  }
+
+  .mx-diagram-frame {
+    padding: 14px 10px;
+  }
+}
+
+/* =========================================================================
+   SEQUENTIAL SESSION — src/components/session/*. Shared across Maths tests,
+   quiz "test mode" and trivia sessions — one engine, subject-specific data.
+   ========================================================================= */
+
+.seq-shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 18px 90px;
+}
+
+@media (min-width: 621px) {
+  .seq-shell {
+    padding: 36px 26px 100px;
+  }
+}
+
+.seq-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+
+.seq-section-label {
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 4px;
+}
+
+.seq-meta {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.seq-score {
+  font-weight: 600;
+  color: var(--ink-soft);
+}
+
+.seq-exit {
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  background: none;
+  border: 1px solid var(--edge-strong);
+  border-radius: 8px;
+  padding: 7px 14px;
+  cursor: pointer;
+  flex: none;
+}
+
+.seq-exit:hover {
+  color: var(--ink);
+  border-color: var(--ink-faint);
+}
+
+.seq-progress-track {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 26px;
+}
+
+.seq-progress-seg {
+  flex: 1;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--edge-strong);
+}
+
+.seq-progress-seg.right {
+  background: var(--ok);
+}
+
+.seq-progress-seg.wrong {
+  background: var(--no);
+}
+
+.seq-progress-seg.current {
+  outline: 2px solid var(--blue);
+  outline-offset: 1.5px;
+}
+
+.seq-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.seq-back {
+  font: inherit;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px 4px;
+}
+
+.seq-back:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.seq-nav .cta {
+  margin-top: 0;
+}
+
+/* ---- results screen ---- */
+.results-card {
+  max-width: 520px;
+  margin: 40px auto 90px;
+  padding: 32px 28px;
+  background: var(--surface);
+  border: 1px solid var(--edge);
+  border-radius: 22px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.results-card-eyebrow {
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 18px;
+}
+
+.results-score-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 14px;
+}
+
+.results-score-frac {
+  font-size: 36px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.results-score-pct {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--blue);
+}
+
+.results-breakdown-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 26px;
+}
+
+.results-tag {
+  font-size: 12.5px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 6px 13px;
+}
+
+.results-tag.ok {
+  color: var(--ok);
+  background: var(--ok-bg);
+}
+
+.results-tag.no {
+  color: var(--no);
+  background: var(--no-bg);
+}
+
+.results-areas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  text-align: left;
+  margin-bottom: 28px;
+  padding-top: 20px;
+  border-top: 1px solid var(--edge);
+}
+
+.results-areas-label {
+  font-size: 11.5px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.results-areas-label.ok {
+  color: var(--ok);
+}
+
+.results-areas-label.no {
+  color: var(--no);
+}
+
+.results-areas ul {
+  margin: 0;
+  padding: 0 0 0 16px;
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.results-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.results-actions .cta {
+  margin-top: 0;
+}
+
+@media (max-width: 480px) {
+  .results-areas {
+    grid-template-columns: 1fr;
+  }
+}

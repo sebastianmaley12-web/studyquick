@@ -59,10 +59,11 @@ describe('routing', () => {
     expect(screen.getAllByText(/Power & Authority/).length).toBeGreaterThan(0)
   })
 
-  it('renders a maths topic practice panel with working numeric questions', () => {
-    renderAt('/subjects/maths/f4/practice')
+  it('renders a maths topic sequential test with one question and a working Check answer button', () => {
+    renderAt('/subjects/maths/f4/test')
     expect(screen.getByRole('heading', { name: 'Investments and Loans' })).toBeInTheDocument()
-    expect(screen.getAllByRole('button', { name: 'Check' }).length).toBeGreaterThan(0)
+    expect(screen.getByText('Question 1 of 13')).toBeInTheDocument()
+    expect(screen.getAllByRole('button', { name: 'Check answer' }).length).toBe(1)
   })
 
   it('renders a maths topic facts panel with decoded formulae', () => {

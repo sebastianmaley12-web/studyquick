@@ -131,6 +131,38 @@
             "badge": "8 marks",
             "questionHtml": "Analyse the determinants of health that contribute to health inequities experienced by people in rural and remote Australia.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name the group and state their overall health status compared with major cities.</li><li>Explain at least three determinants and how they interact.</li><li>Note an action that could address the inequity.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>People in rural and remote areas experience poorer health status than those in major cities, including lower life expectancy and higher rates of chronic disease, injury and preventable hospitalisation. This is the result of several interacting determinants of health rather than any single cause.</p><p>Geographically, rural and remote communities are further from hospitals and specialists, meaning longer travel times and delayed treatment, especially for emergencies. Socioeconomically, these areas often have lower average incomes and fewer employment opportunities, making the added cost and time of travelling for care a greater burden. This is compounded by a biomedical factor: a smaller local health workforce, since many specialists and even GPs are concentrated in cities, leaving rural areas reliant on visiting services or telehealth. Environmental and social factors also interact here — rural communities report higher rates of risk behaviours such as smoking and hazardous alcohol use, partly linked to social isolation and fewer health promotion services reaching these areas.</p><p>Because these determinants compound one another — distance increases cost, cost reduces access, and reduced access allows risk behaviours and untreated conditions to persist — addressing the inequity requires more than one intervention, such as expanding telehealth and outreach clinics alongside incentives for health professionals to work regionally.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Outline",
+            "badge": "3 marks",
+            "questionHtml": "Outline the health inequities faced by males in Australia.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name the main mortality and morbidity gaps between males and females.</li><li>Link at least one gap to a behavioural or social cause.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Males in Australia have a lower life expectancy than females (around four years less) and higher rates of premature death from coronary heart disease, suicide and accidents. These gaps are linked to males engaging in more risky health behaviours, such as higher rates of risky alcohol consumption and lower rates of help-seeking for mental health issues, and to males being less likely to access preventative healthcare such as regular GP check-ups.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain both the risk and protective factors of cancer.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Give risk factors across biological, behavioural and environmental categories.</li><li>Give protective factors and link them back to reducing specific risks.</li><li>Note that risk is cumulative — multiple factors interact.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Risk factors for cancer include biological factors such as family history and age, behavioural factors such as smoking, poor diet, physical inactivity and excessive alcohol consumption, and environmental factors such as UV exposure and exposure to carcinogens in some workplaces. These factors can act cumulatively, so a person with several risk factors has a substantially higher chance of developing cancer than someone with just one.</p><p>Protective factors work by reducing exposure to these risks: not smoking, maintaining a healthy weight and diet, staying physically active, limiting alcohol intake, using sun protection and participating in national screening programs (such as breast, bowel and cervical screening) so cancers are caught and treated early, when outcomes are far better.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Australia's life expectancy at birth is ranked equal fourth among OECD countries. Explain reasons for why Australia's health ranking is high among OECD countries.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Link the ranking to Australia's healthcare system.</li><li>Link the ranking to lifestyle/behavioural factors.</li><li>Mention at least one specific example (Medicare, tobacco control).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Australia's high OECD health ranking is largely explained by its universal healthcare system, Medicare, which gives all citizens access to free or low-cost hospital and medical care regardless of income, meaning conditions are less likely to go untreated. Strong public health regulation has also played a role — Australia has some of the strictest tobacco control laws in the world (plain packaging, high excise, advertising bans), which has driven smoking rates down and reduced smoking-related mortality.</p><p>Comparatively high living standards, a well-funded public health system, and effective immunisation and screening programs (such as the National Immunisation Program and cancer screening) also contribute, catching and preventing disease before it becomes life-threatening.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Examine",
+            "badge": "8 marks",
+            "questionHtml": "Examine the opportunities and challenges for an ageing population in Australia.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Give at least two opportunities (e.g. volunteering, mentorship, workforce experience).</li><li>Give at least two challenges (e.g. healthcare costs, workforce/aged care shortages, dependency ratio).</li><li>Weigh the two sides rather than just listing them.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>An ageing population creates opportunities as older Australians are a large and growing source of unpaid volunteer work, informal childcare and mentorship, and many remain in the paid workforce longer, contributing valuable experience and skills. Increased longevity also reflects, and can reinforce, improvements in healthcare and living standards more broadly.</p><p>However, an ageing population also creates significant challenges. Healthcare expenditure rises as older Australians generally require more chronic disease management, hospital admissions and aged care services, straining the health budget. There is a shrinking proportion of working-age people relative to retirees (a rising dependency ratio), which increases pressure on the tax base, superannuation and pension systems, and there are workforce shortages in aged care and disability support that make it harder to meet growing demand for services.</p><p>On balance, the opportunities depend on older Australians remaining healthy and engaged for longer, while the challenges depend on how well the health and aged care systems are resourced to keep pace with demand.</p></div></div>"
           }
         ]
       },
@@ -178,6 +210,38 @@
             "badge": "4 marks",
             "questionHtml": "Explain the concept of shared responsibility in the Australian healthcare system, using an example.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define shared responsibility between government and non-government sectors.</li><li>Link it to person-centred care.</li><li>Give a concrete example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Shared responsibility describes how government and non-government organisations collaborate, rather than working in isolation, to meet a person's health needs. Government provides the funding backbone through Medicare and public hospitals, while non-government organisations — including charities, community health services and private providers — deliver complementary services that government alone doesn't cover.</p><p>This collaboration supports person-centred care, where services are organised around an individual's full circumstances rather than a single disease. For example, a person managing a chronic illness like diabetes might see a bulk-billed GP (government-funded) for ongoing management, a private specialist for complications, and a non-government community health service for dietary and lifestyle support — with these providers ideally coordinating so the person isn't left to navigate the system alone. This shared approach improves continuity of care and can reduce the risk of a person falling through gaps between services.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Identify",
+            "badge": "3 marks",
+            "questionHtml": "Identify three types of Primary healthcare and provide an example of how one of them is used in Australia.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>List three types (e.g. GP services, community health centres, allied health).</li><li>Give one concrete Australian example.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Three types of primary healthcare are general practitioner (GP) services, community health centres, and allied health services such as physiotherapy and dietetics. For example, GP services in Australia are accessed through Medicare, allowing patients to see a doctor for check-ups, referrals and management of ongoing conditions, often at no out-of-pocket cost through bulk billing.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain how person-centred care differs from a more conventional, disease-focused approach to healthcare.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define person-centred care and disease-focused care.</li><li>Contrast at least two features (whose needs are prioritised, how decisions are made).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A conventional, disease-focused approach centres treatment around the illness itself, with the healthcare provider directing diagnosis and treatment with limited input from the patient. Person-centred care, by contrast, places the individual's needs, values and preferences at the centre of decision-making, involving the patient (and often their family) as active partners in planning their own care.</p><p>This means person-centred care considers a patient's social, emotional and cultural circumstances alongside their medical condition, rather than treating the disease in isolation, which can lead to better engagement with treatment and improved overall wellbeing.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Describe",
+            "badge": "5 marks",
+            "questionHtml": "Describe the advantages and disadvantages of having private health insurance for the individual.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Give at least two advantages (choice of doctor/hospital, shorter waiting times, extras cover).</li><li>Give at least two disadvantages (ongoing premiums, out-of-pocket gaps, means-tested rebate/surcharge).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Private health insurance offers individuals advantages such as choice of doctor and hospital, generally shorter waiting times for elective surgery, and access to 'extras' cover for services Medicare doesn't fully fund, such as dental, physiotherapy and optical care.</p><p>However, it also has disadvantages: ongoing premiums can be expensive and tend to rise each year, policies often still involve out-of-pocket 'gap' payments, and higher-income earners who don't hold private hospital cover may pay the Medicare Levy Surcharge, adding a financial cost either way.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Discuss",
+            "badge": "5 marks",
+            "questionHtml": "Discuss the potential impact of privatisation on equity of access to healthcare in Australia. Your answer should consider both the potential advantages and disadvantages.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define what privatisation means in a healthcare context.</li><li>Discuss a potential advantage (efficiency, reduced public system pressure).</li><li>Discuss a potential disadvantage (cost as a barrier, widening inequity).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Privatisation involves shifting the delivery or funding of healthcare services from the public sector towards private providers. This can improve efficiency and reduce pressure on the public system, as patients with private cover use private hospitals rather than adding to public hospital waiting lists, freeing up public resources for those who cannot afford private care.</p><p>However, privatisation can also worsen equity of access, because private healthcare is only affordable to those who can pay premiums or out-of-pocket costs. This risks creating a two-tiered system where wealthier Australians access faster, higher-choice care while lower-income Australians rely solely on an increasingly stretched public system, widening health inequities between socioeconomic groups.</p></div></div>"
           }
         ]
       },
@@ -201,6 +265,38 @@
             "badge": "8 marks",
             "questionHtml": "Evaluate the extent to which digital health has been successful in connecting Australia's health information.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define digital health and give examples of services.</li><li>Evaluate successes.</li><li>Evaluate limitations/challenges.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Digital health refers to the use of information and communication technology to manage health and wellbeing, including telehealth consultations, health apps, wearable devices and My Health Record. It has succeeded in connecting health information to a significant extent — My Health Record allows a patient's medications, allergies and test results to be viewed by any treating provider with the patient's consent, reducing duplicated tests and improving continuity of care, particularly for patients who see multiple specialists.</p><p>Telehealth has also been successful in connecting rural and remote patients to specialists who would otherwise require significant travel, improving equity of access. However, success has been uneven: uptake of My Health Record by both patients and healthcare providers has been inconsistent, meaning records are sometimes incomplete, and digital health relies on reliable internet access and digital literacy, which disadvantages older Australians, some rural communities, and people experiencing socioeconomic disadvantage. Privacy and data security concerns can also make some patients reluctant to engage fully with digital health services.</p><p>Overall, digital health has meaningfully improved the connection of health information for many Australians, but its benefits are not yet equally distributed, and closing these gaps in access and engagement remains an ongoing challenge for the healthcare system.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Identify",
+            "badge": "3 marks",
+            "questionHtml": "Identify three examples of Artificial Intelligence being used in healthcare.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>List three distinct AI applications.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Examples of AI in Australian healthcare include AI-assisted analysis of medical imaging (such as detecting abnormalities in X-rays and scans), AI-driven diagnostic decision-support tools that help clinicians identify likely conditions from symptoms and test results, and AI-powered chatbots or virtual health assistants that provide basic triage and health information to patients.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Outline",
+            "badge": "3 marks",
+            "questionHtml": "Outline the intended purposes of My Health Record and its role in the Australian healthcare system.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State what My Health Record is.</li><li>Give at least two intended purposes (continuity of care, reduced duplication).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>My Health Record is a secure, national digital summary of an individual's key health information, accessible by the patient and their treating healthcare providers. It is intended to improve continuity of care by letting different providers — GPs, specialists, hospitals and pharmacists — see a patient's history, medications and test results in one place, reducing duplicated tests, medication errors and gaps in communication between providers.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Describe",
+            "badge": "3 marks",
+            "questionHtml": "Describe the role of wearable sensors in monitoring health data.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Describe what wearable sensors track.</li><li>Link this to a benefit for the individual or provider.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Wearable sensors, such as smartwatches and fitness trackers, continuously monitor health data including heart rate, sleep patterns, physical activity and, in some devices, blood oxygen levels or ECG readings. This allows individuals to track their own health trends over time and can alert users or healthcare providers to irregularities, supporting earlier detection of issues and more informed, real-time management of chronic conditions.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain how telehealth services can improve access to healthcare. Provide examples.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the barrier telehealth addresses (distance, mobility, time).</li><li>Give at least one concrete example.</li><li>Note a limitation to keep the answer balanced.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Telehealth services allow patients to consult healthcare providers remotely via phone or video call, which improves access to healthcare for people who face barriers to attending in person — such as those in rural and remote areas far from specialists, people with mobility issues, or those who cannot easily take time off work. For example, a patient in regional NSW can consult a city-based specialist via video call rather than travelling hours for an appointment, and GPs can conduct routine follow-up consultations by phone.</p><p>This reduces travel time and cost and can shorten waiting times for specialist advice, though telehealth is less suitable for conditions requiring physical examination or urgent, hands-on treatment.</p></div></div>"
           }
         ]
       },
@@ -216,64 +312,714 @@
             "badge": "5 marks",
             "questionHtml": "Explain how the Sustainable Development Goals have been applied to improve health outcomes in a specific Australian community.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name the community and the relevant SDGs.</li><li>Describe at least two concrete programs and which SDG(s) they address.</li><li>Explain the intended impact.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Healthy Cities Illawarra is a real example of the SDGs being applied to improve health in a specific community — the Illawarra region of New South Wales. Under SDG 3 (Good Health and Wellbeing), the 'Active In-Betweens' program promotes physical activity, nutrition and positive social experiences for 9–12-year-olds in vulnerable communities, while 'Play Illawarra' encourages families to use local parks and playgrounds to support physical activity and community connection.</p><p>The 'Cook Chill Chat' program addresses both SDG 3 and SDG 4 (Quality Education), building healthy eating habits and food-planning life skills while supporting mental wellbeing and social connection in a supportive setting. 'Food Fairness Illawarra' addresses SDG 10 (Reduced Inequalities) by working to ensure fair access to affordable, healthy food, particularly for low-income and vulnerable populations.</p><p>Together, these programs show how tailoring the SDGs to a community's specific needs — rather than treating each goal in isolation — can improve health literacy, food security and social connection, all of which contribute to better overall health status for that community.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Outline",
+            "badge": "3 marks",
+            "questionHtml": "Outline the key features of Sustainable Development Goal (SDG) 10: Reduced Inequalities.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State the overall aim of SDG 10.</li><li>Give one or two specific features/targets.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>SDG 10 aims to reduce inequality within and among countries, including inequalities based on income, age, sex, disability, race and other status. Its key features include promoting social, economic and political inclusion for all, ensuring equal opportunity, and reducing inequalities of outcome, for example by adopting policies that support lower-income and marginalised groups.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Describe",
+            "badge": "4 marks",
+            "questionHtml": "Describe the role of Sustainable Development Goal (SDG) 11: Sustainable Cities and Communities in improving health status for all Australians.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State what SDG 11 targets.</li><li>Link at least one feature of sustainable cities directly to a health outcome.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>SDG 11 aims to make cities and communities inclusive, safe, resilient and sustainable, which supports health through improved access to safe and affordable housing, green public spaces, reliable public transport and clean air. For example, communities with well-designed green spaces and walkable infrastructure encourage physical activity, while affordable and safe housing reduces stress and exposure to health hazards, together improving both physical and mental health status across the population.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Describe",
+            "badge": "4 marks",
+            "questionHtml": "Describe the relationship between Sustainable Development Goal 3 and Sustainable Development Goal 10 in improving health outcomes.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State what SDG 3 and SDG 10 each target.</li><li>Explain how progress on one supports progress on the other.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>SDG 3 (Good Health and Wellbeing) aims to ensure healthy lives and promote wellbeing for all, while SDG 10 (Reduced Inequalities) aims to reduce inequality within and between populations. The two goals are closely linked because health inequities are often driven by broader social and economic inequalities — for example, low-income groups typically have poorer access to healthcare, housing and nutrition. Progress on SDG 10, such as improving income equality and access to services for disadvantaged groups, therefore directly supports progress on SDG 3, as reducing inequality removes barriers that prevent disadvantaged groups from achieving good health outcomes.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Justify",
+            "badge": "8 marks",
+            "questionHtml": "Justify the application of Sustainable Development Goals 3 and 4 to reduce mortality rates from cardiovascular disease.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what SDG 3 and SDG 4 each target.</li><li>Justify how SDG 3 initiatives (health promotion, screening) reduce CVD mortality.</li><li>Justify how SDG 4 (education) contributes indirectly, and conclude with an overall judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>SDG 3 (Good Health and Wellbeing) directly supports reducing cardiovascular disease (CVD) mortality through initiatives such as national health promotion campaigns targeting smoking, diet and physical inactivity, and through funding for screening programs and improved access to primary healthcare that allow early detection of risk factors such as high blood pressure and high cholesterol. These interventions are well justified because CVD is largely preventable, and early, low-cost interventions (such as GP screening) prevent far more costly and severe outcomes later.</p><p>SDG 4 (Quality Education) contributes indirectly but significantly, as health literacy gained through education helps individuals understand risk factors and make informed lifestyle choices, such as improving diet and increasing physical activity, while education also improves employment prospects and income, which in turn improves access to healthcare and healthier living conditions.</p><p>Applying both SDGs together is justified because they address CVD from complementary angles — SDG 3 through direct clinical and preventative health measures, and SDG 4 through the underlying social determinants that shape health behaviour — meaning the combined approach is more effective than either goal applied in isolation.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What is epidemiology?", "answerHtml": "The branch of medical science that studies the causes, distribution and control of disease and injury in populations." },
-    { "n": 2, "questionHtml": "What's the difference between incidence and prevalence?", "answerHtml": "Incidence is the number of new cases in a given period; prevalence is the total number of existing cases at a given time." },
-    { "n": 3, "questionHtml": "Which condition is currently Australia's leading cause of death for women?", "answerHtml": "Dementia, including Alzheimer's disease." },
-    { "n": 4, "questionHtml": "Which condition remains the leading cause of death for Australian men?", "answerHtml": "Coronary heart disease (CHD)." },
-    { "n": 5, "questionHtml": "What is atherosclerosis?", "answerHtml": "The build-up of fatty and/or fibrous material on the interior walls of arteries." },
-    { "n": 6, "questionHtml": "What is arteriosclerosis?", "answerHtml": "A disease causing a general loss of elasticity (\"hardening\") of the arteries." },
-    { "n": 7, "questionHtml": "Which risk factor overtook tobacco smoking as Australia's leading contributor to disease burden in 2024?", "answerHtml": "Overweight and obesity." },
-    { "n": 8, "questionHtml": "What does OECD stand for?", "answerHtml": "Organisation for Economic Co-operation and Development." },
-    { "n": 9, "questionHtml": "How does Australia's life expectancy compare with the OECD average?", "answerHtml": "About 83 years — roughly 1.9 years above the OECD average." },
-    { "n": 10, "questionHtml": "Where does Australia rank for health-adjusted life expectancy (HALE) among OECD countries?", "answerHtml": "10th highest of 38 OECD countries." },
-    { "n": 11, "questionHtml": "What is Medicare?", "answerHtml": "Australia's universal public health insurance scheme, giving citizens and permanent residents access to free or subsidised healthcare." },
-    { "n": 12, "questionHtml": "Which level of government mainly funds and operates public hospitals in Australia?", "answerHtml": "State and territory governments." },
-    { "n": 13, "questionHtml": "Which level of government is responsible for food hygiene standards, waste disposal and building standards?", "answerHtml": "Local government." },
-    { "n": 14, "questionHtml": "What does NDIS stand for?", "answerHtml": "National Disability Insurance Scheme." },
-    { "n": 15, "questionHtml": "What is My Health Record?", "answerHtml": "Australia's national digital health record system, letting patients and their healthcare providers securely access key health information online." },
-    { "n": 16, "questionHtml": "Who is the data custodian of My Health Record information used for research and public health purposes?", "answerHtml": "The Australian Institute of Health and Welfare (AIHW)." },
-    { "n": 17, "questionHtml": "What does \"big data\" in healthcare refer to?", "answerHtml": "Very large, complex datasets — e.g. hospital records, Medicare claims, wearable data — analysed to find patterns that improve health outcomes." },
-    { "n": 18, "questionHtml": "How many Sustainable Development Goals did the UN set in 2015?", "answerHtml": "17 goals, to be achieved by 2030." },
-    { "n": 19, "questionHtml": "Which SDG specifically targets \"Good Health and Wellbeing\"?", "answerHtml": "SDG 3." },
-    { "n": 20, "questionHtml": "Name the four SDGs specifically studied in this course.", "answerHtml": "SDG 3 (Good Health and Wellbeing), SDG 4 (Quality Education), SDG 10 (Reduced Inequalities) and SDG 11 (Sustainable Cities and Communities)." },
-    { "n": 21, "questionHtml": "What real-world initiative applies the SDGs to health in the Illawarra region of NSW?", "answerHtml": "Healthy Cities Illawarra." },
-    { "n": 22, "questionHtml": "What national initiative addresses the health and life-expectancy gap for Aboriginal and Torres Strait Islander Peoples?", "answerHtml": "Closing the Gap." },
-    { "n": 23, "questionHtml": "Besides cardiovascular disease and cancer, what is a third major chronic condition examined in this course?", "answerHtml": "Type 2 diabetes." },
-    { "n": 24, "questionHtml": "Name two reasons people in rural and remote areas have poorer health status than those in major cities.", "answerHtml": "Reduced access to healthcare services/specialists and a smaller local health workforce (also: distance, cost, higher rates of risk behaviours)." },
-    { "n": 25, "questionHtml": "What is healthy ageing?", "answerHtml": "The process of developing and maintaining the functional ability that enables wellbeing in older age." },
-    { "n": 26, "questionHtml": "What is shared responsibility in the Australian healthcare system?", "answerHtml": "Government and non-government organisations collaborating to deliver person-centred care." },
-    { "n": 27, "questionHtml": "What is person-centred care?", "answerHtml": "Care organised around an individual's needs and preferences, rather than a single disease or service." },
-    { "n": 28, "questionHtml": "What is digital health?", "answerHtml": "The use of information and communication technology to manage health and wellbeing — e.g. telehealth, health apps, wearables and My Health Record." }
+    {
+      "n": 1,
+      "questionHtml": "What is epidemiology?",
+      "answerHtml": "The branch of medical science that studies the causes, distribution and control of disease and injury in populations."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What's the difference between incidence and prevalence?",
+      "answerHtml": "Incidence is the number of new cases in a given period; prevalence is the total number of existing cases at a given time."
+    },
+    {
+      "n": 3,
+      "questionHtml": "Which condition is currently Australia's leading cause of death for women?",
+      "answerHtml": "Dementia, including Alzheimer's disease."
+    },
+    {
+      "n": 4,
+      "questionHtml": "Which condition remains the leading cause of death for Australian men?",
+      "answerHtml": "Coronary heart disease (CHD)."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What is atherosclerosis?",
+      "answerHtml": "The build-up of fatty and/or fibrous material on the interior walls of arteries."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What is arteriosclerosis?",
+      "answerHtml": "A disease causing a general loss of elasticity (\"hardening\") of the arteries."
+    },
+    {
+      "n": 7,
+      "questionHtml": "Which risk factor overtook tobacco smoking as Australia's leading contributor to disease burden in 2024?",
+      "answerHtml": "Overweight and obesity."
+    },
+    {
+      "n": 8,
+      "questionHtml": "What does OECD stand for?",
+      "answerHtml": "Organisation for Economic Co-operation and Development."
+    },
+    {
+      "n": 9,
+      "questionHtml": "How does Australia's life expectancy compare with the OECD average?",
+      "answerHtml": "About 83 years — roughly 1.9 years above the OECD average."
+    },
+    {
+      "n": 10,
+      "questionHtml": "Where does Australia rank for health-adjusted life expectancy (HALE) among OECD countries?",
+      "answerHtml": "10th highest of 38 OECD countries."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What is Medicare?",
+      "answerHtml": "Australia's universal public health insurance scheme, giving citizens and permanent residents access to free or subsidised healthcare."
+    },
+    {
+      "n": 12,
+      "questionHtml": "Which level of government mainly funds and operates public hospitals in Australia?",
+      "answerHtml": "State and territory governments."
+    },
+    {
+      "n": 13,
+      "questionHtml": "Which level of government is responsible for food hygiene standards, waste disposal and building standards?",
+      "answerHtml": "Local government."
+    },
+    {
+      "n": 14,
+      "questionHtml": "What does NDIS stand for?",
+      "answerHtml": "National Disability Insurance Scheme."
+    },
+    {
+      "n": 15,
+      "questionHtml": "What is My Health Record?",
+      "answerHtml": "Australia's national digital health record system, letting patients and their healthcare providers securely access key health information online."
+    },
+    {
+      "n": 16,
+      "questionHtml": "Who is the data custodian of My Health Record information used for research and public health purposes?",
+      "answerHtml": "The Australian Institute of Health and Welfare (AIHW)."
+    },
+    {
+      "n": 17,
+      "questionHtml": "What does \"big data\" in healthcare refer to?",
+      "answerHtml": "Very large, complex datasets — e.g. hospital records, Medicare claims, wearable data — analysed to find patterns that improve health outcomes."
+    },
+    {
+      "n": 18,
+      "questionHtml": "How many Sustainable Development Goals did the UN set in 2015?",
+      "answerHtml": "17 goals, to be achieved by 2030."
+    },
+    {
+      "n": 19,
+      "questionHtml": "Which SDG specifically targets \"Good Health and Wellbeing\"?",
+      "answerHtml": "SDG 3."
+    },
+    {
+      "n": 20,
+      "questionHtml": "Name the four SDGs specifically studied in this course.",
+      "answerHtml": "SDG 3 (Good Health and Wellbeing), SDG 4 (Quality Education), SDG 10 (Reduced Inequalities) and SDG 11 (Sustainable Cities and Communities)."
+    },
+    {
+      "n": 21,
+      "questionHtml": "What real-world initiative applies the SDGs to health in the Illawarra region of NSW?",
+      "answerHtml": "Healthy Cities Illawarra."
+    },
+    {
+      "n": 22,
+      "questionHtml": "What national initiative addresses the health and life-expectancy gap for Aboriginal and Torres Strait Islander Peoples?",
+      "answerHtml": "Closing the Gap."
+    },
+    {
+      "n": 23,
+      "questionHtml": "Besides cardiovascular disease and cancer, what is a third major chronic condition examined in this course?",
+      "answerHtml": "Type 2 diabetes."
+    },
+    {
+      "n": 24,
+      "questionHtml": "Name two reasons people in rural and remote areas have poorer health status than those in major cities.",
+      "answerHtml": "Reduced access to healthcare services/specialists and a smaller local health workforce (also: distance, cost, higher rates of risk behaviours)."
+    },
+    {
+      "n": 25,
+      "questionHtml": "What is healthy ageing?",
+      "answerHtml": "The process of developing and maintaining the functional ability that enables wellbeing in older age."
+    },
+    {
+      "n": 26,
+      "questionHtml": "What is shared responsibility in the Australian healthcare system?",
+      "answerHtml": "Government and non-government organisations collaborating to deliver person-centred care."
+    },
+    {
+      "n": 27,
+      "questionHtml": "What is person-centred care?",
+      "answerHtml": "Care organised around an individual's needs and preferences, rather than a single disease or service."
+    },
+    {
+      "n": 28,
+      "questionHtml": "What is digital health?",
+      "answerHtml": "The use of information and communication technology to manage health and wellbeing — e.g. telehealth, health apps, wearables and My Health Record."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "c", "questionHtml": "Which of the following best defines arteriosclerosis?", "options": [ { "opt": "a", "textHtml": "A disease of the lungs" }, { "opt": "b", "textHtml": "A disease of the cardiovascular system" }, { "opt": "c", "textHtml": "A disease causing a loss of elasticity of the arteries" }, { "opt": "d", "textHtml": "A disease caused by an accumulation of plaque in the arterial walls" } ] },
-    { "n": 2, "answer": "c", "questionHtml": "Which of the following is true of a malignant tumour?", "options": [ { "opt": "a", "textHtml": "It is a secondary cancer" }, { "opt": "b", "textHtml": "It is the result of normal cell growth" }, { "opt": "c", "textHtml": "It spreads to other sites and organs of the body" }, { "opt": "d", "textHtml": "It remains localised in an area of the body" } ] },
-    { "n": 3, "answer": "b", "questionHtml": "What is cancer metastasis?", "options": [ { "opt": "a", "textHtml": "An abnormal mass of cells that forces its way among healthy cells" }, { "opt": "b", "textHtml": "A secondary or new tumour which may have spread in the body away from the primary site" }, { "opt": "c", "textHtml": "Cell division that multiplies uncontrollably, transferring damaged genetic material to offspring cells" }, { "opt": "d", "textHtml": "A non-cancerous tumour that grows slowly, surrounded by a capsule that controls its spread" } ] },
-    { "n": 4, "answer": "c", "questionHtml": "What is Peripheral Vascular Disease?", "options": [ { "opt": "a", "textHtml": "The interruption of the supply of blood to the brain" }, { "opt": "b", "textHtml": "The poor supply of blood to the muscular walls of the heart" }, { "opt": "c", "textHtml": "Diseases of the arteries, arterioles and capillaries that affect the limbs" }, { "opt": "d", "textHtml": "Build-up of fatty and/or fibrous material on the interior walls of arteries" } ] },
-    { "n": 5, "answer": "d", "questionHtml": "Which of the following is a limitation of epidemiology as a measure of health status?", "options": [ { "opt": "a", "textHtml": "It identifies broad trends only" }, { "opt": "b", "textHtml": "It is rarely used by health professionals and policy makers" }, { "opt": "c", "textHtml": "It indicates leading causes of illness but not leading causes of mortality" }, { "opt": "d", "textHtml": "It does not explain the sociocultural factors that influence health behaviours" } ] },
-    { "n": 6, "answer": "d", "questionHtml": "Which risk factor surpassed tobacco smoking as the leading contributor to disease burden in Australia in 2024?", "options": [ { "opt": "a", "textHtml": "Sedentary lifestyle" }, { "opt": "b", "textHtml": "Sugar consumption" }, { "opt": "c", "textHtml": "Alcohol consumption" }, { "opt": "d", "textHtml": "Overweight and obesity" } ] },
-    { "n": 7, "answer": "a", "questionHtml": "Which level of government was most likely responsible for the development of lockout laws and early closing times for venues selling alcohol?", "options": [ { "opt": "a", "textHtml": "State" }, { "opt": "b", "textHtml": "Local" }, { "opt": "c", "textHtml": "Federal" }, { "opt": "d", "textHtml": "Non-government organisations" } ] },
-    { "n": 8, "answer": "c", "questionHtml": "Where does most funding responsibility for Australian public hospitals come from?", "options": [ { "opt": "a", "textHtml": "Local government" }, { "opt": "b", "textHtml": "Commonwealth government" }, { "opt": "c", "textHtml": "State and territory government" }, { "opt": "d", "textHtml": "Non-government organisations" } ] },
-    { "n": 9, "answer": "b", "questionHtml": "Which socioeconomic factors best explain the health inequities experienced by socioeconomically disadvantaged groups?", "options": [ { "opt": "a", "textHtml": "Religious and peer influences" }, { "opt": "b", "textHtml": "Levels of education and employment" }, { "opt": "c", "textHtml": "Housing status and access to technology" }, { "opt": "d", "textHtml": "Technology access and geographical location" } ] },
-    { "n": 10, "answer": "b", "questionHtml": "Which health condition is most likely to have risk factors associated with a high-fat diet, sedentary behaviours and family history?", "options": [ { "opt": "a", "textHtml": "Skin cancer" }, { "opt": "b", "textHtml": "Myocardial infarction" }, { "opt": "c", "textHtml": "Infectious disease, e.g. influenza" }, { "opt": "d", "textHtml": "Chronic obstructive pulmonary disease" } ] },
-    { "n": 11, "answer": "d", "questionHtml": "Which of the following best describes the concept of \"healthy ageing\"?", "options": [ { "opt": "a", "textHtml": "Treating elderly people for commonly reported conditions" }, { "opt": "b", "textHtml": "The behaviours and activities that contribute to quality of life for elderly people" }, { "opt": "c", "textHtml": "Providing appropriate facilities and services to accommodate aged and elderly people" }, { "opt": "d", "textHtml": "The process of developing and maintaining the functional ability that enables wellbeing in older age" } ] },
-    { "n": 12, "answer": "c", "questionHtml": "What would a comparison of the health status of Indigenous and non-Indigenous Australians show?", "options": [ { "opt": "a", "textHtml": "Non-Indigenous Australians have higher infant mortality rates compared to Indigenous Australians" }, { "opt": "b", "textHtml": "Non-Indigenous Australians have a lower prevalence of chronic disease compared to Indigenous Australians" }, { "opt": "c", "textHtml": "Indigenous Australians have a higher prevalence of chronic disease compared to non-Indigenous Australians" }, { "opt": "d", "textHtml": "Indigenous Australians have lower hospital admission rates compared to non-Indigenous Australians" } ] },
-    { "n": 13, "answer": "a", "questionHtml": "Which of the following are benefits of emerging technologies in healthcare?", "options": [ { "opt": "a", "textHtml": "Less invasive, faster recovery, early detection" }, { "opt": "b", "textHtml": "Early detection, inexpensive, faster return to work" }, { "opt": "c", "textHtml": "Embodies social justice principles, less invasive, faster recovery" }, { "opt": "d", "textHtml": "Greater precision, less fatigue for professionals, accessible to all Australians" } ] },
-    { "n": 14, "answer": "d", "questionHtml": "What are the most significant factors contributing to a growing and ageing population?", "options": [ { "opt": "a", "textHtml": "Increased birth rates and improved healthcare" }, { "opt": "b", "textHtml": "Immigration and better education opportunities" }, { "opt": "c", "textHtml": "Economic recession and reduced access to healthcare" }, { "opt": "d", "textHtml": "Declining birth rates and advancements in technology" } ] },
-    { "n": 15, "answer": "a", "questionHtml": "Approximately how does Australia's life expectancy compare with the OECD average?", "options": [ { "opt": "a", "textHtml": "About 1.9 years above the OECD average" }, { "opt": "b", "textHtml": "About 5 years below the OECD average" }, { "opt": "c", "textHtml": "Roughly the same as the OECD average" }, { "opt": "d", "textHtml": "More than 10 years above the OECD average" } ] },
-    { "n": 16, "answer": "b", "questionHtml": "Who acts as the data custodian of My Health Record information used for research and public health purposes?", "options": [ { "opt": "a", "textHtml": "The Australian Digital Health Agency" }, { "opt": "b", "textHtml": "The Australian Institute of Health and Welfare (AIHW)" }, { "opt": "c", "textHtml": "Medicare" }, { "opt": "d", "textHtml": "The World Health Organization" } ] },
-    { "n": 17, "answer": "c", "questionHtml": "How many Sustainable Development Goals did the United Nations set as part of the 2030 Agenda?", "options": [ { "opt": "a", "textHtml": "10" }, { "opt": "b", "textHtml": "13" }, { "opt": "c", "textHtml": "17" }, { "opt": "d", "textHtml": "20" } ] },
-    { "n": 18, "answer": "b", "questionHtml": "Which Sustainable Development Goal specifically targets \"Good Health and Wellbeing\"?", "options": [ { "opt": "a", "textHtml": "SDG 1" }, { "opt": "b", "textHtml": "SDG 3" }, { "opt": "c", "textHtml": "SDG 10" }, { "opt": "d", "textHtml": "SDG 11" } ] },
-    { "n": 19, "answer": "c", "questionHtml": "What is a key reason for the growth of complementary and alternative health products and services in Australia?", "options": [ { "opt": "a", "textHtml": "Decreased availability of pharmaceutical drugs at chemists" }, { "opt": "b", "textHtml": "Government regulations discouraging conventional medicine" }, { "opt": "c", "textHtml": "Increased interest in holistic and preventive approaches to health" }, { "opt": "d", "textHtml": "Decreased awareness and information about conventional medicine" } ] },
-    { "n": 20, "answer": "b", "questionHtml": "Which chronic condition, alongside cardiovascular disease and cancer, is a major and rising contributor to Australia's disease burden?", "options": [ { "opt": "a", "textHtml": "Peripheral vascular disease" }, { "opt": "b", "textHtml": "Type 2 diabetes" }, { "opt": "c", "textHtml": "Seasonal influenza" }, { "opt": "d", "textHtml": "Whooping cough" } ] },
-    { "n": 21, "answer": "d", "questionHtml": "What is the main reason people in rural and remote Australia experience poorer health status than those in major cities?", "options": [ { "opt": "a", "textHtml": "They have no interest in improving their health" }, { "opt": "b", "textHtml": "Medicare does not operate outside major cities" }, { "opt": "c", "textHtml": "They are, on average, older than city populations" }, { "opt": "d", "textHtml": "Reduced access to healthcare services and a smaller local health workforce" } ] },
-    { "n": 22, "answer": "c", "questionHtml": "\"Shared responsibility\" in the Australian healthcare system mainly refers to:", "options": [ { "opt": "a", "textHtml": "Patients paying for all of their own healthcare" }, { "opt": "b", "textHtml": "Only state governments funding hospitals" }, { "opt": "c", "textHtml": "Government and non-government organisations collaborating to deliver person-centred care" }, { "opt": "d", "textHtml": "Private health insurers replacing Medicare" } ] },
-    { "n": 23, "answer": "a", "questionHtml": "Which of the following is an example of digital health?", "options": [ { "opt": "a", "textHtml": "A telehealth consultation with a GP" }, { "opt": "b", "textHtml": "An in-person visit to a hospital emergency department" }, { "opt": "c", "textHtml": "Paying a Medicare levy surcharge" }, { "opt": "d", "textHtml": "Joining a public hospital waiting list" } ] }
+    {
+      "n": 1,
+      "answer": "c",
+      "questionHtml": "Which of the following best defines arteriosclerosis?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A disease of the lungs"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A disease of the cardiovascular system"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A disease causing a loss of elasticity of the arteries"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A disease caused by an accumulation of plaque in the arterial walls"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "c",
+      "questionHtml": "Which of the following is true of a malignant tumour?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It is a secondary cancer"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It is the result of normal cell growth"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It spreads to other sites and organs of the body"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It remains localised in an area of the body"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "b",
+      "questionHtml": "What is cancer metastasis?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An abnormal mass of cells that forces its way among healthy cells"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A secondary or new tumour which may have spread in the body away from the primary site"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Cell division that multiplies uncontrollably, transferring damaged genetic material to offspring cells"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A non-cancerous tumour that grows slowly, surrounded by a capsule that controls its spread"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "c",
+      "questionHtml": "What is Peripheral Vascular Disease?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The interruption of the supply of blood to the brain"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The poor supply of blood to the muscular walls of the heart"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Diseases of the arteries, arterioles and capillaries that affect the limbs"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Build-up of fatty and/or fibrous material on the interior walls of arteries"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "d",
+      "questionHtml": "Which of the following is a limitation of epidemiology as a measure of health status?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It identifies broad trends only"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It is rarely used by health professionals and policy makers"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It indicates leading causes of illness but not leading causes of mortality"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It does not explain the sociocultural factors that influence health behaviours"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "d",
+      "questionHtml": "Which risk factor surpassed tobacco smoking as the leading contributor to disease burden in Australia in 2024?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Sedentary lifestyle"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Sugar consumption"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Alcohol consumption"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Overweight and obesity"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "a",
+      "questionHtml": "Which level of government was most likely responsible for the development of lockout laws and early closing times for venues selling alcohol?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "State"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Local"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Federal"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Non-government organisations"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "c",
+      "questionHtml": "Where does most funding responsibility for Australian public hospitals come from?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Local government"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Commonwealth government"
+        },
+        {
+          "opt": "c",
+          "textHtml": "State and territory government"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Non-government organisations"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "b",
+      "questionHtml": "Which socioeconomic factors best explain the health inequities experienced by socioeconomically disadvantaged groups?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Religious and peer influences"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Levels of education and employment"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Housing status and access to technology"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Technology access and geographical location"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "b",
+      "questionHtml": "Which health condition is most likely to have risk factors associated with a high-fat diet, sedentary behaviours and family history?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Skin cancer"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Myocardial infarction"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Infectious disease, e.g. influenza"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Chronic obstructive pulmonary disease"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "d",
+      "questionHtml": "Which of the following best describes the concept of \"healthy ageing\"?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Treating elderly people for commonly reported conditions"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The behaviours and activities that contribute to quality of life for elderly people"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Providing appropriate facilities and services to accommodate aged and elderly people"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The process of developing and maintaining the functional ability that enables wellbeing in older age"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "c",
+      "questionHtml": "What would a comparison of the health status of Indigenous and non-Indigenous Australians show?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Non-Indigenous Australians have higher infant mortality rates compared to Indigenous Australians"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Non-Indigenous Australians have a lower prevalence of chronic disease compared to Indigenous Australians"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Indigenous Australians have a higher prevalence of chronic disease compared to non-Indigenous Australians"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Indigenous Australians have lower hospital admission rates compared to non-Indigenous Australians"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "a",
+      "questionHtml": "Which of the following are benefits of emerging technologies in healthcare?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Less invasive, faster recovery, early detection"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Early detection, inexpensive, faster return to work"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Embodies social justice principles, less invasive, faster recovery"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Greater precision, less fatigue for professionals, accessible to all Australians"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "d",
+      "questionHtml": "What are the most significant factors contributing to a growing and ageing population?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Increased birth rates and improved healthcare"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Immigration and better education opportunities"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Economic recession and reduced access to healthcare"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Declining birth rates and advancements in technology"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "a",
+      "questionHtml": "Approximately how does Australia's life expectancy compare with the OECD average?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "About 1.9 years above the OECD average"
+        },
+        {
+          "opt": "b",
+          "textHtml": "About 5 years below the OECD average"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Roughly the same as the OECD average"
+        },
+        {
+          "opt": "d",
+          "textHtml": "More than 10 years above the OECD average"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "b",
+      "questionHtml": "Who acts as the data custodian of My Health Record information used for research and public health purposes?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Australian Digital Health Agency"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Australian Institute of Health and Welfare (AIHW)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Medicare"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The World Health Organization"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "c",
+      "questionHtml": "How many Sustainable Development Goals did the United Nations set as part of the 2030 Agenda?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "10"
+        },
+        {
+          "opt": "b",
+          "textHtml": "13"
+        },
+        {
+          "opt": "c",
+          "textHtml": "17"
+        },
+        {
+          "opt": "d",
+          "textHtml": "20"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "answer": "b",
+      "questionHtml": "Which Sustainable Development Goal specifically targets \"Good Health and Wellbeing\"?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "SDG 1"
+        },
+        {
+          "opt": "b",
+          "textHtml": "SDG 3"
+        },
+        {
+          "opt": "c",
+          "textHtml": "SDG 10"
+        },
+        {
+          "opt": "d",
+          "textHtml": "SDG 11"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "answer": "c",
+      "questionHtml": "What is a key reason for the growth of complementary and alternative health products and services in Australia?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Decreased availability of pharmaceutical drugs at chemists"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Government regulations discouraging conventional medicine"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Increased interest in holistic and preventive approaches to health"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Decreased awareness and information about conventional medicine"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "answer": "b",
+      "questionHtml": "Which chronic condition, alongside cardiovascular disease and cancer, is a major and rising contributor to Australia's disease burden?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Peripheral vascular disease"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Type 2 diabetes"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Seasonal influenza"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Whooping cough"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "answer": "d",
+      "questionHtml": "What is the main reason people in rural and remote Australia experience poorer health status than those in major cities?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They have no interest in improving their health"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Medicare does not operate outside major cities"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They are, on average, older than city populations"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Reduced access to healthcare services and a smaller local health workforce"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "answer": "c",
+      "questionHtml": "\"Shared responsibility\" in the Australian healthcare system mainly refers to:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Patients paying for all of their own healthcare"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Only state governments funding hospitals"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Government and non-government organisations collaborating to deliver person-centred care"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Private health insurers replacing Medicare"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "answer": "a",
+      "questionHtml": "Which of the following is an example of digital health?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A telehealth consultation with a GP"
+        },
+        {
+          "opt": "b",
+          "textHtml": "An in-person visit to a hospital emergency department"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Paying a Medicare levy surcharge"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Joining a public hospital waiting list"
+        }
+      ]
+    }
   ]
 }
