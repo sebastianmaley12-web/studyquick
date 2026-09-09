@@ -109,11 +109,35 @@ language plpgsql
 security definer set search_path = public
 as $$
 begin
-  -- display_name comes from signUp()'s options.data (see AuthContext.tsx) —
-  -- read here rather than via a client-side update, because email
-  -- confirmation is on by default, so there's no authenticated session to
-  -- write with immediately after signUp() resolves.
-  insert into public.profiles (id, display_name) values (new.id, new.raw_user_meta_data ->> 'display_name');
+  -- display_name, and the whole personalisation survey, come from
+  -- signUp()'s options.data (see AuthContext.tsx / Signup.tsx) — read here
+  -- rather than via a client-side update, because email confirmation is on
+  -- by default, so there's no authenticated session to write with
+  -- immediately after signUp() resolves. The product's funnel now runs the
+  -- survey (/onboarding) *before* account creation (its answers are held in
+  -- sessionStorage — see onboardingDraft.ts — until signup), so this is the
+  -- only path that ever populates these columns; onboarding_completed_at is
+  -- only set when a focus_subject_id actually came through, so a signup
+  -- with no prior survey (e.g. hitting /signup directly, or the legacy
+  -- signed-in-mid-onboarding path in Onboarding.tsx) still lands on
+  -- /onboarding same as before.
+  insert into public.profiles (
+    id, display_name, year, subjects_studying, focus_subject_id,
+    improvement_goal, study_style, biggest_challenge, onboarding_completed_at
+  ) values (
+    new.id,
+    new.raw_user_meta_data ->> 'display_name',
+    new.raw_user_meta_data ->> 'year',
+    coalesce(
+      (select array_agg(v) from jsonb_array_elements_text(new.raw_user_meta_data -> 'subjects_studying') as v),
+      '{}'
+    ),
+    new.raw_user_meta_data ->> 'focus_subject_id',
+    new.raw_user_meta_data ->> 'improvement_goal',
+    new.raw_user_meta_data ->> 'study_style',
+    new.raw_user_meta_data ->> 'biggest_challenge',
+    case when new.raw_user_meta_data ? 'focus_subject_id' then now() else null end
+  );
   insert into public.progress (user_id) values (new.id);
   insert into public.subscriptions (user_id) values (new.id);
   return new;

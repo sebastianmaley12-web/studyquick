@@ -37,7 +37,7 @@ export function PublicLayout() {
                 <button className="pub-btn-ghost" type="button" onClick={() => navigate('/login')}>
                   Sign in
                 </button>
-                <button className="pub-btn-primary" type="button" onClick={() => navigate('/signup')}>
+                <button className="pub-btn-primary" type="button" onClick={() => navigate('/onboarding')}>
                   Get started
                 </button>
               </>

@@ -8,8 +8,9 @@ import { useEntitlement, SUBJECT_NAMES } from '../lib/entitlement'
  * the current user is entitled to `subjectId` — signed in, onboarded, and
  * either subscribed or trialing this exact subject. See
  * src/lib/entitlement.ts for the unlock rule. Unauthenticated visitors are
- * redirected to /signup rather than shown any real content — there is no
- * anonymous free subject any more (product spec section 14). */
+ * redirected to /onboarding (the funnel's entry point — see Onboarding.tsx)
+ * rather than shown any real content — there is no anonymous free subject
+ * any more (product spec section 14). */
 export function SubjectGuard({ subjectId, children }: { subjectId: string; children: ReactNode }) {
   const navigate = useNavigate()
   const { isConfigured, user, loading: authLoading } = useAuth()
@@ -24,7 +25,7 @@ export function SubjectGuard({ subjectId, children }: { subjectId: string; child
 
   if (!isConfigured) return <>{children}</>
   if (authLoading) return null
-  if (!user) return <Navigate to="/signup" replace />
+  if (!user) return <Navigate to="/onboarding" replace />
   if (profileLoading) return null
   if (!hasCompletedOnboarding) return <Navigate to="/onboarding" replace />
   if (entitlementLoading) return null

@@ -65,7 +65,7 @@ export function Login() {
           </div>
           <p className="auth-switch">
             New to StudyQuick?{' '}
-            <button type="button" onClick={() => navigate('/signup')}>
+            <button type="button" onClick={() => navigate('/onboarding')}>
               Start your free week
             </button>
           </p>

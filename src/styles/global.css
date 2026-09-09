@@ -5943,6 +5943,10 @@ footer {
   color: var(--ink);
 }
 
+.trial-card .cta {
+  margin-top: 0;
+}
+
 .trial-card p {
   margin: 0 0 20px;
   font-size: 13.8px;

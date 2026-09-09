@@ -31,7 +31,7 @@ export function Pricing() {
 
   async function onSubscribe() {
     if (!user) {
-      navigate('/signup')
+      navigate('/onboarding')
       return
     }
     setBusy(true)

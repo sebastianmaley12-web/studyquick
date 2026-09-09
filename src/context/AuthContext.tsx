@@ -9,6 +9,7 @@ import {
 import type { Session, User } from '@supabase/supabase-js'
 import { supabase } from '../lib/supabase/client'
 import { attachProgressSync, detachProgressSync } from '../lib/progressSync'
+import type { OnboardingDraft } from '../lib/onboardingDraft'
 
 type AuthValue = {
   /** Whether VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY are set at all. When
@@ -19,7 +20,18 @@ type AuthValue = {
   loading: boolean
   user: User | null
   session: Session | null
-  signUp: (name: string, email: string, password: string) => Promise<{ error: string | null }>
+  /** `onboarding` is the completed personalisation survey (see
+   * onboardingDraft.ts) — the funnel now runs /onboarding before signup, so
+   * by the time someone signs up their answers already exist and get
+   * attached here rather than written separately afterwards. Optional
+   * because signup is still reachable without it (e.g. hitting /signup
+   * directly), in which case the user lands on /onboarding as before. */
+  signUp: (
+    name: string,
+    email: string,
+    password: string,
+    onboarding?: OnboardingDraft,
+  ) => Promise<{ error: string | null }>
   signIn: (email: string, password: string) => Promise<{ error: string | null }>
   signOut: () => Promise<void>
 }
@@ -55,12 +67,24 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       loading,
       user: session?.user ?? null,
       session,
-      async signUp(name, email, password) {
+      async signUp(name, email, password, onboarding) {
         if (!supabase) return { error: 'Accounts are not set up yet.' }
         const { error } = await supabase.auth.signUp({
           email,
           password,
-          options: { data: { display_name: name } },
+          options: {
+            data: {
+              display_name: name,
+              ...(onboarding && {
+                year: onboarding.year,
+                subjects_studying: onboarding.subjectsStudying,
+                focus_subject_id: onboarding.focusSubjectId,
+                improvement_goal: onboarding.improvementGoal,
+                study_style: onboarding.studyStyle,
+                biggest_challenge: onboarding.biggestChallenge || null,
+              }),
+            },
+          },
         })
         return { error: error?.message ?? null }
       },

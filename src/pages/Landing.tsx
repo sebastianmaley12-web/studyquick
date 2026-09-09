@@ -48,9 +48,9 @@ const LOOP_STEPS = [
 ]
 
 const HOW_IT_WORKS = [
+  { title: 'Tell StudyQuick what you’re studying', body: 'A short survey personalises your setup around your subjects and goals — no account needed yet.' },
   { title: 'Create your account', body: 'Sign up with your name, email and a password — nothing else needed.' },
-  { title: 'Tell StudyQuick what you’re studying', body: 'A short survey personalises your setup around your subjects and goals.' },
-  { title: 'Choose a subject and start your free week', body: 'Full access to one subject, free for 7 days — no payment details required.' },
+  { title: 'Start your free week', body: 'Full access to the subject you chose, free for 7 days — no payment details required.' },
   { title: 'Study, practise and track your progress', body: 'Work through the Learn → Practise → Test → Improve loop and watch it add up.' },
 ]
 
@@ -79,7 +79,7 @@ export function Landing() {
             <button
               className="cta"
               type="button"
-              onClick={() => navigate(isConfigured ? '/signup' : '/subjects/modern-history')}
+              onClick={() => navigate(isConfigured ? '/onboarding' : '/subjects/modern-history')}
             >
               Start your free week <span className="arw">&rarr;</span>
             </button>
@@ -161,13 +161,13 @@ export function Landing() {
         <div className="mkt-cta-band">
           <h2>Ready to see what StudyQuick recommends for you?</h2>
           <p>
-            Create a free account, tell us what you&rsquo;re studying, and try one subject in
+            Tell us what you&rsquo;re studying, create a free account, and try one subject in
             full for 7 days.
           </p>
           <button
             className="cta"
             type="button"
-            onClick={() => navigate(isConfigured ? '/signup' : '/subjects/modern-history')}
+            onClick={() => navigate(isConfigured ? '/onboarding' : '/subjects/modern-history')}
           >
             Start your free week <span className="arw">&rarr;</span>
           </button>

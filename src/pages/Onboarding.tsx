@@ -5,22 +5,13 @@ import {
   useProfile,
   IMPROVEMENT_GOAL_LABELS,
   STUDY_STYLE_LABELS,
-  type Year,
   type ImprovementGoal,
   type StudyStyle,
 } from '../lib/profile'
 import { ONBOARDING_SUBJECT_IDS, SUBJECT_NAMES } from '../lib/entitlement'
+import { saveOnboardingDraft, loadOnboardingDraft, type OnboardingDraft } from '../lib/onboardingDraft'
 
-type Answers = {
-  year: Year | null
-  subjectsStudying: string[]
-  focusSubjectId: string | null
-  improvementGoal: ImprovementGoal | null
-  studyStyle: StudyStyle | null
-  biggestChallenge: string
-}
-
-const EMPTY_ANSWERS: Answers = {
+const EMPTY_ANSWERS: OnboardingDraft = {
   year: null,
   subjectsStudying: [],
   focusSubjectId: null,
@@ -31,12 +22,22 @@ const EMPTY_ANSWERS: Answers = {
 
 const TOTAL_STEPS = 6
 
+/** Reachable without an account — this is deliberately the funnel's entry
+ * point before signup now (Landing/Pricing/etc. all point new visitors
+ * here first), so the product can personalise itself before ever asking
+ * for a name or a password. See onboardingDraft.ts for how the answers get
+ * from here to the account the student creates on /signup right after.
+ *
+ * Still also reachable while signed in (e.g. SubjectGuard sends a signed-in
+ * user with no completed survey here) — that path writes straight to
+ * `profiles` via useProfile() instead of the draft, since a session already
+ * exists to write with. */
 export function Onboarding() {
   const navigate = useNavigate()
-  const { user, loading: authLoading } = useAuth()
+  const { user } = useAuth()
   const { hasCompletedOnboarding, loading: profileLoading, update } = useProfile()
   const [step, setStep] = useState(0)
-  const [answers, setAnswers] = useState<Answers>(EMPTY_ANSWERS)
+  const [answers, setAnswers] = useState<OnboardingDraft>(() => loadOnboardingDraft() ?? EMPTY_ANSWERS)
   const [submitting, setSubmitting] = useState(false)
   const [error, setError] = useState<string | null>(null)
   // update() below sets onboarding_completed_at optimistically in local
@@ -46,8 +47,7 @@ export function Onboarding() {
   // flag says "we're already navigating ourselves, don't redirect".
   const [justCompleted, setJustCompleted] = useState(false)
 
-  if (!authLoading && !user) return <Navigate to="/signup" replace />
-  if (!justCompleted && !profileLoading && hasCompletedOnboarding) {
+  if (user && !justCompleted && !profileLoading && hasCompletedOnboarding) {
     return <Navigate to="/dashboard" replace />
   }
 
@@ -66,6 +66,15 @@ export function Onboarding() {
     }
     setSubmitting(true)
     setError(null)
+
+    if (!user) {
+      // New-account path: no session to write with yet — hold the answers
+      // until /signup attaches them to signUp()'s metadata.
+      saveOnboardingDraft(answers)
+      navigate('/signup')
+      return
+    }
+
     setJustCompleted(true)
     const { error: err } = await update({
       year: answers.year,
