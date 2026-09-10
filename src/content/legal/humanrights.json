@@ -83,6 +83,30 @@
             "badge": "7 marks",
             "questionHtml": "Using examples, evaluate the extent to which ad hoc tribunals have been effective in enforcing human rights.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what an ad hoc tribunal is.</li><li>Discuss at least two tribunals, with real statistics/examples.</li><li>Weigh strengths and limitations to reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Ad hoc tribunals are courts created under UN authority to address specific human rights abuses, and have been effective in enforcing human rights to a considerable, though not complete, extent. The International Criminal Tribunal for Rwanda (ICTR), created in 1994/1995, successfully prosecuted 62 of 76 individuals it tried in relation to the 1994 genocide of the Tutsi minority, and was the first tribunal to recognise rape as an instrument of genocide and to interpret the definition of genocide under the 1948 Genocide Convention, entrenching important legal precedent for future prosecutions. Similarly, the International Criminal Tribunal for the former Yugoslavia (ICTY), created in 1993, sentenced 90 individuals — including senior leadership such as Radovan Karadžić — and gave roughly 4,650 witnesses of the Yugoslav Wars a chance to be heard.</p><p>However, both tribunals had real limitations: the ICTR never indicted a single member of the Rwandan Patriotic Front despite allegations against them, creating a perception of one-sided \"victor's justice\", while the ICTY's partial acquittal of Vojislav Šešelj and lenient plea deal for Biljana Plavšić were both criticised, and Slobodan Milošević died before his trial could conclude. The Extraordinary Chambers in the Courts of Cambodia illustrate the limits even more starkly: despite over $300 million USD in costs and eleven years of operation, only a handful of individuals have been convicted in relation to a genocide that killed over a million people. Overall, ad hoc tribunals have been effective to a moderate extent — they establish important legal precedent and give victims a voice, but their narrow scope, cost and slow pace mean most perpetrators of mass atrocities are never actually brought before them.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the role of the Australian Human Rights Commission (AHRC) in promoting human rights domestically.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what the AHRC does.</li><li>Note its limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The Australian Human Rights Commission (AHRC) investigates complaints of discrimination and human rights breaches under Commonwealth anti-discrimination law, and can attempt conciliation between the parties to resolve a complaint without the need for court proceedings. It also has an educative role, publishing reports and conducting inquiries into specific human rights issues to raise public awareness.</p><p>However, the AHRC cannot make binding orders or override valid Commonwealth legislation — if conciliation fails, a complainant must pursue their matter through the Federal Court, and the Commission's own recommendations are not legally enforceable. This means the AHRC is an important promotional and conciliatory body, but not itself a source of binding legal enforcement.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the effectiveness of non-government organisations in promoting human rights.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Give examples of NGOs and what they do.</li><li>Weigh strengths against the key limitation.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Non-government organisations such as Amnesty International and the Red Cross investigate and publicise human rights abuses, applying public and diplomatic pressure on governments to reform — the Red Cross also plays a direct, practical role under the Geneva Conventions, monitoring the treatment of prisoners of war and civilians during armed conflict.</p><p>NGOs can be highly effective at raising international awareness of abuses, including in situations where the offending government itself is unwilling to acknowledge the problem. However, they have no formal legal power to compel a state to change its laws or conduct, and their effectiveness depends heavily on being able to access affected regions and populations — access that authoritarian states can, and do, restrict. Overall, NGOs are an important complement to legal enforcement mechanisms, but cannot substitute for binding legal action when a state is determined to resist reform.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how the separation of powers can help protect human rights in Australia.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define the separation of powers.</li><li>Explain how it protects rights.</li><li>Note a limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The separation of powers divides law-making (Parliament), law-execution (the executive) and law-interpretation (the courts) between different bodies, so that no single arm of government holds all governmental power.</p><p>This helps protect human rights because an independent judiciary can review executive action and, in some cases, find legislation invalid — for example, if it is inconsistent with the Constitution — providing a check on the other two arms of government that could otherwise infringe on individual rights without any independent oversight. However, Australia's separation of powers mainly restrains federal judicial power rather than guaranteeing specific rights directly, so it protects rights indirectly, by checking how power is exercised, rather than by setting out a comprehensive list of protected rights the way a Charter of Rights would.</p></div></div>"
           }
         ]
       },
@@ -106,52 +130,538 @@
             "badge": "6 marks",
             "questionHtml": "Discuss the arguments for and against an Australian Charter of Rights.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what a Charter of Rights is.</li><li>Give at least one argument for and one against.</li><li>Note Australia's current alternative protections.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Unlike many other countries, Australia has no single, comprehensive Charter of Rights — human rights are instead protected through a mix of the Constitution, ordinary statutes, and common law. Arguments for introducing a Charter include that it would raise public awareness and understanding of rights, and provide clearer, more consistent legal protection than relying on rights being scattered across different laws that can be amended or repealed by an ordinary parliamentary majority.</p><p>Arguments against a Charter include the concern that it would transfer significant power from democratically elected parliaments to unelected judges, who would be responsible for interpreting and applying broadly worded rights in individual cases. Critics also argue existing protections — including the division and separation of powers, specific anti-discrimination statutes, and common law protections built up through case law — already provide adequate protection without the risk of over-judicialising political questions. Ultimately, the debate reflects a broader tension between the certainty a codified Charter could offer and the flexibility of Australia's current, more piecemeal approach to protecting human rights.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Outline",
+            "badge": "4 marks",
+            "questionHtml": "Outline the significance of the Universal Declaration of Human Rights (UDHR) 1948.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State when and why it was adopted.</li><li>Explain its legal status.</li><li>Explain its lasting significance.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The UDHR was adopted by the UN General Assembly in 1948, in the aftermath of the Second World War, as the first comprehensive international statement of fundamental human rights covering civil, political, economic, social and cultural rights. It is a declaration, not a binding treaty, so it does not itself create enforceable legal obligations.</p><p>Its significance lies in what it made possible afterwards: it provided the foundation for later binding treaties, including the ICCPR and ICESCR (1966), and remains hugely influential today, having shaped human rights protections and constitutions in many countries since.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how universal suffrage developed as a human right over time.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Give at least two real milestones, in order.</li><li>Show the development was gradual and uneven, not immediate.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Universal suffrage — the right to vote regardless of gender, race or status — developed gradually rather than all at once. The UK's <em>Representation of the People Act 1918</em> first extended the vote to a majority of men and some women, and similar expansions followed soon after in other countries, including the 19th Amendment to the US Constitution (1920) and Australia's Commonwealth Franchise Act 1902, which enfranchised most women.</p><p>However, this expansion was uneven: First Nations peoples in Australia did not gain full, unrestricted access to enrol and vote in federal elections until 1962 — over sixty years after the Commonwealth Franchise Act. This shows universal suffrage developing as a human right through a long series of separate, incremental legal changes in response to shifting social values, rather than through a single moment of recognition.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the significance of the International Covenant on Civil and Political Rights (ICCPR) and the International Covenant on Economic, Social and Cultural Rights (ICESCR) to the development of international human rights law.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what each covenant covers.</li><li>Explain why they were significant compared to the UDHR alone.</li><li>Note a limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The ICCPR and ICESCR, both adopted in 1966, split the broad aspirations of the 1948 UDHR into two separate binding treaties — the ICCPR covering civil and political rights (such as the right to a fair trial and freedom of expression), and the ICESCR covering economic, social and cultural rights (such as the right to work, education and health).</p><p>Their significance lies in making parts of the UDHR's aspirations legally binding for the first time on states that ratify them, rather than remaining purely declaratory — the Human Rights Committee, for example, monitors state compliance with the ICCPR. However, like any treaty, both covenants are only binding on states that ratify them, and enforcement still depends heavily on state cooperation, since there is no external body able to force a non-compliant state to change its domestic law or practice.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What is the Universal Declaration of Human Rights (UDHR)?", "answerHtml": "A 1948 UN declaration (not a binding treaty) setting out fundamental human rights, including the right to vote." },
-    { "n": 2, "questionHtml": "What two covenants, together with the UDHR, form the 'International Bill of Rights'?", "answerHtml": "The International Covenant on Civil and Political Rights (ICCPR) and the International Covenant on Economic, Social and Cultural Rights (ICESCR), both 1966." },
-    { "n": 3, "questionHtml": "What does it mean for a state to 'ratify' a treaty?", "answerHtml": "To formally consent to be legally bound by it — signing alone shows intent, but ratification (and often domestic legislation) is needed to make it binding." },
-    { "n": 4, "questionHtml": "What body monitors state compliance with the ICCPR?", "answerHtml": "The Human Rights Committee." },
-    { "n": 5, "questionHtml": "What is the difference between an intergovernmental organisation and a non-government organisation?", "answerHtml": "An intergovernmental organisation (e.g. the United Nations) is made up of member states; an NGO is independent of government and promotes human rights without formal legal enforcement power." },
-    { "n": 6, "questionHtml": "What did Commonwealth v Tasmania (1983) (the Tasmanian Dam Case) establish?", "answerHtml": "That the Commonwealth's external affairs power can be used to fulfil Australia's international obligations, even against a state government's wishes." },
-    { "n": 7, "questionHtml": "What happened in Commonwealth v Australian Capital Territory (2013)?", "answerHtml": "The High Court struck down the ACT's same-sex marriage law as inconsistent with Commonwealth marriage legislation." },
-    { "n": 8, "questionHtml": "Name one argument for an Australian Charter of Rights.", "answerHtml": "It would raise public awareness and provide clearer, more consistent legal protection of rights." },
-    { "n": 9, "questionHtml": "Name one argument against an Australian Charter of Rights.", "answerHtml": "It could transfer significant power from elected parliaments to unelected judges." },
-    { "n": 10, "questionHtml": "What did R v Tang (2008) clarify?", "answerHtml": "The legal meaning of 'slavery' under Australian law, strengthening later trafficking prosecutions." },
-    { "n": 11, "questionHtml": "What does the Modern Slavery Act 2018 (Cth) require?", "answerHtml": "Large businesses operating in Australia to report annually on the risk of modern slavery in their supply chains." },
-    { "n": 12, "questionHtml": "When was the International Criminal Tribunal for Rwanda (ICTR) established, and what genocide did it address?", "answerHtml": "1994/1995, addressing the genocide of the Tutsi minority in Rwanda." },
-    { "n": 13, "questionHtml": "What was the ICTR the first tribunal to do?", "answerHtml": "The first to recognise rape as an instrument of genocide, and the first to interpret the definition of genocide from the 1948 Genocide Convention." },
-    { "n": 14, "questionHtml": "What is a major criticism of the ICTR?", "answerHtml": "It never indicted a single member of the Rwandan Patriotic Front, despite allegations against them." },
-    { "n": 15, "questionHtml": "When was the International Criminal Tribunal for the former Yugoslavia (ICTY) established?", "answerHtml": "1993." },
-    { "n": 16, "questionHtml": "Name one senior leader sentenced by the ICTY and their sentence.", "answerHtml": "Radovan Karadžić (Bosnian Serb political leader) or Ratko Mladić (Bosnian Serb general) — both given life sentences." },
-    { "n": 17, "questionHtml": "What happened to Slobodan Milošević's ICTY trial?", "answerHtml": "He died before the trial concluded." },
-    { "n": 18, "questionHtml": "What does the Extraordinary Chambers in the Courts of Cambodia show about ad hoc tribunals?", "answerHtml": "Despite over $300 million USD in costs and 11+ years of operation, only a handful of individuals have been convicted for the Khmer Rouge genocide." },
-    { "n": 19, "questionHtml": "What role does the International Criminal Court (ICC) play?", "answerHtml": "It prosecutes individuals for the most serious international crimes, such as genocide, war crimes and crimes against humanity." },
-    { "n": 20, "questionHtml": "When did Australia's Commonwealth Franchise Act extend voting rights to most women?", "answerHtml": "1902." },
-    { "n": 21, "questionHtml": "When did First Nations peoples gain unrestricted access to enrol and vote in Australian federal elections?", "answerHtml": "1962." },
-    { "n": 22, "questionHtml": "Give an example of a non-legal means of promoting human rights.", "answerHtml": "The media — raising public awareness of human rights abuses without formal legal enforcement power." }
+    {
+      "n": 1,
+      "questionHtml": "What is the Universal Declaration of Human Rights (UDHR)?",
+      "answerHtml": "A 1948 UN declaration (not a binding treaty) setting out fundamental human rights, including the right to vote."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What two covenants, together with the UDHR, form the 'International Bill of Rights'?",
+      "answerHtml": "The International Covenant on Civil and Political Rights (ICCPR) and the International Covenant on Economic, Social and Cultural Rights (ICESCR), both 1966."
+    },
+    {
+      "n": 3,
+      "questionHtml": "What does it mean for a state to 'ratify' a treaty?",
+      "answerHtml": "To formally consent to be legally bound by it — signing alone shows intent, but ratification (and often domestic legislation) is needed to make it binding."
+    },
+    {
+      "n": 4,
+      "questionHtml": "What body monitors state compliance with the ICCPR?",
+      "answerHtml": "The Human Rights Committee."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What is the difference between an intergovernmental organisation and a non-government organisation?",
+      "answerHtml": "An intergovernmental organisation (e.g. the United Nations) is made up of member states; an NGO is independent of government and promotes human rights without formal legal enforcement power."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What did Commonwealth v Tasmania (1983) (the Tasmanian Dam Case) establish?",
+      "answerHtml": "That the Commonwealth's external affairs power can be used to fulfil Australia's international obligations, even against a state government's wishes."
+    },
+    {
+      "n": 7,
+      "questionHtml": "What happened in Commonwealth v Australian Capital Territory (2013)?",
+      "answerHtml": "The High Court struck down the ACT's same-sex marriage law as inconsistent with Commonwealth marriage legislation."
+    },
+    {
+      "n": 8,
+      "questionHtml": "Name one argument for an Australian Charter of Rights.",
+      "answerHtml": "It would raise public awareness and provide clearer, more consistent legal protection of rights."
+    },
+    {
+      "n": 9,
+      "questionHtml": "Name one argument against an Australian Charter of Rights.",
+      "answerHtml": "It could transfer significant power from elected parliaments to unelected judges."
+    },
+    {
+      "n": 10,
+      "questionHtml": "What did R v Tang (2008) clarify?",
+      "answerHtml": "The legal meaning of 'slavery' under Australian law, strengthening later trafficking prosecutions."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What does the Modern Slavery Act 2018 (Cth) require?",
+      "answerHtml": "Large businesses operating in Australia to report annually on the risk of modern slavery in their supply chains."
+    },
+    {
+      "n": 12,
+      "questionHtml": "When was the International Criminal Tribunal for Rwanda (ICTR) established, and what genocide did it address?",
+      "answerHtml": "1994/1995, addressing the genocide of the Tutsi minority in Rwanda."
+    },
+    {
+      "n": 13,
+      "questionHtml": "What was the ICTR the first tribunal to do?",
+      "answerHtml": "The first to recognise rape as an instrument of genocide, and the first to interpret the definition of genocide from the 1948 Genocide Convention."
+    },
+    {
+      "n": 14,
+      "questionHtml": "What is a major criticism of the ICTR?",
+      "answerHtml": "It never indicted a single member of the Rwandan Patriotic Front, despite allegations against them."
+    },
+    {
+      "n": 15,
+      "questionHtml": "When was the International Criminal Tribunal for the former Yugoslavia (ICTY) established?",
+      "answerHtml": "1993."
+    },
+    {
+      "n": 16,
+      "questionHtml": "Name one senior leader sentenced by the ICTY and their sentence.",
+      "answerHtml": "Radovan Karadžić (Bosnian Serb political leader) or Ratko Mladić (Bosnian Serb general) — both given life sentences."
+    },
+    {
+      "n": 17,
+      "questionHtml": "What happened to Slobodan Milošević's ICTY trial?",
+      "answerHtml": "He died before the trial concluded."
+    },
+    {
+      "n": 18,
+      "questionHtml": "What does the Extraordinary Chambers in the Courts of Cambodia show about ad hoc tribunals?",
+      "answerHtml": "Despite over $300 million USD in costs and 11+ years of operation, only a handful of individuals have been convicted for the Khmer Rouge genocide."
+    },
+    {
+      "n": 19,
+      "questionHtml": "What role does the International Criminal Court (ICC) play?",
+      "answerHtml": "It prosecutes individuals for the most serious international crimes, such as genocide, war crimes and crimes against humanity."
+    },
+    {
+      "n": 20,
+      "questionHtml": "When did Australia's Commonwealth Franchise Act extend voting rights to most women?",
+      "answerHtml": "1902."
+    },
+    {
+      "n": 21,
+      "questionHtml": "When did First Nations peoples gain unrestricted access to enrol and vote in Australian federal elections?",
+      "answerHtml": "1962."
+    },
+    {
+      "n": 22,
+      "questionHtml": "Give an example of a non-legal means of promoting human rights.",
+      "answerHtml": "The media — raising public awareness of human rights abuses without formal legal enforcement power."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "a", "questionHtml": "Which of the following statements about the Universal Declaration of Human Rights is correct?", "options": [ { "opt": "a", "textHtml": "It cannot be ratified by states, because it is a declaration, not a treaty" }, { "opt": "b", "textHtml": "It is not a formal statement of human rights" }, { "opt": "c", "textHtml": "It does not mention the right to universal suffrage" }, { "opt": "d", "textHtml": "It does not mention freedom from slavery" } ] },
-    { "n": 2, "answer": "b", "questionHtml": "Which of the following is an argument for an Australian Charter of Rights?", "options": [ { "opt": "a", "textHtml": "It would not be enforceable" }, { "opt": "b", "textHtml": "It would raise public awareness of human rights" }, { "opt": "c", "textHtml": "It would not be subject to interpretation by the High Court" }, { "opt": "d", "textHtml": "It would remove the need for domestic human rights protections entirely" } ] },
-    { "n": 3, "answer": "b", "questionHtml": "The United Nations develops a human rights treaty. Australia signs and ratifies the treaty. New Zealand only signs it. Which of the following statements is correct?", "options": [ { "opt": "a", "textHtml": "The treaty is legally binding in both Australia and New Zealand" }, { "opt": "b", "textHtml": "The treaty is legally binding in Australia but not in New Zealand" }, { "opt": "c", "textHtml": "The treaty is not legally binding in either country" }, { "opt": "d", "textHtml": "The treaty is legally binding in New Zealand but not in Australia" } ] },
-    { "n": 4, "answer": "b", "questionHtml": "Which of the following is an intergovernmental organisation?", "options": [ { "opt": "a", "textHtml": "The High Court" }, { "opt": "b", "textHtml": "The United Nations" }, { "opt": "c", "textHtml": "The International Criminal Court" }, { "opt": "d", "textHtml": "The Australian Human Rights Commission" } ] },
-    { "n": 5, "answer": "c", "questionHtml": "Which of the following can be an effective non-legal means of promoting human rights?", "options": [ { "opt": "a", "textHtml": "The United Nations Security Council" }, { "opt": "b", "textHtml": "Domestic police" }, { "opt": "c", "textHtml": "The media" }, { "opt": "d", "textHtml": "Interpol" } ] },
-    { "n": 6, "answer": "b", "questionHtml": "Which of the following concepts is most closely related to trade unionism and labour rights?", "options": [ { "opt": "a", "textHtml": "Universal suffrage" }, { "opt": "b", "textHtml": "Collective action in employment" }, { "opt": "c", "textHtml": "Self-determination" }, { "opt": "d", "textHtml": "Universal education" } ] },
-    { "n": 7, "answer": "b", "questionHtml": "The Human Rights Committee monitors state compliance with which of the following?", "options": [ { "opt": "a", "textHtml": "Universal Declaration of Human Rights (UDHR)" }, { "opt": "b", "textHtml": "International Covenant on Civil and Political Rights (ICCPR)" }, { "opt": "c", "textHtml": "United Nations Convention on the Rights of the Child" }, { "opt": "d", "textHtml": "International Covenant on Economic, Social and Cultural Rights" } ] },
-    { "n": 8, "answer": "c", "questionHtml": "Which international institution is responsible for prosecuting individuals charged with the most serious human rights violations?", "options": [ { "opt": "a", "textHtml": "The International Human Rights Council" }, { "opt": "b", "textHtml": "The United Nations Security Council" }, { "opt": "c", "textHtml": "The International Criminal Court" }, { "opt": "d", "textHtml": "The International Court of Justice" } ] },
-    { "n": 9, "answer": "a", "questionHtml": "Wakanda, a newly recognised nation, is urged by a resolution of the United Nations General Assembly to uphold human rights, but refuses to comply. What does this situation best illustrate?", "options": [ { "opt": "a", "textHtml": "The principle of state sovereignty" }, { "opt": "b", "textHtml": "The binding authority of General Assembly resolutions on member states" }, { "opt": "c", "textHtml": "The United Nations Security Council's power to enforce compliance" }, { "opt": "d", "textHtml": "The role of non-government organisations in promoting international law" } ] },
-    { "n": 10, "answer": "b", "questionHtml": "What did the High Court decide in Commonwealth v Tasmania (1983) (the Tasmanian Dam Case)?", "options": [ { "opt": "a", "textHtml": "That state governments have unlimited control over environmental matters" }, { "opt": "b", "textHtml": "That the Commonwealth's external affairs power could be used to fulfil international treaty obligations" }, { "opt": "c", "textHtml": "That the Constitution cannot be used to protect the environment" }, { "opt": "d", "textHtml": "That international treaties automatically become part of Australian domestic law" } ] },
-    { "n": 11, "answer": "d", "questionHtml": "What did R v Tang (2008) achieve?", "options": [ { "opt": "a", "textHtml": "It abolished all forms of forced labour globally" }, { "opt": "b", "textHtml": "It created the offence of human trafficking for the first time" }, { "opt": "c", "textHtml": "It established the International Criminal Court's jurisdiction in Australia" }, { "opt": "d", "textHtml": "It clarified the legal meaning of 'slavery' under Australian law" } ] },
-    { "n": 12, "answer": "c", "questionHtml": "What does the Modern Slavery Act 2018 (Cth) require of large businesses operating in Australia?", "options": [ { "opt": "a", "textHtml": "To cease all overseas manufacturing" }, { "opt": "b", "textHtml": "Nothing — it only applies to government agencies" }, { "opt": "c", "textHtml": "To report annually on modern slavery risks in their supply chains" }, { "opt": "d", "textHtml": "To pay a mandatory slavery-prevention levy" } ] },
-    { "n": 13, "answer": "a", "questionHtml": "Which of the following was the International Criminal Tribunal for Rwanda (ICTR) the first tribunal to do?", "options": [ { "opt": "a", "textHtml": "Recognise rape as an instrument of genocide" }, { "opt": "b", "textHtml": "Try a head of state for war crimes" }, { "opt": "c", "textHtml": "Operate without any UN authorisation" }, { "opt": "d", "textHtml": "Impose the death penalty for genocide" } ] },
-    { "n": 14, "answer": "b", "questionHtml": "What is a major criticism of the International Criminal Tribunal for Rwanda (ICTR)?", "options": [ { "opt": "a", "textHtml": "It sentenced too many people" }, { "opt": "b", "textHtml": "It never indicted a single member of the Rwandan Patriotic Front" }, { "opt": "c", "textHtml": "It only operated for six months" }, { "opt": "d", "textHtml": "It had no power to hear any genocide cases" } ] },
-    { "n": 15, "answer": "d", "questionHtml": "What happened to Slobodan Milošević during his trial before the ICTY?", "options": [ { "opt": "a", "textHtml": "He was acquitted of all charges" }, { "opt": "b", "textHtml": "He was sentenced to life imprisonment" }, { "opt": "c", "textHtml": "He escaped custody" }, { "opt": "d", "textHtml": "He died before the trial concluded" } ] },
-    { "n": 16, "answer": "c", "questionHtml": "What does the Extraordinary Chambers in the Courts of Cambodia illustrate about ad hoc tribunals?", "options": [ { "opt": "a", "textHtml": "They are always fast and inexpensive" }, { "opt": "b", "textHtml": "They can convict an unlimited number of offenders" }, { "opt": "c", "textHtml": "They can be slow and costly relative to the number of people actually convicted" }, { "opt": "d", "textHtml": "They have no connection to the United Nations" } ] },
-    { "n": 17, "answer": "b", "questionHtml": "Which Commonwealth Act specifically added offences like forced marriage and organ trafficking to Australian criminal law?", "options": [ { "opt": "a", "textHtml": "The Modern Slavery Act 2018 (Cth)" }, { "opt": "b", "textHtml": "The Crimes Legislation Amendment (Slavery, Slavery-like Conditions and People Trafficking) Act 2013 (Cth)" }, { "opt": "c", "textHtml": "The Racial Discrimination Act 1975 (Cth)" }, { "opt": "d", "textHtml": "The Migration Act 1958 (Cth)" } ] }
+    {
+      "n": 1,
+      "answer": "a",
+      "questionHtml": "Which of the following statements about the Universal Declaration of Human Rights is correct?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It cannot be ratified by states, because it is a declaration, not a treaty"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It is not a formal statement of human rights"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It does not mention the right to universal suffrage"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It does not mention freedom from slavery"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "b",
+      "questionHtml": "Which of the following is an argument for an Australian Charter of Rights?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It would not be enforceable"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It would raise public awareness of human rights"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It would not be subject to interpretation by the High Court"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It would remove the need for domestic human rights protections entirely"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "b",
+      "questionHtml": "The United Nations develops a human rights treaty. Australia signs and ratifies the treaty. New Zealand only signs it. Which of the following statements is correct?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The treaty is legally binding in both Australia and New Zealand"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The treaty is legally binding in Australia but not in New Zealand"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The treaty is not legally binding in either country"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The treaty is legally binding in New Zealand but not in Australia"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "b",
+      "questionHtml": "Which of the following is an intergovernmental organisation?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The High Court"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The United Nations"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The International Criminal Court"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Australian Human Rights Commission"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "c",
+      "questionHtml": "Which of the following can be an effective non-legal means of promoting human rights?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The United Nations Security Council"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Domestic police"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The media"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Interpol"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "b",
+      "questionHtml": "Which of the following concepts is most closely related to trade unionism and labour rights?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Universal suffrage"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Collective action in employment"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Self-determination"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Universal education"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "b",
+      "questionHtml": "The Human Rights Committee monitors state compliance with which of the following?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Universal Declaration of Human Rights (UDHR)"
+        },
+        {
+          "opt": "b",
+          "textHtml": "International Covenant on Civil and Political Rights (ICCPR)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "United Nations Convention on the Rights of the Child"
+        },
+        {
+          "opt": "d",
+          "textHtml": "International Covenant on Economic, Social and Cultural Rights"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "c",
+      "questionHtml": "Which international institution is responsible for prosecuting individuals charged with the most serious human rights violations?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The International Human Rights Council"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The United Nations Security Council"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The International Criminal Court"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The International Court of Justice"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "a",
+      "questionHtml": "Wakanda, a newly recognised nation, is urged by a resolution of the United Nations General Assembly to uphold human rights, but refuses to comply. What does this situation best illustrate?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The principle of state sovereignty"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The binding authority of General Assembly resolutions on member states"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The United Nations Security Council's power to enforce compliance"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The role of non-government organisations in promoting international law"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "b",
+      "questionHtml": "What did the High Court decide in Commonwealth v Tasmania (1983) (the Tasmanian Dam Case)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "That state governments have unlimited control over environmental matters"
+        },
+        {
+          "opt": "b",
+          "textHtml": "That the Commonwealth's external affairs power could be used to fulfil international treaty obligations"
+        },
+        {
+          "opt": "c",
+          "textHtml": "That the Constitution cannot be used to protect the environment"
+        },
+        {
+          "opt": "d",
+          "textHtml": "That international treaties automatically become part of Australian domestic law"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "d",
+      "questionHtml": "What did R v Tang (2008) achieve?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It abolished all forms of forced labour globally"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It created the offence of human trafficking for the first time"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It established the International Criminal Court's jurisdiction in Australia"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It clarified the legal meaning of 'slavery' under Australian law"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "c",
+      "questionHtml": "What does the Modern Slavery Act 2018 (Cth) require of large businesses operating in Australia?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To cease all overseas manufacturing"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Nothing — it only applies to government agencies"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To report annually on modern slavery risks in their supply chains"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To pay a mandatory slavery-prevention levy"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "a",
+      "questionHtml": "Which of the following was the International Criminal Tribunal for Rwanda (ICTR) the first tribunal to do?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Recognise rape as an instrument of genocide"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Try a head of state for war crimes"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Operate without any UN authorisation"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Impose the death penalty for genocide"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "b",
+      "questionHtml": "What is a major criticism of the International Criminal Tribunal for Rwanda (ICTR)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It sentenced too many people"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It never indicted a single member of the Rwandan Patriotic Front"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It only operated for six months"
+        },
+        {
+          "opt": "d",
+          "textHtml": "It had no power to hear any genocide cases"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "d",
+      "questionHtml": "What happened to Slobodan Milošević during his trial before the ICTY?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "He was acquitted of all charges"
+        },
+        {
+          "opt": "b",
+          "textHtml": "He was sentenced to life imprisonment"
+        },
+        {
+          "opt": "c",
+          "textHtml": "He escaped custody"
+        },
+        {
+          "opt": "d",
+          "textHtml": "He died before the trial concluded"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "c",
+      "questionHtml": "What does the Extraordinary Chambers in the Courts of Cambodia illustrate about ad hoc tribunals?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They are always fast and inexpensive"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They can convict an unlimited number of offenders"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They can be slow and costly relative to the number of people actually convicted"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They have no connection to the United Nations"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "b",
+      "questionHtml": "Which Commonwealth Act specifically added offences like forced marriage and organ trafficking to Australian criminal law?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Modern Slavery Act 2018 (Cth)"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Crimes Legislation Amendment (Slavery, Slavery-like Conditions and People Trafficking) Act 2013 (Cth)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Racial Discrimination Act 1975 (Cth)"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Migration Act 1958 (Cth)"
+        }
+      ]
+    }
   ]
 }

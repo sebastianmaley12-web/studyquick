@@ -105,6 +105,30 @@
             "badge": "15 marks",
             "questionHtml": "\"The use of discretion is important in achieving justice for individuals and the community.\" To what extent is this statement true in relation to the criminal justice system?",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover discretion at more than one stage — e.g. police, prosecutorial, judicial.</li><li>Balance examples where discretion helps justice against examples where its absence (mandatory sentencing) or misuse (inconsistent policing) undermines it.</li><li>Reach an explicit judgement about the extent to which the statement is true.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Discretion plays a significant role at every stage of the criminal justice system, and is important — but not sufficient on its own — for achieving justice for individuals and the community. Police discretion under LEPRA (the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW)) allows officers to issue a caution or refer a young person to a youth justice conference under the <em>Young Offenders Act 1997</em> (NSW) instead of charging them, which can achieve individualised justice for minor or first-time offending. However, uneven use of this discretion — for example, well-documented disproportionate use of police strip-search powers on some groups — shows discretion can also undermine justice for the community when it isn't applied consistently or transparently.</p><p>Judicial discretion in sentencing allows a court to weigh the specific aggravating and mitigating circumstances of a case, such as an offender's youth or genuine remorse, producing a more individually just outcome than a fixed penalty could. This is illustrated in <em>Bugmy v The Queen</em> (2013) 249 CLR 571, where the High Court confirmed that an offender's social deprivation and childhood disadvantage remain relevant mitigating factors even for repeat offending, allowing courts to tailor sentences to an offender's real circumstances. By contrast, mandatory and standard non-parole schemes deliberately limit judicial discretion to increase consistency and community confidence, at the cost of flexibility in individual cases.</p><p>Overall, the statement is true to a large extent: discretion allows the legal system to respond to the particular facts of each case, which is essential for justice at the individual level. But unchecked or inconsistently applied discretion — particularly at the policing stage — can also produce unequal outcomes, meaning discretion needs to be balanced with clear guidelines and oversight (such as appeals and legislative sentencing guidelines) to achieve justice for the community as a whole, not just for individuals.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the role of a Victim Impact Statement in the sentencing process.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define a Victim Impact Statement (VIS) and name the protecting legislation.</li><li>Explain what role it plays at sentencing.</li><li>Note its limitation — it doesn't automatically dictate the sentence.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A Victim Impact Statement (VIS), protected under the <em>Victims Rights and Support Act 2013</em> (NSW), lets a victim (or, in a death, a family member) describe to the court the physical, financial or psychological harm the crime caused them.</p><p>It is read or tendered at sentencing, giving the judge a fuller picture of the offence's real impact beyond the bare facts, and gives the victim a sense of being heard and involved in a process they don't otherwise control. However, a VIS is not automatically treated as an aggravating or mitigating factor in itself — a victim's wish for leniency (or severity) does not bind the judge, who must still sentence according to the objective seriousness of the offence and established sentencing principles.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Evaluate",
+            "badge": "8 marks",
+            "questionHtml": "Evaluate the effectiveness of alternative methods of sentencing, such as circle sentencing and restorative justice conferencing, in achieving justice.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain both circle sentencing and restorative justice conferencing.</li><li>Give strengths and limitations of each.</li><li>Reach a judgement on overall effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Circle sentencing involves Aboriginal elders and community members, alongside the magistrate, offender and victim, in sentencing an Aboriginal offender in the Local Court — it was introduced in NSW in the early 2000s to bring community context and cultural authority into a process that had often failed to engage Aboriginal offenders or address the underlying causes of their offending. Restorative justice conferencing (including youth justice conferencing under the <em>Young Offenders Act 1997</em> (NSW)) brings the offender and victim together with a trained convenor to discuss the harm caused and agree an outcome plan, such as an apology or reparation.</p><p>Both methods can be effective: they give victims and communities a direct voice in the process, focus on repairing harm and addressing underlying causes rather than punishment alone, and circle sentencing in particular has been valued as a response to the over-representation of Aboriginal people in the criminal justice system. However, both rely on the consent of all parties (including the victim, who may not wish to participate) and are not available for the most serious offences, meaning they remain a valuable complement to — rather than a replacement for — mainstream sentencing. Overall, these alternatives achieve justice effectively within their limited scope, but cannot address sentencing across the criminal justice system as a whole.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Outline",
+            "badge": "3 marks",
+            "questionHtml": "Outline the difference between concurrent and consecutive sentences.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define both terms.</li><li>Note when a judge might choose one over the other.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A concurrent sentence means multiple sentences are served at the same time, so the offender effectively serves only the longest of them. A consecutive sentence means sentences are served one after another, so their lengths are added together. A judge generally has discretion to choose between the two, often depending on whether the offences arose from the same act or course of conduct (favouring concurrent sentences) or are separate and unrelated (favouring consecutive sentences).</p></div></div>"
           }
         ]
       },
@@ -128,6 +152,22 @@
             "badge": "10 marks",
             "questionHtml": "Evaluate the effectiveness of the jury system in the criminal trial process.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what a jury does and why the adversarial system uses one.</li><li>Give strengths and weaknesses.</li><li>Reach a judgement on effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A jury of twelve ordinary citizens decides the facts of a case and delivers a verdict (through its foreperson) in serious indictable trials, bringing a lay, community perspective to the criminal trial process that a single judge could not provide alone. This helps maintain public confidence in the legal system, since verdicts are decided by peers rather than solely by legal professionals, and juries are not told about an accused's prior convictions unless directly relevant, reducing the risk of prejudging a case on an offender's past record alone.</p><p>However, the jury system has real limitations: jurors can be influenced by media coverage of high-profile cases despite directions from the judge, jury deliberations are not required to give reasons for a verdict (making inconsistent or seemingly unreasonable verdicts hard to review), and complex trials involving technical or scientific evidence can be difficult for a lay jury to fully assess. On balance, the jury system remains an important and broadly effective safeguard of community involvement and legitimacy in the criminal trial process, even though it is not immune from the risk of bias or error that any human decision-making process carries.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the importance of the presumption of innocence in the criminal trial process.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define the presumption of innocence.</li><li>Explain why it matters to the trial process.</li><li>Note a real tension/exception.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The presumption of innocence means an accused person is treated as innocent unless and until the prosecution proves their guilt, placing the burden of proof on the prosecution rather than requiring the accused to prove their own innocence.</p><p>This is central to the legitimacy of the adversarial system: it underpins other protections, including the criminal standard of proof (beyond reasonable doubt) and the right to legal representation, and guards against the state using its far greater resources to wrongly convict an individual. In practice, however, the presumption is not absolute — the 'show cause' provisions of the <em>Bail Act 2013</em> (NSW) require an accused charged with the most serious offences to justify their own release on bail, rather than the prosecution having to justify their detention, showing the presumption of innocence can be balanced against community protection even before a trial has occurred.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the effectiveness of legal representation in achieving justice for an accused person.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain who provides legal representation for those who can't afford it.</li><li>Explain how this improves fairness.</li><li>Note a real limitation (the 'justice gap').</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Legal Aid NSW and Public Defenders provide legal representation for accused people who cannot afford a private lawyer, meaning the quality of a person's defence is not purely determined by their wealth. A Public Defender's role is to represent the accused's interests — not to prove their innocence — since the burden of proof remains on the prosecution throughout.</p><p>This significantly improves the fairness of the trial process, since an unrepresented accused is far less able to test the prosecution's evidence or navigate complex court procedure. However, Legal Aid funding and means-testing are limited, and people who don't qualify for free representation but still can't afford a private lawyer can fall into a genuine access-to-justice gap. Overall, legal representation meaningfully improves the fairness of the criminal trial process, but unequal access to it remains an ongoing limitation on achieving justice for every accused person.</p></div></div>"
           }
         ]
       },
@@ -151,55 +191,563 @@
             "badge": "8 marks",
             "questionHtml": "Evaluate the effectiveness of the domestic and international legal systems in dealing with international crime.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Distinguish crimes against the international community from transnational crimes.</li><li>Cover both domestic and international measures.</li><li>Discuss state sovereignty as a limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Dealing with international crime — both crimes against the international community, like genocide and war crimes, and transnational crimes, like drug trafficking and cybercrime — relies on a mix of domestic and international measures, and is only moderately effective. Domestically, Commonwealth offences under the <em>Criminal Code Act 1995</em> (Cth) allow Australia to prosecute certain international crimes directly, and agencies like the Australian Federal Police cooperate with Interpol to share intelligence and coordinate investigations across borders.</p><p>Internationally, extradition treaties allow one country to hand over a suspect to face trial in another, and international tribunals or the International Criminal Court can prosecute the most serious crimes against the international community where a state is unwilling or unable to prosecute itself. However, the principle of state sovereignty significantly limits these measures: a state generally cannot be forced to extradite a suspect or comply with an international investigation without its own consent, and Interpol itself has no independent power of arrest — it can only coordinate between national police forces. This means offenders can sometimes evade justice simply by remaining in, or fleeing to, a state unwilling to cooperate, showing that domestic and international responses to international crime remain effective only to the extent that states are willing to cooperate with each other.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain the effectiveness of youth justice conferencing as an alternative to court for young offenders.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define youth justice conferencing and its legislative basis.</li><li>Explain its strengths.</li><li>Note its limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Youth justice conferencing, provided for under the <em>Young Offenders Act 1997</em> (NSW), is a restorative justice process that brings together a young offender, the victim, their families and a trained convenor to discuss the offence and agree an outcome plan — such as an apology, reparation, or community work.</p><p>It can be an effective alternative to court for less serious offences: it avoids a formal criminal record, directly involves the victim in a way a court hearing rarely does, and is tailored to the individual young person's circumstances, which can help address the underlying causes of their offending. However, it is only available for less serious matters, and requires the young person to admit the offence and the victim to agree to participate — meaning it cannot be used for every case. Overall, youth justice conferencing is an effective diversionary tool for eligible young offenders, reflecting the justice system's broader recognition that children need different treatment from adults.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "5 marks",
+            "questionHtml": "Assess the role of Interpol in addressing transnational crime.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what Interpol does.</li><li>Note its key limitation.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Interpol coordinates and shares intelligence between national police forces across almost every country in the world, helping police in different jurisdictions identify, track and build cases against suspects involved in transnational crimes such as drug trafficking, cybercrime and human trafficking, including through tools like Red Notices requesting a suspect's arrest.</p><p>However, Interpol has no independent power to arrest anyone or compel a state to act — a Red Notice is only a request, and enforcement still depends entirely on the willingness of national police forces to cooperate, which state sovereignty allows them to decline. Overall, Interpol plays a valuable coordinating role in addressing transnational crime, but its effectiveness is ultimately limited by the same principle of state sovereignty that limits most other international responses to crime.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What are the two elements usually required to prove a crime?", "answerHtml": "Actus reus (the guilty act) and mens rea (the guilty mind/intent)." },
-    { "n": 2, "questionHtml": "What is a strict liability offence?", "answerHtml": "An offence that doesn't require mens rea to be proven — the act itself is enough, e.g. most driving offences like speeding." },
-    { "n": 3, "questionHtml": "What's the difference between a summary and an indictable offence?", "answerHtml": "Summary offences are less serious and heard by a magistrate alone; indictable offences are more serious and can be heard before a judge and jury." },
-    { "n": 4, "questionHtml": "Name the four parties to a crime.", "answerHtml": "Principal in the first degree, principal in the second degree, accessory before the fact, and accessory after the fact." },
-    { "n": 5, "questionHtml": "What's the difference between situational and social crime prevention?", "answerHtml": "Situational crime prevention reduces opportunities to offend (e.g. CCTV); social crime prevention addresses the underlying causes of crime (e.g. youth programs)." },
-    { "n": 6, "questionHtml": "What Act sets out most NSW police powers, and what is it commonly known as?", "answerHtml": "The Law Enforcement (Powers and Responsibilities) Act 2002 (NSW), commonly known as LEPRA." },
-    { "n": 7, "questionHtml": "What's the difference between bail and remand?", "answerHtml": "Bail is release (sometimes with conditions) pending trial; remand is being held in custody pending trial." },
-    { "n": 8, "questionHtml": "What does the 'show cause' requirement under the Bail Act 2013 (NSW) mean?", "answerHtml": "For the most serious offences, the accused must show why their detention in custody isn't justified, rather than the prosecution having to justify refusing bail." },
-    { "n": 9, "questionHtml": "What legal system does Australia use for criminal trials?", "answerHtml": "The adversarial system — two opposing sides present their case to an independent judge or magistrate (and often a jury)." },
-    { "n": 10, "questionHtml": "What is charge negotiation (plea bargaining)?", "answerHtml": "An agreement where the accused pleads guilty to a lesser or fewer charge(s) in exchange for a discount on sentence." },
-    { "n": 11, "questionHtml": "What is the criminal standard of proof?", "answerHtml": "Beyond reasonable doubt." },
-    { "n": 12, "questionHtml": "What's the difference between a complete and a partial defence to murder?", "answerHtml": "A complete defence (e.g. self-defence) results in full acquittal; a partial defence (e.g. substantial impairment) can reduce murder to manslaughter." },
-    { "n": 13, "questionHtml": "What role does a jury's foreperson play?", "answerHtml": "They deliver the jury's verdict on its behalf." },
-    { "n": 14, "questionHtml": "Name the four purposes of punishment.", "answerHtml": "Deterrence (specific and general), retribution, rehabilitation and incapacitation." },
-    { "n": 15, "questionHtml": "Give an example of an aggravating factor in sentencing.", "answerHtml": "An offender's prior convictions, use of violence, or the vulnerability of the victim." },
-    { "n": 16, "questionHtml": "What legislation protects a victim's right to make a Victim Impact Statement in NSW?", "answerHtml": "The Victims Rights and Support Act 2013 (NSW)." },
-    { "n": 17, "questionHtml": "What is circle sentencing?", "answerHtml": "An alternative sentencing method involving Aboriginal elders and the community in sentencing Aboriginal offenders." },
-    { "n": 18, "questionHtml": "What is parole?", "answerHtml": "Supervised release into the community before an offender's full custodial sentence has been served." },
-    { "n": 19, "questionHtml": "What did the 2023 High Court decision in NZYQ v Minister for Immigration find?", "answerHtml": "That indefinite immigration/continued detention without a real prospect of removal from Australia is unconstitutional." },
-    { "n": 20, "questionHtml": "At what age can a child never be held criminally responsible in NSW?", "answerHtml": "Under 10 years old." },
-    { "n": 21, "questionHtml": "What is doli incapax?", "answerHtml": "The presumption that a child aged 10-13 is incapable of crime unless the prosecution proves they knew their act was seriously wrong." },
-    { "n": 22, "questionHtml": "What alternatives to court does the Young Offenders Act 1997 (NSW) provide for young people?", "answerHtml": "Warnings, cautions, and youth justice conferences." },
-    { "n": 23, "questionHtml": "What's the difference between a crime against the international community and a transnational crime?", "answerHtml": "A crime against the international community (e.g. genocide) harms humanity as a whole; a transnational crime (e.g. drug trafficking) crosses national borders." },
-    { "n": 24, "questionHtml": "Why can state sovereignty limit responses to international crime?", "answerHtml": "A state generally can't be forced to hand over a suspect or enforce another country's laws without its own consent." }
+    {
+      "n": 1,
+      "questionHtml": "What are the two elements usually required to prove a crime?",
+      "answerHtml": "Actus reus (the guilty act) and mens rea (the guilty mind/intent)."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What is a strict liability offence?",
+      "answerHtml": "An offence that doesn't require mens rea to be proven — the act itself is enough, e.g. most driving offences like speeding."
+    },
+    {
+      "n": 3,
+      "questionHtml": "What's the difference between a summary and an indictable offence?",
+      "answerHtml": "Summary offences are less serious and heard by a magistrate alone; indictable offences are more serious and can be heard before a judge and jury."
+    },
+    {
+      "n": 4,
+      "questionHtml": "Name the four parties to a crime.",
+      "answerHtml": "Principal in the first degree, principal in the second degree, accessory before the fact, and accessory after the fact."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What's the difference between situational and social crime prevention?",
+      "answerHtml": "Situational crime prevention reduces opportunities to offend (e.g. CCTV); social crime prevention addresses the underlying causes of crime (e.g. youth programs)."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What Act sets out most NSW police powers, and what is it commonly known as?",
+      "answerHtml": "The Law Enforcement (Powers and Responsibilities) Act 2002 (NSW), commonly known as LEPRA."
+    },
+    {
+      "n": 7,
+      "questionHtml": "What's the difference between bail and remand?",
+      "answerHtml": "Bail is release (sometimes with conditions) pending trial; remand is being held in custody pending trial."
+    },
+    {
+      "n": 8,
+      "questionHtml": "What does the 'show cause' requirement under the Bail Act 2013 (NSW) mean?",
+      "answerHtml": "For the most serious offences, the accused must show why their detention in custody isn't justified, rather than the prosecution having to justify refusing bail."
+    },
+    {
+      "n": 9,
+      "questionHtml": "What legal system does Australia use for criminal trials?",
+      "answerHtml": "The adversarial system — two opposing sides present their case to an independent judge or magistrate (and often a jury)."
+    },
+    {
+      "n": 10,
+      "questionHtml": "What is charge negotiation (plea bargaining)?",
+      "answerHtml": "An agreement where the accused pleads guilty to a lesser or fewer charge(s) in exchange for a discount on sentence."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What is the criminal standard of proof?",
+      "answerHtml": "Beyond reasonable doubt."
+    },
+    {
+      "n": 12,
+      "questionHtml": "What's the difference between a complete and a partial defence to murder?",
+      "answerHtml": "A complete defence (e.g. self-defence) results in full acquittal; a partial defence (e.g. substantial impairment) can reduce murder to manslaughter."
+    },
+    {
+      "n": 13,
+      "questionHtml": "What role does a jury's foreperson play?",
+      "answerHtml": "They deliver the jury's verdict on its behalf."
+    },
+    {
+      "n": 14,
+      "questionHtml": "Name the four purposes of punishment.",
+      "answerHtml": "Deterrence (specific and general), retribution, rehabilitation and incapacitation."
+    },
+    {
+      "n": 15,
+      "questionHtml": "Give an example of an aggravating factor in sentencing.",
+      "answerHtml": "An offender's prior convictions, use of violence, or the vulnerability of the victim."
+    },
+    {
+      "n": 16,
+      "questionHtml": "What legislation protects a victim's right to make a Victim Impact Statement in NSW?",
+      "answerHtml": "The Victims Rights and Support Act 2013 (NSW)."
+    },
+    {
+      "n": 17,
+      "questionHtml": "What is circle sentencing?",
+      "answerHtml": "An alternative sentencing method involving Aboriginal elders and the community in sentencing Aboriginal offenders."
+    },
+    {
+      "n": 18,
+      "questionHtml": "What is parole?",
+      "answerHtml": "Supervised release into the community before an offender's full custodial sentence has been served."
+    },
+    {
+      "n": 19,
+      "questionHtml": "What did the 2023 High Court decision in NZYQ v Minister for Immigration find?",
+      "answerHtml": "That indefinite immigration/continued detention without a real prospect of removal from Australia is unconstitutional."
+    },
+    {
+      "n": 20,
+      "questionHtml": "At what age can a child never be held criminally responsible in NSW?",
+      "answerHtml": "Under 10 years old."
+    },
+    {
+      "n": 21,
+      "questionHtml": "What is doli incapax?",
+      "answerHtml": "The presumption that a child aged 10-13 is incapable of crime unless the prosecution proves they knew their act was seriously wrong."
+    },
+    {
+      "n": 22,
+      "questionHtml": "What alternatives to court does the Young Offenders Act 1997 (NSW) provide for young people?",
+      "answerHtml": "Warnings, cautions, and youth justice conferences."
+    },
+    {
+      "n": 23,
+      "questionHtml": "What's the difference between a crime against the international community and a transnational crime?",
+      "answerHtml": "A crime against the international community (e.g. genocide) harms humanity as a whole; a transnational crime (e.g. drug trafficking) crosses national borders."
+    },
+    {
+      "n": 24,
+      "questionHtml": "Why can state sovereignty limit responses to international crime?",
+      "answerHtml": "A state generally can't be forced to hand over a suspect or enforce another country's laws without its own consent."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "a", "questionHtml": "Continued detention (after sentence) best reflects which purpose of punishment?", "options": [ { "opt": "a", "textHtml": "Incapacitation" }, { "opt": "b", "textHtml": "Rehabilitation" }, { "opt": "c", "textHtml": "General deterrence" }, { "opt": "d", "textHtml": "Retribution" } ] },
-    { "n": 2, "answer": "a", "questionHtml": "Under NSW legislation, at what age are children first considered capable of committing a crime?", "options": [ { "opt": "a", "textHtml": "Ten" }, { "opt": "b", "textHtml": "Eleven" }, { "opt": "c", "textHtml": "Thirteen" }, { "opt": "d", "textHtml": "Fourteen" } ] },
-    { "n": 3, "answer": "d", "questionHtml": "Which of the following is an example of social crime prevention?", "options": [ { "opt": "a", "textHtml": "An accused person being remanded in custody" }, { "opt": "b", "textHtml": "A curfew banning young people from being out in public at night" }, { "opt": "c", "textHtml": "Police drug-detection dogs at music festivals" }, { "opt": "d", "textHtml": "An employment program for young people" } ] },
-    { "n": 4, "answer": "d", "questionHtml": "Bronwyn is charged with a speeding offence. Bronwyn was speeding to get to a peaceful protest against the Prime Minister. Which of the following factors most likely affected Bronwyn's criminal behaviour?", "options": [ { "opt": "a", "textHtml": "Genetic" }, { "opt": "b", "textHtml": "Economic" }, { "opt": "c", "textHtml": "Social" }, { "opt": "d", "textHtml": "Political" } ] },
-    { "n": 5, "answer": "a", "questionHtml": "Speeding is best described as which combination of offence categories?", "options": [ { "opt": "a", "textHtml": "Summary, strict liability and driving" }, { "opt": "b", "textHtml": "Indictable, driving and offence against the sovereign" }, { "opt": "c", "textHtml": "Summary, strict liability and offence against the sovereign" }, { "opt": "d", "textHtml": "Summary, driving and preliminary crime" } ] },
-    { "n": 6, "answer": "d", "questionHtml": "Which of the following is a role of a Public Defender?", "options": [ { "opt": "a", "textHtml": "To provide general legal advice to the public" }, { "opt": "b", "textHtml": "To prove a defendant's innocence on the balance of probabilities" }, { "opt": "c", "textHtml": "To prove a defendant's innocence beyond reasonable doubt" }, { "opt": "d", "textHtml": "To represent a defendant, while the prosecution carries the burden of proof" } ] },
-    { "n": 7, "answer": "b", "questionHtml": "Harley, who is fifteen years old, is taken to the police station for questioning. Who must be present when police officers interview Harley?", "options": [ { "opt": "a", "textHtml": "A Legal Aid NSW lawyer" }, { "opt": "b", "textHtml": "Harley's parent, guardian, or another responsible adult" }, { "opt": "c", "textHtml": "A responsible adult chosen by the police" }, { "opt": "d", "textHtml": "No one — Harley can be interviewed alone" } ] },
-    { "n": 8, "answer": "d", "questionHtml": "Which of the following is a part of the criminal trial process, not the investigation process?", "options": [ { "opt": "a", "textHtml": "Bail" }, { "opt": "b", "textHtml": "Search and seizure" }, { "opt": "c", "textHtml": "Arrest" }, { "opt": "d", "textHtml": "Charge negotiation" } ] },
-    { "n": 9, "answer": "d", "questionHtml": "Elizabeth stands trial for murder. The jury returns a special verdict of \"act proven but not criminally responsible because of mental health impairment\". What will most likely happen to Elizabeth next?", "options": [ { "opt": "a", "textHtml": "She will be sentenced as normal" }, { "opt": "b", "textHtml": "She will be released into the community immediately" }, { "opt": "c", "textHtml": "She will automatically go to prison for a fixed term" }, { "opt": "d", "textHtml": "She will be assessed by the Mental Health Review Tribunal" } ] },
-    { "n": 10, "answer": "c", "questionHtml": "Jared is found guilty of assaulting Rose, an 86-year-old woman, causing a minor injury. Rose's Victim Impact Statement asks the judge not to punish Jared. Jared has five previous convictions for assault. Which of the following could be a mitigating factor in Jared's sentencing?", "options": [ { "opt": "a", "textHtml": "Rose's age" }, { "opt": "b", "textHtml": "Jared's previous convictions" }, { "opt": "c", "textHtml": "Rose's Victim Impact Statement" }, { "opt": "d", "textHtml": "The nature of the injury" } ] },
-    { "n": 11, "answer": "b", "questionHtml": "Which of the following is a role of the foreperson of a jury in a criminal trial?", "options": [ { "opt": "a", "textHtml": "To deliver the offender's sentence on the jury's behalf" }, { "opt": "b", "textHtml": "To deliver the verdict on the jury's behalf" }, { "opt": "c", "textHtml": "To research the facts of the case on the jury's behalf" }, { "opt": "d", "textHtml": "To ensure the jury reaches a unanimous verdict" } ] },
-    { "n": 12, "answer": "c", "questionHtml": "While driving, Mary is stopped by police for a random breath test. What must Mary do?", "options": [ { "opt": "a", "textHtml": "Answer all police questions about where she is going" }, { "opt": "b", "textHtml": "Get out of the car and greet the police" }, { "opt": "c", "textHtml": "Comply with the test and provide her name if asked" }, { "opt": "d", "textHtml": "Nothing — random breath tests are not lawful" } ] },
-    { "n": 13, "answer": "a", "questionHtml": "In a contested matter heard by the Local Court, who holds the burden of proof?", "options": [ { "opt": "a", "textHtml": "The prosecution" }, { "opt": "b", "textHtml": "The defendant" }, { "opt": "c", "textHtml": "The magistrate" }, { "opt": "d", "textHtml": "The jury" } ] },
-    { "n": 14, "answer": "d", "questionHtml": "Which of the following offences does NOT require mens rea for a conviction?", "options": [ { "opt": "a", "textHtml": "Assaulting a police officer" }, { "opt": "b", "textHtml": "Supplying prohibited drugs" }, { "opt": "c", "textHtml": "Possession of stolen goods" }, { "opt": "d", "textHtml": "Driving an unregistered vehicle" } ] },
-    { "n": 15, "answer": "d", "questionHtml": "Jonny is forced at gunpoint to commit a crime. Which complete defence could Jonny use to justify his actions?", "options": [ { "opt": "a", "textHtml": "Mental illness" }, { "opt": "b", "textHtml": "Automatism" }, { "opt": "c", "textHtml": "Provocation" }, { "opt": "d", "textHtml": "Duress" } ] },
-    { "n": 16, "answer": "d", "questionHtml": "What is the most severe criminal penalty currently able to be imposed in New South Wales?", "options": [ { "opt": "a", "textHtml": "Capital punishment" }, { "opt": "b", "textHtml": "A suspended sentence" }, { "opt": "c", "textHtml": "25 years imprisonment" }, { "opt": "d", "textHtml": "Life imprisonment without parole" } ] },
-    { "n": 17, "answer": "a", "questionHtml": "Under what circumstances is a police search of a motor vehicle generally considered lawful?", "options": [ { "opt": "a", "textHtml": "When police have reasonable grounds for suspicion" }, { "opt": "b", "textHtml": "Only when the driver has a prior criminal record" }, { "opt": "c", "textHtml": "Only when a random breath test is also administered" }, { "opt": "d", "textHtml": "Only when the occupant is already known to police" } ] },
-    { "n": 18, "answer": "a", "questionHtml": "After serving part of a custodial sentence, Chanel is moved to a different prison with fewer restrictions. What does this describe?", "options": [ { "opt": "a", "textHtml": "Security reclassification" }, { "opt": "b", "textHtml": "Parole" }, { "opt": "c", "textHtml": "Continued detention" }, { "opt": "d", "textHtml": "Preventative detention" } ] }
+    {
+      "n": 1,
+      "answer": "a",
+      "questionHtml": "Continued detention (after sentence) best reflects which purpose of punishment?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Incapacitation"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Rehabilitation"
+        },
+        {
+          "opt": "c",
+          "textHtml": "General deterrence"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Retribution"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "a",
+      "questionHtml": "Under NSW legislation, at what age are children first considered capable of committing a crime?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Ten"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Eleven"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Thirteen"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Fourteen"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "d",
+      "questionHtml": "Which of the following is an example of social crime prevention?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "An accused person being remanded in custody"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A curfew banning young people from being out in public at night"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Police drug-detection dogs at music festivals"
+        },
+        {
+          "opt": "d",
+          "textHtml": "An employment program for young people"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "d",
+      "questionHtml": "Bronwyn is charged with a speeding offence. Bronwyn was speeding to get to a peaceful protest against the Prime Minister. Which of the following factors most likely affected Bronwyn's criminal behaviour?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Genetic"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Economic"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Social"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Political"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "a",
+      "questionHtml": "Speeding is best described as which combination of offence categories?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Summary, strict liability and driving"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Indictable, driving and offence against the sovereign"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Summary, strict liability and offence against the sovereign"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Summary, driving and preliminary crime"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "d",
+      "questionHtml": "Which of the following is a role of a Public Defender?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To provide general legal advice to the public"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To prove a defendant's innocence on the balance of probabilities"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To prove a defendant's innocence beyond reasonable doubt"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To represent a defendant, while the prosecution carries the burden of proof"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "b",
+      "questionHtml": "Harley, who is fifteen years old, is taken to the police station for questioning. Who must be present when police officers interview Harley?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A Legal Aid NSW lawyer"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Harley's parent, guardian, or another responsible adult"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A responsible adult chosen by the police"
+        },
+        {
+          "opt": "d",
+          "textHtml": "No one — Harley can be interviewed alone"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "d",
+      "questionHtml": "Which of the following is a part of the criminal trial process, not the investigation process?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Bail"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Search and seizure"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Arrest"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Charge negotiation"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "d",
+      "questionHtml": "Elizabeth stands trial for murder. The jury returns a special verdict of \"act proven but not criminally responsible because of mental health impairment\". What will most likely happen to Elizabeth next?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "She will be sentenced as normal"
+        },
+        {
+          "opt": "b",
+          "textHtml": "She will be released into the community immediately"
+        },
+        {
+          "opt": "c",
+          "textHtml": "She will automatically go to prison for a fixed term"
+        },
+        {
+          "opt": "d",
+          "textHtml": "She will be assessed by the Mental Health Review Tribunal"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "c",
+      "questionHtml": "Jared is found guilty of assaulting Rose, an 86-year-old woman, causing a minor injury. Rose's Victim Impact Statement asks the judge not to punish Jared. Jared has five previous convictions for assault. Which of the following could be a mitigating factor in Jared's sentencing?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Rose's age"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Jared's previous convictions"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Rose's Victim Impact Statement"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The nature of the injury"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "b",
+      "questionHtml": "Which of the following is a role of the foreperson of a jury in a criminal trial?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "To deliver the offender's sentence on the jury's behalf"
+        },
+        {
+          "opt": "b",
+          "textHtml": "To deliver the verdict on the jury's behalf"
+        },
+        {
+          "opt": "c",
+          "textHtml": "To research the facts of the case on the jury's behalf"
+        },
+        {
+          "opt": "d",
+          "textHtml": "To ensure the jury reaches a unanimous verdict"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "c",
+      "questionHtml": "While driving, Mary is stopped by police for a random breath test. What must Mary do?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Answer all police questions about where she is going"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Get out of the car and greet the police"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Comply with the test and provide her name if asked"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Nothing — random breath tests are not lawful"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "a",
+      "questionHtml": "In a contested matter heard by the Local Court, who holds the burden of proof?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The prosecution"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The defendant"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The magistrate"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The jury"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "d",
+      "questionHtml": "Which of the following offences does NOT require mens rea for a conviction?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Assaulting a police officer"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Supplying prohibited drugs"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Possession of stolen goods"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Driving an unregistered vehicle"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "d",
+      "questionHtml": "Jonny is forced at gunpoint to commit a crime. Which complete defence could Jonny use to justify his actions?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Mental illness"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Automatism"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Provocation"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Duress"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "d",
+      "questionHtml": "What is the most severe criminal penalty currently able to be imposed in New South Wales?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Capital punishment"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A suspended sentence"
+        },
+        {
+          "opt": "c",
+          "textHtml": "25 years imprisonment"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Life imprisonment without parole"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "a",
+      "questionHtml": "Under what circumstances is a police search of a motor vehicle generally considered lawful?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "When police have reasonable grounds for suspicion"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Only when the driver has a prior criminal record"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Only when a random breath test is also administered"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Only when the occupant is already known to police"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "answer": "a",
+      "questionHtml": "After serving part of a custodial sentence, Chanel is moved to a different prison with fewer restrictions. What does this describe?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Security reclassification"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Parole"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Continued detention"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Preventative detention"
+        }
+      ]
+    }
   ]
 }

@@ -102,6 +102,22 @@
             "badge": "5 marks",
             "questionHtml": "Using a real example, explain how a decline in liquidity can force a business into dilutive equity finance.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the difference between liquidity and profitability.</li><li>Support with a real, dated example.</li><li>Explain why equity was the only viable option.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Liquidity is a business's ability to convert assets to cash to meet short-term obligations, and is distinct from profitability — a business can be profitable on paper while still running out of cash to pay its bills. Star Entertainment demonstrates the difference clearly: it reported a statutory loss of $302 million for the half year to December 2024, with group revenue down 25%, and available cash of just $98 million.</p><p>With so little liquid cash and lenders only willing to extend waivers to 30 June, Star had no realistic option to raise debt finance, since a lender would be taking on a highly distressed borrower. It survived through a $300 million rescue package led by US operator Bally's and investor Bruce Mathieson — equity finance that diluted existing shareholders (whose shares were trading around 11 cents) but carried no repayment obligation, which was the only kind of finance a business in Star's liquidity position could realistically secure.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "A listed retailer's board has cut its research and development budget by 60% and deferred a planned distribution centre upgrade, in order to maintain its dividend at last year's level. Using the stimulus, explain a potential conflict between short-term and long-term financial objectives.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Identify the short-term objective being prioritised.</li><li>Identify the long-term objective being sacrificed.</li><li>Explain the conflict.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The retailer's board is prioritising a short-term objective — maintaining its dividend at last year's level, which keeps current shareholders satisfied and supports the share price in the near term — at the direct expense of long-term objectives, specifically growth and efficiency. Cutting R&D by 60% reduces the business's ability to develop new products or improve its offering over time, and deferring the distribution centre upgrade means it continues operating with less efficient infrastructure than it otherwise would. This illustrates a common conflict in financial management: satisfying shareholders' short-term expectation of stable income can come at the cost of the investment a business needs to remain competitive and grow in the long term, and if the underinvestment continues for multiple years the retailer risks falling behind competitors who did not defer their own growth and efficiency investments.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "A transport business has total liabilities of $42 million and total equity of $14 million. 85% of its debt is at variable interest rates. The cash rate has risen by 1.5 percentage points over the past year. Using the stimulus, explain how rising interest rates affect the financial management of this business.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Note the business's gearing level (debt relative to equity).</li><li>Explain the effect of the rate rise given how much debt is variable-rate.</li><li>Note a possible response.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>This business is highly geared — total liabilities of $42 million against only $14 million in equity is a debt to equity ratio of 3:1, meaning it relies heavily on borrowed funds relative to owners' funds. Because 85% of that debt is at variable interest rates, a 1.5 percentage point rise in the cash rate flows through almost immediately into higher interest expense across the large majority of its borrowings, directly reducing net profit and putting pressure on cash flow available to meet those higher repayments. Given how highly geared and exposed to variable rates the business already is, it may respond by refinancing some of its variable-rate debt to fixed rates to reduce its exposure to further rate rises, or by reviewing its overall reliance on debt financing given how sensitive its interest costs now are to monetary policy changes it cannot control.</p></div></div>"
           }
         ]
       },
@@ -141,6 +157,30 @@
             "badge": "6 marks",
             "questionHtml": "Using the real example of Mosaic Brands, recommend how a business could use financial ratios to detect a working capital problem before it becomes insolvency.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Identify the relevant efficiency ratios.</li><li>Apply the real Mosaic Brands figures.</li><li>Recommend a specific monitoring strategy.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Efficiency ratios like inventory turnover and the accounts receivable/payable cycle can reveal a widening working capital gap well before a business becomes insolvent. Mosaic Brands (owner of Noni B, Millers, Rockmans and other fashion chains) held inventory for around 128 days on average while paying its own suppliers on terms of 120+ days — meaning the business was effectively financing its stockholding using supplier credit rather than its own cash, at operating margins that stayed weak (1–4.7%) even at peak revenue of around $864 million.</p><p>I would recommend the business track its inventory days and supplier payment days together every reporting period, rather than in isolation, since it's the gap between the two — not either figure alone — that signals the problem. Once inventory days consistently exceed supplier payment terms, as they did for Mosaic Brands, the business is relying on suppliers to fund growth. Mosaic Brands entered voluntary administration in October 2024 owing creditors an estimated $240–250 million, showing that stretching supplier terms is not a sustainable substitute for genuine working capital management — it only funds growth until suppliers stop extending credit.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Calculate & explain",
+            "badge": "4 marks",
+            "questionHtml": "Harbour Fitness — current assets $480,000; current liabilities $300,000. (a) Calculate the current ratio. (b) Explain what this ratio indicates about the business.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Apply the formula: current assets ÷ current liabilities.</li><li>State the result with its unit (a ratio, not a percentage).</li><li>Interpret the result against the 2:1 benchmark.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Current ratio = current assets ÷ current liabilities = $480,000 ÷ $300,000 = 1.6:1. This means Harbour Fitness has $1.60 in current assets for every $1 of current liabilities due in the short term. This is below the generally accepted 2:1 benchmark, which suggests the business's short-term liquidity position is not especially strong — it may find it harder than a business at or above 2:1 to comfortably meet its short-term obligations if they all fell due at once, particularly if a portion of its current assets is inventory that cannot be quickly converted to cash. It doesn't necessarily mean the business is in financial trouble, but it is a ratio worth monitoring over time and comparing against the industry standard for a fitness business.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Calculate & explain",
+            "badge": "5 marks",
+            "questionHtml": "Harbour Fitness — sales $2,000,000; gross profit $900,000; net profit $240,000; total equity $800,000. (a) Calculate the gross profit ratio and the net profit ratio. (b) Explain what a fall in the net profit ratio, with no change in the gross profit ratio, would indicate.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Calculate both ratios and state them as percentages.</li><li>Explain what an unchanged gross profit ratio alongside a falling net profit ratio means.</li><li>Suggest what the business should investigate.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Gross profit ratio = gross profit ÷ sales = $900,000 ÷ $2,000,000 = 45%. Net profit ratio = net profit ÷ sales = $240,000 ÷ $2,000,000 = 12%. If the gross profit ratio stayed unchanged while the net profit ratio fell, this tells us the problem is not with the cost of the services Harbour Fitness sells relative to its sales revenue — that relationship is stable — but with its operating expenses, which have risen as a proportion of sales. Since gross profit less operating expenses equals net profit, a falling net profit ratio with a steady gross profit ratio points specifically to expenses such as wages, rent or marketing growing faster than revenue, and the business should investigate which specific expense category is driving the increase rather than assuming the problem lies in its core service pricing.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Calculate",
+            "badge": "5 marks",
+            "questionHtml": "Norwest Trading — year ended 30 June: sales $1,500,000, cost of goods sold $900,000, total expenses $450,000, net profit $150,000, current assets $360,000, current liabilities $200,000, accounts receivable $150,000, total liabilities $700,000, total equity $500,000. Calculate the current ratio, the gross profit ratio, the debt to equity ratio, the expense ratio and the accounts receivable turnover ratio (in times and approximate days). Show your working.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Current ratio = current assets ÷ current liabilities.</li><li>Gross profit ratio = gross profit ÷ sales.</li><li>Debt to equity = total liabilities ÷ total equity.</li><li>Expense ratio = total expenses ÷ sales.</li><li>Accounts receivable turnover = sales ÷ accounts receivable, then 365 ÷ turnover for days.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Current ratio = $360,000 ÷ $200,000 = 1.8:1. Gross profit = sales − COGS = $1,500,000 − $900,000 = $600,000, so gross profit ratio = $600,000 ÷ $1,500,000 = 40%. Debt to equity ratio = $700,000 ÷ $500,000 = 1.4:1. Expense ratio = $450,000 ÷ $1,500,000 = 30%. Accounts receivable turnover = $1,500,000 ÷ $150,000 = 10 times per year, which is approximately 365 ÷ 10 ≈ 36.5 days for Norwest Trading to collect its debts on average. As a check: sales $1,500,000 − COGS $900,000 − expenses $450,000 = $150,000, which matches the net profit given, confirming the figures are internally consistent.</p></div></div>"
           }
         ]
       },
@@ -172,70 +212,754 @@
             "badge": "6 marks",
             "questionHtml": "Using a real example, discuss why ethical financial reporting matters to a business's stakeholders.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain why stakeholders rely on financial reports being accurate.</li><li>Use a real, dated case as evidence.</li><li>Explain the consequence for the business.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Owners, shareholders and lenders rely on financial reports to make decisions — about whether to invest, lend, or continue holding shares — so misleading reporting doesn't just distort one company's numbers, it undermines the trust the whole financial system depends on.</p><p>ASIC's 2024 greenwashing cases show a modern version of this problem: Vanguard Investments Australia was fined $12.9 million, Mercer Superannuation $11.3 million, and Active Super $10.5 million, after each made claims about excluding certain industries (such as fossil fuels or gambling) from ethical investment products that turned out not to be true. In each case, the reported financial figures were accurate — the funds existed and performed as stated — but the narrative investors relied on to choose an ethical product was false.</p><p>This matters because investors specifically chose these products based on the ethical claims, meaning the misrepresentation directly affected their decision-making, not just their perception of the company. It shows that ethical financial reporting isn't only about the accuracy of the numbers on a balance sheet — it's about every representation a business makes to the people relying on its reports, and ASIC's willingness to pursue and win these cases signals that regulators now treat sustainability claims as seriously as any other financial disclosure.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain how leasing and sale and lease back can improve a business's working capital.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain leasing.</li><li>Explain sale and lease back.</li><li>Note the shared trade-off.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Leasing improves working capital by letting a business use an asset such as equipment or a vehicle without paying its full purchase price upfront — instead, the business pays smaller periodic lease payments, freeing up cash that would otherwise be tied up in a large capital purchase, and keeping more current assets available for day-to-day operations. Sale and lease back goes further: a business that already owns an asset sells it to a financier for an immediate cash injection, then leases the same asset back to continue using it — this directly converts an illiquid non-current asset into liquid cash without disrupting operations, since the business keeps using the asset exactly as before. Both strategies improve short-term liquidity, but the trade-off is an ongoing lease expense and, with sale and lease back, the loss of any future capital gain on an asset the business no longer owns.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "An Australian appliance importer buys its stock in US dollars. Over six months the Australian dollar has fallen from US$0.70 to US$0.61. Using the stimulus, explain how this movement in the exchange rate affects the business.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Identify that the Australian dollar has depreciated.</li><li>Explain the effect on the cost of US-dollar-priced imports.</li><li>Note a possible response.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The Australian dollar has depreciated against the US dollar, falling from US$0.70 to US$0.61 — meaning each Australian dollar now buys fewer US dollars than it did six months ago. Because this business buys its stock in US dollars, the same US-dollar invoice now costs significantly more in Australian dollar terms: to buy US$1 of stock, the business previously needed roughly A$1.43 (1 ÷ 0.70) but now needs about A$1.64 (1 ÷ 0.61), an increase of around 15% in the Australian dollar cost of its imports. This squeezes the business's profit margin unless it raises its own retail prices, and it may respond by hedging future purchases to lock in an exchange rate, seeking local or alternative suppliers to reduce its US-dollar exposure, or passing some of the increased cost on to customers through higher prices.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Norwest Trading — comparative ratios: current ratio this year 1.8:1, last year 2.4:1, industry 2.0:1; net profit ratio this year 10%, last year 14%, industry 12%; debt to equity this year 1.4:1, last year 0.9:1, industry 1.0:1. Using the stimulus, assess the financial performance of Norwest Trading.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Assess liquidity using the current ratio trend and industry comparison.</li><li>Assess profitability using the net profit ratio trend and industry comparison.</li><li>Assess gearing/risk using the debt to equity trend and industry comparison.</li><li>Reach an overall judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Norwest Trading's financial performance has weakened across all three ratios over the past year, and now sits below industry benchmarks on every measure. Its current ratio has fallen from 2.4:1 to 1.8:1, below the industry's 2.0:1, indicating declining short-term liquidity and a reduced buffer to meet short-term obligations. Its net profit ratio has fallen from 14% to 10%, below the industry's 12%, showing profitability has weakened relative to both its own recent history and its competitors. Most concerning is its debt to equity ratio, which has risen sharply from 0.9:1 to 1.4:1, now well above the industry's 1.0:1 — the business has become significantly more reliant on debt at exactly the time its profitability is falling, which increases its financial risk since it must service more debt with less profit. Taken together, these three ratios paint a consistent and worrying picture: Norwest Trading's overall financial performance has deteriorated on liquidity, profitability and gearing simultaneously, and each ratio reinforces the others — rising debt increases interest costs that further pressure the falling net profit ratio, while falling profitability makes it harder to rebuild the liquidity buffer that has also weakened.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What are the five objectives of financial management (SSPPMD)?", "answerHtml": "Solvency, profitability, growth, efficiency and liquidity." },
-    { "n": 2, "questionHtml": "What is retained profit?", "answerHtml": "The part of a business's after-tax profit that isn't distributed to shareholders — an internal source of finance." },
-    { "n": 3, "questionHtml": "What is an overdraft?", "answerHtml": "A short-term debt facility letting a business overdraw its account up to an agreed limit, useful for temporary cash shortfalls." },
-    { "n": 4, "questionHtml": "What is a debenture?", "answerHtml": "A loan from investors at a fixed interest rate, usually secured against an asset — a long-term debt source." },
-    { "n": 5, "questionHtml": "What does ASIC stand for and what does it enforce?", "answerHtml": "Australian Securities and Investments Commission — it enforces the Corporations Act 2001." },
-    { "n": 6, "questionHtml": "What is the current ratio formula and what does it measure?", "answerHtml": "Current assets ÷ current liabilities — measures liquidity; around 2:1 is considered sound." },
-    { "n": 7, "questionHtml": "What is the debt to equity (gearing) ratio formula and what does it measure?", "answerHtml": "Total liabilities ÷ total equity — measures solvency/reliance on debt; around 1:1.5 is healthy." },
-    { "n": 8, "questionHtml": "What is the net profit ratio formula?", "answerHtml": "Net profit ÷ sales — a ratio around 10% is generally considered sound." },
-    { "n": 9, "questionHtml": "What is the accounts receivable turnover ratio formula?", "answerHtml": "Sales ÷ accounts receivable — measures how efficiently a business collects its debts." },
-    { "n": 10, "questionHtml": "What is the accounting equation?", "answerHtml": "Assets = Liabilities + Owner's Equity." },
-    { "n": 11, "questionHtml": "What is capitalising expenses?", "answerHtml": "Recording an expense as an asset on the balance sheet rather than as an expense on the income statement, which can overstate profit." },
-    { "n": 12, "questionHtml": "What is factoring?", "answerHtml": "Selling accounts receivable to a finance company at a discount, for immediate cash." },
-    { "n": 13, "questionHtml": "What is the difference between a cash flow statement and an income statement?", "answerHtml": "A cash flow statement records cash receipts/payments over time; an income statement summarises income earned and expenses incurred to calculate profit." },
-    { "n": 14, "questionHtml": "What is working capital?", "answerHtml": "The funds available for a business's short-term financial commitments — current assets minus current liabilities." },
-    { "n": 15, "questionHtml": "What is sale and lease back?", "answerHtml": "Selling an owned non-current asset to a lessor, then leasing it back through fixed payments." },
-    { "n": 16, "questionHtml": "What is transactional risk?", "answerHtml": "The risk of increased cost from an adverse change in exchange rates when making an international transaction." },
-    { "n": 17, "questionHtml": "What is hedging?", "answerHtml": "Strategies used to minimise the risk of currency fluctuations in international financial transactions." },
-    { "n": 18, "questionHtml": "What is a forward exchange contract?", "answerHtml": "A contract to exchange currencies at an agreed rate on a future date, reducing exchange rate risk." },
-    { "n": 19, "questionHtml": "What is normalised earnings?", "answerHtml": "Earnings adjusted to exclude non-recurring items, to give a more accurate picture of ongoing business performance." },
-    { "n": 20, "questionHtml": "Name one unethical financial reporting practice and a real company linked to it.", "answerHtml": "Misrepresenting financial statements — Enron overstated revenue and understated spending." },
-    { "n": 21, "questionHtml": "How long must Australian businesses keep financial records?", "answerHtml": "At least 5 years." },
-    { "n": 22, "questionHtml": "What is the difference between a fixed and a variable cost?", "answerHtml": "Fixed costs don't change with production/sales levels (e.g. rent); variable costs change directly with them (e.g. wages tied to output)." },
-    { "n": 23, "questionHtml": "What was Wesfarmers' FY2025 net profit ratio, and what did its 34.3% return on equity reveal about it?", "answerHtml": "Around 6.4% net profit ratio — a thin margin, but a high ROE showed the return came from asset turnover and low equity, not fat margins." },
-    { "n": 24, "questionHtml": "What was Qantas' net debt at 30 June 2025, and what was its target range?", "answerHtml": "$5.0 billion, inside its target range of $4.6–5.7 billion." },
-    { "n": 25, "questionHtml": "What caused Star Entertainment's liquidity crisis reported in its half-year results to December 2024?", "answerHtml": "A statutory loss of $302 million, revenue down 25%, and available cash of just $98 million." },
-    { "n": 26, "questionHtml": "How did Star Entertainment survive its 2024–25 liquidity crisis?", "answerHtml": "A $300 million equity rescue package led by Bally's and investor Bruce Mathieson." },
-    { "n": 27, "questionHtml": "What working capital problem led to Mosaic Brands' voluntary administration in October 2024?", "answerHtml": "It held inventory for around 128 days while paying suppliers on 120+ day terms — a widening gap it couldn't sustain, leaving it owing $240–250 million." },
-    { "n": 28, "questionHtml": "What was Mosaic Brands' peak revenue, and how weak were its operating margins even then?", "answerHtml": "About $864 million across ~1,400 stores, with operating margins of only 1–4.7%." },
-    { "n": 29, "questionHtml": "What is 'greenwashing', and which three Australian financial firms were penalised for it by ASIC in 2024?", "answerHtml": "Misleading claims about a product's sustainability — Vanguard ($12.9m), Mercer ($11.3m) and Active Super ($10.5m)." },
-    { "n": 30, "questionHtml": "What did the Federal Court find about Woolworths and Coles in September 2025?", "answerHtml": "That both had unlawfully underpaid salaried managers using annualised salary 'set-off' arrangements, affecting close to 30,000 employees." },
-    { "n": 31, "questionHtml": "What is Woolworths' estimated total potential liability from the underpayment ruling?", "answerHtml": "Around $1.3 billion pre-tax, once interest, superannuation and payroll tax are included." },
-    { "n": 32, "questionHtml": "What was the RBA cash rate held at, at the August 2026 meeting?", "answerHtml": "4.35%." },
-    { "n": 33, "questionHtml": "What Australian company tax rate applies to most large businesses?", "answerHtml": "30% (25% for base rate entities)." }
+    {
+      "n": 1,
+      "questionHtml": "What are the five objectives of financial management (SSPPMD)?",
+      "answerHtml": "Solvency, profitability, growth, efficiency and liquidity."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What is retained profit?",
+      "answerHtml": "The part of a business's after-tax profit that isn't distributed to shareholders — an internal source of finance."
+    },
+    {
+      "n": 3,
+      "questionHtml": "What is an overdraft?",
+      "answerHtml": "A short-term debt facility letting a business overdraw its account up to an agreed limit, useful for temporary cash shortfalls."
+    },
+    {
+      "n": 4,
+      "questionHtml": "What is a debenture?",
+      "answerHtml": "A loan from investors at a fixed interest rate, usually secured against an asset — a long-term debt source."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What does ASIC stand for and what does it enforce?",
+      "answerHtml": "Australian Securities and Investments Commission — it enforces the Corporations Act 2001."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What is the current ratio formula and what does it measure?",
+      "answerHtml": "Current assets ÷ current liabilities — measures liquidity; around 2:1 is considered sound."
+    },
+    {
+      "n": 7,
+      "questionHtml": "What is the debt to equity (gearing) ratio formula and what does it measure?",
+      "answerHtml": "Total liabilities ÷ total equity — measures solvency/reliance on debt; around 1:1.5 is healthy."
+    },
+    {
+      "n": 8,
+      "questionHtml": "What is the net profit ratio formula?",
+      "answerHtml": "Net profit ÷ sales — a ratio around 10% is generally considered sound."
+    },
+    {
+      "n": 9,
+      "questionHtml": "What is the accounts receivable turnover ratio formula?",
+      "answerHtml": "Sales ÷ accounts receivable — measures how efficiently a business collects its debts."
+    },
+    {
+      "n": 10,
+      "questionHtml": "What is the accounting equation?",
+      "answerHtml": "Assets = Liabilities + Owner's Equity."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What is capitalising expenses?",
+      "answerHtml": "Recording an expense as an asset on the balance sheet rather than as an expense on the income statement, which can overstate profit."
+    },
+    {
+      "n": 12,
+      "questionHtml": "What is factoring?",
+      "answerHtml": "Selling accounts receivable to a finance company at a discount, for immediate cash."
+    },
+    {
+      "n": 13,
+      "questionHtml": "What is the difference between a cash flow statement and an income statement?",
+      "answerHtml": "A cash flow statement records cash receipts/payments over time; an income statement summarises income earned and expenses incurred to calculate profit."
+    },
+    {
+      "n": 14,
+      "questionHtml": "What is working capital?",
+      "answerHtml": "The funds available for a business's short-term financial commitments — current assets minus current liabilities."
+    },
+    {
+      "n": 15,
+      "questionHtml": "What is sale and lease back?",
+      "answerHtml": "Selling an owned non-current asset to a lessor, then leasing it back through fixed payments."
+    },
+    {
+      "n": 16,
+      "questionHtml": "What is transactional risk?",
+      "answerHtml": "The risk of increased cost from an adverse change in exchange rates when making an international transaction."
+    },
+    {
+      "n": 17,
+      "questionHtml": "What is hedging?",
+      "answerHtml": "Strategies used to minimise the risk of currency fluctuations in international financial transactions."
+    },
+    {
+      "n": 18,
+      "questionHtml": "What is a forward exchange contract?",
+      "answerHtml": "A contract to exchange currencies at an agreed rate on a future date, reducing exchange rate risk."
+    },
+    {
+      "n": 19,
+      "questionHtml": "What is normalised earnings?",
+      "answerHtml": "Earnings adjusted to exclude non-recurring items, to give a more accurate picture of ongoing business performance."
+    },
+    {
+      "n": 20,
+      "questionHtml": "Name one unethical financial reporting practice and a real company linked to it.",
+      "answerHtml": "Misrepresenting financial statements — Enron overstated revenue and understated spending."
+    },
+    {
+      "n": 21,
+      "questionHtml": "How long must Australian businesses keep financial records?",
+      "answerHtml": "At least 5 years."
+    },
+    {
+      "n": 22,
+      "questionHtml": "What is the difference between a fixed and a variable cost?",
+      "answerHtml": "Fixed costs don't change with production/sales levels (e.g. rent); variable costs change directly with them (e.g. wages tied to output)."
+    },
+    {
+      "n": 23,
+      "questionHtml": "What was Wesfarmers' FY2025 net profit ratio, and what did its 34.3% return on equity reveal about it?",
+      "answerHtml": "Around 6.4% net profit ratio — a thin margin, but a high ROE showed the return came from asset turnover and low equity, not fat margins."
+    },
+    {
+      "n": 24,
+      "questionHtml": "What was Qantas' net debt at 30 June 2025, and what was its target range?",
+      "answerHtml": "$5.0 billion, inside its target range of $4.6–5.7 billion."
+    },
+    {
+      "n": 25,
+      "questionHtml": "What caused Star Entertainment's liquidity crisis reported in its half-year results to December 2024?",
+      "answerHtml": "A statutory loss of $302 million, revenue down 25%, and available cash of just $98 million."
+    },
+    {
+      "n": 26,
+      "questionHtml": "How did Star Entertainment survive its 2024–25 liquidity crisis?",
+      "answerHtml": "A $300 million equity rescue package led by Bally's and investor Bruce Mathieson."
+    },
+    {
+      "n": 27,
+      "questionHtml": "What working capital problem led to Mosaic Brands' voluntary administration in October 2024?",
+      "answerHtml": "It held inventory for around 128 days while paying suppliers on 120+ day terms — a widening gap it couldn't sustain, leaving it owing $240–250 million."
+    },
+    {
+      "n": 28,
+      "questionHtml": "What was Mosaic Brands' peak revenue, and how weak were its operating margins even then?",
+      "answerHtml": "About $864 million across ~1,400 stores, with operating margins of only 1–4.7%."
+    },
+    {
+      "n": 29,
+      "questionHtml": "What is 'greenwashing', and which three Australian financial firms were penalised for it by ASIC in 2024?",
+      "answerHtml": "Misleading claims about a product's sustainability — Vanguard ($12.9m), Mercer ($11.3m) and Active Super ($10.5m)."
+    },
+    {
+      "n": 30,
+      "questionHtml": "What did the Federal Court find about Woolworths and Coles in September 2025?",
+      "answerHtml": "That both had unlawfully underpaid salaried managers using annualised salary 'set-off' arrangements, affecting close to 30,000 employees."
+    },
+    {
+      "n": 31,
+      "questionHtml": "What is Woolworths' estimated total potential liability from the underpayment ruling?",
+      "answerHtml": "Around $1.3 billion pre-tax, once interest, superannuation and payroll tax are included."
+    },
+    {
+      "n": 32,
+      "questionHtml": "What was the RBA cash rate held at, at the August 2026 meeting?",
+      "answerHtml": "4.35%."
+    },
+    {
+      "n": 33,
+      "questionHtml": "What Australian company tax rate applies to most large businesses?",
+      "answerHtml": "30% (25% for base rate entities)."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "d", "questionHtml": "Which financial objective refers to a business's ability to meet its short-term debts using its current assets?", "options": [ { "opt": "a", "textHtml": "Growth" }, { "opt": "b", "textHtml": "Solvency" }, { "opt": "c", "textHtml": "Profitability" }, { "opt": "d", "textHtml": "Liquidity" } ] },
-    { "n": 2, "answer": "b", "questionHtml": "Which of the following is an internal source of finance?", "options": [ { "opt": "a", "textHtml": "A bank overdraft" }, { "opt": "b", "textHtml": "Retained profits" }, { "opt": "c", "textHtml": "A new share issue" }, { "opt": "d", "textHtml": "A debenture" } ] },
-    { "n": 3, "answer": "c", "questionHtml": "Which of the following is an advantage of debt finance over equity finance?", "options": [ { "opt": "a", "textHtml": "It never needs to be repaid" }, { "opt": "b", "textHtml": "It carries no financial risk" }, { "opt": "c", "textHtml": "It does not dilute ownership of the business" }, { "opt": "d", "textHtml": "Dividends paid on it are tax-deductible" } ] },
-    { "n": 4, "answer": "a", "questionHtml": "A business with a current ratio of 2.2:1 is best described as:", "options": [ { "opt": "a", "textHtml": "In a sound liquidity position, above the typical 2:1 benchmark" }, { "opt": "b", "textHtml": "Insolvent" }, { "opt": "c", "textHtml": "Unable to pay its short-term debts" }, { "opt": "d", "textHtml": "Relying too heavily on debt financing" } ] },
-    { "n": 5, "answer": "b", "questionHtml": "The debt to equity (gearing) ratio is calculated as:", "options": [ { "opt": "a", "textHtml": "Current assets ÷ current liabilities" }, { "opt": "b", "textHtml": "Total liabilities ÷ total equity" }, { "opt": "c", "textHtml": "Net profit ÷ sales" }, { "opt": "d", "textHtml": "Sales ÷ accounts receivable" } ] },
-    { "n": 6, "answer": "c", "questionHtml": "A lower debt to equity ratio generally indicates that a business is:", "options": [ { "opt": "a", "textHtml": "Highly geared and taking on more financial risk" }, { "opt": "b", "textHtml": "Insolvent" }, { "opt": "c", "textHtml": "Relying less on debt and is more solvent" }, { "opt": "d", "textHtml": "Unable to generate any profit" } ] },
-    { "n": 7, "answer": "d", "questionHtml": "Recording a company car purchase as a non-current asset rather than an expense, in order to make profit appear higher, is an example of:", "options": [ { "opt": "a", "textHtml": "Comparative ratio analysis" }, { "opt": "b", "textHtml": "Hedging" }, { "opt": "c", "textHtml": "Factoring" }, { "opt": "d", "textHtml": "Capitalising expenses" } ] },
-    { "n": 8, "answer": "a", "questionHtml": "Selling accounts receivable to a finance company at a discount, in exchange for immediate cash, is known as:", "options": [ { "opt": "a", "textHtml": "Factoring" }, { "opt": "b", "textHtml": "Hedging" }, { "opt": "c", "textHtml": "A rights issue" }, { "opt": "d", "textHtml": "Comparative ratio analysis" } ] },
-    { "n": 9, "answer": "b", "questionHtml": "Which financial statement summarises a business's assets, liabilities and owner's equity at a single point in time?", "options": [ { "opt": "a", "textHtml": "The cash flow statement" }, { "opt": "b", "textHtml": "The balance sheet" }, { "opt": "c", "textHtml": "The income statement" }, { "opt": "d", "textHtml": "The financial forecast" } ] },
-    { "n": 10, "answer": "c", "questionHtml": "According to the accounting equation, Owner's Equity is equal to:", "options": [ { "opt": "a", "textHtml": "Assets + Liabilities" }, { "opt": "b", "textHtml": "Liabilities − Assets" }, { "opt": "c", "textHtml": "Assets − Liabilities" }, { "opt": "d", "textHtml": "Sales − Cost of Goods Sold" } ] },
-    { "n": 11, "answer": "d", "questionHtml": "Using short-term finance to purchase a non-current asset is risky mainly because:", "options": [ { "opt": "a", "textHtml": "Short-term finance always has a higher interest rate" }, { "opt": "b", "textHtml": "Non-current assets cannot be financed with debt" }, { "opt": "c", "textHtml": "It breaches the Corporations Act 2001" }, { "opt": "d", "textHtml": "The loan may need to be repaid before the asset has generated enough revenue" } ] },
-    { "n": 12, "answer": "a", "questionHtml": "Comparing a business's current ratio this year against its ratio from the previous two years is an example of comparing:", "options": [ { "opt": "a", "textHtml": "Over different time periods" }, { "opt": "b", "textHtml": "Against industry standards" }, { "opt": "c", "textHtml": "Against similar businesses only" }, { "opt": "d", "textHtml": "Against government benchmarks only" } ] },
-    { "n": 13, "answer": "b", "questionHtml": "Which of the following is a limitation of financial reports?", "options": [ { "opt": "a", "textHtml": "They are always audited by ASIC before release" }, { "opt": "b", "textHtml": "Timing issues can let a business shift when revenue or expenses are recorded" }, { "opt": "c", "textHtml": "They must be published every day" }, { "opt": "d", "textHtml": "They cannot legally include notes or footnotes" } ] },
-    { "n": 14, "answer": "c", "questionHtml": "A forward exchange contract is used to:", "options": [ { "opt": "a", "textHtml": "Increase a company's gearing ratio" }, { "opt": "b", "textHtml": "Avoid paying company tax" }, { "opt": "c", "textHtml": "Lock in an exchange rate for a transaction on a future date" }, { "opt": "d", "textHtml": "Convert debt finance into equity finance" } ] },
-    { "n": 15, "answer": "a", "questionHtml": "Which of the following best describes 'transactional risk' in global financial management?", "options": [ { "opt": "a", "textHtml": "Increased cost from an adverse exchange rate change during an international transaction" }, { "opt": "b", "textHtml": "The risk that a business will be sued for false advertising" }, { "opt": "c", "textHtml": "The risk of holding too much inventory" }, { "opt": "d", "textHtml": "The risk of a product entering the decline stage of its life cycle" } ] },
-    { "n": 16, "answer": "d", "questionHtml": "Which of the following costs does NOT change with the level of production or sales?", "options": [ { "opt": "a", "textHtml": "Wages paid per unit produced" }, { "opt": "b", "textHtml": "Raw material costs" }, { "opt": "c", "textHtml": "Sales commissions" }, { "opt": "d", "textHtml": "Rent" } ] },
-    { "n": 17, "answer": "b", "questionHtml": "Enron's collapse is most closely associated with which unethical financial reporting practice?", "options": [ { "opt": "a", "textHtml": "Excessive dividend payments" }, { "opt": "b", "textHtml": "Overstating revenue and understating spending" }, { "opt": "c", "textHtml": "Refusing to pay company tax" }, { "opt": "d", "textHtml": "Excessive use of debt-to-equity hedging" } ] },
-    { "n": 18, "answer": "c", "questionHtml": "How long are Australian businesses required to keep their financial records?", "options": [ { "opt": "a", "textHtml": "1 year" }, { "opt": "b", "textHtml": "2 years" }, { "opt": "c", "textHtml": "At least 5 years" }, { "opt": "d", "textHtml": "Indefinitely, with no minimum specified" } ] },
-    { "n": 19, "answer": "b", "questionHtml": "Wesfarmers' FY2025 net profit ratio of around 6.4% alongside a return on equity of 34.3% is best explained by:", "options": [ { "opt": "a", "textHtml": "Very high prices charged to customers" }, { "opt": "b", "textHtml": "High asset turnover and a comparatively small equity base, not high margins" }, { "opt": "c", "textHtml": "A large amount of unsold inventory" }, { "opt": "d", "textHtml": "Government subsidies" } ] },
-    { "n": 20, "answer": "d", "questionHtml": "Qantas achieving a similar net profit ratio to Wesfarmers in FY2025, while holding $5.0 billion in net debt, illustrates why comparative ratio analysis should:", "options": [ { "opt": "a", "textHtml": "Only ever look at the net profit ratio" }, { "opt": "b", "textHtml": "Ignore gearing entirely" }, { "opt": "c", "textHtml": "Assume equal profitability means equal risk" }, { "opt": "d", "textHtml": "Consider gearing/solvency ratios alongside profitability ratios" } ] },
-    { "n": 21, "answer": "a", "questionHtml": "Star Entertainment's near-collapse, with only $98 million in cash against a $302 million half-year loss, is the clearest real example of a business failing on:", "options": [ { "opt": "a", "textHtml": "Liquidity, not profitability" }, { "opt": "b", "textHtml": "Excessive dividend payments" }, { "opt": "c", "textHtml": "Global exchange rate exposure" }, { "opt": "d", "textHtml": "Capitalising expenses" } ] },
-    { "n": 22, "answer": "c", "questionHtml": "Mosaic Brands holding inventory for around 128 days while paying suppliers on 120+ day terms is an example of a warning sign in which area?", "options": [ { "opt": "a", "textHtml": "Global financial management" }, { "opt": "b", "textHtml": "Ethical financial reporting" }, { "opt": "c", "textHtml": "Working capital management" }, { "opt": "d", "textHtml": "Debt to equity gearing only" } ] },
-    { "n": 23, "answer": "b", "questionHtml": "ASIC's 2024 penalties against Vanguard, Mercer and Active Super over 'greenwashing' are best understood as:", "options": [ { "opt": "a", "textHtml": "Penalties for underpaying staff" }, { "opt": "b", "textHtml": "Penalties for misleading claims about the ethical/sustainable nature of investment products" }, { "opt": "c", "textHtml": "Penalties for excessive gearing" }, { "opt": "d", "textHtml": "Penalties for late lodgement of tax returns" } ] },
-    { "n": 24, "answer": "d", "questionHtml": "The Federal Court's September 2025 finding against Woolworths and Coles over annualised salary underpayment illustrates which limitation of financial reporting?", "options": [ { "opt": "a", "textHtml": "Reports must be published daily" }, { "opt": "b", "textHtml": "Normalised earnings always overstate profit" }, { "opt": "c", "textHtml": "Financial reports cannot include contingent liabilities" }, { "opt": "d", "textHtml": "A liability can remain uncertain and unreported for years until a legal ruling crystallises it" } ] }
+    {
+      "n": 1,
+      "answer": "d",
+      "questionHtml": "Which financial objective refers to a business's ability to meet its short-term debts using its current assets?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Growth"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Solvency"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Profitability"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Liquidity"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "b",
+      "questionHtml": "Which of the following is an internal source of finance?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A bank overdraft"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Retained profits"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A new share issue"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A debenture"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "c",
+      "questionHtml": "Which of the following is an advantage of debt finance over equity finance?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "It never needs to be repaid"
+        },
+        {
+          "opt": "b",
+          "textHtml": "It carries no financial risk"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It does not dilute ownership of the business"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Dividends paid on it are tax-deductible"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "a",
+      "questionHtml": "A business with a current ratio of 2.2:1 is best described as:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "In a sound liquidity position, above the typical 2:1 benchmark"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Insolvent"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Unable to pay its short-term debts"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Relying too heavily on debt financing"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "b",
+      "questionHtml": "The debt to equity (gearing) ratio is calculated as:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Current assets ÷ current liabilities"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Total liabilities ÷ total equity"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Net profit ÷ sales"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Sales ÷ accounts receivable"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "c",
+      "questionHtml": "A lower debt to equity ratio generally indicates that a business is:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Highly geared and taking on more financial risk"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Insolvent"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Relying less on debt and is more solvent"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Unable to generate any profit"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "d",
+      "questionHtml": "Recording a company car purchase as a non-current asset rather than an expense, in order to make profit appear higher, is an example of:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Comparative ratio analysis"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Hedging"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Factoring"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Capitalising expenses"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "a",
+      "questionHtml": "Selling accounts receivable to a finance company at a discount, in exchange for immediate cash, is known as:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Factoring"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Hedging"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A rights issue"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Comparative ratio analysis"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "b",
+      "questionHtml": "Which financial statement summarises a business's assets, liabilities and owner's equity at a single point in time?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The cash flow statement"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The balance sheet"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The income statement"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The financial forecast"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "c",
+      "questionHtml": "According to the accounting equation, Owner's Equity is equal to:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Assets + Liabilities"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Liabilities − Assets"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Assets − Liabilities"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Sales − Cost of Goods Sold"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "d",
+      "questionHtml": "Using short-term finance to purchase a non-current asset is risky mainly because:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Short-term finance always has a higher interest rate"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Non-current assets cannot be financed with debt"
+        },
+        {
+          "opt": "c",
+          "textHtml": "It breaches the Corporations Act 2001"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The loan may need to be repaid before the asset has generated enough revenue"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "a",
+      "questionHtml": "Comparing a business's current ratio this year against its ratio from the previous two years is an example of comparing:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Over different time periods"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Against industry standards"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Against similar businesses only"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Against government benchmarks only"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "b",
+      "questionHtml": "Which of the following is a limitation of financial reports?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They are always audited by ASIC before release"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Timing issues can let a business shift when revenue or expenses are recorded"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They must be published every day"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They cannot legally include notes or footnotes"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "c",
+      "questionHtml": "A forward exchange contract is used to:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Increase a company's gearing ratio"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Avoid paying company tax"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Lock in an exchange rate for a transaction on a future date"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Convert debt finance into equity finance"
+        }
+      ]
+    },
+    {
+      "n": 15,
+      "answer": "a",
+      "questionHtml": "Which of the following best describes 'transactional risk' in global financial management?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Increased cost from an adverse exchange rate change during an international transaction"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The risk that a business will be sued for false advertising"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The risk of holding too much inventory"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The risk of a product entering the decline stage of its life cycle"
+        }
+      ]
+    },
+    {
+      "n": 16,
+      "answer": "d",
+      "questionHtml": "Which of the following costs does NOT change with the level of production or sales?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Wages paid per unit produced"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Raw material costs"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Sales commissions"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Rent"
+        }
+      ]
+    },
+    {
+      "n": 17,
+      "answer": "b",
+      "questionHtml": "Enron's collapse is most closely associated with which unethical financial reporting practice?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Excessive dividend payments"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Overstating revenue and understating spending"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Refusing to pay company tax"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Excessive use of debt-to-equity hedging"
+        }
+      ]
+    },
+    {
+      "n": 18,
+      "answer": "c",
+      "questionHtml": "How long are Australian businesses required to keep their financial records?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "1 year"
+        },
+        {
+          "opt": "b",
+          "textHtml": "2 years"
+        },
+        {
+          "opt": "c",
+          "textHtml": "At least 5 years"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Indefinitely, with no minimum specified"
+        }
+      ]
+    },
+    {
+      "n": 19,
+      "answer": "b",
+      "questionHtml": "Wesfarmers' FY2025 net profit ratio of around 6.4% alongside a return on equity of 34.3% is best explained by:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Very high prices charged to customers"
+        },
+        {
+          "opt": "b",
+          "textHtml": "High asset turnover and a comparatively small equity base, not high margins"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A large amount of unsold inventory"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Government subsidies"
+        }
+      ]
+    },
+    {
+      "n": 20,
+      "answer": "d",
+      "questionHtml": "Qantas achieving a similar net profit ratio to Wesfarmers in FY2025, while holding $5.0 billion in net debt, illustrates why comparative ratio analysis should:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Only ever look at the net profit ratio"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Ignore gearing entirely"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Assume equal profitability means equal risk"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Consider gearing/solvency ratios alongside profitability ratios"
+        }
+      ]
+    },
+    {
+      "n": 21,
+      "answer": "a",
+      "questionHtml": "Star Entertainment's near-collapse, with only $98 million in cash against a $302 million half-year loss, is the clearest real example of a business failing on:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Liquidity, not profitability"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Excessive dividend payments"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Global exchange rate exposure"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Capitalising expenses"
+        }
+      ]
+    },
+    {
+      "n": 22,
+      "answer": "c",
+      "questionHtml": "Mosaic Brands holding inventory for around 128 days while paying suppliers on 120+ day terms is an example of a warning sign in which area?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Global financial management"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Ethical financial reporting"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Working capital management"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Debt to equity gearing only"
+        }
+      ]
+    },
+    {
+      "n": 23,
+      "answer": "b",
+      "questionHtml": "ASIC's 2024 penalties against Vanguard, Mercer and Active Super over 'greenwashing' are best understood as:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Penalties for underpaying staff"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Penalties for misleading claims about the ethical/sustainable nature of investment products"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Penalties for excessive gearing"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Penalties for late lodgement of tax returns"
+        }
+      ]
+    },
+    {
+      "n": 24,
+      "answer": "d",
+      "questionHtml": "The Federal Court's September 2025 finding against Woolworths and Coles over annualised salary underpayment illustrates which limitation of financial reporting?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Reports must be published daily"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Normalised earnings always overstate profit"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Financial reports cannot include contingent liabilities"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A liability can remain uncertain and unreported for years until a legal ruling crystallises it"
+        }
+      ]
+    }
   ]
 }

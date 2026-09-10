@@ -127,6 +127,66 @@
         "bank": "Stimulus",
         "tag": "Source C — Luise Solmitz, German schoolteacher, diary entry describing an SA torchlight procession, early 1930s",
         "bodyHtml": "\"20,000 brownshirts followed one another like waves in the sea, their faces shone with enthusiasm... They sang <i>The Republic is shit</i>... They sang of the blood of the Jews which would squirt from their knives.\""
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source D — NSDAP welfare poster, 'Die NSDAP sichert die Volksgemeinschaft' (The NSDAP secures the national community), early-to-mid 1930s",
+        "bodyHtml": "A German family — father, mother and three children, including a baby — is shown beneath the outstretched wings of the National Socialist eagle. Text beneath reads: 'Volksgenossen, braucht ihr Rat und Hilfe, so wendet euch an die Ortsgruppe' ('Fellow citizens, if you need advice and help, turn to your local branch').",
+        "image": {
+          "src": "/images/modern-history/s1-nsdap-family-poster.webp",
+          "alt": "NSDAP poster showing a German family beneath the wings of the National Socialist eagle, with the slogan 'Die NSDAP sichert die Volksgemeinschaft'.",
+          "credit": "NSDAP welfare-propaganda poster, early-to-mid 1930s."
+        }
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source E — Nazi Youth propaganda poster, 'Her zu uns!' ('Come to us!'), 1933",
+        "bodyHtml": "A Hitler Youth member stands holding a swastika banner in front of a Nazi flag, wearing the movement's uniform and armband. The caption reads 'HER ZU UNS! Hinein in die Hitler-Jugend' ('Come to us! Join the Hitler Youth').",
+        "image": {
+          "src": "/images/modern-history/s1-hitler-youth-poster.webp",
+          "alt": "1933 Hitler Youth recruitment poster showing a uniformed boy holding a flag, captioned 'Her zu uns! Hinein in die Hitler-Jugend'.",
+          "credit": "Nazi Youth recruitment poster, 1933."
+        }
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source F — Nazi 'racial hygiene' propaganda, Neues Volk (monthly publication of the NSDAP Office of Racial Policy), 1939",
+        "bodyHtml": "A poster captioned: '60,000 RM kostet dieser Erbkranke die Volksgemeinschaft auf Lebenszeit. Volksgenosse, das ist auch Dein Geld' ('This hereditarily ill person costs the national community 60,000 Reichsmark over his lifetime. Fellow German, that is your money too'), showing a seated disabled man behind a standing figure.",
+        "image": {
+          "src": "/images/modern-history/s1-t4-euthanasia-poster.webp",
+          "alt": "1939 Nazi 'racial hygiene' propaganda poster from Neues Volk, captioned with the cost to the Volksgemeinschaft of a hereditarily ill person.",
+          "credit": "Neues Volk (NSDAP Office of Racial Policy), 1939."
+        }
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source G — Photograph, Germans queuing for work, 1930",
+        "bodyHtml": "A long queue of German men, women and children waits outside a building in an industrial district, photographed from above.",
+        "image": {
+          "src": "/images/modern-history/s1-unemployment-queue-1930.webp",
+          "alt": "1930 photograph of a long queue of Germans waiting to register for work during the Depression.",
+          "credit": "Photograph, 1930."
+        }
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source H — A 'One-Pot-Day' (Eintopftag) collection token, 1934",
+        "bodyHtml": "A token worth 1 Reichsmark, captioned 'Opfer für einen hungernden Volksgenossen' ('A sacrifice for a hungry fellow citizen') and 'Tag des Eintopfgerichtes' ('Day of the one-pot meal'). It depicts Germans of varying age, class and occupation contributing to a shared pot.",
+        "image": {
+          "src": "/images/modern-history/s1-one-pot-day-token.webp",
+          "alt": "1934 'One-Pot-Day' collection token showing German citizens of different classes and ages gathered around a shared pot.",
+          "credit": "Winter Relief 'Eintopftag' collection token, 1934."
+        }
+      },
+      {
+        "bank": "Stimulus",
+        "tag": "Source I — American editorial cartoon on Japanese aggression in Manchuria, 1931–32",
+        "bodyHtml": "A Japanese cannon labelled 'JAPAN' fires through a stack of torn treaties — the Nine Power Treaty, the Kellogg-Briand Pact, the League of Nations Covenant, the World Court and the Shanghai Port Treaty — towards a burning city in the background.",
+        "image": {
+          "src": "/images/modern-history/s1-manchuria-cartoon.webp",
+          "alt": "American editorial cartoon showing a Japanese cannon firing through a stack of torn international treaties, referencing the 1931 seizure of Manchuria.",
+          "credit": "American editorial cartoon, 1931–32."
+        }
       }
     ],
     "groups": [
@@ -219,6 +279,14 @@
             "badge": "6 marks · ~10 min",
             "questionHtml": "Assess the reasons for the growth in support for the Nazi Party between 1929 and 1933.",
             "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Thesis</span>\n            <p class=\"para-text thesis\">The Depression was a necessary but not sufficient cause of Nazi power: it created the electoral conditions for growth, but it was Nazi organisational capacity and, ultimately, elite miscalculation — not popular majority support — that converted that growth into government. The Nazis never won a majority of the vote; they were handed power by people who believed they could control them.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 1 — economic crisis</span>\n            <p class=\"para-text\">The correlation between economic collapse and Nazi electoral growth is close to exact. After the Wall Street Crash of <span class=\"stat\">October 1929</span>, American loans underpinning the German economy were recalled, and unemployment climbed from <span class=\"stat\">1.3 million</span> in 1929 to roughly <span class=\"stat\">6 million</span> by early 1932. NSDAP vote share tracked this collapse almost step for step: <span class=\"stat\">2.6%</span> in 1928, <span class=\"stat\">18.3%</span> by September 1930, and <span class=\"stat\">37.3%</span> by July 1932 — a fifteen-fold increase over four years of deepening crisis.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 2 — Nazi organisation and campaigning</span>\n            <p class=\"para-text\">Crisis alone does not explain why voters moved specifically to the Nazis rather than other opposition parties; organisational capacity does. The SA numbered around <span class=\"stat\">400,000</span> members by 1932, projecting an image of physical order at rallies that contrasted with a paralysed parliamentary system, while Hitler's 1932 \"Flight over Germany\" campaign used aircraft to reach over <span class=\"stat\">20 cities</span> in weeks — a scale and speed of campaigning no rival party could match.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 3 — elite miscalculation</span>\n            <p class=\"para-text\">Crucially, none of this delivered a majority: the Nazi vote actually fell to <span class=\"stat\">33.1%</span> in the November 1932 election, and support looked to be plateauing. Power came instead from a deliberate elite decision — Papen and Hindenburg's circle appointed Hitler Chancellor on <span class=\"stat\">30 January 1933</span> with only three Nazis in an eleven-seat cabinet, on the calculation, in Papen's own words, that they had \"hired\" him and could box him in.</p>\n          </div>\n          <div class=\"para-block conclusion\">\n            <span class=\"para-label\">Judgement</span>\n            <p class=\"para-text\">Structural economic crisis created the electoral opportunity, but it was a specific, avoidable political decision in January 1933 — not an outright popular mandate — that finally delivered power. The rise of the Nazi Party was not inevitable; it required conservative elites to gamble wrongly at exactly the right moment.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source G",
+            "badge": "3 marks · ~5 min",
+            "questionHtml": "What does Source G suggest about conditions in Germany in the years before Hitler became Chancellor?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>The queue's length and the presence of women and children suggest unemployment was widespread, not limited to a small group.</li>\n            <li>1930 places this squarely in the early Depression, as unemployment climbed toward its 1932 peak of roughly 6 million.</li>\n            <li>Link to causation: this is the economic hardship that made Nazi promises of order and jobs appealing.</li>\n          </ul>\n          </div>\n        </div>"
           }
         ]
       },
@@ -281,6 +349,38 @@
             "badge": "5 marks · ~8 min",
             "questionHtml": "Explain the role and experience of women in Nazi Germany.",
             "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Official ideology of \"Kinder, Küche, Kirche\" (children, kitchen, church) encouraged women out of the paid workforce and into domestic/maternal roles; female civil servants and doctors were dismissed from 1933.</li>\n            <li>Marriage loans of up to <span class=\"stat\">1,000 Reichsmarks</span> were offered from 1933, with a quarter forgiven per child; the Mother's Cross award (instituted <span class=\"stat\">1938</span>) recognised women with four or more children.</li>\n            <li>Contradiction after 1936: rearmament labour shortages saw growing pressure for women to re-enter certain sectors of the workforce, undercutting the regime's own domestic ideology by the late 1930s.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source D",
+            "badge": "4 marks · ~6 min",
+            "questionHtml": "How does Source D use imagery to promote the Nazi idea of Volksgemeinschaft (national community)?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>The protective eagle above an ordinary family frames the Nazi state as a guardian of the German racial community, not just a government.</li>\n            <li>Directing the family to their local Ortsgruppe (party branch) for help shows the Party positioning itself as the everyday face of welfare, replacing other institutions.</li>\n            <li>The image is aspirational and inclusive-looking — deliberately masking the fact that Volksgemeinschaft excluded anyone defined as racially or socially 'other'.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source E",
+            "badge": "3 marks · ~5 min",
+            "questionHtml": "What is the purpose of Source E?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>To recruit German boys into the Hitler Youth, presenting membership as disciplined, dignified and patriotic.</li>\n            <li>The confident pose, uniform and flag associate joining with belonging to something larger than the individual.</li>\n            <li>1933 timing links it to the regime consolidating control over youth immediately after gaining power.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source F & own knowledge",
+            "badge": "6 marks · ~10 min",
+            "questionHtml": "Using Source F and your own knowledge, explain how Nazi propaganda presented the persecution of people with disabilities as being in the interests of ordinary Germans.",
+            "planHtml": "<div class=\"plan essay-plan\">\n          <div class=\"para-block intro\">\n            <span class=\"para-label\">Thesis</span>\n            <p class=\"para-text thesis\">Source F reframes the murder of disabled people not as an act of violence but as a matter of household economics — a rhetorical move that made the regime's later T4 euthanasia program easier to justify to a public conditioned to see disabled citizens as a financial drain on the Volksgemeinschaft.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 1 — what the source shows</span>\n            <p class=\"para-text\">Source F puts a precise figure — 60,000 Reichsmark — on the lifetime cost of a 'hereditarily ill' person, and addresses the reader directly as 'Volksgenosse' ('fellow German'), telling them 'that is your money too.' The propaganda works by converting a human being into a line item, inviting ordinary Germans to resent the cost rather than see the person.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 2 — own knowledge: the T4 program</span>\n            <p class=\"para-text\">This 1939 poster appeared the same year the regime began the secret T4 'euthanasia' program, under which an estimated <span class=\"stat\">70,000+</span> disabled and mentally ill Germans were murdered by 1941 in gas chambers disguised as hospitals — the same killing method and administrative apparatus later expanded for the Holocaust. Propaganda like Source F was part of the groundwork that made such a program politically survivable.</p>\n          </div>\n          <div class=\"para-block\">\n            <span class=\"para-label\">Point 3 — limits of the propaganda</span>\n            <p class=\"para-text\">The program was not, in fact, fully accepted quietly — public unease, including protests from churches such as Bishop Clemens von Galen's 1941 sermon condemning the killings, forced the regime to officially halt the program that year, even as killings continued covertly. This shows Nazi propaganda like Source F was necessary precisely because full public consent could not be assumed.</p>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source H",
+            "badge": "3 marks · ~5 min",
+            "questionHtml": "What does Source H suggest about how the Nazi regime encouraged a sense of social unity?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>Showing citizens of different ages and classes contributing together suggests the regime wanted Germans to see class and generational divides as dissolved within the Volksgemeinschaft.</li>\n            <li>Winter Relief collections like Eintopftag made 'sacrifice for the community' a small, regular, visible act any citizen could take part in.</li>\n            <li>Participation was social pressure as much as charity — being seen not to contribute risked being seen as disloyal.</li>\n          </ul>\n          </div>\n        </div>"
           }
         ]
       },
@@ -343,6 +443,14 @@
             "badge": "4 marks · ~6 min",
             "questionHtml": "Explain the circumstances that led to the formation of the United Nations in 1945.",
             "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include (with evidence)</span>\n          <ul class=\"keypoints\">\n            <li>Recognition that the League of Nations had failed to prevent a second world war, driven partly by its lack of enforcement power and the absence of major powers such as the USA.</li>\n            <li>Wartime Allied planning — the 1941 Atlantic Charter (Churchill and Roosevelt) and the 1944 Dumbarton Oaks proposals laid the groundwork for a new organisation with real enforcement power.</li>\n            <li>The UN Charter was signed in San Francisco by <span class=\"stat\">50 founding members</span> on <span class=\"stat\">26 June 1945</span> and came into force on <span class=\"stat\">24 October 1945</span>, creating a Security Council with the power to authorise binding action — a direct attempt to fix the League's central structural weakness.</li>\n          </ul>\n          </div>\n        </div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Source I",
+            "badge": "4 marks · ~6 min",
+            "questionHtml": "What message does Source I convey about the League of Nations' effectiveness in the early 1930s?",
+            "planHtml": "<div class=\"plan\">\n          <div class=\"plan-row\"><span class=\"plan-lbl\">Key points to include</span>\n          <ul class=\"keypoints\">\n            <li>Japan's cannon firing straight through the treaties (Nine Power Treaty, Kellogg-Briand Pact, League Covenant) shows international agreements being treated as worthless paper barriers.</li>\n            <li>The cartoonist is criticising the League's inability to stop Japan's 1931 seizure of Manchuria and the 1932 creation of the puppet state of Manchukuo.</li>\n            <li>Link to the wider syllabus point: this episode is a key early example of the League's collective security system failing when a major power chose aggression.</li>\n          </ul>\n          </div>\n        </div>"
           }
         ]
       }
@@ -1362,10 +1470,22 @@
       "answer": "b",
       "questionHtml": "Which was the first dedicated Nazi death camp, opened in December 1941?",
       "options": [
-        { "opt": "a", "textHtml": "Auschwitz-Birkenau" },
-        { "opt": "b", "textHtml": "Chelmno" },
-        { "opt": "c", "textHtml": "Dachau" },
-        { "opt": "d", "textHtml": "Treblinka" }
+        {
+          "opt": "a",
+          "textHtml": "Auschwitz-Birkenau"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Chelmno"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Dachau"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Treblinka"
+        }
       ]
     },
     {
@@ -1373,10 +1493,22 @@
       "answer": "c",
       "questionHtml": "What distinguishes historians' use of \"resistance\" from \"opposition\" under the Nazi regime?",
       "options": [
-        { "opt": "a", "textHtml": "Resistance refers only to actions taken after 1939" },
-        { "opt": "b", "textHtml": "Opposition refers only to actions taken by the army" },
-        { "opt": "c", "textHtml": "Resistance means organised attempts to overthrow the regime; opposition means openly defying it" },
-        { "opt": "d", "textHtml": "There is no meaningful distinction between the two terms" }
+        {
+          "opt": "a",
+          "textHtml": "Resistance refers only to actions taken after 1939"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Opposition refers only to actions taken by the army"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Resistance means organised attempts to overthrow the regime; opposition means openly defying it"
+        },
+        {
+          "opt": "d",
+          "textHtml": "There is no meaningful distinction between the two terms"
+        }
       ]
     }
   ]

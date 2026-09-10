@@ -52,7 +52,16 @@ export interface ModernHistoryTopicData {
   }
   practice: {
     notes: { bank: string | null; variant: string | null; html: string }[]
-    sources: { bank: string | null; tag: string; bodyHtml: string }[]
+    sources: {
+      bank: string | null
+      tag: string
+      bodyHtml: string
+      /** Optional visual source (a photo, poster or cartoon) shown above the
+       * body text — most sources stay text-only, this is for the ones where
+       * a real image exists. `src` is a path under /public (e.g.
+       * "/images/modern-history/foo.webp"). */
+      image?: { src: string; alt: string; credit?: string }
+    }[]
     groups: HistoryPracticeGroup[]
   }
   trivia: HistoryTriviaCard[]

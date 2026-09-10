@@ -90,47 +90,483 @@
             "badge": "25 marks",
             "questionHtml": "\"Over time, the global community changes, but the law is slow to respond.\" Assess this statement in relation to the need to protect the global environment.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain the idea of 'law lag' directly.</li><li>Give examples of the law adapting and examples of it lagging.</li><li>Reach an explicit judgement about the extent to which the statement is true.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The statement is true to a considerable extent: international environmental law has repeatedly lagged behind both the scientific understanding of environmental harm and the pace of the harm itself. The gap between the 1972 Stockholm Declaration (the first major international environmental statement) and legally binding, targeted emissions-reduction commitments under the 1997 Kyoto Protocol was 25 years, despite the science of the greenhouse effect being understood well before then — an example of how slowly consensus can translate into binding international law.</p><p>Even once law reform occurs, enforcement continues to lag behind society's growing expectations. The 2025 Federal Court decision in <em>Pabai v Commonwealth (No 2)</em> [2025] FCA 796 illustrates this tension directly: despite significant recent shifts in Australian and international attitudes towards the urgency of climate action, the Court declined to recognise a novel legal duty of care requiring the Commonwealth to set science-aligned emissions targets, finding this remained a matter for government policy rather than judicial enforcement — with an appeal expected in 2026 that may test this further.</p><p>That said, the law has not been entirely static: the shift from the binding-but-narrow Kyoto Protocol to the near-universal Paris Agreement in 2015 reflects real adaptation as the international community's understanding of the scale of the problem (and the need for near-universal, not just developed-country, participation) evolved. Overall, while international and domestic environmental law has adapted meaningfully over the past five decades, the persistent gap between emerging global consensus and binding legal obligations supports the view that the law remains slow to respond relative to the urgency of environmental protection.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "4 marks",
+            "questionHtml": "Explain the significance of the Trail Smelter Arbitration (1941) to global environmental protection.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State what the dispute was about.</li><li>State the principle it established.</li><li>Explain why this was significant.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The Trail Smelter Arbitration (1941) was an international arbitration between the United States and Canada over sulphur dioxide pollution crossing the border from a Canadian smelter into the US, causing damage to land and crops. The arbitration established the customary international law principle that a state must not allow activities within its territory to cause serious environmental harm to another state.</p><p>This was significant because it recognised, decades before any major environmental treaty existed, that environmental harm doesn't respect national borders and that a state can bear international legal responsibility for harm its activities cause beyond its own territory — a principle that has since influenced later instruments, including the Stockholm Declaration.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Outline",
+            "badge": "3 marks",
+            "questionHtml": "Outline the role of the United Nations Environment Programme (UNEP).",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State when and why it was established.</li><li>Outline what it does.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The UN Environment Programme (UNEP) was established following the 1972 Stockholm Conference to coordinate the United Nations' environmental activities. It assists countries in developing environmental policy and law, monitors the state of the global environment, and helps negotiate and develop international environmental agreements.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the difference between the Kyoto Protocol (1997) and the Paris Agreement (2015).",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain Kyoto's approach.</li><li>Explain Paris's approach.</li><li>State the key structural difference.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The Kyoto Protocol (1997) set binding greenhouse gas emission-reduction targets, but only for developed countries — a narrower approach that saw major emitters, including the United States, never ratify it.</p><p>The Paris Agreement (2015) took a different, near-universal approach: rather than centrally imposed binding targets, each signatory country sets and reports its own emissions-reduction targets (Nationally Determined Contributions), with a global stocktake process to review overall progress. The key difference is therefore between Kyoto's narrower, binding-target model and Paris's broader, self-determined-target model — a trade-off between the strength of individual obligations and the breadth of overall participation.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Assess",
+            "badge": "6 marks",
+            "questionHtml": "Assess the effectiveness of Australia's Environment Protection and Biodiversity Conservation Act 1999 (Cth) in achieving global environmental protection.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what the Act does and how it relates to international obligations.</li><li>Give a real limitation/criticism.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The <em>Environment Protection and Biodiversity Conservation Act 1999</em> (Cth) (the EPBC Act) protects 'matters of national environmental significance', including World Heritage properties, Ramsar-listed wetlands and threatened species, partly implementing Australia's obligations under international treaties it has ratified. By exercising the Commonwealth's external affairs power, the Act gives Australia's international environmental commitments genuine, enforceable legal force domestically rather than leaving them purely aspirational.</p><p>However, the Act has been significantly criticised — an independent statutory review led by Graeme Samuel, completed in 2020, found the EPBC Act was outdated and not effectively preventing the decline of Australia's environment, recommending substantial reform that has been slow to be fully implemented. Overall, the EPBC Act gives global environmental commitments real domestic legal effect, but its practical effectiveness at actually preventing environmental decline has been credibly questioned by the government's own review.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Explain",
+            "badge": "6 marks",
+            "questionHtml": "Explain the significance of Pabai v Commonwealth (No 2) [2025] FCA 796 to global environmental protection in Australia.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State who brought the case and what they argued.</li><li>State the outcome.</li><li>Explain its wider significance.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>In <em>Pabai v Commonwealth (No 2)</em> [2025] FCA 796, Torres Strait Islander claimants argued the Commonwealth owed them a duty of care to set greenhouse gas emissions targets in line with the best available climate science, given the direct threat rising sea levels pose to their islands and way of life. In July 2025, the Federal Court dismissed the claim, finding no such novel duty of care existed in Australian law, with an appeal expected to be heard in 2026.</p><p>This case is significant because it shows the current limits of using litigation and common law duty-of-care arguments to compel stronger government climate action in Australia — at least at first instance, courts have treated the setting of emissions targets as a matter for government policy rather than a legally enforceable duty, illustrating how difficult it remains to convert scientific consensus and demonstrated harm into binding legal obligations through the courts alone.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Discuss",
+            "badge": "7 marks",
+            "questionHtml": "Discuss the role of intergovernmental organisations, non-government organisations and the media in achieving global environmental protection.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover all three: IGOs, NGOs and the media.</li><li>Explain what each contributes.</li><li>Note their shared limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Intergovernmental organisations, particularly the United Nations and UNEP, coordinate international cooperation by hosting negotiations such as the annual UN Climate Change Conferences (COPs), which bring nation states together to negotiate and update global environmental commitments. Non-government organisations, such as Greenpeace and the World Wide Fund for Nature (WWF), raise public awareness, campaign directly, and sometimes bring litigation or take direct action to pressure governments and corporations into stronger environmental protections.</p><p>The media plays a related but distinct role: investigative reporting on environmental harm — such as major pollution incidents or the visible effects of climate change — shapes public opinion and can pressure governments to act more quickly than formal diplomatic processes alone would produce. All three are important in building the political will that ultimately leads governments to negotiate and ratify binding treaties, but none of them can themselves compel a state to comply with an environmental obligation — that still depends on the state's own willingness to be legally bound.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What was the Stockholm Declaration (1972)?", "answerHtml": "The outcome of the first major UN environmental conference, generally considered the first major international statement recognising a right to a healthy environment, setting out 26 guiding principles." },
-    { "n": 2, "questionHtml": "What was the Rio Declaration (1992)?", "answerHtml": "A declaration from the UN Conference on Environment and Development (the 'Earth Summit') that reaffirmed and expanded the Stockholm principles." },
-    { "n": 3, "questionHtml": "What did the Trail Smelter Arbitration (1941) establish?", "answerHtml": "The customary international law principle that a state must not allow activities in its territory to cause serious environmental harm to another state." },
-    { "n": 4, "questionHtml": "What are the four elements of ecologically sustainable development (ESD)?", "answerHtml": "Biodiversity, intergenerational equity, intragenerational equity and the precautionary principle." },
-    { "n": 5, "questionHtml": "What is the precautionary principle?", "answerHtml": "The idea that a lack of full scientific certainty about a serious environmental threat shouldn't be used as a reason to delay action to prevent it." },
-    { "n": 6, "questionHtml": "What is intergenerational equity?", "answerHtml": "Ensuring future generations inherit an environment at least as healthy as the current generation's." },
-    { "n": 7, "questionHtml": "What did the Kyoto Protocol (1997) do?", "answerHtml": "Set binding greenhouse gas emission-reduction targets for developed countries." },
-    { "n": 8, "questionHtml": "How does the Paris Agreement (2015) differ from the Kyoto Protocol?", "answerHtml": "It's a near-universal framework where every signatory country sets its own emissions targets, rather than binding targets imposed only on developed countries." },
-    { "n": 9, "questionHtml": "What is UNCLOS?", "answerHtml": "The UN Convention on the Law of the Sea (1982), which includes provisions on protecting the marine environment." },
-    { "n": 10, "questionHtml": "What Commonwealth Act protects matters of national environmental significance in Australia?", "answerHtml": "The Environment Protection and Biodiversity Conservation Act 1999 (Cth)." },
-    { "n": 11, "questionHtml": "What did Commonwealth v Tasmania (1983) (the Tasmanian Dam Case) decide?", "answerHtml": "That the Commonwealth's external affairs power could be used to stop a dam and protect a World Heritage-listed area of Tasmania." },
-    { "n": 12, "questionHtml": "What UN body was established following the 1972 Stockholm Conference to coordinate environmental action?", "answerHtml": "The UN Environment Programme (UNEP)." },
-    { "n": 13, "questionHtml": "What are annual UN Climate Change Conferences called?", "answerHtml": "COPs (Conferences of the Parties)." },
-    { "n": 14, "questionHtml": "Why doesn't an international environmental treaty automatically become Australian law once signed?", "answerHtml": "Because of state sovereignty and the Australian legal system — Parliament must pass legislation to give the treaty effect domestically." },
-    { "n": 15, "questionHtml": "What was decided in Pabai v Commonwealth (No 2) [2025] FCA 796?", "answerHtml": "The Federal Court found the Commonwealth does not owe a novel duty of care to set emissions targets in line with the best available climate science." },
-    { "n": 16, "questionHtml": "Who brought the Pabai v Commonwealth climate case?", "answerHtml": "Torres Strait Islander claimants, on behalf of Torres Strait Islanders affected by climate change." },
-    { "n": 17, "questionHtml": "Give an example of a non-government organisation involved in global environmental protection.", "answerHtml": "Greenpeace or the World Wide Fund for Nature (WWF)." },
-    { "n": 18, "questionHtml": "How does Australia's federal structure divide environmental responsibility?", "answerHtml": "The Commonwealth legislates nationally on matters of national significance (e.g. via the EPBC Act), while day-to-day regulation like local land-use planning is usually left to the states." },
-    { "n": 19, "questionHtml": "What is a key barrier to achieving an effective international response to environmental threats?", "answerHtml": "State sovereignty — no international body can force a state to adopt stronger environmental targets." },
-    { "n": 20, "questionHtml": "What is intragenerational equity?", "answerHtml": "Fairness in how environmental benefits and burdens are shared within the current generation, including between wealthy and developing nations." }
+    {
+      "n": 1,
+      "questionHtml": "What was the Stockholm Declaration (1972)?",
+      "answerHtml": "The outcome of the first major UN environmental conference, generally considered the first major international statement recognising a right to a healthy environment, setting out 26 guiding principles."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What was the Rio Declaration (1992)?",
+      "answerHtml": "A declaration from the UN Conference on Environment and Development (the 'Earth Summit') that reaffirmed and expanded the Stockholm principles."
+    },
+    {
+      "n": 3,
+      "questionHtml": "What did the Trail Smelter Arbitration (1941) establish?",
+      "answerHtml": "The customary international law principle that a state must not allow activities in its territory to cause serious environmental harm to another state."
+    },
+    {
+      "n": 4,
+      "questionHtml": "What are the four elements of ecologically sustainable development (ESD)?",
+      "answerHtml": "Biodiversity, intergenerational equity, intragenerational equity and the precautionary principle."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What is the precautionary principle?",
+      "answerHtml": "The idea that a lack of full scientific certainty about a serious environmental threat shouldn't be used as a reason to delay action to prevent it."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What is intergenerational equity?",
+      "answerHtml": "Ensuring future generations inherit an environment at least as healthy as the current generation's."
+    },
+    {
+      "n": 7,
+      "questionHtml": "What did the Kyoto Protocol (1997) do?",
+      "answerHtml": "Set binding greenhouse gas emission-reduction targets for developed countries."
+    },
+    {
+      "n": 8,
+      "questionHtml": "How does the Paris Agreement (2015) differ from the Kyoto Protocol?",
+      "answerHtml": "It's a near-universal framework where every signatory country sets its own emissions targets, rather than binding targets imposed only on developed countries."
+    },
+    {
+      "n": 9,
+      "questionHtml": "What is UNCLOS?",
+      "answerHtml": "The UN Convention on the Law of the Sea (1982), which includes provisions on protecting the marine environment."
+    },
+    {
+      "n": 10,
+      "questionHtml": "What Commonwealth Act protects matters of national environmental significance in Australia?",
+      "answerHtml": "The Environment Protection and Biodiversity Conservation Act 1999 (Cth)."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What did Commonwealth v Tasmania (1983) (the Tasmanian Dam Case) decide?",
+      "answerHtml": "That the Commonwealth's external affairs power could be used to stop a dam and protect a World Heritage-listed area of Tasmania."
+    },
+    {
+      "n": 12,
+      "questionHtml": "What UN body was established following the 1972 Stockholm Conference to coordinate environmental action?",
+      "answerHtml": "The UN Environment Programme (UNEP)."
+    },
+    {
+      "n": 13,
+      "questionHtml": "What are annual UN Climate Change Conferences called?",
+      "answerHtml": "COPs (Conferences of the Parties)."
+    },
+    {
+      "n": 14,
+      "questionHtml": "Why doesn't an international environmental treaty automatically become Australian law once signed?",
+      "answerHtml": "Because of state sovereignty and the Australian legal system — Parliament must pass legislation to give the treaty effect domestically."
+    },
+    {
+      "n": 15,
+      "questionHtml": "What was decided in Pabai v Commonwealth (No 2) [2025] FCA 796?",
+      "answerHtml": "The Federal Court found the Commonwealth does not owe a novel duty of care to set emissions targets in line with the best available climate science."
+    },
+    {
+      "n": 16,
+      "questionHtml": "Who brought the Pabai v Commonwealth climate case?",
+      "answerHtml": "Torres Strait Islander claimants, on behalf of Torres Strait Islanders affected by climate change."
+    },
+    {
+      "n": 17,
+      "questionHtml": "Give an example of a non-government organisation involved in global environmental protection.",
+      "answerHtml": "Greenpeace or the World Wide Fund for Nature (WWF)."
+    },
+    {
+      "n": 18,
+      "questionHtml": "How does Australia's federal structure divide environmental responsibility?",
+      "answerHtml": "The Commonwealth legislates nationally on matters of national significance (e.g. via the EPBC Act), while day-to-day regulation like local land-use planning is usually left to the states."
+    },
+    {
+      "n": 19,
+      "questionHtml": "What is a key barrier to achieving an effective international response to environmental threats?",
+      "answerHtml": "State sovereignty — no international body can force a state to adopt stronger environmental targets."
+    },
+    {
+      "n": 20,
+      "questionHtml": "What is intragenerational equity?",
+      "answerHtml": "Fairness in how environmental benefits and burdens are shared within the current generation, including between wealthy and developing nations."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "b", "questionHtml": "The 1972 UN Conference on the Human Environment in Stockholm is generally considered:", "options": [ { "opt": "a", "textHtml": "The first binding international climate treaty" }, { "opt": "b", "textHtml": "The first major international statement recognising a right to a healthy environment" }, { "opt": "c", "textHtml": "The founding conference of the International Criminal Court" }, { "opt": "d", "textHtml": "An agreement exclusively about ocean pollution" } ] },
-    { "n": 2, "answer": "c", "questionHtml": "The Trail Smelter Arbitration (1941) established which principle of customary international law?", "options": [ { "opt": "a", "textHtml": "That states must ratify every international treaty offered to them" }, { "opt": "b", "textHtml": "That the United Nations can override a state's domestic environmental law" }, { "opt": "c", "textHtml": "That a state must not allow activities in its territory to seriously harm another state's environment" }, { "opt": "d", "textHtml": "That environmental disputes can never be resolved through arbitration" } ] },
-    { "n": 3, "answer": "d", "questionHtml": "Which of the following is NOT one of the four elements of ecologically sustainable development (ESD)?", "options": [ { "opt": "a", "textHtml": "Biodiversity" }, { "opt": "b", "textHtml": "The precautionary principle" }, { "opt": "c", "textHtml": "Intergenerational equity" }, { "opt": "d", "textHtml": "State sovereignty" } ] },
-    { "n": 4, "answer": "a", "questionHtml": "What is the key difference between the Kyoto Protocol (1997) and the Paris Agreement (2015)?", "options": [ { "opt": "a", "textHtml": "Kyoto bound only developed countries; Paris created a near-universal framework where every country sets its own targets" }, { "opt": "b", "textHtml": "Kyoto has no relationship to greenhouse gas emissions" }, { "opt": "c", "textHtml": "Paris only applies to Antarctica" }, { "opt": "d", "textHtml": "Kyoto was signed after the Paris Agreement" } ] },
-    { "n": 5, "answer": "b", "questionHtml": "Which Australian Commonwealth Act protects matters of national environmental significance?", "options": [ { "opt": "a", "textHtml": "The Native Title Act 1993 (Cth)" }, { "opt": "b", "textHtml": "The Environment Protection and Biodiversity Conservation Act 1999 (Cth)" }, { "opt": "c", "textHtml": "The Fair Work Act 2009 (Cth)" }, { "opt": "d", "textHtml": "The Racial Discrimination Act 1975 (Cth)" } ] },
-    { "n": 6, "answer": "c", "questionHtml": "In Commonwealth v Tasmania (1983) (the Tasmanian Dam Case), the High Court used which power to stop the dam?", "options": [ { "opt": "a", "textHtml": "The defence power" }, { "opt": "b", "textHtml": "The trade and commerce power" }, { "opt": "c", "textHtml": "The external affairs power" }, { "opt": "d", "textHtml": "The corporations power" } ] },
-    { "n": 7, "answer": "d", "questionHtml": "Why doesn't signing an international environmental treaty automatically change Australian domestic law?", "options": [ { "opt": "a", "textHtml": "Australia has never signed any environmental treaty" }, { "opt": "b", "textHtml": "Treaties automatically override state law but not federal law" }, { "opt": "c", "textHtml": "The United Nations must approve the change first" }, { "opt": "d", "textHtml": "Parliament must pass legislation to give the treaty effect domestically" } ] },
-    { "n": 8, "answer": "a", "questionHtml": "In Pabai v Commonwealth (No 2) [2025] FCA 796, what did the Federal Court decide?", "options": [ { "opt": "a", "textHtml": "The Commonwealth does not owe a novel duty of care to set science-aligned emissions targets" }, { "opt": "b", "textHtml": "The Commonwealth must immediately relocate all Torres Strait Islander communities" }, { "opt": "c", "textHtml": "Australia breached the Paris Agreement" }, { "opt": "d", "textHtml": "The case was dismissed for lack of jurisdiction" } ] },
-    { "n": 9, "answer": "b", "questionHtml": "Which body did the UN establish after the 1972 Stockholm Conference to coordinate environmental action?", "options": [ { "opt": "a", "textHtml": "The International Criminal Court" }, { "opt": "b", "textHtml": "The UN Environment Programme (UNEP)" }, { "opt": "c", "textHtml": "The World Trade Organization" }, { "opt": "d", "textHtml": "The International Court of Justice" } ] },
-    { "n": 10, "answer": "c", "questionHtml": "What does 'intragenerational equity' refer to?", "options": [ { "opt": "a", "textHtml": "Fairness between different age groups within a family" }, { "opt": "b", "textHtml": "Ensuring future generations inherit a healthy environment" }, { "opt": "c", "textHtml": "Fairness in how environmental benefits and burdens are shared within the current generation" }, { "opt": "d", "textHtml": "A rule that only applies to intergovernmental organisations" } ] },
-    { "n": 11, "answer": "d", "questionHtml": "Which of the following best describes a barrier to achieving an effective international response to global environmental threats?", "options": [ { "opt": "a", "textHtml": "There is too much scientific consensus about climate change" }, { "opt": "b", "textHtml": "International treaties are automatically enforceable against every state" }, { "opt": "c", "textHtml": "The United Nations can compel any state to comply with an environmental treaty" }, { "opt": "d", "textHtml": "State sovereignty means no international body can force a state to adopt stronger targets" } ] },
-    { "n": 12, "answer": "a", "questionHtml": "UNCLOS is an international agreement primarily concerned with:", "options": [ { "opt": "a", "textHtml": "The law of the sea, including marine environmental protection" }, { "opt": "b", "textHtml": "Refugee resettlement" }, { "opt": "c", "textHtml": "International criminal prosecution" }, { "opt": "d", "textHtml": "Global trade tariffs" } ] },
-    { "n": 13, "answer": "b", "questionHtml": "Under Australia's federal structure, day-to-day environmental regulation like local land-use planning is usually the responsibility of:", "options": [ { "opt": "a", "textHtml": "The United Nations" }, { "opt": "b", "textHtml": "State governments" }, { "opt": "c", "textHtml": "The High Court exclusively" }, { "opt": "d", "textHtml": "Non-government organisations" } ] },
-    { "n": 14, "answer": "c", "questionHtml": "What is one limitation of non-government organisations (e.g. Greenpeace) in promoting environmental protection?", "options": [ { "opt": "a", "textHtml": "They are legally required to remain silent on environmental issues" }, { "opt": "b", "textHtml": "They can directly impose binding fines on governments" }, { "opt": "c", "textHtml": "They lack any formal legal power to compel government or corporate action" }, { "opt": "d", "textHtml": "They cannot operate across national borders" } ] }
+    {
+      "n": 1,
+      "answer": "b",
+      "questionHtml": "The 1972 UN Conference on the Human Environment in Stockholm is generally considered:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The first binding international climate treaty"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The first major international statement recognising a right to a healthy environment"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The founding conference of the International Criminal Court"
+        },
+        {
+          "opt": "d",
+          "textHtml": "An agreement exclusively about ocean pollution"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "c",
+      "questionHtml": "The Trail Smelter Arbitration (1941) established which principle of customary international law?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "That states must ratify every international treaty offered to them"
+        },
+        {
+          "opt": "b",
+          "textHtml": "That the United Nations can override a state's domestic environmental law"
+        },
+        {
+          "opt": "c",
+          "textHtml": "That a state must not allow activities in its territory to seriously harm another state's environment"
+        },
+        {
+          "opt": "d",
+          "textHtml": "That environmental disputes can never be resolved through arbitration"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "d",
+      "questionHtml": "Which of the following is NOT one of the four elements of ecologically sustainable development (ESD)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Biodiversity"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The precautionary principle"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Intergenerational equity"
+        },
+        {
+          "opt": "d",
+          "textHtml": "State sovereignty"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "a",
+      "questionHtml": "What is the key difference between the Kyoto Protocol (1997) and the Paris Agreement (2015)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Kyoto bound only developed countries; Paris created a near-universal framework where every country sets its own targets"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Kyoto has no relationship to greenhouse gas emissions"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Paris only applies to Antarctica"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Kyoto was signed after the Paris Agreement"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "b",
+      "questionHtml": "Which Australian Commonwealth Act protects matters of national environmental significance?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Native Title Act 1993 (Cth)"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Environment Protection and Biodiversity Conservation Act 1999 (Cth)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Fair Work Act 2009 (Cth)"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Racial Discrimination Act 1975 (Cth)"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "c",
+      "questionHtml": "In Commonwealth v Tasmania (1983) (the Tasmanian Dam Case), the High Court used which power to stop the dam?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The defence power"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The trade and commerce power"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The external affairs power"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The corporations power"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "d",
+      "questionHtml": "Why doesn't signing an international environmental treaty automatically change Australian domestic law?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Australia has never signed any environmental treaty"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Treaties automatically override state law but not federal law"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The United Nations must approve the change first"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Parliament must pass legislation to give the treaty effect domestically"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "a",
+      "questionHtml": "In Pabai v Commonwealth (No 2) [2025] FCA 796, what did the Federal Court decide?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Commonwealth does not owe a novel duty of care to set science-aligned emissions targets"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Commonwealth must immediately relocate all Torres Strait Islander communities"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Australia breached the Paris Agreement"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The case was dismissed for lack of jurisdiction"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "b",
+      "questionHtml": "Which body did the UN establish after the 1972 Stockholm Conference to coordinate environmental action?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The International Criminal Court"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The UN Environment Programme (UNEP)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The World Trade Organization"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The International Court of Justice"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "c",
+      "questionHtml": "What does 'intragenerational equity' refer to?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Fairness between different age groups within a family"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Ensuring future generations inherit a healthy environment"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Fairness in how environmental benefits and burdens are shared within the current generation"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A rule that only applies to intergovernmental organisations"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "d",
+      "questionHtml": "Which of the following best describes a barrier to achieving an effective international response to global environmental threats?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "There is too much scientific consensus about climate change"
+        },
+        {
+          "opt": "b",
+          "textHtml": "International treaties are automatically enforceable against every state"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The United Nations can compel any state to comply with an environmental treaty"
+        },
+        {
+          "opt": "d",
+          "textHtml": "State sovereignty means no international body can force a state to adopt stronger targets"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "a",
+      "questionHtml": "UNCLOS is an international agreement primarily concerned with:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The law of the sea, including marine environmental protection"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Refugee resettlement"
+        },
+        {
+          "opt": "c",
+          "textHtml": "International criminal prosecution"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Global trade tariffs"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "b",
+      "questionHtml": "Under Australia's federal structure, day-to-day environmental regulation like local land-use planning is usually the responsibility of:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The United Nations"
+        },
+        {
+          "opt": "b",
+          "textHtml": "State governments"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The High Court exclusively"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Non-government organisations"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "c",
+      "questionHtml": "What is one limitation of non-government organisations (e.g. Greenpeace) in promoting environmental protection?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They are legally required to remain silent on environmental issues"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They can directly impose binding fines on governments"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They lack any formal legal power to compel government or corporate action"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They cannot operate across national borders"
+        }
+      ]
+    }
   ]
 }

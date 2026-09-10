@@ -81,7 +81,12 @@
       {
         "bank": "Stimulus",
         "tag": "Source O — Photograph, a family awaiting relocation from Sophiatown, 1955",
-        "bodyHtml": "A family sits with their possessions — a mattress, a basin, bundled belongings — in front of a partly demolished house, waiting to be relocated. Removals from Sophiatown, one of the few areas where Black South Africans could own land, began on 9 February 1955 under the Natives Resettlement Act (1954); the area was later rebuilt as a white suburb renamed Triomf."
+        "bodyHtml": "A family sits with their possessions — a mattress, a basin, bundled belongings — in front of a partly demolished house, waiting to be relocated. Removals from Sophiatown, one of the few areas where Black South Africans could own land, began on 9 February 1955 under the Natives Resettlement Act (1954); the area was later rebuilt as a white suburb renamed Triomf.",
+        "image": {
+          "src": "/images/modern-history/s4-sophiatown-removal.webp",
+          "alt": "1955 photograph of a family sitting with their belongings in front of a partly demolished house during the Sophiatown removals.",
+          "credit": "Photograph, Sophiatown, 1955."
+        }
       },
       {
         "bank": "Stimulus",
@@ -96,7 +101,12 @@
       {
         "bank": "Stimulus",
         "tag": "Source R — A Free Nelson Mandela Campaign poster, 1988, published by The Pyramid Complex, Washington D.C.",
-        "bodyHtml": "Mandela's face is imposed onto a map of Africa, beneath the words \"Must Be Set Free!!!\" in bold red text — the demand for his release presented as a cause for the whole continent, not South Africa alone."
+        "bodyHtml": "Mandela's face is imposed onto a map of Africa, beneath the words \"Must Be Set Free!!!\" in bold red text — the demand for his release presented as a cause for the whole continent, not South Africa alone.",
+        "image": {
+          "src": "/images/modern-history/s4-free-mandela-poster.webp",
+          "alt": "1988 'Free Nelson Mandela' campaign poster with Mandela's face imposed on a map of Africa, published by The Pyramid Complex, Washington D.C.",
+          "credit": "Free Nelson Mandela Campaign poster, 1988, The Pyramid Complex, Washington D.C."
+        }
       },
       {
         "bank": "Stimulus",

@@ -98,6 +98,12 @@ export function PracticeSection({ topicId, practice }: { topicId: string; practi
             .map((source, i) => (
               <div key={i} className="source">
                 <div className="stag">{source.tag}</div>
+                {source.image && (
+                  <figure className="source-image">
+                    <img src={source.image.src} alt={source.image.alt} loading="lazy" />
+                    {source.image.credit && <figcaption>{source.image.credit}</figcaption>}
+                  </figure>
+                )}
                 {source.bodyHtml.split('\n').map((paragraph, pi) => (
                   <p
                     key={pi}

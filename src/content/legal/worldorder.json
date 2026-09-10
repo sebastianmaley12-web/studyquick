@@ -79,45 +79,473 @@
             "badge": "6 marks",
             "questionHtml": "Explain the three pillars of the 'responsibility to protect' (R2P) principle and assess how effectively they were applied in Libya in 2011.",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name and explain all three pillars.</li><li>Apply them specifically to the 2011 Libyan intervention.</li><li>Reach a judgement on effectiveness.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>R2P, adopted at the 2005 World Summit, is based on three pillars: protecting (a state's own primary responsibility to protect its population), intervening (the international community's responsibility to intervene if a state manifestly fails to do so) and rebuilding (assisting recovery once intervention has occurred). In 2011, the UN Security Council authorised military intervention in Libya under Resolution 1973, marking the first time R2P's second pillar was used in this way, and a NATO-led force helped depose the Gaddafi government relatively quickly.</p><p>However, the international community did not effectively fulfil the third pillar. Libya descended into a further civil war by 2013 and continued to experience instability that has contributed to broader regional issues, including migration pressures into Europe. This shows R2P's protecting and intervening pillars can be applied relatively effectively when the Security Council agrees to act, but the rebuilding pillar — arguably the hardest to achieve — has, in Libya's case, been largely unfulfilled, limiting the overall effectiveness of R2P as a complete framework for achieving world order.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the difference between a Chapter VI and a Chapter VII UN peacekeeping mission.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain Chapter VI.</li><li>Explain Chapter VII.</li><li>State the key difference.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>A Chapter VI mission (the 'pacific settlement of disputes' provisions of the UN Charter) involves the UN facilitating negotiation and mediation, and deploying peacekeepers only with the consent of the parties involved — typically to monitor an already-agreed ceasefire or peace agreement.</p><p>A Chapter VII mission allows the Security Council to authorise more forceful measures, including the use of military force, where it finds a genuine threat to international peace and security exists — without needing the consent of all parties, as seen in UN-authorised missions to East Timor and the Central African Republic. The key difference is therefore consent: Chapter VI missions operate with it, while Chapter VII missions can be authorised without it.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain the significance of the International Criminal Court (ICC) to world order.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State when/how the ICC was established.</li><li>Explain its significance compared to earlier tribunals.</li><li>Note a real limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The International Criminal Court (ICC) was established under the Rome Statute, adopted in 1998 and entering into force in 2002, as the first permanent international court able to prosecute individuals — not just states — for genocide, war crimes, crimes against humanity and the crime of aggression.</p><p>Its significance lies in the shift from earlier ad hoc tribunals, such as the ICTY and ICTR (each created individually, after the fact, to address one specific conflict), to a standing institution intended to deter future atrocities through the ongoing possibility of individual criminal accountability. However, the ICC relies entirely on state cooperation to make arrests, since it has no independent police force, and several major powers — including the United States, Russia and China — are not parties to the Rome Statute, significantly limiting its practical jurisdiction and enforcement power.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "navy",
+            "qtype": "Assess",
+            "badge": "7 marks",
+            "questionHtml": "Assess the effectiveness of the United Nations Security Council veto power in achieving world order.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain Article 27(3) and the P5 veto.</li><li>Give a strength and a real limitation, with examples.</li><li>Reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Under Article 27(3) of the UN Charter, any one of the Security Council's five permanent members (the P5 — the US, UK, France, Russia and China) can veto a resolution, meaning the Council can only take binding action with the agreement of all five. Requiring this unanimity was originally intended to keep the major powers engaged within the UN system after 1945, rather than acting entirely outside it, and can encourage negotiation and compromise before a resolution is put to a vote.</p><p>In practice, however, the veto frequently paralyses the Council whenever a permanent member's own interests, or those of its allies, are implicated — Russia and China have used their vetoes more than a dozen times to block humanitarian and accountability measures relating to the Syrian civil war, including blocking a referral of the conflict to the International Criminal Court, and Russia has also used its veto in relation to resolutions concerning its own invasion of Ukraine. Overall, the veto power is a double-edged mechanism: it was designed to keep the world's most powerful states bound into a rules-based system, but its modern effect is often to prevent that same system from acting against a P5 member or its allies.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "rust",
+            "qtype": "Outline",
+            "badge": "4 marks",
+            "questionHtml": "Outline the purpose of the Geneva Conventions (1949).",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>State what they regulate.</li><li>State who they protect.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The Geneva Conventions (1949), together with their Additional Protocols (1977 and 2005), set out the core rules of international humanitarian law — the law regulating the conduct of armed conflict. Their purpose is to protect people who are not, or are no longer, taking part in hostilities, including wounded and sick soldiers, shipwrecked military personnel, prisoners of war, and civilians — setting minimum standards of treatment that are meant to apply regardless of which side is winning or considered to be in the right.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "olive",
+            "qtype": "Explain",
+            "badge": "5 marks",
+            "questionHtml": "Explain how weapons-control treaties contribute to world order.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Name at least two real weapons-control treaties.</li><li>Explain how they contribute to world order.</li><li>Note their limitation.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Weapons-control treaties — including the Nuclear Non-Proliferation Treaty, the Treaty on the Prohibition of Nuclear Weapons, the Convention on Cluster Munitions, the Biological Weapons Convention and the Chemical Weapons Convention — aim to reduce the risk and scale of future conflict by limiting the development, possession or use of the most destructive categories of weapons, and often create monitoring or inspection regimes that help build trust between states.</p><p>However, like other international treaties, they rely on voluntary ratification and ongoing compliance: a state that chooses not to ratify a treaty (or later withdraws from it) is not bound by it, and detecting covert non-compliance — such as a hidden weapons program — remains genuinely difficult, limiting how confidently these treaties can be enforced in practice.</p></div></div>"
+          },
+          {
+            "format": "card",
+            "accent": "ochre",
+            "qtype": "Discuss",
+            "badge": "7 marks",
+            "questionHtml": "Discuss the effectiveness of 'responsibility to protect' (R2P) as a response to threats to world order.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain R2P and its legal status.</li><li>Discuss its one clear real-world application.</li><li>Note how rarely it has actually been used, and why.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>'Responsibility to protect' (R2P), adopted at the 2005 UN World Summit, holds that the international community has a responsibility to intervene when a state manifestly fails to protect its own population, built on three pillars: protecting, intervening and rebuilding. R2P is not itself binding international law — it is a political and moral principle that still depends on the Security Council agreeing to act in any given case.</p><p>R2P has been invoked to authorise military intervention only once, in Libya in 2011 under Resolution 1973: the 'intervening' pillar succeeded in helping remove the Gaddafi government relatively quickly, but the international community failed to fulfil the 'rebuilding' pillar, and Libya descended into further civil war by 2013. Since then, R2P has not been used to authorise intervention in other serious situations, including the Syrian civil war, largely because Russia and China's Security Council vetoes have blocked any such resolution — showing R2P's practical application depends entirely on the same P5 veto politics that limit other UN action, rather than operating as an automatic, independent legal trigger. Overall, R2P represented a significant normative development in world order, but has proven effective only on the rare occasion that P5 interests happen to align, giving it limited real-world reach so far.</p></div></div>"
           }
         ]
       }
     ]
   },
   "trivia": [
-    { "n": 1, "questionHtml": "What is world order?", "answerHtml": "The system of international relations, rules and institutions that aim to ensure stability, security and cooperation between nation states." },
-    { "n": 2, "questionHtml": "What's the difference between inter-state and intra-state conflict?", "answerHtml": "Inter-state conflict is between two or more nation states; intra-state conflict is within a single state (e.g. a civil war)." },
-    { "n": 3, "questionHtml": "How many members does the UN Security Council have, and how are they split?", "answerHtml": "15 members — 5 permanent members (the P5) and 10 elected members serving two-year terms." },
-    { "n": 4, "questionHtml": "Who are the five permanent members (P5) of the UN Security Council?", "answerHtml": "The United States, United Kingdom, France, Russia and China." },
-    { "n": 5, "questionHtml": "What power does Article 27(3) of the UN Charter give each P5 member?", "answerHtml": "The power to veto (block) any UN Security Council resolution." },
-    { "n": 6, "questionHtml": "What's the difference between a Chapter VI and a Chapter VII UN peacekeeping mission?", "answerHtml": "Chapter VI missions involve peaceful settlement with the parties' consent; Chapter VII missions can authorise the use of force." },
-    { "n": 7, "questionHtml": "Name two international courts relevant to world order and what each does.", "answerHtml": "The International Court of Justice resolves disputes between states; the International Criminal Court prosecutes individuals for the most serious crimes." },
-    { "n": 8, "questionHtml": "What did UNSC Resolution 2270 do?", "answerHtml": "Imposed cargo-inspection and banking-restriction sanctions on North Korea in response to its weapons program." },
-    { "n": 9, "questionHtml": "What do the Geneva Conventions (1949) regulate?", "answerHtml": "International humanitarian law — the rules for the conduct of armed conflict, including protection of civilians and prisoners of war." },
-    { "n": 10, "questionHtml": "Name two weapons-control treaties relevant to world order.", "answerHtml": "Any two of: the Nuclear Non-Proliferation Treaty, the Treaty on the Prohibition of Nuclear Weapons, the Convention on Cluster Munitions, the Biological Weapons Convention, or the Chemical Weapons Convention." },
-    { "n": 11, "questionHtml": "What are the three pillars of the 'responsibility to protect' (R2P) principle?", "answerHtml": "Protecting, intervening and rebuilding." },
-    { "n": 12, "questionHtml": "When was R2P adopted, and is it binding international law?", "answerHtml": "Adopted at the 2005 UN World Summit — it is not itself binding international law." },
-    { "n": 13, "questionHtml": "When was R2P first used to authorise military intervention, and where?", "answerHtml": "2011, in Libya, under UN Security Council Resolution 1973." },
-    { "n": 14, "questionHtml": "What happened after the 2011 Libyan intervention that shows a limitation of R2P?", "answerHtml": "The international community largely failed R2P's 'rebuilding' pillar — Libya descended into further civil war in 2013 and continued instability." },
-    { "n": 15, "questionHtml": "How has Russia used its Security Council veto in relation to the Syrian civil war?", "answerHtml": "To repeatedly block resolutions authorising humanitarian or military action, including blocking a referral of the conflict to the International Criminal Court." },
-    { "n": 16, "questionHtml": "How has the South China Sea territorial dispute mainly been addressed?", "answerHtml": "Largely through diplomatic negotiation rather than binding legal resolution." },
-    { "n": 17, "questionHtml": "Give an example of a non-legal response to a world order issue.", "answerHtml": "Diplomacy/political negotiation between states, or media coverage/NGO advocacy raising international awareness." },
-    { "n": 18, "questionHtml": "When was the United Nations established, and why?", "answerHtml": "1945, to maintain international peace and security and encourage cooperation between states after the World Wars." }
+    {
+      "n": 1,
+      "questionHtml": "What is world order?",
+      "answerHtml": "The system of international relations, rules and institutions that aim to ensure stability, security and cooperation between nation states."
+    },
+    {
+      "n": 2,
+      "questionHtml": "What's the difference between inter-state and intra-state conflict?",
+      "answerHtml": "Inter-state conflict is between two or more nation states; intra-state conflict is within a single state (e.g. a civil war)."
+    },
+    {
+      "n": 3,
+      "questionHtml": "How many members does the UN Security Council have, and how are they split?",
+      "answerHtml": "15 members — 5 permanent members (the P5) and 10 elected members serving two-year terms."
+    },
+    {
+      "n": 4,
+      "questionHtml": "Who are the five permanent members (P5) of the UN Security Council?",
+      "answerHtml": "The United States, United Kingdom, France, Russia and China."
+    },
+    {
+      "n": 5,
+      "questionHtml": "What power does Article 27(3) of the UN Charter give each P5 member?",
+      "answerHtml": "The power to veto (block) any UN Security Council resolution."
+    },
+    {
+      "n": 6,
+      "questionHtml": "What's the difference between a Chapter VI and a Chapter VII UN peacekeeping mission?",
+      "answerHtml": "Chapter VI missions involve peaceful settlement with the parties' consent; Chapter VII missions can authorise the use of force."
+    },
+    {
+      "n": 7,
+      "questionHtml": "Name two international courts relevant to world order and what each does.",
+      "answerHtml": "The International Court of Justice resolves disputes between states; the International Criminal Court prosecutes individuals for the most serious crimes."
+    },
+    {
+      "n": 8,
+      "questionHtml": "What did UNSC Resolution 2270 do?",
+      "answerHtml": "Imposed cargo-inspection and banking-restriction sanctions on North Korea in response to its weapons program."
+    },
+    {
+      "n": 9,
+      "questionHtml": "What do the Geneva Conventions (1949) regulate?",
+      "answerHtml": "International humanitarian law — the rules for the conduct of armed conflict, including protection of civilians and prisoners of war."
+    },
+    {
+      "n": 10,
+      "questionHtml": "Name two weapons-control treaties relevant to world order.",
+      "answerHtml": "Any two of: the Nuclear Non-Proliferation Treaty, the Treaty on the Prohibition of Nuclear Weapons, the Convention on Cluster Munitions, the Biological Weapons Convention, or the Chemical Weapons Convention."
+    },
+    {
+      "n": 11,
+      "questionHtml": "What are the three pillars of the 'responsibility to protect' (R2P) principle?",
+      "answerHtml": "Protecting, intervening and rebuilding."
+    },
+    {
+      "n": 12,
+      "questionHtml": "When was R2P adopted, and is it binding international law?",
+      "answerHtml": "Adopted at the 2005 UN World Summit — it is not itself binding international law."
+    },
+    {
+      "n": 13,
+      "questionHtml": "When was R2P first used to authorise military intervention, and where?",
+      "answerHtml": "2011, in Libya, under UN Security Council Resolution 1973."
+    },
+    {
+      "n": 14,
+      "questionHtml": "What happened after the 2011 Libyan intervention that shows a limitation of R2P?",
+      "answerHtml": "The international community largely failed R2P's 'rebuilding' pillar — Libya descended into further civil war in 2013 and continued instability."
+    },
+    {
+      "n": 15,
+      "questionHtml": "How has Russia used its Security Council veto in relation to the Syrian civil war?",
+      "answerHtml": "To repeatedly block resolutions authorising humanitarian or military action, including blocking a referral of the conflict to the International Criminal Court."
+    },
+    {
+      "n": 16,
+      "questionHtml": "How has the South China Sea territorial dispute mainly been addressed?",
+      "answerHtml": "Largely through diplomatic negotiation rather than binding legal resolution."
+    },
+    {
+      "n": 17,
+      "questionHtml": "Give an example of a non-legal response to a world order issue.",
+      "answerHtml": "Diplomacy/political negotiation between states, or media coverage/NGO advocacy raising international awareness."
+    },
+    {
+      "n": 18,
+      "questionHtml": "When was the United Nations established, and why?",
+      "answerHtml": "1945, to maintain international peace and security and encourage cooperation between states after the World Wars."
+    }
   ],
   "quiz": [
-    { "n": 1, "answer": "c", "questionHtml": "How many permanent members (the P5) sit on the UN Security Council?", "options": [ { "opt": "a", "textHtml": "Three" }, { "opt": "b", "textHtml": "Ten" }, { "opt": "c", "textHtml": "Five" }, { "opt": "d", "textHtml": "Fifteen" } ] },
-    { "n": 2, "answer": "b", "questionHtml": "Which article of the UN Charter gives each P5 member veto power over Security Council resolutions?", "options": [ { "opt": "a", "textHtml": "Article 1" }, { "opt": "b", "textHtml": "Article 27(3)" }, { "opt": "c", "textHtml": "Article 51" }, { "opt": "d", "textHtml": "Article 99" } ] },
-    { "n": 3, "answer": "a", "questionHtml": "Which of the following is an example of an intra-state conflict?", "options": [ { "opt": "a", "textHtml": "A civil war within a single country" }, { "opt": "b", "textHtml": "A war between two neighbouring nation states" }, { "opt": "c", "textHtml": "A trade dispute heard by the World Trade Organization" }, { "opt": "d", "textHtml": "A dispute between two individuals in different countries" } ] },
-    { "n": 4, "answer": "d", "questionHtml": "What did UN Security Council Resolution 2270 impose sanctions in response to?", "options": [ { "opt": "a", "textHtml": "Climate change" }, { "opt": "b", "textHtml": "Human trafficking" }, { "opt": "c", "textHtml": "Piracy in the Gulf of Aden" }, { "opt": "d", "textHtml": "North Korea's weapons program" } ] },
-    { "n": 5, "answer": "b", "questionHtml": "What is the key difference between a Chapter VI and a Chapter VII UN peacekeeping mission?", "options": [ { "opt": "a", "textHtml": "Chapter VI missions are always larger than Chapter VII missions" }, { "opt": "b", "textHtml": "Chapter VI relies on the consent of the parties; Chapter VII can authorise the use of force" }, { "opt": "c", "textHtml": "Chapter VII missions cannot involve any UN member states" }, { "opt": "d", "textHtml": "There is no practical difference between the two" } ] },
-    { "n": 6, "answer": "a", "questionHtml": "The 'responsibility to protect' (R2P) principle is built on which three pillars?", "options": [ { "opt": "a", "textHtml": "Protecting, intervening and rebuilding" }, { "opt": "b", "textHtml": "Negotiating, sanctioning and prosecuting" }, { "opt": "c", "textHtml": "Deterring, punishing and detaining" }, { "opt": "d", "textHtml": "Ratifying, enforcing and reviewing" } ] },
-    { "n": 7, "answer": "c", "questionHtml": "In which country was R2P first invoked to authorise a UN Security Council-approved military intervention?", "options": [ { "opt": "a", "textHtml": "Syria" }, { "opt": "b", "textHtml": "Rwanda" }, { "opt": "c", "textHtml": "Libya" }, { "opt": "d", "textHtml": "Ukraine" } ] },
-    { "n": 8, "answer": "d", "questionHtml": "What is widely seen as the main failure of the 2011 Libyan intervention under R2P?", "options": [ { "opt": "a", "textHtml": "The Security Council refused to authorise any action at all" }, { "opt": "b", "textHtml": "No nation offered any military support" }, { "opt": "c", "textHtml": "The 'protecting' pillar was never attempted" }, { "opt": "d", "textHtml": "The 'rebuilding' pillar was largely unfulfilled, contributing to further civil war" } ] },
-    { "n": 9, "answer": "b", "questionHtml": "Russia and China have used their UN Security Council veto power multiple times in relation to which conflict, including to block a referral to the ICC?", "options": [ { "opt": "a", "textHtml": "The Falklands War" }, { "opt": "b", "textHtml": "The Syrian civil war" }, { "opt": "c", "textHtml": "The Korean War" }, { "opt": "d", "textHtml": "The Gulf War" } ] },
-    { "n": 10, "answer": "a", "questionHtml": "The Geneva Conventions (1949) primarily regulate:", "options": [ { "opt": "a", "textHtml": "The conduct of armed conflict and treatment of civilians/prisoners of war" }, { "opt": "b", "textHtml": "International trade tariffs" }, { "opt": "c", "textHtml": "Extradition between neighbouring states" }, { "opt": "d", "textHtml": "Refugee resettlement quotas" } ] },
-    { "n": 11, "answer": "c", "questionHtml": "Which of the following is a weapons-control treaty relevant to world order?", "options": [ { "opt": "a", "textHtml": "The Paris Agreement" }, { "opt": "b", "textHtml": "The Modern Slavery Act 2018 (Cth)" }, { "opt": "c", "textHtml": "The Nuclear Non-Proliferation Treaty" }, { "opt": "d", "textHtml": "The Racial Discrimination Act 1975 (Cth)" } ] },
-    { "n": 12, "answer": "d", "questionHtml": "The South China Sea territorial disputes have primarily been addressed through:", "options": [ { "opt": "a", "textHtml": "A binding decision of the UN Security Council" }, { "opt": "b", "textHtml": "Direct International Criminal Court prosecutions" }, { "opt": "c", "textHtml": "A Chapter VII peacekeeping mission" }, { "opt": "d", "textHtml": "Diplomatic negotiation between the states involved" } ] },
-    { "n": 13, "answer": "b", "questionHtml": "Which UN body resolves legal disputes between nation states (rather than prosecuting individuals)?", "options": [ { "opt": "a", "textHtml": "The International Criminal Court" }, { "opt": "b", "textHtml": "The International Court of Justice" }, { "opt": "c", "textHtml": "The UN Human Rights Committee" }, { "opt": "d", "textHtml": "Interpol" } ] },
-    { "n": 14, "answer": "a", "questionHtml": "What is a key limitation of non-legal responses (like diplomacy or media pressure) to world order issues?", "options": [ { "opt": "a", "textHtml": "They cannot compel a state's compliance the way a binding UN resolution can" }, { "opt": "b", "textHtml": "They are illegal under international law" }, { "opt": "c", "textHtml": "They have no effect on public opinion" }, { "opt": "d", "textHtml": "They can only be used by permanent members of the Security Council" } ] }
+    {
+      "n": 1,
+      "answer": "c",
+      "questionHtml": "How many permanent members (the P5) sit on the UN Security Council?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Three"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Ten"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Five"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Fifteen"
+        }
+      ]
+    },
+    {
+      "n": 2,
+      "answer": "b",
+      "questionHtml": "Which article of the UN Charter gives each P5 member veto power over Security Council resolutions?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Article 1"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Article 27(3)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Article 51"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Article 99"
+        }
+      ]
+    },
+    {
+      "n": 3,
+      "answer": "a",
+      "questionHtml": "Which of the following is an example of an intra-state conflict?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A civil war within a single country"
+        },
+        {
+          "opt": "b",
+          "textHtml": "A war between two neighbouring nation states"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A trade dispute heard by the World Trade Organization"
+        },
+        {
+          "opt": "d",
+          "textHtml": "A dispute between two individuals in different countries"
+        }
+      ]
+    },
+    {
+      "n": 4,
+      "answer": "d",
+      "questionHtml": "What did UN Security Council Resolution 2270 impose sanctions in response to?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Climate change"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Human trafficking"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Piracy in the Gulf of Aden"
+        },
+        {
+          "opt": "d",
+          "textHtml": "North Korea's weapons program"
+        }
+      ]
+    },
+    {
+      "n": 5,
+      "answer": "b",
+      "questionHtml": "What is the key difference between a Chapter VI and a Chapter VII UN peacekeeping mission?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Chapter VI missions are always larger than Chapter VII missions"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Chapter VI relies on the consent of the parties; Chapter VII can authorise the use of force"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Chapter VII missions cannot involve any UN member states"
+        },
+        {
+          "opt": "d",
+          "textHtml": "There is no practical difference between the two"
+        }
+      ]
+    },
+    {
+      "n": 6,
+      "answer": "a",
+      "questionHtml": "The 'responsibility to protect' (R2P) principle is built on which three pillars?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Protecting, intervening and rebuilding"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Negotiating, sanctioning and prosecuting"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Deterring, punishing and detaining"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Ratifying, enforcing and reviewing"
+        }
+      ]
+    },
+    {
+      "n": 7,
+      "answer": "c",
+      "questionHtml": "In which country was R2P first invoked to authorise a UN Security Council-approved military intervention?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "Syria"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Rwanda"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Libya"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Ukraine"
+        }
+      ]
+    },
+    {
+      "n": 8,
+      "answer": "d",
+      "questionHtml": "What is widely seen as the main failure of the 2011 Libyan intervention under R2P?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Security Council refused to authorise any action at all"
+        },
+        {
+          "opt": "b",
+          "textHtml": "No nation offered any military support"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The 'protecting' pillar was never attempted"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The 'rebuilding' pillar was largely unfulfilled, contributing to further civil war"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "answer": "b",
+      "questionHtml": "Russia and China have used their UN Security Council veto power multiple times in relation to which conflict, including to block a referral to the ICC?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Falklands War"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Syrian civil war"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Korean War"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Gulf War"
+        }
+      ]
+    },
+    {
+      "n": 10,
+      "answer": "a",
+      "questionHtml": "The Geneva Conventions (1949) primarily regulate:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The conduct of armed conflict and treatment of civilians/prisoners of war"
+        },
+        {
+          "opt": "b",
+          "textHtml": "International trade tariffs"
+        },
+        {
+          "opt": "c",
+          "textHtml": "Extradition between neighbouring states"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Refugee resettlement quotas"
+        }
+      ]
+    },
+    {
+      "n": 11,
+      "answer": "c",
+      "questionHtml": "Which of the following is a weapons-control treaty relevant to world order?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The Paris Agreement"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The Modern Slavery Act 2018 (Cth)"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The Nuclear Non-Proliferation Treaty"
+        },
+        {
+          "opt": "d",
+          "textHtml": "The Racial Discrimination Act 1975 (Cth)"
+        }
+      ]
+    },
+    {
+      "n": 12,
+      "answer": "d",
+      "questionHtml": "The South China Sea territorial disputes have primarily been addressed through:",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "A binding decision of the UN Security Council"
+        },
+        {
+          "opt": "b",
+          "textHtml": "Direct International Criminal Court prosecutions"
+        },
+        {
+          "opt": "c",
+          "textHtml": "A Chapter VII peacekeeping mission"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Diplomatic negotiation between the states involved"
+        }
+      ]
+    },
+    {
+      "n": 13,
+      "answer": "b",
+      "questionHtml": "Which UN body resolves legal disputes between nation states (rather than prosecuting individuals)?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "The International Criminal Court"
+        },
+        {
+          "opt": "b",
+          "textHtml": "The International Court of Justice"
+        },
+        {
+          "opt": "c",
+          "textHtml": "The UN Human Rights Committee"
+        },
+        {
+          "opt": "d",
+          "textHtml": "Interpol"
+        }
+      ]
+    },
+    {
+      "n": 14,
+      "answer": "a",
+      "questionHtml": "What is a key limitation of non-legal responses (like diplomacy or media pressure) to world order issues?",
+      "options": [
+        {
+          "opt": "a",
+          "textHtml": "They cannot compel a state's compliance the way a binding UN resolution can"
+        },
+        {
+          "opt": "b",
+          "textHtml": "They are illegal under international law"
+        },
+        {
+          "opt": "c",
+          "textHtml": "They have no effect on public opinion"
+        },
+        {
+          "opt": "d",
+          "textHtml": "They can only be used by permanent members of the Security Council"
+        }
+      ]
+    }
   ]
 }
