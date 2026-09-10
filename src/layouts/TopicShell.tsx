@@ -17,6 +17,13 @@ export function TopicShell({ rail, searchbar, children }: TopicShellProps) {
     closeMobile()
   }, [pathname, closeMobile])
 
+  // React Router doesn't reset scroll position on client-side navigation —
+  // without this, switching topics (or resource tabs) leaves the page
+  // wherever the previous one was scrolled to.
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
   return (
     <>
       <div
