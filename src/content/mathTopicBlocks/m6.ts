@@ -1,12 +1,10 @@
 /**
- * MS-M6 Non-right-angled Trigonometry — block entries (topic slug "m6"). No
- * triangle-diagram preset exists yet in GeometryDiagram.tsx (only
- * cylinder/composite-rect-semicircle are implemented), so every question
- * here is presented with paragraph + equation blocks only — the triangle
- * itself is described in words/labels rather than drawn. Flagged as a gap:
- * a `shape: 'triangle'` preset (three vertices + optional angle/side labels)
- * would materially improve this topic and should be considered for a future
- * GeometryDiagram addition.
+ * MS-M6 Non-right-angled Trigonometry — block entries (topic slug "m6").
+ * Most questions now use the `triangle` GeometryDiagram preset — schematic,
+ * not to scale, with unknowns shown as "?" rather than a value. m6q9
+ * (ship bearings), m6q11 (two triangles sharing a survey point O) and m6q12
+ * (bearing conversion, no triangle at all) don't map onto a single generic
+ * triangle cleanly, so those stay paragraph + equation only.
  */
 import type { MathBlockEntry } from '../../lib/content/mathBlocks'
 
@@ -16,6 +14,14 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'In a right-angled triangle, the side adjacent to a 34&deg; angle is 12.5 cm. Find the opposite side, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          rightAngleAt: 'bottomLeft',
+          labels: { angleBottomRight: '34°', base: '12.5 cm', left: '?' },
+        },
       },
       { kind: 'equation', latex: '\\tan 34^{\\circ} = \\dfrac{\\text{opposite}}{12.5}' },
     ],
@@ -31,6 +37,14 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
         kind: 'paragraph',
         html: 'In a right-angled triangle, the side opposite angle &theta; is 7 cm and the hypotenuse is 11 cm. Find &theta;, correct to 2 decimal places.',
       },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          rightAngleAt: 'bottomLeft',
+          labels: { angleBottomRight: 'θ = ?', left: '7 cm', right: '11 cm' },
+        },
+      },
       { kind: 'equation', latex: '\\sin \\theta = \\dfrac{7}{11}' },
     ],
     solutionBlocks: [
@@ -44,6 +58,21 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'In triangle ABC, angle A = 48&deg;, angle B = 63&deg; and side <em>b</em> = 15 cm. Find side <em>a</em>, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: {
+            bottomLeft: 'A',
+            bottomRight: 'B',
+            top: 'C',
+            angleBottomLeft: '48°',
+            angleBottomRight: '63°',
+            left: 'b = 15 cm',
+            right: 'a = ?',
+          },
+        },
       },
       { kind: 'equation', latex: '\\dfrac{a}{\\sin A} = \\dfrac{b}{\\sin B}' },
     ],
@@ -60,6 +89,21 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
         kind: 'paragraph',
         html: 'In triangle ABC, <em>a</em> = 9 cm, <em>b</em> = 12 cm and angle B = 70&deg;. Find the acute angle A, correct to 2 decimal places.',
       },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: {
+            bottomLeft: 'A',
+            bottomRight: 'B',
+            top: 'C',
+            angleBottomRight: '70°',
+            angleBottomLeft: 'A = ?',
+            left: 'b = 12 cm',
+            right: 'a = 9 cm',
+          },
+        },
+      },
       { kind: 'equation', latex: '\\dfrac{\\sin A}{9} = \\dfrac{\\sin 70^{\\circ}}{12}' },
     ],
     solutionBlocks: [
@@ -73,6 +117,21 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'For the triangle in the previous question (<em>a</em> = 9 cm, <em>b</em> = 12 cm, angle B = 70&deg;), the ambiguous case gives a second possible value for angle A. Find the obtuse value, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: {
+            bottomLeft: 'A',
+            bottomRight: 'B',
+            top: 'C',
+            angleBottomRight: '70°',
+            angleBottomLeft: 'A = ?',
+            left: 'b = 12 cm',
+            right: 'a = 9 cm',
+          },
+        },
       },
     ],
     solutionBlocks: [
@@ -90,6 +149,21 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
         kind: 'paragraph',
         html: 'In triangle ABC, <em>a</em> = 8 cm, <em>b</em> = 11 cm and the included angle C = 52&deg;. Find side <em>c</em>, correct to 2 decimal places.',
       },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: {
+            bottomLeft: 'A',
+            bottomRight: 'B',
+            top: 'C',
+            angleTop: '52°',
+            left: 'b = 11 cm',
+            right: 'a = 8 cm',
+            base: 'c = ?',
+          },
+        },
+      },
       { kind: 'equation', latex: 'c^{2} = a^{2} + b^{2} - 2ab\\cos C' },
     ],
     solutionBlocks: [
@@ -106,6 +180,13 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
         kind: 'paragraph',
         html: 'A triangle has sides 7 cm, 9 cm and 13 cm. Find the largest angle, correct to 2 decimal places.',
       },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: { left: '7 cm', right: '9 cm', base: '13 cm', angleTop: '?' },
+        },
+      },
     ],
     solutionBlocks: [
       { kind: 'paragraph', html: 'The largest angle is always opposite the longest side (13 cm).' },
@@ -119,6 +200,13 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'Find the area of a triangle with sides 14 cm and 9 cm enclosing an angle of 37&deg;, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          labels: { left: '14 cm', right: '9 cm', angleTop: '37°' },
+        },
       },
       { kind: 'equation', latex: 'A = \\tfrac{1}{2}ab\\sin C' },
     ],
@@ -150,6 +238,14 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'A tower is 45 m tall. Find the angle of elevation of its top from a point 80 m away on level ground, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          rightAngleAt: 'bottomLeft',
+          labels: { left: '45 m', base: '80 m', angleBottomRight: 'θ = ?' },
+        },
       },
       { kind: 'equation', latex: '\\tan \\theta = \\dfrac{45}{80}' },
     ],
@@ -195,6 +291,14 @@ export const M6_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'From the top of a 62 m cliff, the angle of depression to a boat is 23&deg;. Find the horizontal distance from the base of the cliff to the boat, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'triangle',
+          rightAngleAt: 'bottomLeft',
+          labels: { left: '62 m', base: '?', angleBottomRight: '23°' },
+        },
       },
     ],
     solutionBlocks: [

@@ -65,6 +65,45 @@ export interface TableData {
 export type GeometryData =
   | { shape: 'cylinder'; radius: number; height: number; radiusLabel?: string; heightLabel?: string }
   | { shape: 'composite-rect-semicircle'; width: number; height: number; widthLabel?: string; heightLabel?: string }
+  | {
+      shape: 'triangle'
+      /** Schematic, not to scale — a plain scalene triangle with whichever
+       * vertex/side/angle labels the question supplies. All optional so a
+       * question only labels what it actually gives/asks for. */
+      labels: {
+        top?: string
+        bottomLeft?: string
+        bottomRight?: string
+        /** side from bottomLeft to top */
+        left?: string
+        /** side from top to bottomRight */
+        right?: string
+        /** side from bottomLeft to bottomRight */
+        base?: string
+        angleTop?: string
+        angleBottomLeft?: string
+        angleBottomRight?: string
+      }
+      /** Draws a small right-angle mark at this vertex instead of an angle
+       * label there. */
+      rightAngleAt?: 'top' | 'bottomLeft' | 'bottomRight'
+    }
+  | {
+      shape: 'rectangular-prism'
+      length: number
+      width: number
+      height: number
+      lengthLabel?: string
+      widthLabel?: string
+      heightLabel?: string
+    }
+  | {
+      shape: 'cylinder-hemisphere'
+      radius: number
+      height: number
+      radiusLabel?: string
+      heightLabel?: string
+    }
 
 export interface MathWorkspaceStep {
   label: string

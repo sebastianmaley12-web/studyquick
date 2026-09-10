@@ -6,9 +6,8 @@
  * (width = rectangle length, height = rectangle width, since the preset's
  * semicircle radius is height/2 — matching this question's diameter-8
  * semicircle exactly). m1q8 uses a table block for the trapezoidal-rule
- * offsets. m1q7 (rectangular-prism surface area) and m1q12 (cylinder +
- * hemisphere silo) have no matching GeometryDiagram preset yet — no new
- * renderer was built for them, so they render as paragraph + equation only.
+ * offsets. m1q7 uses the rectangular-prism preset and m1q12 the
+ * cylinder-hemisphere preset, both added to GeometryDiagram.tsx afterwards.
  */
 import type { MathBlockEntry } from '../../lib/content/mathBlocks'
 
@@ -117,6 +116,18 @@ export const M1_ENTRIES: Record<string, MathBlockEntry> = {
         kind: 'paragraph',
         html: 'Find the surface area of a rectangular prism measuring 3 cm by 4 cm by 5 cm.',
       },
+      {
+        kind: 'geometry',
+        data: {
+          shape: 'rectangular-prism',
+          length: 5,
+          width: 4,
+          height: 3,
+          lengthLabel: '5 cm',
+          widthLabel: '4 cm',
+          heightLabel: '3 cm',
+        },
+      },
       { kind: 'equation', latex: 'SA = 2(lw + lh + wh)' },
     ],
     solutionBlocks: [
@@ -191,6 +202,10 @@ export const M1_ENTRIES: Record<string, MathBlockEntry> = {
       {
         kind: 'paragraph',
         html: 'A silo is a cylinder of radius 3 m and height 10 m topped by a hemisphere of radius 3 m. Find its total volume, correct to 2 decimal places.',
+      },
+      {
+        kind: 'geometry',
+        data: { shape: 'cylinder-hemisphere', radius: 3, height: 10, radiusLabel: 'r = 3 m', heightLabel: 'h = 10 m' },
       },
       { kind: 'equation', latex: 'V = \\pi r^{2} h + \\tfrac{2}{3}\\pi r^{3}' },
     ],
