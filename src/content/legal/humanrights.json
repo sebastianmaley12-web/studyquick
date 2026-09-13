@@ -65,24 +65,24 @@
             "accent": "rust",
             "qtype": "Explain",
             "badge": "5 marks",
-            "questionHtml": "Explain how the division of powers can protect human rights in Australia. Use an appropriate example to support your answer.",
-            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what the division of powers is.</li><li>Show how it can be used to protect human rights.</li><li>Integrate one specific example (a real High Court case).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>The division of powers separates law-making responsibility between the Commonwealth and state parliaments under the Constitution. This can protect human rights because it allows the Commonwealth to legislate in areas — like external affairs — that a state government might not, or might act against.</p><p>In <em>Commonwealth v Tasmania</em> (1983) (the Tasmanian Dam Case), the High Court found the Commonwealth's external affairs power under s51(xxix) of the Constitution allowed it to stop the Tasmanian government from constructing a dam that would have destroyed a World Heritage-listed area, because Australia had international obligations under the World Heritage Convention. This shows the division of powers can protect rights (including environmental and cultural heritage protections) even when a state government's own priorities conflict with them — although the division of powers can also work the other way, as shown when the High Court struck down the ACT's same-sex marriage law in 2013 for being inconsistent with Commonwealth marriage legislation, illustrating that the division of powers protects rights only when the Commonwealth chooses to exercise its power in a rights-protective direction.</p></div></div>"
+            "questionHtml": "How can the division of law-making power between the Commonwealth and the states operate to safeguard human rights in Australia? Refer to one relevant example in your answer.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what the division of powers is.</li><li>Show how it can be used to protect human rights.</li><li>Integrate one specific example (a real High Court case).</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Under the Constitution, law-making responsibility is split between the Commonwealth and the states — a structure that can end up protecting human rights, because it gives the Commonwealth a legislative reach (via powers like external affairs) that individual states don't have, and can use to override a state acting against those rights.</p><p>In <em>Commonwealth v Tasmania</em> (1983) (the Tasmanian Dam Case), the High Court found the Commonwealth's external affairs power under s51(xxix) of the Constitution allowed it to stop the Tasmanian government from constructing a dam that would have destroyed a World Heritage-listed area, because Australia had international obligations under the World Heritage Convention. This demonstrates that splitting law-making power between two levels of government can protect rights — including environmental and cultural heritage protections — even when a state government's own priorities run directly against them — although the division of powers can also work the other way, as shown when the High Court struck down the ACT's same-sex marriage law in 2013 for being inconsistent with Commonwealth marriage legislation, illustrating that the division of powers protects rights only when the Commonwealth chooses to exercise its power in a rights-protective direction.</p></div></div>"
           },
           {
             "format": "card",
             "accent": "navy",
             "qtype": "Explain",
             "badge": "7 marks",
-            "questionHtml": "Explain the role of law reform in protecting human rights. Support your response with reference to ONE contemporary human rights issue.",
-            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define law reform.</li><li>Explain how it protects human rights generally.</li><li>Integrate one contemporary issue with real legislation/cases.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Law reform refers to changes in the law, made by Parliament or the courts, in response to society's evolving understanding of justice. Law reform can protect human rights by strengthening existing legal protections or by creating entirely new ones as new issues are recognised.</p><p>Human trafficking and slavery illustrate this well. In <em>R v Tang</em> (2008), the High Court clarified the legal meaning of \"slavery\" under Australian law, strengthening the basis for future prosecutions. Parliament then went further: the <em>Crimes Legislation Amendment (Slavery, Slavery-like Conditions and People Trafficking) Act 2013</em> (Cth) amended the <em>Criminal Code Act 1995</em> (Cth) to add specific offences — including forced marriage, forced labour and organ trafficking — better reflecting international instruments like the UN's Trafficking Protocol. The <em>Modern Slavery Act 2018</em> (Cth) went further still, requiring large businesses operating in Australia to report annually on the risk of slavery in their supply chains. However, law reform has limits: under-reporting of trafficking and slavery means many victims are never identified, regardless of how strong the legal framework becomes — showing that law reform can strengthen protection for human rights, but cannot guarantee it is enforced in every case.</p></div></div>"
+            "questionHtml": "How does the process of law reform help strengthen the protection of human rights? Illustrate your answer with ONE current human rights issue.",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Define law reform.</li><li>Explain how it protects human rights generally.</li><li>Integrate one contemporary issue with real legislation/cases.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Law reform is the process by which Parliament or the courts change the law over time, generally in response to a shift in society's understanding of what justice requires. It can protect human rights either by strengthening protections that already exist or by creating entirely new ones as previously unrecognised issues come to light.</p><p>Human trafficking and slavery illustrate this well. In <em>R v Tang</em> (2008), the High Court clarified the legal meaning of \"slavery\" under Australian law, strengthening the basis for future prosecutions. Parliament then went further: the <em>Crimes Legislation Amendment (Slavery, Slavery-like Conditions and People Trafficking) Act 2013</em> (Cth) amended the <em>Criminal Code Act 1995</em> (Cth) to add specific offences — including forced marriage, forced labour and organ trafficking — better reflecting international instruments like the UN's Trafficking Protocol. The <em>Modern Slavery Act 2018</em> (Cth) went further still, requiring large businesses operating in Australia to report annually on the risk of slavery in their supply chains. However, law reform has limits: under-reporting of trafficking and slavery means many victims are never identified, regardless of how strong the legal framework becomes — which shows that while law reform can meaningfully strengthen the legal protection of human rights, it cannot by itself guarantee that protection is actually enforced in every case.</p></div></div>"
           },
           {
             "format": "card",
             "accent": "olive",
             "qtype": "Evaluate",
             "badge": "7 marks",
-            "questionHtml": "Using examples, evaluate the extent to which ad hoc tribunals have been effective in enforcing human rights.",
-            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what an ad hoc tribunal is.</li><li>Discuss at least two tribunals, with real statistics/examples.</li><li>Weigh strengths and limitations to reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Ad hoc tribunals are courts created under UN authority to address specific human rights abuses, and have been effective in enforcing human rights to a considerable, though not complete, extent. The International Criminal Tribunal for Rwanda (ICTR), created in 1994/1995, successfully prosecuted 62 of 76 individuals it tried in relation to the 1994 genocide of the Tutsi minority, and was the first tribunal to recognise rape as an instrument of genocide and to interpret the definition of genocide under the 1948 Genocide Convention, entrenching important legal precedent for future prosecutions. Similarly, the International Criminal Tribunal for the former Yugoslavia (ICTY), created in 1993, sentenced 90 individuals — including senior leadership such as Radovan Karadžić — and gave roughly 4,650 witnesses of the Yugoslav Wars a chance to be heard.</p><p>However, both tribunals had real limitations: the ICTR never indicted a single member of the Rwandan Patriotic Front despite allegations against them, creating a perception of one-sided \"victor's justice\", while the ICTY's partial acquittal of Vojislav Šešelj and lenient plea deal for Biljana Plavšić were both criticised, and Slobodan Milošević died before his trial could conclude. The Extraordinary Chambers in the Courts of Cambodia illustrate the limits even more starkly: despite over $300 million USD in costs and eleven years of operation, only a handful of individuals have been convicted in relation to a genocide that killed over a million people. Overall, ad hoc tribunals have been effective to a moderate extent — they establish important legal precedent and give victims a voice, but their narrow scope, cost and slow pace mean most perpetrators of mass atrocities are never actually brought before them.</p></div></div>"
+            "questionHtml": "Drawing on real examples, how effective have ad hoc international tribunals been at delivering justice for human rights abuses?",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Explain what an ad hoc tribunal is.</li><li>Discuss at least two tribunals, with real statistics/examples.</li><li>Weigh strengths and limitations to reach a judgement.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Ad hoc tribunals are courts established under UN authority to respond to a specific instance of mass human rights abuse, and on the whole they have delivered meaningful — if incomplete — justice. The International Criminal Tribunal for Rwanda (ICTR), created in 1994/1995, successfully prosecuted 62 of 76 individuals it tried in relation to the 1994 genocide of the Tutsi minority, and was the first tribunal to recognise rape as an instrument of genocide and to interpret the definition of genocide under the 1948 Genocide Convention, entrenching important legal precedent for future prosecutions. Similarly, the International Criminal Tribunal for the former Yugoslavia (ICTY), created in 1993, sentenced 90 individuals — including senior leadership such as Radovan Karadžić — and gave roughly 4,650 witnesses of the Yugoslav Wars a chance to be heard.</p><p>However, both tribunals had real limitations: the ICTR never indicted a single member of the Rwandan Patriotic Front despite allegations against them, creating a perception of one-sided \"victor's justice\", while the ICTY's partial acquittal of Vojislav Šešelj and lenient plea deal for Biljana Plavšić were both criticised, and Slobodan Milošević died before his trial could conclude. The Extraordinary Chambers in the Courts of Cambodia illustrate the limits even more starkly: despite over $300 million USD in costs and eleven years of operation, only a handful of individuals have been convicted in relation to a genocide that killed over a million people. Overall, ad hoc tribunals deliver real but limited justice: they establish important legal precedent and give victims a voice, but their narrow scope, high cost and slow pace mean the great majority of perpetrators behind any given mass atrocity are never actually brought before them.</p></div></div>"
           },
           {
             "format": "card",
@@ -275,76 +275,76 @@
     {
       "n": 1,
       "answer": "a",
-      "questionHtml": "Which of the following statements about the Universal Declaration of Human Rights is correct?",
+      "questionHtml": "A student claims that because it is a declaration rather than a ratified treaty, the UDHR carries no legal weight whatsoever. Which response best corrects this claim?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "It cannot be ratified by states, because it is a declaration, not a treaty"
+          "textHtml": "It has strongly influenced later binding treaties and is widely treated as customary international law"
         },
         {
           "opt": "b",
-          "textHtml": "It is not a formal statement of human rights"
+          "textHtml": "The claim is correct — declarations have never influenced international law"
         },
         {
           "opt": "c",
-          "textHtml": "It does not mention the right to universal suffrage"
+          "textHtml": "It became a binding treaty automatically once enough states voted for it"
         },
         {
           "opt": "d",
-          "textHtml": "It does not mention freedom from slavery"
+          "textHtml": "It only carries weight for states that later signed a separate ratification document"
         }
       ]
     },
     {
       "n": 2,
       "answer": "b",
-      "questionHtml": "Which of the following is an argument for an Australian Charter of Rights?",
+      "questionHtml": "Which of the following is an argument in favour of Australia adopting a Charter of Rights?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "It would not be enforceable"
+          "textHtml": "It would automatically override any inconsistent state law"
         },
         {
           "opt": "b",
-          "textHtml": "It would raise public awareness of human rights"
+          "textHtml": "It would raise public awareness and understanding of human rights"
         },
         {
           "opt": "c",
-          "textHtml": "It would not be subject to interpretation by the High Court"
+          "textHtml": "It would remove the courts' role in interpreting rights disputes"
         },
         {
           "opt": "d",
-          "textHtml": "It would remove the need for domestic human rights protections entirely"
+          "textHtml": "It would make separate anti-discrimination legislation unnecessary"
         }
       ]
     },
     {
       "n": 3,
-      "answer": "b",
-      "questionHtml": "The United Nations develops a human rights treaty. Australia signs and ratifies the treaty. New Zealand only signs it. Which of the following statements is correct?",
+      "answer": "a",
+      "questionHtml": "The United Nations adopts a new human rights convention. Canada signs and ratifies it. Brazil only signs it, without going on to ratify. Which of the following best describes the legal effect of this?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "The treaty is legally binding in both Australia and New Zealand"
+          "textHtml": "Canada has taken on a binding obligation under the convention; Brazil has not"
         },
         {
           "opt": "b",
-          "textHtml": "The treaty is legally binding in Australia but not in New Zealand"
+          "textHtml": "Both countries are equally bound, since both took a formal step"
         },
         {
           "opt": "c",
-          "textHtml": "The treaty is not legally binding in either country"
+          "textHtml": "Neither country is bound until the convention enters into force globally"
         },
         {
           "opt": "d",
-          "textHtml": "The treaty is legally binding in New Zealand but not in Australia"
+          "textHtml": "Only Brazil is bound, since it acted without conditions attached"
         }
       ]
     },
     {
       "n": 4,
       "answer": "b",
-      "questionHtml": "Which of the following is an intergovernmental organisation?",
+      "questionHtml": "Which of the following bodies is best classified as an intergovernmental organisation?",
       "options": [
         {
           "opt": "a",
@@ -367,7 +367,7 @@
     {
       "n": 5,
       "answer": "c",
-      "questionHtml": "Which of the following can be an effective non-legal means of promoting human rights?",
+      "questionHtml": "A government ignores international criticism of its human rights record, but changes its policy after a damaging investigative documentary airs internationally. Which non-legal method of promoting human rights does this best illustrate?",
       "options": [
         {
           "opt": "a",
@@ -375,11 +375,11 @@
         },
         {
           "opt": "b",
-          "textHtml": "Domestic police"
+          "textHtml": "Domestic policing agencies"
         },
         {
           "opt": "c",
-          "textHtml": "The media"
+          "textHtml": "Media exposure and public pressure"
         },
         {
           "opt": "d",
@@ -413,7 +413,7 @@
     {
       "n": 7,
       "answer": "b",
-      "questionHtml": "The Human Rights Committee monitors state compliance with which of the following?",
+      "questionHtml": "Compliance by state parties with which of the following treaties is monitored by the Human Rights Committee?",
       "options": [
         {
           "opt": "a",
@@ -436,7 +436,7 @@
     {
       "n": 8,
       "answer": "c",
-      "questionHtml": "Which international institution is responsible for prosecuting individuals charged with the most serious human rights violations?",
+      "questionHtml": "Which international institution has jurisdiction to prosecute individuals for the most serious violations of international human rights and humanitarian law?",
       "options": [
         {
           "opt": "a",
@@ -459,23 +459,23 @@
     {
       "n": 9,
       "answer": "a",
-      "questionHtml": "Wakanda, a newly recognised nation, is urged by a resolution of the United Nations General Assembly to uphold human rights, but refuses to comply. What does this situation best illustrate?",
+      "questionHtml": "Elidoria, a newly recognised nation, faces heavy international criticism after ignoring a formal United Nations General Assembly resolution calling on it to improve its human rights record. Elidoria takes no action in response. What does this best illustrate?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "The principle of state sovereignty"
+          "textHtml": "A state's sovereign right to reject a non-binding recommendation"
         },
         {
           "opt": "b",
-          "textHtml": "The binding authority of General Assembly resolutions on member states"
+          "textHtml": "General Assembly resolutions are automatically enforceable against member states"
         },
         {
           "opt": "c",
-          "textHtml": "The United Nations Security Council's power to enforce compliance"
+          "textHtml": "The Security Council's authority to compel compliance in any case"
         },
         {
           "opt": "d",
-          "textHtml": "The role of non-government organisations in promoting international law"
+          "textHtml": "The limited influence non-government organisations have over sovereign states"
         }
       ]
     },

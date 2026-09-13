@@ -95,7 +95,7 @@
             "accent": "rust",
             "qtype": "Evaluate",
             "badge": "15 marks",
-            "questionHtml": "Evaluate the effectiveness of sentencing and punishment as a means of achieving justice.",
+            "questionHtml": "To what extent does the sentencing and punishment process achieve justice for offenders, victims and the wider community?",
             "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover at least two of: sentencing guidelines, purposes of punishment, aggravating/mitigating factors, the victim's role, appeals, types of penalties, alternative sentencing, and post-sentencing considerations.</li><li>Integrate real legislation and cases for each area you discuss.</li><li>Reach a clear, supported judgement on overall effectiveness — don't just describe.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Sentencing and punishment achieve justice to a moderate extent — statutory and judicial guidelines provide consistency, but discretion means outcomes can still vary and attract criticism. The <em>Crimes (Sentencing Procedure) Act 1999</em> (NSW) lists aggravating and mitigating factors judges must weigh, and standard non-parole periods guide judges towards consistent minimum sentences for serious offences, improving predictability. However, mandatory sentencing regimes — such as those introduced under the <em>Crimes and Other Legislation Amendment (Assault and Intoxication) Act 2014</em> (NSW) for one-punch assaults causing death — remove judicial discretion entirely, which can achieve consistency but risks unjust outcomes in individual cases where the standard sentence doesn't fit the circumstances.</p><p>The four purposes of punishment are not always balanced consistently. In <em>R v Loveridge</em> [2014] NSWCCA 120, the Court of Criminal Appeal increased Kieran Loveridge's sentence for the one-punch killing of Thomas Kelly, finding the original sentence gave too much weight to rehabilitation and too little to general deterrence and community protection — showing how appeals can correct an imbalance, but also that first-instance sentencing doesn't always get this balance right. The victim's role has also been strengthened: under the <em>Victims Rights and Support Act 2013</em> (NSW), a Victim Impact Statement lets the victim (or their family) describe the harm suffered, which can improve the sense that justice has been done for the individual, without automatically dictating the sentence imposed.</p><p>Post-sentencing considerations show both the strengths and limits of the system. Parole allows a supervised, gradual reintegration into the community, encouraging rehabilitation, while continued detention of high-risk offenders after their sentence ends has become more limited following the 2023 High Court decision in <em>NZYQ v Minister for Immigration</em>, which found indefinite detention without a real prospect of removal breaches the Constitution — prompting law reform to manage the release of a small number of high-risk offenders differently. Overall, sentencing and punishment achieve justice to a reasonable extent through their flexibility and periodic reform, but the tension between consistency (mandatory/guideline sentencing) and individualised justice (judicial discretion) means outcomes remain inconsistent and contested.</p></div></div>"
           },
           {
@@ -103,8 +103,8 @@
             "accent": "navy",
             "qtype": "Assess",
             "badge": "15 marks",
-            "questionHtml": "\"The use of discretion is important in achieving justice for individuals and the community.\" To what extent is this statement true in relation to the criminal justice system?",
-            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover discretion at more than one stage — e.g. police, prosecutorial, judicial.</li><li>Balance examples where discretion helps justice against examples where its absence (mandatory sentencing) or misuse (inconsistent policing) undermines it.</li><li>Reach an explicit judgement about the extent to which the statement is true.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Discretion plays a significant role at every stage of the criminal justice system, and is important — but not sufficient on its own — for achieving justice for individuals and the community. Police discretion under LEPRA (the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW)) allows officers to issue a caution or refer a young person to a youth justice conference under the <em>Young Offenders Act 1997</em> (NSW) instead of charging them, which can achieve individualised justice for minor or first-time offending. However, uneven use of this discretion — for example, well-documented disproportionate use of police strip-search powers on some groups — shows discretion can also undermine justice for the community when it isn't applied consistently or transparently.</p><p>Judicial discretion in sentencing allows a court to weigh the specific aggravating and mitigating circumstances of a case, such as an offender's youth or genuine remorse, producing a more individually just outcome than a fixed penalty could. This is illustrated in <em>Bugmy v The Queen</em> (2013) 249 CLR 571, where the High Court confirmed that an offender's social deprivation and childhood disadvantage remain relevant mitigating factors even for repeat offending, allowing courts to tailor sentences to an offender's real circumstances. By contrast, mandatory and standard non-parole schemes deliberately limit judicial discretion to increase consistency and community confidence, at the cost of flexibility in individual cases.</p><p>Overall, the statement is true to a large extent: discretion allows the legal system to respond to the particular facts of each case, which is essential for justice at the individual level. But unchecked or inconsistently applied discretion — particularly at the policing stage — can also produce unequal outcomes, meaning discretion needs to be balanced with clear guidelines and oversight (such as appeals and legislative sentencing guidelines) to achieve justice for the community as a whole, not just for individuals.</p></div></div>"
+            "questionHtml": "\"A system that treats every offender identically cannot be a just one.\" To what extent do you agree with this view of the criminal justice system?",
+            "planHtml": "<div class=\"plan\"><div class=\"plan-row\"><span class=\"plan-lbl\">What to include</span><ul class=\"keypoints\"><li>Cover discretion at more than one stage — e.g. police, prosecutorial, judicial.</li><li>Balance examples where discretion helps justice against examples where its absence (mandatory sentencing) or misuse (inconsistent policing) undermines it.</li><li>Reach an explicit judgement about the extent to which the statement is true.</li></ul></div><div class=\"plan-row\"><span class=\"plan-lbl\">Sample answer</span><p>Discretion at every stage of the criminal justice system is precisely why treating every offender identically would not be just — the system is deliberately built to weigh each case's own facts, not to apply one uniform outcome. Police discretion under LEPRA (the <em>Law Enforcement (Powers and Responsibilities) Act 2002</em> (NSW)) allows officers to issue a caution or refer a young person to a youth justice conference under the <em>Young Offenders Act 1997</em> (NSW) instead of charging them, which can achieve individualised justice for minor or first-time offending. However, uneven use of this discretion — for example, well-documented disproportionate use of police strip-search powers on some groups — shows discretion can also undermine justice for the community when it isn't applied consistently or transparently.</p><p>Judicial discretion in sentencing allows a court to weigh the specific aggravating and mitigating circumstances of a case, such as an offender's youth or genuine remorse, producing a more individually just outcome than a fixed penalty could. This is illustrated in <em>Bugmy v The Queen</em> (2013) 249 CLR 571, where the High Court confirmed that an offender's social deprivation and childhood disadvantage remain relevant mitigating factors even for repeat offending, allowing courts to tailor sentences to an offender's real circumstances. By contrast, mandatory and standard non-parole schemes deliberately limit judicial discretion to increase consistency and community confidence, at the cost of flexibility in individual cases.</p><p>Overall, the statement should be rejected: identical treatment would ignore the real differences between offenders and their circumstances, and discretion allows the legal system to respond to those differences, which is essential for justice at the individual level. But unchecked or inconsistently applied discretion — particularly at the policing stage — can also produce unequal outcomes, meaning discretion needs to be balanced with clear guidelines and oversight (such as appeals and legislative sentencing guidelines) to achieve justice for the community as a whole, not just for individuals.</p></div></div>"
           },
           {
             "format": "card",
@@ -338,7 +338,7 @@
     {
       "n": 1,
       "answer": "a",
-      "questionHtml": "Continued detention (after sentence) best reflects which purpose of punishment?",
+      "questionHtml": "A prisoner is kept in custody past the end of their original sentence because an assessment finds they still pose a serious risk to the community. Which purpose of punishment does this best reflect?",
       "options": [
         {
           "opt": "a",
@@ -361,7 +361,7 @@
     {
       "n": 2,
       "answer": "a",
-      "questionHtml": "Under NSW legislation, at what age are children first considered capable of committing a crime?",
+      "questionHtml": "What is the minimum age in NSW at which a child can be held criminally responsible for an offence, assuming the prosecution can prove they understood their conduct was seriously wrong?",
       "options": [
         {
           "opt": "a",
@@ -384,30 +384,30 @@
     {
       "n": 3,
       "answer": "d",
-      "questionHtml": "Which of the following is an example of social crime prevention?",
+      "questionHtml": "A local council wants to reduce shoplifting in its town centre. Which of the following measures targets the SOCIAL causes of crime, rather than the physical opportunity to offend?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "An accused person being remanded in custody"
+          "textHtml": "Installing CCTV cameras in the car park"
         },
         {
           "opt": "b",
-          "textHtml": "A curfew banning young people from being out in public at night"
+          "textHtml": "Restricting the hours young people can be in public unsupervised"
         },
         {
           "opt": "c",
-          "textHtml": "Police drug-detection dogs at music festivals"
+          "textHtml": "Security tagging on retail merchandise"
         },
         {
           "opt": "d",
-          "textHtml": "An employment program for young people"
+          "textHtml": "A mentoring and job-training program for at-risk young people"
         }
       ]
     },
     {
       "n": 4,
       "answer": "d",
-      "questionHtml": "Bronwyn is charged with a speeding offence. Bronwyn was speeding to get to a peaceful protest against the Prime Minister. Which of the following factors most likely affected Bronwyn's criminal behaviour?",
+      "questionHtml": "Deshawn is convicted of trespass after chaining himself to machinery at a logging site to prevent old-growth forest being cleared. Which of the following factors most likely influenced Deshawn's offending?",
       "options": [
         {
           "opt": "a",
@@ -430,34 +430,34 @@
     {
       "n": 5,
       "answer": "a",
-      "questionHtml": "Speeding is best described as which combination of offence categories?",
+      "questionHtml": "Parking in a clearly marked no-stopping zone is best described as which combination of offence categories?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "Summary, strict liability and driving"
+          "textHtml": "Summary, strict liability and a driving offence"
         },
         {
           "opt": "b",
-          "textHtml": "Indictable, driving and offence against the sovereign"
+          "textHtml": "Indictable, a driving offence and an offence against the person"
         },
         {
           "opt": "c",
-          "textHtml": "Summary, strict liability and offence against the sovereign"
+          "textHtml": "Summary, strict liability and an offence against the person"
         },
         {
           "opt": "d",
-          "textHtml": "Summary, driving and preliminary crime"
+          "textHtml": "Summary, a driving offence and a preliminary crime"
         }
       ]
     },
     {
       "n": 6,
       "answer": "d",
-      "questionHtml": "Which of the following is a role of a Public Defender?",
+      "questionHtml": "What is the primary role of a Public Defender in the NSW criminal justice system?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "To provide general legal advice to the public"
+          "textHtml": "To provide free legal advice on non-criminal matters"
         },
         {
           "opt": "b",
@@ -469,14 +469,14 @@
         },
         {
           "opt": "d",
-          "textHtml": "To represent a defendant, while the prosecution carries the burden of proof"
+          "textHtml": "To act for a defendant while the Crown carries the burden of proof"
         }
       ]
     },
     {
       "n": 7,
       "answer": "b",
-      "questionHtml": "Harley, who is fifteen years old, is taken to the police station for questioning. Who must be present when police officers interview Harley?",
+      "questionHtml": "Tomas is sixteen years old and is being questioned at a police station about an alleged theft. NSW law requires which of the following to be present during that interview?",
       "options": [
         {
           "opt": "a",
@@ -484,7 +484,7 @@
         },
         {
           "opt": "b",
-          "textHtml": "Harley's parent, guardian, or another responsible adult"
+          "textHtml": "Tomas's parent, guardian, or another responsible adult"
         },
         {
           "opt": "c",
@@ -492,14 +492,14 @@
         },
         {
           "opt": "d",
-          "textHtml": "No one — Harley can be interviewed alone"
+          "textHtml": "No one — Tomas can be interviewed alone"
         }
       ]
     },
     {
       "n": 8,
       "answer": "d",
-      "questionHtml": "Which of the following is a part of the criminal trial process, not the investigation process?",
+      "questionHtml": "Which of the following occurs during the criminal TRIAL process, rather than the investigation process?",
       "options": [
         {
           "opt": "a",
@@ -522,42 +522,42 @@
     {
       "n": 9,
       "answer": "d",
-      "questionHtml": "Elizabeth stands trial for murder. The jury returns a special verdict of \"act proven but not criminally responsible because of mental health impairment\". What will most likely happen to Elizabeth next?",
+      "questionHtml": "Farid stands trial for a serious assault. The jury returns a special verdict of \"act proven but not criminally responsible because of mental health impairment\". What will most likely happen to Farid next?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "She will be sentenced as normal"
+          "textHtml": "He will be sentenced as though he had been found guilty"
         },
         {
           "opt": "b",
-          "textHtml": "She will be released into the community immediately"
+          "textHtml": "He will be released into the community with no further action"
         },
         {
           "opt": "c",
-          "textHtml": "She will automatically go to prison for a fixed term"
+          "textHtml": "He will automatically serve a fixed term in prison"
         },
         {
           "opt": "d",
-          "textHtml": "She will be assessed by the Mental Health Review Tribunal"
+          "textHtml": "He will undergo a formal assessment by a mental health tribunal"
         }
       ]
     },
     {
       "n": 10,
       "answer": "c",
-      "questionHtml": "Jared is found guilty of assaulting Rose, an 86-year-old woman, causing a minor injury. Rose's Victim Impact Statement asks the judge not to punish Jared. Jared has five previous convictions for assault. Which of the following could be a mitigating factor in Jared's sentencing?",
+      "questionHtml": "Priya is found guilty of assaulting Callum, a 79-year-old man, causing a minor bruise. Callum's Victim Impact Statement asks the court not to punish Priya severely. Priya has three previous convictions for assault. In sentencing Priya, which of these factors would most likely count in her favour?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "Rose's age"
+          "textHtml": "Callum's age"
         },
         {
           "opt": "b",
-          "textHtml": "Jared's previous convictions"
+          "textHtml": "Priya's previous convictions"
         },
         {
           "opt": "c",
-          "textHtml": "Rose's Victim Impact Statement"
+          "textHtml": "Callum's Victim Impact Statement"
         },
         {
           "opt": "d",
@@ -568,30 +568,30 @@
     {
       "n": 11,
       "answer": "b",
-      "questionHtml": "Which of the following is a role of the foreperson of a jury in a criminal trial?",
+      "questionHtml": "What is the primary function of a jury's foreperson in a NSW criminal trial?",
       "options": [
         {
           "opt": "a",
-          "textHtml": "To deliver the offender's sentence on the jury's behalf"
+          "textHtml": "To pronounce the offender's sentence on the jury's behalf"
         },
         {
           "opt": "b",
-          "textHtml": "To deliver the verdict on the jury's behalf"
+          "textHtml": "To announce the jury's verdict to the court"
         },
         {
           "opt": "c",
-          "textHtml": "To research the facts of the case on the jury's behalf"
+          "textHtml": "To independently investigate the facts of the case"
         },
         {
           "opt": "d",
-          "textHtml": "To ensure the jury reaches a unanimous verdict"
+          "textHtml": "To guarantee every juror votes the same way"
         }
       ]
     },
     {
       "n": 12,
       "answer": "c",
-      "questionHtml": "While driving, Mary is stopped by police for a random breath test. What must Mary do?",
+      "questionHtml": "During a routine roadside stop, Leilani is subjected to a random breath test. What is Leilani legally required to do?",
       "options": [
         {
           "opt": "a",
@@ -599,7 +599,7 @@
         },
         {
           "opt": "b",
-          "textHtml": "Get out of the car and greet the police"
+          "textHtml": "Refuse to interact with police until a lawyer arrives"
         },
         {
           "opt": "c",
@@ -614,7 +614,7 @@
     {
       "n": 13,
       "answer": "a",
-      "questionHtml": "In a contested matter heard by the Local Court, who holds the burden of proof?",
+      "questionHtml": "In a defended criminal matter heard in the NSW Local Court, which party bears the legal burden of proving the case?",
       "options": [
         {
           "opt": "a",
@@ -637,7 +637,7 @@
     {
       "n": 14,
       "answer": "d",
-      "questionHtml": "Which of the following offences does NOT require mens rea for a conviction?",
+      "questionHtml": "Which of the following offences can result in a conviction WITHOUT the prosecution needing to prove mens rea?",
       "options": [
         {
           "opt": "a",
@@ -645,22 +645,22 @@
         },
         {
           "opt": "b",
-          "textHtml": "Supplying prohibited drugs"
+          "textHtml": "Supplying a prohibited drug"
         },
         {
           "opt": "c",
-          "textHtml": "Possession of stolen goods"
+          "textHtml": "Possession of stolen property"
         },
         {
           "opt": "d",
-          "textHtml": "Driving an unregistered vehicle"
+          "textHtml": "Riding an unregistered motorbike on a public road"
         }
       ]
     },
     {
       "n": 15,
       "answer": "d",
-      "questionHtml": "Jonny is forced at gunpoint to commit a crime. Which complete defence could Jonny use to justify his actions?",
+      "questionHtml": "Amir is forced at gunpoint to drive a getaway car during a robbery. Which complete defence could Amir use to justify his actions?",
       "options": [
         {
           "opt": "a",
@@ -683,7 +683,7 @@
     {
       "n": 16,
       "answer": "d",
-      "questionHtml": "What is the most severe criminal penalty currently able to be imposed in New South Wales?",
+      "questionHtml": "What is the most severe criminal penalty that a court can currently impose in New South Wales?",
       "options": [
         {
           "opt": "a",
@@ -706,7 +706,7 @@
     {
       "n": 17,
       "answer": "a",
-      "questionHtml": "Under what circumstances is a police search of a motor vehicle generally considered lawful?",
+      "questionHtml": "Under what circumstances can NSW police lawfully search a motor vehicle without first obtaining a warrant?",
       "options": [
         {
           "opt": "a",
@@ -729,7 +729,7 @@
     {
       "n": 18,
       "answer": "a",
-      "questionHtml": "After serving part of a custodial sentence, Chanel is moved to a different prison with fewer restrictions. What does this describe?",
+      "questionHtml": "After serving part of a custodial sentence, Nadia is transferred to a different correctional facility with fewer restrictions. What does this best describe?",
       "options": [
         {
           "opt": "a",
