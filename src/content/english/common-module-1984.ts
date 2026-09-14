@@ -3,16 +3,22 @@ import type { EnglishModule, EnglishText } from '../../lib/content/english'
 /**
  * Common Module content for English Advanced (/subjects/english-advanced).
  *
- * Scope is still deliberately partial — one module, one text, 3 of its
- * ~20-odd chapters written up in full, 12 quotes, 10 techniques, 5
- * short-answer questions, 2 essay questions. This is NOT the full Common
- * Module content set yet; see the Stage A audit for what "full" requires
- * (a related text, unseen-text practice, every chapter, etc), and Modules
- * A/B/C aren't built at all yet.
+ * Covers 5 of the novel's ~23 chapters — the opening (Ch 1), Winston's
+ * diary reflections on truth/rebellion (Ch 7), the Ministry of Love
+ * interrogation and O'Brien's philosophy of power (Part 3 Ch 3), the Room
+ * 101 betrayal (Part 3 Ch 5), and the closing chapter (Part 3 Ch 6) — the
+ * five chapters most commonly drawn on in HSC-style essay evidence.
+ * Deliberately not all ~23; a related text and full unseen-text practice
+ * are still open work.
  *
  * Chapter/quote locations follow the standard Penguin Modern Classics
  * numbering (Part, Chapter). Numbering can vary slightly between editions —
- * flagged once here rather than on every quote.
+ * flagged once here rather than on every quote. Every quote is a
+ * well-established, widely-verifiable line from the novel; a few new,
+ * less universally famous lines were deliberately left out of this pass
+ * rather than risk an unverified addition — see the project's no-
+ * fabrication rule before adding more without independently checking them
+ * against the text.
  */
 
 export const COMMON_MODULE: EnglishModule = {
@@ -92,8 +98,52 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       ],
     },
     {
-      id: 's-p3c6',
+      id: 's-p3c3',
       order: 3,
+      kind: 'chapter',
+      label: 'Part Three, Chapter 3',
+      summaryHtml:
+        'Under interrogation and torture in the Ministry of Love, Winston is confronted by O\'Brien, who now openly reveals himself as his torturer rather than a fellow conspirator. O\'Brien explains the Party\'s philosophy of power directly and without euphemism: the Party seeks power purely for its own sake, not as a means to any other end. He describes the future as "a boot stamping on a human face — forever," and tells Winston that whatever awaits him in the feared Room 101 is simply "the worst thing in the world" — different for every individual.',
+      keyEvents: [
+        'O\'Brien reveals himself as Winston\'s interrogator, not a fellow member of the resistance',
+        'O\'Brien states the Party\'s philosophy: power is sought entirely for its own sake',
+        'O\'Brien describes the future as a "boot stamping on a human face — forever"',
+        'Room 101 is introduced as containing "the worst thing in the world", tailored to each prisoner',
+      ],
+      ideasIntroduced: [
+        'Power as an end in itself, not a means to utopia or any other stated goal',
+        'The individualised, total nature of psychological torture',
+        'The novel\'s bleakest, most explicit statement of its political vision',
+      ],
+      charactersInFocus: ['winston', 'obrien'],
+      turningPointHtml:
+        'O\'Brien\'s unmasking and his direct statement of the Party\'s philosophy strip away any remaining ambiguity about what the Party is and what it wants — after this chapter, the novel has no more secrets left to reveal, only Winston\'s final breaking to dramatise.',
+      quoteIds: ['q-boot-stamping', 'q-power-is-an-end', 'q-room-101-worst-thing'],
+    },
+    {
+      id: 's-p3c5',
+      order: 4,
+      kind: 'chapter',
+      label: 'Part Three, Chapter 5',
+      summaryHtml:
+        'Winston is finally taken to Room 101 and confronted with his own worst fear: rats. Facing a cage of rats about to be fitted over his face, Winston breaks completely, screaming for the torture to be inflicted on Julia instead of him. This is the novel\'s final and total betrayal — not merely physical compliance, but Winston actively wishing suffering onto the one person he claimed to love.',
+      keyEvents: [
+        'Winston is brought face to face with his own personal worst fear in Room 101',
+        'He screams "Do it to Julia! Not me!" — betraying her completely to save himself',
+        'His resistance, and his love for Julia, are shown to collapse simultaneously',
+      ],
+      ideasIntroduced: [
+        'The individualised, total nature of the Party\'s method — it does not need a universal weapon, only each prisoner\'s own specific fear',
+        'Love and loyalty exposed as unable to survive sufficiently targeted psychological pressure',
+      ],
+      charactersInFocus: ['winston', 'julia'],
+      turningPointHtml:
+        'This is the novel\'s actual climax — not the arrest, but this moment, where Winston\'s capitulation becomes total and irreversible, setting up the empty, loveless reunion and final "conversion" of the closing chapter.',
+      quoteIds: ['q-do-it-to-julia'],
+    },
+    {
+      id: 's-p3c6',
+      order: 5,
       kind: 'chapter',
       label: 'Part Three, Chapter 6',
       summaryHtml:
@@ -134,6 +184,8 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'q-never-rebel',
         'q-we-are-the-dead',
         'q-loved-big-brother',
+        'q-room-101-worst-thing',
+        'q-do-it-to-julia',
       ],
     },
     {
@@ -146,7 +198,7 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       developmentHtml:
         'Represents an alternative mode of resistance to Winston\'s — instinctive and hedonistic rather than ideological — which makes her eventual, equally complete capitulation just as damning of the Party\'s methods.',
       associatedThemeIds: ['t-rebellion'],
-      quoteIds: ['q-we-are-the-dead'],
+      quoteIds: ['q-we-are-the-dead', 'q-do-it-to-julia'],
     },
     {
       id: 'obrien',
@@ -158,7 +210,7 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       developmentHtml:
         'Never wavers or is humanised in the way Winston and Julia are — Orwell uses him as the voice of the Party\'s ideology stated plainly, including its explicit description of doublethink.',
       associatedThemeIds: ['t-control', 't-truth-memory'],
-      quoteIds: ['q-doublethink'],
+      quoteIds: ['q-doublethink', 'q-boot-stamping', 'q-power-is-an-end', 'q-room-101-worst-thing'],
     },
   ],
   themes: [
@@ -169,13 +221,14 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'The Party maintains power not just through physical force but by making genuine private thought — let alone action — impossible, via telescreens, the Thought Police, and constant propaganda.',
       developmentHtml:
         'Established through setting in the opening chapter, then deepened through Winston\'s growing paranoia and, finally, demonstrated completely in his re-education in the Ministry of Love.',
-      keySectionIds: ['s-p1c1', 's-p3c6'],
+      keySectionIds: ['s-p1c1', 's-p3c3', 's-p3c6'],
       associatedCharacterIds: ['winston', 'obrien'],
-      quoteIds: ['q-bb-watching', 'q-cubic-centimetres', 'q-loved-big-brother'],
-      techniqueIds: ['t-symbolism', 't-imagery', 't-repetition'],
+      quoteIds: ['q-bb-watching', 'q-cubic-centimetres', 'q-loved-big-brother', 'q-boot-stamping', 'q-power-is-an-end'],
+      techniqueIds: ['t-symbolism', 't-imagery', 't-repetition', 't-motif'],
       possibleArguments: [
         'Orwell represents surveillance as a psychological, not merely physical, technology of control',
         'The Party\'s control is only complete once it produces genuine belief, not just outward compliance',
+        'O\'Brien\'s explicit statement that "power is not a means, it is an end" strips away any instrumental justification for the Party\'s methods, presenting domination as self-justifying',
       ],
     },
     {
@@ -201,13 +254,14 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'Every form of rebellion in the novel — Winston\'s diary, his and Julia\'s affair, his hope in the proles — is shown to be provisional, partial, and ultimately unable to withstand the Party\'s methods.',
       developmentHtml:
         'Winston\'s hope in the proles is immediately undercut by his own logic in Chapter 7; the final chapter confirms that even romantic love, the novel\'s other site of resistance, does not survive re-education.',
-      keySectionIds: ['s-p1c7', 's-p3c6'],
+      keySectionIds: ['s-p1c7', 's-p3c5', 's-p3c6'],
       associatedCharacterIds: ['winston', 'julia'],
-      quoteIds: ['q-hope-proles', 'q-never-rebel', 'q-we-are-the-dead'],
+      quoteIds: ['q-hope-proles', 'q-never-rebel', 'q-we-are-the-dead', 'q-do-it-to-julia'],
       techniqueIds: ['t-paradox', 't-characterisation'],
       possibleArguments: [
         'Orwell structures Winston\'s rebellion as self-defeating from the outset, not merely crushed from outside',
         'The novel denies the reader a redemptive final act of resistance, which is itself the point being made about totalitarianism',
+        'Room 101 reveals that even love, not just political conviction, cannot survive sufficiently individualised psychological pressure',
       ],
     },
   ],
@@ -437,6 +491,74 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       argumentHtml:
         'Orwell\'s invented term "doublethink" gives a precise name to a form of self-deception that makes totalitarian contradiction psychologically sustainable rather than merely externally enforced.',
     },
+    {
+      id: 'q-boot-stamping',
+      textHtml: 'If you want a picture of the future, imagine a boot stamping on a human face — forever.',
+      speaker: "O'Brien",
+      location: 'Part Three, Chapter 3',
+      sectionId: 's-p3c3',
+      themeIds: ['t-control'],
+      techniqueIds: ['t-imagery', 't-motif'],
+      characterIds: ['obrien'],
+      contextHtml: "O'Brien's direct answer, under interrogation, to what kind of future the Party is building.",
+      revealsHtml:
+        'The image strips away any pretence of the Party pursuing a future good — permanence and cruelty, not utopia, are stated as the explicit goal.',
+      authorialPurposeHtml:
+        'Orwell has O\'Brien articulate the novel\'s political vision with total, unambiguous clarity at the point where Winston (and the reader) can no longer look away from it.',
+      argumentHtml:
+        'The single most quoted line in the novel for articulating the Party\'s vision of power as permanent domination for its own sake, with no redemptive end goal.',
+    },
+    {
+      id: 'q-power-is-an-end',
+      textHtml: 'Power is not a means, it is an end.',
+      speaker: "O'Brien",
+      location: 'Part Three, Chapter 3',
+      sectionId: 's-p3c3',
+      themeIds: ['t-control'],
+      techniqueIds: ['t-paradox'],
+      characterIds: ['obrien'],
+      contextHtml: "O'Brien explains the Party's philosophy directly to Winston during his interrogation.",
+      revealsHtml:
+        'By explicitly denying that power serves any further purpose, O\'Brien removes the last possible justification a reader might have imagined for the Party\'s methods.',
+      authorialPurposeHtml:
+        'Orwell uses O\'Brien as a mouthpiece to state the novel\'s political thesis in the plainest possible terms, without needing further narrative demonstration.',
+      argumentHtml:
+        'Essential evidence for any essay arguing the novel presents totalitarian power as self-justifying rather than instrumental.',
+    },
+    {
+      id: 'q-room-101-worst-thing',
+      textHtml: 'The thing that is in Room 101 is the worst thing in the world.',
+      speaker: "O'Brien",
+      location: 'Part Three, Chapter 3',
+      sectionId: 's-p3c3',
+      themeIds: ['t-control'],
+      techniqueIds: ['t-foreshadowing'],
+      characterIds: ['obrien', 'winston'],
+      contextHtml: "O'Brien introduces Room 101 to Winston before he is eventually taken there.",
+      revealsHtml:
+        'By defining the room\'s contents only as relative to each individual prisoner\'s own worst fear, Orwell shows the Party\'s method is tailored and individualised, not a single universal weapon.',
+      authorialPurposeHtml:
+        'Builds dread through vagueness rather than explicit description, and foreshadows the individualised nature of Winston\'s specific breaking point.',
+      argumentHtml:
+        'Useful for essays discussing how the Party\'s control operates on a psychological, individualised level rather than through uniform physical force.',
+    },
+    {
+      id: 'q-do-it-to-julia',
+      textHtml: 'Do it to Julia! Not me! I don\'t care what you do to her.',
+      speaker: 'Winston Smith',
+      location: 'Part Three, Chapter 5',
+      sectionId: 's-p3c5',
+      themeIds: ['t-rebellion', 't-control'],
+      techniqueIds: ['t-characterisation'],
+      characterIds: ['winston', 'julia'],
+      contextHtml: 'Winston\'s scream in Room 101, facing his worst personal fear.',
+      revealsHtml:
+        'Winston\'s final, total betrayal of Julia — not merely physical compliance under torture, but an active wish that she suffer in his place.',
+      authorialPurposeHtml:
+        'Orwell locates the novel\'s true climax here rather than at the arrest, showing that love, like rebellion, cannot survive sufficiently targeted psychological pressure.',
+      argumentHtml:
+        'The single most important quote for any argument about the novel\'s bleakest claim — that even love is not a stable foundation for resistance once the Party finds the right pressure point.',
+    },
   ],
   techniques: [
     {
@@ -600,6 +722,22 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'Summarising plot ("Winston writes in his diary") instead of analysing what the moment reveals about character ("...revealing rebellion as instinctive rather than planned").',
       confusedWithIds: [],
     },
+    {
+      id: 't-motif',
+      name: 'Motif',
+      category: 'symbolism-and-motif',
+      definitionHtml: 'A recurring image, phrase or idea that develops meaning through repetition, without necessarily standing in for one single fixed abstract idea the way a symbol does.',
+      effectHtml: 'Builds cumulative significance across the text — each recurrence adds to, rather than simply restates, the pattern\'s meaning.',
+      whyAuthorsUseItHtml: 'Orwell repeats images like the boot/face and the telescreen\'s gaze across the novel so their significance accumulates rather than being explained once and dropped.',
+      exampleQuoteId: 'q-boot-stamping',
+      genericExampleHtml: null,
+      analyticalLanguage: ['recurs as a motif', 'develops cumulative significance through', 'is reinforced by its recurrence'],
+      howToRecogniseHtml:
+        'An image or idea that returns more than once across the text in a way that builds meaning, but doesn\'t necessarily stand for one single fixed abstract concept the way a symbol does.',
+      commonMistakeHtml:
+        'Using "motif" and "symbol" interchangeably — a symbol has one clear abstract referent (Big Brother\'s poster = surveillance); a motif is a repeated pattern whose meaning accumulates rather than resolves to one single idea.',
+      confusedWithIds: ['t-symbolism', 't-repetition'],
+    },
   ],
   shortAnswerQuestions: [
     {
@@ -719,6 +857,38 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'A full response is not modelled at thesis-practice stage — see the full-essay question for a modelled response.',
       planningGuidanceHtml:
         'Decode the question: note the word "cannot" — this is an absolute claim, so a strong thesis usually complicates rather than flatly agrees or disagrees. Identify the key terms "individual identity" and "totalitarian control", then choose 2-3 pieces of evidence that let you show a change over time (identity present, then eroded, then replaced) rather than a static state.',
+    },
+    {
+      id: 'essay-topic-sentence-1',
+      type: 'topic-sentence',
+      prompt:
+        'Write a topic sentence for a body paragraph arguing that Orwell presents totalitarian power as pursued for its own sake, not as a means to any other end.',
+      marks: null,
+      suggestedEvidence: ['q-power-is-an-end', 'q-boot-stamping'],
+      modelThesisHtml:
+        'A strong topic sentence states the paragraph\'s specific claim and gestures at how the text proves it — not just what the paragraph is "about".',
+      modelArgumentStructureHtml:
+        'Formula: [Author] + [technique/method] + [specific claim] — e.g. "Orwell strips away any instrumental justification for the Party\'s rule through O\'Brien\'s direct admission that \'power is not a means, it is an end\', revealing totalitarian control as self-justifying rather than utopian."',
+      modelResponseHtml:
+        'Model topic sentence: "Orwell dismantles any redemptive justification for totalitarian rule through O\'Brien\'s explicit admission that power is pursued purely for its own sake, exposing the Party\'s control as self-justifying domination rather than a means to any stated collective good."',
+      planningGuidanceHtml:
+        'A weak topic sentence just restates the question ("Orwell shows that power is pursued for its own sake"). A strong one names the specific technique/evidence AND states what that evidence proves, in one sentence, before the paragraph\'s body unpacks it.',
+    },
+    {
+      id: 'essay-paragraph-1',
+      type: 'paragraph',
+      prompt:
+        'Write a full body paragraph analysing how Orwell\'s "boot stamping on a human face" image contributes to the novel\'s vision of totalitarian power.',
+      marks: null,
+      suggestedEvidence: ['q-boot-stamping', 'q-power-is-an-end'],
+      modelThesisHtml:
+        'A complete TEEL-plus paragraph needs: topic sentence, evidence, technique naming, effect/meaning, and an explicit link back to the question — not just evidence followed by paraphrase.',
+      modelArgumentStructureHtml:
+        'Structure: topic sentence → embedded quote → technique(s) named → effect on the reader → link back to the question\'s specific wording.',
+      modelResponseHtml:
+        '<p>Orwell dismantles any redemptive justification for totalitarian rule through O\'Brien\'s explicit admission that power is pursued purely for its own sake, exposing the Party\'s control as self-justifying domination rather than a means to any stated collective good. Under interrogation, O\'Brien tells Winston to "imagine a boot stamping on a human face — forever", a violent, visceral image intensified by the finality of "forever" and the absence of any limiting clause. Unlike conventional political propaganda, which typically frames oppression as a temporary or necessary evil in service of some future utopia, Orwell denies the reader even this comfort: the image offers no destination, only endless repetition of the same act of domination. This is reinforced moments later when O\'Brien states plainly that "power is not a means, it is an end" — a direct rejection of any instrumental justification the reader might supply on the Party\'s behalf. Together, these two moments constitute the novel\'s bleakest and most explicit statement of its political vision: totalitarian power, Orwell suggests, does not corrupt a good cause, because there was never a good cause to begin with.</p>',
+      planningGuidanceHtml:
+        'Note the paragraph above does five things in order: states a specific claim, embeds one quote with named technique(s), embeds a second quote reinforcing the first, explains what the combination proves, and closes with a sentence that could stand as the paragraph\'s own mini-thesis. Use this shape, not just "quote — explanation — quote — explanation" with no throughline.',
     },
     {
       id: 'essay-full-1',
