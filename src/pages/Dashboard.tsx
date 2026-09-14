@@ -10,12 +10,26 @@ import { mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTopics } from '../lib/content/hms'
 import { businessTopics } from '../lib/content/business'
 import { callBillingApi } from '../lib/billingApi'
+import { NINETEEN_EIGHTY_FOUR } from '../content/english/common-module-1984'
+import { PAPER_ONE_TECHNIQUES } from '../content/english/paper1-technique-bank'
+import { PAPER_ONE_EVIDENCE } from '../content/english/paper1-evidence-bank'
+import { buildQuoteTechniqueQuiz } from '../lib/content/englishQuiz'
+import {
+  buildIdentifyEffectQuestions,
+  buildIdentifyQuestions,
+  buildQuoteToAnalysisQuestions,
+  buildTechniqueToEffectQuestions,
+  paper1QuestionKey,
+} from '../lib/content/paper1'
+import { quizKey } from '../lib/keys'
+import { onEnterOrSpace } from '../lib/a11y'
 
 const SUBJECT_GLYPHS: Record<string, string> = {
   maths: '∫',
   'modern-history': '🏛',
   hms: '⚕',
   business: '💼',
+  'english-advanced': '✎',
 }
 
 function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
@@ -52,6 +66,33 @@ function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
         },
         { done: 0, total: 0 },
       )
+    case 'english-advanced': {
+      // No topic list to reduce over yet (only the Common Module exists) —
+      // count answered items straight across the quote/technique quiz and
+      // the four generated Paper 1 question pools instead.
+      const quoteTestTopicId = `${NINETEEN_EIGHTY_FOUR.id}-quote-test`
+      const quoteQuestions = buildQuoteTechniqueQuiz(NINETEEN_EIGHTY_FOUR)
+      const quoteDone = quoteQuestions.filter(
+        (_, i) => progress.quiz[quizKey(quoteTestTopicId, i)] !== undefined,
+      ).length
+
+      const bank = PAPER_ONE_TECHNIQUES
+      const evidence = PAPER_ONE_EVIDENCE
+      const paper1Questions = [
+        ...buildIdentifyQuestions(evidence, bank),
+        ...buildIdentifyEffectQuestions(evidence, bank),
+        ...buildTechniqueToEffectQuestions(evidence, bank),
+        ...buildQuoteToAnalysisQuestions(evidence, bank),
+      ]
+      const paper1Done = paper1Questions.filter(
+        (q) => progress.quiz[paper1QuestionKey(q.id)] !== undefined,
+      ).length
+
+      return {
+        done: quoteDone + paper1Done,
+        total: quoteQuestions.length + paper1Questions.length,
+      }
+    }
     default:
       return { done: 0, total: 0 }
   }
@@ -120,6 +161,11 @@ export function Dashboard() {
             ? `Let's keep improving your ${focusName}.`
             : 'Pick a subject below and start studying.'}
         </p>
+        {profile.biggest_challenge && (
+          <p className="dash-challenge-note">
+            You told us: &ldquo;{profile.biggest_challenge}&rdquo; — worth keeping in mind today.
+          </p>
+        )}
       </div>
 
       {focusSubjectId && isSubjectUnlocked(focusSubjectId) && (
@@ -193,6 +239,7 @@ export function Dashboard() {
               role="button"
               tabIndex={0}
               onClick={() => navigate(unlocked ? `/subjects/${id}` : '/pricing')}
+              onKeyDown={onEnterOrSpace(() => navigate(unlocked ? `/subjects/${id}` : '/pricing'))}
             >
               <div className="subject-glyph">{SUBJECT_GLYPHS[id]}</div>
               <div className="subject-body">

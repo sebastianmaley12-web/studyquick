@@ -40,6 +40,14 @@ const LegalSubject = lazy(() =>
   import('./pages/LegalSubject').then((m) => ({ default: m.LegalSubject })),
 )
 const LegalTopic = lazy(() => import('./pages/LegalTopic').then((m) => ({ default: m.LegalTopic })))
+const Terms = lazy(() => import('./pages/Terms').then((m) => ({ default: m.Terms })))
+const Privacy = lazy(() => import('./pages/Privacy').then((m) => ({ default: m.Privacy })))
+const EnglishAdvancedSubject = lazy(() =>
+  import('./pages/EnglishAdvancedSubject').then((m) => ({ default: m.EnglishAdvancedSubject })),
+)
+const Paper1Techniques = lazy(() =>
+  import('./pages/Paper1Techniques').then((m) => ({ default: m.Paper1Techniques })),
+)
 
 export const router = createBrowserRouter([
   {
@@ -51,6 +59,8 @@ export const router = createBrowserRouter([
       { path: '/onboarding', element: <Onboarding /> },
       { path: '/onboarding/results', element: <OnboardingResults /> },
       { path: '/pricing', element: <Pricing /> },
+      { path: '/terms', element: <Terms /> },
+      { path: '/privacy', element: <Privacy /> },
     ],
   },
   {
@@ -135,6 +145,30 @@ export const router = createBrowserRouter([
         element: (
           <SubjectGuard subjectId="legal">
             <LegalTopic />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/english-advanced',
+        element: (
+          <SubjectGuard subjectId="english-advanced">
+            <EnglishAdvancedSubject />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/english-advanced/paper-1/techniques',
+        element: (
+          <SubjectGuard subjectId="english-advanced">
+            <Paper1Techniques />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/english-advanced/:resource',
+        element: (
+          <SubjectGuard subjectId="english-advanced">
+            <EnglishAdvancedSubject />
           </SubjectGuard>
         ),
       },

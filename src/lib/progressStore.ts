@@ -17,7 +17,10 @@ const KEY = 'studyquick.progress.v1'
 const SAVE_DEBOUNCE_MS = 180
 
 export type QuizAnswer = { pick: string; ok: boolean }
-export type TriviaConfidence = 'known' | 'shaky'
+/** 'learn' ("need to learn") is additive for English Advanced's quote/
+ * technique/theme revision tagging — existing subjects only ever set
+ * 'known'/'shaky', so this never changes their behaviour or saved data. */
+export type TriviaConfidence = 'known' | 'shaky' | 'learn'
 export type MathsAnswer = { v: string | number; ok: boolean }
 
 /**

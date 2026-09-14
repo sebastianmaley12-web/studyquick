@@ -8,12 +8,16 @@ export const SUBJECT_NAMES: Record<string, string> = {
   hms: 'Health & Movement Science',
   business: 'Business Studies',
   legal: 'Legal Studies',
+  'english-advanced': 'English Advanced',
 }
 
 /** Subjects offered during onboarding (section 2/6 of the product spec) —
- * Legal Studies exists in the app but isn't part of the public launch
- * subject set yet, so it's deliberately excluded here even though it's a
- * valid key in SUBJECT_NAMES/SubjectGuard. */
+ * Legal Studies and English Advanced exist in the app but aren't part of
+ * the public launch subject set yet, so they're deliberately excluded here
+ * even though they're valid keys in SUBJECT_NAMES/SubjectGuard. Legal is
+ * content-complete but held back for launch sequencing; English Advanced
+ * only has its Common Module built (Modules A/B/C aren't written yet) so
+ * offering it at signup would overpromise. */
 export const ONBOARDING_SUBJECT_IDS = ['maths', 'modern-history', 'hms', 'business']
 
 export type SubscriptionStatus = 'free' | 'active' | 'past_due' | 'canceled'

@@ -4,6 +4,7 @@ import { hmsTopics, hmsTotals } from '../lib/content/hms'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
+import { onEnterOrSpace } from '../lib/a11y'
 
 const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; format: string }> = {
   fa1: {
@@ -118,6 +119,7 @@ export function HmsSubject() {
               role="button"
               tabIndex={0}
               onClick={() => navigate(`/subjects/hms/${topic.id}/summary`)}
+              onKeyDown={onEnterOrSpace(() => navigate(`/subjects/hms/${topic.id}/summary`))}
             >
               <div className="spine">{topic.id.toUpperCase()}</div>
               <div className="topic-inner">

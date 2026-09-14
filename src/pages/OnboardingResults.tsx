@@ -54,7 +54,7 @@ export function OnboardingResults() {
   return (
     <div className="results-shell">
       <div className="results-check">&#10003;</div>
-      <h1>You&rsquo;re ready to get started.</h1>
+      <h1>Nice — your StudyQuick setup is ready.</h1>
       <p className="results-summary">
         You&rsquo;re studying {year ? `Year ${year} ` : ''}
         {joinNatural(subjectNames)}

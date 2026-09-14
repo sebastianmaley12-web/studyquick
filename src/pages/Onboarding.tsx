@@ -131,6 +131,7 @@ export function Onboarding() {
                 key={y}
                 type="button"
                 className={`survey-option${answers.year === y ? ' selected' : ''}`}
+                aria-pressed={answers.year === y}
                 onClick={() => setAnswers((a) => ({ ...a, year: y }))}
               >
                 <span className="survey-option-check">&#10003;</span>
@@ -151,6 +152,7 @@ export function Onboarding() {
                 key={id}
                 type="button"
                 className={`survey-option${answers.subjectsStudying.includes(id) ? ' selected' : ''}`}
+                aria-pressed={answers.subjectsStudying.includes(id)}
                 onClick={() => toggleSubject(id)}
               >
                 <span className="survey-option-check">&#10003;</span>
@@ -171,6 +173,7 @@ export function Onboarding() {
                 key={id}
                 type="button"
                 className={`survey-option${answers.focusSubjectId === id ? ' selected' : ''}`}
+                aria-pressed={answers.focusSubjectId === id}
                 onClick={() => setAnswers((a) => ({ ...a, focusSubjectId: id }))}
               >
                 <span className="survey-option-check">&#10003;</span>
@@ -190,6 +193,7 @@ export function Onboarding() {
                 key={goal}
                 type="button"
                 className={`survey-option${answers.improvementGoal === goal ? ' selected' : ''}`}
+                aria-pressed={answers.improvementGoal === goal}
                 onClick={() => setAnswers((a) => ({ ...a, improvementGoal: goal }))}
               >
                 <span className="survey-option-check">&#10003;</span>
@@ -209,6 +213,7 @@ export function Onboarding() {
                 key={style}
                 type="button"
                 className={`survey-option${answers.studyStyle === style ? ' selected' : ''}`}
+                aria-pressed={answers.studyStyle === style}
                 onClick={() => setAnswers((a) => ({ ...a, studyStyle: style }))}
               >
                 <span className="survey-option-check">&#10003;</span>
@@ -221,10 +226,11 @@ export function Onboarding() {
 
       {step === 5 && (
         <div className="survey-question">
-          <h2>What&rsquo;s your biggest challenge right now?</h2>
+          <h2 id="biggest-challenge-label">What&rsquo;s your biggest challenge right now?</h2>
           <p className="survey-hint">Optional — helps us personalise your dashboard.</p>
           <textarea
             className="survey-textarea"
+            aria-labelledby="biggest-challenge-label"
             value={answers.biggestChallenge}
             onChange={(e) => setAnswers((a) => ({ ...a, biggestChallenge: e.target.value }))}
             placeholder="e.g. I run out of time in exams, or I don't know what to revise first…"

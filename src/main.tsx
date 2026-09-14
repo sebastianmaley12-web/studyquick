@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router-dom'
 import './fonts'
 import './styles/tokens.css'
 import './styles/global.css'
+import './styles/english.css'
 import { router } from './router'
 import { AuthProvider } from './context/AuthContext'
 

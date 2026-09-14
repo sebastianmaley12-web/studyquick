@@ -73,6 +73,12 @@ export function PublicLayout() {
                 Sign in
               </button>
             )}
+            <button type="button" onClick={() => navigate('/terms')}>
+              Terms
+            </button>
+            <button type="button" onClick={() => navigate('/privacy')}>
+              Privacy
+            </button>
           </div>
         </div>
       </footer>

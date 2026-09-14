@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { SqLogo } from './SqLogo'
 import { progressStore, useStorageAvailable } from '../lib/progressStore'
 import { useAuth } from '../context/AuthContext'
@@ -34,6 +35,9 @@ export function Footer() {
         <button className="btn danger" type="button" onClick={resetAll}>
           Reset all progress
         </button>
+        <p className="foot-legal-links">
+          <Link to="/terms">Terms</Link> &middot; <Link to="/privacy">Privacy</Link>
+        </p>
       </div>
       {!storageAvailable && (
         <div className="wrap">

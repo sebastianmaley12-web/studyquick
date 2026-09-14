@@ -31,3 +31,19 @@ export function mathsKey(slug: string, questionId: string) {
 export function sessionKey(subject: string, topicId: string, resource: string) {
   return `${subject}:${topicId}:${resource}`
 }
+
+/** English Advanced's Known/Shaky/Need-to-learn confidence tag for a single
+ * quote, technique, theme etc. — stored in the same `trivia` progress-store
+ * slice as every other subject's trivia confidence (see the 'learn' addition
+ * to TriviaConfidence), just keyed by stable content id instead of a
+ * DOM-order index, since English content is cross-referenced by id. */
+export function englishConfidenceKey(textId: string, entityKind: string, entityId: string) {
+  return `english-${textId}-${entityKind}#${entityId}`
+}
+
+/** Key for a saved draft answer (short-answer or essay-planner field) —
+ * mirrors practiceNoteKey's shape but keyed by stable question/field id
+ * rather than a DOM-order index, for the same cross-referencing reason. */
+export function englishNoteKey(textId: string, kind: string, id: string) {
+  return `english-${textId}-${kind}#${id}`
+}

@@ -21,7 +21,7 @@ const PILLARS = [
   {
     icon: '🎓',
     title: 'Self-guided tutoring',
-    body: 'The structure and resources of tutoring, built so you can work through them independently, on your own schedule.',
+    body: 'The structure of a tutor, minus the scheduling — work through it whenever you’ve actually got the time.',
   },
   {
     icon: '📚',
@@ -36,7 +36,7 @@ const PILLARS = [
   {
     icon: '⏱',
     title: 'Study at your own pace',
-    body: 'Structured support without needing to book a session — study when it suits you, at the pace that suits you.',
+    body: 'No sessions to book and no one to wait on — just you, working through it at whatever pace fits your week.',
   },
 ]
 
@@ -106,7 +106,7 @@ export function Landing() {
       <section className="mkt-section">
         <div className="mkt-section-head">
           <span className="mkt-eyebrow">The StudyQuick loop</span>
-          <h2>A structure that actually improves your marks</h2>
+          <h2>Practice is the part that actually works</h2>
           <p>
             Reading notes tells you what you know. Practising tells you what you don&rsquo;t. The
             loop is built around the second one.

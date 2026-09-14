@@ -4,6 +4,7 @@ import { modernHistoryTopics, modernHistoryTotals, TOPIC_ROMAN } from '../lib/co
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
+import { onEnterOrSpace } from '../lib/a11y'
 
 const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; format: string }> = {
   s1: {
@@ -197,6 +198,7 @@ export function ModernHistorySubject() {
               role="button"
               tabIndex={0}
               onClick={() => navigate(`/subjects/modern-history/${topic.id}/summary`)}
+              onKeyDown={onEnterOrSpace(() => navigate(`/subjects/modern-history/${topic.id}/summary`))}
             >
               <div className="spine">{TOPIC_ROMAN[topic.id]}</div>
               <div className="topic-inner">

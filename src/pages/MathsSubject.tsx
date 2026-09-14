@@ -9,6 +9,7 @@ import {
 import { useProgress, type ProgressState } from '../lib/progressStore'
 import { mathsTopicStats } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
+import { onEnterOrSpace } from '../lib/a11y'
 
 function MTopicCard({ topic, progress }: { topic: MathsTopic; progress: ProgressState }) {
   const navigate = useNavigate()
@@ -21,6 +22,7 @@ function MTopicCard({ topic, progress }: { topic: MathsTopic; progress: Progress
       role="button"
       tabIndex={0}
       onClick={() => navigate(`/subjects/maths/${topic.slug}/facts`)}
+      onKeyDown={onEnterOrSpace(() => navigate(`/subjects/maths/${topic.slug}/facts`))}
     >
       <span className="code">{topic.code}</span>
       <h4>{topic.name}</h4>

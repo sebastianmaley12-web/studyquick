@@ -4,6 +4,7 @@ import { legalTopics, legalTotals } from '../lib/content/legal'
 import { useProgress } from '../lib/progressStore'
 import { historyTopicStats, pct } from '../lib/progressStats'
 import { ProgressLine } from '../components/ProgressLine'
+import { onEnterOrSpace } from '../lib/a11y'
 
 const TOPIC_COPY: Record<string, { yr: string; blurb: string; tags: string[]; format: string }> = {
   crime: {
@@ -132,6 +133,7 @@ export function LegalSubject() {
               role="button"
               tabIndex={0}
               onClick={() => navigate(`/subjects/legal/${topic.id}/summary`)}
+              onKeyDown={onEnterOrSpace(() => navigate(`/subjects/legal/${topic.id}/summary`))}
             >
               <div className="spine">{topic.short.slice(0, 2).toUpperCase()}</div>
               <div className="topic-inner">
