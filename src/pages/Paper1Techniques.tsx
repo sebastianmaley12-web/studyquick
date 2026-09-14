@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { TopicShell } from '../layouts/TopicShell'
 import { EnglishRail } from '../components/rail/EnglishRail'
-import { NINETEEN_EIGHTY_FOUR } from '../content/english/common-module-1984'
+import { COMMON_MODULE, NINETEEN_EIGHTY_FOUR } from '../content/english/common-module-1984'
 import { PAPER_ONE_TECHNIQUES } from '../content/english/paper1-technique-bank'
 import { PAPER_ONE_EVIDENCE } from '../content/english/paper1-evidence-bank'
 import { PAPER_ONE_COMPARISONS } from '../content/english/paper1-comparisons'
@@ -106,7 +106,16 @@ export function Paper1Techniques() {
   }
 
   return (
-    <TopicShell rail={<EnglishRail text={NINETEEN_EIGHTY_FOUR} currentResource="paper-1" />}>
+    <TopicShell
+      rail={
+        <EnglishRail
+          module={COMMON_MODULE}
+          siblingTexts={[NINETEEN_EIGHTY_FOUR]}
+          text={NINETEEN_EIGHTY_FOUR}
+          currentResource="paper-1"
+        />
+      }
+    >
       <section className="panel active">
         <div className="panel-head">
           <div className="q-proto-banner">

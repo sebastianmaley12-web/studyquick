@@ -42,8 +42,10 @@ const LegalSubject = lazy(() =>
 const LegalTopic = lazy(() => import('./pages/LegalTopic').then((m) => ({ default: m.LegalTopic })))
 const Terms = lazy(() => import('./pages/Terms').then((m) => ({ default: m.Terms })))
 const Privacy = lazy(() => import('./pages/Privacy').then((m) => ({ default: m.Privacy })))
-const EnglishAdvancedSubject = lazy(() =>
-  import('./pages/EnglishAdvancedSubject').then((m) => ({ default: m.EnglishAdvancedSubject })),
+const EnglishHub = lazy(() => import('./pages/EnglishHub').then((m) => ({ default: m.EnglishHub })))
+const EnglishText = lazy(() => import('./pages/EnglishText').then((m) => ({ default: m.EnglishText })))
+const EnglishModuleC = lazy(() =>
+  import('./pages/EnglishModuleC').then((m) => ({ default: m.EnglishModuleC })),
 )
 const Paper1Techniques = lazy(() =>
   import('./pages/Paper1Techniques').then((m) => ({ default: m.Paper1Techniques })),
@@ -152,7 +154,7 @@ export const router = createBrowserRouter([
         path: '/subjects/english-advanced',
         element: (
           <SubjectGuard subjectId="english-advanced">
-            <EnglishAdvancedSubject />
+            <EnglishHub />
           </SubjectGuard>
         ),
       },
@@ -165,10 +167,29 @@ export const router = createBrowserRouter([
         ),
       },
       {
+        path: '/subjects/english-advanced/module-c/:area',
+        element: (
+          <SubjectGuard subjectId="english-advanced">
+            <EnglishModuleC />
+          </SubjectGuard>
+        ),
+      },
+      {
+        // Legacy single-segment resource links from before Modules A/B/C
+        // existed — redirect into the Common Module's own text rather than
+        // 404ing on an old bookmark or shared link.
         path: '/subjects/english-advanced/:resource',
         element: (
           <SubjectGuard subjectId="english-advanced">
-            <EnglishAdvancedSubject />
+            <EnglishText />
+          </SubjectGuard>
+        ),
+      },
+      {
+        path: '/subjects/english-advanced/:moduleId/:textId/:resource',
+        element: (
+          <SubjectGuard subjectId="english-advanced">
+            <EnglishText />
           </SubjectGuard>
         ),
       },

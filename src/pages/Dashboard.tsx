@@ -10,7 +10,7 @@ import { mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTopics } from '../lib/content/hms'
 import { businessTopics } from '../lib/content/business'
 import { callBillingApi } from '../lib/billingApi'
-import { NINETEEN_EIGHTY_FOUR } from '../content/english/common-module-1984'
+import { ENGLISH_TEXTS } from '../lib/content/englishRegistry'
 import { PAPER_ONE_TECHNIQUES } from '../content/english/paper1-technique-bank'
 import { PAPER_ONE_EVIDENCE } from '../content/english/paper1-evidence-bank'
 import { buildQuoteTechniqueQuiz } from '../lib/content/englishQuiz'
@@ -67,14 +67,20 @@ function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
         { done: 0, total: 0 },
       )
     case 'english-advanced': {
-      // No topic list to reduce over yet (only the Common Module exists) —
-      // count answered items straight across the quote/technique quiz and
-      // the four generated Paper 1 question pools instead.
-      const quoteTestTopicId = `${NINETEEN_EIGHTY_FOUR.id}-quote-test`
-      const quoteQuestions = buildQuoteTechniqueQuiz(NINETEEN_EIGHTY_FOUR)
-      const quoteDone = quoteQuestions.filter(
-        (_, i) => progress.quiz[quizKey(quoteTestTopicId, i)] !== undefined,
-      ).length
+      // No single topic list to reduce over (English is module/text based,
+      // not a flat topic list) — count answered items across every
+      // registered text's quote/technique quiz plus the four generated
+      // Paper 1 question pools instead.
+      let quoteDone = 0
+      let quoteTotal = 0
+      for (const text of ENGLISH_TEXTS) {
+        const quoteTestTopicId = `${text.id}-quote-test`
+        const quoteQuestions = buildQuoteTechniqueQuiz(text)
+        quoteDone += quoteQuestions.filter(
+          (_, i) => progress.quiz[quizKey(quoteTestTopicId, i)] !== undefined,
+        ).length
+        quoteTotal += quoteQuestions.length
+      }
 
       const bank = PAPER_ONE_TECHNIQUES
       const evidence = PAPER_ONE_EVIDENCE
@@ -90,7 +96,7 @@ function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
 
       return {
         done: quoteDone + paper1Done,
-        total: quoteQuestions.length + paper1Questions.length,
+        total: quoteTotal + paper1Questions.length,
       }
     }
     default:

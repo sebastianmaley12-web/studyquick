@@ -22,9 +22,9 @@ export function Footer() {
       <div className="foot-inner">
         <SqLogo size="md" />
         <p>
-          Practice questions only — not official HSC or NESA material &middot; built from the NESA
-          Modern History Stage 6 Syllabus (2017) &middot; historian quotes verified against
-          published sources
+          Practice questions only — not official HSC or NESA material &middot; built from the
+          official NESA Stage 6 syllabuses &middot; quotes and evidence checked against their
+          original sources
           <br />
           {user
             ? 'Your answers, scores and notes are synced to your account, so they follow you across devices.'

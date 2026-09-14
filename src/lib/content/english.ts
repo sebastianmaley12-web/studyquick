@@ -194,6 +194,69 @@ export interface EnglishModule {
   yearLevel: 11 | 12
   syllabusOverviewHtml: string
   textIds: string[]
+  /** Module-level essay questions that require evidence from more than one
+   * text (Module A's "textual conversation" is inherently comparative, so
+   * these can't live on a single EnglishText's own essayQuestions). Evidence
+   * ids in these questions are resolved with `lookupAcrossTexts` against
+   * every text in `textIds`, not a single text's quote array. */
+  comparativeEssayQuestions?: EssayQuestion[]
+}
+
+// ---- Module C: The Craft of Writing --------------------------------------
+// Deliberately its own shape, not an EnglishText — Module C has no
+// prescribed text. It's assessed through students' own imaginative,
+// discursive and persuasive compositions, built around craft techniques and
+// mentor-text models rather than a quote bank.
+
+export type CraftMode = 'imaginative' | 'discursive' | 'persuasive'
+
+export interface CraftTechnique {
+  id: string
+  name: string
+  mode: CraftMode | 'general'
+  definitionHtml: string
+  effectHtml: string
+  mentorExampleHtml: string
+  howToUseHtml: string
+}
+
+export interface WritingStimulus {
+  id: string
+  mode: CraftMode
+  prompt: string
+  stimulusHtml: string | null
+  planningGuidanceHtml: string
+  modelResponseHtml: string
+  reflectionPromptHtml: string
+}
+
+export interface ModuleCContent {
+  id: 'module-c'
+  name: string
+  yearLevel: 11 | 12
+  syllabusOverviewHtml: string
+  overviewHtml: string
+  techniques: CraftTechnique[]
+  stimuli: WritingStimulus[]
+}
+
+export const MODULE_C_RESOURCES = [
+  'overview',
+  'techniques',
+  'imaginative',
+  'discursive',
+  'persuasive',
+  'test',
+] as const
+export type ModuleCResource = (typeof MODULE_C_RESOURCES)[number]
+
+export const MODULE_C_RESOURCE_LABELS: Record<ModuleCResource, string> = {
+  overview: 'Overview',
+  techniques: 'Craft Techniques',
+  imaginative: 'Imaginative Writing',
+  discursive: 'Discursive Writing',
+  persuasive: 'Persuasive Writing',
+  test: 'Technique Test',
 }
 
 // ---- lookup helpers (id-based joins) ---------------------------------------
@@ -204,6 +267,14 @@ export function lookupById<T extends { id: string }>(items: T[], id: string): T 
 
 export function lookupManyById<T extends { id: string }>(items: T[], ids: string[]): T[] {
   return ids.map((id) => lookupById(items, id)).filter((item): item is T => item !== undefined)
+}
+
+/** Same as `lookupManyById`, but searches every text's quote pool — needed
+ * for Module A's comparative essay questions, whose evidence can come from
+ * either of its two texts. */
+export function lookupAcrossTexts(texts: EnglishText[], ids: string[]): EnglishQuote[] {
+  const allQuotes = texts.flatMap((t) => t.quotes)
+  return lookupManyById(allQuotes, ids)
 }
 
 export const ENGLISH_RESOURCES = [

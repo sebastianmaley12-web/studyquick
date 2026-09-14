@@ -4,24 +4,29 @@ import {
   ENGLISH_RESOURCES,
   ENGLISH_RESOURCE_LABELS,
   type EnglishResource,
+  type EnglishModule,
   type EnglishText,
 } from '../../lib/content/english'
+import { ENGLISH_MODULES } from '../../lib/content/englishRegistry'
 
 /**
- * English Advanced's rail — structurally like LegalRail/HistoryRail (reuses
- * the shared Rail shell) but one level shallower: a single module/text
- * hub's resources, rather than a list of topics each with the same four
- * resources. Once more than one text/module exists this needs a
- * topic-style level above it — not needed while there's only one.
+ * English Advanced's rail — one level deeper than LegalRail/HistoryRail
+ * because a module can hold more than one text: it shows a module switcher,
+ * a text switcher (when the current module has more than one), the current
+ * text's resource tabs, and a link out to Paper 1 as a sibling area.
  *
  * `currentResource` also accepts `'paper-1'` so the Paper 1 area (a
- * sibling of the text hub, not one more resource tab within it) can
+ * sibling of every text hub, not one more resource tab within it) can
  * highlight correctly instead of falsely lighting up "Text Overview".
  */
 export function EnglishRail({
+  module,
+  siblingTexts,
   text,
   currentResource,
 }: {
+  module: EnglishModule
+  siblingTexts: EnglishText[]
   text: EnglishText
   currentResource: EnglishResource | 'paper-1'
 }) {
@@ -32,8 +37,54 @@ export function EnglishRail({
       backTo="/subjects/english-advanced"
       backTitle="Back to English Advanced"
       title="English Advanced"
-      subtitle="Common Module"
+      subtitle={module.name}
     >
+      <div className="rail-label">Modules</div>
+      <div className="side-section active">
+        <div className="side-sub">
+          {ENGLISH_MODULES.map((m) => (
+            <button
+              key={m.id}
+              className={['side-sub-btn', m.id === module.id && 'active'].filter(Boolean).join(' ')}
+              type="button"
+              onClick={() => {
+                if (m.id === module.id) return
+                navigate(`/subjects/english-advanced`)
+              }}
+            >
+              {m.name.replace(/^Module [ABC]: /, '').replace(/^Common Module: /, '')}
+            </button>
+          ))}
+          <button
+            className="side-sub-btn"
+            type="button"
+            onClick={() => navigate('/subjects/english-advanced/module-c/overview')}
+          >
+            Craft of Writing
+          </button>
+        </div>
+      </div>
+
+      {siblingTexts.length > 1 && (
+        <>
+          <div className="rail-label">Text</div>
+          <div className="side-section active">
+            <div className="side-sub">
+              {siblingTexts.map((t) => (
+                <button
+                  key={t.id}
+                  className={['side-sub-btn', t.id === text.id && 'active'].filter(Boolean).join(' ')}
+                  type="button"
+                  onClick={() => navigate(`/subjects/english-advanced/${module.id}/${t.id}/${currentResource === 'paper-1' ? 'overview' : currentResource}`)}
+                >
+                  {t.title}
+                </button>
+              ))}
+            </div>
+          </div>
+        </>
+      )}
+
       <div className="rail-label">{text.title}</div>
       <div className="side-section active">
         <div className="side-sub">
@@ -42,7 +93,7 @@ export function EnglishRail({
               key={res}
               className={['side-sub-btn', res === currentResource && 'active'].filter(Boolean).join(' ')}
               type="button"
-              onClick={() => navigate(`/subjects/english-advanced/${res}`)}
+              onClick={() => navigate(`/subjects/english-advanced/${module.id}/${text.id}/${res}`)}
             >
               {ENGLISH_RESOURCE_LABELS[res]}
             </button>

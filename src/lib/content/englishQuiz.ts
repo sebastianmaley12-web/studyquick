@@ -1,5 +1,5 @@
 import type { HistoryQuizQuestion } from './modernHistory'
-import { lookupById, type EnglishText } from './english'
+import { lookupById, type EnglishText, type CraftTechnique } from './english'
 
 /**
  * Generates a multiple-choice "quote → technique" quiz straight from a
@@ -49,4 +49,32 @@ export function buildQuoteTechniqueQuiz(text: EnglishText): HistoryQuizQuestion[
       return question
     })
     .filter((q): q is HistoryQuizQuestion => q !== null)
+}
+
+/** Same "identify from a definition" shape as buildQuoteTechniqueQuiz,
+ * adapted for Module C's craft techniques — which have no quote bank to
+ * quiz from, only a name + definition. */
+export function buildCraftTechniqueQuiz(techniques: CraftTechnique[]): HistoryQuizQuestion[] {
+  const allNames = techniques.map((t) => t.name)
+
+  return techniques.map((technique, i) => {
+    const others = allNames.filter((name) => name !== technique.name)
+    const distractors = Array.from(
+      { length: Math.min(3, others.length) },
+      (_, k) => others[(i + k) % others.length],
+    )
+    const options = [technique.name, ...distractors].map((name, oi) => ({
+      opt: String.fromCharCode(97 + oi),
+      textHtml: name,
+    }))
+    const correctOpt = options.find((o) => o.textHtml === technique.name)!.opt
+
+    const question: HistoryQuizQuestion = {
+      n: i + 1,
+      answer: correctOpt,
+      questionHtml: `Which technique is this?<br /><span class="q-quiz-quote">${technique.definitionHtml}</span>`,
+      options,
+    }
+    return question
+  })
 }

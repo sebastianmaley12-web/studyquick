@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { lookupManyById, type EnglishText, type EssayQuestion } from '../../lib/content/english'
+import { lookupAcrossTexts, type EnglishText, type EssayQuestion } from '../../lib/content/english'
 import { AnswerBox } from '../practice/AnswerBox'
 import { englishNoteKey } from '../../lib/keys'
 
@@ -51,12 +51,25 @@ function EssayPlanner({ text, question }: { text: EnglishText; question: EssayQu
 
 /** Essay/thesis practice (spec section 8) — thesis-only questions skip
  * straight to a single thesis attempt + model; full-essay questions get
- * the whole planner plus a full-response AnswerBox. */
-export function EssayPractice({ text }: { text: EnglishText }) {
+ * the whole planner plus a full-response AnswerBox.
+ *
+ * `comparativeQuestions` + `evidenceTexts` support Module A's textual-
+ * conversation essays, whose evidence can come from either prescribed text
+ * — evidence for every question (single-text or comparative) is looked up
+ * across all of `evidenceTexts` so one code path covers both cases. */
+export function EssayPractice({
+  text,
+  comparativeQuestions = [],
+  evidenceTexts,
+}: {
+  text: EnglishText
+  comparativeQuestions?: EssayQuestion[]
+  evidenceTexts?: EnglishText[]
+}) {
   const [index, setIndex] = useState(0)
-  const questions = text.essayQuestions
+  const questions = [...text.essayQuestions, ...comparativeQuestions]
   const q = questions[index]
-  const evidence = lookupManyById(text.quotes, q.suggestedEvidence)
+  const evidence = lookupAcrossTexts(evidenceTexts ?? [text], q.suggestedEvidence)
 
   return (
     <div className="q-essay-practice">

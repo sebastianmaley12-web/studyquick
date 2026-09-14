@@ -1,7 +1,7 @@
 import { Navigate, useNavigate, useParams } from 'react-router-dom'
 import { TopicShell } from '../layouts/TopicShell'
 import { EnglishRail } from '../components/rail/EnglishRail'
-import { COMMON_MODULE, NINETEEN_EIGHTY_FOUR } from '../content/english/common-module-1984'
+import { getEnglishModule, getEnglishText, textsForModule } from '../lib/content/englishRegistry'
 import {
   lookupManyById,
   ENGLISH_RESOURCES,
@@ -24,35 +24,44 @@ function isResource(v: string | undefined): v is EnglishResource {
 }
 
 /**
- * English Advanced's subject hub — currently the Common Module and its one
- * prescribed text (Nineteen Eighty-Four) only. Modules A, B and C aren't
- * built yet, so the banner below says so plainly rather than the page
- * pretending to be a complete subject. Once more than one text/module
- * exists, this needs a topic-selection layer above it (see EnglishRail's
- * doc comment) — not needed while there's only one.
+ * English Advanced's per-text hub — genericised from the old, hardcoded
+ * single-text prototype page. Driven entirely by the moduleId/textId/
+ * resource route params, resolved through englishRegistry, so adding a new
+ * module or text only means registering it, not touching this component.
  */
-export function EnglishAdvancedSubject() {
-  const { resource } = useParams()
+export function EnglishText() {
+  const { moduleId, textId, resource } = useParams()
   const navigate = useNavigate()
-  const text = NINETEEN_EIGHTY_FOUR
 
+  const module = moduleId ? getEnglishModule(moduleId) : undefined
+  const text = textId ? getEnglishText(textId) : undefined
+
+  if (!module || !text || text.moduleId !== module.id) {
+    return <Navigate to="/subjects/english-advanced" replace />
+  }
   if (!isResource(resource)) {
-    return <Navigate to="/subjects/english-advanced/overview" replace />
+    return <Navigate to={`/subjects/english-advanced/${module.id}/${text.id}/overview`} replace />
   }
 
+  const siblingTexts = textsForModule(module.id)
   const quizQuestions = buildQuoteTechniqueQuiz(text)
 
   return (
-    <TopicShell rail={<EnglishRail text={text} currentResource={resource} />}>
+    <TopicShell
+      rail={
+        <EnglishRail
+          module={module}
+          siblingTexts={siblingTexts}
+          text={text}
+          currentResource={resource}
+        />
+      }
+    >
       <section className="panel active">
         <div className="panel-head">
-          <div className="q-proto-banner">
-            Common Module is live with <em>Nineteen Eighty-Four</em>. Modules A, B and C are still
-            being built.
-          </div>
           <h2>{ENGLISH_RESOURCE_LABELS[resource]}</h2>
           <div className="range">
-            {COMMON_MODULE.name} &middot; {text.title} by {text.author}
+            {module.name} &middot; {text.title} by {text.author}
           </div>
         </div>
 
@@ -78,14 +87,34 @@ export function EnglishAdvancedSubject() {
                 </div>
               </div>
 
-              <div className="q-chapter-subhead">Syllabus requirements — {COMMON_MODULE.name}</div>
-              <p dangerouslySetInnerHTML={{ __html: COMMON_MODULE.syllabusOverviewHtml }} />
+              <div className="q-chapter-subhead">Syllabus requirements — {module.name}</div>
+              <p dangerouslySetInnerHTML={{ __html: module.syllabusOverviewHtml }} />
+
+              {siblingTexts.length > 1 && (
+                <>
+                  <div className="q-chapter-subhead">Other text in this module</div>
+                  <div className="q-overview-actions">
+                    {siblingTexts
+                      .filter((t) => t.id !== text.id)
+                      .map((t) => (
+                        <button
+                          key={t.id}
+                          className="pub-btn-ghost"
+                          type="button"
+                          onClick={() => navigate(`/subjects/english-advanced/${module.id}/${t.id}/overview`)}
+                        >
+                          {t.title} <span className="arw">&rarr;</span>
+                        </button>
+                      ))}
+                  </div>
+                </>
+              )}
 
               <div className="q-overview-actions">
                 <button
                   className="cta"
                   type="button"
-                  onClick={() => navigate('/subjects/english-advanced/chapters')}
+                  onClick={() => navigate(`/subjects/english-advanced/${module.id}/${text.id}/chapters`)}
                 >
                   Start with the chapters <span className="arw">&rarr;</span>
                 </button>
@@ -153,7 +182,13 @@ export function EnglishAdvancedSubject() {
           {resource === 'quotes' && <QuoteBank text={text} />}
           {resource === 'techniques' && <TechniqueTable text={text} />}
           {resource === 'short-answer' && <ShortAnswerPractice text={text} />}
-          {resource === 'essay' && <EssayPractice text={text} />}
+          {resource === 'essay' && (
+            <EssayPractice
+              text={text}
+              comparativeQuestions={module.comparativeEssayQuestions}
+              evidenceTexts={siblingTexts}
+            />
+          )}
           {resource === 'quote-learning' && <QuoteLearningMode text={text} />}
           {resource === 'test' && (
             <QuizPanel subject="english" topicId={`${text.id}-quote-test`} questions={quizQuestions} />
