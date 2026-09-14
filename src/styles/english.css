@@ -67,6 +67,13 @@
   color: var(--ink-soft);
   background: var(--surface);
   white-space: nowrap;
+  /* A long theme/technique name (English's names run longer than most
+     subjects' short dot-point tags) would otherwise overflow past the
+     card edge instead of wrapping, since nowrap pills don't shrink —
+     truncate with an ellipsis instead of clipping mid-word. */
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .q-tag.theme {
   border-color: var(--navy);
