@@ -9,7 +9,7 @@ const MODULE_BLURB: Record<string, string> = {
     'How texts represent individual and collective human experiences — studied through Nineteen Eighty-Four.',
   'module-a':
     'A comparative study of two texts in "textual conversation" — The Tempest and Hag-Seed.',
-  'module-b': 'A critical study of a single body of literature in depth.',
+  'module-b': 'A critical study of a single body of work — the poetry of T.S. Eliot.',
   'module-c': 'Strengthening your own craft as a writer across imaginative, discursive and persuasive forms.',
 }
 

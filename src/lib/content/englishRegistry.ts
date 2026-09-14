@@ -1,5 +1,6 @@
 import { COMMON_MODULE, NINETEEN_EIGHTY_FOUR } from '../../content/english/common-module-1984'
 import { MODULE_A, THE_TEMPEST, HAG_SEED } from '../../content/english/module-a-textual-conversations'
+import { MODULE_B, ELIOT_POETRY } from '../../content/english/module-b-eliot'
 import { type EnglishModule, type EnglishText, lookupById } from './english'
 
 /**
@@ -9,8 +10,8 @@ import { type EnglishModule, type EnglishText, lookupById } from './english'
  * nowhere else needs to change.
  */
 
-export const ENGLISH_MODULES: EnglishModule[] = [COMMON_MODULE, MODULE_A]
-export const ENGLISH_TEXTS: EnglishText[] = [NINETEEN_EIGHTY_FOUR, THE_TEMPEST, HAG_SEED]
+export const ENGLISH_MODULES: EnglishModule[] = [COMMON_MODULE, MODULE_A, MODULE_B]
+export const ENGLISH_TEXTS: EnglishText[] = [NINETEEN_EIGHTY_FOUR, THE_TEMPEST, HAG_SEED, ELIOT_POETRY]
 
 export function getEnglishModule(moduleId: string): EnglishModule | undefined {
   return lookupById(ENGLISH_MODULES, moduleId)
