@@ -252,7 +252,9 @@ export function Dashboard() {
                 <h3>
                   {SUBJECT_NAMES[id]}{' '}
                   {unlocked ? (
-                    <span className="live">{id === focusSubjectId && isTrialing ? 'Trial' : 'Unlocked'}</span>
+                    <span className="live">
+                      {!isSubscribed && id === focusSubjectId && isTrialing ? 'Trial' : 'Unlocked'}
+                    </span>
                   ) : (
                     <span className="live locked-badge">Subscribe to unlock</span>
                   )}
