@@ -4,7 +4,7 @@ import { paper1QuestionKey } from '../../lib/content/paper1'
 import { progressStore, useQuizAnswer } from '../../lib/progressStore'
 import { englishConfidenceKey } from '../../lib/keys'
 import { shuffledIndices } from '../../lib/shuffle'
-import { ConfidenceTag } from '../english/ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 
 /**
  * One generated Paper 1 question (any MC format), rendered with the rich

@@ -4,6 +4,7 @@ import { LegalRail } from '../components/rail/LegalRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import { PracticeSection } from '../components/practice/PracticeSection'
+import { LegalEvidenceBank } from '../components/legal/LegalEvidenceBank'
 import { SearchBar } from '../components/SearchBar'
 import { useLegalTopicSearch } from '../hooks/useLegalTopicSearch'
 import { SearchQueryProvider, highlightHtml } from '../context/SearchQueryContext'
@@ -112,6 +113,9 @@ export function LegalTopic() {
                     </div>
                   ))}
                 </>
+              )}
+              {resource === 'evidence' && (
+                <LegalEvidenceBank topicId={topicId} items={data.evidence} />
               )}
               {resource === 'quiz' && (
                 <QuizPanel subject="legal" topicId={topicId} questions={data.quiz} />

@@ -6,7 +6,7 @@ import {
   type TechniqueCategory,
 } from '../../lib/content/english'
 import { englishConfidenceKey } from '../../lib/keys'
-import { ConfidenceTag } from '../english/ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 import type { EvidenceQuote } from '../../lib/content/paper1'
 
 /** The full Paper 1 Language Technique Bank — searchable/filterable, and

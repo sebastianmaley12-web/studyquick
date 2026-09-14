@@ -1,4 +1,4 @@
-import { progressStore, useTriviaConfidence, type TriviaConfidence } from '../../lib/progressStore'
+import { progressStore, useTriviaConfidence, type TriviaConfidence } from '../lib/progressStore'
 
 const OPTIONS: { value: TriviaConfidence; label: string }[] = [
   { value: 'known', label: 'Known' },

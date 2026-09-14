@@ -51,6 +51,104 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-hr-ictr",
+      "type": "example",
+      "name": "International Criminal Tribunal for Rwanda (ICTR)",
+      "citation": "Established 1995",
+      "whatIsItHtml": "An ad hoc UN tribunal established to prosecute those responsible for the 1994 Rwandan genocide.",
+      "whatItDemonstratesHtml": "Sentenced 62 people (14 acquitted); the first international tribunal to deliver a genocide verdict and interpret the 1948 Geneva Convention's genocide definition, and the first to recognise rape as a means of perpetrating genocide and to convict media figures for broadcasts inciting genocide. Its limitations included never indicting a single member of the Rwandan Patriotic Front, and allowing Rwanda to conduct what critics called a sham domestic trial into a notorious massacre of clergy.",
+      "howToUseItHtml": "Use to evaluate the effectiveness of ad hoc tribunals as a legal response to gross human rights violations — strong on legal precedent, criticised for selective/one-sided justice.",
+      "relatedTags": [
+        "ad-hoc-tribunals",
+        "genocide"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 791-802)"
+    },
+    {
+      "id": "ev-hr-icty",
+      "type": "example",
+      "name": "International Criminal Tribunal for the former Yugoslavia (ICTY)",
+      "citation": "Established 1993",
+      "whatIsItHtml": "An ad hoc UN tribunal established to prosecute serious crimes committed during the wars in the former Yugoslavia.",
+      "whatItDemonstratesHtml": "Sentenced 90 people (19 acquitted), including life sentences for Radovan Karadžić and Ratko Mladić after appeal, and gave over 4,650 witnesses the opportunity to be heard. Limitations included the partial acquittal of Vojislav Šešelj (serving only 11 years) and a controversial plea bargain with Biljana Plavšić, who served only 6 years of an 11-year sentence.",
+      "howToUseItHtml": "Use to evaluate ad hoc tribunals' effectiveness — strong evidentiary/participatory record, but criticised for inconsistent sentencing outcomes.",
+      "relatedTags": [
+        "ad-hoc-tribunals",
+        "genocide"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 804-819)"
+    },
+    {
+      "id": "ev-hr-toonen",
+      "type": "case",
+      "name": "Toonen v Australia",
+      "citation": "(1994) UN Human Rights Committee",
+      "whatIsItHtml": "A communication to the UN Human Rights Committee arguing Tasmania's criminalisation of consensual homosexual acts breached the ICCPR's privacy protections.",
+      "whatItDemonstratesHtml": "The Committee found Tasmania's laws breached the ICCPR, leading to their repeal — showing an international human rights body influencing domestic law reform.",
+      "howToUseItHtml": "Use for questions on the promotion of human rights internationally, or how international mechanisms can drive domestic legal change.",
+      "relatedTags": [
+        "international-mechanisms",
+        "lgbtqi-rights"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (line 573)"
+    },
+    {
+      "id": "ev-hr-tang",
+      "type": "case",
+      "name": "R v Tang",
+      "citation": "(2008) 237 CLR 1, High Court of Australia",
+      "whatIsItHtml": "A High Court case concerning the prosecution of Wei Tang for slavery offences involving trafficked women.",
+      "whatItDemonstratesHtml": "The Court clarified the legal meaning of \"slavery\" under Australian law, strengthening the basis for prosecuting trafficking and slavery-like offences.",
+      "howToUseItHtml": "Use for questions on the effectiveness of the law in protecting human rights domestically, particularly around modern slavery and trafficking.",
+      "relatedTags": [
+        "modern-slavery"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (lines 596-597)"
+    },
+    {
+      "id": "ev-hr-modern-slavery-act",
+      "type": "legislation",
+      "name": "Modern Slavery Act 2018 (Cth)",
+      "citation": "Commonwealth legislation",
+      "whatIsItHtml": "Commonwealth legislation requiring large businesses operating in Australia to publish annual statements on the risk of modern slavery in their supply chains.",
+      "whatItDemonstratesHtml": "Shows a non-punitive, transparency-based legal response to a human rights issue, relying on public accountability rather than criminal sanction.",
+      "howToUseItHtml": "Use for questions on domestic legal responses to modern slavery, or on the effectiveness of transparency-based (rather than punitive) regulation.",
+      "relatedTags": [
+        "modern-slavery"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (line 603)"
+    },
+    {
+      "id": "ev-hr-trafficking-amendment",
+      "type": "legislation",
+      "name": "Crimes Legislation Amendment (Slavery, Slavery-like Conditions and People Trafficking) Act 2013 (Cth)",
+      "citation": "Commonwealth legislation",
+      "whatIsItHtml": "Commonwealth legislation that amended the Criminal Code Act 1995 (Cth) to create specific offences for forced marriage, forced labour and organ trafficking.",
+      "whatItDemonstratesHtml": "Shows domestic law being updated to align with international standards (the Trafficking Protocol 2000) as understanding of trafficking harms evolved.",
+      "howToUseItHtml": "Use for questions on how domestic legislation responds to and implements international obligations on trafficking and slavery.",
+      "relatedTags": [
+        "modern-slavery",
+        "international-mechanisms"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (lines 600-602)"
+    },
+    {
+      "id": "ev-hr-franchise-act",
+      "type": "legislation",
+      "name": "Franchise Act 1902 (Cth)",
+      "citation": "Commonwealth legislation",
+      "whatIsItHtml": "The Commonwealth statute that formally recognised (most) women's right to vote in federal elections.",
+      "whatItDemonstratesHtml": "An early domestic legal recognition of a human right later affirmed internationally by instruments such as the UDHR (1948) and ICCPR (1966) — though it excluded most Aboriginal and Torres Strait Islander women, who did not gain the same federal voting rights until 1962.",
+      "howToUseItHtml": "Use for questions on the changing recognition of human rights over time, or to contrast formal legal equality with its uneven practical application.",
+      "relatedTags": [
+        "universal-suffrage",
+        "indigenous-people"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 759, 764-765)"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [],

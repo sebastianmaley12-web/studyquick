@@ -23,6 +23,14 @@ function buildIndex(data: LegalTopicData): LegalTopicSearchIndex {
     ]),
   ]
 
+  const evidence = data.evidence.flatMap((e) => [
+    e.name,
+    e.citation,
+    e.whatIsItHtml,
+    e.whatItDemonstratesHtml,
+    e.howToUseItHtml,
+  ])
+
   const trivia = data.trivia.flatMap((c) => [c.questionHtml, c.answerHtml])
   const quiz = data.quiz.flatMap((q) => [q.questionHtml, ...q.options.map((o) => o.textHtml)])
 
@@ -34,6 +42,7 @@ function buildIndex(data: LegalTopicData): LegalTopicSearchIndex {
 
   return {
     summary: toText(summary),
+    evidence: toText(evidence),
     practice: toText(practice),
     trivia: toText(trivia),
     quiz: toText(quiz),

@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { CraftMode, CraftTechnique } from '../../lib/content/english'
 import { englishConfidenceKey } from '../../lib/keys'
-import { ConfidenceTag } from './ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 
 const MODE_LABELS: Record<CraftMode | 'general', string> = {
   imaginative: 'Imaginative',

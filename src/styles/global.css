@@ -7192,3 +7192,119 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* ---- Evidence bank (Legal/Modern History/Business "what is it? what does
+   it demonstrate? how do I use it?" cases/legislation/sources) — shared
+   across subjects rather than redefined per one, same as .source/.card. ---- */
+
+.evidence-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.evidence-filter-bar input[type='search'] {
+  flex: 1 1 200px;
+}
+
+.evidence-count {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11.5px;
+  color: var(--ink-faint);
+  margin-bottom: 14px;
+}
+
+.evidence-grid {
+  display: grid;
+  /* auto-fit + min(Npx,100%) so a lone card fills the row instead of
+     sitting pinned to one side at narrow/mobile widths. */
+  grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+  gap: 14px;
+}
+
+.evidence-card {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--ink-soft);
+  border-radius: 4px;
+  padding: 16px 18px;
+}
+
+.evidence-card[data-type='case'] {
+  border-left-color: var(--navy);
+}
+.evidence-card[data-type='legislation'] {
+  border-left-color: var(--olive);
+}
+.evidence-card[data-type='treaty'] {
+  border-left-color: var(--rust);
+}
+.evidence-card[data-type='statistic'],
+.evidence-card[data-type='example'] {
+  border-left-color: var(--ink-faint);
+}
+
+.evidence-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 4px;
+}
+
+.evidence-name {
+  font-weight: 700;
+  font-size: 15px;
+  margin: 0;
+}
+
+.evidence-type-badge {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 999px;
+  border: 1px solid var(--edge);
+  color: var(--ink-soft);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.evidence-citation {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--ink-faint);
+  margin-bottom: 10px;
+}
+
+.evidence-section {
+  margin-top: 10px;
+}
+
+.evidence-section-label {
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 3px;
+}
+
+.evidence-section p {
+  margin: 0;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.evidence-source {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--edge);
+  font-size: 11px;
+  color: var(--ink-faint);
+  font-style: italic;
+}

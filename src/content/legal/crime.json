@@ -81,6 +81,118 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-crime-loveridge",
+      "type": "case",
+      "name": "R v Loveridge",
+      "citation": "Sentenced NSWSC 2013; Crown appeal increased sentence, [2014] NSWCCA 120",
+      "whatIsItHtml": "Kieran Loveridge was convicted over the fatal \"one-punch\" assault of Thomas Kelly in Kings Cross in 2012. His original NSWSC sentence was increased on a Crown appeal to the NSWCCA in 2014.",
+      "whatItDemonstratesHtml": "Shows sentencing balancing the four purposes of punishment (retribution, deterrence, rehabilitation, denunciation) and the role of victims and public pressure in shaping sentencing outcomes and appeals.",
+      "howToUseItHtml": "Use for questions on the effectiveness of sentencing, the role of appeals in correcting inadequate sentences, or the influence of victims/media on the justice process.",
+      "relatedTags": [
+        "sentencing",
+        "appeals"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (line 902) and Fort Street 2024 HSC Legal Studies Trial (lines 654-655, 659)"
+    },
+    {
+      "id": "ev-crime-bugmy",
+      "type": "case",
+      "name": "Bugmy v The Queen",
+      "citation": "(2013) 249 CLR 571, High Court of Australia",
+      "whatIsItHtml": "A High Court case concerning how an offender's background of social deprivation should be weighed as a mitigating factor in sentencing.",
+      "whatItDemonstratesHtml": "Establishes that an offender's deprived background (including Indigenous disadvantage) remains a relevant mitigating factor at sentencing, without diminishing over repeated offending.",
+      "howToUseItHtml": "Use for questions on sentencing factors, the treatment of Indigenous offenders, or how the law balances individual circumstances against consistency in sentencing.",
+      "relatedTags": [
+        "sentencing",
+        "indigenous-people"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (line 656)"
+    },
+    {
+      "id": "ev-crime-love-thoms",
+      "type": "case",
+      "name": "Love v Commonwealth; Thoms v Commonwealth",
+      "citation": "(2020) 270 CLR 152, High Court of Australia",
+      "whatIsItHtml": "A High Court case (two joined matters) about whether Aboriginal Australians without formal citizenship could be classified as \"aliens\" and deported under migration law.",
+      "whatItDemonstratesHtml": "The Court held Aboriginal Australians cannot be treated as constitutional \"aliens\" and deported, recognising a distinct legal status connected to Indigenous belonging.",
+      "howToUseItHtml": "Use for questions on post-sentencing issues like deportation, the rights of non-citizens, or the law's evolving recognition of Indigenous status.",
+      "relatedTags": [
+        "post-sentencing",
+        "indigenous-people"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (line 665)"
+    },
+    {
+      "id": "ev-crime-nzyq",
+      "type": "case",
+      "name": "NZYQ v Minister for Immigration",
+      "citation": "(2023) 97 ALJR 1005, High Court of Australia",
+      "whatIsItHtml": "A 2023 High Court case on whether the Commonwealth could indefinitely detain a non-citizen whose visa was cancelled but who could not be deported anywhere.",
+      "whatItDemonstratesHtml": "The Court ruled indefinite immigration detention unlawful where there is no real prospect of removal, leading to the release of a cohort of detainees.",
+      "howToUseItHtml": "Use for questions on post-sentencing detention, the limits of executive power, or the tension between community protection and individual rights.",
+      "relatedTags": [
+        "post-sentencing"
+      ],
+      "source": "Fort Street 2024 HSC Legal Studies Trial (line 670)"
+    },
+    {
+      "id": "ev-crime-lepra",
+      "type": "legislation",
+      "name": "Law Enforcement (Powers and Responsibilities) Act 2002 (NSW)",
+      "citation": "NSW legislation, commonly abbreviated LEPRA",
+      "whatIsItHtml": "The core NSW statute setting out police powers, including stop, search, seizure and arrest, and the responsibilities that accompany them.",
+      "whatItDemonstratesHtml": "Shows the law attempting to balance effective police investigation with safeguards against the misuse of police power.",
+      "howToUseItHtml": "Use for questions on police powers and investigation, or the balance between individual rights and law enforcement effectiveness.",
+      "relatedTags": [
+        "investigation",
+        "police-powers"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (line 888)"
+    },
+    {
+      "id": "ev-crime-young-offenders",
+      "type": "legislation",
+      "name": "Young Offenders Act 1997 (NSW)",
+      "citation": "NSW legislation",
+      "whatIsItHtml": "NSW legislation establishing alternatives to court for young offenders, including warnings, cautions and youth justice conferences.",
+      "whatItDemonstratesHtml": "Reflects the principle that young offenders should be diverted from the formal court system where appropriate, prioritising rehabilitation over punishment.",
+      "howToUseItHtml": "Use for questions on how the law treats young offenders, or the effectiveness of diversionary/restorative approaches to youth crime.",
+      "relatedTags": [
+        "young-offenders",
+        "diversion"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 883, 890)"
+    },
+    {
+      "id": "ev-crime-csp-act",
+      "type": "legislation",
+      "name": "Crimes (Sentencing Procedure) Act 1999 (NSW), s21A",
+      "citation": "NSW legislation",
+      "whatIsItHtml": "The NSW statute governing sentencing procedure; section 21A sets out the statutory list of aggravating and mitigating factors judges must consider.",
+      "whatItDemonstratesHtml": "Shows sentencing discretion operating within a structured statutory framework rather than being entirely at a judge's personal discretion.",
+      "howToUseItHtml": "Use for questions on sentencing factors and judicial discretion, pairing with a real case (e.g. Bugmy v The Queen) to show the framework applied in practice.",
+      "relatedTags": [
+        "sentencing"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 894-895)"
+    },
+    {
+      "id": "ev-crime-victims-rights",
+      "type": "legislation",
+      "name": "Victims Rights and Support Act 2013 (NSW)",
+      "citation": "NSW legislation",
+      "whatIsItHtml": "NSW legislation establishing victims' rights within the criminal justice process, including the framework for Victim Impact Statements.",
+      "whatItDemonstratesHtml": "Reflects a shift toward recognising victims as active participants in criminal proceedings, not just witnesses to the state's case.",
+      "howToUseItHtml": "Use for questions on the role of the victim in the criminal trial and sentencing processes.",
+      "relatedTags": [
+        "victims",
+        "sentencing"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (line 899) and Fort Street 2024 HSC Legal Studies Trial (lines 657-658)"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [],

@@ -50,6 +50,78 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-env-tasmanian-dam",
+      "type": "case",
+      "name": "Commonwealth v Tasmania (the Tasmanian Dam Case)",
+      "citation": "(1983) 158 CLR 1, High Court of Australia",
+      "whatIsItHtml": "A High Court case testing whether the Commonwealth could use its external affairs power to stop the Tasmanian government building a dam that would have flooded a World Heritage-listed wilderness area.",
+      "whatItDemonstratesHtml": "The Court upheld the Commonwealth's power to prevent the dam's construction, showing how international agreements (like the World Heritage Convention) can be used domestically via the external affairs power to protect the environment even against a state government's wishes.",
+      "howToUseItHtml": "Use for questions on the effectiveness of domestic legal mechanisms in implementing international environmental protection commitments.",
+      "relatedTags": [
+        "domestic-law",
+        "world-heritage"
+      ],
+      "source": "Existing verified StudyQuick content (src/content/legal/environment.json summary)"
+    },
+    {
+      "id": "ev-env-pabai",
+      "type": "case",
+      "name": "Pabai v Commonwealth (No 2)",
+      "citation": "[2025] FCA 796, Federal Court of Australia",
+      "whatIsItHtml": "A Federal Court case in which Torres Strait Islander claimants argued the Commonwealth owed a duty of care to set emissions targets in line with the best available climate science.",
+      "whatItDemonstratesHtml": "The Federal Court dismissed the claim in July 2025, finding no such novel duty of care existed — showing the limits of using domestic litigation to force stronger government climate action, with an appeal expected in 2026.",
+      "howToUseItHtml": "Use for questions on the effectiveness (or limitations) of domestic legal avenues in holding governments accountable for climate commitments, and on contemporary Indigenous-led climate litigation.",
+      "relatedTags": [
+        "climate-litigation",
+        "indigenous-people"
+      ],
+      "source": "Existing verified StudyQuick content (src/content/legal/environment.json summary)"
+    },
+    {
+      "id": "ev-env-kyoto",
+      "type": "treaty",
+      "name": "Kyoto Protocol",
+      "citation": "International treaty, adopted 1997",
+      "whatIsItHtml": "An international treaty that set binding greenhouse gas emission-reduction targets for developed countries.",
+      "whatItDemonstratesHtml": "Shows an early attempt at binding, differentiated international climate commitments — its binding-only-on-developed-countries structure was also a major point of criticism and a reason the Paris Agreement later took a different approach.",
+      "howToUseItHtml": "Use for questions on the evolution of international responses to climate change, contrasting binding vs. self-determined emissions frameworks.",
+      "relatedTags": [
+        "climate-change",
+        "international-instruments"
+      ],
+      "source": "Existing verified StudyQuick content (src/content/legal/environment.json summary)"
+    },
+    {
+      "id": "ev-env-paris",
+      "type": "treaty",
+      "name": "Paris Agreement",
+      "citation": "International treaty, adopted 2015",
+      "whatIsItHtml": "A near-universal international climate agreement under which signatory countries set their own nationally-determined emissions-reduction targets, aiming to limit global warming.",
+      "whatItDemonstratesHtml": "Shows a shift from the Kyoto Protocol's top-down binding targets to a bottom-up, nationally self-determined framework — broader participation, but weaker binding force on any individual country's targets.",
+      "howToUseItHtml": "Use for questions on the effectiveness of international climate agreements, or Australia's own responses to international climate commitments.",
+      "relatedTags": [
+        "climate-change",
+        "international-instruments"
+      ],
+      "source": "Existing verified StudyQuick content (src/content/legal/environment.json summary)"
+    },
+    {
+      "id": "ev-env-unclos",
+      "type": "treaty",
+      "name": "UN Convention on the Law of the Sea (UNCLOS)",
+      "citation": "International treaty, adopted 1982",
+      "whatIsItHtml": "The international treaty governing states' rights and responsibilities in their use of the world's oceans, including provisions on protecting the marine environment.",
+      "whatItDemonstratesHtml": "Shows environmental protection embedded within a broader treaty framework (maritime law) rather than a standalone environmental agreement.",
+      "howToUseItHtml": "Use for questions on international legal protection of the marine environment specifically, as distinct from atmospheric/climate treaties.",
+      "relatedTags": [
+        "marine-environment",
+        "international-instruments"
+      ],
+      "source": "Existing verified StudyQuick content (src/content/legal/environment.json summary)"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [],

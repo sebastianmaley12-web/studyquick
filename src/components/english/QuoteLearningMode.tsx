@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { lookupById, lookupManyById, type EnglishQuote, type EnglishText } from '../../lib/content/english'
 import { englishConfidenceKey } from '../../lib/keys'
-import { ConfidenceTag } from './ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 
 /** Words blanked out for the "missing word" activity — curated by hand per
  * quote rather than stripped programmatically, so the blank always lands on

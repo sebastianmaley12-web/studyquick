@@ -47,6 +47,90 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-wo-r2p",
+      "type": "example",
+      "name": "Responsibility to Protect (R2P)",
+      "citation": "UN doctrine, adopted 2005",
+      "whatIsItHtml": "An international doctrine holding that states have a responsibility to protect their populations from genocide, war crimes and crimes against humanity, and that the international community may intervene if a state fails to do so.",
+      "whatItDemonstratesHtml": "The trial source contrasts its use in Libya (2011, where R2P was invoked to authorise international intervention) against Syria (where, despite comparable atrocities, R2P was not invoked in the same way) — illustrating the doctrine's inconsistent application in practice.",
+      "howToUseItHtml": "Use to evaluate the effectiveness of legal/non-legal responses to conflict — R2P shows a real legal framework existing, but its selective use undermines claims that international law responds consistently to mass atrocity.",
+      "relatedTags": [
+        "conflict-resolution",
+        "state-sovereignty"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 1248, 1263)"
+    },
+    {
+      "id": "ev-wo-un-security-council",
+      "type": "example",
+      "name": "UN Security Council",
+      "citation": "Principal UN organ responsible for international peace and security",
+      "whatIsItHtml": "The UN body with primary responsibility for maintaining international peace and security, including the power to authorise sanctions and the use of force under Chapter VII of the UN Charter.",
+      "whatItDemonstratesHtml": "Its five permanent members hold veto power, meaning action can be blocked by a single permanent member regardless of the position of the rest of the international community — a frequently-cited limitation on world order's legal response mechanisms.",
+      "howToUseItHtml": "Use for questions on the effectiveness (and limitations) of the United Nations' role in maintaining world order, particularly the veto power's effect on decisive action.",
+      "relatedTags": [
+        "united-nations",
+        "conflict-resolution"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (line 1126)"
+    },
+    {
+      "id": "ev-wo-icj",
+      "type": "example",
+      "name": "International Court of Justice (ICJ)",
+      "citation": "The UN's principal judicial organ, established 1945",
+      "whatIsItHtml": "The United Nations' principal judicial body, which settles legal disputes between states and gives advisory opinions on international legal questions, including cases concerning genocide.",
+      "whatItDemonstratesHtml": "Provides a legal (rather than purely political or military) avenue for resolving disputes between states, but its rulings and advisory opinions depend on state cooperation for enforcement.",
+      "howToUseItHtml": "Use for questions on legal responses to world order issues, contrasting judicial/legal mechanisms with the Security Council's more political mechanisms.",
+      "relatedTags": [
+        "united-nations",
+        "conflict-resolution"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 1127, 1261-1262)"
+    },
+    {
+      "id": "ev-wo-icc",
+      "type": "example",
+      "name": "International Criminal Court (ICC)",
+      "citation": "Established by the Rome Statute, operational since 2002",
+      "whatIsItHtml": "A permanent international court that prosecutes individuals (not states) for genocide, war crimes, crimes against humanity and the crime of aggression.",
+      "whatItDemonstratesHtml": "Represents a shift from the ad hoc tribunal model (like the ICTY/ICTR) to a standing international legal institution — though its jurisdiction depends on state ratification of the Rome Statute, limiting its reach.",
+      "howToUseItHtml": "Use for questions on the effectiveness of international law in promoting peace, or to compare the permanent ICC model against earlier ad hoc tribunals.",
+      "relatedTags": [
+        "conflict-resolution"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 1127, 1248)"
+    },
+    {
+      "id": "ev-wo-geneva-conventions",
+      "type": "treaty",
+      "name": "Geneva Conventions (1949) and Additional Protocols (1977, 2005)",
+      "citation": "International humanitarian law treaties",
+      "whatIsItHtml": "The core treaties of international humanitarian law, setting rules for the humane treatment of the wounded, prisoners of war and civilians during armed conflict.",
+      "whatItDemonstratesHtml": "Demonstrates that binding international legal standards for the conduct of war exist and are widely ratified, even though enforcement against violations remains difficult.",
+      "howToUseItHtml": "Use for questions on the reform and adaptation of international law in maintaining world order during armed conflict.",
+      "relatedTags": [
+        "conflict-resolution",
+        "international-law"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (lines 1264-1265)"
+    },
+    {
+      "id": "ev-wo-npt",
+      "type": "treaty",
+      "name": "Nuclear Non-Proliferation Treaty (NPT)",
+      "citation": "International treaty, opened for signature 1968",
+      "whatIsItHtml": "An international treaty aiming to prevent the spread of nuclear weapons and weapons technology, while promoting peaceful uses of nuclear energy.",
+      "whatItDemonstratesHtml": "The trial source links this treaty to ongoing concerns over Iran's nuclear program, illustrating the tension between a treaty's formal commitments and the practical difficulty of enforcing compliance against a non-cooperating state.",
+      "howToUseItHtml": "Use for questions on legal responses to weapons proliferation and their limitations in practice.",
+      "relatedTags": [
+        "weapons-proliferation"
+      ],
+      "source": "Baulkham Hills 2025 HSC Legal Studies Trial (line 1266)"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [],

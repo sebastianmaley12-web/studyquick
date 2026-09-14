@@ -47,3 +47,12 @@ export function englishConfidenceKey(textId: string, entityKind: string, entityI
 export function englishNoteKey(textId: string, kind: string, id: string) {
   return `english-${textId}-${kind}#${id}`
 }
+
+/** Same Known/Shaky/Need-to-learn confidence tag as englishConfidenceKey,
+ * generalised for any subject's id-cross-referenced content (Legal's
+ * evidence bank, and future Modern History/Business evidence banks) —
+ * englishConfidenceKey itself is left untouched so existing saved English
+ * progress keeps working unchanged. */
+export function confidenceKey(subject: string, topicId: string, entityKind: string, entityId: string) {
+  return `${subject}-${topicId}-${entityKind}#${entityId}`
+}

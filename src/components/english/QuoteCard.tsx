@@ -1,6 +1,6 @@
 import { lookupById, lookupManyById, type EnglishQuote, type EnglishText } from '../../lib/content/english'
 import { englishConfidenceKey } from '../../lib/keys'
-import { ConfidenceTag } from './ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 
 /**
  * A single quote, revealed progressively (spec section 18): the quote

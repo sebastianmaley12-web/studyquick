@@ -16,7 +16,7 @@ import { ChapterNav } from '../components/english/ChapterNav'
 import { ShortAnswerPractice } from '../components/english/ShortAnswerPractice'
 import { EssayPractice } from '../components/english/EssayPractice'
 import { QuoteLearningMode } from '../components/english/QuoteLearningMode'
-import { ConfidenceTag } from '../components/english/ConfidenceTag'
+import { ConfidenceTag } from '../components/ConfidenceTag'
 import { englishConfidenceKey } from '../lib/keys'
 
 function isResource(v: string | undefined): v is EnglishResource {

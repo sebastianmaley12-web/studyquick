@@ -6,7 +6,7 @@ import {
   type TechniqueCategory,
 } from '../../lib/content/english'
 import { englishConfidenceKey } from '../../lib/keys'
-import { ConfidenceTag } from './ConfidenceTag'
+import { ConfidenceTag } from '../ConfidenceTag'
 
 /** Filterable technique reference table (spec section 6) — each row links
  * to a real example quote from the text rather than a generic dictionary
