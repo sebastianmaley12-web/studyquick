@@ -12,6 +12,9 @@ import {
   dueMathsKeys,
   pct,
 } from '../lib/progressStats'
+import { englishTextStats, moduleCStats, paper1Stats } from '../lib/englishProgressStats'
+import { ENGLISH_TEXTS } from '../lib/content/englishRegistry'
+import { MODULE_A } from '../content/english/module-a-textual-conversations'
 import { ProgressLine } from '../components/ProgressLine'
 
 interface TopicRow {
@@ -97,12 +100,46 @@ export function ProgressDashboard() {
     }
   })
 
+  // English has no flat topic list — each text's "score" combines its
+  // quote/technique quiz with its short-answer + essay practice notes (see
+  // englishTextStats), Module A's two texts also carry the module-level
+  // comparative essay questions, Module C is stimulus-practice-only, and
+  // Paper 1 is a module-level resource shared across every text.
+  const englishRows: TopicRow[] = ENGLISH_TEXTS.map((text) => {
+    const comparative = text.moduleId === 'module-a' ? MODULE_A.comparativeEssayQuestions ?? [] : []
+    const s = englishTextStats(progress, text, comparative)
+    return {
+      label: text.title,
+      to: `/subjects/english-advanced/${text.moduleId}/${text.id}/test`,
+      done: s.score,
+      total: s.max,
+      attempted: s.score > 0,
+    }
+  })
+  const moduleC = moduleCStats(progress)
+  englishRows.push({
+    label: 'Module C: Craft of Writing',
+    to: '/subjects/english-advanced/module-c/overview',
+    done: moduleC.done,
+    total: moduleC.total,
+    attempted: moduleC.done > 0,
+  })
+  const paper1 = paper1Stats(progress)
+  englishRows.push({
+    label: 'Paper 1: Language Techniques',
+    to: '/subjects/english-advanced/paper-1/techniques',
+    done: paper1.done,
+    total: paper1.total,
+    attempted: paper1.done > 0,
+  })
+
   const subjectGroups: SubjectGroup[] = [
     { name: 'Modern History', rows: historyRows },
     { name: 'Maths', rows: mathsRows },
     { name: 'Health & Movement Science', rows: hmsRows },
     { name: 'Business Studies', rows: businessRows },
     { name: 'Legal Studies', rows: legalRows },
+    { name: 'English Advanced', rows: englishRows },
   ]
 
   const weakSpots = subjectGroups
