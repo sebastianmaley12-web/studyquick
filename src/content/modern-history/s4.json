@@ -70,6 +70,106 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-mh-sophiatown-removals",
+      "type": "primary-source",
+      "name": "Photograph: a family awaiting relocation from Sophiatown, 1955",
+      "citation": "Photograph, 1955",
+      "whatIsItHtml": "A photograph of a family sitting with their possessions — a mattress, a basin, bundled belongings — in front of a partly demolished house, waiting to be relocated.",
+      "whatItDemonstratesHtml": "Removals from Sophiatown, one of the few areas where Black South Africans could own land, began on 9 February 1955 under the Natives Resettlement Act (1954); the area was later rebuilt as a white suburb renamed Triomf — a concrete visual record of forced removal policy in action.",
+      "howToUseItHtml": "Use for questions on the impact of apartheid legislation on Black South Africans, or on forced removals and land dispossession specifically.",
+      "relatedTags": [
+        "forced-removals",
+        "legislation"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source O)"
+    },
+    {
+      "id": "ev-mh-mandela-mass-action",
+      "type": "historian-quote",
+      "name": "Nelson Mandela, Long Walk to Freedom",
+      "citation": "2013 edition, p. 118",
+      "whatIsItHtml": "\"Mass action was perilous in South Africa, where it was a criminal offence to strike, and where the rights of free speech and movement were unmercifully curtailed. By striking, an African worker stood to not only lose his job but his entire livelihood and the right to stay in the area he was living.\"",
+      "whatItDemonstratesHtml": "Shows the personal and economic risks apartheid-era law attached to political resistance, explaining why mass action was both dangerous and courageous for Black South African workers.",
+      "howToUseItHtml": "Use for questions on the nature and methods of resistance to apartheid, or on the legal mechanisms used to suppress protest.",
+      "relatedTags": [
+        "resistance",
+        "mandela"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source P)"
+    },
+    {
+      "id": "ev-mh-sharpeville-testimony",
+      "type": "primary-source",
+      "name": "Eyewitness testimonies from Sharpeville",
+      "citation": "Quoted in Tom Lodge, Sharpeville: An Apartheid Massacre and its Consequences, 2011, pp. 12-13",
+      "whatIsItHtml": "Eyewitness Carlton Monnakgotla: \"I stood frozen, couldn't believe what was happening. Then I saw the bodies and people fleeing. Right in front of me a pregnant woman was shot.\" Eyewitness Ruben Rapoetsoe recalls police shouting \"Where is your land now, kaffirs?\" during the shooting, and a man shot after running toward the police station shouting \"It's enough, you've shot enough!\"",
+      "whatItDemonstratesHtml": "First-hand testimony of the brutality and disproportion of the state's response at the 1960 Sharpeville massacre, including evidence of racist language used by police during the shooting.",
+      "howToUseItHtml": "Use for questions on state violence and repression under apartheid, or on the significance of the Sharpeville massacre as a turning point in the struggle.",
+      "relatedTags": [
+        "sharpeville",
+        "state-violence"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source Q)"
+    },
+    {
+      "id": "ev-mh-trc-finding",
+      "type": "historian-quote",
+      "name": "Truth and Reconciliation Commission finding",
+      "citation": "\"The Former South African Government and its Security Forces\", 1998",
+      "whatIsItHtml": "\"The Truth and Reconciliation Commission (the Commission) found the state — and in particular its security agencies and affiliated policy and strategy formulation committees and councils — to be the primary perpetrators of gross violations of human rights committed during the thirty-four years it was mandated to investigate [1960-94].\"",
+      "whatItDemonstratesHtml": "An official, post-apartheid state finding that directly attributes primary responsibility for gross human rights violations to the apartheid government and its security apparatus.",
+      "howToUseItHtml": "Use for questions evaluating the legacy of apartheid, state responsibility for violence, or the role of the TRC in South Africa's transition.",
+      "relatedTags": [
+        "truth-and-reconciliation",
+        "state-violence"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source T)"
+    },
+    {
+      "id": "ev-mh-mandela-cross-border-raids",
+      "type": "historian-quote",
+      "name": "Nelson Mandela on South African military incursions",
+      "citation": "Long Walk to Freedom",
+      "whatIsItHtml": "\"In 1981, the South African Defence Force launched a raid on ANC offices in Maputo, Mozambique, killing thirteen of our people, including women and children. In December 1982 … the South African military again attacked an ANC outpost in Maseru, Lesotho, killing forty-two people, including a dozen women and children.\"",
+      "whatItDemonstratesHtml": "Shows the apartheid government's willingness to project violence beyond South Africa's own borders to suppress the ANC, including civilian casualties.",
+      "howToUseItHtml": "Use for questions on the international dimensions of apartheid-era repression, or the apartheid state's use of military force against opposition movements.",
+      "relatedTags": [
+        "anc",
+        "state-violence"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source V)"
+    },
+    {
+      "id": "ev-mh-awb-rally",
+      "type": "primary-source",
+      "name": "Photograph: a young boy at an AWB rally, Rustenburg, 1994",
+      "citation": "Photograph, 1994",
+      "whatIsItHtml": "A photograph of a young boy praying during a rally of the Afrikaner Weerstandsbeweging (AWB), a white-supremacist Afrikaner nationalist movement, with the AWB's three-sevens emblem (deliberately styled on the Nazi swastika) visible on a flag behind him.",
+      "whatItDemonstratesHtml": "Shows organised white-supremacist resistance to the end of apartheid persisting right up to 1994, and the movement's deliberate visual alignment with Nazi symbolism.",
+      "howToUseItHtml": "Use for questions on opposition to the transition away from apartheid, or on the range of political movements active in South Africa in the early 1990s.",
+      "relatedTags": [
+        "transition",
+        "white-nationalism"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source U)"
+    },
+    {
+      "id": "ev-mh-mandela-release-poster",
+      "type": "primary-source",
+      "name": "\"Free Nelson Mandela\" campaign poster",
+      "citation": "1988, published by The Pyramid Complex, Washington D.C.",
+      "whatIsItHtml": "A campaign poster with Mandela's face imposed onto a map of Africa, beneath the words \"Must Be Set Free!!!\" in bold red text.",
+      "whatItDemonstratesHtml": "Presents the demand for Mandela's release as a cause for the whole African continent, not South Africa alone, showing the international and pan-African dimension of the anti-apartheid movement by the late 1980s.",
+      "howToUseItHtml": "Use for questions on the international anti-apartheid movement, or on Mandela's symbolic significance as a focal point for global opposition to apartheid.",
+      "relatedTags": [
+        "mandela",
+        "international-pressure"
+      ],
+      "source": "StudyQuick's existing Modern History content (s4.json, Source R)"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [

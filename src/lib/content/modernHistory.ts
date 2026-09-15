@@ -39,6 +39,32 @@ interface HistoryPracticeGroup {
   questions: HistoryQuestion[]
 }
 
+export type HistoryEvidenceType = 'historian-quote' | 'primary-source' | 'statistic' | 'event' | 'interpretation'
+
+/** The evidence bank spec section 11 asks for: historical evidence,
+ * historians, sources, quotes and significance, each answering What is it?
+ * / What does it demonstrate (significance)? / How can I use it in a
+ * response?, the same pattern as Legal's LegalEvidenceItem. Sourced from
+ * real evidence-table documents the user had already compiled for their
+ * own study (see each topic JSON's own `evidence` entries' `source`
+ * field) — never invented. Several of those source documents include an
+ * explicit "check before you quote" list of internal figure
+ * inconsistencies between the user's own notes; entries here always use
+ * the corrected figure, never the flagged-wrong one. */
+export interface HistoryEvidenceItem {
+  id: string
+  type: HistoryEvidenceType
+  /** Historian name / primary source description / event name — exactly
+   * as it should appear in a real HSC response. */
+  name: string
+  citation: string | null
+  whatIsItHtml: string
+  whatItDemonstratesHtml: string
+  howToUseItHtml: string
+  relatedTags: string[]
+  source: string
+}
+
 export interface ModernHistoryTopicData {
   id: string
   meta: {
@@ -50,6 +76,7 @@ export interface ModernHistoryTopicData {
     note: string
     groups: { title: string; points: string[] }[]
   }
+  evidence: HistoryEvidenceItem[]
   practice: {
     notes: { bank: string | null; variant: string | null; html: string }[]
     sources: {
@@ -113,6 +140,7 @@ export const modernHistoryTopics = MODERN_HISTORY_TOPIC_IDS.map((id) => {
     triviaCount: data.trivia.length,
     quizCount: data.quiz.length,
     summaryPointCount: countSummaryPoints(data),
+    evidenceCount: data.evidence.length,
   }
 })
 
@@ -122,15 +150,17 @@ export const modernHistoryTotals = modernHistoryTopics.reduce(
     trivia: totals.trivia + t.triviaCount,
     quiz: totals.quiz + t.quizCount,
     summaryPoints: totals.summaryPoints + t.summaryPointCount,
+    evidence: totals.evidence + t.evidenceCount,
   }),
-  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0 },
+  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0, evidence: 0 },
 )
 
-export const MODERN_HISTORY_RESOURCES = ['summary', 'practice', 'trivia', 'quiz'] as const
+export const MODERN_HISTORY_RESOURCES = ['summary', 'evidence', 'practice', 'trivia', 'quiz'] as const
 export type ModernHistoryResource = (typeof MODERN_HISTORY_RESOURCES)[number]
 
 export const MODERN_HISTORY_RESOURCE_LABELS: Record<ModernHistoryResource, string> = {
   summary: 'Syllabus Summary',
+  evidence: 'Evidence Bank',
   practice: 'Practice Questions',
   trivia: 'Quick Trivia',
   quiz: 'Multiple Choice Quiz',

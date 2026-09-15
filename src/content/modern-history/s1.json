@@ -110,6 +110,148 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-mh-davies-lynch-fascism",
+      "type": "historian-quote",
+      "name": "P. Davies and D. Lynch, The Routledge Companion to Fascism and the Far Right",
+      "citation": "2002",
+      "whatIsItHtml": "\"In Italy and Germany there is a clear relationship between post-First World War economic malaise and the rise of fascist ideas... Hitler and Mussolini both placed particular emphasis on the economic dimension to Versailles.\"",
+      "whatItDemonstratesHtml": "A direct historiographical link between the economic consequences of the WWI peace settlement and the rise of fascism in both Italy and Germany.",
+      "howToUseItHtml": "Use as a set historian quote for questions on the relationship between the Treaty of Versailles and the rise of dictators after WWI.",
+      "relatedTags": [
+        "treaty-of-versailles",
+        "historiography"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, SURVEY section"
+    },
+    {
+      "id": "ev-mh-weimar-shallow-roots",
+      "type": "interpretation",
+      "name": "Weimar Republic's \"shallow roots\"",
+      "citation": null,
+      "whatIsItHtml": "The Weimar constitution was one of the most democratic in the world — freedom of speech, religion and the press, and equal votes for all men and women — \"and yet, throughout the years 1918 to 1933, many Germans could not bring themselves to support the Republic because it had been forced upon them. Here, democracy had shallow roots.\"",
+      "whatItDemonstratesHtml": "Frames Weimar's central paradox: its constitutional design was genuinely democratic, but its problem was legitimacy — it was associated with Germany's WWI defeat, not constitutional flaws alone.",
+      "howToUseItHtml": "Use to open an answer on the political weaknesses of the Weimar Republic — a strong single-sentence framing device.",
+      "relatedTags": [
+        "weimar-republic"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-article-48",
+      "type": "statistic",
+      "name": "Article 48 emergency decree powers",
+      "citation": null,
+      "whatIsItHtml": "Article 48 of the Weimar constitution allowed the President to make laws by decree, intended only for crises — but President Ebert himself used it 135 times, and not always in crises.",
+      "whatItDemonstratesHtml": "Shows a structural weakness in the Weimar constitution being exploited even by a democratically-committed president, before Hitler later used the same mechanism to govern without the Reichstag.",
+      "howToUseItHtml": "Use for questions on the constitutional weaknesses of Weimar and the mechanism Hitler later exploited to consolidate power.",
+      "relatedTags": [
+        "weimar-republic",
+        "constitution"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 3 (figure corrected per the document's own \"check before you quote\" list: 135, not the 136 given elsewhere in the same notes)"
+    },
+    {
+      "id": "ev-mh-beer-hall-putsch-trial",
+      "type": "event",
+      "name": "Hitler's trial after the Beer Hall Putsch",
+      "citation": "November 1923",
+      "whatIsItHtml": "Hitler was tried for the Beer Hall Putsch, a treasonable offence in which four people died. He was allowed to debate the court for hours, declaring there was \"no such thing as high treason against the traitors of 1918\", and received only a five-year sentence of which he served barely a year.",
+      "whatItDemonstratesHtml": "One of the clearest, most quantified pieces of evidence for elite/judicial hostility to the Weimar Republic — right-wing offenders were treated leniently by a judiciary that did not believe in the Republic.",
+      "howToUseItHtml": "Use for questions on why elites failed to defend Weimar democracy, or on judicial bias as a contributor to the Republic's collapse.",
+      "relatedTags": [
+        "weimar-republic",
+        "hitler"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-depression-unemployment",
+      "type": "statistic",
+      "name": "Great Depression unemployment in Germany",
+      "citation": "1929-1932",
+      "whatIsItHtml": "By early 1929 unemployment reached 2.5 million; by 1932 it had reached 6 million — one-third of all workers, affecting 13 million people including dependents. The middle class (bank workers, civil servants, shopkeepers) suffered too.",
+      "whatItDemonstratesHtml": "Gives the full economic sequence of the Depression's impact on Germany with precise figures, showing the scale that created the conditions for Nazi electoral breakthrough.",
+      "howToUseItHtml": "Use for questions on the economic conditions that enabled the Nazi rise to power — precise statistics are exactly what a marks-based response rewards.",
+      "relatedTags": [
+        "great-depression",
+        "weimar-republic"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-solmitz-torchlight",
+      "type": "primary-source",
+      "name": "Luise Solmitz on the Hamburg torchlight procession",
+      "citation": "Contemporary eyewitness account, German teacher",
+      "whatIsItHtml": "\"20,000 brownshirts followed one another like waves in the sea, their faces shone with enthusiasm... They sang The Republic is shit... They sang of the blood of the Jews which would squirt from their knives.\"",
+      "whatItDemonstratesHtml": "Contemporary eyewitness evidence that Nazi violence and antisemitism were open and public from early on, not hidden or discovered only later.",
+      "howToUseItHtml": "Use as a primary source quote for questions on the nature of Nazi ideology, propaganda, or the openness of antisemitic violence before 1933.",
+      "relatedTags": [
+        "nazi-ideology",
+        "antisemitism"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-mussolini-vs-hitler-stalin",
+      "type": "interpretation",
+      "name": "Mussolini's dictatorship compared to Stalin's and Hitler's",
+      "citation": null,
+      "whatIsItHtml": "Mussolini's dictatorship \"was never as all-pervasive as what was to become Stalin's leadership in the Soviet Union, nor was it as ideological as the Nazi dictatorship.\"",
+      "whatItDemonstratesHtml": "A direct comparative historical judgement useful for essays explicitly comparing the three interwar dictatorships.",
+      "howToUseItHtml": "Use as the comparative judgement for an 8-mark question comparing the features of the Russian, Italian and Japanese dictatorships.",
+      "relatedTags": [
+        "fascism",
+        "comparison"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 2"
+    },
+    {
+      "id": "ev-mh-japan-militaristic-group",
+      "type": "interpretation",
+      "name": "Japan's dictatorship as a \"militaristic group\", not an individual",
+      "citation": null,
+      "whatIsItHtml": "\"Unlike other countries during this time, there was no leading charismatic figure in Japan who spearheaded the head of a single political party.\" Japan remained officially a parliamentary democracy with a cabinet answerable to the Emperor until Tojo established military rule, but with a strongly militaristic culture and \"a cult of assassination to silence opponents of the military\". \"Japan's rise was that of a militaristic group rather than an individual seizing power.\"",
+      "whatItDemonstratesHtml": "The single most important point distinguishing Japan's path to dictatorship from Italy's and Germany's — no single charismatic dictator, but a militaristic institutional takeover.",
+      "howToUseItHtml": "Use as the key comparative point for questions on the features of the Japanese dictatorship specifically, or comparing all three interwar dictatorships.",
+      "relatedTags": [
+        "japan",
+        "comparison"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 2"
+    },
+    {
+      "id": "ev-mh-nuremberg-laws",
+      "type": "event",
+      "name": "The Nuremberg Laws",
+      "citation": "1935",
+      "whatIsItHtml": "The \"Law for the Protection of German Blood and German Honour\" banned marriage or sexual relations between Jews and Germans; the \"Reich Citizenship Law\" deprived Jews of German citizenship and created two categories, Reich Citizens and Nationals. Jewish passports were stamped with a red \"J\". Between 1933 and 1939, more than 400 pieces of anti-Jewish legislation were created in total.",
+      "whatItDemonstratesHtml": "The legal foundation of Nazi racial policy — naming both specific 1935 laws (not just \"the Nuremberg Laws\" generically) and the scale (400+ laws) shows the systematic character of persecution.",
+      "howToUseItHtml": "Use for questions on Nazi methods of control through law, or on the persecution of Jewish people specifically.",
+      "relatedTags": [
+        "nazi-ideology",
+        "antisemitism",
+        "legislation"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-gestapo-denunciation",
+      "type": "interpretation",
+      "name": "The Gestapo's reliance on denunciation, not manpower",
+      "citation": null,
+      "whatIsItHtml": "The Gestapo, established in 1933 and responsible for internal security, had a fearsome reputation but relatively low numbers, relying heavily on public informants — which is how \"the fear of arrest and Nazi terror\" reached all aspects of daily life.",
+      "whatItDemonstratesHtml": "The most important interpretive point about Nazi terror: it worked through ordinary citizens denouncing each other, not through sheer numbers of secret police.",
+      "howToUseItHtml": "Use for questions on the methods the Nazi regime used to exercise control, specifically terror and repression.",
+      "relatedTags": [
+        "nazi-control",
+        "terror"
+      ],
+      "source": "Power and Authority - Evidence Table.docx, FOCUS 7"
+    }
+  ],
   "practice": {
     "notes": [],
     "sources": [

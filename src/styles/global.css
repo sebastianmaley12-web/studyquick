@@ -7245,6 +7245,18 @@ footer {
 .evidence-card[data-type='example'] {
   border-left-color: var(--ink-faint);
 }
+.evidence-card[data-type='historian-quote'] {
+  border-left-color: var(--navy);
+}
+.evidence-card[data-type='primary-source'] {
+  border-left-color: var(--rust);
+}
+.evidence-card[data-type='event'] {
+  border-left-color: var(--olive);
+}
+.evidence-card[data-type='interpretation'] {
+  border-left-color: var(--ink-faint);
+}
 
 .evidence-card-head {
   display: flex;

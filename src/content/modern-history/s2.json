@@ -136,6 +136,153 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-mh-mccauley-stalin",
+      "type": "historian-quote",
+      "name": "McCauley on Stalin's rise",
+      "citation": null,
+      "whatIsItHtml": "\"Stalin was moderate and methodical, not to say pedestrian, but he was the only one skilled at building tactical alliances and this put him head and shoulders above the rest.\"",
+      "whatItDemonstratesHtml": "A concise historian's answer to why Stalin, rather than a more charismatic rival, emerged as leader by the late 1920s.",
+      "howToUseItHtml": "Use as a strong single-sentence historian quote answering \"Why was Stalin able to emerge as leader by the late 1920s?\" (a real 2019 HSC question).",
+      "relatedTags": [
+        "stalin",
+        "power-struggle"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-alan-wood-stalin-cult",
+      "type": "historian-quote",
+      "name": "Alan Wood on Stalin's use of the Lenin cult",
+      "citation": null,
+      "whatIsItHtml": "\"Although intellectually Trotsky's inferior, Stalin was by far the cleverer politician. He had outmanoeuvred his arch-rival on every possible front, not least through his skilful manipulation of the cult of Leninism... in which Stalin, the ex-seminarist, appeared in the role of high priest.\"",
+      "whatItDemonstratesHtml": "The single best historian quote on how Stalin used Lenin's legacy — presenting himself as Lenin's loyal disciple rather than an intellectual equal — to defeat more theoretically capable rivals like Trotsky.",
+      "howToUseItHtml": "Use for questions on the power struggle after Lenin's death, or on Stalin's manipulation of ideology and legacy.",
+      "relatedTags": [
+        "stalin",
+        "trotsky",
+        "power-struggle"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-trotsky-dispenser",
+      "type": "primary-source",
+      "name": "Trotsky on Stalin as General Secretary",
+      "citation": null,
+      "whatIsItHtml": "\"In his position as General Secretary he became the dispenser of favour and fortune.\"",
+      "whatItDemonstratesHtml": "Stalin's own defeated rival conceding, after the fact, exactly how the General Secretary role's control over appointments became the mechanism of Stalin's victory.",
+      "howToUseItHtml": "Use as a primary source quote from a defeated rival — powerful because it comes from someone with every reason to minimise Stalin's skill, yet concedes the mechanism.",
+      "relatedTags": [
+        "stalin",
+        "trotsky",
+        "power-struggle"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-stalin-left-right-flip",
+      "type": "interpretation",
+      "name": "Stalin's tactical shift between the Left and Right factions",
+      "citation": null,
+      "whatIsItHtml": "Stalin backed the Right (Bukharin's continuation of the NEP) while it was popular, then swapped to the Left's position (rapid industrialisation, ending the NEP) once the 1927 scissors crisis made the NEP unsustainable.",
+      "whatItDemonstratesHtml": "Shows political flexibility, rather than fixed ideological conviction, as a decisive factor in Stalin's rise — he read and followed the mood of the Party rather than leading it ideologically.",
+      "howToUseItHtml": "Use for questions on why Stalin emerged as leader, or on the ideological debates within the Bolshevik party in the 1920s.",
+      "relatedTags": [
+        "stalin",
+        "nep",
+        "power-struggle"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 3"
+    },
+    {
+      "id": "ev-mh-1937-population-deficit",
+      "type": "statistic",
+      "name": "1937 Soviet census population deficit",
+      "citation": null,
+      "whatIsItHtml": "The population of the Soviet Union in 1937 should have been 180 million; in actuality it was 164 million. Many estimate 14 million people were killed during the Terror.",
+      "whatItDemonstratesHtml": "The most efficient single statistic for conveying the human scale of Stalin's Great Terror — a 16-million-person shortfall against projected population.",
+      "howToUseItHtml": "Use for questions on the scale and impact of Stalin's political terror, or on the human cost of the Soviet state's transformation.",
+      "relatedTags": [
+        "great-terror",
+        "statistics"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6"
+    },
+    {
+      "id": "ev-mh-army-purges",
+      "type": "statistic",
+      "name": "The 1937-38 Red Army purges",
+      "citation": null,
+      "whatIsItHtml": "50% of all armed forces personnel were purged, with an estimated 30,000 killed — including 3 of 5 army marshals, 75 of 80 members of the Supreme Military Council, 11 Deputy Commissars of Defence, half (35,000) of the officer corps, all 8 admirals of the Soviet Fleet, 126 of 199 divisional commanders, and 14 of 16 Army Class I and II commanders.",
+      "whatItDemonstratesHtml": "The most quotable statistical cluster on the Terror's reach into the military — and directly connects to 1941, since the resulting inexperienced leadership contributed to the USSR's early catastrophic losses against Operation Barbarossa.",
+      "howToUseItHtml": "Use for questions on the impact of the Terror, or on Soviet military weakness at the start of the German invasion in 1941.",
+      "relatedTags": [
+        "great-terror",
+        "red-army",
+        "statistics"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6 (officer-corps figure corrected per the document's own \"check before you quote\" list: 35,000, not a garbled \"35,0000\" elsewhere in the same notes)"
+    },
+    {
+      "id": "ev-mh-dencausse-atomisation",
+      "type": "historian-quote",
+      "name": "Helene Carrere d'Encausse on social atomisation",
+      "citation": null,
+      "whatIsItHtml": "\"The mutual distrust... the fear of being compromised had isolated every individual. This social atomisation was a decisive help to Stalin's power which was able from then on to grow unhindered.\"",
+      "whatItDemonstratesHtml": "The best explanation of how terror produced lasting political transformation rather than simply causing deaths — by isolating individuals from each other, it removed the possibility of collective resistance.",
+      "howToUseItHtml": "Use for questions on how the Terror contributed to the political transformation of the Soviet state, not just its human cost.",
+      "relatedTags": [
+        "great-terror",
+        "historiography"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6"
+    },
+    {
+      "id": "ev-mh-bukharin-devil-quote",
+      "type": "primary-source",
+      "name": "Bukharin on Stalin, 1936",
+      "citation": "Written before his own show trial",
+      "whatIsItHtml": "\"Stalin is convinced that he is greater than everyone else. If someone speaks better than he does, that man is for it. Stalin will not let him live, because that man is a constant reminder that he, Stalin, is not the first and best. He is not a man but a devil.\"",
+      "whatItDemonstratesHtml": "A victim's own psychological reading of Stalin's motives for the Terror, made more powerful by the fact Bukharin himself was executed in a show trial shortly after.",
+      "howToUseItHtml": "Use as a primary source quote for questions on the causes or nature of the Great Terror, particularly Stalin's personal psychology as a contributing factor.",
+      "relatedTags": [
+        "great-terror",
+        "stalin",
+        "show-trials"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6"
+    },
+    {
+      "id": "ev-mh-gulag-numbers",
+      "type": "statistic",
+      "name": "Estimates of those who passed through the Gulag system",
+      "citation": null,
+      "whatIsItHtml": "Labour camps existed from 1919 but became notorious under Stalin, only beginning to close after his death in 1953. Estimates of those who passed through range from 14 million to 24 million, with at least 1.5 million not surviving.",
+      "whatItDemonstratesHtml": "Shows the scale of the Gulag system while being explicit that the exact figure is contested among historians — citing a range rather than a single number demonstrates awareness of historiographical debate.",
+      "howToUseItHtml": "Use for questions on the nature and impact of Stalin's use of terror — cite the range and note it is contested rather than asserting a single precise figure.",
+      "relatedTags": [
+        "gulags",
+        "great-terror"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6 (figure corrected per the document's own \"check before you quote\" list: the 14-24 million range, not the chapter notes' inconsistent \"12-24 million\")"
+    },
+    {
+      "id": "ev-mh-zinoviev-confession",
+      "type": "primary-source",
+      "name": "Zinoviev's confession at his 1936 show trial",
+      "citation": "August 1936",
+      "whatIsItHtml": "\"I would like to repeat that I am fully and utterly guilty. I am guilty of having been the organiser, second only to Trotsky, of that block whose chosen task was the killing of Stalin... The party saw where we were going, and warned us; Stalin warned us scores of times.\"",
+      "whatItDemonstratesHtml": "A confession in the defendant's own words, capturing the theatrical, scripted nature of the show trials — Zinoviev was shot shortly after despite (or because of) this confession.",
+      "howToUseItHtml": "Use as a primary source quote for questions on the nature and purpose of the show trials specifically.",
+      "relatedTags": [
+        "show-trials",
+        "great-terror"
+      ],
+      "source": "Russia and the Soviet Union - Evidence Table.docx, FOCUS 6"
+    }
+  ],
   "practice": {
     "notes": [
       {

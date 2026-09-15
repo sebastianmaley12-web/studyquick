@@ -4,6 +4,7 @@ import { HistoryRail } from '../components/rail/HistoryRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import { PracticeSection } from '../components/practice/PracticeSection'
+import { HistoryEvidenceBank } from '../components/modernHistory/HistoryEvidenceBank'
 import { SearchBar } from '../components/SearchBar'
 import { useTopicSearch } from '../hooks/useTopicSearch'
 import { SearchQueryProvider, highlightHtml } from '../context/SearchQueryContext'
@@ -112,6 +113,9 @@ export function ModernHistoryTopic() {
                     </div>
                   ))}
                 </>
+              )}
+              {resource === 'evidence' && (
+                <HistoryEvidenceBank topicId={topicId} items={data.evidence} />
               )}
               {resource === 'quiz' && (
                 <QuizPanel subject="modern-history" topicId={topicId} questions={data.quiz} />

@@ -68,6 +68,151 @@
       }
     ]
   },
+  "evidence": [
+    {
+      "id": "ev-mh-shirer-untermenschen",
+      "type": "historian-quote",
+      "name": "William Shirer on Nazi racial ideology",
+      "citation": "1964",
+      "whatIsItHtml": "\"The Jews and the Slavic peoples were the Untermenschen — sub-humans. To Hitler they had no right to live, except as some of them, among the Slavs, might be needed to toil in the fields and the mines as slaves of their German masters.\"",
+      "whatItDemonstratesHtml": "Ties the Holocaust directly to Nazi Lebensraum ideology and the wider racial war in the East, rather than treating it as a separate topic from German foreign policy and military conquest.",
+      "howToUseItHtml": "Use for questions on the nature and causes of the Holocaust, connecting Nazi racial ideology to the broader war aims.",
+      "relatedTags": [
+        "holocaust",
+        "nazi-ideology"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-wannsee-conference",
+      "type": "event",
+      "name": "The Wannsee Conference",
+      "citation": "20 January 1942",
+      "whatIsItHtml": "A 90-minute meeting, attended by senior Nazi officials, at which blueprints for gas chambers were drawn up, lists of Jews per territory were produced (over 7.5 million Jews then lived in German-occupied territory), secrecy was stressed, and transport by freight wagon, cattle truck and rail was organised by Adolf Eichmann under the pretext of \"resettlement\".",
+      "whatItDemonstratesHtml": "Shows the bureaucratic, deliberately-planned character of the Final Solution — genocide organised through ordinary administrative meeting minutes, not chaotic violence.",
+      "howToUseItHtml": "Use for questions on the nature of the Holocaust, particularly its planned, bureaucratic character.",
+      "relatedTags": [
+        "holocaust",
+        "final-solution"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-warsaw-ghetto",
+      "type": "statistic",
+      "name": "Warsaw Ghetto population density",
+      "citation": "Established 1940",
+      "whatIsItHtml": "The Warsaw Ghetto held 450,000 people in 3.5 square kilometres — roughly 30% of the city's population confined to about 2.4% of its area, with poor food, almost no medical facilities, and thousands dying of starvation and disease.",
+      "whatItDemonstratesHtml": "The most powerful single piece of evidence on ghetto conditions specifically — precise density figures make the scale of deliberate overcrowding concrete.",
+      "howToUseItHtml": "Use for questions on the impact of the Holocaust on civilians, specifically ghetto conditions before mass deportation to camps.",
+      "relatedTags": [
+        "holocaust",
+        "ghettos"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-holocaust-death-toll",
+      "type": "statistic",
+      "name": "Holocaust death toll",
+      "citation": null,
+      "whatIsItHtml": "In total, 6 million Jews were murdered, 4 million of them in the extermination camps. The wider Holocaust (including homosexuals, communists, political opponents, Roma and Sinti people, and Jehovah's Witnesses) led to the deaths of as many as 17 million people in total.",
+      "whatItDemonstratesHtml": "Corrects the common error of equating \"the Holocaust\" solely with Jewish deaths in the camps — many victims across several targeted groups were gassed, shot or starved outside the camps entirely, in ghettos or on the way to them.",
+      "howToUseItHtml": "Use for questions assessing the scale and nature of the Holocaust — the 17 million figure is useful for demonstrating awareness that Jewish victims, while the overwhelming majority, were not the only targeted group.",
+      "relatedTags": [
+        "holocaust",
+        "statistics"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-jews-killed-by-country",
+      "type": "statistic",
+      "name": "Jews killed under Nazi rule, by country",
+      "citation": null,
+      "whatIsItHtml": "Poland: 2,800,000 of 3,300,000 killed (15% surviving). Occupied USSR: 1,500,000 of 2,100,000 (29% surviving). Romania: 425,000 of 850,000 (50% surviving). Germany/Austria: 210,000 of 270,000 (22% surviving). Hungary: 200,000 of 404,000 (49% surviving).",
+      "whatItDemonstratesHtml": "Shows the Holocaust was overwhelmingly an eastern, occupied-territory event — Polish and Soviet Jewish communities suffered the highest absolute death tolls and lowest survival rates.",
+      "howToUseItHtml": "Use for questions on the geographic scope and scale of the Holocaust across Nazi-occupied Europe.",
+      "relatedTags": [
+        "holocaust",
+        "statistics"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 7"
+    },
+    {
+      "id": "ev-mh-overy-kursk",
+      "type": "historian-quote",
+      "name": "Richard Overy on the Battle of Kursk",
+      "citation": null,
+      "whatIsItHtml": "\"The struggle for Kursk tore the heart out of the German Army... Soviet success at Kursk, with so much at stake, was the most important single victory of the war... It was the point at which the initiative passed to the Soviet side.\"",
+      "whatItDemonstratesHtml": "The strongest historiographical claim for Kursk (July 1943), rather than Stalingrad or D-Day, as THE decisive turning point of the war in Europe.",
+      "howToUseItHtml": "Use for questions asking which battle was the most significant turning point of the European war — a genuine historiographical debate, not a settled fact.",
+      "relatedTags": [
+        "eastern-front",
+        "historiography",
+        "turning-point"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 4"
+    },
+    {
+      "id": "ev-mh-christian-moscow",
+      "type": "historian-quote",
+      "name": "David Christian on the Battle of Moscow",
+      "citation": null,
+      "whatIsItHtml": "\"A longer, more savage war enabled Russia to exploit to the full its huge reserves of raw materials and labour. In this sense, the battle of Moscow was a turning point.\"",
+      "whatItDemonstratesHtml": "Offers a competing historiographical position to Overy's Kursk argument, naming Moscow (December 1941) rather than Stalingrad or Kursk as the true turning point of the Eastern Front.",
+      "howToUseItHtml": "Use to build a genuinely balanced answer on the most significant turning point of the war, showing awareness that historians disagree.",
+      "relatedTags": [
+        "eastern-front",
+        "historiography",
+        "turning-point"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 4"
+    },
+    {
+      "id": "ev-mh-rundstedt-quote",
+      "type": "primary-source",
+      "name": "General von Rundstedt on the Russian campaign",
+      "citation": null,
+      "whatIsItHtml": "\"The vastness of Russia devours us.\"",
+      "whatItDemonstratesHtml": "A single line from a senior German commander that captures geography, logistics and declining morale as causes of Operation Barbarossa's failure, all at once.",
+      "howToUseItHtml": "Use as a concise, quotable primary source for questions on why Germany's campaign in Russia failed.",
+      "relatedTags": [
+        "eastern-front",
+        "barbarossa"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 4"
+    },
+    {
+      "id": "ev-mh-halder-quote",
+      "type": "primary-source",
+      "name": "General Halder on underestimating the Soviet Union",
+      "citation": null,
+      "whatIsItHtml": "\"We had underestimated the Russian giant... at the start of the war we reckoned on 200 enemy divisions... Time favours them, they are near their own resources. We are moving farther and farther away from ours... in these enormous spaces too many gaps have to be left open.\"",
+      "whatItDemonstratesHtml": "A senior German commander conceding, in his own words, the strategic miscalculation at the heart of the failed Russian campaign — Soviet reserves and German overextension.",
+      "howToUseItHtml": "Use as a primary source for questions on why Germany's campaign in Russia failed, particularly strategic miscalculation.",
+      "relatedTags": [
+        "eastern-front",
+        "barbarossa"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 4"
+    },
+    {
+      "id": "ev-mh-stalingrad-losses",
+      "type": "statistic",
+      "name": "Battle of Stalingrad casualties",
+      "citation": "1942-1943",
+      "whatIsItHtml": "200,000 Axis soldiers died and 91,000 were taken to Soviet prisoner-of-war camps, of whom only a few thousand ever returned to Germany. Soviet losses were an estimated 1 million troops.",
+      "whatItDemonstratesHtml": "Shows both the scale of the German defeat and the immense price the USSR paid for it — Stalingrad was catastrophic for both sides, not a low-cost Soviet victory.",
+      "howToUseItHtml": "Use for questions on the significance of the Battle of Stalingrad to the course of the European war.",
+      "relatedTags": [
+        "eastern-front",
+        "stalingrad",
+        "statistics"
+      ],
+      "source": "Conflict in Europe - Evidence Table.docx, FOCUS 4"
+    }
+  ],
   "practice": {
     "notes": [
       {
