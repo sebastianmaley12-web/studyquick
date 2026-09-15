@@ -65,8 +65,8 @@ export function Paper1QuestionCard({ question }: { question: McQuestion }) {
 
       {answered && (
         <div className="q-p1-explanation">
-          <div className={`q-p1-verdict ${answer.ok ? 'right' : 'wrong'}`}>
-            {answer.ok ? 'Correct.' : 'Not quite.'}
+          <div className={`q-p1-verdict ${answer.ok ? 'right' : 'wrong'}`} role="status" aria-live="polite">
+            {answer.ok ? 'Correct.' : `Not quite — the correct answer is ${question.correctOpt.toUpperCase()}.`}
           </div>
 
           <div className="q-p1-explain-row">

@@ -8,12 +8,15 @@ export function AnswerBox({ noteKey }: { noteKey: string }) {
 
   useEffect(() => () => clearTimeout(flashTimer.current), [])
 
+  const inputId = `answerbox-${noteKey.replace(/[^a-zA-Z0-9_-]/g, '-')}`
+
   return (
     <div className="answerbox">
-      <label>
+      <label htmlFor={inputId}>
         Your attempt <span className={`saved ${showSaved ? 'show' : ''}`}>saved</span>
       </label>
       <textarea
+        id={inputId}
         placeholder="Draft your response here before revealing the plan. Saved automatically on this device."
         value={saved}
         onChange={(e) => {

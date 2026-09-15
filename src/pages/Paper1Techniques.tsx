@@ -163,37 +163,37 @@ export function Paper1Techniques() {
                 ) : mode === null ? (
                   <div className="q-p1-mode-grid">
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('quick')}>
-                      <h4>Quick Practice</h4>
+                      <h3>Quick Practice</h3>
                       <p>A short, adaptive set that prioritises your weakest techniques.</p>
                       <span className="q-quote-count">{quickPool.length} questions</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('identify')}>
-                      <h4>Technique Identification</h4>
+                      <h3>Technique Identification</h3>
                       <p>Which technique is most prominent in this quotation?</p>
                       <span className="q-quote-count">{identifyQuestions.length} questions</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('identify-effect')}>
-                      <h4>Technique + Effect</h4>
+                      <h3>Technique + Effect</h3>
                       <p>Identify the technique AND its effect together.</p>
                       <span className="q-quote-count">{identifyEffectQuestions.length} questions</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('analysis')}>
-                      <h4>Analysis Practice</h4>
+                      <h3>Analysis Practice</h3>
                       <p>Pick the most specific, accurate explanation of how language builds meaning.</p>
                       <span className="q-quote-count">{analysisQuestions.length} questions</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('open-response')}>
-                      <h4>Write Your Own Analysis</h4>
+                      <h3>Write Your Own Analysis</h3>
                       <p>Open response, self-assessed against a model analysis.</p>
                       <span className="q-quote-count">{openResponseQuestions.length} prompts</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('comparison')}>
-                      <h4>Technique Comparison</h4>
+                      <h3>Technique Comparison</h3>
                       <p>How does language differ between two quotations?</p>
                       <span className="q-quote-count">{comparisonQuestions.length} comparisons</span>
                     </button>
                     <button type="button" className="q-p1-mode-card" onClick={() => setMode('unseen')}>
-                      <h4>Unseen Practice</h4>
+                      <h3>Unseen Practice</h3>
                       <p>Original persuasive, poetic and visual extracts you haven't seen before.</p>
                       <span className="q-quote-count">{PAPER_ONE_UNSEEN.length} extracts</span>
                     </button>

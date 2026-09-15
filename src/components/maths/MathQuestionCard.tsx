@@ -175,6 +175,7 @@ export function MathQuestionCard({
         )}
         <textarea
           className="mx-scratch"
+          aria-label="Your working"
           placeholder="Use this space to show your working — optional, not saved or graded"
           value={scratch}
           onChange={(e) => setScratch(e.target.value)}
@@ -191,6 +192,7 @@ export function MathQuestionCard({
               <input
                 type="text"
                 inputMode="decimal"
+                aria-label="Final answer"
                 placeholder="?"
                 value={inputValue}
                 disabled={answered}
@@ -240,7 +242,7 @@ export function MathQuestionCard({
 
       {answered && (
         <div className="mx-feedback">
-          <div className={`mx-feedback-banner ${saved.ok ? 'ok' : 'no'}`}>
+          <div className={`mx-feedback-banner ${saved.ok ? 'ok' : 'no'}`} role="status" aria-live="polite">
             {saved.ok ? (
               '✓ Correct'
             ) : (

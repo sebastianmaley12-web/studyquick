@@ -97,7 +97,7 @@ export function ModernHistorySubject() {
       <div className="res-grid">
         <div className="res-card">
           <div className="ic">&#9776;</div>
-          <h4>Syllabus Summary</h4>
+          <h2>Syllabus Summary</h2>
           <p>
             Every official NESA dot point for the topic, grouped exactly as the syllabus groups
             them, with the key dates, figures and statistics written in.
@@ -106,7 +106,7 @@ export function ModernHistorySubject() {
         </div>
         <div className="res-card">
           <div className="ic">&#9998;</div>
-          <h4>Practice Questions</h4>
+          <h2>Practice Questions</h2>
           <p>
             Exam-style questions with a hidden answer plan under each — thesis, paragraph structure,
             evidence and verified historian quotes. Attempt first, then reveal.
@@ -115,7 +115,7 @@ export function ModernHistorySubject() {
         </div>
         <div className="res-card">
           <div className="ic">&#9889;</div>
-          <h4>Quick Trivia</h4>
+          <h2>Quick Trivia</h2>
           <p>
             Quick-fire recall cards. Tap to flip. Best used in short bursts for dates, names and
             definitions.
@@ -124,7 +124,7 @@ export function ModernHistorySubject() {
         </div>
         <div className="res-card">
           <div className="ic">&#9673;</div>
-          <h4>Multiple Choice Quiz</h4>
+          <h2>Multiple Choice Quiz</h2>
           <p>
             Four-option questions marked instantly with a running score, so you can spot the dot
             points you have not locked in yet.

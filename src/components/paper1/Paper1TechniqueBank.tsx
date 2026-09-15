@@ -41,6 +41,7 @@ export function Paper1TechniqueBank({
         <input
           type="search"
           className="q-filter-search"
+          aria-label="Search techniques"
           placeholder="Search techniques…"
           value={search}
           onChange={(e) => setSearch(e.target.value)}

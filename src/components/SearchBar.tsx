@@ -27,6 +27,7 @@ export function SearchBar({
       <input
         ref={inputRef}
         type="text"
+        aria-label="Search every topic — dates, names, terms"
         placeholder="Search every topic — dates, names, terms…"
         autoComplete="off"
         value={value}

@@ -101,6 +101,8 @@ export function QuoteLearningMode({ text }: { text: EnglishText }) {
                   'q-learning-feedback',
                   typedAnswer.trim().toLowerCase() === item.answer.toLowerCase() ? 'right' : 'wrong',
                 ].join(' ')}
+                role="status"
+                aria-live="polite"
               >
                 The missing word is <b>{item.answer}</b>.
               </div>
@@ -136,6 +138,24 @@ export function QuoteLearningMode({ text }: { text: EnglishText }) {
                 </button>
               ))}
             </div>
+            {revealed && (
+              <div
+                className={[
+                  'q-learning-feedback',
+                  typedAnswer === item.correct ? 'right' : 'wrong',
+                ].join(' ')}
+                role="status"
+                aria-live="polite"
+              >
+                {typedAnswer === item.correct ? (
+                  'Correct!'
+                ) : (
+                  <>
+                    Not quite — the correct answer is <b>{item.correct}</b>.
+                  </>
+                )}
+              </div>
+            )}
           </>
         )}
 

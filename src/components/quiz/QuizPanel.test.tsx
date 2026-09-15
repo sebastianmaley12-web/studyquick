@@ -50,9 +50,7 @@ describe('QuizPanel', () => {
     await user.click(screen.getByRole('button', { name: /1920/ }))
 
     expect(screen.getByText('Score: 0 correct / 1 answered (of 2)')).toBeInTheDocument()
-    expect(
-      screen.getByText('Not quite — the correct answer is highlighted above.'),
-    ).toBeInTheDocument()
+    expect(screen.getByText('Not quite — the correct answer is A.')).toBeInTheDocument()
   })
 
   it('filters to unanswered and back to all', async () => {

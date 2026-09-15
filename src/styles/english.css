@@ -534,8 +534,8 @@
   padding: 16px;
   box-shadow: var(--shadow-sm);
 }
-.q-character-card h4,
-.q-theme-card h4 {
+.q-character-card h3,
+.q-theme-card h3 {
   margin: 0 0 8px;
 }
 .q-character-card p,
@@ -577,7 +577,7 @@
 .q-p1-mode-card:hover {
   border-color: var(--navy);
 }
-.q-p1-mode-card h4 {
+.q-p1-mode-card h3 {
   margin: 0 0 6px;
 }
 .q-p1-mode-card p {

@@ -77,25 +77,25 @@ export function HmsSubject() {
       <div className="res-grid">
         <div className="res-card">
           <div className="ic">&#9776;</div>
-          <h4>Syllabus Summary</h4>
+          <h2>Syllabus Summary</h2>
           <p>Every key question for the focus area, with the terms, statistics and examples you need.</p>
           <div className="count">{hmsTotals.summaryPoints} dot points</div>
         </div>
         <div className="res-card">
           <div className="ic">&#9998;</div>
-          <h4>Practice Questions</h4>
+          <h2>Practice Questions</h2>
           <p>Real HSC-style short-answer questions with marking criteria and a full model answer under each.</p>
           <div className="count">{hmsTotals.practice} questions</div>
         </div>
         <div className="res-card">
           <div className="ic">&#9889;</div>
-          <h4>Quick Trivia</h4>
+          <h2>Quick Trivia</h2>
           <p>Quick-fire recall cards. Tap to flip. Best used in short bursts for key terms and definitions.</p>
           <div className="count">{hmsTotals.trivia} cards</div>
         </div>
         <div className="res-card">
           <div className="ic">&#9673;</div>
-          <h4>Multiple Choice Quiz</h4>
+          <h2>Multiple Choice Quiz</h2>
           <p>Real HSC-style multiple choice questions, marked instantly with a running score.</p>
           <div className="count">{hmsTotals.quiz} questions</div>
         </div>

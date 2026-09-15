@@ -47,11 +47,16 @@ export function BusinessEvidenceBank({ topicId, items }: { topicId: string; item
       <div className="evidence-filter-bar">
         <input
           type="search"
+          aria-label="Search companies, figures, legislation"
           placeholder="Search companies, figures, legislation…"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value as BusinessEvidenceType | 'all')}>
+        <select
+          aria-label="Filter by evidence type"
+          value={typeFilter}
+          onChange={(e) => setTypeFilter(e.target.value as BusinessEvidenceType | 'all')}
+        >
           <option value="all">All types</option>
           {typesPresent.map((t) => (
             <option key={t} value={t}>
@@ -59,7 +64,11 @@ export function BusinessEvidenceBank({ topicId, items }: { topicId: string; item
             </option>
           ))}
         </select>
-        <select value={confidenceFilter} onChange={(e) => setConfidenceFilter(e.target.value as ConfidenceFilter)}>
+        <select
+          aria-label="Filter by confidence"
+          value={confidenceFilter}
+          onChange={(e) => setConfidenceFilter(e.target.value as ConfidenceFilter)}
+        >
           <option value="all">Any confidence</option>
           <option value="known">Known</option>
           <option value="shaky">Shaky</option>

@@ -38,11 +38,16 @@ export function QuoteBank({ text }: { text: EnglishText }) {
         <input
           type="search"
           className="q-filter-search"
+          aria-label="Search quotes"
           placeholder="Search quotes…"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <select value={themeFilter} onChange={(e) => setThemeFilter(e.target.value)}>
+        <select
+          aria-label="Filter by theme"
+          value={themeFilter}
+          onChange={(e) => setThemeFilter(e.target.value)}
+        >
           <option value="all">All themes</option>
           {text.themes.map((t) => (
             <option key={t.id} value={t.id}>
@@ -50,7 +55,11 @@ export function QuoteBank({ text }: { text: EnglishText }) {
             </option>
           ))}
         </select>
-        <select value={techniqueFilter} onChange={(e) => setTechniqueFilter(e.target.value)}>
+        <select
+          aria-label="Filter by technique"
+          value={techniqueFilter}
+          onChange={(e) => setTechniqueFilter(e.target.value)}
+        >
           <option value="all">All techniques</option>
           {text.techniques.map((t) => (
             <option key={t.id} value={t.id}>
@@ -58,7 +67,11 @@ export function QuoteBank({ text }: { text: EnglishText }) {
             </option>
           ))}
         </select>
-        <select value={characterFilter} onChange={(e) => setCharacterFilter(e.target.value)}>
+        <select
+          aria-label="Filter by character"
+          value={characterFilter}
+          onChange={(e) => setCharacterFilter(e.target.value)}
+        >
           <option value="all">All characters</option>
           {text.characters.map((c) => (
             <option key={c.id} value={c.id}>
@@ -67,6 +80,7 @@ export function QuoteBank({ text }: { text: EnglishText }) {
           ))}
         </select>
         <select
+          aria-label="Filter by confidence"
           value={confidenceFilter}
           onChange={(e) => setConfidenceFilter(e.target.value as ConfidenceFilter)}
         >

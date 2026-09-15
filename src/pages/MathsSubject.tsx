@@ -25,7 +25,7 @@ function MTopicCard({ topic, progress }: { topic: MathsTopic; progress: Progress
       onKeyDown={onEnterOrSpace(() => navigate(`/subjects/maths/${topic.slug}/facts`))}
     >
       <span className="code">{topic.code}</span>
-      <h4>{topic.name}</h4>
+      <h3>{topic.name}</h3>
       <p>{topic.blurb}</p>
       <div className="meta">
         {topic.questions.length} questions &middot; {topic.strand}
@@ -113,7 +113,7 @@ export function MathsSubject() {
       <div className="res-grid">
         <div className="res-card">
           <div className="ic">&#402;</div>
-          <h4>Key Facts &amp; Formulae</h4>
+          <h2>Key Facts &amp; Formulae</h2>
           <p>
             Every formula you need for the topic in one place, followed by the official NESA dot
             points so you can see exactly what is examinable.
@@ -122,7 +122,7 @@ export function MathsSubject() {
         </div>
         <div className="res-card">
           <div className="ic">&#9998;</div>
-          <h4>Practice Questions</h4>
+          <h2>Practice Questions</h2>
           <p>
             Type your answer and it is marked instantly, with rounding tolerance so a sensible
             answer still counts. A full worked solution unfolds underneath.

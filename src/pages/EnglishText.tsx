@@ -137,7 +137,7 @@ export function EnglishText() {
               <div className="q-character-grid">
                 {text.characters.map((c) => (
                   <div key={c.id} className="q-character-card">
-                    <h4>{c.name}</h4>
+                    <h3>{c.name}</h3>
                     <p dangerouslySetInnerHTML={{ __html: c.roleHtml }} />
                     <p>
                       <b>Relationships:</b> <span dangerouslySetInnerHTML={{ __html: c.relationshipsHtml }} />
@@ -160,7 +160,7 @@ export function EnglishText() {
               <div className="q-theme-list">
                 {text.themes.map((t) => (
                   <div key={t.id} className="q-theme-card">
-                    <h4>{t.name}</h4>
+                    <h3>{t.name}</h3>
                     <p dangerouslySetInnerHTML={{ __html: t.explanationHtml }} />
                     <p>
                       <b>Development across the text:</b>{' '}

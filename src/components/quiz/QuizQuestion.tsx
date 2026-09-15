@@ -73,8 +73,8 @@ export function QuizQuestion({ topicId, index, question }: QuizQuestionProps) {
         })}
       </div>
       {answered && (
-        <div className={`qz-feedback ${answer.ok ? 'right' : 'wrong'}`}>
-          {answer.ok ? 'Correct!' : 'Not quite — the correct answer is highlighted above.'}
+        <div className={`qz-feedback ${answer.ok ? 'right' : 'wrong'}`} role="status" aria-live="polite">
+          {answer.ok ? 'Correct!' : `Not quite — the correct answer is ${question.answer.toUpperCase()}.`}
         </div>
       )}
     </div>

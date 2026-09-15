@@ -48,11 +48,16 @@ export function HistoryEvidenceBank({ topicId, items }: { topicId: string; items
       <div className="evidence-filter-bar">
         <input
           type="search"
+          aria-label="Search historians, sources, statistics"
           placeholder="Search historians, sources, statistics…"
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
-        <select value={typeFilter} onChange={(e) => setTypeFilter(e.target.value as HistoryEvidenceType | 'all')}>
+        <select
+          aria-label="Filter by evidence type"
+          value={typeFilter}
+          onChange={(e) => setTypeFilter(e.target.value as HistoryEvidenceType | 'all')}
+        >
           <option value="all">All types</option>
           {typesPresent.map((t) => (
             <option key={t} value={t}>
@@ -60,7 +65,11 @@ export function HistoryEvidenceBank({ topicId, items }: { topicId: string; items
             </option>
           ))}
         </select>
-        <select value={confidenceFilter} onChange={(e) => setConfidenceFilter(e.target.value as ConfidenceFilter)}>
+        <select
+          aria-label="Filter by confidence"
+          value={confidenceFilter}
+          onChange={(e) => setConfidenceFilter(e.target.value as ConfidenceFilter)}
+        >
           <option value="all">Any confidence</option>
           <option value="known">Known</option>
           <option value="shaky">Shaky</option>
