@@ -7,12 +7,12 @@
       {
         "kind": "in",
         "label": "Examinable",
-        "bodyHtml": "Growth of European tensions and the failure of collective security, German foreign policy, the course of the European war, the home front / civilians at war, and the end of the conflict / reasons for Allied victory."
+        "bodyHtml": "Growth of European tensions and the failure of collective security, German foreign policy, the course of the European war, the impact of the war on civilians, the impact of the Holocaust in Nazi-occupied territories, and the end of the conflict / reasons for Allied victory."
       },
       {
         "kind": "out",
         "label": "Excluded",
-        "bodyHtml": "<ul><li>The nature and effects of the Holocaust in the Nazi-occupied territories</li><li>The Nuremberg War Crimes trials</li></ul>"
+        "bodyHtml": "<ul><li>The Nuremberg War Crimes trials</li></ul>"
       }
     ]
   },
@@ -31,7 +31,11 @@
         "title": "Focus of Study — German Foreign Policy",
         "points": [
           "<b>Aims and strategy of German foreign policy to September 1939:</b> reversing Versailles, rearmament (announced openly, March 1935), remilitarising the Rhineland (1936), and incremental annexation (Anschluss 1938, Sudetenland 1938) each testing the Allies' willingness to respond.",
-          "<b>Impact of Nazi ideology on German foreign policy to September 1939:</b> Lebensraum and racial hierarchy, set out in <i>Mein Kampf</i> (1925), pointed toward eastward conquest — a far more radical goal than conventional treaty revision."
+          "<b>Impact of Nazi ideology on German foreign policy to September 1939:</b> Lebensraum and racial hierarchy, set out in <i>Mein Kampf</i> (1925), pointed toward eastward conquest — a far more radical goal than conventional treaty revision.",
+          "<b>Hitler's aims:</b> territorial expansion (<b>Lebensraum</b>) and racial hierarchy (<b>Herrenrasse</b>) were the two ultimate aims underpinning every short-term foreign policy goal — undoing Versailles, uniting all German speakers into a <b>Grossdeutschland</b>, and achieving self-sufficiency by first removing France, since Hitler judged a reckoning with France unavoidable before Germany could turn east.",
+          "<b>Strategy:</b> Germany built an anti-communist alliance (the <b>Anti-Comintern Pact</b> with Italy, 1936, and Japan, 1937), made pacts it never intended to keep to divide potential enemies (e.g. the 1934 Ten-Year Non-Aggression Pact with Poland), exploited Europe's desire for peace and guilt over Versailles, and pressured foreign governments through German minority populations abroad.",
+          "<b>Key rearmament and diplomatic events, 1933&ndash;1937:</b> Germany withdrew from the League of Nations (October 1933); publicly announced a 240,000-strong Wehrmacht and reintroduced conscription (March&ndash;April 1935), prompting Britain, France and Italy to form the short-lived <b>Stresa Front</b>; Britain then broke that front unilaterally with the <b>Anglo-German Naval Agreement</b> (June 1935); 22,000 troops remilitarised the Rhineland unopposed (7 March 1936); the <b>Rome-Berlin Axis</b> and the Four Year Plan (October 1936) put military spending at 13% of GDP, showing Germany was preparing for war well before 1938&ndash;39.",
+          "<b>The Hossbach Memorandum</b> (5 November 1937) recorded Hitler outlining his Lebensraum aims in detail to military and foreign policy leaders &mdash; the key documentary evidence for an <b>intentionalist</b> reading of Nazi foreign policy (that expansion was planned from early on), against which historian <b>A.J.P. Taylor</b>'s counter-thesis is usually paired: Taylor argued Hitler was simply an opportunist pursuing Germany's 'rightful place in Europe', no different from earlier German leaders, with no long-term plan for conquest."
         ]
       },
       {
