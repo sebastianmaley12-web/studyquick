@@ -98,8 +98,30 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       ],
     },
     {
-      id: 's-p3c3',
+      id: 's-p2c10',
       order: 3,
+      kind: 'chapter',
+      label: 'Part Two, Chapter 10',
+      summaryHtml:
+        'Winston and Julia\'s affair reaches its final, brief moment of security in the room above Mr Charrington\'s shop, which they had believed to be a private refuge safe from the telescreen. A voice suddenly speaks from behind a hidden telescreen concealed in the room, and armed men burst in — Mr Charrington himself is revealed as a member of the Thought Police. Winston and Julia are arrested.',
+      keyEvents: [
+        'Winston and Julia treat the room above the shop as their one safe, private space',
+        'A hidden telescreen is revealed behind a picture in the room, exposing that they were watched the entire time',
+        'Mr Charrington is unmasked as a Thought Police agent',
+        'Winston and Julia are arrested by the Thought Police',
+      ],
+      ideasIntroduced: [
+        'The illusion of private space as itself a Party trap, not a genuine gap in surveillance',
+        'The totality of Party surveillance — even a space that felt safe was constructed to appear so',
+      ],
+      charactersInFocus: ['winston', 'julia'],
+      turningPointHtml:
+        'The arrest is the novel\'s structural pivot from rebellion to punishment — everything after this chapter concerns the Ministry of Love\'s dismantling of Winston, not his resistance.',
+      quoteIds: ['q-we-are-the-dead', 'q-picture-hides-telescreen'],
+    },
+    {
+      id: 's-p3c3',
+      order: 4,
       kind: 'chapter',
       label: 'Part Three, Chapter 3',
       summaryHtml:
@@ -122,7 +144,7 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
     },
     {
       id: 's-p3c5',
-      order: 4,
+      order: 5,
       kind: 'chapter',
       label: 'Part Three, Chapter 5',
       summaryHtml:
@@ -143,7 +165,7 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
     },
     {
       id: 's-p3c6',
-      order: 5,
+      order: 6,
       kind: 'chapter',
       label: 'Part Three, Chapter 6',
       summaryHtml:
@@ -444,7 +466,7 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       textHtml: 'We are the dead.',
       speaker: 'Winston Smith',
       location: 'Part Two, Chapter 10',
-      sectionId: null,
+      sectionId: 's-p2c10',
       themeIds: ['t-rebellion'],
       techniqueIds: ['t-foreshadowing', 't-irony'],
       characterIds: ['winston', 'julia'],
@@ -455,6 +477,20 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
         'Orwell uses foreshadowing to strip any suspense from the arrest itself — the horror is in the inevitability, not the surprise.',
       argumentHtml:
         'By having Winston name his own fate before it arrives, Orwell frames the lovers\' rebellion as always having been provisional, granted only for as long as the Party chose not to intervene.',
+    },
+    {
+      id: 'q-picture-hides-telescreen',
+      textHtml: 'You are the dead.',
+      speaker: 'Hidden voice (an officer of the Thought Police)',
+      location: 'Part Two, Chapter 10',
+      sectionId: 's-p2c10',
+      themeIds: ['t-control', 't-rebellion'],
+      techniqueIds: ['t-irony', 't-foreshadowing'],
+      characterIds: ['winston', 'julia'],
+      contextHtml: 'The moment of Winston and Julia\'s arrest, immediately after Winston has echoed his own earlier premonition, "We are the dead."',
+      revealsHtml: 'The disembodied voice\'s correction of Winston\'s tense — from "we" to "you" — confirms that the room the lovers believed private had been watched by a hidden telescreen the entire time, making their sense of safety retroactively an illusion staged by the Party.',
+      authorialPurposeHtml: 'Orwell uses this precise, chilling grammatical correction to reveal the totality of the Party\'s surveillance — it does not simply catch Winston and Julia, it has been listening to their most private reflections on their own fate all along.',
+      argumentHtml: 'Essential evidence for any argument that the novel presents privacy itself as an illusion the Party permits only as a trap, not a genuine gap in its control.',
     },
     {
       id: 'q-loved-big-brother',
@@ -910,9 +946,9 @@ export const NINETEEN_EIGHTY_FOUR: EnglishText = {
       modelArgumentStructureHtml:
         'Suggested structure: (1) intro with thesis above; (2) body paragraph on Orwell\'s use of restricted narration and paradox to implicate the reader in Winston\'s reasoning, not just observe it; (3) body paragraph on the novel\'s refusal of a redemptive ending as its most uncomfortable truth; (4) body paragraph bringing in the related text\'s own version of this discomfort, explicitly compared rather than discussed in isolation; (5) conclusion returning to "endure" — why this discomfort keeps the text relevant beyond its original context.',
       modelResponseHtml:
-        'A full worked model response is intentionally not provided for this open-ended, related-text question in the prototype — the planner below is the practice tool. (The full build should provide at least one fully worked exemplar per essay question; flagged as a Stage F content task.)',
+        '<p>Texts about human experiences endure not because they flatter their readers, but because they force a confrontation with uncomfortable truths about the reader\'s own capacity for self-deception, complicity and psychological surrender. George Orwell\'s Nineteen Eighty-Four (1949) and Wilfred Owen\'s "Dulce et Decorum Est" (written 1917) each locate this discomfort in a different register — Orwell in the slow, total collapse of a single mind under totalitarian pressure, Owen in the immediate, visceral betrayal of a comforting national myth — but both endure by refusing their readers the comfort of easy distance from what they depict.</p><p>Orwell\'s most uncomfortable claim is not that totalitarian governments are cruel, which no reader needs convincing of, but that an ordinary mind — reasonable, self-aware, even resistant — can be made to genuinely believe what it knows to be false. Winston\'s restricted third-person narration lets the reader inhabit his reasoning directly, so that his diary\'s insistence that "freedom is the freedom to say that two plus two make four" feels like a shared, rational position rather than a special case of heroism. This is precisely what makes the novel\'s ending so uncomfortable: the final line, "He loved Big Brother," is delivered in the same close, intimate narration the reader has trusted throughout, denying any sense that Winston\'s capitulation is alien to the reasoning mind the reader has been following. Orwell compounds this through Winston\'s own diary reasoning about the proles — "until they become conscious they will never rebel, and until after they have rebelled they cannot become conscious" — a circular logic the reader recognises as sound even as it traps Winston in the same paralysis it describes. The uncomfortable truth is not about Oceania\'s government; it is that the reader has just followed a recognisable, rational mind all the way to its own sincere destruction.</p><p>Owen\'s poem locates a comparably uncomfortable truth in the immediate, embodied betrayal of inherited belief rather than its slow erosion. The poem opens by dismantling the heroic image of the soldier entirely — men "bent double, like old beggars under sacks" replace any expectation of upright, dignified marching with exhausted, aged degradation before the poem\'s central incident even begins. The gas attack that follows is rendered through visceral, embodied imagery — a man "guttering, choking, drowning" is watched "flound\'ring like a man in fire or lime," the simile refusing any dignity or distance from his suffering. Owen sharpens this into direct address in the poem\'s final stanza, turning to the reader ("My friend") to state that if they had witnessed "the white eyes writhing in his face… the blood / Come gargling from the froth-corrupted lungs," they "would not tell with such high zest / To children ardent for some desperate glory / The old Lie: Dulce et decorum est / Pro patria mori." Naming patriotic sacrifice a "Lie" in the poem\'s final line, delivered in the reader\'s own assumed language of Latin classical education, makes the discomfort personal and direct rather than observed from a safe historical distance.</p><p>Where the two texts differ is in the mechanism of discomfort: Orwell implicates the reader through psychological identification with a mind that ultimately fails, while Owen implicates the reader through direct address, converting a comfortable inherited belief into something the reader is forced to actively disown. Yet both endure for the same underlying reason — each refuses to let its "uncomfortable truth" remain safely about someone else. Orwell\'s restricted narration and Owen\'s direct address are different technical solutions to the same problem: how to make a reader recognise a capacity for self-deception or complicity in themselves, not merely observe it in a fictional government or a distant war. It is this refusal of comfortable distance, more than either text\'s specific historical subject, that explains why both continue to unsettle readers who have never lived under a totalitarian regime or fought in the trenches of the First World War.</p>',
       planningGuidanceHtml:
-        'Decode the question: "uncomfortable truths about ourselves" asks you to move past what the text says about a totalitarian government and argue what it says about ordinary human psychology. Choose evidence that shows Winston\'s reasoning as recognisable, not alien, to the reader. Select a related text whose "uncomfortable truth" can be genuinely compared, not just placed alongside — comparison, not addition, is what Paper 1 rewards here.',
+        'Decode the question: "uncomfortable truths about ourselves" asks you to move past what the text says about a totalitarian government and argue what it says about ordinary human psychology. Choose evidence that shows Winston\'s reasoning as recognisable, not alien, to the reader. Select a related text whose "uncomfortable truth" can be genuinely compared, not just placed alongside — comparison, not addition, is what Paper 1 rewards here. The model above uses Wilfred Owen\'s "Dulce et Decorum Est" (a common, NESA-permitted related text for this module) as one possible choice — if your own related text differs, keep the same comparative structure: identify each text\'s specific mechanism for implicating the reader, then compare the mechanisms directly rather than discussing the two texts in separate, unconnected halves.',
     },
   ],
 }

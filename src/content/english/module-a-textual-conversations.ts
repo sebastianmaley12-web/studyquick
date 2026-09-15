@@ -112,7 +112,7 @@ export const THE_TEMPEST: EnglishText = {
       charactersInFocus: ['prospero', 'caliban', 'ariel', 'miranda'],
       turningPointHtml:
         'Prospero\'s account of his usurpation establishes revenge as the play\'s central unresolved question from its very first act — everything that follows is, on one level, Prospero deciding what to do with the power he has finally regained over the men who wronged him.',
-      quoteIds: ['q-t-roarers', 'q-t-cloven-pine', 'q-t-island-mine', 'q-t-poisonous-slave', 'q-t-taught-me-language', 'q-t-hell-empty', 'q-t-full-fathom-five', 'q-t-auspicious-star'],
+      quoteIds: ['q-t-roarers', 'q-t-cloven-pine', 'q-t-island-mine', 'q-t-poisonous-slave', 'q-t-taught-me-language', 'q-t-hell-empty', 'q-t-full-fathom-five', 'q-t-auspicious-star', 'q-t-sea-change'],
     },
     {
       id: 's-t-a3',
@@ -153,7 +153,7 @@ export const THE_TEMPEST: EnglishText = {
       charactersInFocus: ['prospero'],
       turningPointHtml:
         'This speech marks the first crack in Prospero\'s god-like command of the island — his power is suddenly framed as fragile and temporary, preparing the audience for his eventual renunciation of it in Act 5.',
-      quoteIds: ['q-t-revels-ended', 'q-t-such-stuff'],
+      quoteIds: ['q-t-revels-ended', 'q-t-such-stuff', 'q-t-great-globe'],
     },
     {
       id: 's-t-a5',
@@ -176,7 +176,7 @@ export const THE_TEMPEST: EnglishText = {
       charactersInFocus: ['prospero', 'miranda', 'caliban'],
       turningPointHtml:
         'Prospero\'s renunciation of his staff and book is the play\'s central resolution — power voluntarily surrendered, rather than power seized, is presented as the play\'s highest moral act.',
-      quoteIds: ['q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff', 'q-t-brave-new-world', 'q-t-thing-of-darkness'],
+      quoteIds: ['q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff', 'q-t-brave-new-world', 'q-t-thing-of-darkness', 'q-t-ariel-free', 'q-t-epilogue'],
     },
   ],
   characters: [
@@ -189,8 +189,8 @@ export const THE_TEMPEST: EnglishText = {
         'Father to Miranda, whose marriage to Ferdinand he engineers; former master to Ariel, whom he frees at the play\'s end; enslaver of Caliban, whose claim to the island he overrode.',
       developmentHtml:
         'Begins the play as a figure driven by his grievance, orchestrating an elaborate revenge on those who wronged him; by Act 5 he explicitly chooses "virtue" over "vengeance", renouncing both his enemies\' punishment and his own magical power.',
-      associatedThemeIds: ['th-t-power', 'th-t-revenge', 'th-t-forgiveness'],
-      quoteIds: ['q-t-cloven-pine', 'q-t-poisonous-slave', 'q-t-high-charms', 'q-t-revels-ended', 'q-t-such-stuff', 'q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff', 'q-t-thing-of-darkness'],
+      associatedThemeIds: ['th-t-power', 'th-t-revenge', 'th-t-forgiveness', 'th-t-theatre'],
+      quoteIds: ['q-t-cloven-pine', 'q-t-poisonous-slave', 'q-t-high-charms', 'q-t-revels-ended', 'q-t-such-stuff', 'q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff', 'q-t-thing-of-darkness', 'q-t-great-globe', 'q-t-ariel-free', 'q-t-epilogue'],
     },
     {
       id: 'caliban',
@@ -213,8 +213,8 @@ export const THE_TEMPEST: EnglishText = {
         'Bound in service to Prospero; carries out his revenge (the harpy scene) and his mercy (reporting the nobles\' suffering, which prompts Prospero\'s forgiveness).',
       developmentHtml:
         'Functions throughout as an instrument of Prospero\'s will, but Ariel\'s report of the nobles\' distress in Act 5 — and the suggestion that Ariel, "were I human", would pity them — is the direct catalyst for Prospero\'s choice of mercy over vengeance.',
-      associatedThemeIds: ['th-t-revenge', 'th-t-forgiveness'],
-      quoteIds: ['q-t-cloven-pine', 'q-t-full-fathom-five', 'q-t-high-charms'],
+      associatedThemeIds: ['th-t-revenge', 'th-t-forgiveness', 'th-t-theatre'],
+      quoteIds: ['q-t-cloven-pine', 'q-t-full-fathom-five', 'q-t-high-charms', 'q-t-sea-change', 'q-t-ariel-free'],
     },
     {
       id: 'miranda',
@@ -230,6 +230,23 @@ export const THE_TEMPEST: EnglishText = {
     },
   ],
   themes: [
+    {
+      id: 'th-t-theatre',
+      name: 'Theatre, illusion and the performative nature of power',
+      explanationHtml:
+        'The play repeatedly draws attention to its own status as performance — Prospero stages a storm, a masque and an elaborate revenge as theatre-within-theatre — using this self-awareness to suggest that power itself is a kind of performance, and that reality and illusion are less stable categories than they first appear.',
+      developmentHtml:
+        'Established through Ariel\'s transformative "sea-change" song in Act 1, developed through the dissolving masque and its explicit reference to "the great globe itself" in Act 4, and completed through Prospero\'s literal address to the theatre audience in the Epilogue.',
+      keySectionIds: ['s-t-a1', 's-t-a4', 's-t-a5'],
+      associatedCharacterIds: ['prospero', 'ariel'],
+      quoteIds: ['q-t-sea-change', 'q-t-great-globe', 'q-t-ariel-free', 'q-t-epilogue'],
+      techniqueIds: ['t-t-metatheatre', 't-t-metaphor'],
+      possibleArguments: [
+        'Shakespeare uses metatheatre to blur the line between Prospero\'s stagecraft and his own, implicating the audience in the play\'s meaning',
+        'The Epilogue\'s direct address collapses the distance between the fiction and its performance, reframing Prospero\'s final renunciation of power as Shakespeare\'s own farewell to the stage',
+        'Ariel\'s eventual freedom completes the play\'s theatrical logic: the "spirit" that made Prospero\'s illusions possible is released once the performance (both the masque and the revenge plot) is finished',
+      ],
+    },
     {
       id: 'th-t-power',
       name: 'Power, authority and colonialism',
@@ -282,6 +299,63 @@ export const THE_TEMPEST: EnglishText = {
     },
   ],
   quotes: [
+    {
+      id: 'q-t-sea-change',
+      textHtml: 'Nothing of him that doth fade, / But doth suffer a sea-change / Into something rich and strange.',
+      speaker: 'Ariel',
+      location: 'Act 1, Scene 2',
+      sectionId: 's-t-a1',
+      themeIds: ['th-t-theatre'],
+      techniqueIds: ['t-t-metaphor'],
+      characterIds: ['ariel'],
+      contextHtml: 'The second half of Ariel\'s song to Ferdinand, continuing the description of his (falsely) drowned father\'s body.',
+      revealsHtml: 'The "sea-change" is not decay but transformation into something "rich and strange" — an early statement of the play\'s recurring interest in metamorphosis as restorative rather than destructive, which the ending later applies to Prospero\'s enemies themselves.',
+      authorialPurposeHtml: 'Plants the play\'s transformation motif in its opening act through Prospero\'s stagecraft (the song is his illusion), before the same idea of change is applied literally to human characters by Act 5.',
+      argumentHtml: 'Useful alongside the Act 4 masque and Epilogue for essays tracing the theatre/transformation motif across the whole play.',
+    },
+    {
+      id: 'q-t-great-globe',
+      textHtml: 'The cloud-capped towers, the gorgeous palaces, / The solemn temples, the great globe itself, / Yea, all which it inherit, shall dissolve.',
+      speaker: 'Prospero',
+      location: 'Act 4, Scene 1',
+      sectionId: 's-t-a4',
+      themeIds: ['th-t-theatre', 'th-t-forgiveness'],
+      techniqueIds: ['t-t-metatheatre'],
+      characterIds: ['prospero'],
+      contextHtml: 'Continuing the "our revels" speech, immediately after Prospero dissolves the betrothal masque.',
+      revealsHtml: 'Naming "the great globe itself" is a direct, deliberate pun on the Globe Theatre where the play was performed — Prospero\'s meditation on the dissolution of his own illusion becomes, for a moment, Shakespeare speaking about the theatre itself.',
+      authorialPurposeHtml: 'A rare, explicit moment where the play\'s fiction and its real conditions of performance touch directly, reinforcing the recurring idea that power, ceremony and even reality itself are staged and temporary.',
+      argumentHtml: 'The single best piece of evidence for essays specifically on Shakespeare\'s use of metatheatre, since the pun on "globe" cannot be read any other way.',
+    },
+    {
+      id: 'q-t-ariel-free',
+      textHtml: 'My Ariel, chick, / That is thy charge. Then to the elements / Be free, and fare thou well.',
+      speaker: 'Prospero',
+      location: 'Act 5, Scene 1',
+      sectionId: 's-t-a5',
+      themeIds: ['th-t-forgiveness', 'th-t-theatre'],
+      techniqueIds: ['t-t-symbolism'],
+      characterIds: ['prospero', 'ariel'],
+      contextHtml: 'Prospero\'s final instruction to Ariel, granting the freedom he has promised throughout the play, immediately before the Epilogue.',
+      revealsHtml: 'Ariel\'s release completes the play\'s imprisonment motif in full circle — a spirit first freed from Sycorax\'s "cloven pine" only to serve a second master is, at last, freed completely, with no further service demanded.',
+      authorialPurposeHtml: 'Pairs Prospero\'s renunciation of magical power with the literal freeing of the instrument of that power, so both the moral and the practical dimensions of his surrender are dramatised together.',
+      argumentHtml: 'Essential evidence for any essay tracing the imprisonment/freedom motif from Ariel\'s backstory through to the play\'s resolution.',
+    },
+    {
+      id: 'q-t-epilogue',
+      textHtml:
+        'Now I want / Spirits to enforce, art to enchant, / And my ending is despair, / Unless I be relieved by prayer… As you from crimes would pardoned be, / Let your indulgence set me free.',
+      speaker: 'Prospero',
+      location: 'Epilogue',
+      sectionId: 's-t-a5',
+      themeIds: ['th-t-theatre'],
+      techniqueIds: ['t-t-metatheatre'],
+      characterIds: ['prospero'],
+      contextHtml: 'Prospero\'s final speech, delivered alone, stepping outside the play\'s fiction to address the theatre audience directly and request applause.',
+      revealsHtml: 'Prospero admits he now has no magical "art" left and depends entirely on the audience\'s "indulgence" (applause) to be freed — the actor asking to leave the stage is deliberately conflated with the character asking to leave the island.',
+      authorialPurposeHtml: 'Often read as Shakespeare\'s own farewell to the stage (The Tempest is widely considered his last solo-authored play); the Epilogue\'s unique rhyming, tightly metred structure marks it as formally distinct from the rest of the play, reinforcing that this is a different kind of address entirely.',
+      argumentHtml: 'The clearest possible evidence that the play frames power itself — Prospero\'s, and by extension the playwright\'s — as fundamentally performative and dependent on the consent of an audience.',
+    },
     {
       id: 'q-t-roarers',
       textHtml: 'What cares these roarers for the name of king?',
@@ -509,6 +583,20 @@ export const THE_TEMPEST: EnglishText = {
   ],
   techniques: [
     {
+      id: 't-t-metatheatre',
+      name: 'Metatheatre',
+      category: 'structure-and-form',
+      definitionHtml: 'A moment where a play draws attention to its own status as theatre — staging a play-within-a-play, or having a character address the audience directly, breaking the fiction\'s illusion of reality.',
+      effectHtml: 'Collapses the distance between the fictional world and its real performance, prompting the audience to reflect on the nature of illusion, power and performance itself.',
+      whyAuthorsUseItHtml: 'Shakespeare gives Prospero explicit control over staged illusions (the masque, the storm) throughout the play, then extends that self-awareness to the play\'s own performance in the Epilogue — power and theatre become versions of the same idea.',
+      exampleQuoteId: 'q-t-epilogue',
+      genericExampleHtml: null,
+      analyticalLanguage: ['draws attention to its own theatricality', 'collapses the fiction/reality boundary', 'stages [X] as a play-within-the-play'],
+      howToRecogniseHtml: 'A moment where a character seems aware they are in a play — addressing the audience directly, or where the text\'s own performance conditions (a real theatre, an actor, an audience) are referenced inside the fiction.',
+      commonMistakeHtml: 'Confusing metatheatre with dramatic irony — metatheatre specifically breaks the fourth wall or references the conditions of performance itself, not just a gap in characters\' knowledge.',
+      confusedWithIds: ['t-t-dramatic-irony'],
+    },
+    {
       id: 't-t-antithesis',
       name: 'Antithesis',
       category: 'language-and-diction',
@@ -711,16 +799,48 @@ export const THE_TEMPEST: EnglishText = {
       planningGuidanceHtml: 'Decode the question: "ultimately" and "highest moral act" both invite you to test the claim against the whole play, not just the Act 5 renunciation scene. Use the Caliban ending as your complicating evidence — a strong "to what extent" response needs genuine tension, not just agreement.',
     },
     {
+      id: 'essay-t-topic-sentence-1',
+      type: 'topic-sentence',
+      prompt:
+        'Write a topic sentence for a body paragraph arguing that Shakespeare uses metatheatre to frame power itself as a performance.',
+      marks: null,
+      suggestedEvidence: ['q-t-great-globe', 'q-t-epilogue'],
+      modelThesisHtml:
+        'A strong topic sentence names the specific technique and states what it proves about the question, rather than only naming the general topic.',
+      modelArgumentStructureHtml:
+        'Formula: [Author] + [technique/method] + [specific claim] — e.g. "Shakespeare\'s pun on \'the great globe itself\' collapses the boundary between Prospero\'s staged illusions and the play\'s own theatrical performance, revealing power throughout the play as fundamentally dependent on performance and audience."',
+      modelResponseHtml:
+        'Model topic sentence: "Through Prospero\'s direct address to the audience in the Epilogue, Shakespeare exposes the theatrical nature of power itself, revealing that even Prospero\'s magical authority has depended, all along, on a performance requiring an audience\'s consent."',
+      planningGuidanceHtml:
+        'A weak topic sentence just restates the prompt ("Shakespeare shows that power is like a performance"). A strong one names the specific evidence/technique AND states the claim it proves, in one sentence, before the paragraph unpacks it.',
+    },
+    {
+      id: 'essay-t-paragraph-1',
+      type: 'paragraph',
+      prompt:
+        'Write a full body paragraph analysing how Shakespeare uses the Epilogue to reframe Prospero\'s renunciation of power as an act of theatre.',
+      marks: null,
+      suggestedEvidence: ['q-t-epilogue', 'q-t-great-globe'],
+      modelThesisHtml:
+        'A complete paragraph needs: topic sentence, embedded evidence, technique naming, effect/meaning, and an explicit link back to the question — not evidence followed only by paraphrase.',
+      modelArgumentStructureHtml:
+        'Structure: topic sentence → embedded quote → technique(s) named → effect on the reader/audience → link back to the question\'s specific wording.',
+      modelResponseHtml:
+        '<p>Through Prospero\'s direct address to the audience in the Epilogue, Shakespeare exposes the theatrical nature of power itself, revealing that even Prospero\'s magical authority has depended, all along, on a performance requiring an audience\'s consent. Stepping entirely outside the play\'s fiction, Prospero admits that "now I want / Spirits to enforce, art to enchant, / And my ending is despair, / Unless I be relieved by prayer" — his renunciation of magic in Act 5 is here revealed as incomplete without one further, more literal surrender: his dependence on the real theatre audience\'s "indulgence" to be freed from the stage. The metatheatrical address collapses the distance between Prospero the character and the actor performing him, so that his earlier claim that "the rarer action is / in virtue, than in vengeance" is retrospectively reframed as itself a kind of performance, staged as much for the Jacobean audience\'s moral approval as for the shipwrecked nobles\' benefit. This is reinforced by the Epilogue\'s uniquely tight, rhyming seven-syllable lines, formally distinct from the loose blank verse used everywhere else in the play — a structural signal that this closing address operates on a different level of reality entirely. By ending not on Prospero\'s reconciliation with his enemies but on this direct appeal to the audience, Shakespeare suggests that all authority in the play, moral as much as magical, has ultimately depended on a performance that only the audience has the power to release.</p>',
+      planningGuidanceHtml:
+        'Note the paragraph above moves through five stages in order: topic sentence, embedded evidence with technique naming, a second embedded quote reinforcing the point, a structural/formal observation, and a closing sentence that returns explicitly to the question\'s wording. Use this shape rather than "quote — explanation — quote — explanation" with no throughline.',
+    },
+    {
       id: 'essay-t-full-1',
       type: 'full-essay',
       prompt: 'Analyse how Shakespeare uses dramatic structure and technique to resolve the play\'s central tension between revenge and forgiveness.',
       marks: 20,
-      suggestedEvidence: ['q-t-cloven-pine', 'q-t-high-charms', 'q-t-revels-ended', 'q-t-such-stuff', 'q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff'],
+      suggestedEvidence: ['q-t-cloven-pine', 'q-t-high-charms', 'q-t-revels-ended', 'q-t-such-stuff', 'q-t-rarer-action', 'q-t-tracing-circle', 'q-t-break-staff', 'q-t-ariel-free', 'q-t-epilogue'],
       modelThesisHtml:
-        'Shakespeare resolves the tension between revenge and forgiveness not through a single decisive event but through a carefully structured sequence — imprisonment established, revenge enacted and shown effective, its impermanence gestured at, and mercy finally chosen — so that Prospero\'s forgiveness reads as an earned culmination rather than a sudden change of heart.',
-      modelArgumentStructureHtml: 'Suggested structure: (1) intro with thesis; (2) Act 1/3 — revenge established and shown working ("my high charms work"); (3) Act 4 — the "our revels" speech destabilises Prospero\'s certainty, preparing the turn; (4) Act 5 — the antithesis, the circle, the staff-breaking as a physical sequence of renunciation; (5) conclusion on why staging this as a sequence (not a single line) makes the resolution more persuasive dramatically.',
+        'Shakespeare resolves the tension between revenge and forgiveness not through a single decisive event but through a carefully structured sequence — imprisonment established, revenge enacted and shown effective, its impermanence gestured at, and mercy finally chosen and literally performed for an audience — so that Prospero\'s forgiveness reads as an earned culmination rather than a sudden change of heart.',
+      modelArgumentStructureHtml: 'Suggested structure: (1) intro with thesis; (2) Act 1/3 — revenge established and shown working ("my high charms work"); (3) Act 4 — the "our revels" speech destabilises Prospero\'s certainty, preparing the turn; (4) Act 5 — the antithesis, the circle, the staff-breaking, and Ariel\'s release as a physical sequence of renunciation; (5) the Epilogue — the sequence completed by a final, literal act of theatre; (6) conclusion on why staging this as a sequence (not a single line) makes the resolution more persuasive dramatically.',
       modelResponseHtml:
-        'A full worked model response is intentionally not provided for this open-ended structural-analysis question in this build pass — the planner above is the practice tool for now. Flagged for a follow-up content pass, alongside the comparative full-essay model already provided at module level.',
+        '<p>Shakespeare resolves The Tempest\'s central tension between revenge and forgiveness not through a single decisive event but through a carefully staged sequence of dramatic moments, each building on the last, so that Prospero\'s final renunciation of power reads as an earned culmination rather than an abrupt change of heart.</p><p>The play first establishes revenge as effective and total. Having spent four acts manoeuvring his enemies into position, Prospero watches with satisfaction as Ariel\'s harpy performance drives Alonso, Sebastian and Antonio to guilt-stricken distraction, declaring "my high charms work, and these, mine enemies, are all knit up in their distractions." The metaphor of minds "knit up" figures psychological manipulation as a form of imprisonment, extending the play\'s earlier literal imprisonment (Ariel\'s "cloven pine") into a subtler, more total register — Prospero\'s revenge, at this point in the structure, is shown working perfectly, which is essential groundwork for what follows: his mercy will be a genuine choice to abandon a strategy that is succeeding, not a failure to achieve one that was already failing.</p><p>Act 4\'s masque scene then introduces the first structural crack in Prospero\'s certainty. Interrupting his own celebratory illusion upon remembering Caliban\'s murder plot, Prospero reflects that "we are such stuff / as dreams are made on; and our little life / is rounded with a sleep," extending the dissolved masque into a meditation on the insubstantiality of "the great globe itself" — a pun that briefly punctures the fiction to gesture at Shakespeare\'s own theatre. This moment of humility, staged before any act of forgiveness has occurred, prepares the audience for Act 5\'s reversal by first establishing that even Prospero\'s total magical control is fragile and temporary.</p><p>Act 5 dramatises the resolution as a deliberate physical sequence rather than a single line. The antithesis of "the rarer action is / in virtue, than in vengeance" states the moral choice, but Shakespeare does not stop there: the stage direction "Prospero traces out a circle on the stage" makes the choice visible before his vow to "break my staff, / bury it certain fathoms in the earth… drown my book" renders it irrevocable through monosyllabic, physically decisive verbs. Prospero\'s subsequent instruction to Ariel — "then to the elements / be free, and fare thou well" — completes this sequence by extending renunciation beyond his own power to the instrument of it, closing the imprisonment motif that began with Ariel\'s backstory in Act 1.</p><p>Finally, the Epilogue extends the resolution one step further than the plot strictly requires, turning Prospero\'s renunciation into an act of literal theatre. Addressing the audience directly, Prospero admits "my ending is despair, / unless I be relieved by prayer… as you from crimes would pardoned be, / let your indulgence set me free" — collapsing the distance between the character surrendering his power and the actor requesting applause. By resolving revenge and forgiveness through this deliberately layered sequence — demonstrated power, gestured fragility, staged renunciation, and finally a literal request for release — Shakespeare makes Prospero\'s mercy legible as a process the audience has watched unfold, not a conclusion simply announced to them.</p>',
       planningGuidanceHtml: 'Decode the question: it asks specifically about "dramatic structure and technique", so trace the sequence of scenes/acts, not just quote a handful of lines in isolation. Order your evidence chronologically through the play to show the resolution as a process.',
     },
   ],
@@ -760,7 +880,7 @@ export const HAG_SEED: EnglishText = {
       ],
       charactersInFocus: ['felix'],
       turningPointHtml: 'Felix\'s ousting directly mirrors Prospero\'s usurpation by Antonio, establishing the novel\'s structural "textual conversation" with the play from its opening pages.',
-      quoteIds: ['q-h-island-domain', 'q-h-miranda-photo'],
+      quoteIds: ['q-h-island-domain', 'q-h-miranda-photo', 'q-h-illusion-smile'],
     },
     {
       id: 's-h-workshop',
@@ -780,7 +900,7 @@ export const HAG_SEED: EnglishText = {
       ],
       charactersInFocus: ['felix', 'anne-marie'],
       turningPointHtml: 'Learning that Tony and Sal will visit the prison gives Felix the opportunity for revenge he has waited twelve years for, setting the novel\'s main plot in motion.',
-      quoteIds: ['q-h-caliban-parallel', 'q-h-white-collar-crook'],
+      quoteIds: ['q-h-caliban-parallel', 'q-h-white-collar-crook', 'q-h-profanity-literacy', 'q-h-island-theatre'],
     },
     {
       id: 's-h-production',
@@ -800,7 +920,7 @@ export const HAG_SEED: EnglishText = {
       ],
       charactersInFocus: ['felix', 'anne-marie', 'tony'],
       turningPointHtml: null,
-      quoteIds: ['q-h-anne-marie-agency', 'q-h-steak-rare'],
+      quoteIds: ['q-h-anne-marie-agency', 'q-h-steak-rare', 'q-h-catch-sight'],
     },
     {
       id: 's-h-resolution',
@@ -830,8 +950,8 @@ export const HAG_SEED: EnglishText = {
       roleHtml: 'Ousted artistic director of the Makeshiweg Festival, now teaching Shakespeare under the alias "Mr Duke" at Fletcher Correctional — the novel\'s Prospero figure.',
       relationshipsHtml: 'Grieving father to the deceased Miranda, whom he continues to imagine as present; former colleague and eventual target of revenge against Tony and Sal; mentor to Anne-Marie and the inmate cast.',
       developmentHtml: 'Begins in embittered, grief-locked isolation, sustains an elaborate act of long-planned revenge, and ultimately reaches a gradual, self-directed forgiveness that allows him to finally let go of Miranda.',
-      associatedThemeIds: ['th-h-power', 'th-h-revenge', 'th-h-forgiveness'],
-      quoteIds: ['q-h-island-domain', 'q-h-miranda-photo', 'q-h-ladder', 'q-h-steak-rare', 'q-h-for-once', 'q-h-strewn-forgiveness'],
+      associatedThemeIds: ['th-h-power', 'th-h-revenge', 'th-h-forgiveness', 'th-h-theatre'],
+      quoteIds: ['q-h-island-domain', 'q-h-miranda-photo', 'q-h-ladder', 'q-h-steak-rare', 'q-h-for-once', 'q-h-strewn-forgiveness', 'q-h-illusion-smile', 'q-h-catch-sight', 'q-h-island-theatre', 'q-h-profanity-literacy'],
     },
     {
       id: 'anne-marie',
@@ -853,6 +973,22 @@ export const HAG_SEED: EnglishText = {
     },
   ],
   themes: [
+    {
+      id: 'th-h-theatre',
+      name: 'Theatre and performance as rehabilitation',
+      explanationHtml:
+        'Where The Tempest uses theatre and illusion primarily as Prospero\'s instruments of power, Hag-Seed extends the same interest in performance to argue for its genuinely rehabilitative and cathartic power — for Felix personally, and for the inmates collectively.',
+      developmentHtml:
+        'Established through Felix\'s own theatrical, illusion-conscious self-presentation in his exile, developed through his hope that art might let him "catch sight of" his dead daughter, and completed through the inmates\' collective catharsis in performing.',
+      keySectionIds: ['s-h-exile', 's-h-production', 's-h-resolution'],
+      associatedCharacterIds: ['felix'],
+      quoteIds: ['q-h-illusion-smile', 'q-h-catch-sight', 'q-h-island-theatre'],
+      techniqueIds: ['t-h-metatheatre'],
+      possibleArguments: [
+        'Atwood extends Shakespeare\'s interest in theatre as illusion into a specifically therapeutic claim — performance does not just conceal or manipulate, it heals',
+        'Felix\'s description of his cottage exile as "my theatre" and, later, of the prison as a stage where "the Island is a theatre" shows theatre operating for him as both self-protection and eventual self-repair',
+      ],
+    },
     {
       id: 'th-h-power',
       name: 'Power, hierarchy and empowerment through art',
@@ -898,6 +1034,48 @@ export const HAG_SEED: EnglishText = {
   ],
   quotes: [
     {
+      id: 'q-h-illusion-smile',
+      textHtml: 'He smiles: the illusion of smile, pretence, fakery, but who\'s to know?',
+      speaker: 'Narration (Felix\'s perspective)',
+      location: 'Early in the novel, establishing Felix\'s character',
+      sectionId: 's-h-exile',
+      themeIds: ['th-h-theatre'],
+      techniqueIds: ['t-h-metatheatre'],
+      characterIds: ['felix'],
+      contextHtml: 'An early description of Felix\'s practised, performed social manner.',
+      revealsHtml: 'The fragmented syntax and self-correcting rhetorical question establish Felix as someone permanently, consciously performing even outside any literal stage — a habit of mind, not just a professional skill.',
+      authorialPurposeHtml: 'Introduces Felix\'s Prospero-like theatricality of personality from early in the novel, priming the reader to read his later staged revenge as continuous with how he already moves through the world.',
+      argumentHtml: 'Useful opening-characterisation evidence for essays on theatre/performance as Felix\'s default mode of being, not just his profession.',
+    },
+    {
+      id: 'q-h-catch-sight',
+      textHtml: 'What he couldn\'t have in life he might still catch sight of through his art.',
+      speaker: 'Narration (Felix\'s perspective)',
+      location: 'During the staging of the prison production',
+      sectionId: 's-h-production',
+      themeIds: ['th-h-theatre'],
+      techniqueIds: ['t-h-metatheatre'],
+      characterIds: ['felix'],
+      contextHtml: "Felix's reflection on why he stages The Tempest at Fletcher Correctional, using it to conjure the presence of his dead daughter Miranda.",
+      revealsHtml: 'Positions art not as escapism but as a genuine, if partial, form of access to what grief has taken away — theatre becomes Felix\'s substitute for a mourning he has otherwise refused to complete.',
+      authorialPurposeHtml: 'Makes explicit the therapeutic claim underlying the novel\'s whole premise: that staging The Tempest is not incidental to Felix\'s grief, but his chosen method of processing it.',
+      argumentHtml: 'Central evidence for any argument that Hag-Seed extends The Tempest\'s interest in theatrical illusion into a claim about art\'s genuinely restorative power.',
+    },
+    {
+      id: 'q-h-island-theatre',
+      textHtml: 'The Island is a theatre… All the theatre is ephemeral.',
+      speaker: 'Felix',
+      location: 'During the Fletcher Correctional workshop',
+      sectionId: 's-h-workshop',
+      themeIds: ['th-h-theatre'],
+      techniqueIds: ['t-h-metatheatre'],
+      characterIds: ['felix'],
+      contextHtml: "Felix teaching the inmates to read The Tempest's island as a stage in its own right.",
+      revealsHtml: 'By naming the island itself as "a theatre", Felix collapses Shakespeare\'s setting and his own prison workshop into the same idea — both are temporary, constructed spaces where illusion and identity can be remade.',
+      authorialPurposeHtml: "Atwood has Felix state the novel's own metatheatrical premise directly, teaching the reader (via the inmates) how to read the parallel she has built between the play's island and the prison.",
+      argumentHtml: 'The clearest, most explicit statement of the novel\'s "textual conversation" with The Tempest\'s own metatheatrical concerns — very safe, high-value evidence.',
+    },
+    {
       id: 'q-h-island-domain',
       textHtml: 'This is my island domain… my place of exile… my penance… my theatre.',
       speaker: 'Felix (narration)',
@@ -938,6 +1116,20 @@ export const HAG_SEED: EnglishText = {
       revealsHtml: 'Atwood names the intertextual parallel directly, ensuring the reader connects the inmates\' marginalisation to Caliban\'s rather than leaving the comparison implicit.',
       authorialPurposeHtml: 'A rare moment where the novel makes its "textual conversation" with the play explicit rather than structural, guiding the reader\'s comparative reading.',
       argumentHtml: 'Strong, low-risk evidence for any essay explicitly discussing how the two texts converse — it names its own intertextuality.',
+    },
+    {
+      id: 'q-h-profanity-literacy',
+      textHtml: 'Your profanity… has oft been your whoreson hag-born progenitor of literacy.',
+      speaker: 'Felix',
+      location: 'During the Fletcher Correctional workshop',
+      sectionId: 's-h-workshop',
+      themeIds: ['th-h-power'],
+      techniqueIds: ['t-h-inversion'],
+      characterIds: ['felix'],
+      contextHtml: 'Felix\'s mock-Shakespearean pronouncement to the inmates, framing swearing as the starting point for genuine literacy.',
+      revealsHtml: 'Fusing archaic Shakespearean insult ("whoreson", "hag-born") with the Latinate abstraction "progenitor" turns cursing — the one thing Caliban gained from his education — into the deliberate, structured beginning of the inmates\' literacy rather than its bitter endpoint.',
+      authorialPurposeHtml: 'A precise, direct inversion of Caliban\'s "you taught me language, and my profit on\'t is I know how to curse" — Atwood restages the exact same mechanism (teaching insults) to produce the opposite outcome.',
+      argumentHtml: 'The single most precise piece of evidence for a comparative essay pairing this moment directly against Caliban\'s "profit" line — same mechanism, inverted outcome.',
     },
     {
       id: 'q-h-white-collar-crook',
@@ -1039,6 +1231,20 @@ export const HAG_SEED: EnglishText = {
     },
   ],
   techniques: [
+    {
+      id: 't-h-metatheatre',
+      name: 'Metatheatre',
+      category: 'structure-and-form',
+      definitionHtml: 'Moments where the novel draws explicit attention to theatre and performance as its own subject — Felix naming the prison or the island "a theatre", or reflecting on his own performed self-presentation.',
+      effectHtml: 'Collapses the distance between the novel\'s fictional frame and its central subject (a theatre director staging a play about theatre), reinforcing that performance is not incidental but the novel\'s actual method of exploring grief and power.',
+      whyAuthorsUseItHtml: 'Atwood inherits Shakespeare\'s own metatheatrical interest in The Tempest and extends it explicitly, having Felix articulate the parallel directly rather than leaving it implicit.',
+      exampleQuoteId: 'q-h-island-theatre',
+      genericExampleHtml: null,
+      analyticalLanguage: ['makes explicit the metatheatrical premise of', 'collapses the fiction/performance boundary through', 'extends Shakespeare\'s own metatheatrical concerns into'],
+      howToRecogniseHtml: 'A moment where a character reflects on theatre, performance or illusion as a subject in itself, rather than simply performing within the story.',
+      commonMistakeHtml: 'Treating every reference to "the play" as metatheatrical — reserve the term for moments that specifically comment on performance/illusion as a concept, not just plot events that happen to involve the production.',
+      confusedWithIds: ['t-h-intertextuality'],
+    },
     {
       id: 't-h-anaphora',
       name: 'Anaphora',
@@ -1214,16 +1420,48 @@ export const HAG_SEED: EnglishText = {
       planningGuidanceHtml: 'Decode the question: "even as it rejects" is the key phrase — a strong thesis needs to hold both halves (same values, different justification) rather than picking one side.',
     },
     {
+      id: 'essay-h-topic-sentence-1',
+      type: 'topic-sentence',
+      prompt:
+        'Write a topic sentence for a body paragraph arguing that Atwood extends The Tempest\'s interest in theatrical illusion into a claim about art\'s genuinely restorative power.',
+      marks: null,
+      suggestedEvidence: ['q-h-catch-sight', 'q-h-island-theatre'],
+      modelThesisHtml:
+        'A strong topic sentence names the specific technique/evidence and states the claim it proves, rather than only naming the general topic area.',
+      modelArgumentStructureHtml:
+        'Formula: [Author] + [technique/method] + [specific claim] — e.g. "Atwood extends Shakespeare\'s metatheatrical interest in illusion into an explicitly therapeutic claim, positioning Felix\'s production of The Tempest as a means of genuine access to his grief rather than mere escape from it."',
+      modelResponseHtml:
+        'Model topic sentence: "Atwood extends Shakespeare\'s metatheatrical interest in illusion into an explicitly therapeutic claim, positioning Felix\'s staging of The Tempest as his chosen means of processing grief rather than a mere distraction from it."',
+      planningGuidanceHtml:
+        'A weak topic sentence just restates the prompt ("Atwood shows that art helps Felix"). A strong one names the specific evidence/technique AND the claim it proves, in one sentence, before the paragraph unpacks it.',
+    },
+    {
+      id: 'essay-h-paragraph-1',
+      type: 'paragraph',
+      prompt:
+        'Write a full body paragraph analysing how Atwood\'s "Island is a theatre" motif reframes Shakespeare\'s interest in performance as specifically rehabilitative.',
+      marks: null,
+      suggestedEvidence: ['q-h-island-theatre', 'q-h-catch-sight', 'q-h-for-once'],
+      modelThesisHtml:
+        'A complete paragraph needs: topic sentence, embedded evidence, technique naming, effect/meaning, and an explicit link back to the question.',
+      modelArgumentStructureHtml:
+        'Structure: topic sentence → embedded quote → technique(s) named → effect on reader\'s understanding → link back to the question\'s specific wording.',
+      modelResponseHtml:
+        '<p>Atwood extends Shakespeare\'s metatheatrical interest in illusion into an explicitly therapeutic claim, positioning Felix\'s staging of The Tempest as his chosen means of processing grief rather than a mere distraction from it. Teaching the inmates to read Shakespeare\'s setting on its own terms, Felix declares that "the Island is a theatre" and that "all the theatre is ephemeral" — collapsing Prospero\'s island and his own prison workshop into the same idea, so that both become temporary, constructed spaces in which identity and meaning can be actively remade rather than simply performed. This is not abstract theory for Felix: Atwood\'s narration reveals that "what he couldn\'t have in life he might still catch sight of through his art", making explicit that his production is a genuine, if partial, means of access to his dead daughter Miranda, not merely escapism from her loss. Where Shakespeare\'s Prospero uses theatrical illusion primarily as an instrument of power and eventual reconciliation with his enemies, Atwood redirects the same metatheatrical logic toward healing — a redirection confirmed at the novel\'s climax, when the inmates, watching a recording of their own performance, experience what Felix observes as a moment where "for once in their lives, they loved themselves." By extending Shakespeare\'s theatre-as-illusion motif into an argument for theatre-as-therapy, Atwood answers the module\'s central question of what a later text can do with an earlier one\'s concerns: not simply repeat them, but test whether they still hold when applied to a genuinely rehabilitative, rather than merely manipulative, purpose.</p>',
+      planningGuidanceHtml:
+        'Note the paragraph above moves through five stages: topic sentence, embedded evidence with technique naming, a second embedded quote extending the point to Felix\'s own psychology, a comparative gesture back to Shakespeare, and a closing sentence returning explicitly to the module\'s "textual conversation" framing. Use this shape rather than a list of quotes with paraphrase attached.',
+    },
+    {
       id: 'essay-h-full-1',
       type: 'full-essay',
       prompt: 'Analyse how Atwood uses Felix\'s psychological journey to reinterpret The Tempest\'s treatment of revenge and forgiveness for a contemporary audience.',
       marks: 20,
-      suggestedEvidence: ['q-h-island-domain', 'q-h-miranda-photo', 'q-h-steak-rare', 'q-h-ladder', 'q-h-faces-watching', 'q-h-strewn-forgiveness'],
+      suggestedEvidence: ['q-h-island-domain', 'q-h-miranda-photo', 'q-h-steak-rare', 'q-h-ladder', 'q-h-faces-watching', 'q-h-strewn-forgiveness', 'q-h-catch-sight'],
       modelThesisHtml:
         'Atwood reinterprets The Tempest\'s revenge-and-forgiveness arc by relocating it entirely inside Felix\'s psychology, replacing Shakespeare\'s external, staged confrontation with an internal, gradual process that a contemporary, secular reader can recognise as genuine psychological growth rather than moral instruction.',
       modelArgumentStructureHtml: 'Suggested structure: (1) intro with thesis; (2) Felix\'s self-imposed exile as internalised imprisonment (island domain, Miranda\'s photo); (3) the visceral, honestly-rendered appeal of revenge (steak, rare) as a deliberately unsanitised contrast to Shakespeare\'s restraint; (4) the ladder metaphor and the inmates\' catharsis as Felix\'s gradual route to forgiveness; (5) conclusion on why a contemporary audience needs this psychological, rather than providential, account to find the resolution credible.',
       modelResponseHtml:
-        'A full worked model response is intentionally not provided for this single-text question in this build pass — the module-level comparative full-essay question above provides a complete worked model covering closely related material. Flagged for a follow-up content pass to add a single-text model here as well.',
+        '<p>Margaret Atwood\'s Hag-Seed reinterprets The Tempest\'s revenge-and-forgiveness arc for a contemporary audience by relocating it almost entirely inside Felix Phillips\'s psychology, replacing Shakespeare\'s external, magically-staged confrontation with an internal, gradual process a secular modern reader can recognise as genuine psychological growth rather than providentially-sanctioned moral instruction.</p><p>Atwood first establishes Felix\'s exile as a self-authored psychological prison, in deliberate contrast to Prospero\'s externally-imposed one. Felix\'s declaration that his isolated cottage is "my island domain… my place of exile… my penance… my theatre" uses anaphoric repetition of the possessive "my" to trap him inside his own grief-fuelled self-mythology, while the "silver-framed photo of Miranda… trapped with him… she\'s fading" juxtaposes preservation against decay to capture a mourning he has refused to complete. Where Ariel\'s imprisonment in the "cloven pine" was inflicted by Sycorax, Felix\'s confinement is entirely his own construction — a psychological, rather than colonial or magical, register for the same imprisonment motif.</p><p>Atwood then refuses to sanitise revenge\'s appeal in a way Shakespeare\'s more restrained verse never risks. As his plan against Tony and Sal nears execution, the narration observes that "revenge is so close he can actually taste it. It tastes like steak, rare" — an appetitive, bodily metaphor that makes Felix\'s temptation genuinely persuasive rather than an obstacle easily dismissed. This honesty about revenge\'s pleasure is essential to what follows: it makes Felix\'s eventual choice of forgiveness a harder-won, more psychologically credible achievement than Prospero\'s comparatively swift "rarer action… in virtue, than in vengeance."</p><p>Felix\'s route to that forgiveness is gradual and self-interested rather than a single moral epiphany. His realisation that "once you\'ve climbed a ladder… you kick it away, if you don\'t intend to go down it again" reframes forgiveness as a practical, almost strategic decision, made explicit in his later, startlingly candid admission that "his enemies had suffered, which had been a pleasure. Then Felix had strewn forgiveness around… which had been a greater pleasure." By directly comparing the pleasure of both revenge and forgiveness, Atwood substitutes an observable psychological mechanism for Shakespeare\'s theological one — mercy wins not because virtue is divinely rarer than vengeance, but because, Felix discovers, it simply feels better and lasts longer.</p><p>This psychological reframing extends beyond Felix alone. Watching the inmates encounter a recording of their own performance — "the many faces watching their own faces as they pretend to be someone else" — Felix witnesses a collective catharsis Atwood makes explicit as art\'s own capacity for repair: "what he couldn\'t have in life he might still catch sight of through his art." The novel\'s forgiveness plot and its theatre-as-rehabilitation plot are, by this point, the same claim made twice — at an individual and a collective scale.</p><p>Atwood\'s reinterpretation, then, does not reject Shakespeare\'s conclusion that mercy outweighs vengeance; it keeps that conclusion while replacing its providential justification with a psychological one a secular contemporary audience can find credible without requiring belief in the Jacobean moral order The Tempest assumes. Felix\'s journey — self-imposed imprisonment, honestly-rendered temptation, gradual and self-interested forgiveness, extended finally to collective catharsis through art — makes Hag-Seed\'s "textual conversation" with its source precise: it interrogates exactly which of Shakespeare\'s claims survive when their theological scaffolding is removed, and finds that the psychological truth underneath does.</p>',
       planningGuidanceHtml: 'Decode the question: "for a contemporary audience" is doing real work — link every technique you discuss back to why a secular, modern reader needs this psychological account specifically, not just that Atwood changed the setting.',
     },
   ],

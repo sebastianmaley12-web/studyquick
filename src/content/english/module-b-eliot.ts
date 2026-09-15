@@ -673,6 +673,38 @@ export const ELIOT_POETRY: EnglishText = {
       planningGuidanceHtml: 'Decode the question: "single mind\'s journey" is doing real work — a strong response should note that Eliot actually moves from an individual voice (Prufrock) to a collective one (The Hollow Men) before returning to an individual, if different, voice (the Magus) — the "journey" is not as simple or singular as the question implies.',
     },
     {
+      id: 'essay-e-topic-sentence-1',
+      type: 'topic-sentence',
+      prompt:
+        'Write a topic sentence for a body paragraph arguing that Eliot\'s fragmented syntax formally enacts the psychological paralysis it describes.',
+      marks: null,
+      suggestedEvidence: ['q-e-dare-disturb', 'q-e-the-shadow'],
+      modelThesisHtml:
+        'A strong topic sentence names the specific technique/evidence and states the claim it proves, rather than only naming the general topic.',
+      modelArgumentStructureHtml:
+        'Formula: [Poet] + [technique/method] + [specific claim] — e.g. "Eliot\'s fragmented syntax in \'Do I dare / Disturb the universe?\' does not merely describe Prufrock\'s hesitation, it formally enacts it, breaking the line exactly where his nerve breaks."',
+      modelResponseHtml:
+        'Model topic sentence: "Eliot\'s fragmented syntax formally enacts, rather than simply describes, the paralysis at the centre of his early poetry, breaking Prufrock\'s central question across a line so that the reader experiences his hesitation directly."',
+      planningGuidanceHtml:
+        'A weak topic sentence just restates the prompt ("Eliot shows paralysis through fragmented syntax"). A strong one names the specific evidence AND the claim it proves, in one sentence, before the paragraph unpacks it.',
+    },
+    {
+      id: 'essay-e-paragraph-1',
+      type: 'paragraph',
+      prompt:
+        'Write a full body paragraph analysing how Eliot uses the "Shadow" motif in "The Hollow Men" to generalise Prufrock\'s individual paralysis into a collective condition.',
+      marks: null,
+      suggestedEvidence: ['q-e-the-shadow', 'q-e-hollow-stuffed', 'q-e-dare-disturb'],
+      modelThesisHtml:
+        'A complete paragraph needs: topic sentence, embedded evidence, technique naming, effect/meaning, and an explicit link back to the question.',
+      modelArgumentStructureHtml:
+        'Structure: topic sentence → embedded quote → technique(s) named → effect on reader\'s understanding → link back to the question\'s specific wording.',
+      modelResponseHtml:
+        '<p>Eliot\'s fragmented syntax formally enacts, rather than simply describes, the paralysis at the centre of his early poetry, and "The Hollow Men" extends this technique from an individual failure of nerve into a collective, post-war condition. Where Prufrock\'s "Do I dare / Disturb the universe?" breaks a single anxious mind across a line, the hollow men speak only as a depersonalised "we" — "We are the hollow men / We are the stuffed men" — the droning anaphoric repetition enacting an emptiness shared by an entire generation rather than one man\'s private hesitation. This generalisation is made explicit through the poem\'s central "Shadow" motif, which Eliot repeats across four parallel binary pairings — "Between the idea / And the reality… Falls the Shadow" — using structural repetition to insist that the gap between intention and action is now total and inescapable, not an occasional lapse of nerve as it was for Prufrock. By moving from an individual\'s fragmented syntax to a collective\'s anaphoric repetition, Eliot traces paralysis from private psychology into public, post-war malaise, using formal technique to perform exactly the broadening his subject matter describes.</p>',
+      planningGuidanceHtml:
+        'Note the paragraph above moves through five stages: topic sentence, embedded evidence with technique naming, a second embedded quote extending the point, an explicit comparison back to Prufrock, and a closing sentence returning to the question\'s wording. Use this shape rather than a list of quotes with paraphrase attached.',
+    },
+    {
       id: 'essay-e-full-1',
       type: 'full-essay',
       prompt: 'Analyse how Eliot\'s formal choices — voice, structure and allusion — work together to shape his critique of modernity across the poems you have studied.',
