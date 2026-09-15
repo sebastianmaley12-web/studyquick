@@ -25,7 +25,7 @@ export const MODULE_A: EnglishModule = {
   name: 'Module A: Textual Conversations',
   yearLevel: 12,
   syllabusOverviewHtml:
-    'Students explore the ways in which the comparative study of two texts can lead to new or altered insights and perspectives. They consider how a reimagining or reframing of an aspect of a text might mirror, align or collide with the values of another text, and how this shapes meaning. Students study the prescribed pair of texts and analyse their perspectives on human experience, motivations, actions, values and belief systems.',
+    'Students explore how the comparative study of two texts can reveal points of connection and difference between them — how a later text\'s reimagining or reframing of an aspect of an earlier one might echo, align with or push back against it. They study a prescribed pair of texts, examining shared or differing issues, values, assumptions and perspectives, and consider how each composer\'s own context and influences have shaped the meaning of their text.',
   textIds: ['the-tempest', 'hag-seed'],
   comparativeEssayQuestions: [
     {

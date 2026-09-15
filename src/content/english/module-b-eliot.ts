@@ -20,7 +20,7 @@ export const MODULE_B: EnglishModule = {
   name: 'Module B: Critical Study of Literature',
   yearLevel: 12,
   syllabusOverviewHtml:
-    'Students explore, analyse and appreciate the ideas and qualities of a substantial literary text or a related body of work by a single writer, and its reception by both contemporary and modern audiences. Students study a prescribed text and develop a sustained, close analysis of its language, content and construction, examining how the composer\'s ideas and stylistic choices contribute to the text\'s enduring value and significance.',
+    'Students develop detailed analytical and critical understanding of a single, substantial body of literary work, building an increasingly personal and well-supported response to it over the course of close study. They study a prescribed text (or, as here, a prescribed body of poetry by one writer), closely analysing its construction, content and language, considering the context of its composition and reception, and using their own research and reading to develop an informed, well-evidenced interpretation of its ideas and significance.',
   textIds: ['eliot-poetry'],
 }
 
