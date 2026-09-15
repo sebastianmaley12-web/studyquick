@@ -30,6 +30,7 @@ const SUBJECT_GLYPHS: Record<string, string> = {
   hms: '⚕',
   business: '💼',
   'english-advanced': '✎',
+  legal: '⚖',
 }
 
 function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
