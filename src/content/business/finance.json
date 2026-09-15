@@ -961,5 +961,92 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-biz-wesfarmers",
+      "type": "case-study",
+      "name": "Wesfarmers — ratio analysis benchmark",
+      "citation": "Conglomerate (Bunnings, Kmart, Officeworks); FY2025",
+      "whatIsItHtml": "Wesfarmers is the cleanest publicly reported Australian business for ratio work — it discloses revenue and earnings by division, so segments can be compared inside one company as well as against competitors.",
+      "whatItDemonstratesHtml": "Group revenue $45,700m (up 3.4%); net profit after tax $2,926m (up 14.4% — profit growing four times faster than sales); return on equity 34.3%. Net profit ratio = 2,926 &divide; 45,700 = 6.4% — a supermarket-thin margin on a huge revenue base, showing the high ROE comes from asset turnover and low equity, not fat margins.",
+      "howToUseItHtml": "Use for calculating and interpreting profitability/efficiency ratios, comparative ratio analysis between divisions or years, and the objectives of financial management (dividend policy vs. reinvestment).",
+      "relatedTags": [
+        "ratio-analysis",
+        "profitability"
+      ],
+      "source": "Case Studies - Finance.docx (2.1), citing Wesfarmers' 2025 full-year results"
+    },
+    {
+      "id": "ev-biz-qantas",
+      "type": "case-study",
+      "name": "Qantas — gearing, cash flow and the cost of the past",
+      "citation": "Aviation; FY2025",
+      "whatIsItHtml": "Qantas reported a strong FY25 while still carrying the financial consequences of earlier decisions: a $90 million penalty over 2020 ground-handling outsourcing, a $120 million worker compensation fund, and roughly $120 million in ACCC-related penalties over \"ghost flights\".",
+      "whatItDemonstratesHtml": "Revenue $23,823m (up 8.6%); statutory profit after tax $1,605m (up 28.3%); operating cash flow $4,253m; net debt $5.0bn (inside its $4.6-5.7bn target range). Net profit ratio = 1,605 &divide; 23,823 = 6.7% — similar to Wesfarmers' 6.4%, but achieved carrying far more financial risk (net debt).",
+      "howToUseItHtml": "Use for the conflict between short-term and long-term financial objectives (2020 cost-cutting vs. later penalties), cash flow vs. profit, managing a target gearing range, and global financial risk (fuel/currency exposure).",
+      "relatedTags": [
+        "gearing",
+        "short-vs-long-term"
+      ],
+      "source": "Case Studies - Finance.docx (2.2), citing Qantas' FY25 results release"
+    },
+    {
+      "id": "ev-biz-star-entertainment",
+      "type": "case-study",
+      "name": "Star Entertainment — liquidity, solvency and going concern",
+      "citation": "Casinos and hospitality; half year to December 2024",
+      "whatIsItHtml": "After regulatory findings and mandatory carded play/cash limits, Star Entertainment's revenue collapsed and it came close to administration, surviving through a rescue package led by Bally's and investor Bruce Mathieson.",
+      "whatItDemonstratesHtml": "Statutory loss of $302m for the half year; group revenue down 25%; available cash of just $98 million; $300m rescue package. Star is the textbook demonstration that a business fails on liquidity, not profitability — $98m of cash against a $302m loss left no option but dilutive equity finance on the rescuer's terms.",
+      "howToUseItHtml": "Use for recommending strategies to improve financial performance, the influence of government regulation on financial management, and the difference between profitability and liquidity.",
+      "relatedTags": [
+        "liquidity",
+        "solvency",
+        "going-concern"
+      ],
+      "source": "Case Studies - Finance.docx (2.3), citing ABC News (15 April 2025)"
+    },
+    {
+      "id": "ev-biz-mosaic-brands",
+      "type": "case-study",
+      "name": "Mosaic Brands — working capital and expansion risk",
+      "citation": "Fashion retail (Noni B, Millers, Rockmans etc.); entered administration October 2024",
+      "whatIsItHtml": "Mosaic Brands grew by acquisition — buying store networks cheaply and stripping costs — but never converted scale into margin, entering voluntary administration owing creditors around $240-250 million.",
+      "whatItDemonstratesHtml": "Peak revenue ~$864m across ~1,400 stores, but operating margins consistently weak at 1-4.7%; inventory held around 128 days while suppliers were paid on 120+ day terms — the working capital gap that eventually closed on it. Stretching supplier terms to 120+ days is not working capital management, it is borrowing from suppliers — a strategy that funds growth only until suppliers stop supplying.",
+      "howToUseItHtml": "Use for recommending strategies to improve financial performance, working capital/cash flow management, and the risks of debt-funded growth.",
+      "relatedTags": [
+        "working-capital",
+        "insolvency"
+      ],
+      "source": "Case Studies - Finance.docx (2.4), citing SmartCompany"
+    },
+    {
+      "id": "ev-biz-asic-greenwashing",
+      "type": "case-study",
+      "name": "ASIC greenwashing penalties",
+      "citation": "Financial services and superannuation; 2024",
+      "whatIsItHtml": "ASIC ran its first civil penalty cases over greenwashing — misleading claims about the sustainability of investment products — and won all three: Mercer Superannuation ($11.3m), Vanguard Investments Australia ($12.9m, the largest greenwashing penalty to date), and Active Super ($10.5m). In each case the products invested in industries the marketing said were excluded.",
+      "whatItDemonstratesHtml": "Establishes that statements about ethical screening are financial representations subject to the law. Greenwashing is the modern form of misleading reporting — the numbers were accurate but the narrative around them was not.",
+      "howToUseItHtml": "Use for examining ethical financial reporting practices, the role of ASIC and the Corporations Act, and CSR in financial management.",
+      "relatedTags": [
+        "ethical-reporting",
+        "asic"
+      ],
+      "source": "Case Studies - Finance.docx (2.5), citing ASIC media releases 24-173MR and 24-213MR"
+    },
+    {
+      "id": "ev-biz-woolworths-coles-underpayment",
+      "type": "case-study",
+      "name": "Woolworths and Coles — provisions and the limits of the balance sheet",
+      "citation": "Retail (supermarkets); Federal Court ruling September 2025",
+      "whatIsItHtml": "Both retailers had underpaid salaried managers for years using annualised salary \"set-off\" arrangements. In September 2025 the Federal Court found the practice unlawful, converting an uncertain contingency into a large liability requiring provision.",
+      "whatItDemonstratesHtml": "Close to 30,000 employees affected; Woolworths' total potential liability estimated around $1.3 billion pre-tax, Coles' around $300 million. For years the reported accounts were technically correct and materially incomplete — the best available illustration that financial statements show position at a point in time under a set of assumptions, not economic truth.",
+      "howToUseItHtml": "Use for identifying the limitations of financial reporting, ethical reporting, and how a legal/HR risk becomes a financial one.",
+      "relatedTags": [
+        "limitations-of-reporting",
+        "provisions"
+      ],
+      "source": "Case Studies - Finance.docx (2.6), citing ABC News (8 September 2025)"
+    }
   ]
 }

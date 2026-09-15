@@ -976,5 +976,110 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-biz-woolworths-moorebank",
+      "type": "case-study",
+      "name": "Woolworths Moorebank — automating the supply chain",
+      "citation": "Retail logistics; opened 18 November 2025",
+      "whatIsItHtml": "Woolworths opened a National and Regional Distribution Centre at Moorebank, Western Sydney — its largest single investment ever, replacing older manual warehouses with automated storage and retrieval next to Port Botany rail and the M5/M7.",
+      "whatItDemonstratesHtml": "$1.3 billion invested; capacity to move more than five million cartons a week to over 1,000 stores; removes an estimated 26,000 truck movements per year. Automation on this scale converts a variable labour cost into a fixed capital cost — it lifts speed-to-shelf and cuts emissions, but raises the break-even point and concentrates risk onto a single site.",
+      "howToUseItHtml": "Use for technology as a process strategy, supply chain management and logistics, sustainability in operations, and interdependence with finance ($1.3bn outlay) and HR (fewer manual roles).",
+      "relatedTags": [
+        "technology",
+        "supply-chain",
+        "sustainability"
+      ],
+      "source": "Case Studies - Operations.docx (2.1)"
+    },
+    {
+      "id": "ev-biz-dp-world-cyberattack",
+      "type": "case-study",
+      "name": "DP World Australia — the cyber attack that stopped the ports",
+      "citation": "Logistics/port stevedoring; 10-13 November 2023",
+      "whatIsItHtml": "DP World Australia, which handles about 40% of Australia's container freight, was hit by a cyber attack and shut down operations at its Sydney, Melbourne, Brisbane and Fremantle terminals, disconnecting from the internet to contain the breach.",
+      "whatItDemonstratesHtml": "Around 30,000 containers were stranded across the four terminals; costs estimated in the millions of dollars per day, worsened by just-in-time inventory practices ahead of Christmas. The best single example of the trade-off inside JIT: minimal inventory is efficient until a single node fails, at which point the business has no buffer at all.",
+      "howToUseItHtml": "Use for the downside of technology dependence, why JIT lowers holding costs but raises supply risk, and risk/contingency planning in global supply chains.",
+      "relatedTags": [
+        "technology-risk",
+        "just-in-time",
+        "supply-chain"
+      ],
+      "source": "Case Studies - Operations.docx (2.2)"
+    },
+    {
+      "id": "ev-biz-kmart-cost-leadership",
+      "type": "case-study",
+      "name": "Kmart and Anko — cost leadership through global sourcing",
+      "citation": "Retail (Wesfarmers); FY2025",
+      "whatIsItHtml": "Kmart Australia's operations strategy is built on its own brand, Anko — designing product in-house, sourcing directly from overseas manufacturers, standardising ranges and cutting out intermediaries.",
+      "whatItDemonstratesHtml": "Kmart Group FY2025 earnings $1,046m, up 9.2% against revenue growth of only 2.9% — earnings growing faster than sales is the signature of an operations-led cost advantage, the strongest available evidence that operations strategy alone can sustain competitive advantage.",
+      "howToUseItHtml": "Use for the strategic role of operations (cost leadership), globalisation and global sourcing, and the cost/quality balance.",
+      "relatedTags": [
+        "cost-leadership",
+        "global-sourcing"
+      ],
+      "source": "Case Studies - Operations.docx (2.3)"
+    },
+    {
+      "id": "ev-biz-bunnings-scale-technology",
+      "type": "case-study",
+      "name": "Bunnings — scale, service and the limits of technology",
+      "citation": "Retail (Wesfarmers); facial recognition used Nov 2018 - Nov 2021",
+      "whatIsItHtml": "Bunnings competes on range, price guarantee and in-store service rather than lowest cost alone, but also deployed facial recognition technology later found by the Privacy Commissioner to have breached the Privacy Act.",
+      "whatItDemonstratesHtml": "FY2025 revenue $19,595m (up 3.3%); TRIFR improved sharply to 13.7 from 17.0 the year before, still the weakest safety result in the Wesfarmers group. A technology that improves one operations objective (loss prevention, staff safety) can breach obligations elsewhere — operations decisions must be assessed against the whole legal and ethical environment, not just efficiency.",
+      "howToUseItHtml": "Use for the difference between legal compliance and ethical responsibility, technology's influence on operations, and quality/safety management.",
+      "relatedTags": [
+        "technology",
+        "ethics",
+        "safety"
+      ],
+      "source": "Case Studies - Operations.docx (2.4)"
+    },
+    {
+      "id": "ev-biz-qantas-tertiary-operations",
+      "type": "case-study",
+      "name": "Qantas — operations in a tertiary industry",
+      "citation": "Aviation (services); FY2025",
+      "whatIsItHtml": "Qantas is the standard Australian example of services operations: intangible, perishable (an unsold seat is lost forever), produced and consumed simultaneously, and highly customer-contact intensive. Its ultra-long-haul Project Sunrise A350 flights were pushed back to 2027 after delivery delays.",
+      "whatItDemonstratesHtml": "FY2025 revenue $23,823m (up 8.6%); ordered 20 additional A321XLR aircraft. Qantas shows why services operations cannot use inventory to buffer demand — capacity must be bought years in advance, so a supplier delay directly constrains marketing's ability to sell routes.",
+      "howToUseItHtml": "Use for features of operations management in a tertiary industry, the goods/services continuum, capacity and lead times, and cross-function relationships.",
+      "relatedTags": [
+        "services-operations",
+        "capacity-management"
+      ],
+      "source": "Case Studies - Operations.docx (2.5)"
+    },
+    {
+      "id": "ev-biz-redcycle-soft-plastics",
+      "type": "case-study",
+      "name": "Soft plastics after REDcycle — CSR in reverse logistics",
+      "citation": "Retail/waste; REDcycle collapsed November 2022, clean-up reported July 2025",
+      "whatIsItHtml": "Coles and Woolworths ran in-store soft plastics collection through REDcycle. When REDcycle stopped processing, thousands of tonnes of collected plastic were found stockpiled in warehouses rather than recycled; the supermarkets took responsibility for the clean-up under a taskforce with ACCC authorisation.",
+      "whatItDemonstratesHtml": "4,000 tonnes of stockpiled soft plastics removed from 15 NSW sites, meeting EPA Clean-Up Notices. The supermarkets were not legally responsible for REDcycle's failure but bore the clean-up because consumers held them responsible — the clearest illustration that ethical responsibility runs further than legal compliance.",
+      "howToUseItHtml": "Use for why CSR is a key concern in operations, the difference between legal compliance and ethical responsibility, and government influence (ACCC, EPA) on operations.",
+      "relatedTags": [
+        "csr",
+        "sustainability",
+        "reverse-logistics"
+      ],
+      "source": "Case Studies - Operations.docx (2.6)"
+    },
+    {
+      "id": "ev-biz-canva-digital-operations",
+      "type": "case-study",
+      "name": "Canva — operations in a digital services business",
+      "citation": "Technology (quaternary services); 2024-2025 figures",
+      "whatIsItHtml": "Canva produces a service with near-zero marginal cost — once the platform is built, serving one more user costs almost nothing. Its operations challenge is capacity, reliability and continuous product development, not transformation of physical materials.",
+      "whatItDemonstratesHtml": "Around 220 million monthly active users; users create an average of 38.5 million designs a day with a workforce of roughly 5,000. Shows that \"operations\" is not the same as \"factory\" — the transformed resource is information, and capacity is measured in server load and release cadence rather than pallets.",
+      "howToUseItHtml": "Use for features of operations in a tertiary/quaternary business, economies of scale, and technology as the transformation process itself.",
+      "relatedTags": [
+        "digital-operations",
+        "technology",
+        "capacity-management"
+      ],
+      "source": "Case Studies - Operations.docx (2.7)"
+    }
   ]
 }

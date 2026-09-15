@@ -4,6 +4,7 @@ import { BusinessRail } from '../components/rail/BusinessRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import { PracticeSection } from '../components/practice/PracticeSection'
+import { BusinessEvidenceBank } from '../components/business/BusinessEvidenceBank'
 import { SearchBar } from '../components/SearchBar'
 import { useBusinessTopicSearch } from '../hooks/useBusinessTopicSearch'
 import { SearchQueryProvider, highlightHtml } from '../context/SearchQueryContext'
@@ -112,6 +113,9 @@ export function BusinessTopic() {
                     </div>
                   ))}
                 </>
+              )}
+              {resource === 'evidence' && (
+                <BusinessEvidenceBank topicId={topicId} items={data.evidence} />
               )}
               {resource === 'quiz' && (
                 <QuizPanel subject="business" topicId={topicId} questions={data.quiz} />

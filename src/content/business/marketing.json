@@ -983,5 +983,96 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-biz-coles-down-down",
+      "type": "case-study",
+      "name": "Coles \"Down Down\" — the discount that wasn't",
+      "citation": "Retail; Federal Court finding 14 May 2026",
+      "whatIsItHtml": "The ACCC sued Coles and Woolworths in September 2024, alleging both temporarily raised prices before advertising products as discounted under \"Down Down\" and \"Prices Dropped\". The Federal Court found against Coles: 13 of 14 promotional tickets examined were misleading.",
+      "whatItDemonstratesHtml": "Coles was found to have temporarily lifted prices on at least 245 products (e.g. Karicare formula held at $18 for 794 days, raised to $24 for 23 days, then advertised as \"Down Down\" at $21 — still $3 above the original price). The strongest available example of a promotion strategy that worked commercially and failed legally.",
+      "howToUseItHtml": "Use for why ethical behaviour and government regulation matter in marketing, deceptive/misleading advertising, and price as an element of the marketing mix.",
+      "relatedTags": [
+        "ethical-marketing",
+        "pricing",
+        "accc"
+      ],
+      "source": "Case Studies - Marketing.docx (2.1)"
+    },
+    {
+      "id": "ev-biz-qantas-ghost-flights",
+      "type": "case-study",
+      "name": "Qantas \"ghost flights\" — selling what you cannot deliver",
+      "citation": "Aviation; ACCC action from August 2023",
+      "whatIsItHtml": "The ACCC took Qantas to court for advertising and selling tickets on flights it had already decided to cancel, and failing to promptly notify existing ticketholders. Qantas settled, agreeing to a $100 million penalty and about $20 million in direct payments to customers.",
+      "whatItDemonstratesHtml": "86,597 consumers were eligible for compensation ($225 domestic, $450 international per ticket). The failure sits precisely at the marketing/operations boundary — marketing continued to sell a service operations had already withdrawn, which is why the syllabus treats the two functions as interdependent.",
+      "howToUseItHtml": "Use for ethical behaviour and government regulation in marketing, and why goods/services are central to both marketing and operations.",
+      "relatedTags": [
+        "ethical-marketing",
+        "interdependence",
+        "accc"
+      ],
+      "source": "Case Studies - Marketing.docx (2.2)"
+    },
+    {
+      "id": "ev-biz-accc-supermarkets-inquiry",
+      "type": "case-study",
+      "name": "The ACCC supermarkets inquiry",
+      "citation": "Retail; final report released early 2025",
+      "whatIsItHtml": "The Federal Government directed the ACCC to inquire into supermarket pricing and competition. The final report found an oligopoly with limited incentive to compete vigorously on price, making 20 recommendations.",
+      "whatItDemonstratesHtml": "Woolworths holds about 38% and Coles about 29% of national grocery sales; both were found considerably more profitable than international peers like Walmart and Tesco. The pricing conduct the ACCC prosecuted (see Coles \"Down Down\") is only commercially rational in a market where two firms hold two-thirds of grocery sales.",
+      "howToUseItHtml": "Use for government as an influence on marketing, market structure and competition, and pricing strategies.",
+      "relatedTags": [
+        "market-structure",
+        "government-regulation"
+      ],
+      "source": "Case Studies - Marketing.docx (2.3)"
+    },
+    {
+      "id": "ev-biz-canva",
+      "type": "case-study",
+      "name": "Canva — a born-global service brand",
+      "citation": "Technology; 2024-2025 figures",
+      "whatIsItHtml": "Canva markets a design platform on a freemium model — the core product is free, revenue comes from converting a minority of users to paid tiers, and growth has been driven by product-led and word-of-mouth marketing rather than traditional advertising.",
+      "whatItDemonstratesHtml": "Around 220 million monthly active users (December 2024); annualised revenue passing US$3 billion in 2025; about 21 million paying subscribers — an 11% freemium conversion rate. That 11% figure is the whole strategy in one number: the free tier is the customer acquisition channel, not charity.",
+      "howToUseItHtml": "Use for evaluating marketing strategies for a service, analysing a marketing plan, and globalisation/global branding.",
+      "relatedTags": [
+        "global-marketing",
+        "e-marketing",
+        "segmentation"
+      ],
+      "source": "Case Studies - Marketing.docx (2.4)"
+    },
+    {
+      "id": "ev-biz-kmart-anko",
+      "type": "case-study",
+      "name": "Kmart and Anko — own brand as positioning",
+      "citation": "Retail (Wesfarmers); FY2025",
+      "whatIsItHtml": "Kmart replaced most branded stock with its own label, Anko, designed in-house and sourced directly — now being taken offshore through stores in new markets and wholesale supply deals with overseas retailers.",
+      "whatItDemonstratesHtml": "Kmart Group FY2025 revenue $11,429m (up 2.9%) with earnings $1,046m (up 9.2%) — earnings growing faster than sales. Anko shows own-brand doing two jobs at once: lowering cost of goods while also being the positioning statement, letting Kmart hold price leadership without discounting.",
+      "howToUseItHtml": "Use for evaluating marketing strategies for a good, branding and packaging, positioning/differentiation, and globalisation of an Australian brand.",
+      "relatedTags": [
+        "branding",
+        "positioning",
+        "global-marketing"
+      ],
+      "source": "Case Studies - Marketing.docx (2.5)"
+    },
+    {
+      "id": "ev-biz-bunnings-facial-recognition",
+      "type": "case-study",
+      "name": "Bunnings facial recognition — customer data and trust",
+      "citation": "Retail (Wesfarmers); used November 2018 - November 2021",
+      "whatIsItHtml": "Bunnings used facial recognition technology in stores, capturing the faces of every entering customer to match against a database of people involved in prior incidents. The Privacy Commissioner found this breached the Privacy Act in November 2024; a February 2026 Tribunal appeal upheld the transparency/notification breaches while accepting an exception for the collection itself.",
+      "whatItDemonstratesHtml": "Every customer entering a participating store was scanned across multiple stores for three years. Even where collection was ultimately excused, the transparency failure is the marketing lesson — a data practice customers would object to if told about it is a reputational risk regardless of its legality.",
+      "howToUseItHtml": "Use for ethical behaviour and government regulation, technology's influence on marketing, and consumer data/privacy.",
+      "relatedTags": [
+        "ethical-marketing",
+        "technology",
+        "privacy"
+      ],
+      "source": "Case Studies - Marketing.docx (2.6)"
+    }
   ]
 }

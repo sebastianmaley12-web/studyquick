@@ -1212,5 +1212,124 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-biz-qantas-outsourcing",
+      "type": "case-study",
+      "name": "Qantas — outsourcing, disputation and the cost of getting it wrong",
+      "citation": "Aviation; Federal Court penalty 18 August 2025",
+      "whatIsItHtml": "In 2020, Qantas outsourced its entire ground handling operation, terminating about 1,820 employees. The Federal Court found it was partly to prevent workers exercising workplace rights (protected industrial action and enterprise bargaining); the High Court upheld this in 2023.",
+      "whatItDemonstratesHtml": "$90 million penalty (the largest in Australian industrial relations history, $50m payable to the union) plus a separate $120 million compensation fund. Qantas achieved a short-term cost saving but incurred $210m in penalties and compensation, years of litigation and reputational damage — evidence that HR strategies ignoring legal compliance are ineffective over the long term.",
+      "howToUseItHtml": "Use for the effectiveness of HRM, legal/ethical responsibilities of the HR manager, outsourcing as an acquisition strategy, and the cost of adversarial employee relations.",
+      "relatedTags": [
+        "outsourcing",
+        "disputation",
+        "legal-compliance"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.1)"
+    },
+    {
+      "id": "ev-biz-woolworths-coles-hr-underpayment",
+      "type": "case-study",
+      "name": "Woolworths and Coles — systemic underpayment of salaried managers",
+      "citation": "Retail; Federal Court ruling 8 September 2025",
+      "whatIsItHtml": "Both retailers paid salaried store managers an annualised salary intended to absorb award entitlements. The Federal Court found these \"set-off\" arrangements unlawful — entitlements must be met each pay period, not offset across periods — and found record-keeping inadequate.",
+      "whatItDemonstratesHtml": "Close to 30,000 employees affected; Woolworths' total potential liability estimated around $1.3 billion pre-tax, Coles' around $300 million. A payroll system not benchmarked against award entitlements converted an administrative failure into a billion-dollar liability — HR effectiveness must be measured by compliance auditing, not just cost per employee.",
+      "howToUseItHtml": "Use for legal compliance, the role of the Fair Work Ombudsman, awards and the National Employment Standards, and the cost of ineffective HR systems.",
+      "relatedTags": [
+        "legal-compliance",
+        "benchmarking"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.2)"
+    },
+    {
+      "id": "ev-biz-woolworths-dc-strike",
+      "type": "case-study",
+      "name": "Woolworths distribution centres — the 2024 strike",
+      "citation": "Retail logistics; 21 November - 7 December 2024",
+      "whatIsItHtml": "Warehouse workers at four Woolworths distribution centres in Victoria and NSW took protected industrial action over the \"Framework\" — an electronic pick-rate system workers argued was unsafe and punitive — alongside pay. The dispute settled through negotiation.",
+      "whatItDemonstratesHtml": "17 days of industrial action involving roughly 1,500 workers; about $140 million in lost sales reported by Woolworths. A performance-monitoring system introduced without consultation converted a productivity strategy into a $140m loss — disputation is a lagging indicator of a consultation failure that happened much earlier.",
+      "howToUseItHtml": "Use for employee relations, the negotiation/mediation/grievance/arbitration sequence, the effects of technology on employees, and the cost of industrial action.",
+      "relatedTags": [
+        "disputation",
+        "negotiation",
+        "technology"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.3)"
+    },
+    {
+      "id": "ev-biz-rio-tinto-culture",
+      "type": "case-study",
+      "name": "Rio Tinto — measuring and changing corporate culture",
+      "citation": "Mining; Progress Review released November 2024",
+      "whatIsItHtml": "After a 2022 report exposed bullying, harassment and racism, Rio Tinto committed to 26 recommendations and commissioned an external Progress Review — unusually, publishing unflattering results about itself, drawing on over 11,600 contributions.",
+      "whatItDemonstratesHtml": "Reported bullying rose from 31% (2021) to 39% (2024, partly attributed to greater willingness to report); 50% of respondents perceived improvement in bullying. A rising reported-bullying figure alongside rising perceived improvement shows why a single metric cannot determine effectiveness on its own.",
+      "howToUseItHtml": "Use for corporate culture as an indicator, the difficulty of measuring HR effectiveness, and the difference between a lead and a lag indicator.",
+      "relatedTags": [
+        "corporate-culture",
+        "benchmarking"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.4)"
+    },
+    {
+      "id": "ev-biz-atlassian-flexible-work",
+      "type": "case-study",
+      "name": "Atlassian — flexible work as a retention strategy",
+      "citation": "Technology; \"Team Anywhere\" policy since 2020",
+      "whatIsItHtml": "Atlassian introduced \"Team Anywhere\" in 2020 — employees may work from any location in a country where the business has a legal entity, with no in-office mandate — and has publicly maintained the policy while many large firms reversed to return-to-office.",
+      "whatItDemonstratesHtml": "92% of employees say the policy enables their best work; 91% cite it as an important reason for staying — a direct link to staff turnover. Atlassian is the counter-example to any argument that flexibility is a cost — a non-financial reward outperforming a financial one on the turnover indicator.",
+      "howToUseItHtml": "Use for flexible working conditions, work/life balance, motivation theory in practice, and retention as a measure of HR effectiveness.",
+      "relatedTags": [
+        "flexible-work",
+        "retention",
+        "motivation"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.5)"
+    },
+    {
+      "id": "ev-biz-telstra-restructuring",
+      "type": "case-study",
+      "name": "Telstra — restructuring and the separation process",
+      "citation": "Telecommunications; announced 21 May 2024",
+      "whatIsItHtml": "Telstra announced it would cut up to 2,800 roles (about 9% of its workforce) as part of a cost-reduction reset, drawing public and union criticism for cutting jobs while remaining profitable.",
+      "whatItDemonstratesHtml": "Targeted savings of approximately $350 million. Useful as a contrast to Qantas: Telstra's redundancies were lawful and consultative in process, so the debate shifts from legal compliance to ethical responsibility and the morale of remaining staff (\"survivor syndrome\").",
+      "howToUseItHtml": "Use for voluntary vs. involuntary separation, redundancy and entitlements, and the ethical (not just legal) responsibilities of restructuring.",
+      "relatedTags": [
+        "separation",
+        "restructuring",
+        "ethics"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.6)"
+    },
+    {
+      "id": "ev-biz-wesfarmers-safety-benchmarking",
+      "type": "case-study",
+      "name": "Wesfarmers — benchmarking workplace safety",
+      "citation": "Conglomerate; TRIFR data FY2023-FY2025",
+      "whatIsItHtml": "Wesfarmers reports Total Recordable Injury Frequency Rate (TRIFR) at group and divisional level in its annual results, giving a clear example of an Australian business benchmarking the \"accidents\" indicator over time and between divisions.",
+      "whatItDemonstratesHtml": "Bunnings FY2024 TRIFR was 17.0 (the group's weakest result); after being singled out, it improved sharply to 13.7 in FY2025. Publishing a disaggregated safety metric is itself an HR strategy — what gets measured and compared gets fixed.",
+      "howToUseItHtml": "Use for accidents as an effectiveness indicator, benchmarking, WHS responsibilities, and the argument that HR effectiveness must be measured against a comparison point.",
+      "relatedTags": [
+        "accidents",
+        "benchmarking",
+        "safety"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.7)"
+    },
+    {
+      "id": "ev-biz-right-to-disconnect",
+      "type": "legislation",
+      "name": "Right to disconnect",
+      "citation": "Fair Work Act 2009 (Cth) amendment — from 26 August 2024 (large employers), 26 August 2025 (small business)",
+      "whatIsItHtml": "Employees gained a right to refuse unreasonable contact outside working hours, phased in for employers with 15+ employees first, then small business employers a year later.",
+      "whatItDemonstratesHtml": "Reflects a changing legal environment around work/life balance and worker wellbeing that HR managers must now factor into policy and monitoring.",
+      "howToUseItHtml": "Use in one sentence to lift a legal-compliance argument on work/life balance or worker satisfaction, showing awareness of a genuinely current legal change.",
+      "relatedTags": [
+        "legislation",
+        "work-life-balance"
+      ],
+      "source": "Case Studies - Human Resources.docx (3.8)"
+    }
   ]
 }

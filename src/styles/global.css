@@ -7257,6 +7257,9 @@ footer {
 .evidence-card[data-type='interpretation'] {
   border-left-color: var(--ink-faint);
 }
+.evidence-card[data-type='case-study'] {
+  border-left-color: var(--navy);
+}
 
 .evidence-card-head {
   display: flex;

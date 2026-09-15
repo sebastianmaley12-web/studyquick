@@ -29,6 +29,26 @@ interface BusinessPracticeGroup {
   questions: BusinessQuestion[]
 }
 
+export type BusinessEvidenceType = 'case-study' | 'statistic' | 'legislation' | 'example'
+
+/** Same evidence-bank pattern as Legal/Modern History, adapted for
+ * Business: real, dated Australian company case studies rather than
+ * cases/historians. Sourced from case-study documents the user had
+ * already compiled for their own study (see each topic's `evidence`
+ * entries' `source` field) — never invented, and every figure is dated
+ * because business/regulatory figures move. */
+export interface BusinessEvidenceItem {
+  id: string
+  type: BusinessEvidenceType
+  name: string
+  citation: string | null
+  whatIsItHtml: string
+  whatItDemonstratesHtml: string
+  howToUseItHtml: string
+  relatedTags: string[]
+  source: string
+}
+
 export interface BusinessTopicData {
   id: string
   meta: {
@@ -40,6 +60,7 @@ export interface BusinessTopicData {
     note: string
     groups: { title: string; points: string[] }[]
   }
+  evidence: BusinessEvidenceItem[]
   practice: {
     notes: { bank: string | null; variant: string | null; html: string }[]
     sources: { bank: string | null; tag: string; bodyHtml: string }[]
@@ -94,6 +115,7 @@ export const businessTopics = BUSINESS_TOPIC_IDS.map((id) => {
     triviaCount: data.trivia.length,
     quizCount: data.quiz.length,
     summaryPointCount: countSummaryPoints(data),
+    evidenceCount: data.evidence.length,
   }
 })
 
@@ -103,15 +125,17 @@ export const businessTotals = businessTopics.reduce(
     trivia: totals.trivia + t.triviaCount,
     quiz: totals.quiz + t.quizCount,
     summaryPoints: totals.summaryPoints + t.summaryPointCount,
+    evidence: totals.evidence + t.evidenceCount,
   }),
-  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0 },
+  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0, evidence: 0 },
 )
 
-export const BUSINESS_RESOURCES = ['summary', 'practice', 'trivia', 'quiz'] as const
+export const BUSINESS_RESOURCES = ['summary', 'evidence', 'practice', 'trivia', 'quiz'] as const
 export type BusinessResource = (typeof BUSINESS_RESOURCES)[number]
 
 export const BUSINESS_RESOURCE_LABELS: Record<BusinessResource, string> = {
   summary: 'Syllabus Summary',
+  evidence: 'Case Study Bank',
   practice: 'Practice Questions',
   trivia: 'Quick Trivia',
   quiz: 'Multiple Choice Quiz',
