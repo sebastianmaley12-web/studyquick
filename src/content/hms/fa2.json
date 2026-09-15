@@ -1079,5 +1079,50 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hms-periodisation-rugby-league",
+      "type": "example",
+      "name": "Periodisation applied to rugby league (an intermittent, collision sport)",
+      "citation": null,
+      "whatIsItHtml": "Pre-season introduces anaerobic interval training, HIIT and maximal-strength work progressing into power/Olympic-derived lifts, targeting glycolytic enzyme activity, lactate buffering and rate of force development. In-season, volume falls to its lowest while intensity is maintained, with skill-specific tactical work dominating session time since \"the difference between teams is tactical execution rather than fitness\".",
+      "whatItDemonstratesHtml": "Because reversibility means adaptations are lost if the stimulus is withdrawn, coaches retain minimal maintenance sessions in-season rather than dropping conditioning entirely — showing periodisation as a genuine trade-off (fitness maintenance vs. total match load) rather than a simple training/rest binary.",
+      "howToUseItHtml": "Use as a worked, sport-specific example for questions on periodisation, training phase design, or the principle of reversibility.",
+      "relatedTags": [
+        "periodisation",
+        "reversibility",
+        "team-sport"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 2 (with Marking Guidelines), sample answer on a periodisation chart"
+    },
+    {
+      "id": "ev-hms-tapering",
+      "type": "example",
+      "name": "Tapering before competition",
+      "citation": null,
+      "whatIsItHtml": "The sharp fall in training volume with maintained intensity before a competitive peak is a taper. This dissipates accumulated fatigue and restores glycogen and neuromuscular freshness without withdrawing the training stimulus long enough to lose adaptation — which is why performance actually improves during a taper despite the reduced work.",
+      "whatItDemonstratesHtml": "Explains the specific physiological mechanism (fatigue dissipation + glycogen/neuromuscular restoration, without losing the training stimulus) behind why reduced training volume improves rather than harms performance immediately before competition.",
+      "howToUseItHtml": "Use for questions on tapering, peaking, or the relationship between training load and competition readiness.",
+      "relatedTags": [
+        "tapering",
+        "peaking"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 2 (with Marking Guidelines)"
+    },
+    {
+      "id": "ev-hms-training-thresholds",
+      "type": "statistic",
+      "name": "Aerobic and anaerobic training thresholds",
+      "citation": null,
+      "whatIsItHtml": "The aerobic threshold sits at roughly 70% of maximum heart rate and the anaerobic threshold at roughly 85%; the aerobic training zone lies between these two thresholds.",
+      "whatItDemonstratesHtml": "Gives a concrete, quantified definition of training zones useful for describing how a specific session (e.g. continuous runs at 70-75% MHR) is deliberately designed to target aerobic rather than anaerobic adaptation.",
+      "howToUseItHtml": "Use for questions on designing or analysing a training session's intensity, or explaining the aerobic/anaerobic training zone distinction with actual numbers rather than vague description.",
+      "relatedTags": [
+        "training-zones",
+        "intensity"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 2 (with Marking Guidelines)"
+    }
   ]
 }

@@ -1069,5 +1069,51 @@
         }
       ]
     }
+  ],
+  "evidence": [
+    {
+      "id": "ev-hms-oecd-comparison",
+      "type": "statistic",
+      "name": "Australia's health status compared to OECD countries",
+      "citation": "Comparative data used in HSC-style stimulus questions (indicative — verify current AIHW/OECD figures before quoting in an exam)",
+      "whatIsItHtml": "Australia's life expectancy at birth (83.2 years) sits above the OECD average (80.6) and the UK (80.7) and US (76.4), though below Japan (84.5). Infant mortality (3.2 per 1000 live births) is better than the OECD average (4.1). Health expenditure is 10.5% of GDP, close to the OECD average (9.7%) and far below the US (17.4%).",
+      "whatItDemonstratesHtml": "Australia achieves strong traditional health outcomes at relatively efficient expenditure — but ranks poorly on modifiable risk factors (31% adult obesity vs. the OECD average of 24% and Japan's 4.5%), suggesting a growing future burden of preventable chronic disease despite currently strong headline outcomes.",
+      "howToUseItHtml": "Use for questions comparing Australia's health status internationally, or evaluating the efficiency and future sustainability of the health system. Always verify the exact current figures (AIHW, OECD Health at a Glance) before quoting precise numbers in a real exam.",
+      "relatedTags": [
+        "health-status",
+        "international-comparison"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 1 (with Marking Guidelines), sample answer to a stimulus-based question — the paper's own marking notes flag these as \"indicative\" figures to check against current data"
+    },
+    {
+      "id": "ev-hms-big-data-healthcare",
+      "type": "example",
+      "name": "Big data and precision medicine in the Australian healthcare system",
+      "citation": null,
+      "whatIsItHtml": "Big data supports earlier diagnosis (e.g. flagging patients with elevated blood pressure and family history for preventative cardiovascular assessment) and precision medicine (matching a cancer patient to a targeted therapy based on tumour genetics rather than population-average treatment).",
+      "whatItDemonstratesHtml": "Effectiveness depends on data quality: records are fragmented across public hospitals, private specialists and GP software that don't always interoperate. Algorithmic bias is a real limitation — a model trained predominantly on data from urban, non-Indigenous populations may perform poorly for Aboriginal and Torres Strait Islander patients or remote communities, potentially widening rather than narrowing health inequity.",
+      "howToUseItHtml": "Use for questions on technology and data impacting Australia's healthcare system, particularly for a balanced answer that covers both benefits and equity-related challenges, not just efficiency gains.",
+      "relatedTags": [
+        "digital-health",
+        "health-equity",
+        "technology"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 1 (with Marking Guidelines), sample answer on big data in healthcare"
+    },
+    {
+      "id": "ev-hms-sdg4-sdg3",
+      "type": "example",
+      "name": "How SDG 4 (Quality Education) improves SDG 3 (Good Health and Wellbeing)",
+      "citation": null,
+      "whatIsItHtml": "Education raises health literacy (understanding medication instructions, recognising warning symptoms, navigating the healthcare system) and improves health indirectly through employment and income (secure work improves housing, food security and ability to afford care). It also builds the health workforce directly — training local Aboriginal Health Workers in a remote community both raises education levels and makes the local clinic culturally safe, increasing presentation rates.",
+      "whatItDemonstratesHtml": "Shows a concrete, three-part causal mechanism (health literacy, income/employment, workforce building) linking two Sustainable Development Goals, rather than asserting a vague connection between \"education\" and \"health\".",
+      "howToUseItHtml": "Use for questions on the relationship between SDGs, or on sociocultural determinants of health specifically.",
+      "relatedTags": [
+        "sdgs",
+        "health-literacy",
+        "determinants-of-health"
+      ],
+      "source": "HMS Year 12 - Practice HSC Paper 1 (with Marking Guidelines), sample answer on SDG 4 and SDG 3"
+    }
   ]
 }

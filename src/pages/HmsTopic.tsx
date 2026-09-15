@@ -4,6 +4,7 @@ import { HmsRail } from '../components/rail/HmsRail'
 import { QuizPanel } from '../components/quiz/QuizPanel'
 import { TriviaGrid } from '../components/trivia/TriviaGrid'
 import { PracticeSection } from '../components/practice/PracticeSection'
+import { HmsEvidenceBank } from '../components/hms/HmsEvidenceBank'
 import { SearchBar } from '../components/SearchBar'
 import { useHmsTopicSearch } from '../hooks/useHmsTopicSearch'
 import { SearchQueryProvider, highlightHtml } from '../context/SearchQueryContext'
@@ -112,6 +113,9 @@ export function HmsTopic() {
                     </div>
                   ))}
                 </>
+              )}
+              {resource === 'evidence' && (
+                <HmsEvidenceBank topicId={topicId} items={data.evidence} />
               )}
               {resource === 'quiz' && (
                 <QuizPanel subject="hms" topicId={topicId} questions={data.quiz} />

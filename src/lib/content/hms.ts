@@ -27,6 +27,28 @@ interface HmsPracticeGroup {
   questions: HmsQuestion[]
 }
 
+export type HmsEvidenceType = 'statistic' | 'example' | 'legislation'
+
+/** Same evidence-bank pattern as Legal/Modern History/Business, adapted
+ * for HMS: real health/training data and applied examples rather than
+ * cases or historians. Deliberately smaller than the other subjects' —
+ * sourced from two real HSC practice papers with marking guidelines,
+ * which is a thinner seam of citable, HMS-specific evidence than the
+ * dedicated case-study/evidence-table documents available for the other
+ * subjects. Padding it out to match their counts would mean inventing
+ * content; expand it only from a real source. */
+export interface HmsEvidenceItem {
+  id: string
+  type: HmsEvidenceType
+  name: string
+  citation: string | null
+  whatIsItHtml: string
+  whatItDemonstratesHtml: string
+  howToUseItHtml: string
+  relatedTags: string[]
+  source: string
+}
+
 export interface HmsTopicData {
   id: string
   meta: {
@@ -38,6 +60,7 @@ export interface HmsTopicData {
     note: string
     groups: { title: string; points: string[] }[]
   }
+  evidence: HmsEvidenceItem[]
   practice: {
     notes: { bank: string | null; variant: string | null; html: string }[]
     sources: { bank: string | null; tag: string; bodyHtml: string }[]
@@ -90,6 +113,7 @@ export const hmsTopics = HMS_TOPIC_IDS.map((id) => {
     triviaCount: data.trivia.length,
     quizCount: data.quiz.length,
     summaryPointCount: countSummaryPoints(data),
+    evidenceCount: data.evidence.length,
   }
 })
 
@@ -99,15 +123,17 @@ export const hmsTotals = hmsTopics.reduce(
     trivia: totals.trivia + t.triviaCount,
     quiz: totals.quiz + t.quizCount,
     summaryPoints: totals.summaryPoints + t.summaryPointCount,
+    evidence: totals.evidence + t.evidenceCount,
   }),
-  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0 },
+  { practice: 0, trivia: 0, quiz: 0, summaryPoints: 0, evidence: 0 },
 )
 
-export const HMS_RESOURCES = ['summary', 'practice', 'trivia', 'quiz'] as const
+export const HMS_RESOURCES = ['summary', 'evidence', 'practice', 'trivia', 'quiz'] as const
 export type HmsResource = (typeof HMS_RESOURCES)[number]
 
 export const HMS_RESOURCE_LABELS: Record<HmsResource, string> = {
   summary: 'Syllabus Summary',
+  evidence: 'Evidence & Data',
   practice: 'Practice Questions',
   trivia: 'Quick Trivia',
   quiz: 'Multiple Choice Quiz',
