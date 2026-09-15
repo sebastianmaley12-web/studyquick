@@ -17,7 +17,12 @@ export function EnglishModuleCRail({ currentResource }: { currentResource: Modul
       <div className="side-section active">
         <div className="side-sub">
           {ENGLISH_MODULES.map((m) => (
-            <button key={m.id} className="side-sub-btn" type="button" onClick={() => navigate('/subjects/english-advanced')}>
+            <button
+              key={m.id}
+              className="side-sub-btn"
+              type="button"
+              onClick={() => navigate(`/subjects/english-advanced/${m.id}/${m.textIds[0]}/overview`)}
+            >
               {m.name.replace(/^Module [ABC]: /, '').replace(/^Common Module: /, '')}
             </button>
           ))}

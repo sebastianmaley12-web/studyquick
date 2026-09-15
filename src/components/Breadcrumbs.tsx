@@ -36,7 +36,7 @@ function crumbsForPath(pathname: string): Crumb[] {
     return [
       { label: 'Dashboard', to: '/dashboard' },
       { label: 'Modern History', to: '/subjects/modern-history' },
-      { label: topic?.short ?? topicId, to: `/subjects/modern-history/${topicId}` },
+      { label: topic?.short ?? topicId, to: `/subjects/modern-history/${topicId}/summary` },
       { label: MODERN_HISTORY_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
@@ -53,7 +53,7 @@ function crumbsForPath(pathname: string): Crumb[] {
       { label: 'Mathematics Standard 2', to: '/subjects/maths' },
       {
         label: topic ? `${topic.code} ${topic.name}` : slug,
-        to: `/subjects/maths/${slug}`,
+        to: `/subjects/maths/${slug}/facts`,
       },
       { label: MATHS_RESOURCE_LABELS[resource ?? 'facts'] },
     ]
@@ -69,7 +69,7 @@ function crumbsForPath(pathname: string): Crumb[] {
     return [
       { label: 'Dashboard', to: '/dashboard' },
       { label: 'Health & Movement Science', to: '/subjects/hms' },
-      { label: topic?.short ?? topicId, to: `/subjects/hms/${topicId}` },
+      { label: topic?.short ?? topicId, to: `/subjects/hms/${topicId}/summary` },
       { label: HMS_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
@@ -84,7 +84,7 @@ function crumbsForPath(pathname: string): Crumb[] {
     return [
       { label: 'Dashboard', to: '/dashboard' },
       { label: 'Business Studies', to: '/subjects/business' },
-      { label: topic?.short ?? topicId, to: `/subjects/business/${topicId}` },
+      { label: topic?.short ?? topicId, to: `/subjects/business/${topicId}/summary` },
       { label: BUSINESS_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }
@@ -99,7 +99,7 @@ function crumbsForPath(pathname: string): Crumb[] {
     return [
       { label: 'Dashboard', to: '/dashboard' },
       { label: 'Legal Studies', to: '/subjects/legal' },
-      { label: topic?.short ?? topicId, to: `/subjects/legal/${topicId}` },
+      { label: topic?.short ?? topicId, to: `/subjects/legal/${topicId}/summary` },
       { label: LEGAL_RESOURCE_LABELS[resource ?? 'summary'] },
     ]
   }

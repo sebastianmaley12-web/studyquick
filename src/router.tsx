@@ -50,6 +50,7 @@ const EnglishModuleC = lazy(() =>
 const Paper1Techniques = lazy(() =>
   import('./pages/Paper1Techniques').then((m) => ({ default: m.Paper1Techniques })),
 )
+const NotFound = lazy(() => import('./pages/NotFound').then((m) => ({ default: m.NotFound })))
 
 export const router = createBrowserRouter([
   {
@@ -193,6 +194,7 @@ export const router = createBrowserRouter([
           </SubjectGuard>
         ),
       },
+      { path: '*', element: <NotFound /> },
     ],
   },
 ])

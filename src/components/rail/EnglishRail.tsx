@@ -49,7 +49,7 @@ export function EnglishRail({
               type="button"
               onClick={() => {
                 if (m.id === module.id) return
-                navigate(`/subjects/english-advanced`)
+                navigate(`/subjects/english-advanced/${m.id}/${m.textIds[0]}/overview`)
               }}
             >
               {m.name.replace(/^Module [ABC]: /, '').replace(/^Common Module: /, '')}
