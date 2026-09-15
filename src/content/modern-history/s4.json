@@ -7,12 +7,12 @@
       {
         "kind": "in",
         "label": "Examinable",
-        "bodyHtml": "The ideology and legislative machinery of the apartheid state, Sharpeville and its aftermath, the Black Consciousness Movement, the Soweto Uprising, and internal resistance movements (trade unions, UDF, student and civic organisations, women's resistance)."
+        "bodyHtml": "All seven syllabus focus questions: differing visions of democracy; the nature and impact of apartheid (ideology, legislative machinery, Sharpeville and its aftermath, the Black Consciousness Movement, the Soweto Uprising); the role and impact of state terror and repression (security forces, Bantustans, relations with neighbouring African states); resistance to apartheid (internal movements — trade unions, UDF, student and civic organisations, women's resistance); changes in society; the reasons for the collapse of apartheid; and international responses to apartheid."
       },
       {
         "kind": "out",
-        "label": "Excluded",
-        "bodyHtml": "<ul><li>Mandela as Head of the ANC</li><li>Tactics of repression / SA security forces</li><li>Bantustans &amp; independent black states</li><li>Relations with neighbouring African countries</li><li>International responses to apartheid</li><li>The end of apartheid &amp; transition to democracy</li></ul>"
+        "label": "Format reminder",
+        "bodyHtml": "Short answer & extended response, 25 marks, ~45 min. Expect one or two written or visual sources to open the section."
       }
     ]
   },
