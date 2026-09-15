@@ -9,6 +9,7 @@ import { modernHistoryTopics } from '../lib/content/modernHistory'
 import { mathsYear11Topics, mathsYear12Topics } from '../lib/content/maths'
 import { hmsTopics } from '../lib/content/hms'
 import { businessTopics } from '../lib/content/business'
+import { legalTopics } from '../lib/content/legal'
 import { callBillingApi } from '../lib/billingApi'
 import { ENGLISH_TEXTS } from '../lib/content/englishRegistry'
 import { PAPER_ONE_TECHNIQUES } from '../content/english/paper1-technique-bank'
@@ -53,6 +54,14 @@ function subjectOverall(id: string, progress: ReturnType<typeof useProgress>) {
       )
     case 'business':
       return businessTopics.reduce(
+        (acc, t) => {
+          const s = historyTopicStats(progress, t)
+          return { done: acc.done + s.score, total: acc.total + s.max }
+        },
+        { done: 0, total: 0 },
+      )
+    case 'legal':
+      return legalTopics.reduce(
         (acc, t) => {
           const s = historyTopicStats(progress, t)
           return { done: acc.done + s.score, total: acc.total + s.max }

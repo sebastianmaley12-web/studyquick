@@ -8,6 +8,8 @@ const SUBJECT_GLYPHS: Record<string, string> = {
   'modern-history': '🏛',
   hms: '⚕',
   business: '💼',
+  legal: '⚖',
+  'english-advanced': '✎',
 }
 
 const SUBJECT_BLURBS: Record<string, string> = {
@@ -15,6 +17,9 @@ const SUBJECT_BLURBS: Record<string, string> = {
   'modern-history': 'Syllabus summaries, sourced practice questions with answer plans, and exam-style quizzes.',
   hms: 'Both HSC focus areas covered in full, with real exam-style questions and model answers.',
   business: 'All four HSC topics — Operations, Marketing, Finance, HR — with case-study practice.',
+  legal: 'The mandatory core plus two Options, with real cases, legislation and treaties in every answer.',
+  'english-advanced':
+    'Common Module through Module C — quote banks, chapter breakdowns, essay practice and Paper 1 technique drills.',
 }
 
 const PILLARS = [
